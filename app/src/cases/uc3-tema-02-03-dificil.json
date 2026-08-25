@@ -1,0 +1,189 @@
+{
+  "id": "uc3-tema-02-03-dificil",
+  "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
+  "materia_relacionada": "Este caso explora um quadro abdominal grave e de diagnóstico difícil por imagem — conteúdo da aula sobre ferramentas do diagnóstico radiológico.",
+  "area": "Cirurgia geral",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 67,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, me ajuda! Veio uma dor insuportável no meio da barriga de repente, há três horas, parece que vai estourar!”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "158/92",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "114",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.9",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "24",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "96",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente idoso com dor abdominal atroz e exame físico inocente é a armadilha clássica do plantão. Pense bem em qual método de imagem vai te dar a resposta sem perder tempo vital.",
+    "piBaixo": "Cuidado com o gasto de PI! Pedir exames sem entender as limitações técnicas de cada método radiológico vai te deixar no escuro.",
+    "fechamento": "Viu como o Raio-X e a Ultrassonografia te deixariam na mão? O gás intestinal bloqueia o ultrassom e a radiografia é inespecífica. A Angio-TC vascular era o caminho direto para o diagnóstico correto.",
+    "dicas": [
+      "Dor desproporcional ao exame físico é um sinal de alarme clássico — pensa em isquemia de algum território.",
+      "Idade avançada + fibrilação atrial (se presente) aumentam o risco de um evento embólico visceral.",
+      "O tempo até o diagnóstico aqui é diretamente proporcional à quantidade de intestino que se perde."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor é contínua e teve início súbito?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, começou subitamente há 3 horas após o almoço, de intensidade 10/10, sem alívio com posições."
+    },
+    {
+      "texto": "Possui histórico de arritmias ou cardiopatias?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, tem Fibrilação Atrial, mas suspendeu o anticoagulante oral por conta própria há 3 semanas."
+    },
+    {
+      "texto": "Apresentou evacuação com sangue?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Teve um episódio de fezes amolecidas com laivos de sangue escuro (aspecto de geleia de amora) há 1 hora."
+    },
+    {
+      "texto": "Refere dor com irradiação para região inguinal ou bolsa escrotal?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor fica restrita à região mesogástrica e periumbilical."
+    },
+    {
+      "texto": "Já passou por cirurgias abdominais prévias?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nega qualquer procedimento cirúrgico prévio no abdome."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação abdominal e avaliação de peritonismo",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Abdome levemente distendido, flácido, sem descompressão dolorosa (Blumberg negativo). A dor referida pelo paciente é nitidamente desproporcional ao achado palpatório."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Ritmo cardíaco completamente irregular em 2 tempos, sem sopros, compatível com Fibrilação Atrial."
+    },
+    {
+      "texto": "Ausculta de ruídos hidroaéreos (RHA)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Ruídos hidroaéreos acentuadamente diminuídos a ausculta de 2 minutos."
+    },
+    {
+      "texto": "Pesquisa do Sinal de Murphy",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, sem dor focal à palpação do hipocôndrio direito durante inspiração profunda."
+    },
+    {
+      "texto": "Exame das regiões inguinais",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem evidência de hérnias inguinais ou crurais encarceradas."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Isquemia mesentérica aguda",
+      "correta": true
+    },
+    {
+      "texto": "Pancreatite aguda biliar",
+      "correta": false
+    },
+    {
+      "texto": "Perfuração de úlcera péptica",
+      "correta": false
+    },
+    {
+      "texto": "Cólica nefrética à esquerda",
+      "correta": false
+    },
+    {
+      "texto": "Obstrução intestinal por brida",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Angiotomografia (Angio-TC) de abdome com contraste arterial",
+      "custo": 14,
+      "relevante": true,
+      "resposta": "Defeito de enchimento (trombo/êmbolo) na origem da Artéria Mesentérica Superior (AMS), com afilamento vascular distal, espessamento de parede de alças delgadas e discreta pneumatose intestinal."
+    },
+    {
+      "texto": "Gasometria arterial e Lactato sérico",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Acidose metabólica (pH 7.28, HCO3 15 mEq/L) com Lactato sérico elevado em 4.9 mmol/L."
+    },
+    {
+      "texto": "Ultrassonografia (USG) de abdome total",
+      "custo": 14,
+      "relevante": false,
+      "resposta": "Exame extremamente limitado devido ao excesso de gás nas alças de delgado. Não permitiu visualização dos vasos mesentéricos nem do pâncreas."
+    },
+    {
+      "texto": "Radiografia simples de abdome (rotina de abdome agudo)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Distensão discreta de alças de delgado com níveis hidroaéreos inespecíficos; sem ar livre subdiafragmático (sem pneumoperitônio)."
+    },
+    {
+      "texto": "Amilase e Lipase séricas",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Amilase e lipase discretamente elevadas (menos de 2x o limite da normalidade), secundárias à isquemia de alças."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Ressuscitação volêmica, anticoagulação plena e consulta urgente com cirurgia vascular / radiologia intervencionista para embolectomia/revascularização",
+      "correta": true
+    },
+    {
+      "texto": "Analgesia maciça com opióide e conduta conservadora com jejum e reavaliação em 24 horas",
+      "correta": false
+    },
+    {
+      "texto": "Laparoendoscopia diagnóstica eletiva após normalização da gasometria",
+      "correta": false
+    }
+  ],
+  "explicacao": "A Isquemia Mesentérica Aguda embólica (comum em pacientes com Fibrilação Atrial descompensada) caracteriza-se por um desacoplamento clássico: dor abdominal excruciante e de início súbito com exame físico abdominal inicialmente brando (sem peritonismo). Quanto às ferramentas de imagem, a ultrassonografia é inadequada pois o gás intestinal (íleo paralítico) impede a propagação das ondas sonoras. A radiografia convencional é inespecífica no início. O método não invasivo de escolha é a Angio-TC de abdome em fase arterial, que demonstra o trombo oclytivo na artéria mesentérica superior. O tempo é crucial para evitar necrose transmural e peritonite, indicando-se revascularização urgente via cirurgia vascular ou via Radiologia Intervencionista (angiografia e angioplastia/trombectomia)."
+}

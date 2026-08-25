@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-02-04-facil",
+  "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
+  "materia_relacionada": "Este caso trabalha a leitura de um raio-X de tórax simples num quadro de dispneia súbita — conteúdo da aula sobre ferramentas do diagnóstico radiológico.",
+  "area": "Pneumologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 20,
+    "sexo": "M"
+  },
+  "queixa_principal": "\"Doutor, senti uma pontada forte no peito direito do nada enquanto estudava, e agora tô com falta de ar ao respirar fundo.\"",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "118/76",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "104",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.5",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "22",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "94",
+      "u": "%",
+      "flag": true
+    }
+  ],
+  "burns": {
+    "abertura": "Jovem de 20 anos com dor torácica súbita e falta de ar. Antes de sair pedindo angiotomografia e exames caros, que tal fazer o básico da propedêutica e escolher a ferramenta de imagem certa?",
+    "piBaixo": "Sua cota de investigação tá acabando. Lembre-se da aula da Dra. Claudia Leite: o exame certo é o de menor custo que responde sua hipótese clínica.",
+    "fechamento": "Perfeito! A radiografia simples de tórax confirmou o pneumotórax espontâneo. Rápido, barato e sem radiação excessiva. Essa é a essência do raciocínio radiológico.",
+    "dicas": [
+      "Releia a queixa principal — o que exatamente ele estava fazendo quando a dor começou, e como ele descreve a falta de ar?",
+      "Pensa em como o ar pode acabar livre dentro do tórax sem nenhum trauma penetrante.",
+      "Que estrutura, ao romper espontaneamente, colaba o pulmão e explicaria a ausculta assimétrica?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor no peito começou de forma súbita?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, começou de repente há cerca de 2 horas enquanto ele estava sentado estudando."
+    },
+    {
+      "texto": "Teve febre, tosse ou secreção nos últimos dias?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não, nega febre, tosse ou qualquer quadro gripal recente."
+    },
+    {
+      "texto": "Tem hábito de fumar ou usar dispositivo eletrônico para fumar (vape)?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, fuma cigarro socialmente e usa vape frequentemente nos finais de semana."
+    },
+    {
+      "texto": "Refere dor abdominal ou azia associada?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, sem qualquer queixa no aparelho digestórico."
+    },
+    {
+      "texto": "Tem história familiar de infarto precoce?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, ninguém na família teve problema cardíaco em idade jovem."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Ausculta pulmonar comparativa",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Murmúrio vesicular acentuadamente reduzido no hemitórax direito; preservado no hemitórax esquerdo."
+    },
+    {
+      "texto": "Percussão do tórax",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Hipertimpanismo à percussão no hemitórax direito."
+    },
+    {
+      "texto": "Pesquisa de frêmito tactorretilíneo (FTV)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Frêmito tactorretilíneo abolido no hemitórax direito."
+    },
+    {
+      "texto": "Palpação do abdome",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Abdome plano, flácido, indolor à palpação, sem visceromegalias."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas rítmicas e normofonéticas em 2 tempos, sem sopros ou estritos."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Pneumotórax espontâneo primário",
+      "correta": true
+    },
+    {
+      "texto": "Tromboembolismo pulmonar (TEP)",
+      "correta": false
+    },
+    {
+      "texto": "Pneumonia lobar aguda com derrame pleural",
+      "correta": false
+    },
+    {
+      "texto": "Infarto agudo do miocárdio de parede inferior",
+      "correta": false
+    },
+    {
+      "texto": "Pericardite aguda",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Radiografia simples de tórax (PA e perfil)",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Lâmina de ar no espaço pleural direito com hipertransparência periférica, ausência de trama vascular e colapso parcial do pulmão direito."
+    },
+    {
+      "texto": "Tomografia computadorizada de tórax",
+      "custo": 16,
+      "relevante": false,
+      "resposta": "Confirma a presença de pneumotórax à direita, porém trata-se de exame desnecessário de alto custo e alta radiação para a suspeita inicial de pneumotórax não complicado."
+    },
+    {
+      "texto": "Eletrocardiograma (ECG)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Taquicardia sinusal, sem alterações no segmento ST ou sinais de isquemia."
+    },
+    {
+      "texto": "D-dímero sérico",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Levemente aumentado por estresse agudo, sem valor confirmatório."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Drenagem torácica em selo d'água (ou aspiração simples) à direita e oxigenioterapia",
+      "correta": true
+    },
+    {
+      "texto": "Angiotomografia de artérias pulmonares imediata e anticoagulação com heparina",
+      "correta": false
+    },
+    {
+      "texto": "Prescrição de amoxicilina com clavulanato e analgésico oral com alta hospitalar",
+      "correta": false
+    }
+  ],
+  "explicacao": "O pneumotórax espontâneo primário ocorre tipicamente em adultos jovens, altos e magros, devido à rotura de pequenas bolhas subpleurais (blebs). A tríade clássica do exame físico (hipertimpanismo, murmúrio vesicular abolido e FTV abolido) sugere fortemente a presença de ar na cavidade pleural. Como enfatizado nos conceitos de Radiologia, o médico deve priorizar o método diagnóstico mais simples, seguro e de menor custo que seja resolutivo: a Radiografia Simples de Tórax (RX de tórax PA e perfil) confirma a lâmina de ar pleural e o colapso pulmonar com alta acurácia, evitando exames de maior custo e alta dose de radiação ionizante como a Tomografia Computadorizada no primeiro atendimento."
+}

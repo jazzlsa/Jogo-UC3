@@ -1,0 +1,189 @@
+{
+  "id": "uc3-pneumonia-dpoc-001",
+  "tema": "Tema 06 · Correlação radiologia-patologia em doenças pulmonares",
+  "materia_relacionada": "Este caso aplica os sinais radiológicos clássicos (sinal da silhueta, hiperinsuflação) e a fisiopatologia do comprometimento do clearance mucociliar em fumantes crônicos — conteúdo da aula sobre correlação entre radiologia e patologia em doenças pulmonares.",
+  "area": "Pneumologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 64,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, eu já tenho essa canseira de sempre por causa do cigarro, mas há 3 dias comecei com uma febre chata, catarro amarelado grosso e uma falta de ar que nem consigo andar até o banheiro.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "130/82",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "104",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "38.3",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "24",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "88",
+      "u": "%",
+      "flag": true
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente idoso, DPOCista longo da vida. Chegou com catarro escuro, febre e piora acentuada da falta de ar. Antes de sair pedindo tomografia de alta resolução, escute o pulmão desse homem e peça o raio-X básico.",
+    "piBaixo": "Sua cota de PI está nas últimas, doutor(a)! Lembre-se de que no SUS ou no privado, pedir exame sem critério custa muito caro.",
+    "fechamento": "Muito bem! O sinal da silhueta no raio-X e a leucocitose confirmaram a pneumonia lobar no paciente com DPOC. Entender o prejuízo do clearance mucociliar é fundamental para a prova.",
+    "dicas": [
+      "Repara que não é só 'mais falta de ar de sempre' — teve mudança na cor e no volume do catarro, e febre. Isso muda o raciocínio pra além de uma exacerbação simples.",
+      "O sinal da silhueta no raio-X ajuda a localizar exatamente onde está o problema — vale revisar o que esse sinal indica sobre a posição da lesão.",
+      "Pensa em como o tabagismo crônico prejudica o transporte mucociliar — isso é a porta de entrada pra esse tipo de complicação."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Houve mudança na cor e no volume do catarro nos últimos dias?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, a secreção ficou amarelada, bem mais espessa e em maior quantidade há 3 dias."
+    },
+    {
+      "texto": "Qual a carga tabágica e o histórico de doenças pulmonares?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Fuma 1 maço por dia há 40 anos (40 maços-ano). Tem diagnóstico de DPOC, mas usa a bombinha apenas esporadicamente."
+    },
+    {
+      "texto": "Teve febre aferida em casa ou calafrios?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, mediu 38.4°C ontem à noite e teve tremores com calafrios."
+    },
+    {
+      "texto": "A dor no peito piora ao engolir alimentos sólidos?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nega qualquer dor ou dificuldade para engolir."
+    },
+    {
+      "texto": "Notou inchaço recente nas pernas ou dor nas articulações?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega edema de membros inferiores ou dores articulares recentes."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Ausculta pulmonar detalhada",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Murmúrio vesicular reduzido difusamente, com estertores crepitantes e sopro tubário em terço médio do hemitórax direito."
+    },
+    {
+      "texto": "Inspeção do padrão respiratório e formato do tórax",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Tórax em tonel, uso de musculatura acessória intercostal e tempo expiratório prolongado."
+    },
+    {
+      "texto": "Percussão do tórax",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Hipertimpanismo difuso com área localizada de submaciez em terço médio do hemitórax direito."
+    },
+    {
+      "texto": "Palpação de pulsos periféricos e tempo de enchimento capilar",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Pulsos periféricos cheios e simétricos, tempo de enchimento capilar de 2 segundos."
+    },
+    {
+      "texto": "Pesquisa de rigidez de nuca e sinais meníngeos",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Pescoço livre, sem rigidez de nuca ou sinais de Brudzinski/Kernig."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Pneumonia bacteriana comunitária em paciente com DPOC",
+      "correta": true
+    },
+    {
+      "texto": "Exacerbação puramente viral de DPOC sem pneumonia",
+      "correta": false
+    },
+    {
+      "texto": "Tromboembolismo pulmonar agudo",
+      "correta": false
+    },
+    {
+      "texto": "Insuficiência cardíaca congestiva descompensada",
+      "correta": false
+    },
+    {
+      "texto": "Infarto agudo do miocárdio com edema agudo de pulmão",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Radiografia de tórax (PA e Perfil)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Sinais de hiperinsuflação pulmonar (retificação diafragmática) associados a opacidade/consolidação alveolar em lobo médio direito apagando o bordo cardíaco direito (sinal da silhueta)."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose importante (16.800/mm³) com desvio à esquerda (10% de bastões)."
+    },
+    {
+      "texto": "Gasometria arterial em ar ambiente",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "pH 7.33, PaCO₂ 50 mmHg, PaO₂ 55 mmHg, HCO₃⁻ 26 mEq/L, SatO₂ 88% (hipoxemia moderada e retenção crônica agudizada de CO₂)."
+    },
+    {
+      "texto": "Dosagem de enzimas cardíacas (Troponina I)",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Troponina I negativa / dentro da faixa da normalidade."
+    },
+    {
+      "texto": "Ecocardiograma transtorácico",
+      "custo": 14,
+      "relevante": false,
+      "resposta": "Fração de ejeção de 60%, sem alterações valvares nem déficits contráteis segmentares."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Internação hospitalar, oxigenoterapia almejando SpO₂ entre 88-92%, broncodilatadores inalatórios, corticoide sistêmico e antibioticoterapia empírica para pneumonia comunitária",
+      "correta": true
+    },
+    {
+      "texto": "Alta hospitalar com prescrição de broncodilatador de curta ação e orientações gerais de repouso",
+      "correta": false
+    },
+    {
+      "texto": "Oxigenoterapia de alto fluxo sem restrição de SpO₂ (alvo 100%) e alta sem uso de antibióticos",
+      "correta": false
+    }
+  ],
+  "explicacao": "O tabagismo crônico (40 maços-ano) causa destruição do aparelho mucociliar e dos septos alveolares (enfisema), comprometendo os mecanismos de defesa inata do pulmão na DPOC. A invasão de patógenos bacterianos no parênquima deflagra uma resposta inflamatória exsudativa com recrutamento maciço de neutrófilos e preenchimento dos alvéolos por exsudato purulento, gerando a consolidação em lobo médio direito visível no raio-X (apagando a silhueta do bordo cardíaco direito). O desequilíbrio na relação ventilação-perfusão (V/Q) agrava a hipoxemia no paciente. A antibioticoterapia precoce associada à broncodilatação, corticoterapia e oxigenoterapia controlada (alvo de SpO₂ entre 88% e 92% para evitar a inibição do drive respiratório hipóxico) constitui o pilar do tratamento."
+}

@@ -1,0 +1,181 @@
+{
+  "id": "uc3-tema-02-02-medio",
+  "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
+  "materia_relacionada": "Este caso trabalha o papel da tomografia sem contraste na avaliação de dor em flanco de início súbito — conteúdo da aula sobre ferramentas do diagnóstico radiológico.",
+  "area": "Nefrologia/Urologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 38,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, é uma dor insuportável nas costas, do lado esquerdo! Começou de repente e parece que desce até a virilha!”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "148/92",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "104",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.7",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "20",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "99",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente urrando de dor no flanco. Antes de ir radiando o coitado com qualquer tomografia, escute a história e faça o exame físico. A imagem serve para confirmar seu raciocínio, não para substituir seu cérebro!",
+    "piBaixo": "Cuidado com seus pontos de investigação! Se continuar pedindo exames às cegas, seu orçamento zera antes de você achar a pedra no caminho.",
+    "fechamento": "Muito bem! Você percebeu que a ultrassonografia tem limitação por gás intestinal no ureter médio e que a TC sem contraste é o método de escolha aqui. É exatamente isso que a professora Claudia ensina. Preste atenção, cai na P1!",
+    "dicas": [
+      "A dor em cólica que vai e volta, irradiando pra virilha, tem uma origem bem característica no trato urinário.",
+      "Pensa em qual exame de imagem identifica cálculo mesmo sem precisar de contraste endovenoso.",
+      "Hematúria microscópica reforça de onde vem o problema."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor começou subitamente no flanco e irradia para a região inguinal?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim — começou de forma súbita na região lombar esquerda e irradia para a fossa ilíaca e virilha esquerdas."
+    },
+    {
+      "texto": "Notou alteração na cor da urina ou sintomas miccionais?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Refere disúria leve e urina levemente avermelhada desde o início da dor."
+    },
+    {
+      "texto": "Apresentou febre, calafrios ou urina com odor fétido?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não apresentou febre ou calafrios."
+    },
+    {
+      "texto": "A dor piora após refeições gordurosas?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não notou qualquer relação da dor com alimentação."
+    },
+    {
+      "texto": "História prévia de doença inflamatória intestinal ou cirurgias abdominais?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Sem histórico de doenças intestinais ou cirurgias prévias."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Punho-percussão lombar (Sinal de Giordano)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Positivo à esquerda — dor intensa ao toque na região lombar esquerda. Negativo à direita."
+    },
+    {
+      "texto": "Palpação abdominal e pesquisa de descompressão brusca (Blumberg)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Abdome plano, flácido, sem dor à palpação profunda difusa e descompressão brusca negativa (sem sinais de peritonite)."
+    },
+    {
+      "texto": "Sinal de Murphy",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo no hipocôndrio direito."
+    },
+    {
+      "texto": "Ausculta abdominal (ruídos hidroaéreos)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ruídos hidroaéreos presentes e normoativos em todos os quadrantes."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Nefrolitíase / Cólica nefrética por ureterolitíase",
+      "correta": true
+    },
+    {
+      "texto": "Diverticulite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Pielonefrite aguda não complicada",
+      "correta": false
+    },
+    {
+      "texto": "Isquemia mesentérica aguda",
+      "correta": false
+    },
+    {
+      "texto": "Aneurisma de aorta abdominal roto",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Urina Tipo I (EAS)",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Hematúria microscópica maciça (> 50 hemácias/campo); ausência de nitrito ou leucocitúria significativa."
+    },
+    {
+      "texto": "Ultrassonografia de rins e vias urinárias",
+      "custo": 12,
+      "relevante": false,
+      "resposta": "Ectasia pielocalicial moderada à esquerda; ureter médio não adequadamente visualizado devido a interposição de gases intestinais."
+    },
+    {
+      "texto": "TC de abdome e pelve SEM contraste",
+      "custo": 16,
+      "relevante": true,
+      "resposta": "Cálculo radiopaco de 5 mm localizado no terço médio do ureter esquerdo, associado a ureterohidronefrose a montante e densificação da gordura peri-ureteral."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Leucócitos 8.500/mm³ sem desvio à esquerda; hemoglobina e plaquetas normais."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Analgesia otimizada (AINEs e opioides se necessário), hidratação e terapia expulsiva médica (tansulosina) com seguimento ambulatorial",
+      "correta": true
+    },
+    {
+      "texto": "Laparotomia exploradora de urgência",
+      "correta": false
+    },
+    {
+      "texto": "Antibioticoterapia venosa de largo espectro e internação hospitalar",
+      "correta": false
+    },
+    {
+      "texto": "Alta com orientações de hidratação sem medicação sintomática",
+      "correta": false
+    }
+  ],
+  "explicacao": "A apresentação clínica de dor lombar súbita, cólica com irradiação inguinal e Giordano positivo aponta para cólica nefrética por obstrução ureteral. O exame de urina I confirma hematúria microscópica, típica do trauma urotelial pela passagem do cálculo. Sob a ótica das ferramentas radiológicas (aula da Dra. Claudia Leite): embora a ultrassonografia seja acessível e sem radiação ionizante, ela possui limitação técnica importante por interposição de gás intestinal no terço médio do ureter. Por isso, a Tomografia Computadorizada de abdome e pelve SEM contraste é o método padrão-ouro de alta acurácia para caracterizar o tamanho, localização e densidade do cálculo, além de demonstrar sinais indiretos de obstrução (hidronefrose e densificação da gordura peri-ureteral). O manejo com AINE e alfa-bloqueador é adequado para cálculo < 10 mm sem sinais de infecção ou alteração da função renal."
+}

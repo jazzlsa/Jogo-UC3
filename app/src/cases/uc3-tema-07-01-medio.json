@@ -1,0 +1,189 @@
+{
+  "id": "uc3-tema-07-01-medio",
+  "tema": "Tema 07 · Organização e Funcionamento do Sistema Imune",
+  "materia_relacionada": "Este caso mostra na prática por que o baço — um órgão linfoide secundário — é essencial pra defesa contra bactérias encapsuladas, ligando direto com a aula sobre organização e funcionamento do sistema imune.",
+  "area": "Imunologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 34,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, eu comecei a passar mal do nada essa manhã — febre alta, tremendo de frio, e uma dor de cabeça forte. Em menos de uma hora eu já não conseguia nem ficar em pé.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "78/45",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "138",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "39.8",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "28",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "91",
+      "u": "%",
+      "flag": true
+    }
+  ],
+  "burns": {
+    "abertura": "Uma paciente chegando em choque séptico, evoluindo desse jeito fulminante, com uma cirurgia prévia no histórico dela... prestem atenção nesse detalhe do histórico cirúrgico. Ele muda tudo nesse caso.",
+    "piBaixo": "Cota apertando, doutor(a)? Cada exame pedido sem necessidade é PI que não vai sobrar quando você precisar de verdade — e nesse caso, tempo é o recurso mais escasso de todos.",
+    "fechamento": "Isso aqui é o motivo pelo qual todo esplenectomizado devia sair do hospital vacinado e com um cartão no bolso avisando que não tem baço. Guarda isso — cai bastante em prova, e mais importante: salva vida.",
+    "dicas": [
+      "O histórico cirúrgico dela é a pista mais importante do caso inteiro — pensa em qual órgão ela perdeu.",
+      "Bactérias encapsuladas dependem de opsonização eficiente pra serem destruídas — qual órgão faz boa parte dessa filtragem no sangue?",
+      "As lesões purpúricas evoluindo rápido são sinal de gravidade (CIVD) — o tempo até o antibiótico é crítico."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Já teve alguma cirurgia abdominal ou trauma importante no passado?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim — esplenectomia há 2 anos, depois de um acidente de moto com lesão esplênica."
+    },
+    {
+      "texto": "Está com alguma vacina em atraso, principalmente pneumocócica ou meningocócica?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não lembra de ter tomado nenhum reforço depois da cirurgia."
+    },
+    {
+      "texto": "Teve contato recente com alguém doente ou fez alguma viagem?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, não saiu de casa nem teve contato com ninguém doente."
+    },
+    {
+      "texto": "Tem histórico de doença autoimune ou uso de imunossupressor?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nunca teve nada disso."
+    },
+    {
+      "texto": "A febre veio acompanhada de alguma lesão de pele ou dor articular?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Notou umas manchas roxas estranhas aparecendo na perna nas últimas horas, mas sem dor em nenhuma articulação."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Avaliação do nível de consciência e da perfusão periférica",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Confusa, extremidades frias, enchimento capilar lento (>4s) — sinais de choque."
+    },
+    {
+      "texto": "Pesquisa de petéquias ou púrpura na pele",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Lesões purpúricas evoluindo rápido em membros inferiores, compatíveis com coagulação intravascular disseminada."
+    },
+    {
+      "texto": "Ausculta cardíaca em busca de sopro",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas taquicárdicas, sem sopros audíveis."
+    },
+    {
+      "texto": "Palpação de linfonodos cervicais e axilares",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem linfonodomegalias palpáveis."
+    },
+    {
+      "texto": "Sinais de irritação meníngea (rigidez de nuca, Kernig, Brudzinski)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Rigidez de nuca discreta, sem Kernig ou Brudzinski francos — não descarta comprometimento meníngeo associado."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Sepse fulminante pós-esplenectomia por bactéria encapsulada (OPSI)",
+      "correta": true
+    },
+    {
+      "texto": "Meningococcemia em paciente com baço íntegro",
+      "correta": false
+    },
+    {
+      "texto": "Choque hipovolêmico por sangramento oculto",
+      "correta": false
+    },
+    {
+      "texto": "Reação anafilática grave",
+      "correta": false
+    },
+    {
+      "texto": "Púrpura trombocitopênica trombótica (PTT)",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Hemograma completo com contagem de plaquetas",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose intensa com desvio à esquerda e plaquetopenia — compatível com sepse grave/CIVD."
+    },
+    {
+      "texto": "Hemocultura",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Coletada; resultado pendente — mas a suspeita clínica de bactéria encapsulada já direciona a conduta imediata, sem esperar o resultado pra tratar."
+    },
+    {
+      "texto": "Lactato sérico",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Lactato elevado (5,2 mmol/L), confirmando hipoperfusão tecidual grave."
+    },
+    {
+      "texto": "TC de crânio",
+      "custo": 14,
+      "relevante": false,
+      "resposta": "Sem alterações agudas — não é isso que está causando o quadro."
+    },
+    {
+      "texto": "Coagulograma (TP, TTPa, fibrinogênio, D-dímero)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Alterado, com fibrinogênio baixo e D-dímero elevado — compatível com CIVD associada à sepse grave."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Antibioticoterapia empírica de amplo espectro imediata + ressuscitação volêmica agressiva, sem esperar resultado de exames",
+      "correta": true
+    },
+    {
+      "texto": "Aguardar o resultado da hemocultura antes de iniciar antibiótico",
+      "correta": false
+    },
+    {
+      "texto": "Observação clínica com reavaliação em 6 horas",
+      "correta": false
+    }
+  ],
+  "explicacao": "O baço é o principal órgão linfoide secundário responsável por filtrar o sangue e apresentar antígenos a linfócitos — é ali que macrófagos esplênicos opsonizam e removem bactérias encapsuladas (Streptococcus pneumoniae, Haemophilus influenzae tipo b, Neisseria meningitidis) que escapam do reconhecimento por anticorpo isolado. Sem o baço, esses patógenos circulam livremente e podem causar uma sepse fulminante — a chamada OPSI (Overwhelming Post-Splenectomy Infection) — com evolução em horas, coagulação intravascular disseminada (as lesões purpúricas) e mortalidade alta se o antibiótico não for iniciado de forma empírica e imediata. Por isso todo paciente esplenectomizado deveria receber vacinação específica (pneumocócica, meningocócica, Hib) e ser orientado a procurar atendimento de urgência diante de qualquer febre — o histórico cirúrgico, não os exames, é o que abre o diagnóstico aqui."
+}

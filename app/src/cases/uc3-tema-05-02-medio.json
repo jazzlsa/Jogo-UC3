@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-05-02-medio",
+  "tema": "Tema 05 · Princípios da tomografia computadorizada",
+  "materia_relacionada": "Este caso aplica a leitura de uma tomografia de crânio de urgência (coleção biconvexa, desvio de linha média) — conteúdo da aula sobre princípios da tomografia computadorizada.",
+  "area": "Neurologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 19,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, meu amigo caiu de moto e bateu a cabeça, desmaiou uns minutinhos, aí acordou e ficou até bem, conversando normal comigo. Só que agora, meia hora depois, ele começou a ficar sonolento de novo e disse que a cabeça está doendo muito.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "148/92",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "56",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.4",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "14",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "97",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Perdeu a consciência, acordou lúcido, e agora piorando de novo? Isso tem nome e é bem conhecido — prestem atenção nesse padrão, ele é a pista mais importante do caso inteiro.",
+    "piBaixo": "Não é hora de economizar PI só por economizar — tem situação clínica que exige investigação rápida e completa. Saber quando gastar é tão importante quanto saber quando poupar.",
+    "fechamento": "Intervalo lúcido seguido de rebaixamento, PA alta com bradicardia... isso é a tríade de Cushing avisando que a pressão intracraniana está subindo rápido. Cada minuto conta aqui.",
+    "dicas": [
+      "Releia com atenção a ordem exata dos eventos que o amigo dele descreveu, do acidente até agora.",
+      "Pensa em como uma lesão vascular dentro do crânio pode demorar um tempo pra dar sinal nenhum, e só depois comprimir o cérebro.",
+      "Qual vaso passa logo abaixo do osso temporal, e o que a anisocoria + hemiparesia contralateral indicam sobre o lado da lesão?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Depois de acordar do desmaio inicial, ele ficou bem por algum tempo antes de piorar de novo?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim — ficou uns 30 minutos conversando normalmente antes de começar a ficar sonolento de novo."
+    },
+    {
+      "texto": "Teve algum vômito nesse intervalo?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, vomitou uma vez pouco antes de ficar mais sonolento."
+    },
+    {
+      "texto": "Estava usando capacete no momento do acidente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Sim, estava de capacete, que ficou visivelmente rachado."
+    },
+    {
+      "texto": "Ele usa algum anticoagulante ou tem doença que altera a coagulação?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, é jovem e sem nenhuma comorbidade conhecida."
+    },
+    {
+      "texto": "Teve alguma convulsão nesse período?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não, nenhuma crise convulsiva observada."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Escala de coma de Glasgow",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "13/15 agora, contra um relato de 15/15 logo após acordar do desmaio inicial — piora nítida."
+    },
+    {
+      "texto": "Exame de pupilas (tamanho e reflexo fotomotor)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Anisocoria — pupila direita midriática e pouco reagente à luz, esquerda normal."
+    },
+    {
+      "texto": "Inspeção do couro cabeludo e da região temporal",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Hematoma e escoriação na região temporal direita, sobre trajeto da artéria meníngea média."
+    },
+    {
+      "texto": "Avaliação de força em membros",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Discreta hemiparesia à esquerda, contralateral à pupila alterada."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bradicárdico, ritmo regular, sem sopros."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Hematoma epidural agudo com herniação iminente",
+      "correta": true
+    },
+    {
+      "texto": "Hematoma subdural crônico",
+      "correta": false
+    },
+    {
+      "texto": "Concussão simples sem lesão estrutural",
+      "correta": false
+    },
+    {
+      "texto": "Hemorragia subaracnóidea espontânea",
+      "correta": false
+    },
+    {
+      "texto": "Crise convulsiva pós-traumática isolada",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Tomografia de crânio sem contraste, com urgência máxima",
+      "custo": 16,
+      "relevante": true,
+      "resposta": "Coleção biconvexa (lenticular) hiperdensa em região temporal direita, não ultrapassando as suturas cranianas, com desvio de linha média — compatível com hematoma epidural agudo."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Sem alterações relevantes para a decisão imediata neste contexto."
+    },
+    {
+      "texto": "Coagulograma",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Normal — não há distúrbio de coagulação contribuindo pro sangramento."
+    },
+    {
+      "texto": "Radiografia de crânio",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Não substitui a tomografia nessa urgência — atrasaria o diagnóstico sem agregar informação decisiva."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Craniotomia de urgência para drenagem do hematoma",
+      "correta": true
+    },
+    {
+      "texto": "Observação clínica em leito comum, sem intervenção cirúrgica",
+      "correta": false
+    },
+    {
+      "texto": "Apenas manitol endovenoso e reavaliação em 12 horas",
+      "correta": false
+    }
+  ],
+  "explicacao": "O hematoma epidural clássico decorre da laceração da artéria meníngea média por uma fratura temporal, formando uma coleção de sangue arterial entre a dura-máter e o crânio — por isso tem formato biconvexo na tomografia (limitado pelas suturas, onde a dura está firmemente aderida) e progride rápido, já que é sangramento arterial sob pressão. O padrão clássico é o 'intervalo lúcido': o paciente perde a consciência no impacto, recupera-se e parece bem por minutos a horas, e então deteriora rapidamente conforme o hematoma cresce e comprime o parênquima. A anisocoria (pupila dilatada do lado do hematoma, por compressão do III nervo craniano na herniação uncal) e a hemiparesia contralateral são sinais de herniação iminente — junto com a tríade de Cushing (hipertensão, bradicardia, respiração irregular), que reflete a resposta do organismo ao aumento da pressão intracraniana. Esse é um quadro de neurocirurgia de urgência: a drenagem precisa ser rápida, porque o desfecho neurológico depende diretamente do tempo até a descompressão."
+}

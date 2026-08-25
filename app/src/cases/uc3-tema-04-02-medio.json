@@ -1,0 +1,189 @@
+{
+  "id": "uc3-tema-04-02-medio",
+  "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+  "materia_relacionada": "Este caso aprofunda a diferença ultrassonográfica entre um cálculo assintomático e um quadro inflamatório agudo de vesícula — conteúdo da aula sobre princípios da radiografia convencional e ultrassonografia.",
+  "area": "Gastroenterologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 52,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, a dor de sempre depois de comer gordura veio de novo ontem à noite, só que dessa vez não passou — só piorou, e hoje de manhã comecei com febre.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "128/82",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "104",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "38.4",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "19",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "97",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "A mesma dor de sempre, só que agora não passa e vem com febre — isso muda tudo. Não é mais cólica biliar simples, é uma pergunta diferente que vocês precisam fazer.",
+    "piBaixo": "Cuidado com o orçamento — já reparou que exame de imagem custa caro em PI? Pense antes de pedir o segundo se o primeiro já respondeu.",
+    "fechamento": "Murphy ultrassonográfico positivo com parede espessada: isso não é mais 'vesícula com pedra', é vesícula inflamada precisando de antibiótico e cirurgia em tempo certo.",
+    "dicas": [
+      "A dor de sempre, só que dessa vez não passou sozinha e veio com febre — isso é sinal de que virou outra coisa.",
+      "O Murphy ultrassonográfico e a espessura da parede da vesícula são a chave pra diferenciar de cólica biliar simples.",
+      "Pensa no tempo certo de operar: nem cedo demais sem preparo, nem tarde demais esperando 'passar sozinho'."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Essa dor é igual às anteriores ou diferente de alguma forma?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "É a mesma localização, mas dessa vez não melhorou sozinha e já dura mais de 12 horas."
+    },
+    {
+      "texto": "Teve náusea ou vômito?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, vomitou duas vezes durante a noite."
+    },
+    {
+      "texto": "Notou urina escura ou fezes claras?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não notou nenhuma mudança na urina ou nas fezes."
+    },
+    {
+      "texto": "Já teve episódios parecidos antes, que passavam sozinhos?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, vários episódios de dor após comida gordurosa nos últimos 2 anos, que sempre melhoravam em menos de uma hora."
+    },
+    {
+      "texto": "Teve contato com alguém com hepatite ou fez alguma viagem recente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nenhum dos dois."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Sinal de Murphy (interrupção da inspiração à palpação do hipocôndrio direito)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Positivo — paciente interrompe a inspiração por dor à palpação profunda em hipocôndrio direito."
+    },
+    {
+      "texto": "Palpação de massa ou vesícula palpável em hipocôndrio direito",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Discreta plenitude palpável na topografia da vesícula, dolorosa."
+    },
+    {
+      "texto": "Icterícia em escleróticas",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Ausente — escleróticas anictéricas, o que torna coledocolitíase associada menos provável."
+    },
+    {
+      "texto": "Sinal de Giordano (punho-percussão lombar)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo bilateralmente."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ritmo taquicárdico, sem sopros."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Colecistite aguda",
+      "correta": true
+    },
+    {
+      "texto": "Colelitíase sintomática sem complicação",
+      "correta": false
+    },
+    {
+      "texto": "Coledocolitíase com colangite",
+      "correta": false
+    },
+    {
+      "texto": "Pancreatite aguda biliar",
+      "correta": false
+    },
+    {
+      "texto": "Pielonefrite direita",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Ultrassonografia de abdome superior",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Parede vesicular espessada (>4mm), líquido perivesicular, cálculo impactado no infundíbulo e Murphy ultrassonográfico positivo."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose com desvio à esquerda, compatível com processo infeccioso/inflamatório agudo."
+    },
+    {
+      "texto": "Bilirrubinas totais e frações + fosfatase alcalina",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Discretamente elevadas, mas sem padrão obstrutivo franco — não sugere coledocolitíase associada."
+    },
+    {
+      "texto": "Amilase e lipase",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Dentro da normalidade, afastando pancreatite associada."
+    },
+    {
+      "texto": "Urina tipo I",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Sem alterações — afasta causa urinária para o quadro."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Internação, antibioticoterapia e colecistectomia videolaparoscópica precoce (dentro de 72h)",
+      "correta": true
+    },
+    {
+      "texto": "Alta com analgésico e retorno se piorar",
+      "correta": false
+    },
+    {
+      "texto": "Apenas antibioticoterapia oral ambulatorial, sem cirurgia",
+      "correta": false
+    }
+  ],
+  "explicacao": "A colecistite aguda ocorre quando um cálculo impacta o ducto cístico, gerando distensão, inflamação da parede vesicular e, frequentemente, infecção secundária — diferente da cólica biliar simples, aqui a dor não cede espontaneamente e vem acompanhada de febre e leucocitose, sinais de resposta inflamatória sistêmica. O sinal de Murphy positivo (interrupção da inspiração pela dor ao palpar a vesícula inflamada contra a parede abdominal) e o espessamento da parede vesicular ao ultrassom confirmam o diagnóstico. A ausência de icterícia e de alterações francas de bilirrubina/fosfatase alcalina torna coledocolitíase/colangite menos provável — achados que, se presentes, mudariam a conduta para incluir colangiopancreatografia. O tratamento padrão-ouro é a colecistectomia precoce (idealmente nas primeiras 72h), associada a antibioticoterapia, reduzindo tempo de internação e complicações comparado à cirurgia tardia."
+}

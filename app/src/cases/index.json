@@ -1,0 +1,170 @@
+[
+  {
+    "id": "uc3-abdome-agudo-001",
+    "tema": "Abdome agudo inflamatório",
+    "dificuldade": "medio",
+    "area": "Cirurgia geral",
+    "prova": "P1",
+    "arquivo": "uc3-abdome-agudo-001.json"
+  },
+  {
+    "id": "uc3-pneumonia-dpoc-001",
+    "tema": "Piora respiratória aguda em paciente tabagista com pneumopatia crônica",
+    "dificuldade": "medio",
+    "area": "Pneumologia",
+    "prova": "P1",
+    "arquivo": "uc3-pneumonia-dpoc-001.json"
+  },
+  {
+    "id": "uc3-tema-02-01-facil",
+    "tema": "Ferramentas do Diagnóstico Radiológico",
+    "dificuldade": "facil",
+    "area": "Gastroenterologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-02-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-02-02-medio",
+    "tema": "Ferramentas do Diagnóstico Radiológico",
+    "dificuldade": "medio",
+    "area": "Nefrologia/Urologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-02-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-02-03-dificil",
+    "tema": "Ferramentas do Diagnóstico Radiológico",
+    "dificuldade": "dificil",
+    "area": "Cirurgia geral",
+    "prova": "P1",
+    "arquivo": "uc3-tema-02-03-dificil.json"
+  },
+  {
+    "id": "uc3-tema-02-04-facil",
+    "tema": "Ferramentas do Diagnóstico Radiológico",
+    "dificuldade": "facil",
+    "area": "Pneumologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-02-04-facil.json"
+  },
+  {
+    "id": "uc3-tema-02-05-medio",
+    "tema": "Ferramentas do Diagnóstico Radiológico",
+    "dificuldade": "medio",
+    "area": "Gastroenterologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-02-05-medio.json"
+  },
+  {
+    "id": "uc3-tema-02-06-dificil",
+    "tema": "Ferramentas do Diagnóstico Radiológico",
+    "dificuldade": "dificil",
+    "area": "Ortopedia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-02-06-dificil.json"
+  },
+  {
+    "id": "uc3-tema-03-01-facil",
+    "tema": "Ferramentas do Diagnóstico Patológico",
+    "dificuldade": "facil",
+    "area": "Oncologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-03-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-03-02-medio",
+    "tema": "Ferramentas do Diagnóstico Patológico",
+    "dificuldade": "medio",
+    "area": "Oncologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-03-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-04-01-facil",
+    "tema": "Dor abdominal recorrente ligada à alimentação",
+    "dificuldade": "facil",
+    "area": "Gastroenterologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-04-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-04-02-medio",
+    "tema": "Dor biliar que não cede, agora com febre",
+    "dificuldade": "medio",
+    "area": "Gastroenterologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-04-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-05-01-facil",
+    "tema": "Trauma de crânio em paciente consciente e conversando",
+    "dificuldade": "facil",
+    "area": "Neurologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-05-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-05-02-medio",
+    "tema": "Trauma craniano com piora súbita da consciência",
+    "dificuldade": "medio",
+    "area": "Neurologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-05-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-07-01-medio",
+    "tema": "Febre alta e choque em paciente com cirurgia abdominal prévia",
+    "dificuldade": "medio",
+    "area": "Imunologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-07-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-08-01-facil",
+    "tema": "Recém-nascido com atraso na queda do coto umbilical",
+    "dificuldade": "facil",
+    "area": "Imunologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-08-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-08-02-medio",
+    "tema": "Criança com infecções bacterianas e fúngicas de repetição",
+    "dificuldade": "medio",
+    "area": "Imunologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-08-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-09-01-facil",
+    "tema": "Achado incidental de alteração no fígado em exame de rotina",
+    "dificuldade": "facil",
+    "area": "Patologia geral",
+    "prova": "P1",
+    "arquivo": "uc3-tema-09-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-09-02-medio",
+    "tema": "Dor torácica típica com irradiação e sudorese",
+    "dificuldade": "medio",
+    "area": "Cardiologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-09-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-10-01-facil",
+    "tema": "Cansaço, ganho de peso e intolerância ao frio progressivos",
+    "dificuldade": "facil",
+    "area": "Endocrinologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-10-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-10-02-medio",
+    "tema": "Agitação, febre alta e taquicardia extrema em paciente com doença de tireoide conhecida",
+    "dificuldade": "medio",
+    "area": "Endocrinologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-10-02-medio.json"
+  }
+]

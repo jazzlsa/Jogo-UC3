@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-04-01-facil",
+  "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+  "materia_relacionada": "Este caso trabalha o uso do ultrassom como exame de escolha pra avaliação de vesícula biliar — conteúdo da aula sobre princípios da radiografia convencional e ultrassonografia.",
+  "area": "Gastroenterologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 45,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, toda vez que como uma feijoada ou uma comida mais gordurosa, vem uma dor forte aqui embaixo da costela direita. Hoje veio de novo, mas já melhorou um pouco.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "126/80",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "84",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "36.6",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "16",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "99",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Dor recorrente ligada à comida gordurosa, sem febre... antes de pedir uma tomografia cara, pensem no exame de imagem certo pra cada situação. Ultrassom não é 'exame fraco', é o exame certo aqui.",
+    "piBaixo": "Cota apertando? Bom sinal, na real — mostra que você não está pedindo tudo de uma vez só porque existe.",
+    "fechamento": "USG de abdome pra vesícula é como estetoscópio pra cardiologista: barato, rápido, sem radiação, e resolve a maioria dos casos. Guardem isso.",
+    "dicas": [
+      "Repara no padrão: dor sempre ligada a um tipo específico de alimento. Isso aponta pra um órgão bem específico do sistema digestivo.",
+      "Sem febre, sem Murphy positivo — pensa no que isso descarta antes de fechar o raciocínio.",
+      "O exame de imagem ideal aqui não é o mais caro, é o mais adequado pra essa estrutura."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor tem relação com alimentos gordurosos?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, sempre piora depois de refeições gordurosas."
+    },
+    {
+      "texto": "A dor irradia pra alguma outra região, tipo ombro ou costas?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Às vezes sente uma pontada que vai até a escápula direita."
+    },
+    {
+      "texto": "Teve febre ou calafrios junto com a dor?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não, nunca teve febre nos episódios."
+    },
+    {
+      "texto": "Teve alguma cirurgia abdominal anterior?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nunca operou nada."
+    },
+    {
+      "texto": "Tem histórico de úlcera péptica ou gastrite?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nunca teve diagnóstico de problema no estômago."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação do hipocôndrio direito",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Discreto desconforto à palpação, sem dor intensa nem defesa."
+    },
+    {
+      "texto": "Sinal de Murphy (interrupção da inspiração à palpação do hipocôndrio direito)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Negativo — sem interrupção da inspiração."
+    },
+    {
+      "texto": "Ausculta abdominal",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ruídos hidroaéreos normais."
+    },
+    {
+      "texto": "Sinal de Blumberg (descompressão brusca)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, sem sinais de irritação peritoneal."
+    },
+    {
+      "texto": "Icterícia em escleróticas",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Ausente — escleróticas anictéricas."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Colelitíase sintomática (cólica biliar)",
+      "correta": true
+    },
+    {
+      "texto": "Colecistite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Úlcera péptica perfurada",
+      "correta": false
+    },
+    {
+      "texto": "Pancreatite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Hepatite viral aguda",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Ultrassonografia de abdome superior",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Cálculos móveis no interior da vesícula, parede vesicular fina, sem sinais de inflamação (Murphy ultrassonográfico negativo)."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Sem leucocitose — sem sinal de processo infeccioso/inflamatório agudo."
+    },
+    {
+      "texto": "Tomografia de abdome com contraste",
+      "custo": 16,
+      "relevante": false,
+      "resposta": "Exame desnecessário nesse momento — mais radiação e custo sem ganho diagnóstico sobre o USG."
+    },
+    {
+      "texto": "Bilirrubinas totais e frações",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Dentro da normalidade — sem obstrução de via biliar no momento."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Orientação dietética + encaminhamento eletivo para colecistectomia videolaparoscópica",
+      "correta": true
+    },
+    {
+      "texto": "Colecistectomia de urgência ainda hoje",
+      "correta": false
+    },
+    {
+      "texto": "Antibioticoterapia empírica e alta",
+      "correta": false
+    }
+  ],
+  "explicacao": "A cólica biliar clássica é desencadeada por alimentos gordurosos, que estimulam a liberação de colecistocinina e a contração da vesícula contra um cálculo — daí a dor em hipocôndrio direito, às vezes irradiada para a escápula (dermátomo compartilhado por inervação frênica). A ausência de febre, leucocitose e sinal de Murphy positivo afasta colecistite aguda (que exigiria conduta cirúrgica de urgência). O ultrassom é o exame de escolha pra avaliar vesícula: sem radiação, alta sensibilidade pra cálculos, e permite avaliar espessura da parede e líquido perivesicular — informações que uma tomografia não acrescenta de forma relevante nesse contexto. Colelitíase sintomática recorrente tem indicação de colecistectomia eletiva, não de urgência."
+}

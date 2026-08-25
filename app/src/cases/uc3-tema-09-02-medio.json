@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-09-02-medio",
+  "tema": "Tema 09 · Fundamentos da patologia celular",
+  "materia_relacionada": "Este caso ilustra a necrose de coagulação — o tipo de morte celular irreversível vista no infarto — em contraste direto com a lesão reversível do caso anterior, ambos da aula sobre fundamentos da patologia celular.",
+  "area": "Cardiologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 61,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, comecei com uma dor forte no peito, tipo um aperto, há uma hora. A dor vai até o braço esquerdo e eu tô suando frio. Já tomei remédio pra pressão e continua.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "158/98",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "102",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.7",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "22",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "95",
+      "u": "%",
+      "flag": true
+    }
+  ],
+  "burns": {
+    "abertura": "Dor torácica típica, sudorese, uma hora de evolução — isso é emergência até prova em contrário. Enquanto vocês investigam, o relógio já está correndo contra o músculo cardíaco.",
+    "piBaixo": "Em dor torácica com esse perfil, não é hora de economizar PI pensando em amanhã — o miocárdio que está morrendo agora não espera.",
+    "fechamento": "Depois de 20-40 minutos de isquemia total, a lesão reversível vira necrose de coagulação — e essa, ao contrário da esteatose que vimos antes, não volta atrás. Tempo é músculo.",
+    "dicas": [
+      "A dor com essas características (aperto, irradiação, sudorese) tem um padrão clássico que aponta pra uma síndrome específica.",
+      "Depois de um certo tempo de isquemia total, a célula cardíaca passa de 'machucada mas viva' pra 'morta e sem volta'.",
+      "O eletrocardiograma tem um achado que indica oclusão completa e aguda de uma artéria — vale pedir ele logo."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Como é a característica da dor (aperto, pontada, queimação)?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Descreve como um aperto forte, em peso, irradiando para o braço esquerdo e mandíbula."
+    },
+    {
+      "texto": "Tem fatores de risco cardiovascular (hipertensão, diabetes, tabagismo, dislipidemia)?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Hipertenso há 15 anos, fumante de longa data, colesterol alto sem tratamento regular."
+    },
+    {
+      "texto": "A dor piora com a respiração ou com a posição do corpo?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor é constante, não muda com respiração ou posição."
+    },
+    {
+      "texto": "Já teve episódio parecido antes, mesmo que mais leve?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, sentia um desconforto leve no peito ao subir escadas nas últimas semanas, que melhorava com o repouso."
+    },
+    {
+      "texto": "Teve febre ou sintomas respiratórios associados?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, sem febre ou sintomas respiratórios."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Ausculta cardíaca em busca de terceira bulha ou sopros",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Presença de quarta bulha (B4), sem sopros novos."
+    },
+    {
+      "texto": "Avaliação de perfusão periférica e sudorese",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Sudorese fria, palidez cutânea, extremidades levemente frias."
+    },
+    {
+      "texto": "Ausculta pulmonar em busca de estertores",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Estertores crepitantes finos em bases pulmonares, sugerindo congestão inicial."
+    },
+    {
+      "texto": "Palpação abdominal",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Abdome sem alterações relevantes."
+    },
+    {
+      "texto": "Avaliação de turgência jugular",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem turgência jugular patológica no momento."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Infarto agudo do miocárdio com supradesnivelamento de ST",
+      "correta": true
+    },
+    {
+      "texto": "Angina estável sem lesão miocárdica",
+      "correta": false
+    },
+    {
+      "texto": "Pericardite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Dissecção aguda de aorta",
+      "correta": false
+    },
+    {
+      "texto": "Refluxo gastroesofágico com dor torácica atípica",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Eletrocardiograma de 12 derivações",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Supradesnivelamento do segmento ST em parede anterior (V1-V4), compatível com oclusão de artéria descendente anterior."
+    },
+    {
+      "texto": "Troponina de alta sensibilidade",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Elevada e em ascensão na segunda dosagem, confirmando necrose miocárdica em curso."
+    },
+    {
+      "texto": "Radiografia de tórax",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Discreta congestão pulmonar, sem alargamento de mediastino — ajuda a afastar dissecção de aorta."
+    },
+    {
+      "texto": "D-dímero",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Não é o exame prioritário nesse contexto — o quadro já é clinicamente diagnóstico de síndrome coronariana aguda."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Terapia de reperfusão imediata (angioplastia primária) + dupla antiagregação e anticoagulação",
+      "correta": true
+    },
+    {
+      "texto": "Observação clínica com reavaliação da troponina em 6 horas antes de decidir conduta",
+      "correta": false
+    },
+    {
+      "texto": "Apenas analgesia e alta com encaminhamento ambulatorial ao cardiologista",
+      "correta": false
+    }
+  ],
+  "explicacao": "No infarto agudo do miocárdio, a oclusão de uma artéria coronária interrompe o suprimento de oxigênio ao músculo cardíaco. Nos primeiros 20-40 minutos, a lesão ainda é potencialmente reversível — se o fluxo for restabelecido a tempo, os miócitos se recuperam. Além desse ponto, instala-se a necrose de coagulação: as proteínas estruturais e enzimáticas da célula são desnaturadas, mas a arquitetura básica do tecido é preservada por um tempo (diferente da necrose liquefativa, vista por exemplo no sistema nervoso central), o que permite reconhecer a área infartada histologicamente. Diferente da esteatose (lesão reversível vista no caso anterior), aqui não há volta: o tecido necrótico será substituído por cicatriz fibrótica, sem regeneração de miócitos funcionais. Por isso 'tempo é músculo' — quanto mais rápido a artéria for reaberta (angioplastia primária), menor a área de necrose irreversível e melhor o prognóstico funcional do coração."
+}

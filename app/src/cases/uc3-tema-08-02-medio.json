@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-08-02-medio",
+  "tema": "Tema 08 · Reconhecimento inato e receptores de padrão",
+  "materia_relacionada": "Este caso aplica o mecanismo de 'explosão respiratória' dos fagócitos — como neutrófilos e macrófagos matam o que fagocitam — visto na aula sobre reconhecimento inato e receptores de padrão do sistema imune.",
+  "area": "Imunologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 4,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, meu filho já teve três abscessos de pele diferentes esse ano, e agora tá com febre há uma semana e uma tosse que não passa. Parece que ele adoece toda hora.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "96/60",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "112",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "38.9",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "26",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "94",
+      "u": "%",
+      "flag": true
+    }
+  ],
+  "burns": {
+    "abertura": "Infecções bacterianas e fúngicas de repetição numa criança pequena... isso não é 'imunidade fraca' genérica, é hora de pensar em qual peça específica do sistema imune inato pode estar faltando.",
+    "piBaixo": "Cada exame de imagem em pediatria pesa no PI — pensem bem antes de pedir tomografia de tudo.",
+    "fechamento": "Reparem: o organismo encontrado foi catalase-positivo. Isso não é acaso — é a pista mais clássica dessa doença inteira.",
+    "dicas": [
+      "Ela consegue fagocitar o micro-organismo normalmente — pensa em qual etapa DEPOIS da fagocitose pode estar falhando.",
+      "Pensa na enzima responsável por gerar espécies reativas de oxigênio dentro do fagócito, usadas pra matar o que foi fagocitado.",
+      "O organismo isolado na cultura tem uma característica bioquímica específica — pesquise o que liga catalase-positivo a essa via de defesa."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Que tipo de infecções ele já teve ao longo da vida?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Abscessos de pele recorrentes, uma pneumonia grave há 8 meses e agora esse novo quadro pulmonar."
+    },
+    {
+      "texto": "Algum desses abscessos foi causado por fungo?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, um deles foi identificado como causado por Aspergillus."
+    },
+    {
+      "texto": "Tem histórico familiar de imunodeficiência ou infecções graves em outros parentes?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Um tio materno teve infecções de repetição na infância também."
+    },
+    {
+      "texto": "Está com o calendário vacinal em dia?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Sim, vacinas em dia conforme o calendário."
+    },
+    {
+      "texto": "Tem diarreia crônica ou dificuldade de ganho de peso?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, o crescimento tem sido adequado apesar das infecções."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Ausculta pulmonar",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Estertores crepitantes em base pulmonar direita, com diminuição do murmúrio vesicular local."
+    },
+    {
+      "texto": "Inspeção da pele em busca de cicatrizes ou lesões antigas",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Múltiplas cicatrizes de abscessos prévios em tronco e membros."
+    },
+    {
+      "texto": "Palpação de linfonodos e avaliação de hepatoesplenomegalia",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Linfonodomegalia cervical e hepatoesplenomegalia leve, compatíveis com granulomas formados por infecção crônica mal resolvida."
+    },
+    {
+      "texto": "Avaliação de mucosa oral",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Mucosa oral íntegra, sem lesões."
+    },
+    {
+      "texto": "Exame neurológico sumário",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem alterações neurológicas focais."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Doença granulomatosa crônica (defeito da NADPH oxidase)",
+      "correta": true
+    },
+    {
+      "texto": "Deficiência de adesão leucocitária (LAD)",
+      "correta": false
+    },
+    {
+      "texto": "Imunodeficiência combinada grave (SCID)",
+      "correta": false
+    },
+    {
+      "texto": "Deficiência seletiva de IgA",
+      "correta": false
+    },
+    {
+      "texto": "Fibrose cística",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Teste de explosão respiratória (burst oxidativo) por citometria de fluxo (DHR)",
+      "custo": 14,
+      "relevante": true,
+      "resposta": "Ausência de produção de espécies reativas de oxigênio pelos neutrófilos após estímulo — confirma o defeito da NADPH oxidase."
+    },
+    {
+      "texto": "Cultura do material do abscesso/pneumonia",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Crescimento de organismo catalase-positivo — padrão clássico de suscetibilidade nessa doença."
+    },
+    {
+      "texto": "Radiografia/tomografia de tórax",
+      "custo": 14,
+      "relevante": true,
+      "resposta": "Consolidação em base direita com áreas sugestivas de formação de granuloma, compatível com infecção fúngica/bacteriana de repetição mal resolvida."
+    },
+    {
+      "texto": "Dosagem de imunoglobulinas séricas",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Dentro da normalidade — o defeito aqui não é de produção de anticorpos."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Antibioticoterapia/antifúngica dirigida + profilaxia antimicrobiana contínua e encaminhamento para transplante de células-tronco hematopoiéticas",
+      "correta": true
+    },
+    {
+      "texto": "Apenas drenagem dos abscessos, sem investigação imunológica adicional",
+      "correta": false
+    },
+    {
+      "texto": "Reposição de imunoglobulina endovenosa mensal",
+      "correta": false
+    }
+  ],
+  "explicacao": "A doença granulomatosa crônica é causada por mutações que inativam a NADPH oxidase dos fagócitos — a enzima responsável pela 'explosão respiratória', que gera espécies reativas de oxigênio usadas para destruir micro-organismos fagocitados. Sem esse mecanismo, neutrófilos e macrófagos conseguem fagocitar bactérias e fungos, mas não conseguem matá-los eficientemente, levando a infecções recorrentes e à formação de granulomas — tentativas do organismo de conter microrganismos que não consegue eliminar (daí a hepatoesplenomegalia e linfonodomegalia). O padrão de suscetibilidade é característico: organismos catalase-positivos (Staphylococcus aureus, Aspergillus, Burkholderia, Serratia), porque catalase degrada o pouco peróxido de hidrogênio que o próprio micro-organismo produziria e que poderia compensar parcialmente o defeito do hospedeiro. O teste de DHR (dihidrorodamina) por citometria de fluxo é o exame confirmatório padrão, medindo diretamente a capacidade oxidativa dos neutrófilos."
+}

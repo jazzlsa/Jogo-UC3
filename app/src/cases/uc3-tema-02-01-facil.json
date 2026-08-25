@@ -1,0 +1,187 @@
+{
+  "id": "uc3-tema-02-01-facil",
+  "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
+  "materia_relacionada": "Este caso reforça o ultrassom como exame de primeira linha pra dor biliar — conteúdo da aula sobre ferramentas do diagnóstico radiológico.",
+  "area": "Gastroenterologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 34,
+    "sexo": "F"
+  },
+  "queixa_principal": "Doutor, há uns dois meses, toda vez que como comida gordurosa, sinto uma dor chata no lado direito da barriga, debaixo da costela, que dura umas duas horas e depois melhora.",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "120/78",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "76",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "36.6",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "16",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "98",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Mais uma queixa pós-refeição gordurosa no hipocôndrio direito. Antes de sair pedindo a tomografia mais cara do hospital, lembre-se: boa anamnese e a escolha correta do método de imagem economizam o dinheiro do paciente e a sua reputação.",
+    "piBaixo": "Cuidado com o gasto excessivo de PI! Como a Dra. Claudia Leite bem ensina, o exame mais caro nem sempre é o mais adequado.",
+    "fechamento": "Viu como o raciocínio clínico funciona? História típica + exame físico + ultrassonografia, que é o método de escolha, acessível, sem radiação e de menor custo para a vesícula biliar.",
+    "dicas": [
+      "Releia com atenção quando a dor aparece em relação às refeições dela.",
+      "Pensa em como a colecistocinina age no sistema digestivo depois de uma refeição gordurosa.",
+      "Qual órgão, ao contrair contra um obstáculo no seu ducto de saída, geraria uma dor recorrente desse tipo, sem febre?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor é desencadeada ou piora após ingerir alimentos gordurosos?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, a dor surge tipicamente de 30 a 60 minutos após refeições gordurosas (como frituras ou feijoada)."
+    },
+    {
+      "texto": "Apresentou febre, calafrios ou amarelamento da pele e olhos (icterícia)?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não, nega febre, calafrios ou alteração na cor da pele e dos olhos."
+    },
+    {
+      "texto": "A dor se irradia em faixa para o dorso acompanhada de vômitos incoercíveis?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor fica localizada no lado direito e não teve vômitos."
+    },
+    {
+      "texto": "Tem histórico de azia, queimação retroesternal ou empachamento constante?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Refere azia ocasional, mas relata que é um desconforto completamente diferente da dor em cólica."
+    },
+    {
+      "texto": "Notou alteração no hábito intestinal ou presença de sangue nas fezes?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, hábito intestinal preservado e sem sangramentos."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação do hipocôndrio direito durante inspiração profunda (Sinal de Murphy)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Murphy negativo — apresenta dor moderada à palpação do hipocôndrio direito, mas sem interrupção súbita da inspiração."
+    },
+    {
+      "texto": "Inspeção de escleras e mucosas para avaliação de icterícia",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Paciente anictérica, com mucosas coradas e úmidas."
+    },
+    {
+      "texto": "Pesquisa de descompressão brusca dolorosa abdominal (Sinal de Blumberg)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Descompressão brusca negativa em todos os quadrantes, sem sinais de irritação peritoneal."
+    },
+    {
+      "texto": "Ausculta dos ruídos hidroaéreos abdominais",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ruídos hidroaéreos normoativos nos quatro quadrantes."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Colelitíase sintomática (cólica biliar)",
+      "correta": true
+    },
+    {
+      "texto": "Colecistite aguda inflamatória",
+      "correta": false
+    },
+    {
+      "texto": "Coledocolitíase com colangite",
+      "correta": false
+    },
+    {
+      "texto": "Úlcera péptica perfurada",
+      "correta": false
+    },
+    {
+      "texto": "Nefrolitíase à direita",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Ultrassonografia (USG) de abdome superior",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Vesícula biliar de paredes finas, contendo múltiplos cálculos hiperecogênicos com sombra acústica posterior. Vias biliares de calibre normal."
+    },
+    {
+      "texto": "Tomografia Computadorizada (TC) de abdome total",
+      "custo": 18,
+      "relevante": false,
+      "resposta": "Ausência de alterações significativas. Exame desnecessário: a maioria dos cálculos biliares é radiotransparente à TC e a radiação ionizante deve ser evitada quando o USG é superior."
+    },
+    {
+      "texto": "Radiografia simples de abdome (Raio-X)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Sem pneumoperitônio ou calcificações radiopacas evidentes em hipocôndrio direito."
+    },
+    {
+      "texto": "Hemograma completo e Proteína C-Reativa (PCR)",
+      "custo": 6,
+      "relevante": true,
+      "resposta": "Leucócitos 6.800/mm³ sem desvio; PCR normal (sem sinais de processo inflamatório/infeccioso agudo)."
+    },
+    {
+      "texto": "Ressonância Magnética (RM) / Colangiorressonância",
+      "custo": 22,
+      "relevante": false,
+      "resposta": "Identifica cálculos na vesícula biliar sem dilatação do colédoco. Exame de alto custo e desnecessário frente ao achado ultrassonográfico."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Encaminhamento para colecistectomia videolaparoscópica eletiva e orientação dietética hipogordurosa",
+      "correta": true
+    },
+    {
+      "texto": "Internação imediata, jejum, antibioticoterapia venosa empírica e cirurgia de urgência",
+      "correta": false
+    },
+    {
+      "texto": "Alta sem necessidade de acompanhamento cirúrgico, apenas prescrição de analgésicos sintomáticos",
+      "correta": false
+    },
+    {
+      "texto": "Realização de Colangiopancreatografia Retrógrada Endoscópica (CPRE) de urgência",
+      "correta": false
+    }
+  ],
+  "explicacao": "A apresentação clínica de dor em cólica no hipocôndrio direito deflagrada por refeições gordurosas, na ausência de febre, icterícia ou elevação de marcadores inflamatórios, caracteriza a colelitíase sintomática (cólica biliar). O estímulo colecistocinético pós-prandial faz a vesícula biliar se contrair contra uma obstrução transitória do óstio do ducto cístico por um cálculo. Na escolha do método de imagem, a Ultrassonografia (USG) é o exame de primeira linha e padrão-ouro: possui alta sensibilidade para cálculos biliares (visualizados como estruturas hiperecogênicas com sombra acústica posterior), é um método inócuo (sem radiação ionizante), rápido e de menor custo comparado à Tomografia ou Ressonância Magnética. Como não há inflamação aguda da parede (colecistite) ou obstrução da via biliar principal (coledocolitíase), o tratamento indicado é a colecistectomia videolaparoscópica eletiva."
+}

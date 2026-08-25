@@ -1,0 +1,189 @@
+{
+  "id": "uc3-tema-02-05-medio",
+  "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
+  "materia_relacionada": "Este caso usa a tomografia como exame de escolha pra dor em fossa ilíaca esquerda com sinais inflamatórios — conteúdo da aula sobre ferramentas do diagnóstico radiológico.",
+  "area": "Gastroenterologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 56,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, estou com uma dor forte do lado esquerdo embaixo na barriga há dois dias, piorou muito hoje e me deu febre.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "128/82",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "102",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "38.3",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "19",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "98",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente de 56 anos com dor na fossa ilíaca esquerda e febre. Na radiologia, como ensina a Profa. Claudia Leite, cada método tem sua indicação exata e limitações como o gás intestinal. Vamos ver se você escolhe a ferramenta certa.",
+    "piBaixo": "Cuidado com a cota de investigação! No SUS ou no privado, pedir exames sem critério esgota seus recursos e não traz a resposta que o paciente precisa.",
+    "fechamento": "Excelente raciocínio! A Tomografia foi o exame preciso aqui, pois a ultrassonografia é limitada pelo gás das alças intestinais. Saber indicar o método correto economiza recursos e fecha o diagnóstico.",
+    "dicas": [
+      "Dor do lado esquerdo do abdome, num paciente mais velho, com febre — pensa numa estrutura colônica que forma pequenas bolsas com a idade.",
+      "Constipação crônica é um fator de risco importante pra essa condição.",
+      "Pensa no que diferencia um quadro simples de um já complicado (abscesso, perfuração) na tomografia."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor é contínua e localizada na fossa ilíaca esquerda?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, começou como um desconforto vago há 2 dias e se localizou fortemente na fossa ilíaca esquerda."
+    },
+    {
+      "texto": "Houve alteração no hábito intestinal recente ou dor acompanhada de febre?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, refere constipação nos últimos dias e febre medida em casa de 38,2°C."
+    },
+    {
+      "texto": "A dor é em cólica e se irradia para a região inguinal ou grande lábio esquerdo?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor é contínua, em peso e queimação local, sem irradiação para a virilha."
+    },
+    {
+      "texto": "Apresenta ardor intenso ao urinar, urina turva ou sangue visível na urina?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não refere sintomas urinários como disúria ou hematúria."
+    },
+    {
+      "texto": "Já teve episódios prévios semelhantes de dor abdominal ou diagnóstico de divertículos?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Refere que há um ano teve dor similar mais leve e foi informada em consulta prévia sobre a presença de divertículos no cólon."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação abdominal profunda na fossa ilíaca esquerda",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Dor intensa à palpação profunda em fossa ilíaca esquerda com empastamento local."
+    },
+    {
+      "texto": "Pesquisa de descompressão brusca na fossa ilíaca esquerda (Sinal de Blumberg à esquerda)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Positivo — dor aguda à descompressão súbita no quadrante inferior esquerdo."
+    },
+    {
+      "texto": "Punho-percussão lombar bilateral (Sinal de Giordano)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo bilateralmente."
+    },
+    {
+      "texto": "Palpação do hipocôndrio direito (Sinal de Murphy)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, sem dor ou interrupção inspiratória."
+    },
+    {
+      "texto": "Pesquisa de estigmas de insuficiência hepática ou icterícia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausentes — anictérica, sem aracnodes vasculares ou eritema palmar."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Diverticulite aguda do cólon sigmóide",
+      "correta": true
+    },
+    {
+      "texto": "Cólica nefrética à esquerda",
+      "correta": false
+    },
+    {
+      "texto": "Pielonefrite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Apendicite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Isquemia mesentérica aguda",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Tomografia Computadorizada de abdome total e pelve com contraste EV",
+      "custo": 18,
+      "relevante": true,
+      "resposta": "Espessamento parietal focal do cólon sigmóide associado a múltiplos divertículos e densificação/borramento da gordura pericólica, sem pneumoperitônio livre ou coleções fluidas organizadas (Hinchey Ia)."
+    },
+    {
+      "texto": "Ultrassonografia de abdome e pelve",
+      "custo": 12,
+      "relevante": false,
+      "resposta": "Exame muito limitado por acentuada distensão gasosa de alças intestinais em fossa ilíaca esquerda, impedindo adequada caracterização da parede colônica."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose de 14.800/mm³ com 9% de bastões (desvio à esquerda)."
+    },
+    {
+      "texto": "Radiografia simples de abdome (rotina de abdome agudo)",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Ausência de pneumoperitônio abaixo das cúpulas diafragmáticas; distribuição inespecífica de gás intestinal."
+    },
+    {
+      "texto": "Urina tipo I (EAS)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Leucócitos 3.000/mL, hemácias 2.000/mL, nitrito negativo — dentro da normalidade."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Internação hospitalar, repouso intestinal com dieta líquida leve, analgesia e antibioticoterapia sistêmica",
+      "correta": true
+    },
+    {
+      "texto": "Laparotomia de urgência com colectomia a Hartmann",
+      "correta": false
+    },
+    {
+      "texto": "Alta hospitalar apenas com antiespasmódico oral e orientação de retorno se piorar",
+      "correta": false
+    }
+  ],
+  "explicacao": "A diverticulite aguda do sigmóide é a inflamação de um ou mais divertículos, gerada pela microperfuração da parede colônica devido à obstrução por fecalitos. Clinicamente, manifesta-se por dor contínua na fossa ilíaca esquerda ('apendicite do lado esquerdo'), febre e leucocitose. Como abordado nas aulas sobre Ferramentas de Diagnóstico Radiológico (Profa. Claudia Leite), a Ultrassonografia possui importante limitação física na presença de gás intestinal, que reflete e atenua o feixe ultrassônico. Por isso, a Tomografia Computadorizada (TC) de abdome e pelve com contraste é o exame de escolha, pois avalia detalhadamente o espessamento da parede colônica, a gordura pericólica e descarta complicações como perfuração ou abscessos. O quadro de Hinchey Ia exige tratamento conservador com suporte e antibioticoterapia."
+}

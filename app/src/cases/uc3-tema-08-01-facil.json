@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-08-01-facil",
+  "tema": "Tema 08 · Reconhecimento inato e receptores de padrão",
+  "materia_relacionada": "Este caso aplica o conceito de moléculas de adesão e recirculação leucocitária — a 'sinalização de endereço' que leva neutrófilos até o tecido infectado — visto na aula sobre organização e funcionamento do sistema imune.",
+  "area": "Imunologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 0,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, meu filho tem 3 semanas e o coto umbilical ainda não caiu — já vi outros bebês em que cai antes disso. E agora tá com uma vermelhidão ao redor, mas sem pus nenhum.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "72/44",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "138",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "37.1",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "38",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "98",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Cordão umbilical que não cai depois de 3 semanas não é só 'atraso', pode ser pista de um defeito de imunidade inata. Vamos ver se vocês conseguem enxergar isso.",
+    "piBaixo": "Cuidado com o PI, mas em recém-nascido com suspeita de imunodeficiência não dá pra economizar na hora errada.",
+    "fechamento": "Reparou que não tinha pus na infecção do coto? É porque os neutrófilos dele não conseguem sair do vaso sanguíneo pra chegar no tecido — sem adesão, não tem migração, e sem migração, não tem pus.",
+    "dicas": [
+      "Repara num detalhe estranho: teve infecção, mas sem formar pus nenhum. Pensa em por que os neutrófilos não chegam lá.",
+      "Pra sair do vaso sanguíneo e entrar no tecido infectado, o neutrófilo precisa se 'grudar' na parede do vaso primeiro.",
+      "O atraso na queda do cordão umbilical é um sinal precoce clássico dessa condição."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Com quantos dias de vida o cordão umbilical costuma cair normalmente?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Normalmente entre 1 e 2 semanas — 3 semanas sem queda é um atraso notável."
+    },
+    {
+      "texto": "A mãe teve alguma intercorrência na gestação ou parto?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, gestação e parto sem intercorrências."
+    },
+    {
+      "texto": "Já teve alguma infecção de pele ou outra região antes dessa?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Teve uma pequena infecção de pele há alguns dias que também não formou pus, só ficou vermelha e não cicatrizava bem."
+    },
+    {
+      "texto": "Há histórico familiar de morte precoce por infecção em outros bebês da família?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, um tio materno morreu ainda bebê por uma infecção grave não esclarecida."
+    },
+    {
+      "texto": "O bebê está mamando e ganhando peso normalmente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Sim, mamando bem e ganhando peso dentro do esperado."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Inspeção do coto umbilical",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Coto ainda preso, com eritema ao redor, sem secreção purulenta visível."
+    },
+    {
+      "texto": "Palpação de linfonodos regionais",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Ausência de linfonodomegalia reacional, mesmo com a infecção local — achado chamativo."
+    },
+    {
+      "texto": "Inspeção geral da pele em busca de outras lesões",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem outras lesões cutâneas visíveis no momento."
+    },
+    {
+      "texto": "Ausculta cardíaca e pulmonar",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas normofonéticas, murmúrio vesicular presente, sem alterações."
+    },
+    {
+      "texto": "Avaliação do estado geral e nível de alerta",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ativo, reativo, sem sinais de toxemia."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Deficiência de adesão leucocitária (LAD)",
+      "correta": true
+    },
+    {
+      "texto": "Onfalite bacteriana simples em recém-nascido saudável",
+      "correta": false
+    },
+    {
+      "texto": "Doença granulomatosa crônica",
+      "correta": false
+    },
+    {
+      "texto": "Imunodeficiência combinada grave (SCID)",
+      "correta": false
+    },
+    {
+      "texto": "Deficiência seletiva de IgA",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Hemograma completo com diferencial",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose acentuada e persistente à custa de neutrófilos, mesmo sem pus no local da infecção — neutrófilos presos na circulação, sem migrar pro tecido."
+    },
+    {
+      "texto": "Citometria de fluxo para CD18 em leucócitos",
+      "custo": 14,
+      "relevante": true,
+      "resposta": "Expressão de CD18 (integrina beta-2) ausente ou muito reduzida na superfície dos neutrófilos — confirma o defeito de adesão."
+    },
+    {
+      "texto": "Dosagem de imunoglobulinas séricas",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Dentro da faixa esperada para a idade — a imunidade humoral não é o problema principal aqui."
+    },
+    {
+      "texto": "Teste do pezinho ampliado",
+      "custo": 6,
+      "relevante": false,
+      "resposta": "Sem alterações relevantes adicionais nesse momento."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Encaminhar para imunologia pediátrica, profilaxia rigorosa de infecções e avaliação para transplante de células-tronco hematopoiéticas",
+      "correta": true
+    },
+    {
+      "texto": "Tranquilizar a família de que é só atraso normal na queda do coto e dar alta sem investigação",
+      "correta": false
+    },
+    {
+      "texto": "Prescrever apenas pomada antibiótica tópica e reavaliar em 1 mês",
+      "correta": false
+    }
+  ],
+  "explicacao": "A deficiência de adesão leucocitária (LAD tipo 1) é causada por mutações no gene que codifica a integrina beta-2 (CD18), molécula de adesão essencial para os neutrófilos aderirem ao endotélio vascular e migrarem para o tecido infectado — exatamente o processo que o material de aula sobre moléculas de adesão e recirculação linfocitária descreve como o 'sistema de endereçamento' das células de defesa. Sem esse endereçamento, os neutrófilos ficam circulando no sangue (daí a leucocitose marcante) mas não conseguem chegar ao local da infecção — por isso não há formação de pus, e as infecções (como a onfalite que atrasa a queda do coto umbilical, achado clássico e precoce da doença) não cicatrizam bem, nem geram a reação inflamatória local esperada. É uma imunodeficiência primária grave, com risco de infecções bacterianas recorrentes e potencialmente fatais, exigindo diagnóstico precoce e encaminhamento especializado."
+}

@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-10-01-facil",
+  "tema": "Tema 10 · Controle hormonal e regulação do metabolismo",
+  "materia_relacionada": "Este caso aplica o eixo hipotálamo-hipófise-tireoide e o mecanismo de retroalimentação negativa (TSH alto quando a tireoide falha) — visto na aula sobre controle hormonal e regulação do metabolismo.",
+  "area": "Endocrinologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 39,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, ultimamente eu só sinto cansaço, ganhei uns quilos sem mudar nada na comida, minha pele está seca e eu sinto muito frio, mesmo quando todo mundo em casa está de ventilador ligado.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "108/70",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "58",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "35.9",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "14",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "98",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Cansaço, ganho de peso, intolerância ao frio, bradicardia... isso é o metabolismo dela funcionando devagar demais. Pensem em qual eixo hormonal controla a taxa metabólica basal do corpo inteiro.",
+    "piBaixo": "Não precisa pedir uma bateria enorme de exames aqui — o diagnóstico é mais direto do que parece.",
+    "fechamento": "TSH alto com T4 livre baixo: o eixo está tentando gritar mais forte pra uma tireoide que não responde. Clássico hipotireoidismo primário.",
+    "dicas": [
+      "Todos esses sintomas apontam pra um metabolismo funcionando devagar demais — qual glândula regula a taxa metabólica basal do corpo?",
+      "Se a glândula-alvo produz pouco hormônio, o que a hipófise faz em resposta a isso? Isso ajuda a interpretar o TSH.",
+      "O reflexo aquileu lentificado é um achado físico clássico e simples de checar nessa condição."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Há quanto tempo esses sintomas vêm aparecendo?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "De forma bem gradual, ao longo dos últimos 6 meses."
+    },
+    {
+      "texto": "Notou queda de cabelo ou unhas quebradiças?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, o cabelo está caindo mais que o normal e as unhas ficaram fracas."
+    },
+    {
+      "texto": "Tem alteração no ciclo menstrual?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, os ciclos ficaram mais irregulares e o fluxo mais intenso."
+    },
+    {
+      "texto": "Tem histórico familiar de doença de tireoide?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, a mãe tem hipotireoidismo e faz uso de medicação."
+    },
+    {
+      "texto": "Teve alguma infecção recente ou uso de contraste iodado?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nenhum dos dois."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação da tireoide",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Tireoide discretamente aumentada, de consistência firme e indolor, sem nódulos palpáveis."
+    },
+    {
+      "texto": "Avaliação da pele e cabelo",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Pele seca e áspera, cabelo fino e quebradiço."
+    },
+    {
+      "texto": "Avaliação do reflexo aquileu (fase de relaxamento)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Reflexo aquileu com fase de relaxamento lentificada — achado clássico de hipotireoidismo."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bradicárdica, ritmo regular, sem sopros."
+    },
+    {
+      "texto": "Palpação de linfonodos cervicais",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem linfonodomegalias."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Hipotireoidismo primário (provável tireoidite de Hashimoto)",
+      "correta": true
+    },
+    {
+      "texto": "Tempestade tireotóxica",
+      "correta": false
+    },
+    {
+      "texto": "Síndrome de Cushing",
+      "correta": false
+    },
+    {
+      "texto": "Depressão maior isolada",
+      "correta": false
+    },
+    {
+      "texto": "Anemia ferropriva isolada",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "TSH e T4 livre",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "TSH muito elevado com T4 livre baixo — confirma hipotireoidismo primário (a hipófise está tentando estimular uma tireoide que não responde)."
+    },
+    {
+      "texto": "Anti-TPO (anticorpo antiperoxidase tireoidiana)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Fortemente positivo — sugere etiologia autoimune (tireoidite de Hashimoto)."
+    },
+    {
+      "texto": "Ultrassonografia de tireoide",
+      "custo": 12,
+      "relevante": false,
+      "resposta": "Glândula heterogênea, sem nódulos suspeitos — não muda a conduta inicial."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Discreta anemia normocítica, achado secundário comum, não é o exame que fecha o diagnóstico."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Reposição de levotiroxina com ajuste de dose por TSH seriado",
+      "correta": true
+    },
+    {
+      "texto": "Betabloqueador para controle da frequência cardíaca",
+      "correta": false
+    },
+    {
+      "texto": "Iodo radioativo para ablação da tireoide",
+      "correta": false
+    }
+  ],
+  "explicacao": "O eixo hipotálamo-hipófise-tireoide regula a taxa metabólica basal do corpo: o hipotálamo libera TRH, que estimula a hipófise a secretar TSH, que por sua vez estimula a tireoide a produzir T3/T4. Na tireoidite de Hashimoto, autoanticorpos (anti-TPO) atacam progressivamente a glândula, reduzindo sua capacidade de produzir hormônio — a hipófise, sensível à queda de T4 livre, aumenta a secreção de TSH numa tentativa de compensação, por isso o TSH alto é o marcador mais sensível de hipotireoidismo primário. Clinicamente, a redução do metabolismo basal explica todo o quadro: fadiga, ganho de peso, intolerância ao frio (menor termogênese), bradicardia, pele seca e reflexos lentificados (menor renovação celular e menor sensibilidade adrenérgica). O tratamento é simples e eficaz — reposição de levotiroxina, titulada pelo TSH até normalização."
+}

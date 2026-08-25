@@ -1,0 +1,171 @@
+{
+  "id": "uc3-tema-03-01-facil",
+  "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+  "materia_relacionada": "Este caso trabalha a correlação entre achado de imagem mamário e confirmação histopatológica — conteúdo da aula sobre ferramentas do diagnóstico patológico.",
+  "area": "Oncologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 48,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, percebi um caroço duro na minha mama esquerda há um mês e sinto que ele está aumentando de tamanho.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "122/78",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "74",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "36.6",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "16",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "99",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Nódulo mamário no consultório. Lembre-se do raciocínio patológico: a imagem mostra a alteração morfológica, mas só o estudo histopatológico e a imuno-histoquímica revelam a patogênese e guiam a terapia.",
+    "piBaixo": "Atenção com seus pontos de investigação. Na patologia, escolher a biópsia certa economiza tempo e recursos preciosos.",
+    "fechamento": "Muito bem! O diagnóstico histopatológico associado à imuno-histoquímica não serve apenas para dar nome à doença, mas para quantificar marcadores biológicos e direcionar a terapia-alvo.",
+    "dicas": [
+      "Um nódulo endurecido, de bordas irregulares e fixo é bem diferente ao toque de um cisto simples.",
+      "Pensa em qual exame de imagem é o padrão de rastreio, e qual é o exame que fecha o diagnóstico definitivo.",
+      "A idade e o histórico familiar mudam bastante a probabilidade pré-teste aqui."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Há quanto tempo notou o nódulo e se houve modificação de tamanho?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Notou há cerca de 30 dias e percebeu crescimento progressivo, indolor."
+    },
+    {
+      "texto": "Existe histórico familiar de câncer de mama ou ovário na família?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, a mãe teve câncer de mama aos 49 anos."
+    },
+    {
+      "texto": "Apresenta saída de secreção purulenta ou vermelhidão intensa na mama?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não refere febre, secreção purulenta ou calor local."
+    },
+    {
+      "texto": "Notou relação do aparecimento do nódulo com a alimentação?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não notou qualquer relação com dieta."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação das mamas e das cadeias linfonodais axilares",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Nódulo endurecido de 2,5 cm em quadrante superior externo da mama esquerda, aderido aos planos profundos. Linfonodo palpável e endurecido em axila esquerda."
+    },
+    {
+      "texto": "Inspeção estática e dinâmica da pele e complexo aréolo-papilar",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Discreta retração de pele adjacente ao nódulo no quadrante superior externo esquerdo."
+    },
+    {
+      "texto": "Ausculta cardíaca e pulmonar",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sons cardíacos normofonéticos sem sopros; murmúrio vesicular preservado bilateralmente."
+    },
+    {
+      "texto": "Palpação da glândula tireoide",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Tireoide de tamanho normal, sem nódulos palpáveis."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Carcinoma ductal invasivo de mama",
+      "correta": true
+    },
+    {
+      "texto": "Fibroadenoma mamário",
+      "correta": false
+    },
+    {
+      "texto": "Cisto mamário simples",
+      "correta": false
+    },
+    {
+      "texto": "Mastite bacteriana com abscesso",
+      "correta": false
+    },
+    {
+      "texto": "Lipoma subcutâneo mamário",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Mamografia bilateral com ultrassonografia das mamas",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Nódulo denso, denso-espiculado, com microcalcificações pleomórficas no QSE da mama esquerda (BI-RADS 5)."
+    },
+    {
+      "texto": "Biópsia por agulha grossa (Core Biopsy) com histopatologia e imuno-histoquímica",
+      "custo": 16,
+      "relevante": true,
+      "resposta": "Histopatologia (H&E): Carcinoma ductal invasivo. Imuno-histoquímica: Receptores de Estrogênio e Progesterona positivos; superexpressão da proteína HER2 (3+)."
+    },
+    {
+      "texto": "Hemograma completo com contagem de plaquetas",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Hemoglobina 13,5 g/dL, Leucócitos 6.200/mm³, Plaquetas 230.000/mm³."
+    },
+    {
+      "texto": "Dosagem de Proteína C Reativa (PCR)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "PCR em 1,1 mg/L (valor de referência < 5,0 mg/L)."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Encaminhar para estadiamento e planejamento terapêutico oncológico com terapia-alvo (anti-HER2) e hormonoterapia",
+      "correta": true
+    },
+    {
+      "texto": "Prescrever antibioticoterapia oral por 14 dias e reavaliar em 1 mês",
+      "correta": false
+    },
+    {
+      "texto": "Orientar conduta expectante com nova ultrassonografia em 6 meses",
+      "correta": false
+    }
+  ],
+  "explicacao": "O caso ilustra a evolução do diagnóstico patológico: da alteração morfológica macroscópica/imagiológica (massa espiculada BI-RADS 5) até a caracterização biomolecular. A alteração bioquímica e genética primária (etiologia/patogênese da neoplasia) resulta na perda de controle do ciclo celular e proliferação atípica. A análise microscópica por hematoxilina-eosina (H&E) confirma o diagnóstico de carcinoma ductal invasivo, enquanto a imuno-histoquímica quantifica proteínas específicas (receptores hormonais e HER2), permitindo a escolha de terapias-alvo direcionadas."
+}

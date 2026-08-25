@@ -1,0 +1,40 @@
+{
+  "name": "jogo-uc3",
+  "version": "0.1.0",
+  "description": "Jogo Clínico UC3 — raciocínio diagnóstico para a graduação em Medicina",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.0.0"
+  },
+  "build": {
+    "appId": "br.usp.jogouc3",
+    "productName": "Jogo Clínico UC3",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "preload.js",
+      "src/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.education"
+    }
+  },
+  "allowScripts": {
+    "electron@33.4.11": true
+  }
+}

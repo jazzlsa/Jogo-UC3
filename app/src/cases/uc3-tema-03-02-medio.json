@@ -1,0 +1,193 @@
+{
+  "id": "uc3-tema-03-02-medio",
+  "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+  "materia_relacionada": "Este caso trabalha achados endoscópicos/patológicos de uma lesão subepitelial do trato digestivo — conteúdo da aula sobre ferramentas do diagnóstico patológico.",
+  "area": "Oncologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, venho sentindo uma queimação chata no estômago há dois meses, e há quatro dias minhas fezes saíram bem escuras, parecendo graxa.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "110/70",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "96",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.6",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "16",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "97",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Massa gástrica submucosa com sangramento. A microscopia óptica comum vê células fusiformes, mas quem diferencia esse tumor e aponta a terapia-alvo é a patologia molecular e imunohistoquímica. Use seus pontos com sabedoria.",
+    "piBaixo": "Economize seus recursos! Patologia de precisão exige saber exatamente qual marcador pedir na imunohistoquímica, não sair solicitando o painel inteiro sem raciocínio.",
+    "fechamento": "Excelente raciocínio. A hematoxilina-eosina mostrou tumor mesenquimal fusocelular, mas foi o marcador CD117 (c-KIT) na imunohistoquímica que carimbou o diagnóstico de GIST e abriu portas para o tratamento com inibidor de tirosina quinase.",
+    "dicas": [
+      "Uma lesão que cresce por baixo da mucosa (não a partir dela) sugere uma origem diferente de um adenocarcinoma comum.",
+      "Pensa em qual camada da parede do tubo digestivo tem células com potencial de originar esse tipo de tumor.",
+      "A imuno-histoquímica tem um marcador bem característico pra confirmar esse diagnóstico."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Apresentou episódios de fezes escurecidas (melena) ou vômitos com sangue?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, refere 3 episódios de fezes enegrecidas e fétidas nos últimos 4 dias, sem hematêmese."
+    },
+    {
+      "texto": "Teve perda de peso não intencional ou saciedade precoce?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, perdeu cerca de 5 kg nos últimos 2 meses e sente empachamento logo no início das refeições."
+    },
+    {
+      "texto": "Usa anti-inflamatórios não esteroides (AINEs) ou aspirina diariamente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega uso frequente de analgésicos ou anti-inflamatórios."
+    },
+    {
+      "texto": "Possui histórico pessoal de doença de Chagas ou disfagia grave?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega disfagia e não possui antecedentes para Chagas."
+    },
+    {
+      "texto": "Há histórico familiar de câncer de estômago ou cólon em parentes de 1º grau?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Sem histórico de neoplasias gastrointestinais conhecidas na família."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação abdominal profunda de epigástrio",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Massa bem delimitada, endurecida e discretamente dolorosa palpável em epigástrio."
+    },
+    {
+      "texto": "Avaliação de palidez mucocutânea",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Mucosas hipocoradas ++/4+, sugerindo anemia crônica ou sangramento ativo."
+    },
+    {
+      "texto": "Toque retal com inspeção da luva",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Presença de fezes melênicas (escurecidas e pegajosas) no dedo de luva, sem lesões anorretais."
+    },
+    {
+      "texto": "Pesquisa de linfonodo supraclavicular esquerdo (Virchow)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausência de linfadenopatia supraclavicular ou axilar."
+    },
+    {
+      "texto": "Pesquisa do sinal de Murphy",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sinal de Murphy negativo em hipocôndrio direito."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Tumor Estromal Gastrointestinal (GIST)",
+      "correta": true
+    },
+    {
+      "texto": "Adenocarcinoma gástrico ulcerado",
+      "correta": false
+    },
+    {
+      "texto": "Leiomioma gástrico",
+      "correta": false
+    },
+    {
+      "texto": "Schwannoma gástrico",
+      "correta": false
+    },
+    {
+      "texto": "Linfoma gástrico MALT",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Endoscopia Digestiva Alta (EDA) com biópsia",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Lesão expansiva submucosa em corpo gástrico com ulceração central apical. Biópsias profundas realizadas."
+    },
+    {
+      "texto": "Exame Histopatológico convencional (Coloração por Hematoxilina-Eosina)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Neoplasia mesenquimal composta por proliferação de células fusiformes arranjadas em feixes interlaciados. Impossível diferenciar etiologia apenas pelo HE."
+    },
+    {
+      "texto": "Imunohistoquímica (Painel: CD117/c-KIT, DOG-1, S100, Desmina)",
+      "custo": 15,
+      "relevante": true,
+      "resposta": "Positividade difusa e intensa para CD117 (c-KIT) e DOG-1; negatividade para S100 e Desmina."
+    },
+    {
+      "texto": "TC de abdome e pelve com contraste",
+      "custo": 14,
+      "relevante": false,
+      "resposta": "Massa exofítica bem delimitada de 5,8 cm originada da parede gástrica, sem linfadenopatias regionais ou implantes peritoneais."
+    },
+    {
+      "texto": "Dosagem de Marcadores Tumorais Séricos (CEA e CA 19-9)",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "CEA e CA 19-9 dentro dos limites da normalidade."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Ressecção cirúrgica da lesão gástrica e avaliação de terapia-alvo adjuvante com Imatinibe (inibidor de tirosina quinase)",
+      "correta": true
+    },
+    {
+      "texto": "Gastrectomia total com linfadenectomia D2 e quimioterapia citotóxica baseada em Fluorouracil e Cisplatina",
+      "correta": false
+    },
+    {
+      "texto": "Tratamento conservador com inibidor de bomba de prótons e erradicação de Helicobacter pylori",
+      "correta": false
+    },
+    {
+      "texto": "Acompanhamento endoscópico semestral sem intervenção imediata",
+      "correta": false
+    }
+  ],
+  "explicacao": "O quadro de massa submucosa gástrica ulcerada acompanhada de sangramento (melena) levanta a hipótese de neoplasia mesenquimal. Na análise morfológica básica por Hematoxilina-Eosina (HE), identificou-se proliferação de células fusiformes, achado comum ao Tumor Estromal Gastrointestinal (GIST), Leiomioma e Schwannoma. A diferenciação precisa exigiu a aplicação da imunohistoquímica, uma ferramenta patológica fundamental. A positividade para CD117 (expressão do receptor c-KIT com atividade tirosina quinase) e DOG-1, aliada à negatividade para Desmina (músculo liso) e S100 (origem neural), confirma que a lesão se origina das células intersticiais de Cajal, caracterizando o GIST. A patogênese do GIST é impulsionada por mutações ativadoras no gene KIT, o que torna essa neoplasia responsiva ao inibidor de tirosina quinase (Imatinibe), demonstrando como o diagnóstico patológico morfológico e molecular guia diretamente a terapia-alvo."
+}

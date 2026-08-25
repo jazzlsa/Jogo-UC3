@@ -1,0 +1,31 @@
+# --- Node / Electron / Capacitor ---
+node_modules/
+app/dist/
+app/out/
+mobile/android/
+mobile/ios/
+npm-debug.log*
+
+# --- Python (tools/) ---
+tools/venv/
+tools/.venv/
+__pycache__/
+*.pyc
+
+# --- Segredos e credenciais ---
+.env
+.env.*
+!.env.example
+tools/config/credentials.json
+
+# --- Conteúdo gerado / não é código ---
+data/uc3_resumos/
+
+# --- Assinatura Android ---
+*.keystore
+*.jks
+
+# --- Editor / SO ---
+.vscode/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,193 @@
+{
+  "id": "uc3-tema-02-06-dificil",
+  "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
+  "materia_relacionada": "Este caso explora a ressonância magnética como exame de escolha pra infecção da coluna vertebral — conteúdo da aula sobre ferramentas do diagnóstico radiológico.",
+  "area": "Ortopedia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, estou com uma dor insuportável no meio das costas há duas semanas que só piora, e comecei a ter febre e fraqueza nas pernas desde ontem.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "130/82",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "102",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "38.3",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "20",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "97",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente com dor lombar intensa e febre. Cuidado para não pedir raio-X achando que vai resolver o problema de partes moles e canal vertebral. Escolha o método de imagem com critério clínico.",
+    "piBaixo": "Seu saldo de PI está muito baixo e você ainda não escolheu a modalidade de imagem com maior resolução de tecidos moles. Lembre-se do que a Profa. Claudia Leite ensinou!",
+    "fechamento": "Perfeito! A Ressonância Magnética é o método soberano para tecidos moles, espaço discal e canal epidural. Raio-X e TC isolados no início poderiam ter comido bola.",
+    "dicas": [
+      "Dor lombar que piora à noite e não melhora com repouso foge do padrão de dor mecânica comum.",
+      "Febre associada a dor na coluna é um sinal de alarme que muda todo o raciocínio.",
+      "Pensa em uma via de disseminação bacteriana que consegue chegar até o disco intervertebral pela corrente sanguínea."
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor lombar piora à noite e ao repouso, sem alívio com analgésicos?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, a dor é contínua, acorda o paciente de noite e não melhora deitado."
+    },
+    {
+      "texto": "Histórico de procedimentos invasivos, infecções recentes ou diabetes?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, é diabético tipo 2 e realizou tratamento de canal dentário infectado há 3 semanas."
+    },
+    {
+      "texto": "Apresentou febre, calafrios ou sudorese noturna?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, febre aferida de 38,5°C e calafrios diários nos últimos 3 dias."
+    },
+    {
+      "texto": "Houve alteração na força muscular dos membros inferiores ou no controle esfincteriano?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, refere pernas pesadas ao andar e dificuldade recente para urinar."
+    },
+    {
+      "texto": "A dor piora com a flexão do tronco e alivia imediatamente ao sentar?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor é constante e não muda significativamente com a posição do tronco."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Percussão localizada dos processos espinhosos da coluna lombar",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Dor de forte intensidade à percussão digital sobre L3 e L4."
+    },
+    {
+      "texto": "Exame motor e de reflexos osteotendíneos nos membros inferiores",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Paresia grau 4/5 para dorsiflexão e extensão do hálux à direita; reflexo patelar direito hipoativo."
+    },
+    {
+      "texto": "Pesquisa de sensibilidade perineal (região em sela)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Hipoestesia tátil e dolorosa na região perineal e dermatomo de L4/L5 à direita."
+    },
+    {
+      "texto": "Manobra de Lasègue bilateral",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Discretamente positiva a 60 graus por dor lombar local, sem irradiação neuropática nítida até o pé."
+    },
+    {
+      "texto": "Palpação de pulsos femorais, poplíteos e pediosos",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Pulsos amplos e simétricos em ambos os membros inferiores."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Espondilodiscite infecciosa com abscesso epidural",
+      "correta": true
+    },
+    {
+      "texto": "Hérnia discal lombar aguda com radiculopatia L4-L5",
+      "correta": false
+    },
+    {
+      "texto": "Metástase óssea vertebral com compressão medular",
+      "correta": false
+    },
+    {
+      "texto": "Espondiloartrose degenerativa com estenose de canal",
+      "correta": false
+    },
+    {
+      "texto": "Abscesso de psoas isolado",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Ressonância Magnética de coluna lombossacra com contraste",
+      "custo": 16,
+      "relevante": true,
+      "resposta": "Hipersinal em T2 e realce pós-contraste do disco L3-L4 e corpos vertebrais adjacentes (espondilodiscite), com coleção liquida epidural anterior de 8 mm determinando compressão do saco dural."
+    },
+    {
+      "texto": "Tomografia Computadorizada de coluna lombossacra sem contraste",
+      "custo": 12,
+      "relevante": false,
+      "resposta": "Pequeno erosamento subcondral nos platôs de L3-L4, mas sem adequada caracterização do canal epidural ou partes moles."
+    },
+    {
+      "texto": "Radiografia simples de coluna lombossacra (AP e Perfil)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Discreta redução do espaço intervertebral L3-L4, sem lesões líticas ou blásticas grosseiras."
+    },
+    {
+      "texto": "Hemograma e Prova de Fase Aguda (PCR e VHS)",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose de 15.800/mm³ com 7% de bastões. PCR: 148 mg/L (VR < 5). VHS: 92 mm/h."
+    },
+    {
+      "texto": "Hemoculturas (2 pares de sítios distintos)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Coletadas e enviadas ao laboratório (resultado prévio positivo para Cocos Gram-positivos em grumos)."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Internação hospitalar, hemoculturas, antibioticoterapia venosa empírica e avaliação neurocirúrgica urgente para descompressão",
+      "correta": true
+    },
+    {
+      "texto": "Analgesia otimizada com opioides por via oral, repouso no leito e alta hospitalar com tomografia de controle em 14 dias",
+      "correta": false
+    },
+    {
+      "texto": "Infiltração de corticoide epidural guiada por fluoroscopia e alta com analgésicos",
+      "correta": false
+    },
+    {
+      "texto": "Corticoterapia em dose alta por via oral e acompanhamento ambulatorial na ortopedia",
+      "correta": false
+    }
+  ],
+  "explicacao": "A espondilodiscite acompanhada de abscesso epidural é uma urgência médica que exige diagnóstico precoce. O quadro clínico de dor lombar de caráter inflamatório (piora no repouso/noite), associado a febre, elevação marcante de PCR/VHS e déficits neurológicos (paresia e hipoestesia perineal) indica comprometimento infeccioso expansivo na coluna. Sob a ótica das Ferramentas de Diagnóstico Radiológico, a Radiografia simples e a Tomografia Computadorizada sem contraste apresentam baixa sensibilidade inicial para tecidos moles e conteúdo intracanal. A Ressonância Magnética (RM) com contraste é o exame de escolha devido à sua altíssima resolução para partes moles, sendo capaz de caracterizar a inflamação discal, a extensão aos corpos vertebrais e o abscesso epidural. O manejo correto envolve internação imediata, colheita de culturas, antibioticoterapia parenteral cobrindo estafilococos e avaliação urgente da neurocirurgia para drenagem e descompressão."
+}
