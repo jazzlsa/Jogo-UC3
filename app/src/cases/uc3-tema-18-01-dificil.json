@@ -1,6 +1,6 @@
 {
   "id": "uc3-tema-18-01-dificil",
-  "tema": "Tema 18 · Recombinação Gênica e Diversidade de Imunoglobulinas",
+  "tema": "Tema 18 · Diversidade do Sistema Imune Adaptativo",
   "materia_relacionada": "Este caso aplica diretamente o mecanismo de recombinação V(D)J visto na aula: os genes que montam o receptor de antígeno de linfócitos T e B, e não só de imunoglobulinas, dependem da mesma maquinaria de recombinação (RAG1/RAG2). Quando essa maquinaria falha, os dois braços da imunidade adaptativa (humoral e celular) deixam de existir ao mesmo tempo, mas células NK, que não usam essa recombinação, continuam presentes, um padrão que só faz sentido conhecendo o mecanismo molecular por trás.",
   "area": "Imunologia",
   "prova": "P1",

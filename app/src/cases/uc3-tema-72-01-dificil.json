@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-72-01-dificil",
+  "tema": "Tema 72 · Regulação do Sistema Imune",
+  "materia_relacionada": "Este caso aplica diretamente o papel dos linfócitos T reguladores visto na aula: esse grupo de células existe justamente para 'segurar' o sistema imune e impedir que ele ataque os próprios órgãos do corpo. Quando o desenvolvimento dessas células falha desde o nascimento, a autoimunidade se instala em múltiplos órgãos ao mesmo tempo, exatamente a consequência de uma resposta imune sem regulação discutida na aula.",
+  "area": "Imunologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 0,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, meu filho tem diarreia líquida direto desde os dois meses de vida, foi diagnosticado com diabetes com 4 meses, e agora está com um eczema espalhado pelo corpo todo que não sara.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "82/50", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "138", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "37.0", "u": "°C", "flag": false },
+    { "l": "FR", "v": "34", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Bebê de 7 meses, diarreia grave desde os 2 meses, diabetes diagnosticado muito cedo, e agora eczema espalhado. Três órgãos diferentes sendo atacados ao mesmo tempo não é coincidência.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Faltava um time inteiro de células cuja única função era seguraras outras. Sem elas, o próprio corpo virou alvo em três frentes ao mesmo tempo.",
+    "dicas": [
+      "Releia com atenção com que idade ele foi diagnosticado com diabetes, e se a diarreia melhora ou não quando tiram algum alimento específico da dieta.",
+      "Pensa em como um grupo específico de linfócitos T existe justamente pra conter o sistema imune e impedir que ele ataque os próprios órgãos do corpo, e o que aconteceria se esse grupo de células simplesmente não funcionasse desde o nascimento.",
+      "Que síndrome genética, ligada ao X e causada por mutação num gene essencial pro desenvolvimento desses linfócitos T reguladores, explica diabetes muito precoce, diarreia autoimune grave e eczema ao mesmo tempo, por falta de controle sobre múltiplos órgãos simultaneamente?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Com que idade exatamente ele foi diagnosticado com diabetes?", "custo": 2, "relevante": true, "resposta": "Foi diagnosticado com diabetes aos 4 meses de idade, uma idade bem incomum." },
+    { "texto": "A diarreia melhora quando tiram glúten ou algum alimento específico da dieta?", "custo": 2, "relevante": true, "resposta": "Já tentaram tirar vários alimentos, inclusive glúten, sem nenhuma melhora." },
+    { "texto": "Tem histórico familiar de tios maternos com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Um tio materno morreu ainda bebê com um quadro parecido de diarreia grave e diabetes." },
+    { "texto": "Já teve sangramento fácil ou manchas roxas na pele, além do eczema?", "custo": 2, "relevante": false, "resposta": "Sem sangramento fácil ou manchas roxas, só o eczema mesmo." },
+    { "texto": "Teve alguma infecção grave incomum, como pneumonia por fungo?", "custo": 2, "relevante": false, "resposta": "Não teve nenhuma infecção grave incomum até agora." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção da pele (extensão e características do eczema)", "custo": 3, "relevante": true, "resposta": "Eczema extenso, avermelhado e descamativo, cobrindo grande parte do tronco e membros." },
+    { "texto": "Avaliação de sinais de desidratação e desnutrição", "custo": 3, "relevante": true, "resposta": "Sinais importantes de desidratação e peso bem abaixo do esperado para a idade." },
+    { "texto": "Avaliação de petéquias ou sangramento cutâneo", "custo": 3, "relevante": false, "resposta": "Ausentes." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome IPEX (mutação no gene FOXP3, deficiência de linfócitos T reguladores)", "correta": true },
+    { "texto": "Diabetes tipo 1 isolado", "correta": false },
+    { "texto": "Doença celíaca", "correta": false },
+    { "texto": "Alergia alimentar múltipla", "correta": false },
+    { "texto": "Imunodeficiência combinada grave (SCID)", "correta": false },
+    { "texto": "Síndrome de Wiskott-Aldrich", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Glicemia e peptídeo C", "custo": 8, "relevante": true, "resposta": "Glicemia elevada com peptídeo C muito baixo, confirmando insulinopenia." },
+    { "texto": "Biópsia intestinal", "custo": 16, "relevante": true, "resposta": "Enteropatia autoimune com infiltrado linfocitário e atrofia vilositária, sem relação com a retirada de glúten." },
+    { "texto": "Painel de autoanticorpos (anti-ilhota, antitireoidianos, entre outros)", "custo": 14, "relevante": true, "resposta": "Múltiplos autoanticorpos positivos, sugerindo autoimunidade poliglandular." },
+    { "texto": "Sequenciamento genético do gene FOXP3", "custo": 18, "relevante": true, "resposta": "Mutação patogênica identificada no gene FOXP3." },
+    { "texto": "Contagem de plaquetas", "custo": 8, "relevante": false, "resposta": "Contagem de plaquetas normal, afastando síndrome de Wiskott-Aldrich." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar imunossupressão sistêmica para controlar a autoimunidade multiorgânica e avaliar transplante de células-tronco hematopoiéticas como tratamento potencialmente curativo", "correta": true },
+    { "texto": "Tratar apenas com insulina, sem abordar a autoimunidade sistêmica", "correta": false },
+    { "texto": "Iniciar dieta isenta de glúten isolada, sem imunossupressão", "correta": false },
+    { "texto": "Repor apenas imunoglobulina intravenosa isolada", "correta": false }
+  ],
+  "explicacao": "Os linfócitos T reguladores (Treg), cujo desenvolvimento depende do gene FOXP3, são responsáveis por manter a tolerância imunológica, impedindo que o sistema imune ataque antígenos próprios. Na síndrome IPEX, uma mutação no FOXP3 (ligada ao X) impede o desenvolvimento funcional dessas células, levando a autoimunidade grave e precoce em múltiplos órgãos: diabetes tipo 1 de início muito precoce (por ataque autoimune às células beta pancreáticas), enteropatia autoimune grave (diarreia que não melhora com exclusão alimentar, diferente da doença celíaca) e eczema extenso. A ausência de sangramento fácil e a contagem de plaquetas normal afastam a síndrome de Wiskott-Aldrich, outra imunodeficiência ligada ao X com eczema, mas que cursa com trombocitopenia. A confirmação genética da mutação em FOXP3 fecha o diagnóstico, e o tratamento definitivo, dada a gravidade multissistêmica, é o transplante de células-tronco hematopoiéticas, com imunossupressão sistêmica como ponte até lá."
+}

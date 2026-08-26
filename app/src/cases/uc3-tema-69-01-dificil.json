@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-69-01-dificil",
+  "tema": "Tema 69 · Distúrbios da Coagulação e Obstrução Vascular",
+  "materia_relacionada": "Este caso aplica a tríade de Virchow e o conceito de embolia visto na aula: um coágulo formado numa veia profunda da perna (trombose) pode se soltar (êmbolo), viajar pela circulação venosa até o lado direito do coração e ficar preso numa artéria pulmonar mais estreita, causando infarto do território pulmonar irrigado por ela, uma sequência direta entre trombose, embolia e infarto discutida na aula.",
+  "area": "Pneumologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 45,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, de repente comecei a sentir muita falta de ar e uma dor no lado direito do peito que piora quando eu respiro fundo. Voltei de uma viagem de avião de 14 horas há três dias.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "118", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "37.2", "u": "°C", "flag": false },
+    { "l": "FR", "v": "28", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "91", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Mulher de 45 anos, falta de ar súbita e dor pleurítica, voltou de uma viagem longa de avião há poucos dias. Não esquece de examinar as pernas dela antes de pensar só no pulmão ou no coração.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O problema não começou no pulmão dela. Começou bem longe dali, numa veia da perna, e viajou até ficar preso onde não devia.",
+    "dicas": [
+      "Releia com atenção se ela fez alguma viagem longa ou ficou muito tempo imóvel recentemente, e como está a perna dela.",
+      "Pensa em como um coágulo formado numa veia profunda da perna pode se soltar, viajar pela circulação venosa, passar pelo lado direito do coração, e ficar preso numa artéria bem mais estreita, nos pulmões.",
+      "Que exame de imagem, feito com contraste específico pra vasos pulmonares, mostra diretamente uma falha de enchimento dentro da artéria pulmonar, confirmando a obstrução por um êmbolo vindo de outro lugar do corpo?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Fez alguma viagem longa, cirurgia recente ou ficou muito tempo imóvel nos últimos dias?", "custo": 2, "relevante": true, "resposta": "Voltou há três dias de uma viagem de avião de 14 horas." },
+    { "texto": "Notou inchaço ou dor em uma das pernas?", "custo": 2, "relevante": true, "resposta": "Sim, a perna direita está inchada e um pouco dolorida desde ontem." },
+    { "texto": "Essa falta de ar começou de repente ou foi piorando aos poucos?", "custo": 2, "relevante": true, "resposta": "Foi bem súbita, começou de uma hora para outra." },
+    { "texto": "Usa anticoncepcional hormonal ou tem câncer ativo em tratamento?", "custo": 2, "relevante": true, "resposta": "Usa anticoncepcional oral combinado há anos." },
+    { "texto": "Teve tosse com sangue?", "custo": 2, "relevante": true, "resposta": "Teve um episódio de escarro com raias de sangue hoje." },
+    { "texto": "Tem histórico de ataques de pânico ou ansiedade diagnosticada antes?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de ansiedade ou pânico." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de assimetria e dor na panturrilha (sinal de Homans)", "custo": 3, "relevante": true, "resposta": "Panturrilha direita mais inchada que a esquerda, dolorida à palpação." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Ausculta pulmonar praticamente normal, sem estertores ou sibilos localizados, achado que não exclui o diagnóstico." },
+    { "texto": "Avaliação de pulsos em quatro membros (assimetria)", "custo": 3, "relevante": false, "resposta": "Pulsos simétricos e presentes nos quatro membros." },
+    { "texto": "Ausculta cardíaca em busca de atrito pericárdico", "custo": 3, "relevante": false, "resposta": "Sem atrito pericárdico à ausculta." }
+  ],
+  "hipoteses": [
+    { "texto": "Embolia pulmonar aguda secundária a trombose venosa profunda", "correta": true },
+    { "texto": "Pneumonia", "correta": false },
+    { "texto": "Pneumotórax espontâneo", "correta": false },
+    { "texto": "Crise de ansiedade/síndrome do pânico", "correta": false },
+    { "texto": "Síndrome coronariana aguda", "correta": false },
+    { "texto": "Dissecção aguda de aorta", "correta": false }
+  ],
+  "exames": [
+    { "texto": "D-dímero", "custo": 10, "relevante": true, "resposta": "Marcadamente elevado." },
+    { "texto": "Angiotomografia de tórax", "custo": 18, "relevante": true, "resposta": "Falha de enchimento em ramo da artéria pulmonar direita, compatível com êmbolo." },
+    { "texto": "Eletrocardiograma", "custo": 8, "relevante": true, "resposta": "Taquicardia sinusal, sem sinais de isquemia coronariana." },
+    { "texto": "Gasometria arterial", "custo": 12, "relevante": true, "resposta": "Hipoxemia com alcalose respiratória, compatível com hiperventilação por hipóxia." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar anticoagulação plena imediatamente, considerando trombólise se houver instabilidade hemodinâmica", "correta": true },
+    { "texto": "Iniciar antibioticoterapia empírica, tratando como pneumonia", "correta": false },
+    { "texto": "Prescrever ansiolítico isolado, tratando como crise de pânico", "correta": false },
+    { "texto": "Apenas observação clínica, sem tratamento específico", "correta": false }
+  ],
+  "explicacao": "A imobilização prolongada (voo longo) e o uso de anticoncepcional hormonal são fatores de risco clássicos para trombose venosa profunda, que aqui se manifesta como edema e dor unilateral na perna direita. Um fragmento desse trombo se desprendeu (embolizou), viajou pela veia cava até o átrio e ventrículo direitos, e se alojou num ramo da artéria pulmonar, causando infarto do território pulmonar correspondente, explicando a dispneia súbita, a dor pleurítica e a hemoptise. A ausculta pulmonar frequentemente normal é um achado importante: sua normalidade não exclui embolia pulmonar. O D-dímero elevado, a falha de enchimento na angiotomografia e a hipoxemia com alcalose respiratória na gasometria confirmam o diagnóstico, e a anticoagulação imediata é essencial para impedir a progressão do trombo e novos episódios embólicos."
+}

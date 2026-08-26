@@ -321,7 +321,7 @@
   },
   {
     "id": "uc3-tema-18-01-dificil",
-    "tema": "Tema 18 · Recombinação Gênica e Diversidade de Imunoglobulinas",
+    "tema": "Tema 18 · Diversidade do Sistema Imune Adaptativo",
     "dificuldade": "dificil",
     "area": "Imunologia",
     "prova": "P1",
@@ -361,7 +361,7 @@
   },
   {
     "id": "uc3-tema-23-01-medio",
-    "tema": "Tema 23 · Edema e Congestão",
+    "tema": "Tema 23 · Distúrbios de Pressão e Volume nos Tecidos",
     "dificuldade": "medio",
     "area": "Nefrologia/Urologia",
     "prova": "P2",
@@ -393,7 +393,7 @@
   },
   {
     "id": "uc3-tema-27-01-dificil",
-    "tema": "Tema 27 · Fisiologia e Crescimento Bacteriano",
+    "tema": "Tema 27 · Fisiologia e Crescimento de Comunidades Microbianas",
     "dificuldade": "dificil",
     "area": "Infectologia",
     "prova": "P2",
@@ -409,7 +409,7 @@
   },
   {
     "id": "uc3-tema-30-01-dificil",
-    "tema": "Tema 30 · Desinfecção e Esterilização",
+    "tema": "Tema 30 · Controle de Microrganismos em Ambiente de Saúde",
     "dificuldade": "dificil",
     "area": "Infectologia",
     "prova": "P2",
@@ -417,7 +417,7 @@
   },
   {
     "id": "uc3-tema-31-01-dificil",
-    "tema": "Tema 31 · Sistema Complemento",
+    "tema": "Tema 31 · Vias da Imunidade Inata Humoral",
     "dificuldade": "dificil",
     "area": "Imunologia",
     "prova": "P2",
@@ -601,7 +601,7 @@
   },
   {
     "id": "uc3-tema-56-01-medio",
-    "tema": "Tema 56 · Meios de Contraste em Métodos de Imagem",
+    "tema": "Tema 56 · Substâncias Usadas em Exames de Imagem",
     "dificuldade": "medio",
     "area": "Infectologia",
     "prova": "P3",
@@ -702,5 +702,45 @@
     "area": "Infectologia",
     "prova": "P3",
     "arquivo": "uc3-tema-68-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-69-01-dificil",
+    "tema": "Tema 69 · Distúrbios da Coagulação e Obstrução Vascular",
+    "dificuldade": "dificil",
+    "area": "Pneumologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-69-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-70-01-dificil",
+    "tema": "Tema 70 · Distúrbios Trombo-Hemorrágicos Sistêmicos",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-70-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-71-01-medio",
+    "tema": "Tema 71 · Grand Round: Dor Torácica em Idosos",
+    "dificuldade": "medio",
+    "area": "Cardiologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-71-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-72-01-dificil",
+    "tema": "Tema 72 · Regulação do Sistema Imune",
+    "dificuldade": "dificil",
+    "area": "Imunologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-72-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-73-01-dificil",
+    "tema": "Tema 73 · Grand Round: Classificação Molecular de Tumores Cerebrais",
+    "dificuldade": "dificil",
+    "area": "Neurologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-73-01-dificil.json"
   }
 ]

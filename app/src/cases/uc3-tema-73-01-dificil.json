@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-73-01-dificil",
+  "tema": "Tema 73 · Grand Round: Classificação Molecular de Tumores Cerebrais",
+  "materia_relacionada": "Este caso, baseado no Grand Round sobre glioblastoma discutido em aula, mostra como a classificação de tumores cerebrais mudou de puramente histológica para molecular: uma mutação num gene de uma enzima do ciclo de Krebs (a isocitrato desidrogenase, IDH) separa gliomas de comportamento biológico e prognóstico bem diferentes, mesmo quando a aparência ao microscópio é parecida, exatamente a discussão sobre IDH como proto-oncogene ou supressor tumoral levantada na aula.",
+  "area": "Neurologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 38,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, tenho dor de cabeça que vem piorando aos poucos há uns três meses, e semana passada tive uma crise convulsiva do nada, nunca tinha acontecido isso antes.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "122/78", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "80", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 38 anos, dor de cabeça progressiva há meses e uma crise convulsiva nova. Repara na idade dela e no ritmo lento dessa evolução antes de pensar no tumor cerebral mais agressivo que existe.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A aparência ao microscópio quase enganou todo mundo. Foi um gene do metabolismo básico da célula que revelou o verdadeiro comportamento desse tumor.",
+    "dicas": [
+      "Releia com atenção a idade dela e como esses sintomas foram evoluindo, rápido em semanas ou devagar ao longo de meses.",
+      "Pensa em como uma mutação num gene de uma enzima do ciclo de Krebs pode mudar completamente o comportamento biológico e a agressividade de um tumor cerebral, mesmo que a aparência ao microscópio pareça parecida com a de um tumor mais agressivo.",
+      "Que alteração molecular específica, buscada por imuno-histoquímica na biópsia de um tumor cerebral infiltrativo, separa um grupo de gliomas de crescimento mais lento e melhor prognóstico do glioblastoma clássico, mesmo antes de saber se há perda combinada dos braços 1p e 19q?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como essa dor de cabeça e os outros sintomas foram evoluindo, rápido ou devagar?", "custo": 2, "relevante": true, "resposta": "Foi bem devagar, ao longo de uns três meses, piorando aos poucos." },
+    { "texto": "Já teve diagnóstico de câncer em outro órgão no passado?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de câncer antes." },
+    { "texto": "Tem HIV ou alguma condição que reduza a imunidade?", "custo": 2, "relevante": false, "resposta": "Não tem HIV nem outra condição que reduza a imunidade." },
+    { "texto": "Teve febre ou algum sinal de infecção nas últimas semanas?", "custo": 2, "relevante": false, "resposta": "Sem febre ou sinais de infecção." },
+    { "texto": "Notou alguma fraqueza ou alteração de força em um lado do corpo?", "custo": 2, "relevante": true, "resposta": "Notou uma leve dificuldade para mexer a mão direita nos últimos dias." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de força motora nos quatro membros", "custo": 3, "relevante": true, "resposta": "Discreta paresia da mão direita, força grau 4/5." },
+    { "texto": "Fundo de olho", "custo": 3, "relevante": true, "resposta": "Papiledema leve bilateral." },
+    { "texto": "Avaliação de febre e sinais sistêmicos de infecção", "custo": 3, "relevante": false, "resposta": "Afebril, sem sinais sistêmicos de infecção." }
+  ],
+  "hipoteses": [
+    { "texto": "Astrocitoma difuso, IDH-mutante", "correta": true },
+    { "texto": "Oligodendroglioma, IDH-mutante e codeletado 1p/19q", "correta": false },
+    { "texto": "Glioblastoma, IDH-selvagem", "correta": false },
+    { "texto": "Metástase cerebral única", "correta": false },
+    { "texto": "Linfoma primário do sistema nervoso central", "correta": false },
+    { "texto": "Abscesso cerebral", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Ressonância magnética de crânio com espectroscopia", "custo": 18, "relevante": true, "resposta": "Lesão infiltrativa frontal, sem realce significativo pelo contraste, sem necrose, com sinal de discordância T2-FLAIR sugestivo de glioma IDH-mutante." },
+    { "texto": "Biópsia estereotáxica com imuno-histoquímica para IDH1 R132H", "custo": 18, "relevante": true, "resposta": "Positiva, confirmando mutação no gene IDH1." },
+    { "texto": "Teste de codeleção 1p/19q por FISH", "custo": 14, "relevante": true, "resposta": "Ausente (sem codeleção), afastando oligodendroglioma." },
+    { "texto": "Sorologia para HIV", "custo": 10, "relevante": true, "resposta": "Não reagente, tornando linfoma primário do sistema nervoso central associado a imunossupressão menos provável." }
+  ],
+  "condutas": [
+    { "texto": "Ressecção cirúrgica máxima seguida de acompanhamento oncológico guiado pelo perfil molecular do tumor", "correta": true },
+    { "texto": "Iniciar radioterapia empírica sem biópsia prévia", "correta": false },
+    { "texto": "Realizar drenagem cirúrgica, tratando como abscesso cerebral", "correta": false },
+    { "texto": "Iniciar quimioterapia para linfoma sem confirmação histológica", "correta": false }
+  ],
+  "explicacao": "A isocitrato desidrogenase (IDH) é uma enzima regulatória chave do ciclo de Krebs; sua mutação altera o metabolismo celular e está associada a gliomas de comportamento biologicamente menos agressivo e melhor prognóstico do que o glioblastoma clássico (IDH-selvagem), mesmo quando a aparência histológica inicial é parecida. A idade mais jovem, a evolução insidiosa ao longo de meses (em vez de semanas, mais típico do glioblastoma IDH-selvagem) e o padrão de imagem sem realce importante nem necrose (com o sinal de discordância T2-FLAIR) já sugerem um glioma IDH-mutante. A confirmação por imuno-histoquímica positiva para IDH1 R132H fecha esse ponto, e a ausência de codeleção 1p/19q no FISH diferencia o astrocitoma IDH-mutante do oligodendroglioma (que também é IDH-mutante, mas com essa codeleção característica). Sorologia HIV negativa torna linfoma primário do sistema nervoso central menos provável. Essa classificação molecular, e não apenas a aparência ao microscópio, é o que hoje orienta prognóstico e intensidade do tratamento adjuvante."
+}

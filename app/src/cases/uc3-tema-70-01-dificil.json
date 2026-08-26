@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-70-01-dificil",
+  "tema": "Tema 70 · Distúrbios Trombo-Hemorrágicos Sistêmicos",
+  "materia_relacionada": "Este caso aplica o conceito de CIVD visto na aula como um distúrbio trombo-hemorrágico secundário: a ativação descontrolada da coagulação forma microtrombos que entopem vasos pequenos e, ao mesmo tempo, consome tanto os fatores de coagulação e plaquetas que sobra sangramento, os dois processos acontecendo juntos, causados pela mesma doença de base grave (aqui, o choque séptico).",
+  "area": "Infectologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "F"
+  },
+  "queixa_principal": "A família relata: “Doutor, ela está com febre alta e pressão baixa há dois dias, começou uma infecção urinária feia, e agora apareceram manchas roxas pelo corpo e ela está sangrando pelo local do soro.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "76/44", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "128", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "39.4", "u": "°C", "flag": true },
+    { "l": "FR", "v": "26", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "92", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Mulher de 58 anos, choque séptico por infecção urinária, agora sangrando e formando manchas roxas ao mesmo tempo. Sangramento e coágulo juntos não é coincidência nesse quadro.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O corpo dela estava, ao mesmo tempo, entupindo vasinhos pequenos e ficando sem fator de coagulação nenhum sobrando. As duas coisas juntas, pela mesma causa.",
+    "dicas": [
+      "Releia com atenção se tem um foco de infecção grave por trás desse choque, e observa bem se ela está sangrando e formando coágulo ao mesmo tempo, em lugares diferentes do corpo.",
+      "Pensa em como uma ativação descontrolada da coagulação no corpo inteiro pode, ao mesmo tempo, formar microtrombos que entopem vasos pequenos e consumir tanto os fatores de coagulação que sobra sangramento, tudo simultaneamente, causado pela mesma doença de base grave.",
+      "Que exame de coagulação, quando vem alterado (tempo de protrombina e TTPA prolongados, fibrinogênio baixo), diferencia esse distúrbio de consumo de fatores de coagulação de uma condição parecida (que também causa trombos pequenos e plaqueta baixa), mas que tem esse mesmo exame normal?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Qual foi o foco de infecção que iniciou esse quadro?", "custo": 2, "relevante": true, "resposta": "Começou com uma infecção urinária que evoluiu rápido para febre alta e pressão baixa." },
+    { "texto": "Usou heparina ou outro anticoagulante recentemente?", "custo": 2, "relevante": false, "resposta": "Não usou heparina ou qualquer anticoagulante antes desse quadro." },
+    { "texto": "Tem histórico de doença hepática crônica conhecida?", "custo": 2, "relevante": false, "resposta": "Sem histórico de doença hepática crônica." },
+    { "texto": "Está sangrando em mais de um lugar ao mesmo tempo (gengiva, local de punção, urina)?", "custo": 2, "relevante": true, "resposta": "Sim, sangramento no local do soro e um pouco de sangue na urina também." },
+    { "texto": "Notou os dedos das mãos ou pés ficando arroxeados ou frios?", "custo": 2, "relevante": true, "resposta": "Sim, os dedos das mãos estão com aspecto arroxeado e mais frios que o normal." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção de pele em busca de petéquias e equimoses difusas", "custo": 3, "relevante": true, "resposta": "Petéquias e equimoses espalhadas pelo tronco e membros." },
+    { "texto": "Avaliação do local de punção venosa", "custo": 3, "relevante": true, "resposta": "Sangramento contínuo e discreto no local de inserção do cateter venoso." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Sem icterícia." },
+    { "texto": "Avaliação de perfusão periférica", "custo": 3, "relevante": true, "resposta": "Extremidades frias, cianose de leito ungueal, tempo de enchimento capilar prolongado." }
+  ],
+  "hipoteses": [
+    { "texto": "Coagulação intravascular disseminada (CIVD) secundária a choque séptico", "correta": true },
+    { "texto": "Púrpura trombocitopênica trombótica (PTT)", "correta": false },
+    { "texto": "Trombocitopenia induzida por heparina (HIT)", "correta": false },
+    { "texto": "Deficiência isolada de vitamina K", "correta": false },
+    { "texto": "Insuficiência hepática aguda com coagulopatia", "correta": false },
+    { "texto": "Púrpura de Henoch-Schönlein", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Coagulograma (TP e TTPA)", "custo": 12, "relevante": true, "resposta": "TP e TTPA prolongados, diferente do padrão normal esperado na PTT." },
+    { "texto": "Contagem de plaquetas", "custo": 8, "relevante": true, "resposta": "Plaquetopenia importante (32.000/mm³)." },
+    { "texto": "Dosagem de fibrinogênio", "custo": 10, "relevante": true, "resposta": "Fibrinogênio baixo, consumido pela coagulação ativada." },
+    { "texto": "D-dímero", "custo": 10, "relevante": true, "resposta": "Muito elevado." }
+  ],
+  "condutas": [
+    { "texto": "Tratar agressivamente a causa de base (antibioticoterapia e suporte hemodinâmico do choque séptico) e repor hemocomponentes (plaquetas, plasma fresco, crioprecipitado) conforme o sangramento ativo", "correta": true },
+    { "texto": "Iniciar plasmaférese isolada, tratando como PTT", "correta": false },
+    { "texto": "Repor apenas vitamina K", "correta": false },
+    { "texto": "Suspender qualquer anticoagulante em uso, tratando como trombocitopenia induzida por heparina", "correta": false }
+  ],
+  "explicacao": "No choque séptico, toxinas bacterianas e citocinas inflamatórias ativam maciçamente a cascata de coagulação em todo o corpo, formando microtrombos que obstruem a microcirculação (explicando a cianose e o frio nas extremidades) e, ao mesmo tempo, consumindo plaquetas, fibrinogênio e outros fatores de coagulação a ponto de causar sangramento simultâneo em múltiplos sítios (petéquias, sangramento em local de punção, hematúria), a definição de CIVD como distúrbio trombo-hemorrágico secundário. O TP e o TTPA prolongados, junto ao fibrinogênio baixo, diferenciam a CIVD da púrpura trombocitopênica trombótica, que também causa trombos pequenos e plaquetopenia, mas tipicamente com coagulograma normal (o consumo ali é mais localizado aos multímeros de fator de von Willebrand, não da cascata inteira). Tratar a causa de base (a sepse) é essencial, já que a CIVD é sempre secundária a outra condição grave, junto com suporte transfusional guiado pela gravidade do sangramento."
+}

@@ -1,0 +1,68 @@
+{
+  "id": "uc3-tema-71-01-medio",
+  "tema": "Tema 71 · Grand Round: Dor Torácica em Idosos",
+  "materia_relacionada": "Este caso, baseado no Grand Round sobre aterosclerose e infarto discutido em aula, reforça duas mensagens centrais: nem toda apresentação de doença coronariana é um evento agudo e dramático (pode ser uma dor crônica e previsível ao esforço, que melhora com repouso), e mulheres tendem a ter manifestações mais atípicas e subvalorizadas, sendo subdiagnosticadas e subtratadas quando o médico atribui os sintomas à ansiedade sem investigar.",
+  "area": "Cardiologia",
+  "prova": "P4",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 82,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, faz uns cinco meses que sinto um aperto no peito quando subo escada ou ando mais rápido, às vezes com enjoo e suor frio, acho que pode ser só ansiedade da idade.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "148/88", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "78", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhora de 82 anos, desconforto no peito ao esforço há cinco meses, ela mesma acha que é ansiedade. Não caia nessa armadilha, qualquer sintoma novo numa paciente com fator de risco precisa ser valorizado.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Ela quase não foi investigada porque achavam, ela e todo mundo, que era só ansiedade de senhora idosa. O coração dela discordava.",
+    "dicas": [
+      "Releia com atenção o que piora e o que melhora essa dor no peito dela, e não deixa passar os fatores de risco dela e da família.",
+      "Pensa em como uma dor no peito que aparece só com esforço físico e melhora com repouso, ao longo de meses (não um evento único e agudo), pode ainda representar um problema sério de fluxo sanguíneo pro coração, mesmo sem virar um infarto.",
+      "Que condição crônica, causada por estreitamento da artéria coronária que limita o fluxo sanguíneo só quando a demanda de oxigênio do coração aumenta, explica dor recorrente ao esforço que melhora com repouso, sem elevação de troponina, mas com teste de esforço positivo?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "O que desencadeia essa dor e o que faz ela melhorar?", "custo": 2, "relevante": true, "resposta": "Aparece ao subir escadas ou andar rápido, e melhora quando ela para e descansa." },
+    { "texto": "A dor irradia para algum lugar específico?", "custo": 2, "relevante": true, "resposta": "Às vezes sente a dor subir até o queixo e o braço esquerdo." },
+    { "texto": "Tem náusea ou suor frio durante os episódios?", "custo": 2, "relevante": true, "resposta": "Sim, náusea leve e suor frio quando a dor é mais forte." },
+    { "texto": "Já teve suspeita de infarto antes, mesmo sem confirmação?", "custo": 2, "relevante": true, "resposta": "Há dez anos teve uma suspeita de infarto, mas nunca fez cateterismo pra confirmar." },
+    { "texto": "Tem histórico familiar de doença cardiovascular precoce?", "custo": 2, "relevante": true, "resposta": "Uma irmã teve AVC aos 65 anos, e a mãe teve infarto aos 54." },
+    { "texto": "A dor piora ao mexer o joelho ou tem relação com a artrose que ela já tem?", "custo": 2, "relevante": false, "resposta": "Não, a dor no peito não tem nenhuma relação com o joelho." },
+    { "texto": "Tem histórico de crises de ansiedade ou síndrome do pânico diagnosticada antes?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de ansiedade ou pânico antes." },
+    { "texto": "A dor tem relação com refeições, tipo azia ou regurgitação?", "custo": 2, "relevante": false, "resposta": "Não relaciona a dor com nenhuma refeição específica." }
+  ],
+  "exameFisico": [
+    { "texto": "Ausculta cardíaca detalhada", "custo": 3, "relevante": true, "resposta": "Presença de quarta bulha (B4), sem sopros novos." },
+    { "texto": "Palpação da parede torácica em busca de dor reprodutível", "custo": 3, "relevante": false, "resposta": "Palpação da parede torácica não reproduz a dor." },
+    { "texto": "Avaliação de pulsos periféricos em membros inferiores", "custo": 3, "relevante": false, "resposta": "Pulsos periféricos presentes e simétricos." },
+    { "texto": "Avaliação do joelho (sinais de artrose)", "custo": 3, "relevante": false, "resposta": "Sinais de osteoartrose bilateral conhecida, sem relação com a queixa atual." }
+  ],
+  "hipoteses": [
+    { "texto": "Angina estável (angina de esforço) por doença arterial coronariana crônica", "correta": true },
+    { "texto": "Transtorno de ansiedade/síndrome do pânico", "correta": false },
+    { "texto": "Doença do refluxo gastroesofágico", "correta": false },
+    { "texto": "Dor musculoesquelética relacionada à osteoartrose", "correta": false },
+    { "texto": "Síndrome coronariana aguda em curso (infarto agudo)", "correta": false },
+    { "texto": "Doença arterial periférica isolada", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Eletrocardiograma de repouso", "custo": 8, "relevante": true, "resposta": "Alterações inespecíficas da repolarização, sem sinais de evento agudo no momento." },
+    { "texto": "Teste ergométrico ou cintilografia miocárdica de estresse", "custo": 16, "relevante": true, "resposta": "Positivo para isquemia induzida pelo esforço." },
+    { "texto": "Troponina", "custo": 10, "relevante": true, "resposta": "Dentro da normalidade, sem sinais de necrose miocárdica aguda." },
+    { "texto": "Cateterismo cardíaco com angiografia coronariana", "custo": 18, "relevante": true, "resposta": "Lesão obstrutiva significativa em artéria coronária, compatível com doença arterial coronariana crônica." }
+  ],
+  "condutas": [
+    { "texto": "Otimizar o tratamento medicamentoso anti-anginoso e dos fatores de risco, associado à avaliação de revascularização eletiva conforme o cateterismo", "correta": true },
+    { "texto": "Tranquilizar e prescrever apenas ansiolítico, sem investigação cardíaca adicional", "correta": false },
+    { "texto": "Tratar como refluxo gastroesofágico com inibidor de bomba de prótons isolado", "correta": false },
+    { "texto": "Encaminhar direto para artroplastia de joelho, sem investigar a dor torácica", "correta": false }
+  ],
+  "explicacao": "A dor torácica desencadeada especificamente pelo esforço físico e aliviada pelo repouso, com irradiação para queixo e braço esquerdo, náusea e sudorese fria, ao longo de meses (não um evento único), é o padrão clássico de angina estável: um estreitamento coronariano que limita o fluxo sanguíneo apenas quando a demanda de oxigênio do coração aumenta. Os múltiplos fatores de risco (idade, hipertensão, tabagismo, dislipidemia, histórico pessoal de suspeita de infarto não investigada e histórico familiar importante) reforçam a suspeita. Troponina normal e ausência de alterações agudas no ECG de repouso afastam um infarto em curso, enquanto o teste de esforço positivo e a lesão obstrutiva no cateterismo confirmam a doença coronariana crônica subjacente. O caso ilustra um ponto importante: mulheres, especialmente idosas, tendem a ter apresentações mais atípicas e a terem seus sintomas atribuídos precocemente à ansiedade, o que atrasa o diagnóstico e o tratamento adequados."
+}
