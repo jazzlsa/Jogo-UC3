@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-59-01-dificil",
+  "tema": "Tema 59 · Patogênese Viral",
+  "materia_relacionada": "Este caso aplica o percurso clássico de patogênese viral visto na aula: um vírus entra por uma porta de entrada específica (mucosa digestiva), se replica localmente antes de causar viremia, e então se dissemina para um tecido-alvo bem definido e distante da porta de entrada original, nesse caso um grupo específico de neurônios motores na medula espinhal.",
+  "area": "Neurologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 4,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele teve febre e diarreia há uma semana, melhorou um pouco, e agora de repente a perna direita dele ficou bamba, ele não consegue nem ficar em pé apoiado nela.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "96/60", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "104", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "37.8", "u": "°C", "flag": true },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 4 anos, febre e diarreia há uma semana, e agora uma perna ficou fraca de repente, só uma. Confere a caderneta de vacina dele antes de qualquer coisa.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O vírus entrou por um lugar bem comum, comida ou água contaminada. Só que o destino final dele era bem específico, um grupo de neurônios que a maioria das doenças nem chega perto.",
+    "dicas": [
+      "Releia com atenção a situação vacinal dele, e o que aconteceu na saúde dele nos dias antes da fraqueza na perna aparecer.",
+      "Pensa em como um vírus que entra pela boca, se multiplica primeiro no intestino e nas tonsilas, pode depois cair na circulação e viajar especificamente até um grupo bem definido de neurônios na medula espinhal.",
+      "Que vírus, transmitido por via fecal-oral, ataca especificamente os neurônios motores do corno anterior da medula, causando fraqueza flácida assimétrica sem alterar a sensibilidade, diferente de uma polineuropatia que afeta os dois lados por igual?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "A caderneta de vacinação dele está completa, incluindo a vacina contra poliomielite?", "custo": 2, "relevante": true, "resposta": "A caderneta está incompleta, faltam algumas doses, incluindo reforços recentes." },
+    { "texto": "O que aconteceu na saúde dele nos dias antes da fraqueza na perna começar?", "custo": 2, "relevante": true, "resposta": "Teve febre e diarreia por alguns dias, que melhoraram parcialmente antes da fraqueza aparecer." },
+    { "texto": "A fraqueza afeta só uma perna ou os dois lados igualmente?", "custo": 2, "relevante": true, "resposta": "Só a perna direita está fraca, a esquerda está normal." },
+    { "texto": "Ele reclama de formigamento ou perda de sensibilidade na perna?", "custo": 2, "relevante": true, "resposta": "Não reclama de formigamento ou perda de sensibilidade, só de fraqueza." },
+    { "texto": "Tem acesso a água tratada e saneamento básico em casa?", "custo": 2, "relevante": true, "resposta": "Mora numa área com saneamento básico precário, sem acesso regular a água tratada." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de força muscular nos quatro membros", "custo": 3, "relevante": true, "resposta": "Fraqueza flácida importante na perna direita, força preservada nos demais membros." },
+    { "texto": "Avaliação de reflexos tendinosos", "custo": 3, "relevante": true, "resposta": "Reflexo patelar abolido à direita, presente e normal à esquerda." },
+    { "texto": "Avaliação de sensibilidade tátil e dolorosa", "custo": 3, "relevante": true, "resposta": "Sensibilidade preservada em todos os membros, inclusive na perna afetada." },
+    { "texto": "Avaliação de função bulbar (deglutição, fala)", "custo": 3, "relevante": false, "resposta": "Sem comprometimento bulbar, deglutição e fala normais." }
+  ],
+  "hipoteses": [
+    { "texto": "Poliomielite paralítica", "correta": true },
+    { "texto": "Síndrome de Guillain-Barré", "correta": false },
+    { "texto": "Mielite transversa", "correta": false },
+    { "texto": "Botulismo", "correta": false },
+    { "texto": "Miosite viral aguda benigna", "correta": false },
+    { "texto": "Paralisia flácida aguda por outro enterovírus não pólio", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Confirmação detalhada do status vacinal (número de doses e datas)", "custo": 8, "relevante": true, "resposta": "Recebeu apenas as doses iniciais, sem os reforços subsequentes." },
+    { "texto": "Análise do líquor", "custo": 14, "relevante": true, "resposta": "Pleocitose linfocitária leve com proteína discretamente elevada, padrão de meningite asséptica." },
+    { "texto": "Isolamento viral em amostra de fezes com genotipagem", "custo": 16, "relevante": true, "resposta": "Poliovírus identificado, com genotipagem confirmando cepa selvagem." },
+    { "texto": "Ressonância magnética de medula espinhal", "custo": 16, "relevante": true, "resposta": "Alteração de sinal unilateral no corno anterior da medula, correspondente aos neurônios motores inferiores acometidos." }
+  ],
+  "condutas": [
+    { "texto": "Suporte respiratório se necessário, fisioterapia motora precoce, notificação compulsória imediata e reforço de vacinação da comunidade com busca ativa de contatos", "correta": true },
+    { "texto": "Iniciar imunoglobulina intravenosa ou plasmaférese, como no tratamento de Guillain-Barré", "correta": false },
+    { "texto": "Administrar antitoxina botulínica", "correta": false },
+    { "texto": "Apenas fisioterapia, sem notificação compulsória", "correta": false }
+  ],
+  "explicacao": "O poliovírus entra pela via fecal-oral (porta de entrada digestiva), replica-se inicialmente no tecido linfoide da orofaringe e do intestino, causando os sintomas gastrointestinais e a febre iniciais, e depois causa viremia, disseminando-se até um alvo bem específico: os neurônios motores do corno anterior da medula espinhal. A destruição desses neurônios explica a fraqueza flácida assimétrica, com reflexos abolidos no lado afetado e sensibilidade preservada (já que apenas a via motora é comprometida), um padrão bem diferente da fraqueza simétrica ascendente com alteração sensitiva leve típica da síndrome de Guillain-Barré. A vacinação incompleta, o saneamento precário e a confirmação do poliovírus nas fezes fecham o diagnóstico. Como é uma doença de vigilância epidemiológica intensa (visando erradicação global), a notificação compulsória imediata e o reforço vacinal da comunidade são tão importantes quanto o cuidado individual do paciente."
+}

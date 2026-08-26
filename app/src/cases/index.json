@@ -614,5 +614,21 @@
     "area": "Infectologia",
     "prova": "P3",
     "arquivo": "uc3-tema-57-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-58-01-dificil",
+    "tema": "Tema 58 · Replicação Viral",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-58-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-59-01-dificil",
+    "tema": "Tema 59 · Patogênese Viral",
+    "dificuldade": "dificil",
+    "area": "Neurologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-59-01-dificil.json"
   }
 ]

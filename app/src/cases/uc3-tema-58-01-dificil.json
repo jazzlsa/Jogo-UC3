@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-58-01-dificil",
+  "tema": "Tema 58 · Replicação Viral",
+  "materia_relacionada": "Este caso aplica uma consequência direta da replicação viral vista na aula: a enzima que copia o genoma de vírus RNA, como o da influenza, não tem sistema de revisão de erros, gerando uma taxa de mutação muito alta a cada ciclo de replicação. Isso permite que uma mutação de resistência a um antiviral surja e se selecione rápido o suficiente para acontecer no meio do próprio tratamento.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 68,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, comecei o remédio pra gripe certinho há cinco dias, tomei tudo direitinho, mas em vez de melhorar eu só fui piorando, a febre não passa e a falta de ar aumentou.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "126/78", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "102", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.7", "u": "°C", "flag": true },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "93", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Senhor de 68 anos, começou o antiviral pra gripe certinho há cinco dias e só piorou, nunca melhorou nem um pouco. Presta atenção nesse detalhe: nunca melhorou, não é uma piora depois de melhora.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O vírus dele não ficou parado esperando o remédio fazer efeito. Ele copiou o próprio material genético tantas vezes, e tão sem cuidado, que uma cópia com erro acabou sendo a vencedora.",
+    "dicas": [
+      "Releia com atenção se ele realmente tomou o remédio certinho, e se em algum momento chegou a melhorar antes de piorar de novo, ou se só piorou direto, sem nunca melhorar.",
+      "Pensa em como a enzima que copia o material genético de certos vírus não tem um sistema de revisão de erros, o que faz esses vírus mutarem muito rápido durante a própria replicação, às vezes rápido o suficiente pra escapar de um remédio no meio do próprio tratamento.",
+      "Que mutação específica, numa proteína viral alvo de um antiviral usado pra gripe, surge dessa alta taxa de erro na cópia do genoma e torna o vírus resistente a esse remédio mesmo durante o tratamento?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Ele tomou o antiviral certinho, sem esquecer nenhuma dose?", "custo": 2, "relevante": true, "resposta": "A família confirma que tomou todas as doses no horário certo." },
+    { "texto": "Em algum momento ele chegou a melhorar antes de piorar de novo, ou só piorou direto?", "custo": 2, "relevante": true, "resposta": "Nunca melhorou nem um pouco, foi uma piora contínua desde o início." },
+    { "texto": "O escarro mudou de aspecto, ficou purulento ou esverdeado?", "custo": 2, "relevante": true, "resposta": "O escarro continua claro, sem mudança de aspecto." },
+    { "texto": "Teve contato com outras pessoas doentes recentemente, além do contato inicial que causou a gripe?", "custo": 2, "relevante": false, "resposta": "Não teve nenhum contato novo além do inicial." },
+    { "texto": "Já teve febre e falta de ar controladas em algum momento desde o início do quadro?", "custo": 2, "relevante": false, "resposta": "Não, os sintomas se mantiveram presentes o tempo todo." }
+  ],
+  "exameFisico": [
+    { "texto": "Ausculta pulmonar comparativa detalhada", "custo": 3, "relevante": true, "resposta": "Estertores difusos bilaterais, sem uma área de consolidação localizada nova." },
+    { "texto": "Avaliação do padrão de febre (contínua ou em dois picos)", "custo": 3, "relevante": true, "resposta": "Febre contínua desde o início, sem um padrão de melhora seguida de novo pico." },
+    { "texto": "Avaliação de perfusão e sinais de sepse", "custo": 3, "relevante": false, "resposta": "Perfusão periférica preservada, sem sinais de choque." }
+  ],
+  "hipoteses": [
+    { "texto": "Influenza por cepa resistente ao oseltamivir (mutação da neuraminidase)", "correta": true },
+    { "texto": "Pneumonia bacteriana secundária (superinfecção)", "correta": false },
+    { "texto": "COVID-19 concomitante", "correta": false },
+    { "texto": "Falha de adesão ao tratamento antiviral", "correta": false },
+    { "texto": "Outra infecção viral respiratória concomitante", "correta": false },
+    { "texto": "Reação adversa medicamentosa ao oseltamivir", "correta": false }
+  ],
+  "exames": [
+    { "texto": "PCR para influenza com carga viral", "custo": 14, "relevante": true, "resposta": "Persistentemente positivo, sem a queda esperada de carga viral após alguns dias de tratamento." },
+    { "texto": "Genotipagem da neuraminidase viral", "custo": 16, "relevante": true, "resposta": "Identificada mutação (H275Y) conferindo resistência ao oseltamivir." },
+    { "texto": "Radiografia de tórax", "custo": 10, "relevante": true, "resposta": "Infiltrado difuso bilateral, sem consolidação focal nova sugestiva de pneumonia bacteriana." },
+    { "texto": "Procalcitonina sérica", "custo": 10, "relevante": true, "resposta": "Não elevada, tornando infecção bacteriana secundária menos provável." }
+  ],
+  "condutas": [
+    { "texto": "Trocar para um antiviral com mecanismo de ação diferente (por exemplo, baloxavir marboxil, que atua em outra etapa da replicação viral) e manter suporte clínico", "correta": true },
+    { "texto": "Aumentar a dose do mesmo oseltamivir", "correta": false },
+    { "texto": "Iniciar antibiótico empírico de amplo espectro sem indicação clara de infecção bacteriana", "correta": false },
+    { "texto": "Suspender qualquer tratamento antiviral, aguardando resolução espontânea", "correta": false }
+  ],
+  "explicacao": "A RNA polimerase dependente de RNA do vírus influenza não possui atividade de revisão (proofreading), gerando uma taxa de mutação muito alta a cada ciclo replicativo, uma característica geral de vírus RNA. Isso permite que, mesmo durante um único curso de tratamento, uma variante com mutação na neuraminidase (como a H275Y) surja e seja selecionada pela pressão do próprio antiviral, tornando o vírus resistente ao oseltamivir. A ausência de qualquer melhora inicial (diferente do padrão bifásico clássico de uma superinfecção bacteriana, que melhora e piora de novo), a ausência de consolidação focal nova na radiografia e a procalcitonina não elevada tornam pneumonia bacteriana secundária menos provável, enquanto a carga viral persistentemente alta e a mutação confirmada na neuraminidase fecham o diagnóstico de resistência antiviral, exigindo a troca para um agente com mecanismo de ação diferente."
+}
