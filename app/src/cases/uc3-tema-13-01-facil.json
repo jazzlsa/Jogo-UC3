@@ -1,0 +1,63 @@
+{
+  "id": "uc3-tema-13-01-facil",
+  "tema": "Tema 13 · Envelhecimento Celular e Tecidual",
+  "materia_relacionada": "Este caso aplica o conceito de perda de reserva funcional relacionada ao envelhecimento: o idoso frágil frequentemente não apresenta os sinais clássicos de uma infecção (febre alta, tosse produtiva), porque seus sistemas fisiológicos já operam próximos ao limite, e qualquer estresse adicional se manifesta primeiro como confusão mental ou queda, e não pela resposta inflamatória típica de um adulto jovem.",
+  "area": "Infectologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 84,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Ela ficou confusa do nada hoje de manhã, não estava reconhecendo direito as pessoas em casa, doutor”, conta a filha.",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/64", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "102", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "37.1", "u": "°C", "flag": false },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "91", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Senhora de 84 anos, confusão mental de início súbito, sem febre alta. No idoso, o corpo às vezes grita baixinho, tem que saber ouvir.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Ela nunca teve febre alta nem tossiu muito, e mesmo assim o problema estava exatamente onde a gente imagina que não estaria, sem os sinais de sempre.",
+    "dicas": [
+      "Releia com atenção os sinais vitais dela, principalmente a frequência respiratória e a saturação.",
+      "Pensa em como um corpo que já perdeu boa parte da sua reserva funcional reage de forma diferente a uma agressão, comparado a um adulto jovem.",
+      "Qual sistema, quando inflamado ou infectado num idoso frágil, costuma se manifestar primeiro como confusão mental em vez dos sintomas clássicos?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "A confusão começou de repente ou é algo que já vinha piorando há meses?", "custo": 2, "relevante": true, "resposta": "Começou hoje de manhã, do nada; antes disso estava lúcida como sempre." },
+    { "texto": "Teve tosse, catarro ou falta de ar nos últimos dias?", "custo": 2, "relevante": true, "resposta": "A filha notou uma tosse discreta há dois dias, sem catarro visível, e achou que fosse só \"resfriado\"." },
+    { "texto": "Já tem diagnóstico de demência ou perda de memória progressiva conhecida?", "custo": 2, "relevante": false, "resposta": "Não tem diagnóstico de demência, sempre foi lúcida e independente." },
+    { "texto": "Teve queda ou trauma na cabeça recentemente?", "custo": 2, "relevante": false, "resposta": "Não houve queda nem trauma recente." },
+    { "texto": "Uso de algum remédio novo ou alteração de dose recente?", "custo": 2, "relevante": false, "resposta": "Nenhum remédio novo, usa os mesmos há anos." }
+  ],
+  "exameFisico": [
+    { "texto": "Ausculta pulmonar detalhada", "custo": 3, "relevante": true, "resposta": "Estertores crepitantes localizados em base pulmonar direita." },
+    { "texto": "Avaliação neurológica focal (força, sensibilidade, pares cranianos)", "custo": 3, "relevante": true, "resposta": "Sem déficit motor ou sensitivo focal, apenas confusão mental (desorientação no tempo e espaço)." },
+    { "texto": "Sinais de irritação meníngea (rigidez de nuca)", "custo": 3, "relevante": false, "resposta": "Sem rigidez de nuca, sinais meníngeos ausentes." },
+    { "texto": "Avaliação de hidratação (turgor de pele, mucosas)", "custo": 3, "relevante": true, "resposta": "Mucosas discretamente secas, turgor de pele reduzido." }
+  ],
+  "hipoteses": [
+    { "texto": "Pneumonia comunitária em idoso com apresentação atípica (delirium)", "correta": true },
+    { "texto": "Acidente vascular cerebral isquêmico", "correta": false },
+    { "texto": "Infecção urinária não complicada", "correta": false },
+    { "texto": "Demência descompensada por fator ambiental", "correta": false },
+    { "texto": "Hipotireoidismo descompensado", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Radiografia de tórax", "custo": 8, "relevante": true, "resposta": "Opacidade alveolar em base pulmonar direita, compatível com consolidação pneumônica." },
+    { "texto": "Hemograma completo e PCR", "custo": 8, "relevante": true, "resposta": "Leucocitose com desvio à esquerda e PCR elevada." },
+    { "texto": "Tomografia de crânio sem contraste", "custo": 14, "relevante": false, "resposta": "Sem sinais de isquemia ou hemorragia aguda." },
+    { "texto": "Urina tipo I e urocultura", "custo": 8, "relevante": false, "resposta": "Sedimento urinário sem alterações significativas." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar antibioticoterapia empírica para pneumonia comunitária, hidratação e monitorização, tratando a causa de base do delirium", "correta": true },
+    { "texto": "Prescrever antipsicótico para agitação e liberar para casa", "correta": false },
+    { "texto": "Aguardar evolução espontânea sem investigar a causa da confusão", "correta": false }
+  ],
+  "explicacao": "No idoso frágil, a reserva funcional de múltiplos sistemas já está reduzida pelo próprio processo de envelhecimento celular e tecidual, então uma infecção que num adulto jovem causaria febre alta e tosse produtiva evidentes aqui se manifesta primeiro como delirium (confusão aguda), taquipneia e queda da saturação, muitas vezes sem febre importante. A ausculta pulmonar localizada e a radiografia de tórax confirmam o foco infeccioso real (pneumonia), enquanto a ausência de déficit focal e de sinais meníngeos torna AVC e meningite menos prováveis. Reconhecer que confusão aguda em idoso é, até prova em contrário, sinal de uma causa orgânica tratável, e não só \"coisa da idade\", é essencial pra não atrasar o tratamento."
+}

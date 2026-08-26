@@ -1,0 +1,63 @@
+{
+  "id": "uc3-tema-11-02-medio",
+  "tema": "Tema 11 · Adaptação e Acúmulo Celular",
+  "materia_relacionada": "Este caso aplica o conceito de metaplasia: diante de uma agressão crônica (aqui, o ácido do refluxo), um epitélio pode se transformar em outro tipo celular mais resistente àquele estímulo. É uma adaptação, não uma lesão irreversível por si só, mas reprogramar o tecido tem custo: o epitélio metaplásico pode evoluir pra displasia e, depois, câncer, o que justifica a vigilância vista na aula sobre adaptação e acúmulos celulares.",
+  "area": "Gastroenterologia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 52,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, essa azia que eu tenho há anos mudou. Agora sinto que a comida meio que entala no meio do caminho quando eu como algo mais sólido.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "122/76", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "78", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 52 anos, azia crônica que virou entalo pra engolir sólido. Vale a pena reconstruir a história inteira antes de sair pedindo endoscopia.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Não dá pra pedir tudo de uma vez.",
+    "fechamento": "O epitélio dela não virou câncer, virou outra coisa antes disso, uma célula tentando se defender do ácido trocando de identidade.",
+    "dicas": [
+      "Releia com atenção há quanto tempo ela convive com a azia e o que mudou nas últimas semanas.",
+      "Pensa em como um tecido de revestimento pode se transformar em outro tipo de tecido quando exposto cronicamente a uma agressão química, sem isso ainda ser câncer.",
+      "Que estrutura do trato digestivo, exposta ao ácido por décadas, pode trocar seu epitélio de revestimento por um tipo mais parecido com o do intestino?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo tem azia/pirose e como ela mudou recentemente?", "custo": 2, "relevante": true, "resposta": "Pirose quase diária há mais de 10 anos; nas últimas semanas passou a sentir alimento sólido \"entalando\" no meio do caminho." },
+    { "texto": "Perdeu peso sem intenção nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Perdeu uns 3 kg porque passou a evitar comida sólida com medo de entalar." },
+    { "texto": "A dificuldade é só com sólidos ou também com líquidos desde o início?", "custo": 2, "relevante": true, "resposta": "Só com sólidos, e foi piorando aos poucos ao longo de semanas." },
+    { "texto": "Já teve episódios de falta de ar tipo asma ou alergia alimentar conhecida?", "custo": 2, "relevante": false, "resposta": "Nunca teve asma nem alergia alimentar diagnosticada." },
+    { "texto": "Fez tratamento contínuo pro refluxo (inibidor de bomba de prótons)?", "custo": 2, "relevante": true, "resposta": "Tomava omeprazol só quando a azia incomodava muito, nunca de forma contínua." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de massa muscular e estado nutricional geral", "custo": 3, "relevante": true, "resposta": "Leve perda de massa muscular temporal, sem outros achados relevantes." },
+    { "texto": "Ausculta pulmonar (sinais de broncoaspiração)", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar limpa, sem ruídos adventícios." },
+    { "texto": "Palpação abdominal (massas, dor, visceromegalias)", "custo": 3, "relevante": false, "resposta": "Abdome flácido, indolor, sem massas ou visceromegalias." },
+    { "texto": "Palpação de linfonodo supraclavicular esquerdo (sinal de Virchow)", "custo": 3, "relevante": true, "resposta": "Sem linfonodomegalia palpável na região." }
+  ],
+  "hipoteses": [
+    { "texto": "Esôfago de Barrett (metaplasia intestinal do epitélio esofágico distal)", "correta": true },
+    { "texto": "Acalasia", "correta": false },
+    { "texto": "Esofagite eosinofílica", "correta": false },
+    { "texto": "Adenocarcinoma de esôfago avançado", "correta": false },
+    { "texto": "Doença do refluxo gastroesofágico não complicada", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Endoscopia digestiva alta com biópsia", "custo": 14, "relevante": true, "resposta": "Mucosa esofágica distal com \"língua\" de mucosa cor salmão acima da transição esofagogástrica; biópsia confirma metaplasia intestinal com células caliciformes." },
+    { "texto": "Esofagomanometria", "custo": 10, "relevante": false, "resposta": "Peristalse esofágica normal, sem padrão compatível com acalasia." },
+    { "texto": "pHmetria esofágica de 24h", "custo": 10, "relevante": false, "resposta": "Confirma exposição ácida esofágica aumentada, compatível com refluxo crônico." },
+    { "texto": "Tomografia de tórax e abdome", "custo": 14, "relevante": false, "resposta": "Sem linfonodomegalias ou massas; sem indicação de estadiamento neste momento." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar inibidor de bomba de prótons em dose plena contínua e programar vigilância endoscópica periódica", "correta": true },
+    { "texto": "Encaminhar diretamente para esofagectomia", "correta": false },
+    { "texto": "Dilatação esofágica com balão sem tratar o refluxo de base", "correta": false }
+  ],
+  "explicacao": "A exposição crônica do epitélio escamoso do esôfago distal ao ácido gástrico refluído leva a uma resposta adaptativa: metaplasia, a substituição de um tipo celular por outro mais apto a resistir àquela agressão específica (aqui, epitélio colunar com células caliciformes, semelhante ao intestinal, no lugar do escamoso original). Isso explica por que a paciente tem pirose crônica de longa data. A disfagia progressiva só para sólidos, associada a perda de peso, sinaliza estreitamento mecânico (estenose péptica) sobre essa mucosa já remodelada, achado consistente com a endoscopia. A ausência de linfonodomegalia e de massa na tomografia torna adenocarcinoma avançado menos provável neste momento, mas justamente por a metaplasia intestinal ser um fator de risco reconhecido pra displasia e adenocarcinoma que a vigilância endoscópica periódica é indicada."
+}

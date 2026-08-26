@@ -1,0 +1,62 @@
+{
+  "id": "uc3-tema-13-02-medio",
+  "tema": "Tema 13 · Envelhecimento Celular e Tecidual",
+  "materia_relacionada": "Este caso aplica o conceito de sarcopenia como manifestação clínica do envelhecimento tecidual: a perda progressiva de massa e força muscular reduz a reserva funcional do idoso a ponto de um tropeço banal, que um adulto jovem absorveria sem sequela, se tornar uma queda com fratura, exatamente a diferença entre senescência (declínio fisiológico esperado) e senilidade (quando esse declínio já compromete a funcionalidade).",
+  "area": "Ortopedia",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 79,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, eu tropecei no tapete de casa e caí sentada, agora não consigo nem ficar em pé, dói muito o quadril.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "132/80", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "92", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhora de 79 anos, caiu de um tropeço bobo e não consegue mais ficar em pé. Antes de só olhar a fratura, pensa no que fez ela cair tão fácil assim.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não foi só um tropeço azarado. O corpo dela já vinha perdendo, aos poucos, a reserva que segura a gente de pé quando tropeça.",
+    "dicas": [
+      "Releia com atenção como ela descreve a queda, o que aconteceu logo antes e se ela conseguia se levantar sozinha ultimamente.",
+      "Pensa em como a massa e a força muscular mudam ao longo dos anos, mesmo sem nenhuma doença específica, e como isso afeta o equilíbrio.",
+      "Que perda progressiva, relacionada só à idade, reduz a reserva muscular a ponto de um tropeço virar queda com fratura?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "O que aconteceu exatamente antes da queda, teve tontura, palpitação ou perda de consciência?", "custo": 2, "relevante": true, "resposta": "Não teve tontura nem apagão, foi puramente um tropeço no tapete." },
+    { "texto": "Notou perda de força ou dificuldade progressiva para se levantar de cadeiras nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Sim, há uns seis meses vem sentindo mais dificuldade pra se levantar da cadeira sem apoiar as mãos." },
+    { "texto": "Teve dor no peito ou palpitação antes de cair?", "custo": 2, "relevante": false, "resposta": "Não sentiu nada no peito nem palpitação." },
+    { "texto": "Já foi diagnosticada com osteoporose antes?", "custo": 2, "relevante": true, "resposta": "Fez uma densitometria óssea há dois anos que mostrou osteoporose, mas não seguiu tratamento direito." },
+    { "texto": "Já apresentou episódios de fraqueza súbita de um lado do corpo?", "custo": 2, "relevante": false, "resposta": "Nunca teve fraqueza súbita de um lado do corpo." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção e mobilização passiva do membro inferior direito", "custo": 3, "relevante": true, "resposta": "Membro inferior direito encurtado e rodado externamente, dor intensa à mobilização." },
+    { "texto": "Avaliação de força muscular proximal nos quatro membros", "custo": 3, "relevante": true, "resposta": "Força proximal reduzida globalmente, compatível com sarcopenia, sem assimetria focal." },
+    { "texto": "Ausculta cardíaca em busca de arritmia", "custo": 3, "relevante": false, "resposta": "Ritmo cardíaco regular, sem sopros ou irregularidades." },
+    { "texto": "Avaliação neurológica de pares cranianos e linguagem", "custo": 3, "relevante": false, "resposta": "Sem alteração de pares cranianos ou de linguagem." }
+  ],
+  "hipoteses": [
+    { "texto": "Fratura de fêmur proximal por queda em paciente com sarcopenia e osteoporose", "correta": true },
+    { "texto": "Síncope cardiogênica como causa da queda", "correta": false },
+    { "texto": "Acidente vascular cerebral causando a queda", "correta": false },
+    { "texto": "Osteoporose isolada sem fratura associada", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Radiografia de bacia e quadril direito", "custo": 10, "relevante": true, "resposta": "Fratura transtrocantérica de fêmur direito." },
+    { "texto": "Eletrocardiograma", "custo": 8, "relevante": false, "resposta": "Ritmo sinusal, sem alterações agudas." },
+    { "texto": "Tomografia de crânio", "custo": 14, "relevante": false, "resposta": "Sem sinais de isquemia ou hemorragia aguda." },
+    { "texto": "Hemograma completo", "custo": 8, "relevante": true, "resposta": "Hemoglobina discretamente reduzida, provavelmente por perda associada à fratura; sem outras alterações." }
+  ],
+  "condutas": [
+    { "texto": "Avaliar cirurgia ortopédica para fixação da fratura, iniciar analgesia, e programar reabilitação com prevenção de novas quedas (força muscular e ambiente domiciliar)", "correta": true },
+    { "texto": "Tratar apenas com repouso prolongado no leito, sem avaliação cirúrgica", "correta": false },
+    { "texto": "Focar exclusivamente em investigação cardiológica extensa antes de tratar a fratura", "correta": false }
+  ],
+  "explicacao": "A perda progressiva de massa e força muscular relacionada à idade (sarcopenia) reduz a capacidade do corpo de corrigir um desequilíbrio antes que ele vire uma queda, o que combinado à fragilidade óssea da osteoporose já conhecida explica por que um tropeço banal resultou em fratura de fêmur, e não apenas um susto. A ausência de sintomas prévios sugestivos de síncope ou de déficit neurológico focal torna causas cardiogênicas ou vasculares centrais da queda menos prováveis. O tratamento não pode se limitar a corrigir a fratura: sem abordar a sarcopenia e o risco ambiental de queda, o risco de um novo episódio permanece alto."
+}

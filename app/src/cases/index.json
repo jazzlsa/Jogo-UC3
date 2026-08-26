@@ -238,5 +238,53 @@
     "area": "Endocrinologia",
     "prova": "P1",
     "arquivo": "uc3-tema-10-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-11-01-facil",
+    "tema": "Tema 11 · Adaptação e Acúmulo Celular",
+    "dificuldade": "facil",
+    "area": "Cardiologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-11-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-11-02-medio",
+    "tema": "Tema 11 · Adaptação e Acúmulo Celular",
+    "dificuldade": "medio",
+    "area": "Gastroenterologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-11-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-12-01-facil",
+    "tema": "Tema 12 · Princípios da Ressonância Magnética",
+    "dificuldade": "facil",
+    "area": "Ortopedia",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-12-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-12-02-medio",
+    "tema": "Tema 12 · Princípios da Ressonância Magnética",
+    "dificuldade": "medio",
+    "area": "Neurologia",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-12-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-13-01-facil",
+    "tema": "Tema 13 · Envelhecimento Celular e Tecidual",
+    "dificuldade": "facil",
+    "area": "Infectologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-13-01-facil.json"
+  },
+  {
+    "id": "uc3-tema-13-02-medio",
+    "tema": "Tema 13 · Envelhecimento Celular e Tecidual",
+    "dificuldade": "medio",
+    "area": "Ortopedia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-13-02-medio.json"
   }
 ]

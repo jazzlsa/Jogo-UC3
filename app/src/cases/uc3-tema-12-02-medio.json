@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-12-02-medio",
+  "tema": "Tema 12 · Princípios da Ressonância Magnética",
+  "materia_relacionada": "Este caso mostra uma aplicação clássica dos princípios físicos da ressonância: a sequência de difusão (DWI) detecta a restrição da movimentação da água nas células isquêmicas minutos após o evento, muito antes de a tomografia computadorizada conseguir mostrar qualquer alteração, o que muda a conduta em uma emergência neurológica.",
+  "area": "Neurologia",
+  "prova": "Todas",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 67,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Ela começou a andar meio cambaleando de repente, começou a ver dobrado e vomitou muito, doutor”, relata o marido.",
+  "sinais_vitais": [
+    { "l": "PA", "v": "162/94", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "84", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.7", "u": "°C", "flag": false },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhora de 67 anos, início súbito de desequilíbrio, diplopia e vômitos. Nem todo vertigem é labirinto, presta atenção nos detalhes antes de pedir exame.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Cada exame pedido tem seu custo.",
+    "fechamento": "Um exame comum, feito no lugar errado, teria vindo normal e mandado ela pra casa. A escolha do exame certo aqui foi tão importante quanto o diagnóstico.",
+    "dicas": [
+      "Releia com atenção a forma como os sintomas começaram, de repente ou aos poucos, e quais estruturas além do labirinto poderiam estar envolvidas.",
+      "Pensa em qual território vascular do sistema nervoso central, quando isquêmico, pode causar desequilíbrio, visão dupla e vômitos ao mesmo tempo.",
+      "Que exame de imagem consegue mostrar uma isquemia horas depois de começar, quando outro exame de imagem ainda estaria normal?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Os sintomas começaram de repente ou foram piorando aos poucos?", "custo": 2, "relevante": true, "resposta": "Começou de forma súbita, em questão de minutos." },
+    { "texto": "Tem histórico de enxaqueca com aura?", "custo": 2, "relevante": false, "resposta": "Nunca teve enxaqueca na vida." },
+    { "texto": "É hipertensa e como está o controle da pressão?", "custo": 2, "relevante": true, "resposta": "Hipertensa há 20 anos, controle irregular da medicação." },
+    { "texto": "Notou zumbido ou perda de audição associada?", "custo": 2, "relevante": false, "resposta": "Não notou zumbido nem perda auditiva." },
+    { "texto": "Já usou alguma substância ou tomou algum remédio novo que pudesse causar tontura?", "custo": 2, "relevante": false, "resposta": "Não tomou nenhum remédio novo nem substância diferente." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação da marcha e equilíbrio (teste de Romberg)", "custo": 3, "relevante": true, "resposta": "Marcha atáxica, desvia pra um lado ao caminhar; Romberg alterado." },
+    { "texto": "Movimentação ocular extrínseca e presença de nistagmo", "custo": 3, "relevante": true, "resposta": "Diplopia ao olhar para um dos lados, com nistagmo de padrão vertical." },
+    { "texto": "Otoscopia bilateral", "custo": 3, "relevante": false, "resposta": "Otoscopia normal bilateralmente, sem sinais de labirintite." },
+    { "texto": "Força e sensibilidade nos quatro membros", "custo": 3, "relevante": true, "resposta": "Discreta incoordenação no membro superior de um dos lados; força preservada." },
+    { "texto": "Ausculta cardíaca em busca de arritmia", "custo": 3, "relevante": false, "resposta": "Ritmo cardíaco regular, sem sopros." }
+  ],
+  "hipoteses": [
+    { "texto": "AVC isquêmico agudo de fossa posterior (território vertebrobasilar)", "correta": true },
+    { "texto": "Labirintite aguda (vertigem periférica)", "correta": false },
+    { "texto": "Enxaqueca basilar", "correta": false },
+    { "texto": "Hipoglicemia sintomática", "correta": false },
+    { "texto": "Intoxicação medicamentosa", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Tomografia de crânio sem contraste", "custo": 12, "relevante": false, "resposta": "Sem sangramento agudo; parênquima de fossa posterior sem alterações visíveis nesse momento." },
+    { "texto": "Ressonância magnética de crânio com difusão (DWI)", "custo": 18, "relevante": true, "resposta": "Área de restrição à difusão em tronco encefálico/cerebelo, compatível com isquemia aguda no território vertebrobasilar." },
+    { "texto": "Glicemia capilar", "custo": 4, "relevante": true, "resposta": "92 mg/dL, dentro da normalidade, afasta hipoglicemia." },
+    { "texto": "Eletrocardiograma", "custo": 8, "relevante": false, "resposta": "Ritmo sinusal, sem sinais de arritmia embolizante." }
+  ],
+  "condutas": [
+    { "texto": "Ativar protocolo de AVC agudo, avaliar elegibilidade para terapia de reperfusão e internar em unidade especializada", "correta": true },
+    { "texto": "Prescrever antivertiginoso e liberar para casa com retorno ambulatorial", "correta": false },
+    { "texto": "Solicitar apenas tomografia de crânio e, por estar normal, encerrar a investigação", "correta": false }
+  ],
+  "explicacao": "Início súbito de ataxia, diplopia e vômitos numa paciente hipertensa mal controlada sugere um evento vascular de fossa posterior, não uma vertigem periférica (que tipicamente não causa diplopia nem incoordenação de membro). A tomografia de crânio sem contraste é pouco sensível para isquemia aguda de fossa posterior nas primeiras horas, podendo vir normal mesmo com AVC estabelecido, exatamente o que ocorreu aqui. A ressonância com sequência de difusão detecta a restrição da movimentação da água dentro das células isquêmicas muito precocemente, revelando a lesão que a tomografia ainda não mostrava e confirmando o AVC no território vertebrobasilar, o que muda completamente a conduta em relação a uma simples labirintite."
+}

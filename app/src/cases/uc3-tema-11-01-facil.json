@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-11-01-facil",
+  "tema": "Tema 11 · Adaptação e Acúmulo Celular",
+  "materia_relacionada": "Este caso aplica o conceito de hipertrofia como adaptação celular: diante de uma sobrecarga crônica de trabalho, as células (aqui, os miócitos cardíacos) aumentam de tamanho em vez de se dividir, já que o músculo cardíaco adulto tem capacidade replicativa muito limitada. É a mesma lógica vista na aula sobre adaptação e acúmulos celulares, só que aplicada a um órgão que não pode simplesmente proliferar.",
+  "area": "Cardiologia",
+  "prova": "P1",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, ando cansando com facilidade pra subir escada, e ultimamente ando dormindo com dois travesseiros porque sinto falta de ar deitado.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "168/102", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "88", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhor de 58 anos, pressão alta há tempos, agora com falta de ar. Antes de pensar em pulmão ou sangue, vale ouvir a história direito.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O coração dele não cresceu por acaso. Vamos entender por que uma célula que quase não se divide decide simplesmente ficar maior.",
+    "dicas": [
+      "Releia com atenção há quanto tempo ele convive com a pressão alta e como é o controle dela.",
+      "Pensa no que acontece com uma célula muscular, que quase não se multiplica, quando precisa sustentar um trabalho crônico maior.",
+      "Que estrutura do coração aumenta de tamanho (sem aumentar o número de células) pra vencer uma resistência maior na saída do sangue?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo tem pressão alta e como é o controle da medicação?", "custo": 2, "relevante": true, "resposta": "Hipertenso há uns 15 anos, toma losartana mas admite esquecer bastante." },
+    { "texto": "Fuma ou fumou por muitos anos?", "custo": 2, "relevante": false, "resposta": "Nunca fumou." },
+    { "texto": "Notou sangramento ou fraqueza progressiva que sugerisse anemia?", "custo": 2, "relevante": false, "resposta": "Não notou sangramento nem fraqueza fora do comum." },
+    { "texto": "Acorda à noite com falta de ar, precisando de mais travesseiros pra dormir?", "custo": 2, "relevante": true, "resposta": "Sim, passou a usar dois travesseiros e às vezes acorda ofegante." },
+    { "texto": "Perdeu peso, sente palpitação ou intolerância ao calor?", "custo": 2, "relevante": false, "resposta": "Não notou nada disso." }
+  ],
+  "exameFisico": [
+    { "texto": "Ausculta cardíaca: presença de quarta bulha (B4)?", "custo": 3, "relevante": true, "resposta": "B4 audível, sugestivo de ventrículo pouco complacente." },
+    { "texto": "Ausculta pulmonar: estertores em bases?", "custo": 3, "relevante": true, "resposta": "Estertores finos em ambas as bases pulmonares." },
+    { "texto": "Sopro sistólico em foco aórtico irradiando pra carótidas?", "custo": 3, "relevante": false, "resposta": "Ausculta sem sopros." },
+    { "texto": "Palpação de tireoide (bócio, nódulos)?", "custo": 3, "relevante": false, "resposta": "Tireoide normal à palpação." },
+    { "texto": "Ictus cordis desviado e hiperdinâmico?", "custo": 3, "relevante": true, "resposta": "Ictus impulsivo, sem desvio lateral importante." }
+  ],
+  "hipoteses": [
+    { "texto": "Cardiopatia hipertensiva com hipertrofia ventricular esquerda", "correta": true },
+    { "texto": "DPOC descompensado", "correta": false },
+    { "texto": "Anemia grave", "correta": false },
+    { "texto": "Estenose aórtica avançada", "correta": false },
+    { "texto": "Hipertireoidismo", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Eletrocardiograma", "custo": 8, "relevante": true, "resposta": "Critérios de sobrecarga ventricular esquerda (Sokolow-Lyon positivo)." },
+    { "texto": "Ecocardiograma", "custo": 14, "relevante": true, "resposta": "Hipertrofia concêntrica do ventrículo esquerdo, função sistólica preservada, relaxamento alterado." },
+    { "texto": "Hemograma completo", "custo": 8, "relevante": false, "resposta": "Hemoglobina e demais índices normais, sem anemia." },
+    { "texto": "TSH", "custo": 8, "relevante": false, "resposta": "TSH dentro da normalidade." }
+  ],
+  "condutas": [
+    { "texto": "Otimizar controle pressórico (IECA/BRA + diurético) e reforçar adesão ao tratamento", "correta": true },
+    { "texto": "Iniciar broncodilatador de longa duração como se fosse DPOC", "correta": false },
+    { "texto": "Transfusão sanguínea empírica", "correta": false }
+  ],
+  "explicacao": "A hipertensão arterial crônica e mal controlada aumenta a pós-carga (resistência que o ventrículo esquerdo precisa vencer pra ejetar sangue). Como o miócito cardíaco adulto tem capacidade de divisão muito limitada, a resposta adaptativa não é proliferar, e sim hipertrofiar: cada célula aumenta de volume, engrossando a parede ventricular (hipertrofia concêntrica). Isso mantém a função sistólica por um tempo, mas o ventrículo hipertrofiado fica mais rígido e relaxa pior (disfunção diastólica), o que explica a dispneia aos esforços, a ortopneia (dois travesseiros) e os estertores em base por congestão pulmonar. B4 reflete justamente a contração atrial contra um ventrículo pouco complacente."
+}

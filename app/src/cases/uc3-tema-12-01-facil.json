@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-12-01-facil",
+  "tema": "Tema 12 · Princípios da Ressonância Magnética",
+  "materia_relacionada": "Este caso mostra por que a ressonância magnética é o exame de escolha pra estruturas de partes moles como disco intervertebral, raiz nervosa e medula: ela explora o comportamento do próton de hidrogênio (abundante em água e gordura) sob campo magnético e pulsos de radiofrequência, distinguindo tecidos que a radiografia simples, sensível principalmente a osso, não diferencia.",
+  "area": "Ortopedia",
+  "prova": "Todas",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 45,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, tenho uma dor forte que começa nas costas e desce pela perna direita até o pé, como um choque, há umas três semanas.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "128/82", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "76", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.4", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 45 anos, dor lombar que desce pela perna feito choque. Antes de pedir imagem, vamos ouvir onde exatamente esse choque anda.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Cada exame pedido tem seu custo.",
+    "fechamento": "A dor seguindo esse trajeto não é coincidência, tem uma estrutura específica sendo comprimida, e só um exame consegue mostrar ela direito.",
+    "dicas": [
+      "Releia com atenção o trajeto exato que a dor faz, da lombar até o pé.",
+      "Pensa em qual estrutura de partes moles, entre as vértebras, pode comprimir uma raiz nervosa específica quando se desloca do lugar.",
+      "Esse trajeto de dor combina com qual raiz lombar sendo comprimida, e qual exame enxerga disco e raiz nervosa, e não só o osso?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "A dor irradia até onde exatamente na perna?", "custo": 2, "relevante": true, "resposta": "Desce pela parte posterior da coxa, perna e chega até o pé, no trajeto de um \"choque\"." },
+    { "texto": "Piora ao tossir, espirrar ou fazer força evacuatória?", "custo": 2, "relevante": true, "resposta": "Sim, piora bastante ao tossir ou fazer força." },
+    { "texto": "Teve febre ou emagrecimento não intencional recente?", "custo": 2, "relevante": false, "resposta": "Nega febre e não perdeu peso." },
+    { "texto": "Já teve episódios parecidos de dor lombar antes?", "custo": 2, "relevante": false, "resposta": "Já teve dor lombar simples antes, mas nunca descendo pra perna assim." },
+    { "texto": "Notou fraqueza pra levantar o pé ou andar na ponta dos pés?", "custo": 2, "relevante": true, "resposta": "Sim, sente o pé direito mais \"fraco\" pra levantar a ponta ao caminhar." }
+  ],
+  "exameFisico": [
+    { "texto": "Teste de elevação da perna reta (Lasègue)", "custo": 3, "relevante": true, "resposta": "Positivo à direita, reproduz a dor irradiada antes dos 60 graus." },
+    { "texto": "Força de dorsiflexão do tornozelo direito", "custo": 3, "relevante": true, "resposta": "Força grau 4/5, discretamente reduzida em relação ao lado esquerdo." },
+    { "texto": "Reflexo patelar bilateral", "custo": 3, "relevante": false, "resposta": "Reflexos patelares presentes e simétricos." },
+    { "texto": "Palpação de pulsos periféricos dos membros inferiores", "custo": 3, "relevante": false, "resposta": "Pulsos pediosos e tibiais posteriores palpáveis e simétricos." },
+    { "texto": "Sensibilidade tátil no dorso do pé e primeiro pododáctilo", "custo": 3, "relevante": true, "resposta": "Hipoestesia leve no dorso do pé direito e no primeiro pododáctilo." }
+  ],
+  "hipoteses": [
+    { "texto": "Hérnia de disco lombar (L4-L5) com radiculopatia", "correta": true },
+    { "texto": "Lombalgia mecânica simples", "correta": false },
+    { "texto": "Estenose de canal lombar degenerativa", "correta": false },
+    { "texto": "Metástase óssea vertebral", "correta": false },
+    { "texto": "Claudicação vascular intermitente", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Radiografia simples de coluna lombossacra", "custo": 8, "relevante": false, "resposta": "Alinhamento vertebral preservado, sem fratura ou lesão óssea visível." },
+    { "texto": "Ressonância magnética de coluna lombossacra", "custo": 16, "relevante": true, "resposta": "Protrusão discal L4-L5 póstero-lateral direita, comprimindo a raiz L5 correspondente." },
+    { "texto": "Hemograma completo", "custo": 8, "relevante": false, "resposta": "Sem leucocitose ou anemia." },
+    { "texto": "Doppler arterial de membros inferiores", "custo": 12, "relevante": false, "resposta": "Fluxo arterial preservado, sem sinais de obstrução." }
+  ],
+  "condutas": [
+    { "texto": "Tratamento conservador (analgesia, anti-inflamatório, fisioterapia) com reavaliação; cirurgia reservada a falha do tratamento ou déficit progressivo", "correta": true },
+    { "texto": "Cirurgia de urgência sem tentativa de tratamento conservador prévio", "correta": false },
+    { "texto": "Repouso absoluto prolongado no leito por várias semanas", "correta": false }
+  ],
+  "explicacao": "A dor com trajeto de choque da lombar até o pé, piorando com manobras que aumentam a pressão intratecal (tosse, esforço evacuatório), associada a Lasègue positivo, fraqueza de dorsiflexão e hipoestesia no dorso do pé, aponta pra compressão da raiz L5 por uma hérnia discal L4-L5. A radiografia simples mostra bem o osso, mas não visualiza disco intervertebral nem raiz nervosa comprimida; a ressonância magnética, ao explorar o sinal do próton de hidrogênio em diferentes tecidos moles, é o exame que realmente confirma o diagnóstico e localiza o nível exato da compressão."
+}
