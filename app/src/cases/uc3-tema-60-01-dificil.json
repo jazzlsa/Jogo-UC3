@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-60-01-dificil",
+  "tema": "Tema 60 · Aspectos Práticos do Diagnóstico Virológico",
+  "materia_relacionada": "Este caso aplica a diferença entre métodos diretos de diagnóstico viral vista na aula: uma citologia simples (Tzanck) pode mostrar rapidamente que existe uma infecção por um vírus da família herpes, mas não diferencia qual vírus exato é, e um recém-nascido grave não pode esperar esse detalhe, exigindo um método mais específico (PCR) para confirmar e ao mesmo tempo justificando iniciar o tratamento antes mesmo dessa confirmação chegar.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 0,
+    "sexo": "F"
+  },
+  "queixa_principal": "A mãe relata: “Doutora, minha filha tem 6 dias de vida, apareceram umas bolhinhas agrupadas na pele, e hoje ela ficou molinha, sem reagir direito, e teve um tremor estranho no corpo.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "64/38", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "168", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.1", "u": "°C", "flag": true },
+    { "l": "FR", "v": "48", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "94", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Recém-nascida de 6 dias, vesículas agrupadas na pele, letargia e um episódio de tremor. Isso não pode esperar, mas antes de tratar, pergunta bem sobre a mãe durante o parto.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Um exame rápido já mostrou que era da família certa. Só que família não é a mesma coisa que identidade, e aqui isso fez toda a diferença no remédio certo.",
+    "dicas": [
+      "Releia com atenção o histórico da mãe durante a gestação e principalmente durante o parto, tinha alguma lesão ativa na hora?",
+      "Pensa em como um exame simples e rápido, feito raspando a base de uma vesícula e olhando no microscópio, pode mostrar uma célula característica de infecção por vírus de uma família inteira, mas sem conseguir dizer sozinho qual vírus exato dessa família é.",
+      "Que exame, além dessa citologia simples, é necessário pra confirmar especificamente qual vírus da família herpes está causando essa infecção grave e disseminada num recém-nascido, orientando o antiviral certo sem esperar o resultado de uma cultura viral lenta?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "A mãe teve alguma lesão genital ativa durante a gestação ou perto do parto?", "custo": 2, "relevante": true, "resposta": "A mãe teve uma lesão genital ativa nos últimos dias antes do parto, mas não foi investigada na hora." },
+    { "texto": "O parto foi vaginal ou cesárea eletiva?", "custo": 2, "relevante": true, "resposta": "Foi parto vaginal, sem indicação de cesárea eletiva apesar da lesão." },
+    { "texto": "Desde quando exatamente apareceram as bolhinhas na pele?", "custo": 2, "relevante": true, "resposta": "Apareceram há dois dias, foram aumentando em número." },
+    { "texto": "A mãe teve varicela confirmada durante a gestação?", "custo": 2, "relevante": false, "resposta": "Não teve varicela durante a gestação." },
+    { "texto": "A bebê está mamando e reagindo normalmente?", "custo": 2, "relevante": true, "resposta": "Está mamando pouco e reagindo menos que o esperado desde ontem." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção das lesões de pele", "custo": 3, "relevante": true, "resposta": "Vesículas agrupadas sobre base eritematosa, em padrão herpetiforme." },
+    { "texto": "Avaliação de tônus e nível de consciência", "custo": 3, "relevante": true, "resposta": "Hipotonia e letargia importantes para a idade." },
+    { "texto": "Palpação abdominal (hepatomegalia)", "custo": 3, "relevante": true, "resposta": "Hepatomegalia discreta à palpação." },
+    { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": true, "resposta": "Icterícia leve presente." }
+  ],
+  "hipoteses": [
+    { "texto": "Herpes neonatal disseminado (HSV)", "correta": true },
+    { "texto": "Varicela neonatal", "correta": false },
+    { "texto": "Impetigo estafilocócico bolhoso", "correta": false },
+    { "texto": "Eritema tóxico neonatal", "correta": false },
+    { "texto": "Incontinência pigmentar", "correta": false },
+    { "texto": "Infecção neonatal por enterovírus", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Citologia de Tzanck (raspado da base da vesícula)", "custo": 10, "relevante": true, "resposta": "Presença de células gigantes multinucleadas, sugestivas de infecção por vírus da família herpes, sem diferenciar qual espécie." },
+    { "texto": "PCR para HSV em sangue, líquor e lesão de pele", "custo": 16, "relevante": true, "resposta": "Positivo especificamente para HSV, confirmando o diagnóstico e diferenciando de varicela-zóster." },
+    { "texto": "Provas de função hepática", "custo": 10, "relevante": true, "resposta": "Transaminases elevadas, sugerindo disseminação hepática da infecção." },
+    { "texto": "Análise do líquor", "custo": 14, "relevante": true, "resposta": "Pleocitose e PCR positivo para HSV, confirmando envolvimento do sistema nervoso central." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar aciclovir endovenoso em dose alta imediatamente, mesmo antes da confirmação laboratorial completa, dado o alto risco de mortalidade da forma disseminada não tratada", "correta": true },
+    { "texto": "Aguardar o resultado da cultura viral (que demora dias) antes de iniciar qualquer tratamento", "correta": false },
+    { "texto": "Tratar apenas com antibiótico, como se fosse impetigo bacteriano", "correta": false },
+    { "texto": "Apenas observação clínica, já que lesões de pele neonatais costumam ser benignas", "correta": false }
+  ],
+  "explicacao": "A citologia de Tzanck é um método direto rápido e barato que mostra células gigantes multinucleadas características de infecção por vírus da família herpes (HSV ou varicela-zóster), mas não diferencia qual desses vírus está envolvido, uma limitação importante desse método. A história de lesão genital materna ativa próxima ao parto, associada à via de parto vaginal, à idade de início das lesões e aos sinais de disseminação (letargia, hepatomegalia, icterícia, convulsão), aponta fortemente para herpes neonatal disseminado, confirmado especificamente pelo PCR para HSV em sangue, líquor e lesão de pele. Como a forma disseminada tem mortalidade muito alta sem tratamento rápido, o aciclovir endovenoso deve ser iniciado empiricamente assim que a suspeita clínica é forte, sem esperar a confirmação completa por métodos mais lentos como a cultura viral."
+}

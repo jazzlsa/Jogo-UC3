@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-61-01-dificil",
+  "tema": "Tema 61 · Patologia da Infecção Viral",
+  "materia_relacionada": "Este caso aplica o conceito de efeito citopático viral visto na aula: certos vírus, ao infectar uma célula, produzem um corpo de inclusão característico visível ao microscópio, aqui um núcleo aumentado com uma inclusão central bem definida cercada por um halo claro (\"olho de coruja\"), uma assinatura morfológica que ajuda a identificar o agente antes mesmo de qualquer teste molecular.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 0,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutora, meu filho nasceu com a cabecinha pequena, tem uns pontinhos roxos na pele e o pediatra falou que o fígado e o baço dele estão grandes.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "62/36", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "140", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.8", "u": "°C", "flag": false },
+    { "l": "FR", "v": "44", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Recém-nascido com microcefalia, petéquias e hepatoesplenomegalia. Antes de pensar só em toxoplasmose, pergunta bem sobre a saúde da mãe durante a gestação.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Um vírus bem comum, quase sempre silencioso em adultos, deixou uma marca bem específica dentro das células dele, um núcleo enorme com um olho estampado no meio.",
+    "dicas": [
+      "Releia com atenção se a mãe teve algum episódio de mal-estar tipo gripal ou \"mononucleose\" durante a gestação, mesmo que leve.",
+      "Pensa em como esse vírus, ao infectar uma célula, faz o núcleo dela aumentar tanto de tamanho que fica com um halo claro ao redor de uma inclusão central bem definida, um achado clássico visto ao microscópio.",
+      "Que vírus congênito, causando calcificações intracranianas tipicamente ao redor dos ventrículos e perda auditiva progressiva, tem esse achado histológico clássico de núcleo aumentado com inclusão central, conhecido como \"olho de coruja\"?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "A mãe teve algum episódio de mal-estar tipo gripal ou \"mononucleose\" durante a gestação?", "custo": 2, "relevante": true, "resposta": "Teve um episódio de mal-estar com febre baixa e cansaço no segundo trimestre, achou que fosse só uma virose comum." },
+    { "texto": "Tem gato em casa ou consome carne mal cozida com frequência?", "custo": 2, "relevante": false, "resposta": "Não tem gato em casa e evita carne mal passada." },
+    { "texto": "A mãe teve exantema (manchas vermelhas pelo corpo) durante a gestação?", "custo": 2, "relevante": false, "resposta": "Não teve nenhum exantema durante a gestação." },
+    { "texto": "O VDRL da mãe no pré-natal foi negativo?", "custo": 2, "relevante": false, "resposta": "VDRL da mãe negativo em todas as consultas de pré-natal." },
+    { "texto": "A mãe viajou para área endêmica de Zika durante a gestação?", "custo": 2, "relevante": false, "resposta": "Não viajou para nenhuma área endêmica de Zika." }
+  ],
+  "exameFisico": [
+    { "texto": "Medida do perímetro cefálico", "custo": 3, "relevante": true, "resposta": "Perímetro cefálico abaixo do esperado para a idade gestacional, compatível com microcefalia." },
+    { "texto": "Inspeção de pele em busca de petéquias", "custo": 3, "relevante": true, "resposta": "Petéquias difusas pelo corpo." },
+    { "texto": "Palpação abdominal (hepatoesplenomegalia)", "custo": 3, "relevante": true, "resposta": "Fígado e baço palpáveis e aumentados." },
+    { "texto": "Teste de emissões otoacústicas (triagem auditiva)", "custo": 3, "relevante": true, "resposta": "Alterado, sugerindo perda auditiva." }
+  ],
+  "hipoteses": [
+    { "texto": "Citomegalovirose congênita (CMV)", "correta": true },
+    { "texto": "Toxoplasmose congênita", "correta": false },
+    { "texto": "Rubéola congênita", "correta": false },
+    { "texto": "Sífilis congênita", "correta": false },
+    { "texto": "Zika congênito", "correta": false },
+    { "texto": "Herpes neonatal disseminado", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Tomografia de crânio", "custo": 14, "relevante": true, "resposta": "Calcificações periventriculares, distintas do padrão difuso da toxoplasmose." },
+    { "texto": "PCR para CMV em urina ou saliva do recém-nascido, colhido nas primeiras três semanas de vida", "custo": 16, "relevante": true, "resposta": "Positivo, confirmando infecção congênita (e não adquirida após o nascimento)." },
+    { "texto": "Sorologia materna para CMV (IgG e avidez)", "custo": 10, "relevante": true, "resposta": "IgG positivo com avidez baixa, sugerindo infecção materna relativamente recente na gestação." },
+    { "texto": "Sorologia para toxoplasmose e VDRL do recém-nascido", "custo": 10, "relevante": true, "resposta": "Ambos negativos." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar ganciclovir ou valganciclovir precocemente (reduz sequelas neurológicas e auditivas) e programar acompanhamento audiológico e neurológico de longo prazo", "correta": true },
+    { "texto": "Iniciar pirimetamina e sulfadiazina, tratando como toxoplasmose congênita", "correta": false },
+    { "texto": "Iniciar penicilina benzatina, tratando como sífilis congênita", "correta": false },
+    { "texto": "Apenas observação clínica, sem tratamento antiviral específico", "correta": false }
+  ],
+  "explicacao": "O citomegalovírus infecta células e produz um efeito citopático característico: aumento nuclear com uma inclusão central bem definida cercada por um halo claro, o padrão \"olho de coruja\". Na infecção congênita, isso se traduz clinicamente em microcefalia, petéquias, hepatoesplenomegalia, icterícia e, um achado particularmente importante, perda auditiva neurossensorial progressiva. As calcificações periventriculares na tomografia (diferentes do padrão difuso da toxoplasmose) e o PCR positivo para CMV na urina/saliva colhido ainda nas primeiras semanas de vida (confirmando que a infecção é congênita, não adquirida depois do parto) fecham o diagnóstico. VDRL e sorologia para toxoplasmose negativos no recém-nascido afastam sífilis e toxoplasmose congênitas. O tratamento antiviral precoce reduz significativamente o risco de sequelas neurológicas e auditivas a longo prazo, o que reforça a importância de identificar a infecção rapidamente."
+}

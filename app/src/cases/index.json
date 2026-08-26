@@ -630,5 +630,21 @@
     "area": "Neurologia",
     "prova": "P3",
     "arquivo": "uc3-tema-59-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-60-01-dificil",
+    "tema": "Tema 60 · Aspectos Práticos do Diagnóstico Virológico",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-60-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-61-01-dificil",
+    "tema": "Tema 61 · Patologia da Infecção Viral",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-61-01-dificil.json"
   }
 ]
