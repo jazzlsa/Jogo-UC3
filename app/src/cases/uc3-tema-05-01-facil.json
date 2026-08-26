@@ -44,12 +44,12 @@
     }
   ],
   "burns": {
-    "abertura": "Trauma de crânio, paciente acordado e conversando com vocês, antes de sair pedindo tomografia pra todo mundo que bateu a cabeça, existe critério clínico pra isso. Vamos usar.",
-    "piBaixo": "PI acabando rápido? Tomografia de crânio é cara em pontos, só vale se o exame clínico realmente apontar pra ela.",
+    "abertura": "Homem de 24 anos, bateu a cabeça jogando bola, chegou conversando normalmente com você. Antes de decidir o que pedir, ouve a história direito primeiro.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Exame de imagem custa caro em PI, pondera bem antes de pedir.",
     "fechamento": "Escala de Glasgow 15, sem perda de consciência, sem vômito, sem uso de anticoagulante, esse paciente não precisa de TC. Saber quando NÃO pedir exame também é raciocínio clínico.",
     "dicas": [
       "Antes de pensar em pedir exame, veja se o paciente preenche algum critério de alto risco, perda de consciência, vômito, uso de anticoagulante.",
-      "Glasgow 15 e exame neurológico normal contam muito a favor de um risco baixo.",
+      "Pensa em quais critérios clínicos as regras de decisão pra pedir tomografia de crânio realmente exigem, e o que significa quando nenhum deles está presente.",
       "Às vezes a resposta certa não é pedir mais exame, é saber por que não precisa pedir."
     ]
   },

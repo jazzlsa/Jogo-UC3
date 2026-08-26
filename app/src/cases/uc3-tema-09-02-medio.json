@@ -45,7 +45,7 @@
   ],
   "burns": {
     "abertura": "Dor torácica típica, sudorese, uma hora de evolução, isso é emergência até prova em contrário. Enquanto vocês investigam, o relógio já está correndo contra o músculo cardíaco.",
-    "piBaixo": "Em dor torácica com esse perfil, não é hora de economizar PI pensando em amanhã, o miocárdio que está morrendo agora não espera.",
+    "piBaixo": "Em dor torácica com esse perfil, não é hora de economizar PI pensando em amanhã, cada minuto de investigação a mais tem custo quando o quadro pode ser grave.",
     "fechamento": "Depois de 20-40 minutos de isquemia total, a lesão reversível vira necrose de coagulação, e essa, ao contrário da esteatose que vimos antes, não volta atrás. Tempo é músculo.",
     "dicas": [
       "A dor com essas características (aperto, irradiação, sudorese) tem um padrão clássico que aponta pra uma síndrome específica.",

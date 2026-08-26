@@ -289,7 +289,7 @@
   },
   {
     "id": "uc3-tema-15-01-medio",
-    "tema": "Tema 15 · Esquizofrenia",
+    "tema": "Tema 15 · Transtornos Psicóticos",
     "dificuldade": "medio",
     "area": "Psiquiatria",
     "prova": "P1",
@@ -297,7 +297,7 @@
   },
   {
     "id": "uc3-tema-15-02-dificil",
-    "tema": "Tema 15 · Esquizofrenia",
+    "tema": "Tema 15 · Transtornos Psicóticos",
     "dificuldade": "dificil",
     "area": "Psiquiatria",
     "prova": "P1",
@@ -697,7 +697,7 @@
   },
   {
     "id": "uc3-tema-68-01-dificil",
-    "tema": "Tema 68 · Grand Round: Patologia do Sarampo",
+    "tema": "Tema 68 · Grand Round: Complicação Neurológica Tardia de Infecção Viral",
     "dificuldade": "dificil",
     "area": "Infectologia",
     "prova": "P3",

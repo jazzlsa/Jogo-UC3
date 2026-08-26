@@ -1,6 +1,6 @@
 {
   "id": "uc3-tema-68-01-dificil",
-  "tema": "Tema 68 · Grand Round: Patologia do Sarampo",
+  "tema": "Tema 68 · Grand Round: Complicação Neurológica Tardia de Infecção Viral",
   "materia_relacionada": "Este caso, baseado no Grand Round sobre patologia do sarampo discutido em aula, mostra uma complicação tardia rara e devastadora: o vírus do sarampo pode persistir de forma latente dentro do sistema nervoso central por anos após uma infecção aguda aparentemente resolvida, causando um dano neurológico lento e progressivo muito tempo depois, longe de qualquer suspeita óbvia de causa viral.",
   "area": "Infectologia",
   "prova": "P3",
@@ -19,13 +19,13 @@
     { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
   ],
   "burns": {
-    "abertura": "Menino de 11 anos, declínio cognitivo progressivo há meses e abalos musculares súbitos. Pergunta bem lá atrás na história dele, teve sarampo quando era pequeno?",
+    "abertura": "Menino de 11 anos, declínio cognitivo progressivo há meses e abalos musculares súbitos. Antes de pensar em epilepsia isolada, vasculha bem o histórico de infecções da primeira infância dele.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
     "fechamento": "O vírus nunca tinha ido embora de verdade. Ficou escondido lá dentro, quietinho, esperando anos pra causar esse estrago.",
     "dicas": [
-      "Releia com atenção se ele teve sarampo quando era bem pequeno, mesmo há muitos anos, e se foi vacinado contra essa doença depois.",
+      "Releia com atenção o histórico de infecções da primeira infância dele, teve algo mais sério que uma virose comum, mesmo há muitos anos, e completou o esquema vacinal depois?",
       "Pensa em como um vírus, mesmo depois da infecção aguda parecer totalmente resolvida, pode ficar escondido dentro do sistema nervoso central por anos, causando um dano lento e progressivo bem mais tarde.",
-      "Que complicação tardia e rara do sarampo, ocorrendo anos depois da infecção original (geralmente adquirida na primeira infância), causa declínio cognitivo progressivo e mioclonias, com título de anticorpo antissarampo muito elevado no líquor e um padrão bem característico no eletroencefalograma?"
+      "Que complicação neurológica tardia e rara, decorrente da persistência de um vírus de infância dentro do sistema nervoso central, causa declínio cognitivo progressivo e mioclonias anos depois, com um título de anticorpo específico muito elevado no líquor e um padrão bem característico no eletroencefalograma?"
     ]
   },
   "anamnese": [
