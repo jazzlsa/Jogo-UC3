@@ -55,6 +55,11 @@
   },
   "anamnese": [
     {
+      "texto": "Notou inchaço, vermelhidão ou dor direto no testículo?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não notou nenhuma alteração direto no testículo, a dor é mais nas costas e virilha." },
+    {
       "texto": "A dor começou de forma súbita?",
       "custo": 2,
       "relevante": true,
@@ -130,6 +135,10 @@
     },
     {
       "texto": "Hérnia inguinal direita encarcerada",
+      "correta": false
+    },
+    {
+      "texto": "Torção testicular",
       "correta": false
     }
   ],

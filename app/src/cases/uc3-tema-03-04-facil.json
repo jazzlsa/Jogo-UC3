@@ -55,6 +55,11 @@
   },
   "anamnese": [
     {
+      "texto": "Usou algum antibiótico recentemente, e a febre chegou a melhorar durante o uso?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não usou antibiótico algum nesse período." },
+    {
       "texto": "Há quanto tempo a tosse e a febre vespertina estão presentes?",
       "custo": 2,
       "relevante": true,
@@ -130,6 +135,10 @@
     },
     {
       "texto": "Aspergilose pulmonar invasiva",
+      "correta": false
+    },
+    {
+      "texto": "Pneumonia bacteriana comunitária arrastada",
       "correta": false
     }
   ],

@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "Já teve algum hemograma anterior mostrando neutropenia isolada, mesmo que temporária?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não há registro de neutropenia em exames anteriores."
+    },
+    {
       "texto": "Com quantos dias de vida o cordão umbilical costuma cair normalmente?",
       "custo": 2,
       "relevante": true,
@@ -136,6 +142,10 @@
     },
     {
       "texto": "Deficiência seletiva de IgA",
+      "correta": false
+    },
+    {
+      "texto": "Neutropenia cíclica congênita",
       "correta": false
     }
   ],

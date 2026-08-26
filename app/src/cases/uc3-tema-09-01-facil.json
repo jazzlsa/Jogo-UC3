@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "Começou algum remédio novo ou suplemento recentemente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não iniciou nenhum remédio ou suplemento novo."
+    },
+    {
       "texto": "Quanto álcool costuma consumir por semana?",
       "custo": 2,
       "relevante": true,
@@ -136,6 +142,10 @@
     },
     {
       "texto": "Hepatocarcinoma",
+      "correta": false
+    },
+    {
+      "texto": "Hepatite medicamentosa (droga-induzida)",
       "correta": false
     }
   ],

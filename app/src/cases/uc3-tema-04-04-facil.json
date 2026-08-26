@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "A dor piora especificamente ao respirar fundo, como se fosse nas costelas?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor é mais abdominal difusa, não piora especificamente com a respiração."
+    },
+    {
       "texto": "Teve perda de consciência ou trauma craniano?",
       "custo": 2,
       "relevante": false,
@@ -130,6 +136,10 @@
     },
     {
       "texto": "Fratura de fêmur com choque neurogênico",
+      "correta": false
+    },
+    {
+      "texto": "Fratura de arcos costais isolada, sem lesão visceral associada",
       "correta": false
     }
   ],

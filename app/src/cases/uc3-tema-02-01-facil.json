@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "Tem azia ou queimação que piora ao deitar, sem relação clara com alimento gorduroso?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não tem azia ou queimação relacionada a deitar, a dor é bem específica após comida gordurosa."
+    },
+    {
       "texto": "A dor é desencadeada ou piora após ingerir alimentos gordurosos?",
       "custo": 2,
       "relevante": true,
@@ -130,6 +136,10 @@
     },
     {
       "texto": "Nefrolitíase à direita",
+      "correta": false
+    },
+    {
+      "texto": "Refluxo gastroesofágico com dor atípica",
       "correta": false
     }
   ],

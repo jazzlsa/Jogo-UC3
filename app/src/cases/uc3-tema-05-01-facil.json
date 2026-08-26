@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "Tinha ingerido álcool antes do trauma?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não tinha bebido nada, estava sóbrio durante o jogo."
+    },
+    {
       "texto": "Chegou a perder a consciência no momento do trauma?",
       "custo": 2,
       "relevante": true,
@@ -136,6 +142,10 @@
     },
     {
       "texto": "Enxaqueca sem relação com o trauma",
+      "correta": false
+    },
+    {
+      "texto": "Intoxicação alcoólica aguda concomitante",
       "correta": false
     }
   ],

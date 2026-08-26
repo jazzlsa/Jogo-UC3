@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "A dor piora especificamente ao pressionar a parede do tórax?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a palpação da parede torácica não reproduz a dor."
+    },
+    {
       "texto": "A dor no peito começou de forma súbita?",
       "custo": 2,
       "relevante": true,
@@ -136,6 +142,10 @@
     },
     {
       "texto": "Pericardite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Costocondrite (síndrome de Tietze)",
       "correta": false
     }
   ],

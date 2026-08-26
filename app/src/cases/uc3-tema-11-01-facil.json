@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem diagnóstico de doença renal crônica ou faz diálise?", "custo": 2, "relevante": false, "resposta": "Sem diagnóstico de doença renal crônica, função renal nunca alterada em exames prévios." },
     { "texto": "Há quanto tempo tem pressão alta e como é o controle da medicação?", "custo": 2, "relevante": true, "resposta": "Hipertenso há uns 15 anos, toma losartana mas admite esquecer bastante." },
     { "texto": "Fuma ou fumou por muitos anos?", "custo": 2, "relevante": false, "resposta": "Nunca fumou." },
     { "texto": "Notou sangramento ou fraqueza progressiva que sugerisse anemia?", "custo": 2, "relevante": false, "resposta": "Não notou sangramento nem fraqueza fora do comum." },
@@ -47,7 +48,8 @@
     { "texto": "DPOC descompensado", "correta": false },
     { "texto": "Anemia grave", "correta": false },
     { "texto": "Estenose aórtica avançada", "correta": false },
-    { "texto": "Hipertireoidismo", "correta": false }
+    { "texto": "Hipertireoidismo", "correta": false },
+    { "texto": "Insuficiência renal crônica com sobrecarga de volume", "correta": false }
   ],
   "exames": [
     { "texto": "Eletrocardiograma", "custo": 8, "relevante": true, "resposta": "Critérios de sobrecarga ventricular esquerda (Sokolow-Lyon positivo)." },

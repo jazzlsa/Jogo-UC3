@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem sonda vesical ou cateter de longa permanência que pudesse ser fonte de infecção?", "custo": 2, "relevante": false, "resposta": "Não tem sonda vesical nem cateter de longa permanência." },
     { "texto": "A confusão começou de repente ou é algo que já vinha piorando há meses?", "custo": 2, "relevante": true, "resposta": "Começou hoje de manhã, do nada; antes disso estava lúcida como sempre." },
     { "texto": "Teve tosse, catarro ou falta de ar nos últimos dias?", "custo": 2, "relevante": true, "resposta": "A filha notou uma tosse discreta há dois dias, sem catarro visível, e achou que fosse só \"resfriado\"." },
     { "texto": "Já tem diagnóstico de demência ou perda de memória progressiva conhecida?", "custo": 2, "relevante": false, "resposta": "Não tem diagnóstico de demência, sempre foi lúcida e independente." },
@@ -46,7 +47,8 @@
     { "texto": "Acidente vascular cerebral isquêmico", "correta": false },
     { "texto": "Infecção urinária não complicada", "correta": false },
     { "texto": "Demência descompensada por fator ambiental", "correta": false },
-    { "texto": "Hipotireoidismo descompensado", "correta": false }
+    { "texto": "Hipotireoidismo descompensado", "correta": false },
+    { "texto": "Sepse de foco não identificado", "correta": false }
   ],
   "exames": [
     { "texto": "Radiografia de tórax", "custo": 8, "relevante": true, "resposta": "Opacidade alveolar em base pulmonar direita, compatível com consolidação pneumônica." },

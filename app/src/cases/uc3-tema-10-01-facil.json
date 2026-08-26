@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "Tem histórico de sangramento menstrual intenso ou dieta pobre em ferro?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Ciclo menstrual normal e dieta variada, sem restrição de ferro."
+    },
+    {
       "texto": "Há quanto tempo esses sintomas vêm aparecendo?",
       "custo": 2,
       "relevante": true,
@@ -136,6 +142,10 @@
     },
     {
       "texto": "Anemia ferropriva isolada",
+      "correta": false
+    },
+    {
+      "texto": "Síndrome de fadiga crônica idiopática",
       "correta": false
     }
   ],

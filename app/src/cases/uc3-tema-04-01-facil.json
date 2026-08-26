@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "A dor melhora com o uso de antiácido ou protetor gástrico?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não notou melhora com antiácido."
+    },
+    {
       "texto": "A dor tem relação com alimentos gordurosos?",
       "custo": 2,
       "relevante": true,
@@ -136,6 +142,10 @@
     },
     {
       "texto": "Hepatite viral aguda",
+      "correta": false
+    },
+    {
+      "texto": "Gastrite aguda",
       "correta": false
     }
   ],

@@ -55,6 +55,12 @@
   },
   "anamnese": [
     {
+      "texto": "Teve algum trauma ou pancada nessa mama recentemente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não teve nenhum trauma ou pancada na mama."
+    },
+    {
       "texto": "Há quanto tempo notou o nódulo e se houve modificação de tamanho?",
       "custo": 2,
       "relevante": true,
@@ -124,6 +130,10 @@
     },
     {
       "texto": "Lipoma subcutâneo mamário",
+      "correta": false
+    },
+    {
+      "texto": "Necrose gordurosa pós-trauma mamário",
       "correta": false
     }
   ],

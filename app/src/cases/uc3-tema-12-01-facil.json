@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "A dor piora especificamente ao ficar sentado por muito tempo, tipo dirigindo?", "custo": 2, "relevante": false, "resposta": "Não notou relação específica com ficar sentado por muito tempo." },
     { "texto": "A dor irradia até onde exatamente na perna?", "custo": 2, "relevante": true, "resposta": "Desce pela parte posterior da coxa, perna e chega até o pé, no trajeto de um \"choque\"." },
     { "texto": "Piora ao tossir, espirrar ou fazer força evacuatória?", "custo": 2, "relevante": true, "resposta": "Sim, piora bastante ao tossir ou fazer força." },
     { "texto": "Teve febre ou emagrecimento não intencional recente?", "custo": 2, "relevante": false, "resposta": "Nega febre e não perdeu peso." },
@@ -47,7 +48,8 @@
     { "texto": "Lombalgia mecânica simples", "correta": false },
     { "texto": "Estenose de canal lombar degenerativa", "correta": false },
     { "texto": "Metástase óssea vertebral", "correta": false },
-    { "texto": "Claudicação vascular intermitente", "correta": false }
+    { "texto": "Claudicação vascular intermitente", "correta": false },
+    { "texto": "Síndrome do piriforme", "correta": false }
   ],
   "exames": [
     { "texto": "Radiografia simples de coluna lombossacra", "custo": 8, "relevante": false, "resposta": "Alinhamento vertebral preservado, sem fratura ou lesão óssea visível." },
