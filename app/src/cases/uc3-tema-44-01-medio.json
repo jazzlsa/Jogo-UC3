@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-44-01-medio",
+  "tema": "Tema 44 · Micoses Superficiais e Cutâneas",
+  "materia_relacionada": "Este caso aplica o conceito de micose superficial visto na aula: um fungo que já faz parte da microbiota normal da pele, alimentando-se de lipídeos, pode se tornar oportunista em certas condições (calor, umidade, oleosidade) e interferir localmente na produção de melanina, causando manchas que precisam ser diferenciadas de outras causas de alteração de cor na pele, inclusive de diagnósticos que exigem investigação bem mais urgente.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 24,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, tenho umas manchas mais claras no peito e nas costas há uns meses, mas notei mais agora depois que tomei sol, porque elas não bronzearam junto com o resto da pele.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "118/74", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "76", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Rapaz de 24 anos, manchas mais claras no tronco que não bronzeiam com o sol. Antes de rotular como vitiligo ou outra coisa, testa a sensibilidade dessas manchas com cuidado.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A pele dele já morava com esse fungo o tempo todo, sem dar trabalho nenhum, até as condições certas aparecerem.",
+    "dicas": [
+      "Releia com atenção o que acontece com essas manchas depois que ele toma sol, elas bronzeiam junto com o resto da pele ou não?",
+      "Pensa em como um fungo que já mora normalmente na pele da maioria das pessoas, alimentando-se de gordura da própria pele, pode virar oportunista em certas condições e interferir localmente na produção de melanina.",
+      "Que exame simples, usando uma luz ultravioleta específica sobre a lesão, mostra uma fluorescência de cor característica que ajuda a diferenciar rapidamente essa micose superficial de outras causas de mancha na pele?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "As manchas coçam ou incomodam de alguma forma?", "custo": 2, "relevante": true, "resposta": "Coça um pouco, principalmente quando transpira bastante." },
+    { "texto": "As manchas bronzeiam junto com o resto da pele quando toma sol?", "custo": 2, "relevante": true, "resposta": "Não, elas ficam ainda mais evidentes depois do sol, porque o resto da pele escurece e elas não." },
+    { "texto": "Notou perda de sensibilidade (dormência) nessas manchas?", "custo": 2, "relevante": true, "resposta": "Não notou nenhuma perda de sensibilidade nas manchas." },
+    { "texto": "Teve contato conhecido com alguém com hanseníase?", "custo": 2, "relevante": false, "resposta": "Não teve contato conhecido com ninguém com hanseníase." },
+    { "texto": "Transpira bastante ou usa óleos/cremes oleosos na pele com frequência?", "custo": 2, "relevante": true, "resposta": "Transpira bastante por praticar esporte ao ar livre quase todo dia." },
+    { "texto": "Tem histórico familiar de vitiligo?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de vitiligo." }
+  ],
+  "exameFisico": [
+    { "texto": "Raspagem suave da lesão em busca de descamação fina", "custo": 3, "relevante": true, "resposta": "Descamação furfurácea fina evidenciada à raspagem da lesão." },
+    { "texto": "Teste de sensibilidade tátil e dolorosa na área da mancha", "custo": 3, "relevante": true, "resposta": "Sensibilidade tátil e dolorosa preservadas, normais na área da lesão." },
+    { "texto": "Palpação de nervos periféricos (ulnar, fibular)", "custo": 3, "relevante": true, "resposta": "Nervos periféricos sem espessamento palpável." },
+    { "texto": "Avaliação da distribuição e bordas das lesões", "custo": 3, "relevante": false, "resposta": "Máculas hipocrômicas de bordas irregulares, distribuídas principalmente em tronco superior." }
+  ],
+  "hipoteses": [
+    { "texto": "Pitiríase versicolor (Malassezia furfur/globosa)", "correta": true },
+    { "texto": "Vitiligo", "correta": false },
+    { "texto": "Tinea corporis", "correta": false },
+    { "texto": "Pitiríase alba", "correta": false },
+    { "texto": "Hanseníase indeterminada", "correta": false },
+    { "texto": "Psoríase", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Exame micológico direto com hidróxido de potássio (KOH)", "custo": 10, "relevante": true, "resposta": "Visualização de hifas curtas e esporos arredondados agrupados, padrão característico (\"espaguete com almôndegas\")." },
+    { "texto": "Exame sob lâmpada de Wood", "custo": 8, "relevante": true, "resposta": "Fluorescência amarelo-dourada característica nas lesões." },
+    { "texto": "Teste de sensibilidade formal com monofilamentos", "custo": 8, "relevante": true, "resposta": "Sensibilidade preservada em todas as modalidades testadas, sem áreas de anestesia." },
+    { "texto": "Biópsia de pele", "custo": 14, "relevante": false, "resposta": "Não foi necessária, já que o exame micológico direto já confirmou o diagnóstico de forma menos invasiva." }
+  ],
+  "condutas": [
+    { "texto": "Tratamento com antifúngico tópico (ou oral em casos extensos), orientando que a repigmentação da pele leva tempo mesmo após eliminar a infecção", "correta": true },
+    { "texto": "Tratar apenas com corticoide tópico, sem antifúngico", "correta": false },
+    { "texto": "Iniciar poliquimioterapia para hanseníase", "correta": false },
+    { "texto": "Orientar apenas fotoproteção, sem tratar a causa fúngica", "correta": false }
+  ],
+  "explicacao": "Malassezia furfur/globosa é um fungo lipofílico que já habita normalmente a pele humana, tornando-se oportunista em condições de calor, umidade e oleosidade excessiva (como sudorese intensa pela prática esportiva). Ele interfere na produção local de melanina, causando máculas hipocrômicas que não bronzeiam ao sol, ao contrário da pele ao redor, o que as torna mais visíveis após exposição solar. A descamação furfurácea à raspagem, a fluorescência amarelo-dourada sob luz de Wood e o padrão característico de hifas e esporos no exame micológico direto confirmam o diagnóstico. A sensibilidade preservada na lesão e a ausência de espessamento de nervos periféricos são essenciais para descartar hanseníase indeterminada, um diagnóstico diferencial importante de mancha hipocrômica que exige conduta completamente diferente (poliquimioterapia, não antifúngico) e cujo atraso no reconhecimento tem consequências neurológicas sérias."
+}

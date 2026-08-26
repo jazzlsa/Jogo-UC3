@@ -502,5 +502,37 @@
     "area": "Infectologia",
     "prova": "P2",
     "arquivo": "uc3-tema-42-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-43-01-dificil",
+    "tema": "Tema 43 · Características Gerais dos Fungos",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-43-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-44-01-medio",
+    "tema": "Tema 44 · Micoses Superficiais e Cutâneas",
+    "dificuldade": "medio",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-44-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-45-01-dificil",
+    "tema": "Tema 45 · Ativação de Linfócitos T e Plasticidade da Resposta Celular",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-45-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-46-01-dificil",
+    "tema": "Tema 46 · Regulação da Expressão Gênica em Eucariotos",
+    "dificuldade": "dificil",
+    "area": "Ginecologia/Obstetrícia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-46-01-dificil.json"
   }
 ]

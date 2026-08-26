@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-46-01-dificil",
+  "tema": "Tema 46 · Regulação da Expressão Gênica em Eucariotos",
+  "materia_relacionada": "Este caso aplica a regulação gênica por hormônios esteroides vista na aula: um hormônio esteroide só ativa a transcrição dos genes-alvo se conseguir se ligar a um receptor funcional dentro da célula. Quando esse receptor tem uma mutação que o torna incapaz de responder ao hormônio, os genes dependentes dele simplesmente não são ativados, mesmo com concentração normal ou alta do hormônio circulando no sangue.",
+  "area": "Ginecologia/Obstetrícia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 16,
+    "sexo": "F"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, minha filha tem 16 anos e ainda não menstruou nenhuma vez, apesar dos seios terem se desenvolvido normalmente há uns três anos.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "110/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "78", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Adolescente de 16 anos, nunca menstruou, mas as mamas se desenvolveram normalmente. Repara com atenção no que mais deveria ter se desenvolvido junto com a puberdade dela, e não se desenvolveu.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O hormônio estava lá, em quantidade normal. O problema nunca foi a quantidade, foi a fechadura que não reconhecia mais a chave certa.",
+    "dicas": [
+      "Releia com atenção como estão os pelos pubianos e axilares dela, comparados com o desenvolvimento das mamas.",
+      "Pensa em como um hormônio esteroide precisa de um receptor funcionando corretamente dentro da célula pra ativar os genes certos, e o que aconteceria se esse hormônio estivesse presente em quantidade normal ou até alta, mas o receptor simplesmente não respondesse a ele.",
+      "Que cariótipo, associado a um receptor de andrógeno defeituoso que impede a ação da testosterona nos tecidos-alvo, explica mamas desenvolvidas (por conversão periférica em outro hormônio) mas pelos pubianos escassos e ausência de útero?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como foi o desenvolvimento dos pelos pubianos e axilares, comparado com as mamas?", "custo": 2, "relevante": true, "resposta": "Os pelos pubianos e axilares são bem escassos, quase ausentes, bem diferente do desenvolvimento das mamas." },
+    { "texto": "Já sentiu algum tipo de cólica menstrual, mesmo sem sangramento?", "custo": 2, "relevante": true, "resposta": "Nunca sentiu nada parecido com cólica menstrual." },
+    { "texto": "Tem histórico familiar de parentes mulheres (tias, primas maternas) com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Uma tia materna também nunca menstruou e teve investigação parecida quando jovem." },
+    { "texto": "Notou alguma massa ou volume na região da virilha?", "custo": 2, "relevante": true, "resposta": "Sim, notaram um pequeno volume bilateral na região inguinal há um tempo, sem dor." },
+    { "texto": "Teve crescimento estatural e desenvolvimento geral normais para a idade?", "custo": 2, "relevante": false, "resposta": "Crescimento e desenvolvimento geral considerados normais para a idade." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação do desenvolvimento mamário (estágio de Tanner)", "custo": 3, "relevante": false, "resposta": "Mamas bem desenvolvidas, estágio avançado de Tanner." },
+    { "texto": "Avaliação de pelos pubianos e axilares", "custo": 3, "relevante": true, "resposta": "Pelos pubianos e axilares escassos, bem abaixo do esperado para o desenvolvimento mamário observado." },
+    { "texto": "Exame ginecológico externo (genitália externa e comprimento vaginal)", "custo": 3, "relevante": true, "resposta": "Genitália externa de aparência feminina típica, mas vagina em fundo cego, mais curta que o esperado." },
+    { "texto": "Palpação da região inguinal", "custo": 3, "relevante": true, "resposta": "Massas palpáveis bilaterais na região inguinal, compatíveis com gônadas." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome de insensibilidade androgênica completa (mutação no receptor de andrógeno)", "correta": true },
+    { "texto": "Síndrome de Rokitansky (agenesia mülleriana)", "correta": false },
+    { "texto": "Disgenesia gonadal", "correta": false },
+    { "texto": "Deficiência de 5-alfa-redutase", "correta": false },
+    { "texto": "Hiperplasia adrenal congênita", "correta": false },
+    { "texto": "Síndrome dos ovários policísticos", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Cariótipo", "custo": 14, "relevante": true, "resposta": "46,XY." },
+    { "texto": "Dosagem de testosterona sérica", "custo": 10, "relevante": true, "resposta": "Nível de testosterona dentro da faixa masculina, apesar do fenótipo externo feminino." },
+    { "texto": "Ultrassonografia pélvica", "custo": 14, "relevante": true, "resposta": "Ausência de útero e ovários; gônadas identificadas em topografia inguinal, compatíveis com testículos." },
+    { "texto": "Estudo genético do gene do receptor de andrógeno", "custo": 16, "relevante": true, "resposta": "Mutação confirmada no gene do receptor de andrógeno." }
+  ],
+  "condutas": [
+    { "texto": "Acompanhamento multidisciplinar (endocrinologia, genética e apoio psicológico), com gonadectomia programada pelo risco de malignização das gônadas, seguida de reposição hormonal adequada", "correta": true },
+    { "texto": "Iniciar reposição de testosterona, tentando estimular caracteres sexuais masculinos", "correta": false },
+    { "texto": "Indicar cirurgia de urgência sem investigação genética prévia", "correta": false },
+    { "texto": "Prescrever progestágeno tentando induzir menstruação", "correta": false }
+  ],
+  "explicacao": "Na síndrome de insensibilidade androgênica completa, um cariótipo 46,XY produz testosterona em níveis normais/masculinos, mas o receptor de andrógeno, defeituoso por mutação, não consegue mediar a ação desse hormônio nos tecidos-alvo. Parte da testosterona é convertida perifericamente em estrogênio (aromatização), explicando o desenvolvimento mamário normal, enquanto os efeitos diretos da testosterona sobre pelos pubianos/axilares e sobre a diferenciação genital masculina não ocorrem, resultando em genitália externa feminina, vagina em fundo cego e ausência de útero (já que o hormônio antimülleriano produzido pelos testículos ainda funciona normalmente, regredindo as estruturas müllerianas). O cariótipo 46,XY diferencia essa condição da síndrome de Rokitansky (46,XX, com ovários normais e pelos pubianos presentes) e a confirmação da mutação no receptor de andrógeno fecha o diagnóstico. As gônadas testiculares intra-abdominais/inguinais têm risco aumentado de malignização e geralmente são removidas em momento programado, após a puberdade."
+}

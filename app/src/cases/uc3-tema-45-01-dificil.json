@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-45-01-dificil",
+  "tema": "Tema 45 · Ativação de Linfócitos T e Plasticidade da Resposta Celular",
+  "materia_relacionada": "Este caso aplica o papel do TNF na manutenção do granuloma visto na aula: a comunicação entre linfócitos T e macrófagos, mediada por essa citocina, mantém uma infecção antiga contida e dormente dentro de uma estrutura organizada; bloquear especificamente essa via de sinalização com um medicamento biológico rompe esse equilíbrio e permite a reativação da infecção que estava controlada havia anos.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 45,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, comecei uma medicação nova para minha doença de Crohn há uns seis meses, e nas últimas três semanas venho com tosse, febre baixa e emagrecendo sem motivo.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "112/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "94", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "37.8", "u": "°C", "flag": true },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 45 anos, doença de Crohn, começou um remédio biológico novo há seis meses e agora tem febre, tosse e emagrecimento. Pergunta se alguém checou alguma coisa antes de começar esse remédio.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O remédio novo não causou o problema direto. Ele só desligou a trava que mantinha um problema antigo fechado dentro de uma estrutura que já existia havia anos.",
+    "dicas": [
+      "Releia com atenção que medicação ela começou a usar para a doença de base, e se algum exame de rastreio foi feito antes de iniciar esse remédio.",
+      "Pensa em como uma citocina específica ajuda a manter uma estrutura organizada de células (contendo uma infecção antiga e dormente) fechada e sob controle, e o que acontece quando um medicamento bloqueia justamente essa citocina.",
+      "Que infecção antiga, contida havia anos dentro dessa estrutura mantida intacta por essa citocina, pode reativar quando um medicamento bloqueia especificamente essa via de comunicação entre células imunes?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Que medicação nova ela começou a usar, e há quanto tempo?", "custo": 2, "relevante": true, "resposta": "Começou infliximabe (um medicamento biológico anti-TNF) há seis meses, para a doença de Crohn." },
+    { "texto": "Fizeram algum exame de rastreio de tuberculose antes de iniciar esse remédio?", "custo": 2, "relevante": true, "resposta": "Ela não se lembra de ter feito nenhum exame específico para tuberculose antes de começar o biológico." },
+    { "texto": "Já teve contato ou diagnóstico de tuberculose no passado, mesmo que não tratado?", "custo": 2, "relevante": true, "resposta": "Teve um episódio suspeito de tuberculose há muitos anos, na juventude, mas não lembra se foi tratado direito." },
+    { "texto": "Notou emagrecimento e sudorese noturna junto com a tosse?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu uns 5 kg e tem suado bastante à noite." },
+    { "texto": "Já esteve em área rural com contato com solo contaminado por fezes de morcego ou aves (fator de risco para outras micoses)?", "custo": 2, "relevante": false, "resposta": "Não teve esse tipo de exposição." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de estado nutricional e emagrecimento", "custo": 3, "relevante": true, "resposta": "Emagrecimento evidente desde a última consulta." },
+    { "texto": "Ausculta pulmonar detalhada", "custo": 3, "relevante": true, "resposta": "Estertores localizados em ápice pulmonar direito." },
+    { "texto": "Palpação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+  ],
+  "hipoteses": [
+    { "texto": "Reativação de tuberculose latente associada ao uso de terapia anti-TNF", "correta": true },
+    { "texto": "Histoplasmose disseminada associada ao uso de terapia anti-TNF", "correta": false },
+    { "texto": "Sarcoidose", "correta": false },
+    { "texto": "Linfoma", "correta": false },
+    { "texto": "Pneumonia bacteriana comunitária", "correta": false },
+    { "texto": "Atividade da própria doença de Crohn, sem infecção associada", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Teste de liberação de interferon-gama (IGRA) ou PPD atual", "custo": 12, "relevante": true, "resposta": "IGRA reagente, sugerindo infecção tuberculosa (lembrando que resultado falso-negativo é possível sob imunossupressão importante)." },
+    { "texto": "Radiografia e tomografia de tórax", "custo": 14, "relevante": true, "resposta": "Infiltrado cavitário em ápice pulmonar direito." },
+    { "texto": "Escarro com pesquisa de BAAR e teste rápido molecular (TRM-TB)", "custo": 14, "relevante": true, "resposta": "TRM-TB positivo para o complexo Mycobacterium tuberculosis, sem resistência à rifampicina detectada." },
+    { "texto": "Antígeno urinário para Histoplasma", "custo": 12, "relevante": true, "resposta": "Negativo, tornando histoplasmose disseminada menos provável." }
+  ],
+  "condutas": [
+    { "texto": "Suspender temporariamente a terapia anti-TNF, iniciar esquema antituberculose completo, e só reavaliar a reintrodução do biológico após tratamento adequado da tuberculose", "correta": true },
+    { "texto": "Manter a terapia anti-TNF sem tratar a tuberculose", "correta": false },
+    { "texto": "Aumentar a dose do biológico, presumindo que é atividade da própria doença de Crohn", "correta": false },
+    { "texto": "Apenas observação clínica, sem iniciar tratamento específico", "correta": false }
+  ],
+  "explicacao": "O TNF é essencial para manter a integridade estrutural e funcional do granuloma, a comunidade organizada de macrófagos e linfócitos T que contém uma infecção tuberculosa antiga em estado latente. Bloquear especificamente essa via com um medicamento anti-TNF (como o infliximabe) compromete essa contenção, permitindo a reativação da micobactéria mesmo anos depois da infecção original, exatamente o que ocorreu numa paciente sem rastreio adequado de tuberculose latente antes de iniciar a terapia biológica, uma falha reconhecida de manejo que as diretrizes recomendam evitar. O infiltrado cavitário em ápice pulmonar, o IGRA reagente e o TRM-TB positivo confirmam o diagnóstico, enquanto o antígeno urinário negativo para Histoplasma torna essa outra infecção oportunista clássica associada a anti-TNF menos provável. A conduta exige tratar a tuberculose antes de considerar retomar a imunossupressão biológica."
+}

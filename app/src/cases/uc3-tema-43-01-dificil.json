@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-43-01-dificil",
+  "tema": "Tema 43 · Características Gerais dos Fungos",
+  "materia_relacionada": "Este caso aplica uma característica estrutural geral de fungos vista na aula: alguns fungos têm uma cápsula polissacarídica externa à parede celular, que dificulta o reconhecimento pelo sistema imune e pode ser visualizada de forma simples e barata com tinta da China, uma ferramenta diagnóstica clássica de identificação micológica direta.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 34,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, tenho uma dor de cabeça que vem piorando aos poucos há umas três semanas, e às vezes fico meio zonzo. Sei que meu CD4 está baixo.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "118/74", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "88", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "37.3", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 34 anos, vive com HIV e CD4 baixo, dor de cabeça piorando aos poucos há três semanas. Repara bem no quanto o pescoço dele realmente está rígido, ou não está.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O pescoço dele quase não denunciava nada. Só uma gotinha de tinta no líquor é que mostrou o verdadeiro tamanho do problema.",
+    "dicas": [
+      "Releia com atenção como está a rigidez de nuca dele, e como essa dor de cabeça vem evoluindo ao longo das semanas, é mais devagar do que o esperado numa meningite comum.",
+      "Pensa em qual estrutura extra, ao redor da parede de certos fungos, dificulta o reconhecimento pelo sistema imune e também pode ser vista com uma coloração simples e barata direto no líquor.",
+      "Que fungo, com uma cápsula polissacarídica espessa visível com tinta da China no líquor, é causa clássica de meningite insidiosa, com pressão intracraniana bem elevada, em pacientes com imunidade celular muito comprometida?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Qual é o CD4 mais recente dele e ele faz uso regular de TARV?", "custo": 2, "relevante": true, "resposta": "Último CD4 conhecido era 45 células, e ele admite ter abandonado o tratamento antirretroviral há uns oito meses." },
+    { "texto": "Como essa dor de cabeça evoluiu, foi súbita ou aos poucos?", "custo": 2, "relevante": true, "resposta": "Foi piorando bem devagar ao longo de três semanas, não foi um início súbito." },
+    { "texto": "Teve febre alta junto com essa dor de cabeça?", "custo": 2, "relevante": true, "resposta": "Só febre baixa, intermitente, nada muito chamativo." },
+    { "texto": "Teve contato com fezes de pombo ou ambiente com muito acúmulo de excremento de aves?", "custo": 2, "relevante": true, "resposta": "Trabalha limpando um antigo galpão com bastante fezes de pombo acumuladas." },
+    { "texto": "Notou alteração visual ou zumbido?", "custo": 2, "relevante": false, "resposta": "Notou uma visão levemente embaçada às vezes, mas nada muito específico." }
+  ],
+  "exameFisico": [
+    { "texto": "Rigidez de nuca e sinais de irritação meníngea", "custo": 3, "relevante": true, "resposta": "Rigidez de nuca discreta, quase ausente, apesar do quadro clínico sugestivo de comprometimento importante do sistema nervoso central." },
+    { "texto": "Fundo de olho", "custo": 3, "relevante": true, "resposta": "Papiledema bilateral, sugestivo de pressão intracraniana elevada." },
+    { "texto": "Avaliação de nervos cranianos", "custo": 3, "relevante": true, "resposta": "Discreta paresia do sexto par craniano à direita, compatível com hipertensão intracraniana." },
+    { "texto": "Avaliação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+  ],
+  "hipoteses": [
+    { "texto": "Meningite criptocócica (Cryptococcus neoformans)", "correta": true },
+    { "texto": "Meningite bacteriana aguda", "correta": false },
+    { "texto": "Meningite tuberculosa", "correta": false },
+    { "texto": "Neurotoxoplasmose", "correta": false },
+    { "texto": "Linfoma primário do sistema nervoso central", "correta": false },
+    { "texto": "Meningite viral", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Punção lombar com medida da pressão de abertura", "custo": 16, "relevante": true, "resposta": "Pressão de abertura muito elevada (32 cmH2O)." },
+    { "texto": "Pesquisa direta com tinta da China (nanquim) no líquor", "custo": 12, "relevante": true, "resposta": "Visualização de estruturas leveduriformes envoltas por halo capsular espesso, característico." },
+    { "texto": "Antígeno criptocócico no líquor e no soro", "custo": 14, "relevante": true, "resposta": "Fortemente reagente, confirmando o diagnóstico." },
+    { "texto": "Tomografia de crânio (antes da punção)", "custo": 14, "relevante": true, "resposta": "Sem lesões focais com efeito de massa, achado que difere do padrão de lesões múltiplas com realce em anel esperado na neurotoxoplasmose." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar anfotericina B associada a flucitosina (fase de indução), realizar punções lombares seriadas de alívio para controlar a pressão intracraniana, e ajustar o momento de reintrodução da TARV para evitar síndrome inflamatória de reconstituição imune", "correta": true },
+    { "texto": "Iniciar apenas fluconazol em dose baixa, sem terapia de indução", "correta": false },
+    { "texto": "Iniciar corticoide isolado, sem tratamento antifúngico", "correta": false },
+    { "texto": "Iniciar antibioticoterapia empírica para meningite bacteriana, sem investigar causa fúngica", "correta": false }
+  ],
+  "explicacao": "Cryptococcus neoformans possui uma cápsula polissacarídica espessa que reduz o reconhecimento pelo sistema imune, explicando a resposta inflamatória discreta (rigidez de nuca quase ausente) apesar do comprometimento importante do sistema nervoso central, um padrão típico dessa meningite em pacientes com imunossupressão avançada (CD4 muito baixo). A evolução insidiosa ao longo de semanas, a febre discreta e a exposição a fezes de aves (fonte ambiental clássica do fungo) reforçam a suspeita. A cápsula é visualizada diretamente pela tinta da China, e o antígeno criptocócico confirma o diagnóstico com alta sensibilidade. A pressão de abertura muito elevada é um achado crítico: o controle da pressão intracraniana por punções seriadas reduz significativamente a mortalidade, além do tratamento antifúngico de indução propriamente dito."
+}
