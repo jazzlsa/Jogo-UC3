@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-26-01-dificil",
+  "tema": "Tema 26 · Morfologia e Estrutura das Bactérias",
+  "materia_relacionada": "Este caso mostra por que a morfologia e a coloração de Gram de uma bactéria, vistas direto no microscópio, já orientam a conduta antes mesmo do resultado da cultura: a forma (bastonete ou esfera) e a coloração (Gram-positiva ou Gram-negativa) de um único achado no líquor mudam completamente qual antibiótico cobre ou não o agente, exatamente a lógica de classificação bacteriana discutida na aula.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 68,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, comecei com febre e uma dor de cabeça forte há dois dias, e hoje de manhã minha esposa disse que eu estava falando coisa desconexa.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "128/78", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "104", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.9", "u": "°C", "flag": true },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhor de 68 anos, febre, cefaleia e confusão. Antes de bater o esquema padrão de meningite, pensa se esse esquema padrão realmente cobre tudo que pode estar em jogo aqui.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O esquema de sempre teria deixado esse bastonete específico livre, leve, solto. Por isso o formato dele no microscópio importa tanto quanto o nome final.",
+    "dicas": [
+      "Releia com atenção a idade dele, se ele toma algum remédio que reduz a imunidade, e o que ele andou comendo ultimamente.",
+      "Pensa em como o formato de uma bactéria no microscópio (bastonete ou esfera) e a forma como ela cora (roxo ou rosa, Gram-positiva ou Gram-negativa) já entregam pistas importantes sobre qual grupo ela pertence, antes mesmo da cultura ficar pronta.",
+      "Que grupo de bactérias, em forma de bastonete Gram-positivo, é uma causa clássica de meningite justamente nos extremos de idade e em quem tem a imunidade celular reduzida, escapando da cobertura antibiótica padrão usada pra outras meningites bacterianas?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Ele usa algum remédio que reduz a imunidade, como corticoide crônico ou quimioterapia?", "custo": 2, "relevante": true, "resposta": "Faz quimioterapia há três meses por um linfoma." },
+    { "texto": "Comeu algum alimento como queijos não pasteurizados, patês ou frios nos últimos dias?", "custo": 2, "relevante": true, "resposta": "Comeu um queijo artesanal na semana passada, comprado direto de um produtor pequeno." },
+    { "texto": "Notou manchas roxas ou pontos vermelhos pela pele?", "custo": 2, "relevante": false, "resposta": "Sem nenhuma mancha ou petéquia na pele." },
+    { "texto": "Teve contato recente com alguém com meningite ou infecção respiratória grave?", "custo": 2, "relevante": false, "resposta": "Não teve contato conhecido com ninguém nessa situação." },
+    { "texto": "O quadro começou de forma muito rápida (horas) ou foi mais arrastado (dias)?", "custo": 2, "relevante": true, "resposta": "Foi mais arrastado, ao longo de dois dias, não de poucas horas." }
+  ],
+  "exameFisico": [
+    { "texto": "Rigidez de nuca e sinais de irritação meníngea", "custo": 3, "relevante": true, "resposta": "Rigidez de nuca presente, sinal de Kernig positivo." },
+    { "texto": "Inspeção de pele em busca de petéquias ou púrpura", "custo": 3, "relevante": false, "resposta": "Pele sem petéquias ou púrpura." },
+    { "texto": "Avaliação de nervos cranianos e coordenação (sinais de rombencefalite)", "custo": 3, "relevante": true, "resposta": "Discreta paresia facial central e leve incoordenação, sugestivo de comprometimento de tronco encefálico." },
+    { "texto": "Avaliação do nível de consciência e orientação", "custo": 3, "relevante": true, "resposta": "Confuso, desorientado em tempo, respondendo com frases desconexas." }
+  ],
+  "hipoteses": [
+    { "texto": "Meningite bacteriana por Listeria monocytogenes", "correta": true },
+    { "texto": "Meningite por Streptococcus pneumoniae", "correta": false },
+    { "texto": "Meningite por Neisseria meningitidis", "correta": false },
+    { "texto": "Meningite por Haemophilus influenzae tipo b", "correta": false },
+    { "texto": "Meningite viral", "correta": false },
+    { "texto": "Encefalite herpética", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Tomografia de crânio antes da punção lombar (avaliar hipertensão intracraniana)", "custo": 12, "relevante": true, "resposta": "Sem sinais de hipertensão intracraniana ou lesão com efeito de massa, libera a punção lombar com segurança." },
+    { "texto": "Punção lombar com bacterioscopia (Gram) do líquor", "custo": 16, "relevante": true, "resposta": "Bacilos Gram-positivos, isolados ou em pequenas cadeias." },
+    { "texto": "Celularidade e bioquímica do líquor", "custo": 10, "relevante": true, "resposta": "Pleocitose com predomínio de neutrófilos, proteína elevada e glicose reduzida, padrão de meningite bacteriana." },
+    { "texto": "Cultura do líquor", "custo": 12, "relevante": true, "resposta": "Resultado ainda pendente, mas o Gram já orienta fortemente a cobertura empírica." }
+  ],
+  "condutas": [
+    { "texto": "Associar ampicilina ao esquema padrão de ceftriaxona (mais dexametasona), cobrindo especificamente o bastonete Gram-positivo encontrado", "correta": true },
+    { "texto": "Manter apenas ceftriaxona e vancomicina, sem ampicilina", "correta": false },
+    { "texto": "Iniciar aciclovir isolado, tratando como encefalite herpética", "correta": false },
+    { "texto": "Aguardar resultado da cultura antes de iniciar qualquer antibiótico", "correta": false }
+  ],
+  "explicacao": "O achado de bastonetes Gram-positivos no líquor, num paciente idoso e imunossuprimido por quimioterapia, com exposição a queijo artesanal (fonte clássica de contaminação) e sinais de comprometimento de tronco encefálico, aponta para meningite por Listeria monocytogenes, um bastonete Gram-positivo intracelular facultativo. Esse detalhe muda a conduta de forma crítica: o esquema empírico padrão para meningite bacterina em adultos (ceftriaxona, associada ou não a vancomicina) não cobre Listeria, sendo necessário adicionar ampicilina especificamente para esse agente, algo que a simples leitura da morfologia e coloração de Gram já sinaliza antes mesmo da cultura confirmar a espécie."
+}

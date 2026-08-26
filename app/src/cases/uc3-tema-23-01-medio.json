@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-23-01-medio",
+  "tema": "Tema 23 · Edema e Congestão",
+  "materia_relacionada": "Este caso aplica o equilíbrio de Starling visto na aula: o edema pode vir de pressão hidrostática elevada (como na insuficiência cardíaca), mas também de pressão oncótica reduzida, quando a albumina do sangue cai, a força que normalmente segura líquido dentro do vaso desaparece, e o padrão clínico de onde e como o edema aparece muda completamente.",
+  "area": "Nefrologia/Urologia",
+  "prova": "P2",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 6,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele acordou com o rosto todo inchado, principalmente ao redor dos olhos, e nos últimos dias o inchaço desceu pro corpo todo. A urina dele também está fazendo bastante espuma.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "102/64", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "92", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 6 anos, inchaço que começou no rosto de manhã e foi descendo pro corpo. Antes de pensar em coração, presta atenção em onde e como esse inchaço apareceu.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não era o coração empurrando líquido pra fora do vaso com força demais. Era a força que deveria segurar esse líquido dentro que tinha sumido.",
+    "dicas": [
+      "Releia com atenção onde o inchaço começou primeiro e em que período do dia, isso diz muito sobre o mecanismo.",
+      "Pensa em qual das forças que mantêm líquido dentro do vaso sanguíneo estaria comprometida se o problema fosse a quantidade de proteína no sangue, e não o coração bombeando com dificuldade.",
+      "Se o rim estivesse deixando proteína vazar pra urina em vez de reter sódio por baixo débito cardíaco, que exame de urina mostraria isso diretamente?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Onde o inchaço apareceu primeiro e como evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou ao redor dos olhos pela manhã, e nos últimos três dias foi descendo até as pernas." },
+    { "texto": "A urina está espumosa ou com aspecto diferente?", "custo": 2, "relevante": true, "resposta": "Sim, a mãe notou bastante espuma na urina nos últimos dias." },
+    { "texto": "Teve infecção de garganta ou de pele nas últimas semanas?", "custo": 2, "relevante": false, "resposta": "Não teve nenhuma infecção recente de garganta ou pele." },
+    { "texto": "Já teve algum problema cardíaco ou fica cansado com esforços pequenos?", "custo": 2, "relevante": true, "resposta": "Nunca teve problema cardíaco conhecido, brinca normalmente sem cansaço." },
+    { "texto": "A família tem histórico de doença hepática ou uso de álcool?", "custo": 2, "relevante": false, "resposta": "Sem histórico de doença hepática na família; criança sem exposição a álcool." },
+    { "texto": "Notou diminuição na quantidade de urina?", "custo": 2, "relevante": false, "resposta": "A quantidade de urina parece normal, apesar da espuma." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de edema periorbital e generalizado com cacifo", "custo": 3, "relevante": true, "resposta": "Edema periorbital importante e edema de membros inferiores com cacifo positivo." },
+    { "texto": "Avaliação de turgência jugular", "custo": 3, "relevante": true, "resposta": "Sem turgência jugular." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Murmúrio vesicular presente, sem estertores." },
+    { "texto": "Inspeção de pele e abdome em busca de estigmas de hepatopatia (aranhas vasculares, ascite)", "custo": 3, "relevante": true, "resposta": "Sem aranhas vasculares, sem ascite visível, abdome apenas discretamente distendido." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome nefrótica (edema por hipoalbuminemia/proteinúria maciça)", "correta": true },
+    { "texto": "Insuficiência cardíaca congestiva", "correta": false },
+    { "texto": "Cirrose hepática com ascite", "correta": false },
+    { "texto": "Glomerulonefrite pós-estreptocócica (síndrome nefrítica)", "correta": false },
+    { "texto": "Insuficiência venosa crônica bilateral", "correta": false },
+    { "texto": "Linfedema congênito", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Urina tipo I com relação proteína/creatinina", "custo": 10, "relevante": true, "resposta": "Proteinúria maciça, na faixa nefrótica." },
+    { "texto": "Albumina sérica", "custo": 8, "relevante": true, "resposta": "Albumina sérica reduzida (2.1 g/dL)." },
+    { "texto": "Perfil lipídico", "custo": 8, "relevante": true, "resposta": "Colesterol total elevado, compatível com síndrome nefrótica." },
+    { "texto": "Ecocardiograma", "custo": 14, "relevante": true, "resposta": "Função cardíaca normal, sem sinais de disfunção." }
+  ],
+  "condutas": [
+    { "texto": "Investigar a causa da síndrome nefrótica (incluindo possível biópsia renal), iniciar dieta hipossódica e diurético com cautela, e tratar a causa de base", "correta": true },
+    { "texto": "Tratar como insuficiência cardíaca com furosemida e restrição hídrica agressiva", "correta": false },
+    { "texto": "Realizar paracentese de alívio sem investigar a causa do edema", "correta": false },
+    { "texto": "Prescrever apenas diurético, sem investigar proteinúria", "correta": false }
+  ],
+  "explicacao": "O edema periorbital matinal que progride para generalizado, associado a urina espumosa (proteinúria), aponta para queda da pressão oncótica plasmática por perda maciça de proteína pelo rim, e não para aumento da pressão hidrostática venosa como na insuficiência cardíaca (que cursaria com turgência jugular e estertores, ausentes aqui) ou na cirrose (que cursaria com estigmas hepáticos, também ausentes). A proteinúria maciça, a hipoalbuminemia e a hipercolesterolemia fecham a tríade da síndrome nefrótica. A ausência de infecção recente de garganta/pele torna a síndrome nefrítica pós-estreptocócica (que cursa com hematúria e hipertensão, não com esse padrão de proteinúria maciça) menos provável."
+}

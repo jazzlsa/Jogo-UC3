@@ -446,8 +446,8 @@ function renderDesafioMenu() {
     <div class="desafio-filtros">
       <label class="desafio-filtro-label">Prova
         <select data-desafio-filtro-prova>
-          <option value="">Todas as provas</option>
-          ${provas.map(p => `<option value="${p}" ${desafioFiltro.prova === p ? "selected" : ""}>${p}</option>`).join("")}
+          <option value="">Todos os temas (qualquer prova)</option>
+          ${provas.map(p => `<option value="${p}" ${desafioFiltro.prova === p ? "selected" : ""}>${p === "Todas" ? "Cai em todas as provas" : p}</option>`).join("")}
         </select>
       </label>
       <label class="desafio-filtro-label">Tema

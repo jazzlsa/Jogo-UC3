@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-24-01-dificil",
+  "tema": "Tema 24 · Patologia Ambiental",
+  "materia_relacionada": "Este caso mostra uma armadilha clássica de patologia ambiental discutida na aula: um poluente de combustão incompleta em ambiente fechado pode causar hipóxia tecidual grave enquanto o oxímetro de pulso comum mostra saturação normal, porque esse aparelho não diferencia a hemoglobina ligada a esse gás da hemoglobina ligada a oxigênio de verdade.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 38,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, acordei com uma dor de cabeça forte, meio zonza e enjoada, e meu marido e meu filho também amanheceram se sentindo mal, do mesmo jeito.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "118/76", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "96", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.7", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 38 anos, dor de cabeça, tontura e enjoo, e a família toda passando mal junto. Esse detalhe de todo mundo ficar mal ao mesmo tempo é a pista mais importante do caso.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O oxímetro mentiu pra você o tempo todo, ele só não sabia que estava mentindo.",
+    "dicas": [
+      "Releia com atenção se outras pessoas que estavam no mesmo ambiente que ela também passaram mal ao mesmo tempo, e o que elas têm em comum.",
+      "Pensa no que pode estar sendo respirado num ambiente fechado com algum aparelho de combustão mal ventilado (aquecedor, lareira, gerador), e como esse gás se liga na hemoglobina no lugar do oxigênio.",
+      "Que exame mede diretamente a fração de hemoglobina ocupada por esse gás, já que o oxímetro de dedo comum não consegue diferenciar esse gás do oxigênio de verdade, mostrando uma saturação enganosamente normal?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Outras pessoas que moram ou estavam na mesma casa também ficaram mal, e ao mesmo tempo?", "custo": 2, "relevante": true, "resposta": "Sim, o marido e o filho também amanheceram com dor de cabeça e mal-estar parecido." },
+    { "texto": "Há algum aparelho a gás, lareira ou gerador sendo usado em ambiente fechado em casa?", "custo": 2, "relevante": true, "resposta": "Usam um aquecedor a gás no quarto durante a noite, com a janela fechada por causa do frio." },
+    { "texto": "Os sintomas melhoram quando ela sai de casa ou vai pra um ambiente ventilado?", "custo": 2, "relevante": true, "resposta": "Sim, notou que os sintomas melhoraram um pouco assim que saiu de casa pra vir à consulta." },
+    { "texto": "Comeram algum alimento em comum recentemente que pudesse estar contaminado?", "custo": 2, "relevante": false, "resposta": "Comeram coisas diferentes nos últimos dias, sem alimento em comum suspeito." },
+    { "texto": "Teve contato recente com alguém com sintomas respiratórios ou gastrointestinais?", "custo": 2, "relevante": false, "resposta": "Não teve contato conhecido com ninguém doente." },
+    { "texto": "Essa dor de cabeça tem características de enxaqueca (latejante, de um lado só, com aura)?", "custo": 2, "relevante": false, "resposta": "Não, é uma dor mais difusa pela cabeça toda, sem aura." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de coloração de pele e mucosas", "custo": 3, "relevante": true, "resposta": "Coloração normal, sem cianose, apesar do mal-estar relatado." },
+    { "texto": "Avaliação neurológica breve (orientação, coordenação)", "custo": 3, "relevante": true, "resposta": "Discreta lentidão de raciocínio e leve incoordenação, sem déficit focal." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar normal." },
+    { "texto": "Sinais de irritação meníngea (rigidez de nuca)", "custo": 3, "relevante": false, "resposta": "Sem rigidez de nuca ou outros sinais meníngeos." }
+  ],
+  "hipoteses": [
+    { "texto": "Intoxicação por monóxido de carbono", "correta": true },
+    { "texto": "Gastroenterite viral aguda", "correta": false },
+    { "texto": "Intoxicação alimentar", "correta": false },
+    { "texto": "Enxaqueca", "correta": false },
+    { "texto": "Meningite viral", "correta": false },
+    { "texto": "Acidente vascular cerebral isquêmico", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Gasometria arterial com cooximetria (dosagem de carboxi-hemoglobina)", "custo": 16, "relevante": true, "resposta": "Carboxi-hemoglobina elevada (18%), confirmando exposição significativa ao monóxido de carbono." },
+    { "texto": "Comparação entre saturação medida no oxímetro de pulso e a calculada pela gasometria", "custo": 10, "relevante": true, "resposta": "Oxímetro mostra 98%, mas a saturação real de oxi-hemoglobina calculada é bem menor, uma discrepância característica." },
+    { "texto": "Tomografia de crânio", "custo": 14, "relevante": false, "resposta": "Sem alterações agudas." },
+    { "texto": "Hemograma completo e PCR", "custo": 8, "relevante": false, "resposta": "Sem leucocitose ou elevação de PCR." }
+  ],
+  "condutas": [
+    { "texto": "Remover a paciente e a família da fonte de exposição, iniciar oxigenoterapia a 100% (considerar câmara hiperbárica se grave) e orientar ventilação adequada do ambiente", "correta": true },
+    { "texto": "Tratar com antiemético e hidratação, como gastroenterite viral", "correta": false },
+    { "texto": "Prescrever apenas analgésico, tratando como enxaqueca", "correta": false },
+    { "texto": "Iniciar antibioticoterapia empírica para meningite", "correta": false }
+  ],
+  "explicacao": "O detalhe que fecha o diagnóstico é epidemiológico, não apenas clínico: três pessoas que compartilham o mesmo ambiente adoeceram ao mesmo tempo com sintomas inespecíficos (cefaleia, tontura, náusea, leve confusão), um padrão típico de exposição ambiental compartilhada, aqui um aquecedor a gás usado num quarto fechado. O monóxido de carbono se liga à hemoglobina com afinidade muito maior que o oxigênio, formando carboxi-hemoglobina e reduzindo o transporte real de oxigênio aos tecidos, mas o oxímetro de pulso comum não distingue as duas formas de hemoglobina e mostra uma saturação falsamente normal, um ponto perigoso porque pode atrasar o diagnóstico. A cooximetria na gasometria arterial é o exame que expõe essa discrepância e confirma a intoxicação, orientando a conduta de remoção da fonte e oxigenoterapia."
+}

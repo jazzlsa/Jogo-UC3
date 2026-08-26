@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-31-01-dificil",
+  "tema": "Tema 31 · Sistema Complemento",
+  "materia_relacionada": "Este caso aplica a etapa final da cascata do complemento vista na aula: o complexo de ataque à membrana (C5-C9) fura diretamente a parede do micro-organismo, uma função diferente da opsonização feita por C3b. Sem esses componentes terminais, a pessoa fica suscetível especificamente a bactérias como Neisseria, que resistem relativamente bem à opsonização isolada, mas não sobreviveriam a um poro na própria membrana.",
+  "area": "Imunologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 17,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, essa é a segunda vez que eu tenho meningite meningocócica confirmada, a primeira foi há dois anos, e agora comecei com febre alta e dor de cabeça forte de novo.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "98/60", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "116", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "39.4", "u": "°C", "flag": true },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "95", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Rapaz de 17 anos, segunda meningite meningocócica confirmada em dois anos. Duas vezes com a mesma bactéria grave não é azar, é uma pergunta que precisa de resposta.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A bactéria até era reconhecida direitinho pelo corpo dele. Faltava só a etapa que fura o inimigo de vez.",
+    "dicas": [
+      "Releia com atenção quantas vezes ele já teve infecção meningocócica confirmada antes, mais de um episódio grave pela mesma bactéria não é comum.",
+      "Pensa em qual etapa final da cascata do complemento é responsável por furar diretamente a membrana da bactéria, formando um poro, numa função diferente de só marcar o invasor pra um fagócito comer.",
+      "Que grupo de proteínas do complemento, quando ausente, deixa a pessoa suscetível especificamente a um gênero de bactéria capaz de resistir bem à opsonização isolada, mas não sobreviveria a esse poro final formado na própria membrana dela?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Quantos episódios de infecção meningocócica confirmada ele já teve?", "custo": 2, "relevante": true, "resposta": "Esse é o segundo episódio confirmado em dois anos." },
+    { "texto": "Tem histórico familiar de infecção meningocócica recorrente?", "custo": 2, "relevante": true, "resposta": "Um primo também já teve dois episódios de infecção meningocócica na infância." },
+    { "texto": "Já teve episódios de inchaço no rosto ou lábios sem urticária, mesmo que rápidos?", "custo": 2, "relevante": false, "resposta": "Nunca teve nada parecido com inchaço facial." },
+    { "texto": "Já fez esplenectomia ou tem baço removido por algum motivo?", "custo": 2, "relevante": false, "resposta": "Nunca fez esplenectomia, o baço está intacto." },
+    { "texto": "Já tinha tomado vacina meningocócica antes do primeiro episódio?", "custo": 2, "relevante": true, "resposta": "Sim, estava com a vacinação de rotina em dia antes do primeiro episódio." }
+  ],
+  "exameFisico": [
+    { "texto": "Rigidez de nuca e sinais de irritação meníngea", "custo": 3, "relevante": true, "resposta": "Rigidez de nuca presente, sinal de Kernig positivo." },
+    { "texto": "Inspeção de pele em busca de petéquias/púrpura", "custo": 3, "relevante": true, "resposta": "Petéquias esparsas em tronco e membros." },
+    { "texto": "Inspeção de face e lábios em busca de edema", "custo": 3, "relevante": false, "resposta": "Sem edema facial ou labial." },
+    { "texto": "Palpação abdominal em busca de baço aumentado", "custo": 3, "relevante": true, "resposta": "Baço palpável em tamanho normal, presente." }
+  ],
+  "hipoteses": [
+    { "texto": "Deficiência de componentes terminais do complemento (C5-C9)", "correta": true },
+    { "texto": "Asplenia funcional ou anatômica", "correta": false },
+    { "texto": "Deficiência de properdina", "correta": false },
+    { "texto": "Angioedema hereditário (deficiência de C1-inibidor)", "correta": false },
+    { "texto": "Hipogamaglobulinemia", "correta": false },
+    { "texto": "Infecção pelo HIV", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Atividade hemolítica total do complemento (CH50)", "custo": 14, "relevante": true, "resposta": "Marcadamente reduzida/ausente." },
+    { "texto": "Dosagem das frações terminais do complemento (C5 a C9)", "custo": 16, "relevante": true, "resposta": "Componentes terminais ausentes ou muito reduzidos." },
+    { "texto": "Dosagem de C4 e C1-inibidor", "custo": 10, "relevante": true, "resposta": "Dentro da normalidade, afastando angioedema hereditário." },
+    { "texto": "Esfregaço de sangue periférico (corpos de Howell-Jolly)", "custo": 8, "relevante": true, "resposta": "Ausentes, compatível com função esplênica preservada." }
+  ],
+  "condutas": [
+    { "texto": "Tratar o episódio agudo com antibiótico dirigido, reforçar vacinação contra Neisseria (incluindo sorogrupos adicionais) e orientar sinais de alarme para futuros episódios", "correta": true },
+    { "texto": "Indicar esplenectomia profilática", "correta": false },
+    { "texto": "Repor imunoglobulina intravenosa isoladamente", "correta": false },
+    { "texto": "Iniciar C1-inibidor purificado ou icatibanto", "correta": false }
+  ],
+  "explicacao": "O complexo de ataque à membrana (C5b a C9) forma um poro direto na parede do micro-organismo, mecanismo de defesa distinto da opsonização feita por C3b. Sem os componentes terminais do complemento, bactérias do gênero Neisseria (meningococo, gonococo), que resistem relativamente bem à fagocitose isolada, tornam-se capazes de causar infecção invasiva recorrente mesmo com vacinação em dia, exatamente o padrão de dois episódios confirmados em dois anos. CH50 muito reduzido reflete disfunção de qualquer parte da via terminal comum, e a dosagem específica das frações C5-C9 localiza o defeito. C4 e C1-inibidor normais afastam angioedema hereditário (outra doença do sistema complemento, mas de mecanismo diferente), e a ausência de corpos de Howell-Jolly no esfregaço confirma função esplênica preservada, afastando asplenia como causa alternativa da suscetibilidade a encapsuladas."
+}

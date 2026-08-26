@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-32-01-dificil",
+  "tema": "Tema 32 · Antibióticos e Antibiograma",
+  "materia_relacionada": "Este caso aplica o conceito de resistência induzível visto na aula sobre antibiograma: um gene de resistência pode ficar silencioso até o contato com o antibiótico, sendo então induzido durante o próprio tratamento, então um resultado de \"sensível\" no antibiograma padrão nem sempre garante que aquele remédio vá funcionar até o fim do tratamento, exigindo um teste específico pra desmascarar esse tipo de resistência.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 24,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, apareceu esse caroço vermelho e dolorido na coxa há três dias, e já é a segunda vez esse ano que tenho um assim. Treino bastante na academia.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "122/78", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "86", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "37.6", "u": "°C", "flag": true },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Rapaz de 24 anos, segundo abscesso de pele nesse ano, frequenta academia. Antes de escolher o antibiótico só pelo resultado do laboratório, olha com atenção pra esse resultado.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O antibiograma disse \"sensível\". Só que esse \"sensível\" tinha uma letra pequena que ele esqueceu de mostrar de cara.",
+    "dicas": [
+      "Releia com atenção o resultado do antibiograma dele: ele veio resistente a um antibiótico e aparentemente sensível a outro de mecanismo de ação parecido, e isso não é tão simples quanto parece.",
+      "Pensa em como um gene de resistência bacteriana pode ficar \"desligado\" até o contato com um antibiótico específico da mesma família, sendo \"ligado\" (induzido) só durante o próprio tratamento, fazendo um remédio que parecia funcionar parar de funcionar no meio do caminho.",
+      "Que teste laboratorial específico, colocando dois discos de antibióticos próximos um do outro na placa de cultura, detecta esse tipo de resistência que só aparece quando induzida, mesmo com o antibiograma padrão mostrando sensibilidade?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Já teve abscessos de pele parecidos antes?", "custo": 2, "relevante": true, "resposta": "Sim, esse é o segundo esse ano, o primeiro foi há quatro meses." },
+    { "texto": "Usou algum antibiótico recentemente, principalmente da família dos macrolídeos?", "custo": 2, "relevante": true, "resposta": "Usou um antibiótico macrolídeo há dois meses, para uma infecção respiratória." },
+    { "texto": "Frequenta ambientes coletivos como academia, vestiário ou time de esporte de contato?", "custo": 2, "relevante": true, "resposta": "Treina numa academia lotada quase todos os dias." },
+    { "texto": "Teve algum ferimento com farpa ou corpo estranho no local antes de aparecer o caroço?", "custo": 2, "relevante": false, "resposta": "Não notou nenhum ferimento ou farpa antes de aparecer a lesão." },
+    { "texto": "Tem diabetes ou alguma condição que reduza a imunidade?", "custo": 2, "relevante": false, "resposta": "Não tem diabetes nem nenhuma condição que reduza a imunidade." },
+    { "texto": "Usou banheira de hidromassagem ou piscina aquecida compartilhada recentemente?", "custo": 2, "relevante": false, "resposta": "Não usou banheira de hidromassagem nem piscina aquecida recentemente." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção e palpação da lesão (flutuação, calor, eritema)", "custo": 3, "relevante": true, "resposta": "Lesão nodular, dolorosa, com flutuação central e eritema ao redor, sugestiva de abscesso." },
+    { "texto": "Avaliação de extensão da celulite ao redor da lesão", "custo": 3, "relevante": true, "resposta": "Celulite associada se estendendo cerca de 4 cm ao redor do abscesso." },
+    { "texto": "Palpação de linfonodos inguinais", "custo": 3, "relevante": false, "resposta": "Linfonodo inguinal discretamente aumentado, sem outras alterações." },
+    { "texto": "Avaliação de sinais sistêmicos de sepse", "custo": 3, "relevante": false, "resposta": "Sem sinais de sepse, paciente estável clinicamente." }
+  ],
+  "hipoteses": [
+    { "texto": "Abscesso cutâneo por Staphylococcus aureus resistente à meticilina com resistência induzível à clindamicina", "correta": true },
+    { "texto": "Abscesso por Streptococcus pyogenes", "correta": false },
+    { "texto": "Celulite não supurativa simples", "correta": false },
+    { "texto": "Foliculite por Pseudomonas aeruginosa (banheira de hidromassagem)", "correta": false },
+    { "texto": "Furunculose por corpo estranho retido", "correta": false },
+    { "texto": "Abscesso tuberculoso (frio)", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Cultura da secreção do abscesso com antibiograma", "custo": 14, "relevante": true, "resposta": "Crescimento de Staphylococcus aureus resistente à oxacilina (MRSA), resistente à eritromicina e aparentemente sensível à clindamicina." },
+    { "texto": "Teste de zona D (D-test) para resistência induzível à clindamicina", "custo": 12, "relevante": true, "resposta": "Positivo, indicando resistência induzível à clindamicina apesar do resultado \"sensível\" no antibiograma padrão." },
+    { "texto": "Radiografia de partes moles da coxa", "custo": 10, "relevante": false, "resposta": "Sem corpo estranho radiopaco ou sinais de osteomielite." },
+    { "texto": "Hemograma completo", "custo": 8, "relevante": false, "resposta": "Leucocitose leve, sem outras alterações relevantes." }
+  ],
+  "condutas": [
+    { "texto": "Drenar o abscesso e tratar com antibiótico ativo contra MRSA que não seja a clindamicina (por exemplo, sulfametoxazol-trimetoprima), já que o teste D foi positivo", "correta": true },
+    { "texto": "Tratar com clindamicina isolada, confiando apenas no resultado \"sensível\" do antibiograma padrão", "correta": false },
+    { "texto": "Tratar com amoxicilina isolada", "correta": false },
+    { "texto": "Apenas drenar o abscesso, sem qualquer antibiótico sistêmico, apesar da celulite associada", "correta": false }
+  ],
+  "explicacao": "O antibiograma mostrou o Staphylococcus aureus resistente à eritromicina mas aparentemente sensível à clindamicina, um padrão que exige atenção: certas cepas carregam um gene (erm) que confere resistência cruzada a macrolídeos e lincosamidas, mas esse gene pode estar silencioso até ser induzido pelo contato com um macrolídeo, como o que o paciente já havia usado. O teste de zona D detecta justamente essa resistência induzível, colocando discos de eritromicina e clindamicina próximos e observando um achatamento característico (\"D\") na zona de inibição da clindamicina quando a resistência está presente, mas latente. Como o teste D foi positivo aqui, usar clindamicina traria risco real de falha terapêutica no meio do tratamento, mesmo com o resultado inicial \"sensível\", sendo mais seguro escolher outra classe ativa contra MRSA."
+}

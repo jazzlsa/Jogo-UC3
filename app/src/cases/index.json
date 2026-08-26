@@ -358,5 +358,69 @@
     "area": "Imunologia",
     "prova": "P1",
     "arquivo": "uc3-tema-22-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-23-01-medio",
+    "tema": "Tema 23 · Edema e Congestão",
+    "dificuldade": "medio",
+    "area": "Nefrologia/Urologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-23-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-24-01-dificil",
+    "tema": "Tema 24 · Patologia Ambiental",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-24-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-25-01-dificil",
+    "tema": "Tema 25 · Integração Metabólica: Especialização por Órgãos e Tecidos",
+    "dificuldade": "dificil",
+    "area": "Endocrinologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-25-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-26-01-dificil",
+    "tema": "Tema 26 · Morfologia e Estrutura das Bactérias",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-26-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-27-01-dificil",
+    "tema": "Tema 27 · Fisiologia e Crescimento Bacteriano",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-27-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-30-01-dificil",
+    "tema": "Tema 30 · Desinfecção e Esterilização",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-30-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-31-01-dificil",
+    "tema": "Tema 31 · Sistema Complemento",
+    "dificuldade": "dificil",
+    "area": "Imunologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-31-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-32-01-dificil",
+    "tema": "Tema 32 · Antibióticos e Antibiograma",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-32-01-dificil.json"
   }
 ]

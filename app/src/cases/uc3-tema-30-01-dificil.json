@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-30-01-dificil",
+  "tema": "Tema 30 · Desinfecção e Esterilização",
+  "materia_relacionada": "Este caso aplica a classificação de Spaulding vista na aula: instrumentos semicríticos, que tocam mucosa mas não tecido estéril (como um endoscópio), exigem desinfecção de alto nível, não necessariamente esterilização completa, e certos micro-organismos formadores de biofilme sobrevivem justamente quando esse processo intermediário falha por tempo ou concentração inadequados do desinfetante.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 61,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, comecei com febre alta e calafrios há um dia, fiz uma colonoscopia de rotina há três dias e desde então não me sinto bem.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "104/64", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "112", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "39.2", "u": "°C", "flag": true },
+    { "l": "FR", "v": "22", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 61 anos, febre alta e calafrios três dias após uma colonoscopia de rotina. Antes de pensar só na doença dele, pensa também no instrumento que passou por ele.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O problema não estava só nele. Estava também num processo que deveria ter matado esse micro-organismo antes do exame nem começar.",
+    "dicas": [
+      "Releia com atenção o que ele fez nos últimos dias antes da febre começar, teve algum procedimento recente?",
+      "Pensa na diferença entre limpar um instrumento até eliminar quase todo micro-organismo perigoso (o suficiente pra entrar em contato com mucosa) e esterilizar de verdade, eliminando até esporo, e o que pode acontecer quando esse primeiro processo falha.",
+      "Que tipo de bactéria, formadora de biofilme e relativamente resistente a desinfetantes comuns, é causa clássica de surto quando um instrumento semicrítico como um endoscópio não recebe desinfecção de alto nível adequada?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Fez algum procedimento médico recentemente?", "custo": 2, "relevante": true, "resposta": "Fez uma colonoscopia de rotina há três dias, sem intercorrências relatadas na hora." },
+    { "texto": "Tem dor abdominal localizada e intensa, como se algo tivesse perfurado?", "custo": 2, "relevante": true, "resposta": "Tem desconforto abdominal difuso, mas nada muito localizado ou muito intenso." },
+    { "texto": "Usou algum antibiótico recentemente, antes desses sintomas começarem?", "custo": 2, "relevante": true, "resposta": "Não usou nenhum antibiótico nas últimas semanas." },
+    { "texto": "Tem diarreia associada?", "custo": 2, "relevante": false, "resposta": "Não tem diarreia, apenas o mal-estar geral com febre." },
+    { "texto": "Tem sintomas urinários como ardência ou aumento da frequência?", "custo": 2, "relevante": false, "resposta": "Sem sintomas urinários." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de sinais de irritação peritoneal (Blumberg, defesa muscular)", "custo": 3, "relevante": true, "resposta": "Abdome difusamente sensível à palpação, mas sem defesa muscular ou sinais claros de irritação peritoneal." },
+    { "texto": "Avaliação de perfusão periférica e sinais de sepse", "custo": 3, "relevante": true, "resposta": "Extremidades quentes, tempo de enchimento capilar levemente aumentado, compatível com sepse inicial." },
+    { "texto": "Punho-percussão lombar", "custo": 3, "relevante": false, "resposta": "Punho-percussão lombar negativa bilateralmente." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar normal." }
+  ],
+  "hipoteses": [
+    { "texto": "Bacteremia por Pseudomonas aeruginosa por falha na desinfecção do endoscópio", "correta": true },
+    { "texto": "Diverticulite perfurada pós-procedimento", "correta": false },
+    { "texto": "Colite por Clostridioides difficile", "correta": false },
+    { "texto": "Apendicite aguda", "correta": false },
+    { "texto": "Infecção do trato urinário", "correta": false },
+    { "texto": "Pielonefrite aguda", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Hemoculturas", "custo": 14, "relevante": true, "resposta": "Crescimento de Pseudomonas aeruginosa em duas amostras." },
+    { "texto": "Tomografia de abdome", "custo": 16, "relevante": true, "resposta": "Sem sinais de perfuração, coleção ou espessamento sugestivo de diverticulite." },
+    { "texto": "Pesquisa de toxina de Clostridioides difficile nas fezes", "custo": 10, "relevante": true, "resposta": "Negativa." },
+    { "texto": "Urina tipo I", "custo": 8, "relevante": false, "resposta": "Sem alterações relevantes." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar antibioticoterapia dirigida contra Pseudomonas e notificar o serviço de controle de infecção hospitalar para revisar o reprocessamento do endoscópio usado", "correta": true },
+    { "texto": "Tratar empiricamente como diverticulite, sem investigar a fonte da infecção", "correta": false },
+    { "texto": "Iniciar vancomicina oral empírica para Clostridioides difficile sem confirmação", "correta": false },
+    { "texto": "Indicar apendicectomia sem confirmar o diagnóstico", "correta": false }
+  ],
+  "explicacao": "Um endoscópio é um instrumento semicrítico (toca mucosa, não tecido estéril), exigindo desinfecção de alto nível, e não necessariamente esterilização completa. Pseudomonas aeruginosa forma biofilme e é relativamente resistente a alguns desinfetantes quando o tempo de contato ou a concentração usados no reprocessamento são inadequados, sobrevivendo em canais internos do aparelho e podendo ser transmitida ao próximo paciente. A ausência de sinais de perfuração na tomografia afasta diverticulite complicada, a ausência de uso prévio de antibiótico e toxina negativa afastam Clostridioides difficile, e a ausência de sintomas urinários ou de dor localizada em fossa ilíaca torna infecção urinária e apendicite menos prováveis. O hemocultivo positivo para Pseudomonas, associado ao procedimento endoscópico recente, aponta diretamente para uma falha no processo de desinfecção como fonte da infecção, exigindo tanto tratamento do paciente quanto investigação institucional do reprocessamento do aparelho."
+}

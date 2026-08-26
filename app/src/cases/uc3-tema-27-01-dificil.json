@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-27-01-dificil",
+  "tema": "Tema 27 · Fisiologia e Crescimento Bacteriano",
+  "materia_relacionada": "Este caso aplica dois conceitos da aula sobre crescimento bacteriano: bactérias organizadas em biofilme sobre uma superfície (aqui, um cateter) se comunicam por quorum sensing e formam uma matriz protetora que dificulta a ação de antibióticos, mesmo quando o organismo é sensível no antibiograma; e a curva de crescimento explica por que uma amostra colhida direto do biofilme cresce em cultura mais rápido que uma amostra periférica com poucas bactérias circulantes.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, essa febre não sai do lugar. Toda vez que fazem antibiótico ela melhora, mas depois de um tempo volta de novo, e eu uso esse cateter no peito já tem uns quatro meses pra fazer minha quimioterapia.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "112/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "100", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.4", "u": "°C", "flag": true },
+    { "l": "FR", "v": "19", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 58 anos, cateter de longa permanência há quatro meses, febre que melhora com antibiótico e sempre volta. Esse padrão de vai-e-volta é a pista mais importante do caso inteiro.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O antibiótico até chegava lá. O problema é que a bactéria não estava sozinha esperando ele, estava protegida por uma comunidade inteira.",
+    "dicas": [
+      "Releia com atenção o padrão da febre dela: ela sempre melhora com antibiótico e depois volta, isso não é o esperado numa infecção bem tratada.",
+      "Pensa em como bactérias organizadas numa comunidade grudada numa superfície se comunicam entre si pra formar uma camada protetora contra antibiótico e sistema imune, bem diferente de uma bactéria sozinha flutuando solta no sangue.",
+      "Que comparação entre duas hemoculturas colhidas ao mesmo tempo, mas de dois lugares diferentes (uma veia periférica e o próprio dispositivo), mostra qual delas cresce primeiro no laboratório, e por isso aponta a fonte real da infecção?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo ela usa esse cateter e pra que serve?", "custo": 2, "relevante": true, "resposta": "Cateter venoso central de longa permanência, usado há quatro meses para quimioterapia." },
+    { "texto": "Como é o padrão dessa febre em relação aos antibióticos já usados?", "custo": 2, "relevante": true, "resposta": "Já fez dois cursos de antibiótico, melhora bem durante o tratamento e a febre volta poucas semanas depois de parar." },
+    { "texto": "As hemoculturas anteriores mostraram o mesmo organismo nas duas vezes?", "custo": 2, "relevante": true, "resposta": "Sim, o mesmo tipo de bactéria cresceu nas duas hemoculturas anteriores." },
+    { "texto": "Notou vermelhidão, dor ou secreção no local onde o cateter entra na pele?", "custo": 2, "relevante": true, "resposta": "Discreta vermelhidão ao redor da inserção do cateter, sem secreção purulenta visível." },
+    { "texto": "Teve sintomas urinários ou respiratórios que sugerissem outro foco de infecção?", "custo": 2, "relevante": false, "resposta": "Sem sintomas urinários ou respiratórios." },
+    { "texto": "Está neutropênica no momento pela quimioterapia?", "custo": 2, "relevante": false, "resposta": "Contagem de neutrófilos atual dentro da normalidade." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção do sítio de inserção do cateter", "custo": 3, "relevante": true, "resposta": "Hiperemia discreta ao redor do óstio de inserção, sem secreção purulenta." },
+    { "texto": "Ausculta cardíaca em busca de sopro novo", "custo": 3, "relevante": true, "resposta": "Sem sopro novo à ausculta." },
+    { "texto": "Avaliação de foco urinário (punho-percussão lombar)", "custo": 3, "relevante": false, "resposta": "Punho-percussão lombar negativa bilateralmente." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar normal." }
+  ],
+  "hipoteses": [
+    { "texto": "Infecção de corrente sanguínea associada a cateter venoso central (biofilme bacteriano)", "correta": true },
+    { "texto": "Bacteremia transitória sem foco definido", "correta": false },
+    { "texto": "Endocardite infecciosa", "correta": false },
+    { "texto": "Infecção do trato urinário associada a sonda", "correta": false },
+    { "texto": "Pneumonia hospitalar", "correta": false },
+    { "texto": "Febre neutropênica sem foco definido", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Hemoculturas pareadas (colhidas ao mesmo tempo, uma periférica e outra pelo cateter, comparando o tempo até positivar)", "custo": 16, "relevante": true, "resposta": "Hemocultura colhida pelo cateter positivou cerca de duas horas antes da periférica, sugerindo fortemente o cateter como fonte." },
+    { "texto": "Ecocardiograma (transtorácico ou transesofágico)", "custo": 16, "relevante": true, "resposta": "Sem vegetações valvares, afastando endocardite infecciosa." },
+    { "texto": "Urina tipo I e urocultura", "custo": 8, "relevante": false, "resposta": "Sem alterações sugestivas de infecção urinária." },
+    { "texto": "Hemograma completo", "custo": 8, "relevante": false, "resposta": "Contagem de neutrófilos normal, sem neutropenia." }
+  ],
+  "condutas": [
+    { "texto": "Remover o cateter, enviar a ponta para cultura e manter antibioticoterapia direcionada", "correta": true },
+    { "texto": "Manter o cateter e apenas trocar o antibiótico por outro de amplo espectro", "correta": false },
+    { "texto": "Fazer apenas selo antibiótico (antibiotic lock) no cateter, sem removê-lo, mesmo com recidiva", "correta": false },
+    { "texto": "Suspender o antibiótico e apenas observar a evolução", "correta": false }
+  ],
+  "explicacao": "A febre que melhora com antibiótico e recidiva repetidamente, com o mesmo organismo isolado em hemoculturas sucessivas, é o padrão clássico de infecção associada a biofilme: as bactérias aderidas à superfície do cateter se organizam numa matriz extracelular protetora (coordenada por quorum sensing) que reduz drasticamente a penetração e a eficácia do antibiótico, mesmo quando o organismo é sensível no antibiograma, permitindo que a infecção volte assim que o tratamento termina. O tempo diferencial de positivação das hemoculturas pareadas, a do cateter positivando bem antes da periférica, confirma que o dispositivo é a fonte, refletindo o maior inóculo bacteriano concentrado ali. Como o biofilme não é eliminado só com antibiótico sistêmico, a remoção do cateter é a conduta que realmente resolve a infecção nesse cenário de recidiva."
+}

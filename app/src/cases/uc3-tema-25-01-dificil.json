@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-25-01-dificil",
+  "tema": "Tema 25 · Integração Metabólica: Especialização por Órgãos e Tecidos",
+  "materia_relacionada": "Este caso aplica a especialização metabólica vista na aula: durante o jejum, o fígado sustenta a glicemia primeiro consumindo o glicogênio armazenado e depois fabricando glicose nova (gliconeogênese), mas o metabolismo do álcool consome o cofator NAD+ necessário justamente para essa segunda via, então em quem bebe sem comer, o fígado fica sem as duas saídas ao mesmo tempo.",
+  "area": "Endocrinologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 52,
+    "sexo": "M"
+  },
+  "queixa_principal": "Um amigo relata: “Doutor, ele passou os últimos dois dias só bebendo, sem comer quase nada, e agora está confuso, suando frio e tremendo, achei melhor trazer pra cá.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/68", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "108", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.2", "u": "°C", "flag": false },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 52 anos, dois dias bebendo sem comer, agora confuso e suando frio. Antes de pensar em infecção ou glândula adrenal, olha bem pro que ele andou consumindo (ou não) nesses dias.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O fígado dele ficou sem as duas saídas ao mesmo tempo: sem estoque guardado e sem conseguir fabricar glicose nova, porque a substância que ele vinha consumindo bloqueou justamente essa segunda via.",
+    "dicas": [
+      "Releia com atenção há quanto tempo ele não come de verdade, e o que ele estava consumindo nesse período no lugar de comida.",
+      "Pensa em como o fígado mantém a glicose no sangue durante o jejum, usando primeiro um estoque guardado e depois fabricando glicose nova a partir de outras moléculas, e o que uma certa substância consumida em excesso faz especificamente com essa segunda via.",
+      "Se o problema não é excesso de insulina sendo produzida por algum tumor, e sim o fígado sem conseguir sustentar a glicemia durante o jejum, que par de exames (insulina e peptídeo C) mostraria isso, vindo baixos em vez de inapropriadamente altos?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo ele não se alimenta de verdade, e o que consumiu nesse período?", "custo": 2, "relevante": true, "resposta": "Há dois dias praticamente só bebeu bebida alcoólica, sem comer quase nada." },
+    { "texto": "Ele usa insulina ou algum remédio pra diabetes?", "custo": 2, "relevante": true, "resposta": "Não é diabético e não usa nenhum remédio desse tipo." },
+    { "texto": "Já teve episódios parecidos antes, em situação de beber sem comer?", "custo": 2, "relevante": true, "resposta": "O amigo lembra de já tê-lo visto confuso outras vezes depois de beber muito sem comer." },
+    { "texto": "Teve febre ou algum foco de infecção nos últimos dias?", "custo": 2, "relevante": false, "resposta": "Sem febre ou qualquer sinal de infecção nos últimos dias." },
+    { "texto": "Usa ou usou corticoide de forma prolongada e parou recentemente?", "custo": 2, "relevante": false, "resposta": "Nunca usou corticoide de forma prolongada." },
+    { "texto": "Teve dor abdominal importante nesses dias?", "custo": 2, "relevante": false, "resposta": "Sem dor abdominal relevante." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de sudorese, tremor e outros sinais adrenérgicos", "custo": 3, "relevante": true, "resposta": "Sudorese fria importante e tremor fino nas mãos." },
+    { "texto": "Avaliação de estigmas de etilismo crônico (telangiectasias, hepatomegalia)", "custo": 3, "relevante": true, "resposta": "Telangiectasias faciais e hepatomegalia discreta à palpação." },
+    { "texto": "Inspeção de pele em busca de hiperpigmentação (sinal de Addison)", "custo": 3, "relevante": false, "resposta": "Sem hiperpigmentação cutânea." },
+    { "texto": "Avaliação de sinais de choque séptico (perfusão, hipotensão importante)", "custo": 3, "relevante": false, "resposta": "Perfusão periférica preservada, sem sinais de choque." }
+  ],
+  "hipoteses": [
+    { "texto": "Hipoglicemia por jejum prolongado associado a etilismo agudo", "correta": true },
+    { "texto": "Insulinoma", "correta": false },
+    { "texto": "Insuficiência adrenal aguda (crise addisoniana)", "correta": false },
+    { "texto": "Sepse grave", "correta": false },
+    { "texto": "Cetoacidose alcoólica", "correta": false },
+    { "texto": "Overdose de hipoglicemiante oral", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Glicemia capilar imediata", "custo": 4, "relevante": true, "resposta": "38 mg/dL, hipoglicemia importante." },
+    { "texto": "Insulina e peptídeo C séricos no momento da hipoglicemia", "custo": 14, "relevante": true, "resposta": "Ambos baixos, afastando produção excessiva de insulina endógena ou exógena." },
+    { "texto": "Cortisol sérico basal", "custo": 10, "relevante": true, "resposta": "Dentro da normalidade, afastando insuficiência adrenal." },
+    { "texto": "Gasometria venosa com lactato e cetonas", "custo": 10, "relevante": false, "resposta": "Discreta elevação de cetonas, sem acidose metabólica importante." }
+  ],
+  "condutas": [
+    { "texto": "Corrigir a hipoglicemia com glicose intravenosa, administrando tiamina antes ou junto (para prevenir encefalopatia de Wernicke em etilista)", "correta": true },
+    { "texto": "Apenas observar em jejum, sem correção glicêmica imediata", "correta": false },
+    { "texto": "Iniciar hidrocortisona empírica, tratando como crise addisoniana", "correta": false },
+    { "texto": "Iniciar antibioticoterapia empírica, tratando como sepse", "correta": false }
+  ],
+  "explicacao": "Durante o jejum, o fígado sustenta a glicemia primeiro consumindo o glicogênio armazenado e depois produzindo glicose nova por gliconeogênese. O metabolismo do etanol consome NAD+, cofator essencial para a gliconeogênese, então em quem bebe por dias sem comer, o estoque de glicogênio se esgota e a via de reposição fica bloqueada ao mesmo tempo, levando à hipoglicemia grave. Insulina e peptídeo C baixos no momento da hipoglicemia excluem insulinoma (que cursaria com ambos inapropriadamente elevados) e uso oculto de hipoglicemiante. Cortisol normal exclui insuficiência adrenal, e a ausência de sinais de infecção torna sepse improvável. Corrigir a glicemia é urgente, mas administrar tiamina antes ou junto da glicose é igualmente importante em etilistas crônicos, já que glicose isolada pode precipitar encefalopatia de Wernicke numa reserva de tiamina já depletada."
+}
