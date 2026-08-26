@@ -229,16 +229,16 @@ footer.note { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--b
 .menu-tab.active { color: var(--accent-ink); border-bottom-color: var(--accent); }
 
 .group-title {
-  font-family: "IBM Plex Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .06em;
-  color: var(--ink-faint); margin: 18px 0 8px;
+  font-family: "IBM Plex Mono", monospace; font-size: 15px; font-weight: 700; text-transform: uppercase; letter-spacing: .05em;
+  color: var(--ink-muted); margin: 18px 0 8px;
 }
 .group-title:first-of-type { margin-top: 0; }
 
 .desafio-filtros { display: flex; gap: 14px; flex-wrap: wrap; margin: 4px 0 14px; }
 .desafio-filtro-label {
   display: flex; flex-direction: column; gap: 5px; flex: 1; min-width: 160px;
-  font-family: "IBM Plex Mono", monospace; font-size: 11px; text-transform: uppercase;
-  letter-spacing: .05em; color: var(--ink-faint);
+  font-family: "IBM Plex Mono", monospace; font-size: 13px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .04em; color: var(--ink-muted);
 }
 .desafio-filtro-label select {
   font-family: "IBM Plex Sans", sans-serif; font-size: 13.5px; text-transform: none;

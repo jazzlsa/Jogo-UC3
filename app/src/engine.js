@@ -112,9 +112,13 @@ function embaralhar(lista) {
   return [...lista].sort(() => Math.random() - 0.5);
 }
 
+/* Um caso com prova:"Todas" (tema que cai em qualquer prova da UC3) bate com
+   QUALQUER filtro de prova selecionado, em vez de exigir um filtro "Todas"
+   à parte — reflete o mesmo tema aparecendo em P1, P2, P3 e P4 ao mesmo
+   tempo, não uma quinta categoria isolada. */
 function casesFiltrados() {
   return casesIndex.filter(c =>
-    (!desafioFiltro.prova || c.prova === desafioFiltro.prova) &&
+    (!desafioFiltro.prova || c.prova === desafioFiltro.prova || c.prova === "Todas") &&
     (!desafioFiltro.tema || c.tema === desafioFiltro.tema)
   );
 }
@@ -398,13 +402,29 @@ function renderMenu() {
     ${tab === "desafio" ? renderDesafioMenu() : renderListaAgrupada(tab)}`;
 }
 
+/* Casos com prova:"Todas" (tema que cai em qualquer prova da UC3) entram em
+   TODOS os grupos de prova existentes, em vez de formarem um grupo "Todas"
+   isolado — assim quem filtra por P1, por exemplo, não perde esses temas. */
 function renderListaAgrupada(tab) {
   const chave = tab === "area" ? "area" : "prova";
   const grupos = {};
-  casesIndex.forEach(c => {
-    const k = c[chave] || "Sem categoria";
-    (grupos[k] = grupos[k] || []).push(c);
-  });
+  if (chave === "prova") {
+    const provasReais = [...new Set(casesIndex.map(c => c.prova).filter(p => p && p !== "Todas"))];
+    provasReais.forEach(p => { grupos[p] = []; });
+    casesIndex.forEach(c => {
+      if (c.prova === "Todas") {
+        provasReais.forEach(p => grupos[p].push(c));
+      } else {
+        const k = c.prova || "Sem categoria";
+        (grupos[k] = grupos[k] || []).push(c);
+      }
+    });
+  } else {
+    casesIndex.forEach(c => {
+      const k = c[chave] || "Sem categoria";
+      (grupos[k] = grupos[k] || []).push(c);
+    });
+  }
   const chaves = Object.keys(grupos).sort();
   return `
     <p class="stage-kicker">Escolha um caso</p>
@@ -433,9 +453,12 @@ function renderDesafioMenu() {
         <button class="btn ghost" data-avaliacao-abandonar>Abandonar</button>
       </div>`;
   }
-  const provas = [...new Set(casesIndex.map(c => c.prova).filter(Boolean))].sort();
+  // "Todas" não vira uma opção própria no filtro — um caso com prova:"Todas"
+  // já bate com qualquer prova específica escolhida (ver casesFiltrados()),
+  // então só as provas "reais" (P1, P2, P3, P4...) aparecem na lista.
+  const provas = [...new Set(casesIndex.map(c => c.prova).filter(p => p && p !== "Todas"))].sort();
   const temasDisponiveis = [...new Set(
-    casesIndex.filter(c => !desafioFiltro.prova || c.prova === desafioFiltro.prova).map(c => c.tema)
+    casesIndex.filter(c => !desafioFiltro.prova || c.prova === desafioFiltro.prova || c.prova === "Todas").map(c => c.tema)
   )].sort();
   const nCasos = casesFiltrados().length;
 
@@ -447,7 +470,7 @@ function renderDesafioMenu() {
       <label class="desafio-filtro-label">Prova
         <select data-desafio-filtro-prova>
           <option value="">Todos os temas (qualquer prova)</option>
-          ${provas.map(p => `<option value="${p}" ${desafioFiltro.prova === p ? "selected" : ""}>${p === "Todas" ? "Cai em todas as provas" : p}</option>`).join("")}
+          ${provas.map(p => `<option value="${p}" ${desafioFiltro.prova === p ? "selected" : ""}>${p}</option>`).join("")}
         </select>
       </label>
       <label class="desafio-filtro-label">Tema
