@@ -133,6 +133,10 @@
     {
       "texto": "Nefrolitíase complicada por pielonefrite",
       "correta": false
+    },
+    {
+      "texto": "Ruptura vesical extraperitoneal",
+      "correta": false
     }
   ],
   "exames": [

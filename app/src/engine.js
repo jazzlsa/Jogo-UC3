@@ -470,7 +470,7 @@ function renderStage(stage) {
   switch (stage) {
     case "intro": return `
       <p class="stage-kicker">Etapa 01 · Apresentação</p>
-      <h1 class="stage-title">Paciente ${caso.paciente.idade} anos, ${caso.paciente.sexo === "M" ? "masculino" : "feminino"}</h1>
+      <h1 class="stage-title">Paciente ${caso.paciente.idade > 1 ? `${caso.paciente.idade} anos` : caso.paciente.idade === 1 ? "1 ano" : "lactente"}, ${caso.paciente.sexo === "M" ? "masculino" : "feminino"}</h1>
       <p class="stage-hint">Sem custo: é o que já chega pronto quando o paciente entra na sala.</p>
       <blockquote class="q">${caso.queixa_principal}</blockquote>
       ${vitalsHTML()}

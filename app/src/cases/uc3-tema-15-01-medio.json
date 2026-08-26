@@ -1,0 +1,67 @@
+{
+  "id": "uc3-tema-15-01-medio",
+  "tema": "Tema 15 · Esquizofrenia",
+  "materia_relacionada": "Este caso aplica o critério temporal que separa esquizofrenia dos outros transtornos do espectro psicótico: não é o tipo de sintoma positivo ou negativo que define o diagnóstico, é a persistência de sinais contínuos da doença por pelo menos seis meses, incluindo fases prodrômica e residual, exatamente o corte discutido na aula sobre fisiopatologia e critérios diagnósticos da esquizofrenia.",
+  "area": "Psiquiatria",
+  "prova": "P1",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 22,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, meu filho parou de sair de casa, trancou a faculdade, e fica dizendo que os vizinhos estão espionando ele. Isso começou devagar faz uns oito meses.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "118/76", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "82", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Rapaz de 22 anos, mudança de comportamento progressiva, achando que os vizinhos o vigiam. Antes de rotular qualquer coisa, vamos entender a história toda com calma.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O sintoma sozinho não fecha nada aqui, delírio e alucinação aparecem em vários quadros diferentes. O que fechou o diagnóstico foi o tempo.",
+    "dicas": [
+      "Releia com atenção há quanto tempo os sintomas estão presentes de forma contínua, sem períodos de melhora completa, esse detalhe importa mais do que parece.",
+      "Pensa num grupo de transtornos que compartilham delírio, alucinação e perda de contato com a realidade, mas se diferenciam menos pelo sintoma e mais pela duração e pelo que mais está (ou não está) acontecendo junto.",
+      "Qual desses transtornos exige, por definição, pelo menos seis meses de sintomas contínuos (incluindo fase prodrômica e residual) pra fechar o diagnóstico, e não menos que isso?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo os sintomas estão presentes de forma contínua, sem melhora completa entre eles?", "custo": 2, "relevante": true, "resposta": "A mãe conta que começou devagar há cerca de 8 meses e nunca melhorou completamente." },
+    { "texto": "Uso de maconha, cocaína, anfetaminas ou outras substâncias?", "custo": 2, "relevante": true, "resposta": "Nega uso de qualquer substância; a mãe confirma que nunca notou nada nesse sentido." },
+    { "texto": "Já teve períodos de humor muito elevado, energia excessiva ou insônia sem se sentir cansado?", "custo": 2, "relevante": true, "resposta": "Nunca teve períodos assim, o humor sempre foi mais retraído, nunca eufórico." },
+    { "texto": "Tem histórico familiar de transtornos psiquiátricos?", "custo": 2, "relevante": false, "resposta": "Um tio paterno teve um diagnóstico psiquiátrico parecido, mas nunca foi bem detalhado pela família." },
+    { "texto": "Pode descrever o conteúdo específico do que ele acredita estar acontecendo?", "custo": 2, "relevante": false, "resposta": "Acredita que os vizinhos instalaram câmeras pra vigiá-lo e comentam sobre ele pelas paredes." },
+    { "texto": "Houve queda de rendimento acadêmico e isolamento social progressivo?", "custo": 2, "relevante": true, "resposta": "Sim, trancou a faculdade há 3 meses e praticamente parou de sair do quarto." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação do afeto (embotamento, incongruência entre fala e expressão)", "custo": 3, "relevante": true, "resposta": "Afeto embotado, pouca expressão facial mesmo ao relatar o conteúdo persecutório." },
+    { "texto": "Avaliação do curso do pensamento (associações frouxas, fala desorganizada)", "custo": 3, "relevante": true, "resposta": "Discurso com associações frouxas em alguns momentos, mas ainda compreensível." },
+    { "texto": "Exame neurológico focal (força, sensibilidade, coordenação)", "custo": 3, "relevante": false, "resposta": "Exame neurológico sem déficits focais." },
+    { "texto": "Ausculta cardiovascular geral", "custo": 3, "relevante": false, "resposta": "Ausculta cardíaca normal, sem sopros." },
+    { "texto": "Avaliação de orientação têmporo-espacial e nível de consciência", "custo": 3, "relevante": true, "resposta": "Orientado em tempo e espaço, consciência preservada, sem flutuação (contra causa orgânica aguda)." }
+  ],
+  "hipoteses": [
+    { "texto": "Esquizofrenia", "correta": true },
+    { "texto": "Transtorno esquizofreniforme", "correta": false },
+    { "texto": "Transtorno psicótico induzido por substância", "correta": false },
+    { "texto": "Episódio maníaco com sintomas psicóticos (transtorno bipolar tipo I)", "correta": false },
+    { "texto": "Transtorno delirante", "correta": false },
+    { "texto": "Transtorno esquizoafetivo", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Exame toxicológico de urina", "custo": 8, "relevante": true, "resposta": "Negativo para substâncias psicoativas." },
+    { "texto": "Tomografia de crânio", "custo": 14, "relevante": true, "resposta": "Sem alterações estruturais, exclui causa orgânica intracraniana." },
+    { "texto": "TSH", "custo": 8, "relevante": true, "resposta": "Dentro da normalidade, afasta causa tireoidiana para o quadro." },
+    { "texto": "Hemograma completo", "custo": 8, "relevante": false, "resposta": "Sem alterações relevantes." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar antipsicótico e estruturar acompanhamento psicossocial contínuo com a família", "correta": true },
+    { "texto": "Prescrever apenas benzodiazepínico, sem antipsicótico", "correta": false },
+    { "texto": "Internação compulsória imediata, sem avaliação ambulatorial prévia", "correta": false },
+    { "texto": "Orientar a família a aguardar remissão espontânea sem tratamento", "correta": false }
+  ],
+  "explicacao": "Delírios persecutórios e alucinações (sintomas positivos) associados a embotamento afetivo, isolamento social e queda de funcionamento (sintomas negativos), presentes de forma contínua por 8 meses, preenchem o critério temporal da esquizofrenia (mínimo 6 meses incluindo pródromo e fase residual). O exame toxicológico negativo e a ausência de história de mania afastam, respectivamente, psicose induzida por substância e transtorno bipolar com sintomas psicóticos. A duração de 8 meses, maior que o limite de 6 meses usado para transtorno esquizofreniforme, e a ausência de um episódio de humor completo concomitante, que descartaria transtorno esquizoafetivo, fecham o diagnóstico. Tomografia normal e TSH normal excluem causas orgânicas estruturais e endócrinas que poderiam mimetizar psicose secundária."
+}

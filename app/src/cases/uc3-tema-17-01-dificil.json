@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-17-01-dificil",
+  "tema": "Tema 17 · Reconhecimento pelo Sistema Imune na Resposta Adaptativa",
+  "materia_relacionada": "Este caso aplica o conceito de troca de classe de imunoglobulina e a função específica de cada isotipo: a classe que domina a defesa das mucosas respiratória e digestiva é a mesma cuja ausência isolada explica tanto as infecções recorrentes quanto o risco de reação transfusional grave por anticorpos anti-isotipo, exatamente a lógica de especialização funcional das imunoglobulinas discutida na aula.",
+  "area": "Imunologia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 8,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele vive de sinusite e otite, quase não passa um mês sem antibiótico, e também tem diarreia direto. Ano passado ele passou muito mal numa transfusão de sangue que precisou fazer.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "102/64", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "92", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "37.0", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 8 anos, infecção de mucosa direto e um episódio ruim numa transfusão. Esses dois detalhes juntos não são coincidência, presta atenção neles.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A transfusão quase deu errado por um motivo bem específico: o corpo dele reagiu contra o que estava faltando no dele mesmo.",
+    "dicas": [
+      "Releia com atenção o episódio de reação durante a transfusão de sangue no ano passado, isso não é um detalhe qualquer nesse caso.",
+      "Pensa em qual classe de anticorpo é a principal linha de defesa das superfícies de mucosa (respiratória e digestiva), e o que aconteceria se ela estivesse completamente ausente.",
+      "Que imunoglobulina, quando ausente de forma isolada (com as outras classes normais), explica infecção de mucosa recorrente E reação anafilática numa transfusão, por causa de anticorpos contra essa própria imunoglobulina no receptor?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Com que frequência ele tem infecções respiratórias e sinusais?", "custo": 2, "relevante": true, "resposta": "Praticamente todo mês tem sinusite ou otite, quase sempre precisando de antibiótico." },
+    { "texto": "Tem diarreia crônica ou recorrente também?", "custo": 2, "relevante": true, "resposta": "Sim, episódios de diarreia recorrentes há mais de um ano." },
+    { "texto": "O que exatamente aconteceu durante a transfusão de sangue do ano passado?", "custo": 2, "relevante": true, "resposta": "Teve uma reação grave, com falta de ar e queda de pressão, logo no início da transfusão." },
+    { "texto": "Desde que idade essas infecções começaram?", "custo": 2, "relevante": true, "resposta": "Começaram por volta dos 3-4 anos, não desde bebê pequeno." },
+    { "texto": "Ele está com o peso e a altura esperados pra idade?", "custo": 2, "relevante": false, "resposta": "Peso e altura estão dentro do esperado pra idade, sem déficit de crescimento." },
+    { "texto": "Tem histórico familiar de imunodeficiência conhecida?", "custo": 2, "relevante": false, "resposta": "Não há nenhum caso conhecido de imunodeficiência na família." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de tonsilas e linfonodos", "custo": 3, "relevante": true, "resposta": "Tonsilas e linfonodos presentes e de tamanho normal para a idade." },
+    { "texto": "Pele em busca de eczema crônico", "custo": 3, "relevante": false, "resposta": "Pele sem eczema ou lesões cutâneas crônicas." },
+    { "texto": "Ausculta pulmonar detalhada", "custo": 3, "relevante": true, "resposta": "Estertores discretos em base direita, sugestivos de processo inflamatório crônico local." },
+    { "texto": "Palpação abdominal", "custo": 3, "relevante": false, "resposta": "Abdome flácido, indolor, sem massas ou visceromegalias." }
+  ],
+  "hipoteses": [
+    { "texto": "Deficiência seletiva de IgA", "correta": true },
+    { "texto": "Imunodeficiência comum variável (CVID)", "correta": false },
+    { "texto": "Agamaglobulinemia ligada ao X (doença de Bruton)", "correta": false },
+    { "texto": "Deficiência isolada de subclasses de IgG", "correta": false },
+    { "texto": "Infecção pelo HIV", "correta": false },
+    { "texto": "Asma alérgica com infecções respiratórias recorrentes", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Dosagem sérica de imunoglobulinas (IgA, IgG, IgM)", "custo": 12, "relevante": true, "resposta": "IgA sérica muito baixa/indetectável, com IgG e IgM dentro da normalidade." },
+    { "texto": "Contagem de linfócitos B (CD19) no sangue periférico", "custo": 12, "relevante": true, "resposta": "Linfócitos B presentes em número normal." },
+    { "texto": "Sorologia para HIV", "custo": 10, "relevante": false, "resposta": "Não reagente." },
+    { "texto": "Teste do suor (cloro)", "custo": 8, "relevante": false, "resposta": "Dentro da normalidade, afasta fibrose cística." }
+  ],
+  "condutas": [
+    { "texto": "Orientar risco de reação transfusional (usar hemocomponentes lavados ou de doador com deficiência de IgA se necessário) e tratar as infecções sintomaticamente, sem indicar reposição rotineira de imunoglobulina", "correta": true },
+    { "texto": "Iniciar reposição rotineira de imunoglobulina intravenosa, como se faz em outras imunodeficiências humorais", "correta": false },
+    { "texto": "Iniciar terapia antirretroviral empírica", "correta": false },
+    { "texto": "Encaminhar para timectomia", "correta": false }
+  ],
+  "explicacao": "A IgA é a imunoglobulina predominante nas secreções de mucosa (respiratória e digestiva), então sua ausência isolada explica as infecções sinusais/de ouvido e a diarreia recorrente, com IgG e IgM normais compensando parcialmente outras funções, o que também explica por que as tonsilas e linfonodos estão preservados (diferente da agamaglobulinemia de Bruton, onde há ausência quase completa de linfócitos B e de tecido linfoide). Pacientes com deficiência seletiva de IgA podem desenvolver anticorpos anti-IgA, e ao receberem hemoderivados de doadores normais (que contêm IgA), correm risco de reação anafilática grave, exatamente o episódio de transfusão relatado. Por esse mesmo motivo, e porque a reposição rotineira de imunoglobulina intravenosa contém IgA, essa reposição não é indicada de rotina nessa condição, ao contrário do que se faz na imunodeficiência comum variável ou na agamaglobulinemia de Bruton."
+}

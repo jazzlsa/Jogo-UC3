@@ -1,0 +1,67 @@
+{
+  "id": "uc3-tema-18-01-dificil",
+  "tema": "Tema 18 · Recombinação Gênica e Diversidade de Imunoglobulinas",
+  "materia_relacionada": "Este caso aplica diretamente o mecanismo de recombinação V(D)J visto na aula: os genes que montam o receptor de antígeno de linfócitos T e B, e não só de imunoglobulinas, dependem da mesma maquinaria de recombinação (RAG1/RAG2). Quando essa maquinaria falha, os dois braços da imunidade adaptativa (humoral e celular) deixam de existir ao mesmo tempo, mas células NK, que não usam essa recombinação, continuam presentes, um padrão que só faz sentido conhecendo o mecanismo molecular por trás.",
+  "area": "Imunologia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 0,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, meu filho tem 4 meses e desde as primeiras semanas vive doente, agora tem uma candidíase na boca que não sai de jeito nenhum e diarreia direto, e ele não está ganhando peso.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "78/48", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "138", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "37.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "38", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "94", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Bebê de 4 meses, infecções desde as primeiras semanas de vida, candidíase persistente, sem ganho de peso. Esse padrão pede investigação séria, não é só \"bebê fraquinho\".",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não faltava só um tipo de defesa. Faltavam praticamente todas, exceto uma, e essa exceção é a pista que fecha o mecanismo.",
+    "dicas": [
+      "Releia com atenção a idade dele e o tipo de infecção: candidíase tão persistente e tão cedo na vida não é comum num bebê saudável.",
+      "Pensa no que acontece quando o sistema imune inteiro, defesa por anticorpo E defesa por célula, nasce incapaz de reconhecer praticamente qualquer antígeno específico, por um problema na fabricação dos próprios receptores de reconhecimento.",
+      "Que mecanismo genético, necessário pra montar o receptor de antígeno de linfócitos T e B, quando quebrado, elimina os dois braços da imunidade adaptativa ao mesmo tempo, mas deixa intactas as células que não dependem desse mecanismo pra reconhecer alvo?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Desde quando ele vive tendo infecções?", "custo": 2, "relevante": true, "resposta": "Desde as primeiras semanas de vida, quase sem intervalo saudável." },
+    { "texto": "Já teve alguma infecção grave ou incomum, como pneumonia atípica?", "custo": 2, "relevante": true, "resposta": "Teve uma pneumonia grave há um mês, tratada com dificuldade no hospital." },
+    { "texto": "A mãe teve HIV na gestação ou fez pré-natal completo com sorologias?", "custo": 2, "relevante": true, "resposta": "Pré-natal completo, todas as sorologias da mãe (incluindo HIV) negativas." },
+    { "texto": "Ele recebeu a vacina BCG ao nascer? Teve alguma reação diferente no local?", "custo": 2, "relevante": true, "resposta": "Recebeu BCG ao nascer e desenvolveu uma lesão local que não cicatriza direito, maior que o esperado." },
+    { "texto": "Há histórico de óbito infantil precoce por infecção em outros bebês da família?", "custo": 2, "relevante": true, "resposta": "Um tio materno morreu ainda bebê por infecção grave não esclarecida." },
+    { "texto": "O parto foi prematuro ou teve alguma complicação obstétrica?", "custo": 2, "relevante": false, "resposta": "Parto a termo, sem complicações obstétricas." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de tonsilas e linfonodos palpáveis", "custo": 3, "relevante": true, "resposta": "Ausência de tonsilas visíveis e nenhum linfonodo palpável em nenhuma cadeia." },
+    { "texto": "Inspeção da cavidade oral", "custo": 3, "relevante": true, "resposta": "Candidíase oral extensa, recobrindo boa parte da mucosa." },
+    { "texto": "Avaliação do estado nutricional e curva de peso", "custo": 3, "relevante": true, "resposta": "Peso bem abaixo do esperado pra idade, com curva de crescimento estagnada (falha de crescimento)." },
+    { "texto": "Ausculta cardíaca em busca de sopro congênito", "custo": 3, "relevante": false, "resposta": "Ausculta cardíaca sem sopros." }
+  ],
+  "hipoteses": [
+    { "texto": "Imunodeficiência combinada grave (SCID) por defeito de recombinação V(D)J", "correta": true },
+    { "texto": "Infecção por HIV de transmissão perinatal", "correta": false },
+    { "texto": "Agamaglobulinemia ligada ao X (doença de Bruton)", "correta": false },
+    { "texto": "Síndrome de DiGeorge (aplasia tímica isolada)", "correta": false },
+    { "texto": "SCID por deficiência de adenosina desaminase (ADA)", "correta": false },
+    { "texto": "Neutropenia congênita grave", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Radiografia de tórax com avaliação da sombra tímica", "custo": 10, "relevante": true, "resposta": "Ausência de sombra tímica visível." },
+    { "texto": "Imunofenotipagem de linfócitos (contagem de células T, B e NK)", "custo": 16, "relevante": true, "resposta": "Linfócitos T ausentes, linfócitos B ausentes, células NK presentes em número normal (padrão T-B-NK+)." },
+    { "texto": "Sorologia e PCR para HIV", "custo": 10, "relevante": true, "resposta": "Negativos, afastando infecção perinatal por HIV." },
+    { "texto": "Dosagem de atividade de adenosina desaminase eritrocitária", "custo": 12, "relevante": true, "resposta": "Atividade enzimática normal, afastando deficiência de ADA como causa." },
+    { "texto": "Cariótipo com FISH para deleção 22q11", "custo": 12, "relevante": false, "resposta": "Sem a deleção 22q11, resultado não contribui além do já visto na imunofenotipagem." }
+  ],
+  "condutas": [
+    { "texto": "Isolamento protetor, contraindicar vacinas de vírus vivo, e encaminhar com urgência para transplante de células-tronco hematopoiéticas", "correta": true },
+    { "texto": "Repor apenas imunoglobulina intravenosa, sem avaliar transplante", "correta": false },
+    { "texto": "Iniciar terapia antirretroviral empírica", "correta": false },
+    { "texto": "Encaminhar para timectomia", "correta": false }
+  ],
+  "explicacao": "A recombinação V(D)J, mediada pelas enzimas RAG1/RAG2, é o mecanismo que monta o receptor de antígeno tanto de linfócitos T quanto de linfócitos B. Quando esse mecanismo falha, os dois braços da imunidade adaptativa deixam de se desenvolver ao mesmo tempo (ausência de linfócitos T e B), mas as células NK, que reconhecem alvos por outros receptores e não dependem dessa recombinação, permanecem presentes, exatamente o padrão T-B-NK+ encontrado na imunofenotipagem. Isso explica as infecções fúngicas e virais graves desde as primeiras semanas de vida, a ausência completa de tecido linfoide (tonsilas, linfonodos, timo) e a reação exagerada à BCG (uma vacina de bactéria viva atenuada, perigosa sem defesa celular funcionante). HIV negativo, adenosina desaminase normal (afastando outra causa de SCID) e ausência da deleção 22q11 (afastando DiGeorge, que preserva linfócitos B) fecham o raciocínio pra um defeito específico da própria recombinação do receptor antigênico."
+}

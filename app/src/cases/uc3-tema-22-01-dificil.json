@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-22-01-dificil",
+  "tema": "Tema 22 · Mecanismos Efetores do Sistema Imune",
+  "materia_relacionada": "Este caso aplica o conceito de explosão respiratória (burst oxidativo) discutido na aula: depois da fagocitose, o neutrófilo precisa gerar espécies reativas de oxigênio pra matar o micro-organismo engolido; sem essa etapa, bactérias e fungos que produzem catalase (capazes de neutralizar o pouco peróxido que sobra) sobrevivem dentro da própria célula de defesa, causando infecções profundas e formação de granulomas.",
+  "area": "Imunologia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 6,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele já teve vários abscessos fundos que precisaram ser drenados, teve uma pneumonia fúngica grave ano passado, e agora anda vomitando bastante depois de comer.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "96/60", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "104", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "37.8", "u": "°C", "flag": true },
+    { "l": "FR", "v": "22", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 6 anos, abscessos fundos de repetição, pneumonia fúngica grave e agora vômitos depois de comer. Cada infecção sozinha conta uma história, juntas contam outra.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Os neutrófilos dele iam até o invasor, engoliam certinho, e paravam bem na hora de dar o golpe final.",
+    "dicas": [
+      "Releia com atenção que tipo de infecção ele já teve, abscesso profundo e infecção fúngica grave não é o padrão mais comum numa criança sem nenhum problema de base.",
+      "Pensa em como o neutrófilo, depois de engolir a bactéria, precisa gerar uma espécie de \"explosão\" de substâncias tóxicas dentro de si mesmo pra matá-la, e o que aconteceria se ele fagocitasse normalmente, mas não conseguisse completar essa etapa.",
+      "Que via enzimática dentro do neutrófilo, quando ausente, impede a produção dessas espécies reativas de oxigênio, deixando sobreviverem dentro da própria célula de defesa justamente os micro-organismos que produzem uma enzima capaz de neutralizar o pouco peróxido que ainda seria gerado?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Que tipo de infecções ele já teve desde pequeno?", "custo": 2, "relevante": true, "resposta": "Vários abscessos profundos (pele, linfonodo) precisando de drenagem cirúrgica, além de uma pneumonia grave por fungo no ano passado." },
+    { "texto": "Tem histórico familiar de infecções graves de repetição, principalmente em parentes homens do lado materno?", "custo": 2, "relevante": true, "resposta": "Um tio materno teve infecções graves recorrentes na infância e não sobreviveu além da adolescência." },
+    { "texto": "O coto umbilical caiu no tempo esperado ao nascer?", "custo": 2, "relevante": false, "resposta": "Caiu no tempo normal, sem atraso." },
+    { "texto": "Tem histórico de eczema grave de pele desde bebê?", "custo": 2, "relevante": false, "resposta": "Não tem eczema, a pele é normal fora das áreas dos abscessos." },
+    { "texto": "Os vômitos têm relação com as refeições, e ele sente saciedade muito rápido?", "custo": 2, "relevante": true, "resposta": "Sim, vomita pouco tempo depois de comer e sente que \"entope\" rápido, mesmo com pouca comida." },
+    { "texto": "Teve diarreia crônica associada?", "custo": 2, "relevante": false, "resposta": "Não tem diarreia crônica." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de linfonodos (tamanho, sinais de supuração)", "custo": 3, "relevante": true, "resposta": "Linfonodomegalia cervical com sinais de supuração crônica." },
+    { "texto": "Inspeção de pele e dentição (fácies grosseira, dentes retidos)", "custo": 3, "relevante": false, "resposta": "Fácies normal, dentição compatível com a idade, sem achados sugestivos de síndrome de Job." },
+    { "texto": "Palpação abdominal (hepatoesplenomegalia)", "custo": 3, "relevante": true, "resposta": "Hepatomegalia discreta à palpação." },
+    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": true, "resposta": "Peso abaixo do esperado, provavelmente relacionado aos vômitos recorrentes." }
+  ],
+  "hipoteses": [
+    { "texto": "Doença granulomatosa crônica (defeito da NADPH oxidase/explosão respiratória)", "correta": true },
+    { "texto": "Deficiência de adesão leucocitária (LAD)", "correta": false },
+    { "texto": "Síndrome de hiper-IgE (síndrome de Job)", "correta": false },
+    { "texto": "Neutropenia congênita grave", "correta": false },
+    { "texto": "Deficiência de mieloperoxidase", "correta": false },
+    { "texto": "Tuberculose disseminada", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Teste de explosão respiratória do neutrófilo (dihidrorodamina, DHR)", "custo": 18, "relevante": true, "resposta": "Produção de espécies reativas de oxigênio marcadamente reduzida/ausente nos neutrófilos." },
+    { "texto": "Hemograma com contagem absoluta de neutrófilos", "custo": 8, "relevante": true, "resposta": "Contagem de neutrófilos normal, o defeito é funcional, não numérico." },
+    { "texto": "Dosagem de IgE sérica", "custo": 10, "relevante": true, "resposta": "IgE dentro da normalidade, afastando síndrome de hiper-IgE." },
+    { "texto": "Cultura do material do abscesso", "custo": 10, "relevante": true, "resposta": "Crescimento de Staphylococcus aureus, um organismo produtor de catalase." }
+  ],
+  "condutas": [
+    { "texto": "Profilaxia antibiótica e antifúngica contínua, considerar interferon-gama, e avaliar transplante de células-tronco hematopoiéticas em casos graves", "correta": true },
+    { "texto": "Apenas drenagem cirúrgica dos abscessos, sem profilaxia contínua", "correta": false },
+    { "texto": "Corticoide isolado para tratar os granulomas", "correta": false },
+    { "texto": "Reposição isolada de imunoglobulina intravenosa", "correta": false }
+  ],
+  "explicacao": "Depois de fagocitar um micro-organismo, o neutrófilo normalmente ativa o complexo NADPH oxidase pra gerar espécies reativas de oxigênio (explosão respiratória) e destruir o que foi engolido. Na doença granulomatosa crônica, esse complexo é defeituoso: a fagocitose ocorre normalmente (por isso a contagem de neutrófilos é normal), mas a morte intracelular falha especificamente contra micro-organismos catalase-positivos (como Staphylococcus aureus e certos fungos, como Aspergillus), que sobrevivem dentro da própria célula de defesa e disseminam a infecção, formando abscessos profundos e granulomas crônicos, inclusive obstruindo estruturas como a saída gástrica (explicando os vômitos pós-prandiais). IgE normal afasta síndrome de hiper-IgE, e a contagem normal de neutrófilos afasta neutropenia congênita, deixando o defeito da explosão respiratória, confirmado pelo teste de DHR, como a explicação que une todas as infecções e a obstrução."
+}

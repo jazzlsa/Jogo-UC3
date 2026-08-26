@@ -45,7 +45,8 @@
     { "texto": "Fratura de fêmur proximal por queda em paciente com sarcopenia e osteoporose", "correta": true },
     { "texto": "Síncope cardiogênica como causa da queda", "correta": false },
     { "texto": "Acidente vascular cerebral causando a queda", "correta": false },
-    { "texto": "Osteoporose isolada sem fratura associada", "correta": false }
+    { "texto": "Osteoporose isolada sem fratura associada", "correta": false },
+    { "texto": "Fratura patológica por metástase óssea", "correta": false }
   ],
   "exames": [
     { "texto": "Radiografia de bacia e quadril direito", "custo": 10, "relevante": true, "resposta": "Fratura transtrocantérica de fêmur direito." },

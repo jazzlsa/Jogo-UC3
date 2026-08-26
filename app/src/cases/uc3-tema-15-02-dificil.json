@@ -1,0 +1,67 @@
+{
+  "id": "uc3-tema-15-02-dificil",
+  "tema": "Tema 15 · Esquizofrenia",
+  "materia_relacionada": "Este caso explora o subtipo de apresentação com predomínio de sintomas negativos da esquizofrenia (avolição, embotamento afetivo, alogia), o diagnóstico diferencial mais difícil da aula porque esse quadro se parece muito com depressão maior, hipotireoidismo ou até um transtorno de personalidade, exigindo atenção aos sintomas positivos residuais, ainda que discretos, pra fechar corretamente.",
+  "area": "Psiquiatria",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 26,
+    "sexo": "F"
+  },
+  "queixa_principal": "A irmã relata: “Doutor, ela virou outra pessoa nesse último ano e meio, não sente vontade de fazer nada, mal fala, e às vezes fala coisa que não faz muito sentido.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "112/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "74", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.4", "u": "°C", "flag": false },
+    { "l": "FR", "v": "15", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 26 anos, mudança de comportamento há um ano e meio, apatia, fala pouca, quase sem vontade de nada. Isso parece muitas coisas ao mesmo tempo, cuidado pra não fechar cedo demais.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A apatia enganou todo mundo por meses. O detalhe que ninguém tinha perguntado direito foi o que virou a chave do caso.",
+    "dicas": [
+      "Releia com atenção a fala da irmã sobre \"falar coisa que não faz muito sentido\", esse detalhe é menor no relato mas não é menor no diagnóstico.",
+      "Pensa em como um quadro que parece só apatia e desânimo pode, na verdade, esconder um sintoma discreto de perda de contato com a realidade, que muda tudo se você for atrás dele.",
+      "Se a única coisa presente fosse tristeza e desânimo, seria um transtorno do humor; o que mais teria que estar presente, mesmo que discreto, pra justificar um transtorno do espectro psicótico?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo essa mudança de comportamento está presente de forma contínua?", "custo": 2, "relevante": true, "resposta": "Cerca de um ano e meio, piorando lentamente, sem períodos de melhora completa." },
+    { "texto": "Já teve tristeza profunda, choro frequente ou ideação de morte característicos de depressão?", "custo": 2, "relevante": true, "resposta": "A irmã diz que não é bem tristeza, é mais como se ela não sentisse nada, positivo ou negativo." },
+    { "texto": "Ao investigar melhor a fala \"sem sentido\", existe algum conteúdo de crença estranha ou fora da realidade?", "custo": 2, "relevante": true, "resposta": "Sim, às vezes comenta que sente que \"pensamentos são colocados\" na cabeça dela por alguém, de forma vaga e pouco elaborada." },
+    { "texto": "Uso de maconha ou outras substâncias de forma crônica?", "custo": 2, "relevante": true, "resposta": "Nega uso de qualquer substância; a irmã confirma que nunca notou nada." },
+    { "texto": "Notou intolerância ao frio, ganho de peso ou constipação recentes?", "custo": 2, "relevante": true, "resposta": "Não notou nada disso, o apetite e o peso seguem praticamente iguais." },
+    { "texto": "Sempre foi uma pessoa mais fechada e reservada desde a infância?", "custo": 2, "relevante": false, "resposta": "Não, era bem sociável e ativa antes desse último ano e meio." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação do afeto e da expressividade facial", "custo": 3, "relevante": true, "resposta": "Afeto marcadamente embotado, quase nenhuma variação de expressão durante toda a entrevista." },
+    { "texto": "Avaliação da quantidade e fluência da fala (alogia)", "custo": 3, "relevante": true, "resposta": "Respostas monossilábicas, respostas curtas, longas pausas antes de responder." },
+    { "texto": "Palpação de tireoide e avaliação de pele/cabelo", "custo": 3, "relevante": true, "resposta": "Tireoide normal à palpação, pele e cabelo sem alterações sugestivas de hipotireoidismo." },
+    { "texto": "Exame neurológico focal (força, sensibilidade, marcha)", "custo": 3, "relevante": false, "resposta": "Exame neurológico sem déficits focais." },
+    { "texto": "Avaliação de orientação e nível de consciência", "custo": 3, "relevante": false, "resposta": "Orientada em tempo e espaço, consciência preservada." }
+  ],
+  "hipoteses": [
+    { "texto": "Esquizofrenia com predomínio de sintomas negativos", "correta": true },
+    { "texto": "Transtorno depressivo maior com sintomas psicóticos", "correta": false },
+    { "texto": "Hipotireoidismo", "correta": false },
+    { "texto": "Síndrome amotivacional por uso crônico de cannabis", "correta": false },
+    { "texto": "Transtorno de personalidade esquizoide", "correta": false },
+    { "texto": "Demência de início precoce", "correta": false }
+  ],
+  "exames": [
+    { "texto": "TSH e T4 livre", "custo": 8, "relevante": true, "resposta": "TSH e T4 livre dentro da normalidade." },
+    { "texto": "Exame toxicológico de urina", "custo": 8, "relevante": true, "resposta": "Negativo para substâncias psicoativas." },
+    { "texto": "Ressonância magnética de crânio", "custo": 16, "relevante": false, "resposta": "Sem atrofia cortical ou lesões estruturais significativas para a idade." },
+    { "texto": "Avaliação cognitiva breve (rastreio de demência)", "custo": 8, "relevante": false, "resposta": "Sem déficit cognitivo importante além da lentidão de resposta já observada na entrevista." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar antipsicótico com perfil favorável para sintomas negativos e estruturar reabilitação psicossocial", "correta": true },
+    { "texto": "Iniciar antidepressivo isolado, tratando como depressão maior", "correta": false },
+    { "texto": "Reposição de levotiroxina empírica sem exame confirmatório", "correta": false },
+    { "texto": "Orientar apenas suspensão de eventual uso de substância, sem tratamento psiquiátrico específico", "correta": false }
+  ],
+  "explicacao": "O quadro é dominado por sintomas negativos (embotamento afetivo, alogia, avolição), que isoladamente se confundem facilmente com depressão maior, hipotireoidismo ou até traço de personalidade esquizoide. O que fecha o diagnóstico é a presença, ainda que discreta, de um sintoma positivo genuíno: a crença vaga de que pensamentos são \"colocados\" em sua cabeça (inserção de pensamento), um fenômeno psicótico, não apenas desânimo. TSH normal exclui hipotireoidismo, o toxicológico negativo exclui síndrome amotivacional por cannabis, e a ausência de humor deprimido sustentado (a paciente não relata tristeza, e sim ausência de sentimentos) torna depressão maior com sintomas psicóticos menos consistente. A duração de 1 ano e meio de sintomas contínuos preenche com folga o critério temporal da esquizofrenia."
+}

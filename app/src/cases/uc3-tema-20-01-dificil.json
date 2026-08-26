@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-20-01-dificil",
+  "tema": "Tema 20 · MHC, Processamento e Apresentação de Antígenos",
+  "materia_relacionada": "Este caso aplica diretamente o papel do MHC de classe II na ativação de linfócitos T CD4: sem apresentação de antígeno via MHC de classe II, as células dendríticas e outras apresentadoras não conseguem ativar os auxiliares CD4, o que compromete não só a imunidade celular como também a produção de anticorpo, já que os linfócitos B dependem da ajuda desses CD4 pra trocar de classe, exatamente a integração entre as duas vias discutida na aula.",
+  "area": "Imunologia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 1,
+    "sexo": "F"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, minha filha vive de infecção respiratória, e teve uma diarreia forte há uns meses que o exame disse que era um parasita, mas ela não melhora direito e não está engordando.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "88/54", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "128", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "37.3", "u": "°C", "flag": false },
+    { "l": "FR", "v": "32", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "95", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menina de 14 meses, infecções respiratórias direto, diarreia por parasita que não melhora, sem ganhar peso. Vamos entender o que exatamente falta na defesa dela.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "As células dela até tinham os soldados certos. O problema era que ninguém conseguia mostrar o inimigo pra eles.",
+    "dicas": [
+      "Releia com atenção o resultado daquele exame de fezes anterior, esse parasita específico não costuma causar diarreia grave em quem tem defesa celular funcionando normalmente.",
+      "Pensa em como uma célula do sistema imune \"mostra\" um pedaço do invasor pra ativar o tipo certo de linfócito T, e o que aconteceria se essa célula simplesmente não conseguisse mostrar nada pra ninguém.",
+      "Se o problema não é o linfócito T em si, e sim a molécula que apresenta antígeno pra ativar justamente o auxiliar (CD4), que consequência isso teria tanto na defesa celular quanto na produção de anticorpo, que depende da ajuda desse auxiliar?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Desde quando ela tem infecções respiratórias de repetição?", "custo": 2, "relevante": true, "resposta": "Desde os primeiros meses de vida, quase sem intervalo saudável." },
+    { "texto": "O que mostrou aquele exame de fezes feito durante a diarreia?", "custo": 2, "relevante": true, "resposta": "Identificou um parasita oportunista (Cryptosporidium), que normalmente causa quadro leve e autolimitado." },
+    { "texto": "Há histórico de consanguinidade entre os pais?", "custo": 2, "relevante": true, "resposta": "Sim, os pais são primos de primeiro grau." },
+    { "texto": "A mãe teve HIV confirmado ou não testado na gestação?", "custo": 2, "relevante": true, "resposta": "Pré-natal completo, sorologia para HIV negativa." },
+    { "texto": "Como está o desenvolvimento e o ganho de peso dela?", "custo": 2, "relevante": true, "resposta": "Peso bem abaixo do esperado pra idade, com curva de crescimento estagnada." },
+    { "texto": "Teve alguma reação diferente após a vacina BCG?", "custo": 2, "relevante": false, "resposta": "A cicatriz da BCG evoluiu normalmente, sem reação exagerada." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de tonsilas e linfonodos palpáveis", "custo": 3, "relevante": true, "resposta": "Tonsilas e linfonodos presentes, ainda que discretamente reduzidos de tamanho." },
+    { "texto": "Inspeção da cavidade oral", "custo": 3, "relevante": true, "resposta": "Candidíase oral discreta." },
+    { "texto": "Avaliação de hepatoesplenomegalia", "custo": 3, "relevante": false, "resposta": "Fígado e baço de tamanho normal à palpação." },
+    { "texto": "Avaliação do estado nutricional e curva de peso", "custo": 3, "relevante": true, "resposta": "Sinais evidentes de desnutrição, peso muito abaixo do esperado pra idade." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome do linfócito nu tipo II (deficiência de expressão de MHC de classe II)", "correta": true },
+    { "texto": "Imunodeficiência combinada grave (SCID) por defeito de recombinação V(D)J", "correta": false },
+    { "texto": "Infecção pelo HIV de transmissão perinatal", "correta": false },
+    { "texto": "Imunodeficiência comum variável", "correta": false },
+    { "texto": "Síndrome de DiGeorge (aplasia tímica isolada)", "correta": false },
+    { "texto": "Deficiência seletiva de IgA", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Imunofenotipagem de linfócitos (contagem de células T, B e subpopulações CD4/CD8)", "custo": 16, "relevante": true, "resposta": "Linfócitos T e B presentes em número normal, mas CD4 marcadamente reduzido; CD8 relativamente preservado." },
+    { "texto": "Expressão de HLA-DR (MHC de classe II) em monócitos e linfócitos B por citometria", "custo": 18, "relevante": true, "resposta": "Expressão de HLA-DR ausente ou muito reduzida nas células apresentadoras de antígeno." },
+    { "texto": "Dosagem de imunoglobulinas séricas", "custo": 12, "relevante": true, "resposta": "Hipogamaglobulinemia, compatível com falta de ajuda de células T CD4 para a troca de classe nos linfócitos B." },
+    { "texto": "Sorologia para HIV", "custo": 10, "relevante": false, "resposta": "Não reagente." }
+  ],
+  "condutas": [
+    { "texto": "Encaminhar para transplante de células-tronco hematopoiéticas (única opção curativa) e manter profilaxia para infecções oportunistas enquanto aguarda", "correta": true },
+    { "texto": "Repor apenas imunoglobulina intravenosa, sem avaliar transplante", "correta": false },
+    { "texto": "Iniciar terapia antirretroviral empírica", "correta": false },
+    { "texto": "Iniciar corticoide em dose alta de forma empírica", "correta": false }
+  ],
+  "explicacao": "Na síndrome do linfócito nu tipo II, um defeito nos genes reguladores da expressão de MHC de classe II impede que células apresentadoras de antígeno (dendríticas, macrófagos, linfócitos B) exibam esse complexo na superfície. Sem MHC de classe II, os linfócitos T CD4 (que reconhecem antígeno justamente via MHC de classe II) não são ativados corretamente, o que explica o CD4 baixo apesar de linfócitos T totais e B estarem presentes em número normal (diferente da SCID por defeito de V(D)J, onde T e B estão ausentes). Sem a ajuda dos CD4, os linfócitos B não recebem o sinal necessário pra trocar de classe de imunoglobulina, causando hipogamaglobulinemia funcional mesmo com B presentes. Isso explica as infecções respiratórias recorrentes, a diarreia grave por um parasita tipicamente oportunista (Cryptosporidium) e a falha de crescimento. A ausência de expressão de HLA-DR nas células apresentadoras é o achado laboratorial que confirma o mecanismo exato."
+}

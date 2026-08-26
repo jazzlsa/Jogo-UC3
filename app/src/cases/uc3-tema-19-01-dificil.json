@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-19-01-dificil",
+  "tema": "Tema 19 · Correlação Radiológica e Patológica em Doenças Respiratórias",
+  "materia_relacionada": "Este caso é o exemplo clássico de armadilha radiológica discutido na aula sobre correlação entre achados de imagem e a patologia de base: décadas de tabagismo destroem progressivamente as paredes alveolares (enfisema), criando espaços aéreos grandes com parede própria que, numa radiografia simples, podem imitar um pneumotórax, mas a tomografia revela a diferença estrutural que muda completamente a conduta.",
+  "area": "Pneumologia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 68,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, minha falta de ar vem piorando devagar há uns dois meses, principalmente pra subir escada, não senti nenhuma dor forte no peito nem nada que começou de repente.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "134/84", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "92", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "22", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "91", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Senhor de 68 anos, fumante de longa data, falta de ar que vem piorando aos poucos. A radiografia dele pode te enganar se você não pensar direito antes de agir.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Se alguém tivesse enfiado um dreno ali achando que era ar livre escapando do pulmão, o problema seria bem maior do que a falta de ar que ele já tinha.",
+    "dicas": [
+      "Releia com atenção como essa falta de ar evoluiu, foi um início súbito e doloroso ou uma piora mais lenta ao longo de semanas?",
+      "Pensa em como anos de tabagismo destroem progressivamente a parede alveolar, criando espaços de ar grandes dentro do próprio pulmão, sem precisar de ar escapando pra fora dele.",
+      "Na radiografia, um espaço de ar sem trama vascular pode até parecer pneumotórax, mas a tomografia mostra se esse espaço tem parede própria (dentro do pulmão) ou é só ar livre entre pulmão e caixa torácica. Qual dos dois combina mais com anos de destruição alveolar por tabagismo?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo fuma e quantos cigarros por dia?", "custo": 2, "relevante": true, "resposta": "Fuma cerca de 30 cigarros por dia há mais de 40 anos." },
+    { "texto": "Essa falta de ar começou de repente, com dor no peito, ou foi piorando aos poucos?", "custo": 2, "relevante": true, "resposta": "Foi piorando aos poucos ao longo de dois meses, sem dor torácica associada." },
+    { "texto": "Teve febre, tosse produtiva ou emagrecimento importante recentes?", "custo": 2, "relevante": false, "resposta": "Nega febre, emagrecimento ou tosse com catarro." },
+    { "texto": "Teve alguma infecção pulmonar grave recente (pneumonia, abscesso)?", "custo": 2, "relevante": false, "resposta": "Não teve nenhuma infecção pulmonar recente." },
+    { "texto": "Já tem diagnóstico de DPOC ou fez espirometria antes?", "custo": 2, "relevante": true, "resposta": "Tem diagnóstico de DPOC há uns 5 anos, mas não faz acompanhamento regular." }
+  ],
+  "exameFisico": [
+    { "texto": "Percussão torácica comparativa dos dois hemitórax", "custo": 3, "relevante": true, "resposta": "Hipertimpanismo localizado numa área específica do hemitórax direito." },
+    { "texto": "Ausculta pulmonar comparativa", "custo": 3, "relevante": true, "resposta": "Murmúrio vesicular bem diminuído na mesma área hipertimpânica, presente (ainda que reduzido) no restante do pulmão." },
+    { "texto": "Avaliação de desvio de traqueia e turgência jugular", "custo": 3, "relevante": true, "resposta": "Traqueia centrada, sem turgência jugular, sem sinais de hipertensão intratorácica aguda." },
+    { "texto": "Palpação de linfonodos cervicais e supraclaviculares", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+  ],
+  "hipoteses": [
+    { "texto": "Bolha de enfisema gigante (não pneumotórax)", "correta": true },
+    { "texto": "Pneumotórax espontâneo secundário a DPOC", "correta": false },
+    { "texto": "Cisto pulmonar congênito", "correta": false },
+    { "texto": "Pneumatocele pós-infecciosa", "correta": false },
+    { "texto": "Derrame pleural loculado", "correta": false },
+    { "texto": "Tuberculose cavitária", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Radiografia de tórax", "custo": 10, "relevante": true, "resposta": "Área radiotransparente extensa sem trama vascular na base direita, achado que pode ser confundido com pneumotórax na radiografia simples." },
+    { "texto": "Tomografia de tórax", "custo": 18, "relevante": true, "resposta": "Espaço aéreo com parede fina bem definida (não a linha pleural fina do pneumotórax), comprimindo o parênquima adjacente, compatível com bolha enfisematosa gigante." },
+    { "texto": "Hemograma completo e PCR", "custo": 8, "relevante": false, "resposta": "Sem leucocitose ou elevação de PCR, contra causa infecciosa." },
+    { "texto": "Espirometria", "custo": 10, "relevante": true, "resposta": "Padrão obstrutivo com VEF1/CVF reduzido, compatível com DPOC de base." }
+  ],
+  "condutas": [
+    { "texto": "Conduta conservadora com acompanhamento pneumológico, considerando bulhectomia eletiva se muito sintomática, sem drenagem torácica de urgência", "correta": true },
+    { "texto": "Drenagem torácica de urgência como se fosse pneumotórax", "correta": false },
+    { "texto": "Toracocentese diagnóstica", "correta": false },
+    { "texto": "Iniciar tratamento antituberculose empírico", "correta": false }
+  ],
+  "explicacao": "Décadas de tabagismo destroem progressivamente os septos alveolares (enfisema), e em alguns pontos essa destruição forma bolhas gigantes de parede fina dentro do próprio parênquima pulmonar. Na radiografia simples, uma bolha grande pode parecer indistinguível de um pneumotórax, um espaço radiotransparente sem trama vascular, mas a evolução insidiosa ao longo de meses (em vez de dor súbita), a ausência de desvio traqueal e a tomografia mostrando uma parede própria bem definida (e não a fina linha pleural característica do ar livre entre pulmão e caixa torácica) fecham o diagnóstico de bolha, não pneumotórax. Essa distinção é crítica na prática: inserir um dreno torácico numa bolha gigante, tratando-a como pneumotórax, pode causar uma fístula broncopleural persistente e piorar drasticamente o quadro do paciente."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-21-01-dificil",
+  "tema": "Tema 21 · Diabetes Mellitus: Tipo 1 e Tipo 2",
+  "materia_relacionada": "Este caso mostra que a distinção entre diabetes tipo 1 e tipo 2 não é só idade e peso, e sim o mecanismo de destruição da célula beta: existe uma forma autoimune de início lento em adultos que se disfarça de tipo 2 no consultório, mas se comporta como tipo 1 na evolução, exatamente a armadilha discutida no Grand Round sobre fisiopatologia imunológica do diabetes.",
+  "area": "Endocrinologia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 34,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, faz uns 8 meses que descobri diabetes, comecei com um remédio em comprimido que funcionou bem no início, mas nos últimos dois meses minha glicose não baixa de jeito nenhum, e eu emagreci sem fazer dieta.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "128/80", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "88", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 34 anos, diabetes há 8 meses, respondia bem ao comprimido e agora parou de funcionar, com emagrecimento sem dieta. O rótulo que colocaram nele no início pode estar errado.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não era resistência à insulina perdendo controle. Era a fábrica de insulina sendo destruída aos poucos, só que de um jeito mais devagar do que a gente costuma esperar.",
+    "dicas": [
+      "Releia com atenção como ele respondeu ao primeiro remédio em comprimido, e por quanto tempo essa resposta durou antes de piorar.",
+      "Pensa em como duas doenças que parecem a mesma coisa de fora (glicemia alta, mesma faixa de idade e peso) podem ter mecanismos de destruição da célula beta completamente diferentes: um mais rápido e ligado à resistência periférica, outro mais lento e de origem autoimune.",
+      "Que exame de sangue mede diretamente se o próprio corpo está atacando as células que produzem insulina, independente do peso ou da idade do paciente?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como foi a resposta ao primeiro tratamento (comprimido) nos primeiros meses?", "custo": 2, "relevante": true, "resposta": "Funcionou bem por cerca de 5 meses, depois perdeu efeito progressivamente." },
+    { "texto": "Teve emagrecimento não intencional recente?", "custo": 2, "relevante": true, "resposta": "Perdeu uns 6 kg nos últimos dois meses, sem mudar dieta ou exercício." },
+    { "texto": "Já teve algum episódio de mal-estar importante com hálito cetônico ou necessidade de internação por causa da glicose?", "custo": 2, "relevante": true, "resposta": "Teve um episódio de mal-estar forte com hálito diferente há três semanas, mas não procurou hospital." },
+    { "texto": "Tem histórico familiar de diabetes tipo 2?", "custo": 2, "relevante": false, "resposta": "Pai e um irmão têm diabetes tipo 2, diagnosticados depois dos 50 anos." },
+    { "texto": "Tem ou já teve alguma outra doença autoimune, como tireoidite?", "custo": 2, "relevante": true, "resposta": "Foi diagnosticado com tireoidite de Hashimoto há dois anos." },
+    { "texto": "Faz atividade física regular e como está a dieta atual?", "custo": 2, "relevante": false, "resposta": "Faz caminhadas ocasionais, dieta razoável, sem grandes excessos." }
+  ],
+  "exameFisico": [
+    { "texto": "Cálculo do índice de massa corporal", "custo": 3, "relevante": false, "resposta": "IMC 27, sobrepeso leve." },
+    { "texto": "Inspeção de pele em busca de acantose nigricans", "custo": 3, "relevante": true, "resposta": "Ausência de acantose nigricans, sem sinais cutâneos de resistência insulínica marcada." },
+    { "texto": "Palpação de tireoide", "custo": 3, "relevante": true, "resposta": "Tireoide discretamente aumentada e de consistência firme, compatível com tireoidite conhecida." },
+    { "texto": "Avaliação de sinais de desidratação", "custo": 3, "relevante": false, "resposta": "Mucosas úmidas, sem sinais de desidratação no momento." }
+  ],
+  "hipoteses": [
+    { "texto": "Diabetes autoimune latente do adulto (LADA)", "correta": true },
+    { "texto": "Diabetes mellitus tipo 2", "correta": false },
+    { "texto": "Diabetes mellitus tipo 1 clássico", "correta": false },
+    { "texto": "Diabetes tipo MODY (diabetes monogênico de início na maturidade)", "correta": false },
+    { "texto": "Diabetes secundário ao uso crônico de corticoide", "correta": false },
+    { "texto": "Diabetes secundário a pancreatite crônica", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Dosagem de peptídeo C", "custo": 12, "relevante": true, "resposta": "Peptídeo C baixo, indicando produção endógena de insulina já reduzida." },
+    { "texto": "Anticorpo anti-GAD65 (antidescarboxilase do ácido glutâmico)", "custo": 14, "relevante": true, "resposta": "Positivo em título elevado." },
+    { "texto": "Glicemia de jejum e hemoglobina glicada", "custo": 8, "relevante": true, "resposta": "Glicemia de jejum 268 mg/dL, HbA1c 9.8%." },
+    { "texto": "Cetonemia/cetonúria no momento da consulta", "custo": 8, "relevante": false, "resposta": "Sem cetonemia ou cetonúria significativas no momento atual." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar insulinoterapia precocemente (em vez de apenas hipoglicemiante oral) e rastrear outras condições autoimunes associadas", "correta": true },
+    { "texto": "Manter apenas metformina e orientação dietética, como em diabetes tipo 2 clássico", "correta": false },
+    { "texto": "Aguardar sem tratamento farmacológico, orientando só mudança de estilo de vida", "correta": false },
+    { "texto": "Iniciar sulfonilureia em dose alta isolada", "correta": false }
+  ],
+  "explicacao": "O quadro inicial (idade adulta, sobrepeso leve, resposta inicial boa a hipoglicemiante oral) sugere diabetes tipo 2, mas a perda de resposta ao comprimido em poucos meses, o emagrecimento não intencional, o episódio sugestivo de cetose e a tireoidite de Hashimoto associada (outra doença autoimune) apontam para diabetes autoimune latente do adulto (LADA): uma destruição autoimune da célula beta mais lenta que no diabetes tipo 1 clássico da infância, mas real e progressiva, ao contrário da resistência insulínica predominante do tipo 2. O peptídeo C baixo confirma queda da produção endógena de insulina, e o anti-GAD65 positivo confirma o mecanismo autoimune, motivo pelo qual manter apenas hipoglicemiante oral (que depende de alguma reserva de célula beta funcionante) tende a falhar, sendo necessária insulina mais precocemente do que no diabetes tipo 2 usual."
+}

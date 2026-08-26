@@ -1,0 +1,67 @@
+{
+  "id": "uc3-tema-16-01-dificil",
+  "tema": "Tema 16 · Regulação Hormonal do Metabolismo e Massa Corpórea",
+  "materia_relacionada": "Este caso mostra o que acontece quando uma lesão estrutural danifica diretamente o circuito hipotalâmico de controle de fome e saciedade (o mesmo eixo que integra leptina, grelina e sinalização de energia discutido na aula), em vez de apenas haver um desequilíbrio funcional entre ingesta e gasto calórico: a obesidade hipotalâmica secundária tem mecanismo, gravidade e conduta completamente diferentes da obesidade exógena comum.",
+  "area": "Endocrinologia",
+  "prova": "P1",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 11,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele engordou muito rápido nesse último ano, come o tempo todo e diz que nunca fica satisfeito, e ultimamente anda com dor de cabeça e esbarrando nas coisas do lado.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/68", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "80", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 11 anos, ganho de peso rápido, fome que nunca passa, e agora dor de cabeça e esbarrando nas coisas do lado. Não trata isso como só sobrepeso infantil sem investigar direito.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não era só sobre comer demais. Tinha uma estrutura crescendo bem no meio do caminho entre fome, visão e crescimento, e ela explica tudo junto.",
+    "dicas": [
+      "Releia com atenção os sintomas que vieram junto com o ganho de peso, dor de cabeça e alteração visual não costumam vir só de dieta.",
+      "Pensa em qual estrutura, bem perto de onde passam as vias visuais, regula fome e saciedade e também comanda vários outros hormônios, o que aconteceria se algo crescesse bem ali.",
+      "Que tipo de lesão, na região da base do crânio onde fica a hipófise, comprimiria ao mesmo tempo a via visual (afetando o campo de visão) e o hipotálamo (afetando fome, sede e crescimento)?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como foi o ritmo do ganho de peso e como está o apetite?", "custo": 2, "relevante": true, "resposta": "Engordou cerca de 15 kg em 8 meses, come compulsivamente e nunca parece satisfeito." },
+    { "texto": "A dieta ou a rotina de atividade física da família mudou nesse período?", "custo": 2, "relevante": false, "resposta": "Não mudou nada, ele inclusive era uma criança ativa antes disso." },
+    { "texto": "A dor de cabeça tem algum padrão, como piorar de manhã ou vir com vômito?", "custo": 2, "relevante": true, "resposta": "É quase diária, costuma ser pior ao acordar, às vezes acompanhada de vômito." },
+    { "texto": "Notou aumento de sede e de quantidade de urina, inclusive à noite?", "custo": 2, "relevante": true, "resposta": "Sim, bebe muita água o dia todo e acorda mais de uma vez à noite pra urinar." },
+    { "texto": "Já usou corticoide por tempo prolongado, mesmo tópico ou inalado?", "custo": 2, "relevante": false, "resposta": "Nunca usou corticoide de forma prolongada." },
+    { "texto": "Como está o crescimento em altura comparado aos colegas da mesma idade?", "custo": 2, "relevante": true, "resposta": "A mãe percebeu que ele parou de crescer em altura nesse último ano, ficando mais baixo que os colegas." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação do campo visual por confrontação", "custo": 3, "relevante": true, "resposta": "Perda de visão periférica nas laterais dos dois olhos (padrão de hemianopsia bitemporal)." },
+    { "texto": "Avaliação da distribuição de gordura corporal e presença de estrias", "custo": 3, "relevante": false, "resposta": "Obesidade generalizada, sem giba dorsal nem estrias violáceas." },
+    { "texto": "Avaliação de estatura e velocidade de crescimento no gráfico pediátrico", "custo": 3, "relevante": true, "resposta": "Estatura abaixo do percentil esperado pra idade, com desaceleração evidente da curva de crescimento." },
+    { "texto": "Fácies e pele em busca de sinais de excesso de cortisol", "custo": 3, "relevante": false, "resposta": "Sem fácies em lua cheia nem fragilidade capilar sugestiva de excesso de cortisol." },
+    { "texto": "Fundo de olho", "custo": 3, "relevante": true, "resposta": "Papiledema leve bilateral." }
+  ],
+  "hipoteses": [
+    { "texto": "Craniofaringioma com obesidade hipotalâmica secundária", "correta": true },
+    { "texto": "Obesidade exógena simples (dieta e sedentarismo)", "correta": false },
+    { "texto": "Síndrome de Prader-Willi", "correta": false },
+    { "texto": "Hipotireoidismo primário", "correta": false },
+    { "texto": "Síndrome de Cushing", "correta": false },
+    { "texto": "Adenoma hipofisário produtor de prolactina", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Ressonância magnética de crânio com foco em região selar", "custo": 18, "relevante": true, "resposta": "Massa selar/supraselar parcialmente calcificada, comprimindo quiasma óptico e hipotálamo." },
+    { "texto": "Perfil hormonal hipofisário (GH, prolactina, cortisol basal)", "custo": 14, "relevante": true, "resposta": "GH reduzido e padrão sugestivo de comprometimento hipofisário múltiplo (panhipopituitarismo parcial)." },
+    { "texto": "TSH e T4 livre", "custo": 8, "relevante": false, "resposta": "Dentro da normalidade." },
+    { "texto": "Cariótipo e teste genético para síndrome de Prader-Willi", "custo": 12, "relevante": false, "resposta": "Resultado normal, sem a deleção característica." }
+  ],
+  "condutas": [
+    { "texto": "Encaminhar para neurocirurgia visando ressecção da lesão, com acompanhamento endocrinológico multidisciplinar para reposição hormonal", "correta": true },
+    { "texto": "Orientar apenas dieta hipocalórica e aumento de atividade física", "correta": false },
+    { "texto": "Iniciar reposição isolada de hormônio de crescimento sem investigar a causa da desaceleração", "correta": false },
+    { "texto": "Iniciar corticoide em dose alta de forma empírica", "correta": false }
+  ],
+  "explicacao": "O ganho de peso rápido com fome insaciável não reflete um simples desequilíbrio entre ingesta e gasto calórico: uma lesão selar/supraselar (craniofaringioma) comprime diretamente o hipotálamo, núcleo central da regulação de fome e saciedade que integra sinais como leptina e grelina, causando hiperfagia incontrolável e obesidade hipotalâmica verdadeira, mecanismo diferente da obesidade exógena. A mesma lesão comprime o quiasma óptico logo acima da hipófise, explicando a hemianopsia bitemporal, e o eixo hipotálamo-hipofisário, explicando a desaceleração do crescimento (déficit de GH) e a poliúria/polidipsia (comprometimento da secreção de hormônio antidiurético). TSH normal afasta hipotireoidismo, ausência de estrias e fácies típica afasta Cushing, e o cariótipo normal afasta Prader-Willi, deixando a lesão estrutural como única explicação capaz de unir todos os achados: peso, visão, crescimento e sede."
+}

@@ -133,6 +133,10 @@
     {
       "texto": "Pericardite aguda",
       "correta": false
+    },
+    {
+      "texto": "Insuficiência cardíaca descompensada (edema agudo de pulmão)",
+      "correta": false
     }
   ],
   "exames": [

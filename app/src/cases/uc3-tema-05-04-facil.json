@@ -127,6 +127,10 @@
     {
       "texto": "Diverticulite aguda",
       "correta": false
+    },
+    {
+      "texto": "Hérnia inguinal direita encarcerada",
+      "correta": false
     }
   ],
   "exames": [

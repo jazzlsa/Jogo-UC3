@@ -286,5 +286,77 @@
     "area": "Ortopedia",
     "prova": "P1",
     "arquivo": "uc3-tema-13-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-15-01-medio",
+    "tema": "Tema 15 · Esquizofrenia",
+    "dificuldade": "medio",
+    "area": "Psiquiatria",
+    "prova": "P1",
+    "arquivo": "uc3-tema-15-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-15-02-dificil",
+    "tema": "Tema 15 · Esquizofrenia",
+    "dificuldade": "dificil",
+    "area": "Psiquiatria",
+    "prova": "P1",
+    "arquivo": "uc3-tema-15-02-dificil.json"
+  },
+  {
+    "id": "uc3-tema-16-01-dificil",
+    "tema": "Tema 16 · Regulação Hormonal do Metabolismo e Massa Corpórea",
+    "dificuldade": "dificil",
+    "area": "Endocrinologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-16-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-17-01-dificil",
+    "tema": "Tema 17 · Reconhecimento pelo Sistema Imune na Resposta Adaptativa",
+    "dificuldade": "dificil",
+    "area": "Imunologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-17-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-18-01-dificil",
+    "tema": "Tema 18 · Recombinação Gênica e Diversidade de Imunoglobulinas",
+    "dificuldade": "dificil",
+    "area": "Imunologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-18-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-19-01-dificil",
+    "tema": "Tema 19 · Correlação Radiológica e Patológica em Doenças Respiratórias",
+    "dificuldade": "dificil",
+    "area": "Pneumologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-19-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-20-01-dificil",
+    "tema": "Tema 20 · MHC, Processamento e Apresentação de Antígenos",
+    "dificuldade": "dificil",
+    "area": "Imunologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-20-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-21-01-dificil",
+    "tema": "Tema 21 · Diabetes Mellitus: Tipo 1 e Tipo 2",
+    "dificuldade": "dificil",
+    "area": "Endocrinologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-21-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-22-01-dificil",
+    "tema": "Tema 22 · Mecanismos Efetores do Sistema Imune",
+    "dificuldade": "dificil",
+    "area": "Imunologia",
+    "prova": "P1",
+    "arquivo": "uc3-tema-22-01-dificil.json"
   }
 ]
