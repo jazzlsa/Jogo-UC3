@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-35-01-dificil",
+  "tema": "Tema 35 · Patogenicidade Bacteriana",
+  "materia_relacionada": "Este caso aplica o conceito de superantígeno como fator de virulência visto na aula: em vez de precisar circular no sangue causando bacteremia, a bactéria libera uma toxina que ativa uma fração enorme de linfócitos T de uma só vez, disparando uma tempestade de citocinas que explica febre alta, hipotensão e disfunção de múltiplos órgãos mesmo com hemocultura negativa.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 19,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, comecei com febre alta do nada, meu corpo todo ficou vermelho tipo uma queimadura de sol, e estou me sentindo muito fraca e tonta.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "82/50", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "128", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "39.8", "u": "°C", "flag": true },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "95", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Moça de 19 anos, febre alta súbita, vermelhidão difusa pelo corpo e pressão bem baixa. Antes de pensar só em bactéria no sangue, pensa se ela realmente precisa estar lá pra causar tudo isso.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A bactéria nem precisou estar no sangue dela. Só precisou soltar uma substância que enganou um monte de células de defesa de uma vez só.",
+    "dicas": [
+      "Releia com atenção há quanto tempo ela está com o mesmo item de higiene íntima, sem trocar.",
+      "Pensa em como uma toxina bacteriana pode ativar uma quantidade enorme de linfócitos T de uma vez, bem diferente de uma bactéria comum precisando entrar na circulação pra causar dano, disparando uma reação inflamatória descontrolada no corpo todo.",
+      "Que tipo de toxina bacteriana, funcionando como um \"superantígeno\", explica febre alta, queda de pressão, erupção cutânea difusa e descamação de mãos e pés dias depois, mesmo sem a bactéria estar circulando no sangue?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo ela está usando o mesmo tampão vaginal, sem trocar?", "custo": 2, "relevante": true, "resposta": "Ficou mais de 24 horas com o mesmo tampão, esqueceu de trocar por causa da correria do dia." },
+    { "texto": "Teve dor de garganta ou amigdalite nos últimos dias?", "custo": 2, "relevante": false, "resposta": "Sem dor de garganta ou amigdalite recente." },
+    { "texto": "Teve contato com carrapato ou esteve em área de mata recentemente?", "custo": 2, "relevante": false, "resposta": "Não teve contato com carrapato nem esteve em área de mata." },
+    { "texto": "Notou dor muscular difusa junto com a febre?", "custo": 2, "relevante": true, "resposta": "Sim, dor muscular generalizada, como se tivesse tomado uma surra." },
+    { "texto": "Já teve alergia importante a medicamento recentemente iniciada?", "custo": 2, "relevante": false, "resposta": "Não iniciou nenhum medicamento novo recentemente." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção da pele (padrão e distribuição do rash)", "custo": 3, "relevante": true, "resposta": "Eritema macular difuso por todo o corpo, lembrando queimadura solar." },
+    { "texto": "Avaliação de mucosas (conjuntival, oral)", "custo": 3, "relevante": true, "resposta": "Hiperemia conjuntival bilateral e hiperemia de mucosa oral." },
+    { "texto": "Avaliação hemodinâmica (perfusão, pressão arterial)", "custo": 3, "relevante": true, "resposta": "Hipotensão confirmada, extremidades quentes, tempo de enchimento capilar normal." },
+    { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalia cervical significativa." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome do choque tóxico estafilocócico (mediada pela toxina TSST-1)", "correta": true },
+    { "texto": "Escarlatina", "correta": false },
+    { "texto": "Sepse por bactéria Gram-negativa", "correta": false },
+    { "texto": "Síndrome de Stevens-Johnson", "correta": false },
+    { "texto": "Doença de Kawasaki", "correta": false },
+    { "texto": "Meningococcemia", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Cultura de secreção vaginal/do tampão", "custo": 12, "relevante": true, "resposta": "Crescimento de Staphylococcus aureus." },
+    { "texto": "Hemoculturas", "custo": 12, "relevante": true, "resposta": "Negativas, compatível com quadro mediado por toxina circulante, não por bacteremia." },
+    { "texto": "Provas de função hepática e renal", "custo": 10, "relevante": true, "resposta": "Transaminases e creatinina elevadas, indicando disfunção de múltiplos órgãos." },
+    { "texto": "Sorologia para estreptococo (ASLO)", "custo": 8, "relevante": false, "resposta": "Negativa." }
+  ],
+  "condutas": [
+    { "texto": "Remover o tampão, iniciar antibioticoterapia (incluindo agente com ação antitoxina, como clindamicina, associado a cobertura anti-estafilocócica) e suporte hemodinâmico agressivo", "correta": true },
+    { "texto": "Apenas suporte hemodinâmico, sem antibiótico", "correta": false },
+    { "texto": "Iniciar aciclovir empírico", "correta": false },
+    { "texto": "Iniciar corticoide isolado, sem antibiótico nem remoção do foco", "correta": false }
+  ],
+  "explicacao": "O uso prolongado do mesmo tampão vaginal cria condições para proliferação de Staphylococcus aureus produtor da toxina TSST-1, um superantígeno que ativa de forma não específica uma proporção enorme de linfócitos T, liberando uma tempestade de citocinas sem precisar de bacteremia verdadeira, o que explica hemoculturas negativas apesar da gravidade do quadro. O eritema difuso tipo queimadura solar, a hipotensão, a hiperemia de mucosas e a disfunção de múltiplos órgãos (fígado, rim) compõem o quadro clássico da síndrome do choque tóxico estafilocócico, que tipicamente evolui para descamação de palmas e plantas dias depois. A ausência de faringite recente torna escarlatina menos provável, e hemocultura negativa torna sepse por Gram-negativo pouco compatível. Remover o foco (o tampão) e usar um antibiótico com ação de suprimir a produção da toxina, além do combate à bactéria, é essencial, não bastando apenas tratar a hipotensão."
+}

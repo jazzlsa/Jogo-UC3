@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-34-01-dificil",
+  "tema": "Tema 34 · Genética Bacteriana",
+  "materia_relacionada": "Este caso aplica o conceito de transferência horizontal de genes visto na aula: uma bactéria pode adquirir resistência a antibiótico sem precisar de uma mutação própria surgir do zero, recebendo por conjugação um plasmídeo que já carrega o gene de resistência de outra bactéria vizinha, às vezes até de espécie diferente, exatamente o mecanismo que explica uma resistência nova e súbita num paciente sem exposição direta ao antibiótico correspondente.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 71,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, voltei com aquela dor pra urinar e a febre, igual da última internação, mas dessa vez o antibiótico que sempre funcionou pra mim não está funcionando.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "116/72", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "98", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.6", "u": "°C", "flag": true },
+    { "l": "FR", "v": "19", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhora de 71 anos, infecção urinária de repetição, dessa vez o antibiótico de sempre não funcionou. Antes de pensar só numa mutação nova, pensa em quem mais ela dividiu o quarto no hospital.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A bactéria dela não precisou inventar nada sozinha. Só pegou emprestado o que já estava pronto, vindo de outra vizinha de quarto.",
+    "dicas": [
+      "Releia com atenção se ela teve contato recente com outro paciente internado que já tivesse uma infecção por bactéria resistente conhecida.",
+      "Pensa em como uma bactéria pode \"emprestar\" resistência a antibiótico pra outra bactéria vizinha, sem precisar de nenhuma mutação própria surgir do zero, através de um pedaço de DNA que se copia e se transfere entre elas.",
+      "Que tipo de elemento genético móvel, carregando o gene de uma enzima que quebra certos antibióticos beta-lactâmicos, pode se transferir por conjugação entre bactérias diferentes, até de espécies diferentes, dentro do mesmo ambiente hospitalar?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Teve alguma internação recente antes desses sintomas voltarem?", "custo": 2, "relevante": true, "resposta": "Ficou internada há três semanas por outro motivo, dividindo o quarto com outra paciente." },
+    { "texto": "Sabe se essa outra paciente do quarto tinha alguma infecção por bactéria resistente conhecida?", "custo": 2, "relevante": true, "resposta": "A equipe de enfermagem confirma que a colega de quarto estava em isolamento por uma bactéria multirresistente." },
+    { "texto": "Usou algum antibiótico de amplo espectro recentemente, antes dessa nova infecção?", "custo": 2, "relevante": true, "resposta": "Usou uma cefalosporina há duas semanas, para outro motivo." },
+    { "texto": "As infecções urinárias anteriores sempre foram tratadas com sucesso com a mesma cefalosporina?", "custo": 2, "relevante": true, "resposta": "Sim, sempre respondeu bem à mesma cefalosporina em episódios anteriores." },
+    { "texto": "Tem diabetes ou alguma condição que reduza a imunidade?", "custo": 2, "relevante": false, "resposta": "Não tem diabetes nem outra condição que reduza a imunidade." }
+  ],
+  "exameFisico": [
+    { "texto": "Punho-percussão lombar", "custo": 3, "relevante": true, "resposta": "Punho-percussão lombar positiva à direita, sugestiva de acometimento renal." },
+    { "texto": "Avaliação de sinais de sepse (perfusão, hipotensão)", "custo": 3, "relevante": true, "resposta": "Perfusão periférica preservada, sem sinais de sepse grave no momento." },
+    { "texto": "Ausculta cardíaca e pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta cardíaca e pulmonar sem alterações." }
+  ],
+  "hipoteses": [
+    { "texto": "Infecção urinária por E. coli produtora de beta-lactamase de espectro estendido (ESBL), adquirida por transferência horizontal de plasmídeo", "correta": true },
+    { "texto": "Infecção urinária por E. coli sensível, apenas recidivante", "correta": false },
+    { "texto": "Pielonefrite por mutação cromossômica espontânea de resistência", "correta": false },
+    { "texto": "Infecção urinária fúngica (Candida)", "correta": false },
+    { "texto": "Cistite intersticial", "correta": false },
+    { "texto": "Infecção por Klebsiella pneumoniae produtora de carbapenemase (CRE)", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Urocultura com antibiograma completo", "custo": 12, "relevante": true, "resposta": "Crescimento de E. coli resistente à ceftriaxona, mas ainda sensível a carbapenêmico." },
+    { "texto": "Teste fenotípico de sinergismo de disco para confirmação de ESBL", "custo": 12, "relevante": true, "resposta": "Positivo, confirmando produção de beta-lactamase de espectro estendido." },
+    { "texto": "Teste rápido para carbapenemase (Carba NP ou similar)", "custo": 12, "relevante": true, "resposta": "Negativo, afastando produção de carbapenemase (CRE)." },
+    { "texto": "Urina tipo I", "custo": 8, "relevante": false, "resposta": "Piúria e nitrito positivo, compatível com infecção urinária, sem informação adicional sobre o mecanismo de resistência." }
+  ],
+  "condutas": [
+    { "texto": "Tratar com antibiótico ativo contra o organismo produtor de ESBL conforme o antibiograma, e reforçar medidas de controle de infecção (higiene de mãos, isolamento de contato)", "correta": true },
+    { "texto": "Repetir a mesma cefalosporina em dose mais alta", "correta": false },
+    { "texto": "Aguardar sem iniciar antibiótico, esperando resolução espontânea", "correta": false },
+    { "texto": "Iniciar antifúngico empírico", "correta": false }
+  ],
+  "explicacao": "A perda súbita de resposta a uma cefalosporina que sempre funcionou, logo após uma internação em que a paciente dividiu quarto com outra colonizada por bactéria multirresistente, sugere transferência horizontal de um plasmídeo carregando o gene de uma beta-lactamase de espectro estendido (ESBL), em vez de uma mutação cromossômica espontânea, que tenderia a ser mais gradual e não dependeria de contato com outro paciente resistente. O teste de sinergismo de disco confirma a produção de ESBL, enquanto o teste para carbapenemase negativo e a sensibilidade mantida a carbapenêmico no antibiograma afastam um mecanismo de resistência mais grave (CRE). Esse cenário reforça a importância do controle de infecção hospitalar, já que plasmídeos de resistência podem se espalhar entre bactérias diferentes dentro do mesmo ambiente, independentemente de qualquer antibiótico ao qual aquele paciente específico tenha sido exposto."
+}

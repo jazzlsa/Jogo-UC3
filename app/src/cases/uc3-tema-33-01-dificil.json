@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-33-01-dificil",
+  "tema": "Tema 33 · Integração Metabólica: Estados Absortivo e Pós-Absortivo",
+  "materia_relacionada": "Este caso mostra a transição brusca entre o estado pós-absortivo prolongado (jejum, catabolismo) e o estado absortivo (alimentação, anabolismo) discutida na aula: assim que a comida volta e a insulina sobe, o corpo desvia minerais como fósforo, potássio e magnésio para dentro das células pra sustentar a síntese de glicogênio e proteína, e em quem estava gravemente desnutrido, essa mudança pode drenar perigosamente esses minerais do sangue.",
+  "area": "Endocrinologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 45,
+    "sexo": "F"
+  },
+  "queixa_principal": "A enfermagem relata: “Doutor, ela está internada há cinco dias, muito desnutrida, começamos a dieta enteral há três dias e hoje ela ficou confusa, fraca e o monitor mostrou uma arritmia.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "98/58", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "112", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.4", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "95", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 45 anos, gravemente desnutrida, começou a se alimentar de novo há três dias e agora está confusa, fraca, com arritmia. Alimentar quem passou fome também tem seu perigo, e é bem específico.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A comida que deveria estar salvando ela quase virou o problema, porque trouxe de volta um hormônio que redistribuiu tudo de uma vez.",
+    "dicas": [
+      "Releia com atenção quando exatamente os sintomas começaram, em relação a quando ela voltou a se alimentar depois de tanto tempo desnutrida.",
+      "Pensa em como o corpo muda de um estado que queima reservas (jejum prolongado) pra um estado que volta a guardar energia assim que a comida chega de novo, e o que o hormônio que surge nesse momento faz com certos minerais dentro das células.",
+      "Que mineral, essencial pra produção de energia (ATP) e pra função muscular e cardíaca, entra maciçamente pra dentro da célula assim que esse hormônio aumenta na realimentação, podendo cair perigosamente no sangue de quem estava desnutrido?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Havia quanto tempo ela estava em jejum prolongado ou desnutrição grave antes de internar?", "custo": 2, "relevante": true, "resposta": "Ficou praticamente sem se alimentar direito por mais de duas semanas antes de internar." },
+    { "texto": "Quando exatamente os sintomas começaram em relação ao início da dieta?", "custo": 2, "relevante": true, "resposta": "Começou a piorar cerca de dois dias depois de iniciarem a dieta enteral mais robusta." },
+    { "texto": "Ela usa diurético de forma crônica?", "custo": 2, "relevante": false, "resposta": "Não usa nenhum diurético." },
+    { "texto": "Tem histórico de problema cardíaco prévio conhecido?", "custo": 2, "relevante": false, "resposta": "Nenhum problema cardíaco conhecido antes dessa internação." },
+    { "texto": "Notou fraqueza muscular progressiva nos últimos dias?", "custo": 2, "relevante": true, "resposta": "Sim, está cada vez mais fraca, hoje mal consegue segurar objetos." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de força muscular global", "custo": 3, "relevante": true, "resposta": "Fraqueza muscular generalizada, mais evidente proximalmente." },
+    { "texto": "Avaliação de sinais de sobrecarga de volume (edema, estertores)", "custo": 3, "relevante": true, "resposta": "Discreto edema de membros inferiores, sem estertores pulmonares importantes." },
+    { "texto": "Avaliação do ritmo de pulso", "custo": 3, "relevante": true, "resposta": "Pulso irregular, compatível com arritmia observada no monitor." },
+    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Confusa, mas responde a comandos simples." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome de realimentação (hipofosfatemia grave por reintrodução alimentar)", "correta": true },
+    { "texto": "Cetoacidose diabética", "correta": false },
+    { "texto": "Insuficiência cardíaca descompensada", "correta": false },
+    { "texto": "Sepse", "correta": false },
+    { "texto": "Delirium tremens", "correta": false },
+    { "texto": "Intoxicação alimentar", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Fósforo sérico", "custo": 10, "relevante": true, "resposta": "Fósforo sérico muito baixo (1.1 mg/dL)." },
+    { "texto": "Potássio e magnésio séricos", "custo": 10, "relevante": true, "resposta": "Ambos reduzidos (hipocalemia e hipomagnesemia)." },
+    { "texto": "Eletrocardiograma", "custo": 10, "relevante": true, "resposta": "Arritmia com prolongamento do intervalo QT, compatível com distúrbio eletrolítico grave." },
+    { "texto": "Glicemia capilar", "custo": 4, "relevante": true, "resposta": "Glicemia normal, sem cetose, afastando cetoacidose diabética." }
+  ],
+  "condutas": [
+    { "texto": "Reduzir a velocidade e o volume da realimentação, repor fósforo, potássio e magnésio antes de avançar a dieta, e monitorar eletrólitos de perto", "correta": true },
+    { "texto": "Continuar aumentando a dieta calórica rapidamente para acelerar a recuperação do peso", "correta": false },
+    { "texto": "Iniciar diurético para tratar suposta sobrecarga de volume", "correta": false },
+    { "texto": "Aplicar insulina em bolus, tratando como hiperglicemia", "correta": false }
+  ],
+  "explicacao": "Após jejum prolongado, o corpo reduz a secreção de insulina e depende de reservas de gordura e proteína. Ao reintroduzir alimentação, especialmente rica em carboidrato, a insulina volta a subir abruptamente e direciona fósforo, potássio e magnésio para dentro das células junto com a glicose, drenando esses minerais do sangue em quem já tinha reservas corporais depletadas pela desnutrição. A hipofosfatemia grave compromete diretamente a produção de ATP e a função muscular e cardíaca, explicando a fraqueza e a arritmia, e o quadro tipicamente aparece dias após o início da realimentação, não antes, como visto aqui. Glicemia normal sem cetose afasta cetoacidose diabética, e a ausência de sinais infecciosos ou cardíacos prévios torna sepse e insuficiência cardíaca primária menos prováveis."
+}

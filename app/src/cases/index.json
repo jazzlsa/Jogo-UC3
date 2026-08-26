@@ -422,5 +422,29 @@
     "area": "Infectologia",
     "prova": "P2",
     "arquivo": "uc3-tema-32-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-33-01-dificil",
+    "tema": "Tema 33 · Integração Metabólica: Estados Absortivo e Pós-Absortivo",
+    "dificuldade": "dificil",
+    "area": "Endocrinologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-33-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-34-01-dificil",
+    "tema": "Tema 34 · Genética Bacteriana",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-34-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-35-01-dificil",
+    "tema": "Tema 35 · Patogenicidade Bacteriana",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-35-01-dificil.json"
   }
 ]
