@@ -646,5 +646,29 @@
     "area": "Infectologia",
     "prova": "P3",
     "arquivo": "uc3-tema-61-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-62-01-dificil",
+    "tema": "Tema 62 · Patologia da Inflamação Crônica",
+    "dificuldade": "dificil",
+    "area": "Cardiologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-62-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-63-01-dificil",
+    "tema": "Tema 63 · Organização da Resposta Imune a Vírus e Fungos",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-63-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-64-01-dificil",
+    "tema": "Tema 64 · Reações de Hipersensibilidade",
+    "dificuldade": "dificil",
+    "area": "Nefrologia/Urologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-64-01-dificil.json"
   }
 ]

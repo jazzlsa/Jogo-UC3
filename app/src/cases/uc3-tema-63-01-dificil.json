@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-63-01-dificil",
+  "tema": "Tema 63 · Organização da Resposta Imune a Vírus e Fungos",
+  "materia_relacionada": "Este caso aplica o conceito de evasão viral do controle imunológico visto na aula: certos vírus permanecem latentes por anos sob vigilância de uma resposta imune celular eficaz, e só reativam causando doença quando essa vigilância enfraquece o suficiente, como na imunossupressão avançada por HIV, exatamente o cenário que permite ao HHV-8 escapar do controle e causar um tumor vascular.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 41,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, apareceram umas manchas roxas na pele e uma no céu da boca, não doem nem coçam, mas estão aumentando de tamanho.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "112/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "84", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.8", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 41 anos, manchas violáceas na pele e no céu da boca, indolores, crescendo aos poucos. Confere primeiro como está a defesa imunológica dele antes de pensar em trauma ou outra bactéria.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Esse vírus morava quietinho nele fazia anos. Só esperou a vigilância baixar a guarda pra finalmente aparecer.",
+    "dicas": [
+      "Releia com atenção qual é o CD4 dele atualmente e como está a adesão ao tratamento antirretroviral.",
+      "Pensa em como um vírus consegue ficar escondido, sob controle da vigilância imunológica, por muitos anos, e só reativa causando doença quando essa vigilância enfraquece bastante.",
+      "Que vírus da família herpes, associado a imunossupressão avançada por HIV, causa lesões violáceas de pele e mucosa por proliferação vascular anormal, e precisa ser diferenciado de uma infecção bacteriana que pode parecer clinicamente muito semelhante?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Ele tem diagnóstico de HIV, e qual é o CD4 e a carga viral mais recentes?", "custo": 2, "relevante": true, "resposta": "Tem HIV diagnosticado há oito anos, CD4 atual muito baixo (32 células) e carga viral alta." },
+    { "texto": "Como está a adesão ao tratamento antirretroviral?", "custo": 2, "relevante": true, "resposta": "Abandonou o tratamento antirretroviral há mais de um ano." },
+    { "texto": "As lesões doem, coçam ou sangram fácil ao toque?", "custo": 2, "relevante": true, "resposta": "Não doem, não coçam, e não sangram fácil quando manipuladas com cuidado." },
+    { "texto": "Teve arranhão ou contato recente com gatos?", "custo": 2, "relevante": true, "resposta": "Não teve contato recente com gatos ou arranhões." },
+    { "texto": "Teve algum trauma na região onde as manchas apareceram?", "custo": 2, "relevante": false, "resposta": "Não houve nenhum trauma nessas áreas." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção detalhada das lesões de pele e mucosa oral", "custo": 3, "relevante": true, "resposta": "Placas e nódulos violáceos, bem delimitados, indolores, incluindo uma lesão no palato." },
+    { "texto": "Avaliação de sangramento à manipulação leve da lesão", "custo": 3, "relevante": true, "resposta": "Sem sangramento fácil à manipulação cuidadosa." },
+    { "texto": "Avaliação de linfedema em membros próximos a lesões extensas", "custo": 3, "relevante": true, "resposta": "Discreto linfedema numa perna com lesões mais extensas." }
+  ],
+  "hipoteses": [
+    { "texto": "Sarcoma de Kaposi (HHV-8) associado a AIDS avançada", "correta": true },
+    { "texto": "Angiomatose bacilar (Bartonella henselae/quintana)", "correta": false },
+    { "texto": "Hematoma/equimose", "correta": false },
+    { "texto": "Melanoma", "correta": false },
+    { "texto": "Linfoma cutâneo", "correta": false },
+    { "texto": "Sarcoma de partes moles", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Biópsia de pele com histopatológico", "custo": 16, "relevante": true, "resposta": "Proliferação de células fusiformes e neoformação vascular irregular, padrão característico de sarcoma de Kaposi." },
+    { "texto": "Imuno-histoquímica para antígeno LANA-1 do HHV-8", "custo": 14, "relevante": true, "resposta": "Positivo nas células fusiformes da lesão." },
+    { "texto": "Coloração de Warthin-Starry na biópsia (pesquisa de bacilos)", "custo": 10, "relevante": true, "resposta": "Negativa, afastando angiomatose bacilar." },
+    { "texto": "Contagem de CD4 e carga viral do HIV", "custo": 10, "relevante": true, "resposta": "CD4 muito baixo (32 células) e carga viral elevada, confirmando imunossupressão avançada não controlada." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar ou reintroduzir a terapia antirretroviral (o controle da imunossupressão costuma reduzir as lesões) e considerar quimioterapia sistêmica ou tratamento local conforme a extensão da doença", "correta": true },
+    { "texto": "Tratar apenas com antibioticoterapia, como se fosse angiomatose bacilar", "correta": false },
+    { "texto": "Indicar apenas excisão cirúrgica das lesões, sem tratar a imunossupressão de base", "correta": false },
+    { "texto": "Apenas observação clínica, sem qualquer intervenção", "correta": false }
+  ],
+  "explicacao": "O HHV-8 permanece latente sob vigilância de linfócitos T citotóxicos eficazes em pessoas imunocompetentes, mas na imunossupressão avançada por HIV (CD4 muito baixo, carga viral não controlada por abandono da TARV), essa vigilância falha e o vírus reativa, infectando células endoteliais e induzindo proliferação vascular anormal que forma o sarcoma de Kaposi. As lesões violáceas indolores, sem sangramento fácil, e a lesão de mucosa oral são típicas, mas o diagnóstico diferencial mais importante é a angiomatose bacilar, causada por Bartonella, que pode ter aparência clínica semelhante mas costuma sangrar com facilidade e é tratável com antibiótico; a coloração de Warthin-Starry negativa afasta essa possibilidade aqui. A biópsia com proliferação de células fusiformes e a imuno-histoquímica positiva para LANA-1 confirmam o sarcoma de Kaposi. Como a doença está diretamente ligada ao grau de imunossupressão, retomar a terapia antirretroviral é essencial, e frequentemente já reduz as lesões, além do tratamento oncológico específico conforme a extensão."
+}

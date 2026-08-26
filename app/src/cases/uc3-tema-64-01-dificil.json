@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-64-01-dificil",
+  "tema": "Tema 64 · Reações de Hipersensibilidade",
+  "materia_relacionada": "Este caso aplica a hipersensibilidade tipo II de Gell e Coombs vista na aula: um anticorpo (IgG) se liga diretamente a uma estrutura própria do corpo, aqui uma proteína presente na membrana basal, causando dano tecidual localizado ali mesmo. Revelado por imunofluorescência, esse ataque direto aparece como uma linha contínua ao longo da membrana, um padrão bem diferente dos depósitos granulares de doenças mediadas por imunocomplexo (hipersensibilidade tipo III).",
+  "area": "Nefrologia/Urologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 34,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, comecei a tossir com sangue há uns dias, e a urina está bem escassa, quase não estou urinando.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "156/98", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "96", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "37.0", "u": "°C", "flag": false },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "92", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Homem de 34 anos, tosse com sangue e urina bem escassa ao mesmo tempo. Dois órgãos diferentes, afetados juntos, isso não é coincidência.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não era um complexo solto se depositando em qualquer lugar. Era um anticorpo atacando bem de perto uma proteína específica, presente nos dois órgãos ao mesmo tempo.",
+    "dicas": [
+      "Releia com atenção se ele tem sangue no escarro junto com a diminuição da urina, os dois órgãos afetados ao mesmo tempo contam uma história importante.",
+      "Pensa em como um anticorpo pode atacar diretamente uma estrutura própria do corpo, ligando-se bem naquele local específico, em vez de formar um complexo solto que se deposita em qualquer lugar, e como isso apareceria de um jeito particular (uma linha contínua, não pontos) num exame com fluorescência.",
+      "Que anticorpo, dirigido contra uma proteína presente tanto na membrana basal do glomérulo renal quanto na membrana basal alveolar pulmonar, explica hemorragia pulmonar e insuficiência renal rapidamente progressiva ao mesmo tempo, com um padrão linear (não granular) na biópsia?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo está tossindo com sangue, e como isso evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou há cinco dias, piorando progressivamente, com quantidade de sangue cada vez maior." },
+    { "texto": "Notou diminuição na quantidade de urina ou inchaço no corpo?", "custo": 2, "relevante": true, "resposta": "Sim, a urina diminuiu bastante nos últimos dias, e notou inchaço leve nas pernas." },
+    { "texto": "É fumante?", "custo": 2, "relevante": true, "resposta": "Fumante há 15 anos." },
+    { "texto": "Teve manchas vermelhas no rosto (em asa de borboleta) ou dor nas articulações?", "custo": 2, "relevante": false, "resposta": "Sem manchas no rosto ou dor articular." },
+    { "texto": "Tem sinusite crônica ou já teve alguma deformidade no nariz?", "custo": 2, "relevante": false, "resposta": "Sem sinusite crônica ou deformidade nasal." }
+  ],
+  "exameFisico": [
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Estertores finos difusos em ambos os hemitórax, compatíveis com hemorragia alveolar." },
+    { "texto": "Avaliação de edema e pressão arterial", "custo": 3, "relevante": true, "resposta": "Edema de membros inferiores e pressão arterial elevada." },
+    { "texto": "Inspeção de pele e face em busca de rash malar", "custo": 3, "relevante": false, "resposta": "Sem rash malar ou outras lesões cutâneas." },
+    { "texto": "Inspeção do septo nasal", "custo": 3, "relevante": false, "resposta": "Septo nasal íntegro, sem perfuração ou deformidade." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome de Goodpasture (doença antimembrana basal glomerular)", "correta": true },
+    { "texto": "Granulomatose com poliangiite (antiga Wegener)", "correta": false },
+    { "texto": "Lúpus eritematoso sistêmico com nefrite", "correta": false },
+    { "texto": "Púrpura de Henoch-Schönlein (vasculite por IgA)", "correta": false },
+    { "texto": "Pneumonia com insuficiência renal aguda coincidente", "correta": false },
+    { "texto": "Síndrome hepatorrenal", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Anticorpo antimembrana basal glomerular (anti-MBG) sérico", "custo": 16, "relevante": true, "resposta": "Positivo em título elevado." },
+    { "texto": "Biópsia renal com imunofluorescência", "custo": 18, "relevante": true, "resposta": "Depósito linear contínuo de IgG ao longo da membrana basal glomerular, diferente do padrão granular de doenças por imunocomplexo." },
+    { "texto": "ANCA (anticorpo anticitoplasma de neutrófilo)", "custo": 12, "relevante": true, "resposta": "Negativo, tornando granulomatose com poliangiite menos provável." },
+    { "texto": "FAN e anti-DNA de dupla hélice", "custo": 10, "relevante": true, "resposta": "Negativos, afastando lúpus eritematoso sistêmico." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar plasmaférese associada a imunossupressão (corticoide e ciclofosfamida), removendo rapidamente os anticorpos circulantes antes que o dano renal e pulmonar se torne irreversível", "correta": true },
+    { "texto": "Tratar apenas com corticoide isolado, sem plasmaférese", "correta": false },
+    { "texto": "Iniciar antibioticoterapia, tratando como pneumonia com insuficiência renal aguda coincidente", "correta": false },
+    { "texto": "Iniciar apenas diálise, sem qualquer imunossupressão", "correta": false }
+  ],
+  "explicacao": "Na síndrome de Goodpasture, um anticorpo IgG se liga diretamente ao colágeno tipo IV presente na membrana basal glomerular e na membrana basal alveolar pulmonar, uma hipersensibilidade do tipo II (citotóxica, mediada por anticorpo contra antígeno tecidual fixo), causando hemorragia alveolar e glomerulonefrite rapidamente progressiva simultaneamente, mesmo os dois órgãos parecendo não relacionados à primeira vista. A imunofluorescência renal mostra um padrão linear contínuo de depósito de IgG ao longo da membrana basal, característico da ligação direta do anticorpo, diferente do padrão granular visto em doenças mediadas por imunocomplexo circulante (hipersensibilidade tipo III), como lúpus ou Henoch-Schönlein. ANCA negativo torna a granulomatose com poliangiite menos provável. Como a progressão para falência renal e insuficiência respiratória pode ser rápida e irreversível, a plasmaférese para remover fisicamente os anticorpos circulantes, associada a imunossupressão para impedir novos anticorpos, é a conduta que realmente muda o prognóstico."
+}

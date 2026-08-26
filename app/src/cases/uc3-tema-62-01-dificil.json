@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-62-01-dificil",
+  "tema": "Tema 62 · Patologia da Inflamação Crônica",
+  "materia_relacionada": "Este caso aplica o conceito de inflamação crônica não resolvida visto na aula: dentro da parede arterial, macrófagos que tentam continuamente eliminar lipídeos sem sucesso mantêm um processo inflamatório de baixo grau por anos, formando uma placa instável que pode romper de repente, transformando uma doença silenciosa e crônica num evento agudo e grave.",
+  "area": "Cardiologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 55,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, venho sentindo uma dor no peito ao subir escada há umas três semanas, ia e voltava, mas hoje começou uma dor bem mais forte e não passa, mesmo em repouso.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "148/92", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "98", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 55 anos, dor no peito que vinha e ia embora há semanas, hoje ficou forte e não passa nem em repouso. Uma coisa que vinha se acumulando devagar, hoje decidiu explodir.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não foi um problema que surgiu do nada hoje. Foi uma inflamação que nunca se resolveu de verdade, acumulando gordura dentro da parede da artéria por anos, até virar uma bomba instável.",
+    "dicas": [
+      "Releia com atenção como essa dor no peito vinha evoluindo nas últimas semanas antes de piorar hoje, e quais fatores de risco cardiovascular ele já tem.",
+      "Pensa em como uma inflamação de baixo grau, que nunca se resolve de verdade dentro da parede de uma artéria, pode ir acumulando células cheias de gordura por anos até formar uma estrutura instável, pronta pra romper a qualquer momento.",
+      "Que evento agudo, causado pela ruptura repentina dessa placa inflamatória crônica dentro da parede arterial coronariana, expõe material trombogênico e forma um coágulo que obstrui o fluxo sanguíneo do próprio coração?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Quais fatores de risco cardiovascular ele tem (tabagismo, colesterol alto, hipertensão)?", "custo": 2, "relevante": true, "resposta": "Fumante há 30 anos, colesterol alto conhecido sem tratamento regular, hipertenso." },
+    { "texto": "Como essa dor no peito vinha evoluindo nas últimas semanas?", "custo": 2, "relevante": true, "resposta": "Vinha aparecendo ao subir escada ou se esforçar, e melhorava com o repouso, piorando progressivamente nas últimas semanas." },
+    { "texto": "Já usou cocaína ou outra substância estimulante recentemente?", "custo": 2, "relevante": false, "resposta": "Nunca usou cocaína ou substância estimulante." },
+    { "texto": "A dor de hoje irradia pro dorso, tipo rasgando, de início muito súbito?", "custo": 2, "relevante": false, "resposta": "Não é uma dor tipo rasgando nas costas, é uma pressão no peito mesmo." },
+    { "texto": "Teve algum sintoma viral (febre, mialgia) nos últimos dias?", "custo": 2, "relevante": false, "resposta": "Sem sintomas virais recentes." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de pulsos em quatro membros (assimetria)", "custo": 3, "relevante": true, "resposta": "Pulsos simétricos e presentes nos quatro membros." },
+    { "texto": "Ausculta cardíaca em busca de atrito pericárdico", "custo": 3, "relevante": true, "resposta": "Sem atrito pericárdico à ausculta." },
+    { "texto": "Avaliação de sinais de baixo débito (perfusão, sudorese)", "custo": 3, "relevante": true, "resposta": "Sudorese fria discreta, perfusão periférica ainda preservada." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome coronariana aguda por ruptura de placa aterosclerótica", "correta": true },
+    { "texto": "Angina vasoespástica (Prinzmetal)", "correta": false },
+    { "texto": "Embolia coronariana", "correta": false },
+    { "texto": "Dissecção aguda de aorta", "correta": false },
+    { "texto": "Pericardite aguda", "correta": false },
+    { "texto": "Miocardite viral aguda", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Eletrocardiograma", "custo": 8, "relevante": true, "resposta": "Infradesnivelamento de ST e inversão de onda T em parede anterior." },
+    { "texto": "Troponina seriada", "custo": 10, "relevante": true, "resposta": "Elevação progressiva com curva característica de necrose miocárdica aguda." },
+    { "texto": "Angiografia coronariana", "custo": 18, "relevante": true, "resposta": "Lesão obstrutiva com trombo sobreposto a placa aterosclerótica rota." },
+    { "texto": "Ecocardiograma", "custo": 14, "relevante": true, "resposta": "Sem derrame pericárdico significativo e sem sinais de dissecção aórtica; discreta hipocinesia segmentar." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar terapia antitrombótica dupla e encaminhar para revascularização (angioplastia primária conforme indicação), associada a controle agressivo dos fatores de risco (estatina de alta potência, cessação do tabagismo)", "correta": true },
+    { "texto": "Tratar apenas com anti-inflamatório, focando na \"inflamação\"", "correta": false },
+    { "texto": "Realizar pericardiocentese", "correta": false },
+    { "texto": "Indicar apenas repouso, sem qualquer intervenção", "correta": false }
+  ],
+  "explicacao": "A aterosclerose é o exemplo clássico de inflamação crônica não resolvida: macrófagos recrutados para a parede arterial tentam continuamente eliminar partículas de LDL oxidado, mas não conseguem resolver o processo, acumulando-se como células espumosas e mantendo uma inflamação de baixo grau por anos, formando uma placa com um núcleo lipídico e uma capa fibrosa. Quando essa capa se rompe (frequentemente numa placa que nem era a mais obstrutiva, mas a mais inflamada e instável), o material trombogênico exposto ativa a cascata de coagulação, formando um trombo que obstrui o fluxo coronariano agudamente, uma síndrome coronariana aguda. O padrão de angina progressiva nas últimas semanas antes da piora aguda de hoje (angina instável evoluindo para infarto), a ausência de assimetria de pulsos (contra dissecção de aorta) e de atrito pericárdico (contra pericardite), junto à troponina em curva ascendente e à angiografia mostrando trombo sobre placa rota, fecham o diagnóstico."
+}
