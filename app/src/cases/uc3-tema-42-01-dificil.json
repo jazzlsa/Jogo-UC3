@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-42-01-dificil",
+  "tema": "Tema 42 · Grand Round: Identificação de Micobactérias",
+  "materia_relacionada": "Este caso, baseado num Grand Round real discutido em aula sobre identificação de micobactérias, mostra por que a tuberculose escapa das culturas bacteriológicas convencionais: o Mycobacterium tuberculosis cresce muito mais devagar que uma bactéria comum (semanas em vez de horas), então um resultado negativo em cultura aeróbia/anaeróbia padrão não exclui o diagnóstico, sendo necessário um teste molecular específico para confirmar rapidamente.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 62,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, essa dor nas costas começou há uns quatro meses e foi descendo pra minha perna direita, e nesse tempo todo eu emagreci uns 12 quilos sem fazer nada diferente.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "118/74", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "92", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "38.4", "u": "°C", "flag": true },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 62 anos, vive com HIV há duas décadas, dor lombar arrastada há quatro meses e emagrecimento importante. Um teste que ele já fez no passado pode estar te enganando se você confiar demais nele.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "As culturas de sempre vieram todas limpas. Só que tinha um morador ali que simplesmente não aparece rápido o suficiente pra esses exames de rotina.",
+    "dicas": [
+      "Releia com atenção o teste de sensibilidade à tuberculina que ele já tinha feito antes de adoecer, e pensa se um resultado negativo nesse teste realmente descarta a doença em alguém com o histórico dele.",
+      "Pensa em como uma bactéria de crescimento extremamente lento, que quase não aparece nas culturas bacteriológicas convencionais rápidas, pode estar por trás de uma inflamação óssea arrastada há meses, mesmo com os exames bacteriológicos padrão vindo negativos.",
+      "Que teste molecular rápido, feito direto no material cirúrgico, detecta o DNA de um complexo bacteriano específico (incluindo resistência a um antibiótico chave) em poucas horas, quando a cultura tradicional desse mesmo microrganismo levaria de 6 a 8 semanas pra crescer?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo exatamente essa dor nas costas começou e como evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou há quatro meses, foi piorando aos poucos e passou a irradiar para a perna direita." },
+    { "texto": "Há quanto tempo vive com HIV, e como está o tratamento atual?", "custo": 2, "relevante": true, "resposta": "Diagnosticado há mais de 20 anos, atualmente em terapia antirretroviral com carga viral indetectável, mas CD4 ainda moderadamente baixo." },
+    { "texto": "Já teve alguma infecção oportunista grave associada ao HIV no passado?", "custo": 2, "relevante": true, "resposta": "Teve neurotoxoplasmose anos atrás, já tratada." },
+    { "texto": "Já fez teste de sensibilidade à tuberculina (PPD) antes? Qual foi o resultado?", "custo": 2, "relevante": true, "resposta": "Fez um PPD há cerca de dois anos, resultado de 0 mm (não reator)." },
+    { "texto": "Teve contato recente com alguém com tuberculose ou sintomas respiratórios prolongados?", "custo": 2, "relevante": false, "resposta": "Nega contato conhecido com pessoas com tuberculose ou sintomas respiratórios prolongados." },
+    { "texto": "Notou febre em casa nos últimos meses?", "custo": 2, "relevante": false, "resposta": "Não percebeu febre em casa, embora hoje tenha sido medida febre no exame." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de estado nutricional e emagrecimento", "custo": 3, "relevante": true, "resposta": "Emagrecimento evidente, aspecto geral debilitado." },
+    { "texto": "Dor à percussão da coluna lombar", "custo": 3, "relevante": true, "resposta": "Dor localizada à percussão sobre L2-L3." },
+    { "texto": "Avaliação neurológica de força e sensibilidade nos membros inferiores", "custo": 3, "relevante": true, "resposta": "Sem déficit motor ou sensitivo focal apesar da dor irradiada." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar sem alterações, apesar da suspeita de doença sistêmica." }
+  ],
+  "hipoteses": [
+    { "texto": "Tuberculose disseminada com espondilodiscite (mal de Pott) em paciente com HIV", "correta": true },
+    { "texto": "Osteomielite piogênica vertebral por Staphylococcus aureus", "correta": false },
+    { "texto": "Metástase vertebral", "correta": false },
+    { "texto": "Mieloma múltiplo", "correta": false },
+    { "texto": "Linfoma vertebral", "correta": false },
+    { "texto": "Espondilite brucélica", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Ressonância magnética de coluna lombossacra", "custo": 16, "relevante": true, "resposta": "Espondilodiscite em L2-L3, com acometimento dos corpos vertebrais adjacentes." },
+    { "texto": "Culturas convencionais do material cirúrgico (aeróbia, anaeróbia, fungos)", "custo": 14, "relevante": true, "resposta": "Todas negativas, achado que não exclui tuberculose, já que a cultura convencional rápida não é adequada para o crescimento lento de micobactérias." },
+    { "texto": "Teste rápido molecular (TRM-TB) no material intraoperatório", "custo": 18, "relevante": true, "resposta": "Positivo para o complexo Mycobacterium tuberculosis, sem resistência detectada à rifampicina." },
+    { "texto": "Tomografia de tórax", "custo": 14, "relevante": true, "resposta": "Discreto desvio e aumento do diâmetro da traqueia no terço proximal, sugestivo de acometimento ganglionar mediastinal associado." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar esquema antituberculose (rifampicina, isoniazida, pirazinamida, etambutol) por tempo prolongado, ajustar a terapia antirretroviral conforme interações medicamentosas, e notificar o caso", "correta": true },
+    { "texto": "Manter apenas o antibiótico de amplo espectro já iniciado empiricamente, mesmo com o TRM-TB positivo", "correta": false },
+    { "texto": "Iniciar quimioterapia empírica, presumindo neoplasia sem biópsia adequada", "correta": false },
+    { "texto": "Aguardar o resultado da cultura convencional de micobactéria (6 a 8 semanas) antes de iniciar qualquer tratamento", "correta": false }
+  ],
+  "explicacao": "A dor lombar arrastada por meses, o emagrecimento importante e a espondilodiscite em paciente vivendo com HIV, mesmo em uso regular de terapia antirretroviral, são compatíveis com tuberculose extrapulmonar (mal de Pott), uma reativação de infecção latente possível mesmo sem contato recente conhecido com um caso ativo. O PPD não reator feito no passado não exclui o diagnóstico: pacientes com HIV, principalmente com histórico de imunossupressão significativa (como a neurotoxoplasmose prévia), podem ter anergia cutânea e testes de base falsamente negativos. As culturas convencionais do material cirúrgico vieram negativas porque o Mycobacterium tuberculosis cresce muito mais lentamente que bactérias comuns (semanas a meses, contra horas a poucos dias), tornando a cultura tradicional inadequada para confirmação rápida; por isso, o teste molecular rápido (TRM-TB), que detecta o DNA do complexo M. tuberculosis e a resistência à rifampicina em poucas horas, foi o exame que efetivamente confirmou o diagnóstico e orientou o início imediato do tratamento específico, sem esperar o resultado lento da cultura de micobactéria."
+}

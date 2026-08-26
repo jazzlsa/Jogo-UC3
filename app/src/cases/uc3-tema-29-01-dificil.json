@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-29-01-dificil",
+  "tema": "Tema 29 · Regulação da Expressão Gênica em Procariotos",
+  "materia_relacionada": "Este caso aplica, numa bactéria patogênica, a mesma lógica de regulação gênica por sinal ambiental vista no operon lac: um gene de toxina, adquirido por um bacteriófago, fica sob controle de um repressor sensível à concentração de ferro, sendo mais expresso justamente quando o ferro disponível é baixo, o mesmo princípio de \"ligar/desligar\" genes conforme o ambiente, só que aplicado à produção de uma toxina que ataca coração e nervos.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 8,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele está com a garganta muito dolorida há quatro dias, e hoje quando tentei ver o fundo da garganta dele vi uma placa acinzentada que sangrou um pouco quando ele tossiu forte.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "102/64", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "128", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.1", "u": "°C", "flag": true },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "95", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 8 anos, garganta dolorida há dias e uma placa acinzentada que sangrou. Antes de pensar em amigdalite comum, olha bem pra essa placa e pra caderneta de vacina dele.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A bactéria nem produzia essa toxina sozinha, ela recebeu essa capacidade de um vírus, e só usa o gene quando o ambiente ao redor dela avisa que está na hora.",
+    "dicas": [
+      "Releia com atenção a situação vacinal dele e como exatamente essa placa na garganta se comporta quando tentam limpar ou tocar nela.",
+      "Pensa em como um gene bacteriano de produzir uma toxina pode estar ligado a um sinal ambiental específico (aqui, pouco ferro disponível), do mesmo jeito que um operon liga ou desliga genes conforme o ambiente ao redor da bactéria.",
+      "Que bactéria, ao carregar o gene de uma toxina vindo de um bacteriófago e regulado pela disponibilidade de ferro, passa a produzir essa toxina que ataca coração e nervos, formando uma placa característica que sangra ao ser removida?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "A caderneta de vacinação dele está em dia?", "custo": 2, "relevante": true, "resposta": "A família optou por não vacinar, a caderneta está incompleta desde bebê." },
+    { "texto": "Como essa placa na garganta se comporta quando tentam removê-la ou tocá-la?", "custo": 2, "relevante": true, "resposta": "É bem aderida à mucosa, e sangrou um pouco quando ele tossiu forte, difícil de destacar." },
+    { "texto": "Tem contato com outras crianças ou adultos com sintomas parecidos na comunidade?", "custo": 2, "relevante": true, "resposta": "Um vizinho da mesma comunidade, também não vacinado, teve sintomas parecidos na semana passada." },
+    { "texto": "Notou palpitação, cansaço fora do normal ou desmaio?", "custo": 2, "relevante": true, "resposta": "A mãe notou que ele ficou muito cansado e ofegante brincando hoje, algo incomum pra ele." },
+    { "texto": "Já usou algum antibiótico recentemente?", "custo": 2, "relevante": false, "resposta": "Não usou nenhum antibiótico ainda." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção detalhada da orofaringe", "custo": 3, "relevante": true, "resposta": "Placa acinzentada, espessa, bem aderida à mucosa amigdaliana e à parede posterior da faringe, sangrando discretamente à manipulação." },
+    { "texto": "Avaliação do pescoço (edema, linfonodomegalia)", "custo": 3, "relevante": true, "resposta": "Edema cervical importante, com aumento de linfonodos, dando aspecto de \"pescoço de touro\"." },
+    { "texto": "Ausculta cardíaca detalhada", "custo": 3, "relevante": true, "resposta": "Bulhas discretamente abafadas e ritmo levemente irregular." },
+    { "texto": "Inspeção de pele em busca de exantema", "custo": 3, "relevante": false, "resposta": "Pele sem exantema." }
+  ],
+  "hipoteses": [
+    { "texto": "Difteria (infecção por Corynebacterium diphtheriae produtor de toxina)", "correta": true },
+    { "texto": "Faringoamigdalite estreptocócica", "correta": false },
+    { "texto": "Mononucleose infecciosa", "correta": false },
+    { "texto": "Angina de Ludwig", "correta": false },
+    { "texto": "Abscesso periamigdaliano", "correta": false },
+    { "texto": "Candidíase orofaríngea", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Cultura de swab de orofaringe em meio seletivo (telurito/Loeffler)", "custo": 14, "relevante": true, "resposta": "Crescimento de colônias compatíveis com Corynebacterium diphtheriae." },
+    { "texto": "Teste de toxigenicidade (Elek ou PCR para o gene da toxina)", "custo": 14, "relevante": true, "resposta": "Positivo, confirmando que a cepa isolada produz a toxina diftérica." },
+    { "texto": "Eletrocardiograma", "custo": 10, "relevante": true, "resposta": "Alterações de condução compatíveis com miocardite inicial." },
+    { "texto": "Teste rápido para estreptococo do grupo A", "custo": 8, "relevante": false, "resposta": "Negativo." }
+  ],
+  "condutas": [
+    { "texto": "Administrar antitoxina diftérica o quanto antes (mesmo antes da confirmação laboratorial completa), associar antibiótico (penicilina ou eritromicina), isolamento respiratório e monitorização cardíaca contínua", "correta": true },
+    { "texto": "Tratar apenas com antibiótico, sem antitoxina", "correta": false },
+    { "texto": "Tratar apenas com corticoide, sem antibiótico ou antitoxina", "correta": false },
+    { "texto": "Indicar drenagem cirúrgica da placa, como se fosse um abscesso", "correta": false }
+  ],
+  "explicacao": "Corynebacterium diphtheriae só produz a toxina diftérica quando carrega um bacteriófago lisogênico portador do gene tox, cuja expressão é reprimida por uma proteína sensível a ferro (DtxR): em baixa concentração de ferro, a repressão diminui e a produção de toxina aumenta, a mesma lógica de regulação gênica por sinal ambiental do operon lac, só que no sentido de ativar a toxina em vez de uma enzima metabólica. A toxina inibe a síntese proteica das células do hospedeiro, causando a necrose tecidual que forma a pseudomembrana aderente e sangrante na orofaringe, além de atingir coração (miocardite, explicando a taquicardia e as alterações eletrocardiográficas) e nervos periféricos à distância, independente de bacteremia. A falta de vacinação (contra a toxina, não contra a bactéria em si) explica a suscetibilidade da criança, e a antitoxina precisa ser administrada rapidamente para neutralizar a toxina já circulante, já que o antibiótico apenas interrompe a produção de mais toxina, sem reverter o dano já causado."
+}

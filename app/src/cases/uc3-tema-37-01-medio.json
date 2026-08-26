@@ -1,0 +1,63 @@
+{
+  "id": "uc3-tema-37-01-medio",
+  "tema": "Tema 37 · Inflamação: Início e Resolução",
+  "materia_relacionada": "Este caso mostra a fase de resolução da inflamação aguda vista na aula não terminando em cura completa, mas em contenção: o corpo pode conter um foco inflamatório formando uma barreira de tecido adjacente ao redor dele, em vez de deixá-lo se espalhar livremente pela cavidade, mudando completamente a apresentação clínica e a conduta em relação ao processo agudo não contido.",
+  "area": "Cirurgia geral",
+  "prova": "P2",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 29,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, essa dor do lado direito da barriga começou há uns seis dias, no início foi mais forte com febre, mas nos últimos dias melhorou um pouco e agora sinto como se tivesse um caroço ali.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "122/78", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "86", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "37.6", "u": "°C", "flag": true },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 29 anos, dor há seis dias na fossa ilíaca direita, com febre no início que já melhorou, e agora um caroço palpável. Isso não é mais uma apendicite aguda comum de 24 horas, pensa no que pode ter acontecido nesse tempo todo.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O corpo dele não deixou o problema se espalhar. Construiu uma parede ao redor dele, com o material que tinha à disposição ali por perto.",
+    "dicas": [
+      "Releia com atenção há quantos dias os sintomas começaram e como a febre evoluiu nesse tempo todo, isso é mais longo do que o esperado pra uma apresentação aguda clássica.",
+      "Pensa em como o corpo às vezes consegue conter um foco inflamatório formando uma barreira com tecido adjacente ao redor dele, em vez de deixar o processo se espalhar livremente pela cavidade.",
+      "Que achado no exame de imagem, uma massa bem delimitada ao redor de uma estrutura inflamada, sem coleção purulenta livre nem sinais de peritonite difusa, mostra que o corpo já conteve parcialmente esse processo, mudando a cirurgia imediata pra uma abordagem mais conservadora?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quantos dias exatamente a dor começou e como ela evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou há seis dias, foi mais intensa nos dois primeiros dias com febre, e desde então vem melhorando aos poucos." },
+    { "texto": "A febre ainda está presente ou já melhorou?", "custo": 2, "relevante": true, "resposta": "A febre alta do início já passou, agora fica só um pouco quente, sem calafrio." },
+    { "texto": "Ele mesmo notou algum \"caroço\" ou massa na região?", "custo": 2, "relevante": true, "resposta": "Sim, sente uma massa firme e um pouco dolorida do lado direito da barriga." },
+    { "texto": "Teve perda de peso importante ou diarreia crônica nos últimos meses?", "custo": 2, "relevante": false, "resposta": "Sem perda de peso importante ou diarreia crônica prévia." },
+    { "texto": "Tem histórico familiar de câncer intestinal?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de câncer intestinal conhecido." }
+  ],
+  "exameFisico": [
+    { "texto": "Palpação abdominal detalhada da fossa ilíaca direita", "custo": 3, "relevante": true, "resposta": "Massa palpável, bem delimitada, discretamente dolorosa, sem sinais de flutuação." },
+    { "texto": "Sinal de Blumberg (descompressão brusca) generalizado", "custo": 3, "relevante": true, "resposta": "Negativo, sem sinais de irritação peritoneal difusa." },
+    { "texto": "Avaliação de temperatura e estado geral", "custo": 3, "relevante": false, "resposta": "Febril baixo, mas em bom estado geral, sem toxemia importante." }
+  ],
+  "hipoteses": [
+    { "texto": "Plastrão apendicular (massa inflamatória periapendicular)", "correta": true },
+    { "texto": "Apendicite aguda não complicada em fase inicial", "correta": false },
+    { "texto": "Abscesso apendicular franco (coleção purulenta livre)", "correta": false },
+    { "texto": "Tumor de ceco", "correta": false },
+    { "texto": "Doença de Crohn ileocecal com massa inflamatória", "correta": false },
+    { "texto": "Adenite mesentérica", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Tomografia de abdome", "custo": 16, "relevante": true, "resposta": "Massa inflamatória bem delimitada envolvendo o apêndice espessado, com borramento de gordura adjacente, sem coleção purulenta livre organizada." },
+    { "texto": "Hemograma completo e PCR", "custo": 8, "relevante": true, "resposta": "Leucocitose discreta residual e PCR elevada, mas em tendência de queda." },
+    { "texto": "Colonoscopia", "custo": 16, "relevante": false, "resposta": "Não realizada nesse momento agudo, programada para depois da resolução do quadro inflamatório." }
+  ],
+  "condutas": [
+    { "texto": "Tratamento conservador com antibioticoterapia e observação clínica, programando apendicectomia de intervalo (eletiva) semanas depois", "correta": true },
+    { "texto": "Apendicectomia de urgência imediata, mesmo com a massa já formada", "correta": false },
+    { "texto": "Apenas observação clínica, sem antibiótico", "correta": false },
+    { "texto": "Realizar colonoscopia imediatamente, antes de tratar a fase aguda", "correta": false }
+  ],
+  "explicacao": "A evolução mais arrastada (seis dias, não as 24-48 horas típicas de apendicite aguda não complicada), a febre que já diminuiu espontaneamente e a massa bem delimitada e palpável, sem sinais de irritação peritoneal difusa, indicam que o corpo conteve o processo inflamatório apendicular formando uma massa com omento e alças adjacentes ao redor do apêndice inflamado (plastrão), em vez de o processo evoluir para peritonite generalizada. A tomografia confirma o achado, mostrando uma massa delimitada e sem coleção purulenta livre organizada, o que a distingue de um abscesso apendicular franco. Operar de urgência nesse cenário aumenta o risco de lesão de estruturas adjacentes já aderidas à massa inflamatória, por isso o tratamento conservador com antibiótico e cirurgia eletiva posterior é a conduta recomendada, ao contrário do manejo padrão da apendicite aguda não complicada, que é cirúrgico imediato."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-38-01-dificil",
+  "tema": "Tema 38 · Patologia da Inflamação Aguda",
+  "materia_relacionada": "Este caso mostra que os cinco sinais cardinais da inflamação aguda (dor, calor, rubor, edema e perda de função) vistos na aula podem aparecer de forma praticamente idêntica em causas muito diferentes, uma reação a cristal ou uma infecção bacteriana de verdade, e que o que realmente diferencia essas causas não é a presença dos sinais, e sim o que está gerando a inflamação por dentro da articulação.",
+  "area": "Ortopedia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 42,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, meu joelho direito ficou vermelho, quente e inchado do nada, dói muito e não consigo nem dobrar direito, além disso comecei com febre alta e calafrio.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "126/80", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "108", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.9", "u": "°C", "flag": true },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 42 anos, joelho com todos os sinais clássicos de inflamação, mais febre alta com calafrio. Os cinco sinais sozinhos não dizem qual é a causa, presta atenção no resto da história.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Os cinco sinais estavam todos lá, perfeitinhos. Só que o motivo por trás deles era bem mais perigoso do que parecia de longe.",
+    "dicas": [
+      "Releia com atenção se ele tem febre alta com calafrio, e se existe alguma porta de entrada de infecção perto dessa articulação.",
+      "Pensa em como os mesmos cinco sinais clássicos de inflamação podem aparecer tanto numa reação a cristal depositado na articulação quanto numa infecção de verdade acontecendo lá dentro, o que diferencia as duas não são os sinais, é a causa por trás deles.",
+      "Que exame, feito puncionando o próprio líquido de dentro da articulação, consegue diferenciar cristais (gota ou pseudogota) de bactéria de verdade se multiplicando ali, antes mesmo do resultado da cultura sair?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Teve febre alta com calafrio junto com a dor no joelho?", "custo": 2, "relevante": true, "resposta": "Sim, febre alta com calafrio forte começou junto com a piora do joelho." },
+    { "texto": "Existe alguma ferida, lesão de pele ou porta de entrada perto dessa articulação?", "custo": 2, "relevante": true, "resposta": "Tem uma lesão de psoríase com pele rachada bem perto do joelho, que ele mexeu recentemente." },
+    { "texto": "Consome bastante álcool ou alimentos ricos em purina (carnes, frutos do mar) com frequência?", "custo": 2, "relevante": true, "resposta": "Bebe socialmente, sem excesso, e não tem hábito de comer muita carne vermelha ou frutos do mar." },
+    { "texto": "Já teve crise de gota confirmada antes?", "custo": 2, "relevante": true, "resposta": "Nunca teve diagnóstico de gota antes." },
+    { "texto": "Notou inchaço ou vermelhidão na perna toda, ou só na região da articulação?", "custo": 2, "relevante": true, "resposta": "O inchaço e a vermelhidão são bem localizados ao redor do joelho, não na perna toda." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de calor, rubor e edema periarticular", "custo": 3, "relevante": false, "resposta": "Calor, rubor e edema evidentes ao redor do joelho direito." },
+    { "texto": "Avaliação de derrame articular e amplitude de movimento", "custo": 3, "relevante": true, "resposta": "Derrame articular importante, com limitação franca e dolorosa da flexão e extensão." },
+    { "texto": "Inspeção em busca de tofos gotosos", "custo": 3, "relevante": true, "resposta": "Ausência de tofos ou depósitos característicos de gota." },
+    { "texto": "Avaliação de sinais de trombose venosa (empastamento de panturrilha, sinal de Homans)", "custo": 3, "relevante": true, "resposta": "Panturrilha livre, sem empastamento, sinal de Homans negativo." }
+  ],
+  "hipoteses": [
+    { "texto": "Artrite séptica bacteriana", "correta": true },
+    { "texto": "Gota aguda", "correta": false },
+    { "texto": "Pseudogota (condrocalcinose)", "correta": false },
+    { "texto": "Artrite reativa", "correta": false },
+    { "texto": "Trombose venosa profunda", "correta": false },
+    { "texto": "Celulite sobre a articulação, sem acometimento intra-articular", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Artrocentese com análise do líquido sinovial (celularidade, Gram, cultura)", "custo": 18, "relevante": true, "resposta": "Leucocitose importante no líquido, predomínio neutrofílico, Gram com cocos Gram-positivos, cultura positiva." },
+    { "texto": "Pesquisa de cristais no líquido sinovial sob luz polarizada", "custo": 12, "relevante": true, "resposta": "Ausência de cristais, afastando gota e pseudogota." },
+    { "texto": "Hemoculturas", "custo": 12, "relevante": true, "resposta": "Positivas para o mesmo organismo identificado no líquido sinovial." },
+    { "texto": "Ultrassom Doppler de membro inferior", "custo": 12, "relevante": false, "resposta": "Sem sinais de trombose venosa profunda." }
+  ],
+  "condutas": [
+    { "texto": "Realizar drenagem articular (artrocentese terapêutica ou lavagem cirúrgica) e iniciar antibioticoterapia endovenosa imediatamente, sem aguardar toda a confirmação laboratorial", "correta": true },
+    { "texto": "Tratar com anti-inflamatório isolado, como se fosse crise de gota, sem investigar infecção", "correta": false },
+    { "texto": "Iniciar anticoagulação empírica, tratando como trombose venosa profunda", "correta": false },
+    { "texto": "Tratar apenas com antibiótico oral ambulatorial, sem drenagem", "correta": false }
+  ],
+  "explicacao": "Os cinco sinais cardinais de inflamação aguda (dor, calor, rubor, edema, perda de função) estão presentes tanto na artrite séptica quanto na gota aguda, então eles sozinhos não diferenciam as duas causas. A febre alta com calafrio, a presença de uma porta de entrada cutânea próxima (lesão de psoríase manipulada), a ausência de fatores de risco e história prévia de gota, e principalmente a análise do líquido sinovial (leucocitose neutrofílica intensa, Gram positivo, ausência de cristais) confirmam artrite séptica bacteriana, não uma artropatia por cristal. Essa distinção é urgente: artrite séptica não tratada rapidamente destrói a cartilagem articular em poucos dias, exigindo drenagem e antibiótico imediatos, ao contrário da gota, que responderia a anti-inflamatório isolado, uma escolha que aqui atrasaria perigosamente o tratamento correto."
+}

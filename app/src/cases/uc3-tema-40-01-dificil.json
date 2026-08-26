@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-40-01-dificil",
+  "tema": "Tema 40 · Identificação de Bactérias",
+  "materia_relacionada": "Este caso aplica as etapas clássicas de identificação bacteriana vistas na aula: depois da cultura, provas bioquímicas específicas (como o ágar tríplice açúcar-ferro) revelam características metabólicas próprias de cada bactéria entérica, permitindo identificar o gênero e a espécie antes mesmo de qualquer teste molecular, exatamente o processo que confirma esse diagnóstico.",
+  "area": "Infectologia",
+  "prova": "P2",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 27,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, estou com febre há uns oito dias, foi aumentando dia após dia, e agora estou sem apetite, com dor de barriga e meio constipado. Voltei de viagem há duas semanas.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/68", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "78", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "39.3", "u": "°C", "flag": true },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Rapaz de 27 anos, febre subindo dia após dia há oito dias, voltou de viagem recente. Antes de pensar só nas doenças tropicais mais óbvias, repara na frequência cardíaca dele em relação à febre.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O coração dele estava calmo demais pra uma febre daquelas. Esse descompasso sozinho já apontava um caminho bem específico.",
+    "dicas": [
+      "Releia com atenção como é o padrão dessa febre ao longo dos dias, e compara a frequência cardíaca dele com a temperatura, tem algo estranho nessa combinação.",
+      "Pensa em qual bactéria, ingerida pela água ou comida contaminada, se aloja no intestino delgado e depois cai na circulação, causando febre prolongada e crescendo bem devagar em cultura, precisando de meios especiais pra identificação bioquímica.",
+      "Que prova bioquímica clássica, observando a cor de um meio de cultura inclinado (ágar tríplice açúcar-ferro), mostra produção de gás sulfídrico enegrecendo o meio, uma pista típica dessa bactéria entérica específica?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Teve exposição a água ou alimento de origem duvidosa durante a viagem?", "custo": 2, "relevante": true, "resposta": "Viajou para uma região com saneamento precário e consumiu água e comida de vendedores de rua." },
+    { "texto": "Como evoluiu a febre dia após dia?", "custo": 2, "relevante": true, "resposta": "Foi subindo de forma escalonada, cada dia um pouco mais alta que o anterior." },
+    { "texto": "Notou icterícia (pele ou olhos amarelados)?", "custo": 2, "relevante": false, "resposta": "Sem icterícia." },
+    { "texto": "Teve dor atrás dos olhos e dor muscular intensa generalizada?", "custo": 2, "relevante": false, "resposta": "Sem dor retro-orbital importante, a dor muscular é leve." },
+    { "texto": "Teve contato com água de enchente ou urina de rato?", "custo": 2, "relevante": false, "resposta": "Não teve contato com água de enchente ou exposição a roedores." },
+    { "texto": "O hábito intestinal mudou, para constipação ou diarreia?", "custo": 2, "relevante": true, "resposta": "Ficou constipado nos primeiros dias, mas ontem teve algumas evacuações mais amolecidas." }
+  ],
+  "exameFisico": [
+    { "texto": "Comparação entre temperatura e frequência cardíaca (sinal de Faget)", "custo": 3, "relevante": true, "resposta": "Frequência cardíaca desproporcionalmente baixa para o grau de febre (bradicardia relativa)." },
+    { "texto": "Inspeção do tronco em busca de manchas rosadas (roséolas)", "custo": 3, "relevante": true, "resposta": "Pequenas manchas rosadas esparsas no abdome." },
+    { "texto": "Palpação abdominal em busca de esplenomegalia", "custo": 3, "relevante": true, "resposta": "Baço palpável, discretamente aumentado." },
+    { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": false, "resposta": "Sem icterícia." }
+  ],
+  "hipoteses": [
+    { "texto": "Febre tifoide (Salmonella enterica sorotipo Typhi)", "correta": true },
+    { "texto": "Malária", "correta": false },
+    { "texto": "Dengue", "correta": false },
+    { "texto": "Leptospirose", "correta": false },
+    { "texto": "Brucelose", "correta": false },
+    { "texto": "Hepatite viral aguda", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Hemocultura com identificação bioquímica (ágar tríplice açúcar-ferro)", "custo": 16, "relevante": true, "resposta": "Crescimento de bacilo Gram-negativo; no ágar TSI, fundo amarelo (fermenta glicose), ápice vermelho (não fermenta lactose/sacarose) e enegrecimento por produção de H2S, compatível com Salmonella Typhi." },
+    { "texto": "Mielocultura (cultura de medula óssea)", "custo": 16, "relevante": true, "resposta": "Positiva para o mesmo organismo, com sensibilidade maior que a hemocultura nesse estágio da doença." },
+    { "texto": "Gota espessa para malária", "custo": 10, "relevante": false, "resposta": "Negativa." },
+    { "texto": "Sorologia/antígeno NS1 para dengue", "custo": 10, "relevante": false, "resposta": "Negativo." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar antibiótico dirigido (ceftriaxona ou fluoroquinolona conforme sensibilidade), manter isolamento entérico e notificar o caso (doença de notificação compulsória)", "correta": true },
+    { "texto": "Tratar apenas com sintomáticos, aguardando resolução espontânea", "correta": false },
+    { "texto": "Iniciar antimalárico empírico", "correta": false },
+    { "texto": "Iniciar corticoide isolado, sem antibiótico", "correta": false }
+  ],
+  "explicacao": "A febre escalonada e prolongada, a bradicardia relativa (sinal de Faget), as roséolas no abdome e a esplenomegalia, associadas a exposição a água e alimento de saneamento precário, formam o quadro clássico de febre tifoide. A identificação laboratorial segue as etapas clássicas de bacteriologia: cultura (hemocultura, mais sensível a mielocultura em fases avançadas) seguida de provas bioquímicas específicas, como o ágar tríplice açúcar-ferro, no qual a Salmonella Typhi produz um padrão característico (fermentação de glicose sem fermentar lactose/sacarose, associada a produção de gás sulfídrico que enegrece o meio), permitindo a identificação da espécie mesmo antes de testes moleculares. Gota espessa e sorologia de dengue negativas, e a ausência de icterícia, dor retro-orbital intensa ou exposição a água de enchente, tornam malária, dengue, hepatite e leptospirose menos prováveis."
+}

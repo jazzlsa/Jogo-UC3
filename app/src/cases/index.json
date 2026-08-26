@@ -400,6 +400,14 @@
     "arquivo": "uc3-tema-27-01-dificil.json"
   },
   {
+    "id": "uc3-tema-29-01-dificil",
+    "tema": "Tema 29 · Regulação da Expressão Gênica em Procariotos",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-29-01-dificil.json"
+  },
+  {
     "id": "uc3-tema-30-01-dificil",
     "tema": "Tema 30 · Desinfecção e Esterilização",
     "dificuldade": "dificil",
@@ -446,5 +454,53 @@
     "area": "Infectologia",
     "prova": "P2",
     "arquivo": "uc3-tema-35-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-37-01-medio",
+    "tema": "Tema 37 · Inflamação: Início e Resolução",
+    "dificuldade": "medio",
+    "area": "Cirurgia geral",
+    "prova": "P2",
+    "arquivo": "uc3-tema-37-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-38-01-dificil",
+    "tema": "Tema 38 · Patologia da Inflamação Aguda",
+    "dificuldade": "dificil",
+    "area": "Ortopedia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-38-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-39-01-medio",
+    "tema": "Tema 39 · Fundamentos da Integração Homem-Microrganismo-Ambiente",
+    "dificuldade": "medio",
+    "area": "Gastroenterologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-39-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-40-01-dificil",
+    "tema": "Tema 40 · Identificação de Bactérias",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-40-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-41-01-dificil",
+    "tema": "Tema 41 · Identificação Clássica de Bactérias",
+    "dificuldade": "dificil",
+    "area": "Nefrologia/Urologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-41-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-42-01-dificil",
+    "tema": "Tema 42 · Grand Round: Identificação de Micobactérias",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P2",
+    "arquivo": "uc3-tema-42-01-dificil.json"
   }
 ]

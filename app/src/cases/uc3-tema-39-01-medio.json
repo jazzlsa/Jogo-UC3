@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-39-01-medio",
+  "tema": "Tema 39 · Fundamentos da Integração Homem-Microrganismo-Ambiente",
+  "materia_relacionada": "Este caso aplica o conceito de resistência à colonização visto na aula: a microbiota intestinal normal compete por espaço e nutrientes, impedindo que micro-organismos oportunistas se instalem. Quando um antibiótico de amplo espectro elimina boa parte dessa população residente, esse benefício protetor desaparece, abrindo espaço para um oportunista formador de esporo proliferar e causar doença.",
+  "area": "Gastroenterologia",
+  "prova": "P2",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 74,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, comecei com diarreia bem líquida e frequente há dois dias, cólica na barriga e um pouco de febre. Fiquei internada semana passada e tomei um antibiótico forte.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/66", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "102", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.2", "u": "°C", "flag": true },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhora de 74 anos, diarreia líquida frequente, cólica e febre baixa, uma semana depois de um antibiótico forte na internação. Pensa no que esse antibiótico fez lá dentro do intestino dela, além de tratar a infecção original.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O antibiótico limpou o terreno bom demais, e sobrou espaço vazio pra um morador bem mais chato se instalar.",
+    "dicas": [
+      "Releia com atenção se ela usou algum antibiótico recentemente, e de que tipo, e há quanto tempo isso foi.",
+      "Pensa em como as bactérias que normalmente moram no intestino competem por espaço e nutrientes, impedindo outros micro-organismos oportunistas de se instalarem ali, e o que acontece quando um antibiótico de amplo espectro elimina boa parte dessa população residente.",
+      "Que bactéria formadora de esporo, resistente até a álcool gel, aproveita esse desequilíbrio da microbiota intestinal causado pelo antibiótico pra proliferar e produzir toxinas que danificam a parede do intestino grosso?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Usou algum antibiótico recentemente, e de que tipo?", "custo": 2, "relevante": true, "resposta": "Usou clindamicina por dez dias durante a internação da semana passada." },
+    { "texto": "Como são as evacuações, com que frequência e características?", "custo": 2, "relevante": true, "resposta": "Mais de seis evacuações líquidas por dia, sem sangue visível." },
+    { "texto": "Viajou recentemente ou comeu algo fora do comum que pudesse estar contaminado?", "custo": 2, "relevante": false, "resposta": "Não viajou e não comeu nada diferente do habitual." },
+    { "texto": "Tem perda de peso crônica ou diarreia recorrente há meses, antes desse episódio?", "custo": 2, "relevante": false, "resposta": "Nunca teve diarreia crônica antes, esse é um quadro novo e agudo." },
+    { "texto": "Notou sangue significativo nas fezes?", "custo": 2, "relevante": false, "resposta": "Não notou sangue nas fezes." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de distensão e dor abdominal à palpação", "custo": 3, "relevante": true, "resposta": "Abdome discretamente distendido, dor difusa à palpação, sem sinais de irritação peritoneal." },
+    { "texto": "Avaliação de sinais de desidratação", "custo": 3, "relevante": true, "resposta": "Mucosas secas, turgor de pele reduzido." },
+    { "texto": "Palpação em busca de massa abdominal", "custo": 3, "relevante": false, "resposta": "Sem massas palpáveis." }
+  ],
+  "hipoteses": [
+    { "texto": "Colite pseudomembranosa por Clostridioides difficile (disbiose por antibiótico)", "correta": true },
+    { "texto": "Colite isquêmica", "correta": false },
+    { "texto": "Surto de retocolite ulcerativa (doença inflamatória intestinal)", "correta": false },
+    { "texto": "Gastroenterite viral aguda", "correta": false },
+    { "texto": "Síndrome do intestino irritável", "correta": false },
+    { "texto": "Colite infecciosa por Salmonella", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Pesquisa de toxina/PCR para Clostridioides difficile nas fezes", "custo": 12, "relevante": true, "resposta": "Positivo para toxina de Clostridioides difficile." },
+    { "texto": "Colonoscopia", "custo": 16, "relevante": true, "resposta": "Pseudomembranas amarelo-esbranquiçadas recobrindo a mucosa colônica." },
+    { "texto": "Hemograma completo", "custo": 8, "relevante": true, "resposta": "Leucocitose importante." },
+    { "texto": "Coprocultura convencional para Salmonella/Shigella", "custo": 10, "relevante": false, "resposta": "Negativa." }
+  ],
+  "condutas": [
+    { "texto": "Suspender o antibiótico causador quando possível, iniciar vancomicina oral (ou fidaxomicina) direcionada e adotar precaução de contato, já que os esporos resistem ao álcool gel", "correta": true },
+    { "texto": "Iniciar loperamida para reduzir a diarreia, sem tratar a causa", "correta": false },
+    { "texto": "Trocar por outro antibiótico de amplo espectro", "correta": false },
+    { "texto": "Apenas hidratação venosa, sem tratamento específico da infecção", "correta": false }
+  ],
+  "explicacao": "A microbiota intestinal normal exerce resistência à colonização, ocupando espaço e nutrientes que impedem micro-organismos oportunistas de se instalarem. O uso recente de clindamicina, um antibiótico de amplo espectro, reduziu drasticamente essa população residente, permitindo a proliferação de Clostridioides difficile, uma bactéria formadora de esporos que produz toxinas (A e B) responsáveis pela inflamação da mucosa colônica e formação das pseudomembranas visualizadas na colonoscopia. Coprocultura negativa para Salmonella e a ausência de viagem ou alimento suspeito tornam uma infecção adquirida no ambiente menos provável, reforçando a origem por disbiose relacionada ao antibiótico. Tratar exige suspender o agente causador quando possível e iniciar antibiótico específico (vancomicina oral), além de precauções de contato, já que os esporos de C. difficile não são eliminados por álcool gel, apenas por lavagem das mãos com água e sabão."
+}
