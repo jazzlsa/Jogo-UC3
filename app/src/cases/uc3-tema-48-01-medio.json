@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-48-01-medio",
+  "tema": "Tema 48 · Micoses Subcutâneas",
+  "materia_relacionada": "Este caso aplica o padrão de disseminação linfocutânea visto na aula sobre micoses subcutâneas: um fungo implantado na pele por trauma pode subir seguindo o trajeto dos vasos linfáticos, formando uma fileira de novos nódulos a partir da lesão inicial, um padrão que também aparece em outras infecções, exigindo cultura para diferenciar a causa exata.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 41,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, um gato de rua me arranhou no braço há umas três semanas, a ferida não sarou direito e agora apareceram mais três caroços subindo pelo braço, na mesma direção.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "118/76", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "80", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.8", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 41 anos, arranhão de gato de rua há três semanas, ferida que não fechou e novos caroços subindo pelo braço na mesma direção. Repara bem nesse padrão de subida, ele conta uma história por si só.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não foi só uma ferida que infeccionou. Foi um fungo subindo, degrau por degrau, pelo mesmo caminho que a linfa dela sempre usou.",
+    "dicas": [
+      "Releia com atenção como e onde apareceu a primeira lesão, e o que ela foi fazendo ao longo do braço depois disso.",
+      "Pensa em como certos fungos e bactérias, ao serem introduzidos na pele por um trauma (arranhão, espinho), sobem seguindo o trajeto dos vasos linfáticos, formando uma fileira de novas lesões, um padrão chamado de linfocutâneo.",
+      "Que fungo dimórfico, transmitido classicamente por arranhão de gato ou espinho de planta, é a causa mais comum desse padrão de disseminação linfocutânea, muito frequente no Brasil?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como e quando exatamente apareceu a primeira lesão?", "custo": 2, "relevante": true, "resposta": "Foi um arranhão de um gato de rua há três semanas, a ferida nunca fechou direito." },
+    { "texto": "Como os novos caroços foram aparecendo em relação ao primeiro?", "custo": 2, "relevante": true, "resposta": "Foram surgindo um a um, subindo pelo braço na direção do cotovelo e depois da axila." },
+    { "texto": "Teve contato com aquário ou água salgada com peixe recentemente?", "custo": 2, "relevante": false, "resposta": "Não teve contato com aquário ou água salgada." },
+    { "texto": "Esteve em área de mata com picada de mosquito palha recentemente?", "custo": 2, "relevante": false, "resposta": "Não esteve em área de mata nem notou picada de inseto diferente." },
+    { "texto": "Teve febre ou mal-estar geral importante?", "custo": 2, "relevante": false, "resposta": "Sem febre ou mal-estar geral importante, só as lesões na pele." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção da lesão inicial", "custo": 3, "relevante": true, "resposta": "Úlcera com bordas elevadas e discretamente endurecidas no local do arranhão." },
+    { "texto": "Inspeção dos nódulos subsequentes ao longo do braço", "custo": 3, "relevante": true, "resposta": "Três nódulos subcutâneos eritematosos, dispostos em fileira ao longo do trajeto linfático do antebraço até próximo à axila." },
+    { "texto": "Palpação de linfonodo axilar", "custo": 3, "relevante": true, "resposta": "Linfonodo axilar discretamente aumentado, pouco doloroso." }
+  ],
+  "hipoteses": [
+    { "texto": "Esporotricose linfocutânea (Sporothrix spp.)", "correta": true },
+    { "texto": "Leishmaniose cutânea", "correta": false },
+    { "texto": "Infecção cutânea por Mycobacterium marinum", "correta": false },
+    { "texto": "Tularemia", "correta": false },
+    { "texto": "Piodermite bacteriana (erisipela/impetigo)", "correta": false },
+    { "texto": "Nocardiose cutânea", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Cultura do material da lesão em ágar Sabouraud", "custo": 14, "relevante": true, "resposta": "Crescimento de fungo dimórfico com colônias características, compatível com Sporothrix spp." },
+    { "texto": "Exame histopatológico da lesão", "custo": 12, "relevante": true, "resposta": "Reação granulomatosa com corpos asteroides ocasionais." },
+    { "texto": "Pesquisa de BAAR na lesão", "custo": 10, "relevante": true, "resposta": "Negativa, tornando Mycobacterium marinum menos provável." },
+    { "texto": "PCR/sorologia para Leishmania", "custo": 12, "relevante": true, "resposta": "Negativa." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar itraconazol oral por período prolongado", "correta": true },
+    { "texto": "Tratar apenas com antibiótico betalactâmico", "correta": false },
+    { "texto": "Iniciar anfotericina B isolada de primeira linha", "correta": false },
+    { "texto": "Aguardar resolução espontânea sem tratamento", "correta": false }
+  ],
+  "explicacao": "O trauma por arranhão de gato inoculou Sporothrix spp. na pele, e o fungo se disseminou seguindo o trajeto dos vasos linfáticos regionais, formando novos nódulos em fileira a partir da lesão inicial (padrão linfocutâneo ou esporotricoide), o mesmo padrão de disseminação visto em algumas outras infecções, como Mycobacterium marinum e, ocasionalmente, leishmaniose cutânea, o que exige confirmação laboratorial. A cultura em ágar Sabouraud confirma o fungo dimórfico, a pesquisa de BAAR negativa afasta M. marinum, e a PCR/sorologia negativa para Leishmania afasta a leishmaniose. O tratamento de escolha para a forma cutânea/linfocutânea da esporotricose é o itraconazol oral por período prolongado, reservando anfotericina B para casos graves ou disseminados."
+}

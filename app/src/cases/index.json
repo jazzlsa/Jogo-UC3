@@ -534,5 +534,45 @@
     "area": "Ginecologia/Obstetrícia",
     "prova": "P3",
     "arquivo": "uc3-tema-46-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-47-01-dificil",
+    "tema": "Tema 47 · Patogênese e Patologia da Inflamação Granulomatosa",
+    "dificuldade": "dificil",
+    "area": "Pneumologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-47-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-48-01-medio",
+    "tema": "Tema 48 · Micoses Subcutâneas",
+    "dificuldade": "medio",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-48-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-49-01-dificil",
+    "tema": "Tema 49 · Ativação de Células B e Plasticidade da Resposta Humoral",
+    "dificuldade": "dificil",
+    "area": "Imunologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-49-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-50-01-dificil",
+    "tema": "Tema 50 · Micoses Sistêmicas",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-50-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-51-01-dificil",
+    "tema": "Tema 51 · Imunodeficiências Primárias e Secundárias",
+    "dificuldade": "dificil",
+    "area": "Nefrologia/Urologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-51-01-dificil.json"
   }
 ]

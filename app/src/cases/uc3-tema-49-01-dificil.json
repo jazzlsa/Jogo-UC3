@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-49-01-dificil",
+  "tema": "Tema 49 · Ativação de Células B e Plasticidade da Resposta Humoral",
+  "materia_relacionada": "Este caso aplica a interação CD40-CD40L vista na aula sobre ativação de linfócitos B: o linfócito T ativado precisa expressar CD40L e se ligar ao CD40 do linfócito B para dar o sinal de troca de classe de imunoglobulina (de IgM para IgG ou IgA). Sem esse sinal, o linfócito B continua produzindo apenas IgM, mesmo estando presente e funcional em número normal, e a mesma molécula ausente também compromete a ativação de macrófagos contra certos patógenos oportunistas.",
+  "area": "Imunologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 2,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele vive de sinusite e otite desde bebê, teve uma pneumonia muito grave ano passado, e agora está com febre e tosse de novo, além de umas feridinhas na boca que aparecem direto.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "92/58", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "124", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.3", "u": "°C", "flag": true },
+    { "l": "FR", "v": "34", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "93", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Menino de 2 anos, infecções sinopulmonares direto desde bebê, uma pneumonia grave no ano passado, e agora febre e tosse de novo. Presta atenção em que tipo exato foi aquela pneumonia grave.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Os linfócitos B dele estavam lá, prontinhos, do jeito certo em número. Só faltava alguém apertar o botão de trocar de anticorpo.",
+    "dicas": [
+      "Releia com atenção o tipo exato daquela pneumonia grave do ano passado, e se outros meninos da família materna também tiveram infecções parecidas.",
+      "Pensa em como um linfócito T precisa se conectar a um receptor específico na superfície de um linfócito B pra dar o sinal de trocar o tipo de anticorpo que ele produz, e o que aconteceria se esse sinal nunca chegasse.",
+      "Que molécula, expressa no linfócito T ativado e essencial tanto pra dar esse sinal de troca de classe ao linfócito B quanto pra ativar macrófagos contra certos oportunistas, quando ausente, explica IgM normal ou alta, mas IgG e IgA muito baixos, com linfócitos B presentes em número normal?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Que tipo de pneumonia grave ele teve no ano passado?", "custo": 2, "relevante": true, "resposta": "Foi identificada uma pneumonia por Pneumocystis jirovecii, tratada com dificuldade na época." },
+    { "texto": "Tem histórico familiar de meninos com infecções parecidas do lado materno?", "custo": 2, "relevante": true, "resposta": "Um primo materno também teve infecções recorrentes graves quando bebê." },
+    { "texto": "Essas feridinhas na boca aparecem com que frequência?", "custo": 2, "relevante": true, "resposta": "Aparecem quase todo mês, algumas bem dolorosas." },
+    { "texto": "Ele está com o peso e desenvolvimento esperados para a idade?", "custo": 2, "relevante": false, "resposta": "Peso um pouco abaixo do esperado, mas desenvolvimento neuropsicomotor normal." },
+    { "texto": "A mãe teve HIV confirmado durante a gestação?", "custo": 2, "relevante": false, "resposta": "Sorologia para HIV da mãe negativa no pré-natal." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de tonsilas e linfonodos", "custo": 3, "relevante": true, "resposta": "Tonsilas e linfonodos presentes, de tamanho normal para a idade." },
+    { "texto": "Inspeção da cavidade oral", "custo": 3, "relevante": true, "resposta": "Úlceras orais recorrentes, algumas em fase de cicatrização." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Estertores finos difusos em ambos os hemitórax." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome de hiper-IgM (deficiência de CD40L, ligada ao X)", "correta": true },
+    { "texto": "Agamaglobulinemia ligada ao X (doença de Bruton)", "correta": false },
+    { "texto": "Deficiência seletiva de IgA", "correta": false },
+    { "texto": "Imunodeficiência comum variável", "correta": false },
+    { "texto": "Imunodeficiência combinada grave (SCID)", "correta": false },
+    { "texto": "Infecção pelo HIV", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Dosagem sérica de imunoglobulinas (IgM, IgG, IgA)", "custo": 14, "relevante": true, "resposta": "IgM normal a elevada; IgG e IgA muito baixos." },
+    { "texto": "Expressão de CD40L (CD154) em linfócitos T ativados por citometria", "custo": 16, "relevante": true, "resposta": "Expressão de CD40L ausente ou muito reduzida nos linfócitos T ativados." },
+    { "texto": "Contagem de linfócitos B (CD19)", "custo": 10, "relevante": true, "resposta": "Linfócitos B presentes em número normal." },
+    { "texto": "Pesquisa de Pneumocystis jirovecii no lavado broncoalveolar atual", "custo": 14, "relevante": true, "resposta": "Positiva, confirmando novo episódio de pneumonia por Pneumocystis." }
+  ],
+  "condutas": [
+    { "texto": "Reposição regular de imunoglobulina intravenosa, profilaxia contra Pneumocystis (sulfametoxazol-trimetoprima) e avaliar transplante de células-tronco hematopoiéticas em casos graves", "correta": true },
+    { "texto": "Tratar apenas cada infecção isoladamente com antibiótico, sem reposição de imunoglobulina", "correta": false },
+    { "texto": "Repor apenas IgM purificada", "correta": false },
+    { "texto": "Encaminhar para timectomia", "correta": false }
+  ],
+  "explicacao": "A interação entre CD40L, expresso no linfócito T ativado, e CD40, no linfócito B, é o sinal necessário para a troca de classe de imunoglobulina (de IgM para IgG ou IgA). Na síndrome de hiper-IgM ligada ao X, uma mutação no gene do CD40L impede essa sinalização: os linfócitos B continuam presentes em número normal e continuam produzindo IgM, mas não conseguem trocar para IgG ou IgA, explicando o padrão laboratorial de IgM normal/elevada com IgG e IgA muito baixos. Como o CD40L também é necessário para ativar macrófagos contra certos patógenos intracelulares, esses pacientes ficam suscetíveis a infecções oportunistas como Pneumocystis jirovecii, além das infecções bacterianas de repetição por falta de anticorpo protetor de classe adequada. A presença normal de tonsilas, linfonodos e linfócitos B (diferente da agamaglobulinemia de Bruton, onde há ausência quase completa de células B) e o padrão específico de imunoglobulinas confirmam o diagnóstico."
+}

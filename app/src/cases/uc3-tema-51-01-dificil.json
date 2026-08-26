@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-51-01-dificil",
+  "tema": "Tema 51 · Imunodeficiências Primárias e Secundárias",
+  "materia_relacionada": "Este caso aplica o conceito de imunodeficiência secundária visto na aula: diferente de um defeito genético do próprio sistema imune, aqui a perda de proteínas de defesa (imunoglobulinas e complemento) pela urina, causada por uma doença renal, enfraquece secundariamente a resposta imune contra um tipo específico de bactéria, mesmo com o sistema imune originalmente íntegro.",
+  "area": "Nefrologia/Urologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 7,
+    "sexo": "F"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ela tem síndrome nefrótica desde os 4 anos, e hoje começou com dor forte na barriga inteira e febre alta, sem ter batido nem caído nem nada.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "98/60", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "116", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "39.1", "u": "°C", "flag": true },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menina de 7 anos, síndrome nefrótica conhecida, dor abdominal difusa e febre alta hoje. Antes de pensar direto em apendicite, pensa no que uma doença renal como essa pode estar fazendo com as defesas dela.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O rim dela não estava só perdendo proteína pela urina. Estava jogando fora, junto, parte da própria defesa que protegia a barriga dela.",
+    "dicas": [
+      "Releia com atenção se ela já tem diagnóstico de alguma doença renal que faz perder proteína na urina, e há quanto tempo.",
+      "Pensa em como um rim que deixa vazar proteína pela urina não filtra só albumina, ele também pode deixar escapar imunoglobulinas e proteínas do complemento, enfraquecendo a defesa contra um tipo específico de bactéria.",
+      "Que exame, analisando o líquido de dentro da própria cavidade abdominal, mostra uma infecção causada por uma única bactéria (não várias ao mesmo tempo), típica de uma peritonite que não veio de perfuração intestinal, e sim de uma defesa imunológica enfraquecida?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo ela tem síndrome nefrótica, e como está o controle atual?", "custo": 2, "relevante": true, "resposta": "Diagnosticada há três anos, atualmente em fase de recidiva, com proteinúria importante nas últimas semanas." },
+    { "texto": "Usa corticoide ou outro imunossupressor para a síndrome nefrótica?", "custo": 2, "relevante": true, "resposta": "Usa corticoide em dose ajustada conforme a atividade da doença." },
+    { "texto": "Teve algum trauma abdominal ou cirurgia recente?", "custo": 2, "relevante": true, "resposta": "Nenhum trauma ou cirurgia recente." },
+    { "texto": "Teve vômitos ou diarreia junto com essa dor?", "custo": 2, "relevante": false, "resposta": "Sem vômitos ou diarreia associados." },
+    { "texto": "A dor começou localizada em algum lugar específico ou já era difusa desde o início?", "custo": 2, "relevante": true, "resposta": "A dor já começou espalhada por toda a barriga, não localizada num ponto específico." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de sinais de irritação peritoneal (Blumberg) em todo o abdome", "custo": 3, "relevante": true, "resposta": "Sinal de Blumberg positivo de forma difusa por todo o abdome, não localizado." },
+    { "texto": "Avaliação de edema generalizado", "custo": 3, "relevante": true, "resposta": "Edema generalizado presente, compatível com síndrome nefrótica em atividade." },
+    { "texto": "Palpação específica de fossa ilíaca direita", "custo": 3, "relevante": false, "resposta": "Dor difusa também presente ali, sem massa localizada específica." }
+  ],
+  "hipoteses": [
+    { "texto": "Peritonite bacteriana espontânea por pneumococo (imunodeficiência secundária à síndrome nefrótica)", "correta": true },
+    { "texto": "Apendicite aguda", "correta": false },
+    { "texto": "Peritonite bacteriana secundária por perfuração intestinal", "correta": false },
+    { "texto": "Imunodeficiência primária (imunodeficiência comum variável)", "correta": false },
+    { "texto": "Pancreatite aguda", "correta": false },
+    { "texto": "Gastroenterite aguda", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Paracentese diagnóstica com análise do líquido ascítico", "custo": 16, "relevante": true, "resposta": "Mais de 250 neutrófilos/mm³, cultura positiva para um único organismo (Streptococcus pneumoniae)." },
+    { "texto": "Dosagem de proteínas totais e albumina sérica", "custo": 8, "relevante": true, "resposta": "Albumina sérica muito baixa (1.8 g/dL), compatível com perda urinária maciça." },
+    { "texto": "Tomografia de abdome", "custo": 16, "relevante": true, "resposta": "Sem sinais de perfuração intestinal, apendicite ou outro foco cirúrgico." },
+    { "texto": "Complemento sérico (C3/C4)", "custo": 10, "relevante": true, "resposta": "Níveis reduzidos, também perdidos pela urina junto com a albumina." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar antibioticoterapia empírica cobrindo pneumococo (por exemplo, cefalosporina de terceira geração), sem indicação cirúrgica, e otimizar o tratamento da síndrome nefrótica de base", "correta": true },
+    { "texto": "Indicar laparotomia exploradora de urgência", "correta": false },
+    { "texto": "Apenas hidratação venosa, sem antibiótico", "correta": false },
+    { "texto": "Realizar apendicectomia empírica", "correta": false }
+  ],
+  "explicacao": "Na síndrome nefrótica, a perda maciça de proteínas pela urina não se limita à albumina: imunoglobulinas (especialmente IgG) e proteínas do sistema complemento também são perdidas, criando uma imunodeficiência secundária que predispõe especificamente a infecções por bactérias encapsuladas, como Streptococcus pneumoniae. Isso explica a peritonite bacteriana espontânea, uma infecção do líquido ascítico por um único organismo, sem qualquer perfuração intestinal ou foco cirúrgico associado, diferente da peritonite secundária (tipicamente polimicrobiana, decorrente de perfuração). O sinal de Blumberg difuso (não localizado, como seria numa apendicite) e a ausência de achados cirúrgicos na tomografia reforçam esse raciocínio. O tratamento é antibiótico dirigido, sem necessidade de intervenção cirúrgica, ao contrário do que a dor abdominal intensa e os sinais peritoneais poderiam sugerir à primeira vista."
+}

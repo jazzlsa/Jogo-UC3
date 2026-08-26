@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-47-01-dificil",
+  "tema": "Tema 47 · Patogênese e Patologia da Inflamação Granulomatosa",
+  "materia_relacionada": "Este caso aplica a distinção histológica entre granuloma caseoso e não caseoso vista na aula: a presença ou ausência de necrose central dentro do granuloma orienta a causa provável (infecciosa, como tuberculose, versus não infecciosa, como sarcoidose), mudando completamente a investigação e a conduta a partir do mesmo achado inicial (linfonodomegalia com granulomas).",
+  "area": "Pneumologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 33,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, fiz um raio-x de rotina pro trabalho e disseram que tenho um negócio nos gânglios do pulmão, e nesse último mês notei umas manchas doloridas vermelhas nas canelas.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "116/72", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "80", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.7", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 33 anos, achado incidental de linfonodos aumentados no pulmão e manchas dolorosas nas canelas. Antes de pensar direto em tuberculose, olha bem pro que a biópsia desse linfonodo realmente mostra por dentro.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O granuloma dela estava organizado igualzinho, só faltava aquele centro morto que a tuberculose sempre deixa pra trás.",
+    "dicas": [
+      "Releia com atenção se há histórico de contato com tuberculose ou exposição ocupacional a metais, e observa bem a pele das pernas dela.",
+      "Pensa na diferença entre um granuloma com uma área central de morte celular visível (necrose) e um granuloma organizado sem essa necrose central, e o que isso pode sugerir sobre a causa por trás dele.",
+      "Que doença granulomatosa, tipicamente com linfonodomegalia hilar bilateral simétrica e granulomas sem necrose central nem bactéria na biópsia, frequentemente vem acompanhada de manchas dolorosas na pele das pernas e de uma enzima específica elevada no sangue?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Teve contato conhecido com alguém com tuberculose?", "custo": 2, "relevante": true, "resposta": "Não teve contato conhecido com ninguém com tuberculose." },
+    { "texto": "Trabalha ou já trabalhou com exposição a metais como berílio (indústria aeroespacial, eletrônica)?", "custo": 2, "relevante": true, "resposta": "Trabalha em escritório, sem exposição ocupacional a metais." },
+    { "texto": "Notou febre alta, sudorese noturna profusa ou emagrecimento importante?", "custo": 2, "relevante": true, "resposta": "Sem febre alta, sudorese noturna leve ocasional, sem emagrecimento importante." },
+    { "texto": "Tem sintomas gastrointestinais como diarreia crônica ou dor abdominal recorrente?", "custo": 2, "relevante": false, "resposta": "Sem sintomas gastrointestinais relevantes." },
+    { "texto": "Notou dor nas articulações junto com essas manchas na perna?", "custo": 2, "relevante": true, "resposta": "Sim, sente dor leve nos tornozelos junto com as manchas." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção das lesões de pele nas pernas", "custo": 3, "relevante": true, "resposta": "Nódulos eritematosos dolorosos na região pré-tibial de ambas as pernas, compatíveis com eritema nodoso." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar normal." },
+    { "texto": "Avaliação de emagrecimento e estado geral", "custo": 3, "relevante": true, "resposta": "Bom estado geral, sem sinais de emagrecimento importante." },
+    { "texto": "Palpação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalia periférica palpável." }
+  ],
+  "hipoteses": [
+    { "texto": "Sarcoidose (granuloma não caseoso)", "correta": true },
+    { "texto": "Tuberculose (granuloma caseoso)", "correta": false },
+    { "texto": "Doença de Crohn", "correta": false },
+    { "texto": "Beriliose (reação granulomatosa a corpo estranho ocupacional)", "correta": false },
+    { "texto": "Linfoma de Hodgkin", "correta": false },
+    { "texto": "Histoplasmose", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Tomografia de tórax", "custo": 14, "relevante": true, "resposta": "Linfonodomegalia hilar bilateral simétrica, sem massas ou infiltrado pulmonar significativo." },
+    { "texto": "Biópsia de linfonodo (broncoscópica ou mediastinoscópica)", "custo": 18, "relevante": true, "resposta": "Granulomas não caseosos, bem organizados, sem necrose central; pesquisa de BAAR e cultura para micobactéria negativas." },
+    { "texto": "Enzima conversora de angiotensina (ECA) sérica", "custo": 10, "relevante": true, "resposta": "Elevada." },
+    { "texto": "PPD ou IGRA para tuberculose", "custo": 10, "relevante": true, "resposta": "Não reator/negativo." }
+  ],
+  "condutas": [
+    { "texto": "Manter observação clínica se assintomática/estável (a sarcoidose pode regredir espontaneamente), reservando corticoide para casos sintomáticos ou progressivos, sem tratamento antituberculose", "correta": true },
+    { "texto": "Iniciar esquema antituberculose (RIPE) empiricamente, sem confirmação", "correta": false },
+    { "texto": "Orientar afastamento ocupacional imediato, tratando como beriliose sem exposição confirmada", "correta": false },
+    { "texto": "Iniciar quimioterapia para linfoma sem biópsia definitiva confirmando esse diagnóstico", "correta": false }
+  ],
+  "explicacao": "A linfonodomegalia hilar bilateral simétrica, o eritema nodoso, a artralgia leve e a enzima conversora de angiotensina elevada compõem um quadro clássico de sarcoidose. O achado histológico chave é o granuloma não caseoso (sem necrose central) e sem organismos identificáveis (BAAR e cultura negativos), diferente do granuloma caseoso característico da tuberculose, que apresenta necrose central por morte celular, refletindo a resposta a um bacilo vivo e persistente. A ausência de contato com tuberculose, PPD/IGRA negativos e ausência de exposição ocupacional a berílio tornam esses diagnósticos alternativos menos prováveis. Por ser frequentemente autolimitada, a sarcoidose assintomática ou leve pode ser apenas observada, reservando corticoide para casos sintomáticos, uma conduta bem diferente do tratamento prolongado exigido pela tuberculose."
+}

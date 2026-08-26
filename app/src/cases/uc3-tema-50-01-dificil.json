@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-50-01-dificil",
+  "tema": "Tema 50 · Micoses Sistêmicas",
+  "materia_relacionada": "Este caso aplica o conceito de micose sistêmica visto na aula: um fungo inalado a partir do solo em área rural pode ficar latente por anos e se disseminar lentamente, chegando décadas depois a mucosas distantes do pulmão, formando lesões com achado microscópico característico que confirma o gênero antes mesmo da cultura demorada terminar.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 54,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, tenho uma ferida na boca que não sara há uns seis meses, dói pra engolir, e ando tossindo e emagrecendo. Trabalho na roça desde jovem.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "124/78", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "84", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "37.1", "u": "°C", "flag": false },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 54 anos, trabalhador rural, ferida na boca há meses, tosse crônica e emagrecimento. Antes de pensar em tumor ou tuberculose isoladamente, olha bem pro aspecto exato dessa lesão na mucosa.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Ele carregava esse fungo desde muito antes de qualquer sintoma aparecer, respirado décadas atrás, direto do solo onde ele sempre trabalhou.",
+    "dicas": [
+      "Releia com atenção a ocupação dele ao longo da vida, e há quanto tempo essa lesão na boca e a tosse vêm evoluindo.",
+      "Pensa num fungo que vive no solo de áreas rurais e, ao ser inalado, pode ficar latente por muito tempo antes de se disseminar lentamente até chegar às mucosas da boca e garganta, formando uma lesão de aspecto granulado.",
+      "Que fungo, visto ao microscópio com múltiplos brotamentos ao redor de uma célula-mãe central (lembrando uma roda de leme), é endêmico em áreas rurais da América Latina e causa essa forma crônica do adulto, com lesão mucosa característica?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Qual é a ocupação dele, atual e ao longo da vida?", "custo": 2, "relevante": true, "resposta": "Trabalha na lavoura desde jovem, mexendo direto com terra." },
+    { "texto": "Há quanto tempo essa ferida na boca e a tosse vêm evoluindo?", "custo": 2, "relevante": true, "resposta": "A ferida na boca começou há uns seis meses, e a tosse com um pouco de escarro é ainda mais antiga, quase um ano." },
+    { "texto": "Tem histórico de tabagismo importante?", "custo": 2, "relevante": false, "resposta": "Nunca fumou." },
+    { "texto": "Já teve alguma úlcera genital no passado?", "custo": 2, "relevante": false, "resposta": "Nunca teve nenhuma úlcera genital." },
+    { "texto": "Teve contato conhecido com alguém com tuberculose?", "custo": 2, "relevante": true, "resposta": "Não teve contato conhecido com tuberculose." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção detalhada da lesão de mucosa oral", "custo": 3, "relevante": true, "resposta": "Lesão ulcerada de aspecto granular, pontilhado, lembrando uma amora (estomatite moriforme)." },
+    { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": true, "resposta": "Linfonodomegalia cervical bilateral, endurecida." },
+    { "texto": "Avaliação da voz e laringe", "custo": 3, "relevante": true, "resposta": "Rouquidão presente, sugestiva de possível acometimento laríngeo." },
+    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": false, "resposta": "Emagrecimento moderado, compatível com o quadro crônico." }
+  ],
+  "hipoteses": [
+    { "texto": "Paracoccidioidomicose (forma crônica do adulto)", "correta": true },
+    { "texto": "Tuberculose", "correta": false },
+    { "texto": "Leishmaniose mucosa", "correta": false },
+    { "texto": "Carcinoma espinocelular de mucosa oral", "correta": false },
+    { "texto": "Histoplasmose", "correta": false },
+    { "texto": "Sífilis terciária (goma sifilítica)", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Exame micológico direto (KOH) de raspado da lesão", "custo": 12, "relevante": true, "resposta": "Leveduras com múltiplos brotamentos ao redor de uma célula-mãe central, padrão em \"roda de leme\"." },
+    { "texto": "Radiografia de tórax", "custo": 10, "relevante": true, "resposta": "Infiltrado intersticial bilateral com padrão \"em asa de morcego\"." },
+    { "texto": "Sorologia por imunodifusão dupla para Paracoccidioides", "custo": 12, "relevante": true, "resposta": "Reagente em título significativo." },
+    { "texto": "VDRL", "custo": 8, "relevante": true, "resposta": "Não reagente, afastando sífilis." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar itraconazol (ou anfotericina B em casos graves) por período prolongado, com acompanhamento sorológico da resposta ao tratamento", "correta": true },
+    { "texto": "Tratar com penicilina benzatina, como sífilis terciária", "correta": false },
+    { "texto": "Indicar ressecção cirúrgica isolada, presumindo carcinoma sem biópsia adequada", "correta": false },
+    { "texto": "Iniciar esquema antituberculose empírico sem confirmação micológica", "correta": false }
+  ],
+  "explicacao": "Paracoccidioides brasiliensis é inalado do solo em áreas rurais e pode permanecer latente por décadas antes de se disseminar lentamente, atingindo mucosas da boca e garganta na forma crônica do adulto, típica de trabalhadores rurais do sexo masculino. A lesão de aspecto granular, pontilhado (estomatite moriforme), a linfonodomegalia cervical e o infiltrado pulmonar bilateral compõem o quadro clássico. O achado microscópico de leveduras com múltiplos brotamentos ao redor de uma célula-mãe central (padrão em \"roda de leme\") já sugere fortemente o diagnóstico antes mesmo da cultura, confirmado pela sorologia reagente. VDRL não reagente afasta sífilis terciária, e a ausência de tabagismo importante torna carcinoma espinocelular menos provável de imediato, embora a biópsia complementar continue sendo prudente em lesões desse tipo. O tratamento antifúngico prolongado, com monitorização sorológica da resposta, é essencial, já que a doença tende a recidivar se o tratamento for interrompido precocemente."
+}
