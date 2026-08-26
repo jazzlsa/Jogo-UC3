@@ -574,5 +574,29 @@
     "area": "Nefrologia/Urologia",
     "prova": "P3",
     "arquivo": "uc3-tema-51-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-52-01-dificil",
+    "tema": "Tema 52 · Regulação da Expressão Gênica em Eucariotos 2",
+    "dificuldade": "dificil",
+    "area": "Outra",
+    "prova": "P3",
+    "arquivo": "uc3-tema-52-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-53-01-dificil",
+    "tema": "Tema 53 · Grand Round: Diagnóstico Diferencial de Linfonodomegalia",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-53-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-54-01-dificil",
+    "tema": "Tema 54 · RNAs Regulatórios e Silenciamento Gênico",
+    "dificuldade": "dificil",
+    "area": "Neurologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-54-01-dificil.json"
   }
 ]

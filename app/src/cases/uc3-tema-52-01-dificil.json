@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-52-01-dificil",
+  "tema": "Tema 52 · Regulação da Expressão Gênica em Eucariotos 2",
+  "materia_relacionada": "Este caso aplica diretamente o conceito visto na aula de que a cromatina compactada é o estado padrão de repressão gênica em eucariotos: uma expansão exagerada de uma sequência repetitiva pode levar à hipermetilação e ao fechamento da cromatina ao redor de um gene inteiro, impedindo fisicamente a maquinaria de transcrição de acessá-lo, mesmo sem nenhuma mutação na sequência codificante do próprio gene.",
+  "area": "Outra",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 14,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, ele sempre teve atraso pra falar e aprender na escola, evita olhar nos olhos das pessoas e fica se balançando quando está ansioso. Um tio meu tinha um jeito parecido.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "112/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "82", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Rapaz de 14 anos, atraso de desenvolvimento desde pequeno, comportamento parecido com espectro autista, e um tio materno com jeito parecido. Repara bem em como o rosto e o corpo dele mudaram desde a puberdade.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O gene dele nunca teve defeito nenhum na receita em si. Só ficou trancado, de um jeito que ninguém mais conseguia ler o que estava escrito ali.",
+    "dicas": [
+      "Releia com atenção o histórico familiar dele, principalmente do lado materno, e como as características físicas mudaram com a idade, principalmente depois da puberdade.",
+      "Pensa em como uma sequência de DNA repetida em excesso pode fazer a região ao redor dela se compactar de um jeito que a maquinaria de transcrição simplesmente não consegue mais acessar aquele gene, mesmo sem nenhuma mutação na sequência do gene em si.",
+      "Que gene, silenciado por excesso de compactação da cromatina depois de uma expansão exagerada de uma repetição de três letras na sua região reguladora, explica deficiência intelectual, características faciais específicas e aumento dos testículos após a puberdade, com herança ligada ao X?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como foi o desenvolvimento da fala e do aprendizado dele desde pequeno?", "custo": 2, "relevante": true, "resposta": "Sempre teve atraso importante de fala e dificuldade de aprendizado na escola." },
+    { "texto": "Tem histórico familiar de parentes homens do lado materno com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Um tio materno teve deficiência intelectual e um jeito de ser bem parecido quando jovem." },
+    { "texto": "Ele evita contato visual ou tem comportamentos repetitivos?", "custo": 2, "relevante": true, "resposta": "Evita olhar nos olhos e balança as mãos ou o corpo quando está ansioso." },
+    { "texto": "As características físicas dele mudaram muito depois da puberdade?", "custo": 2, "relevante": true, "resposta": "A mãe notou que as orelhas ficaram mais proeminentes e o rosto mais alongado depois dos 12 anos." },
+    { "texto": "Teve complicações na gestação ou no parto?", "custo": 2, "relevante": false, "resposta": "Gestação e parto sem complicações relatadas." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de características faciais (formato do rosto, orelhas)", "custo": 3, "relevante": true, "resposta": "Face alongada e orelhas grandes e proeminentes." },
+    { "texto": "Avaliação de mobilidade articular", "custo": 3, "relevante": true, "resposta": "Hiperextensibilidade articular leve nas mãos." },
+    { "texto": "Avaliação testicular", "custo": 3, "relevante": true, "resposta": "Macroorquidismo bilateral." },
+    { "texto": "Avaliação de traços faciais de síndrome de Down (fenda palpebral oblíqua, prega palmar única)", "custo": 3, "relevante": false, "resposta": "Ausentes." }
+  ],
+  "hipoteses": [
+    { "texto": "Síndrome do X Frágil (expansão CGG no gene FMR1 com hipermetilação e silenciamento gênico)", "correta": true },
+    { "texto": "Autismo idiopático", "correta": false },
+    { "texto": "Síndrome de Down", "correta": false },
+    { "texto": "Síndrome de Prader-Willi", "correta": false },
+    { "texto": "Síndrome de Klinefelter", "correta": false },
+    { "texto": "Deficiência intelectual não sindrômica idiopática", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Análise molecular do número de repetições CGG no gene FMR1", "custo": 16, "relevante": true, "resposta": "Mais de 200 repetições CGG (mutação completa)." },
+    { "texto": "Análise do padrão de metilação do promotor do FMR1", "custo": 14, "relevante": true, "resposta": "Promotor hipermetilado, compatível com silenciamento do gene." },
+    { "texto": "Cariótipo convencional", "custo": 12, "relevante": true, "resposta": "46,XY, sem trissomias ou cromossomo X extra." },
+    { "texto": "Teste genético para deleção 15q11-q13 (síndrome de Prader-Willi)", "custo": 14, "relevante": false, "resposta": "Negativo." }
+  ],
+  "condutas": [
+    { "texto": "Acompanhamento multidisciplinar (terapia ocupacional, fonoaudiologia, educação especial) e aconselhamento genético para a família, incluindo identificação de outras portadoras", "correta": true },
+    { "texto": "Iniciar reposição hormonal isolada", "correta": false },
+    { "texto": "Tratar apenas com terapia comportamental, sem investigação genética", "correta": false },
+    { "texto": "Indicar correção cirúrgica das características faciais", "correta": false }
+  ],
+  "explicacao": "O gene FMR1 tem, em sua região reguladora, uma sequência repetitiva CGG que normalmente é curta e estável. Quando essa repetição se expande além de cerca de 200 cópias (mutação completa), a região torna-se hipermetilada, levando à condensação da cromatina ao redor do gene e ao bloqueio físico do acesso da maquinaria de transcrição, silenciando completamente sua expressão, mesmo sem qualquer alteração na sequência codificante do gene. Isso explica a deficiência intelectual, o comportamento do espectro autista, a face alongada com orelhas proeminentes (mais evidentes após a puberdade) e o macroorquidismo, achados que compõem o quadro clássico da síndrome do X frágil. O histórico familiar de acometimento em parentes masculinos do lado materno reflete o padrão de herança ligado ao X, e a confirmação exige análise molecular direta do número de repetições e do padrão de metilação, já que o cariótipo convencional costuma ser normal."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-54-01-dificil",
+  "tema": "Tema 54 · RNAs Regulatórios e Silenciamento Gênico",
+  "materia_relacionada": "Este caso mostra uma aplicação terapêutica real do silenciamento gênico por RNA visto na aula: em vez de editar o gene defeituoso, um pequeno RNA de fita dupla pode se ligar especificamente ao RNA mensageiro de uma proteína e direcioná-lo para degradação, impedindo a célula de sequer produzir a proteína problemática, uma estratégia já aprovada como medicamento para uma doença hereditária específica.",
+  "area": "Neurologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, meus pés estão formigando e perdendo sensibilidade há uns dois anos, já operei os dois punhos de túnel do carpo, e ultimamente ando com falta de ar e tontura quando levanto rápido.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "102/64", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "88", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 58 anos, neuropatia progressiva nos pés, já operou os dois punhos de túnel do carpo, e agora sintomas cardíacos e de pressão baixa ao levantar. Junta essas três pistas antes de pensar só em diabetes.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A proteína errada dele não tinha jeito de consertar direto no DNA. Mas dava pra simplesmente impedir que ela fosse fabricada.",
+    "dicas": [
+      "Releia com atenção o histórico familiar de problemas nos nervos e no coração, e se ele já teve síndrome do túnel do carpo dos dois lados, isso não é comum acontecer nos dois ao mesmo tempo por acaso.",
+      "Pensa em como seria possível, sem editar o DNA nem trocar o gene defeituoso, impedir que a célula sequer produza a proteína errada, degradando especificamente a mensagem genética antes dela virar proteína.",
+      "Que tipo de molécula terapêutica, feita de um pequeno RNA de fita dupla, se liga especificamente ao RNA mensageiro de uma proteína (aqui, a transtirretina) e o direciona pra degradação, silenciando a produção tanto da forma mutante quanto da forma normal dessa proteína?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Tem histórico familiar de neuropatia progressiva ou problemas cardíacos?", "custo": 2, "relevante": true, "resposta": "O pai teve um quadro parecido de formigamento nos pés e problema no coração antes de falecer." },
+    { "texto": "Já teve síndrome do túnel do carpo, e foi de um lado só ou dos dois?", "custo": 2, "relevante": true, "resposta": "Foi operado dos dois punhos de túnel do carpo, com poucos anos de diferença entre um e outro." },
+    { "texto": "Tem diabetes diagnosticada?", "custo": 2, "relevante": true, "resposta": "Não tem diagnóstico de diabetes, glicemia sempre foi normal." },
+    { "texto": "Tem episódios de diarreia alternando com prisão de ventre, ou tontura ao levantar rápido?", "custo": 2, "relevante": true, "resposta": "Sim, tem episódios de diarreia alternando com constipação, e sente tontura ao levantar rápido." },
+    { "texto": "Já teve diagnóstico de alguma gamopatia monoclonal ou mieloma?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de gamopatia monoclonal ou mieloma." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de sensibilidade distal simétrica nos pés", "custo": 3, "relevante": true, "resposta": "Perda de sensibilidade distal simétrica, em padrão de \"bota\", nos dois pés." },
+    { "texto": "Avaliação de sinais de insuficiência cardíaca", "custo": 3, "relevante": true, "resposta": "Discreto edema de membros inferiores e estase jugular leve." },
+    { "texto": "Aferição de pressão arterial deitado e em pé (hipotensão ortostática)", "custo": 3, "relevante": true, "resposta": "Queda significativa da pressão arterial ao ficar em pé, compatível com disautonomia." },
+    { "texto": "Palpação de tireoide", "custo": 3, "relevante": false, "resposta": "Tireoide normal à palpação." }
+  ],
+  "hipoteses": [
+    { "texto": "Amiloidose hereditária por transtirretina (polineuropatia amiloidótica familiar)", "correta": true },
+    { "texto": "Neuropatia diabética", "correta": false },
+    { "texto": "Amiloidose AL (por cadeia leve de imunoglobulina)", "correta": false },
+    { "texto": "Síndrome do túnel do carpo idiopático isolado", "correta": false },
+    { "texto": "Doença de Charcot-Marie-Tooth", "correta": false },
+    { "texto": "Insuficiência cardíaca isolada de outra causa", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Biópsia (nervo, gordura abdominal ou coração) com coloração de vermelho Congo", "custo": 16, "relevante": true, "resposta": "Depósitos amiloides com birrefringência verde-maçã sob luz polarizada." },
+    { "texto": "Genotipagem do gene da transtirretina (TTR)", "custo": 16, "relevante": true, "resposta": "Mutação patogênica identificada no gene TTR." },
+    { "texto": "Eletroforese de proteínas séricas/urinárias e cadeias leves livres", "custo": 12, "relevante": true, "resposta": "Sem componente monoclonal, afastando amiloidose AL." },
+    { "texto": "Ecocardiograma", "custo": 14, "relevante": true, "resposta": "Espessamento miocárdico com padrão granular \"brilhante\" (sparkling), sugestivo de infiltração amiloide." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar terapia com RNA de interferência (siRNA) direcionada contra o RNA mensageiro da transtirretina, associada a acompanhamento cardiológico e neurológico contínuo", "correta": true },
+    { "texto": "Tratar apenas a síndrome do túnel do carpo cirurgicamente, sem investigar causa sistêmica", "correta": false },
+    { "texto": "Iniciar insulina, tratando como neuropatia diabética", "correta": false },
+    { "texto": "Iniciar quimioterapia para mieloma múltiplo sem confirmação de amiloidose AL", "correta": false }
+  ],
+  "explicacao": "A combinação de neuropatia periférica simétrica progressiva, síndrome do túnel do carpo bilateral (achado precoce característico), disautonomia e cardiomiopatia infiltrativa num paciente com histórico familiar sugestivo aponta para amiloidose hereditária por transtirretina, confirmada pela biópsia com vermelho Congo positivo e pela genotipagem do gene TTR. Ausência de componente monoclonal nas eletroforeses afasta amiloidose AL, e a ausência de diabetes torna a neuropatia diabética menos provável. Como a doença é causada pela deposição de uma proteína transtirretina mutante (e também da forma normal) mal dobrada em forma de fibrilas amiloides, uma estratégia terapêutica moderna usa um pequeno RNA de interferência (siRNA) que se liga especificamente ao RNA mensageiro da transtirretina no fígado (principal fonte da proteína circulante) e o direciona para degradação, reduzindo drasticamente a produção da proteína antes mesmo dela ser traduzida, silenciando tanto a forma mutante quanto a normal e reduzindo a progressão da doença."
+}

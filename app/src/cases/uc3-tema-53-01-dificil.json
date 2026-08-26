@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-53-01-dificil",
+  "tema": "Tema 53 · Grand Round: Diagnóstico Diferencial de Linfonodomegalia",
+  "materia_relacionada": "Este caso, baseado num Grand Round real discutido em aula, mostra a armadilha diagnóstica de uma linfonodomegalia disseminada e necrótica numa criança: o padrão de imagem e a apresentação clínica lembram fortemente um linfoma, mas a biópsia bem revisada revela um fungo do solo que, na sua forma aguda/juvenil, se comporta como uma doença do sistema linfo-histiocitário inteiro, exatamente o raciocínio de diagnóstico diferencial de massas/nódulos ensinado na aula.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 6,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, meu filho está com vários caroços pelo corpo e febre há uns dois meses. Ele mora aqui em Guarulhos, mas vai visitar os avós em Ribeirão Preto de vez em quando.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "96/60", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "112", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.2", "u": "°C", "flag": true },
+    { "l": "FR", "v": "22", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 6 anos, caroços pelo corpo todo e febre há dois meses. Antes de pensar direto em câncer, repara bem em pra onde essa criança viaja de vez em quando visitar a família.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A primeira biópsia enganou todo mundo. Só quando alguém olhou de novo, com calma, é que apareceram as leveduras escondidas entre as células.",
+    "dicas": [
+      "Releia com atenção pra onde essa criança viaja periodicamente visitar os avós, e como ela respondeu ao tratamento que já tinha sido iniciado antes de chegar até você.",
+      "Pensa em como um fungo, ao ser inalado do solo em forma de esporo, pode se transformar em levedura dentro do corpo (por causa da temperatura corporal) e se espalhar pelo sistema linfático inteiro, imitando de longe uma doença bem mais comum de se pensar primeiro num quadro assim.",
+      "Que fungo, visto na biópsia com leveduras de tamanho bem variável e múltiplos brotamentos ao redor de uma célula-mãe (padrão em \"roda de leme\"), tem uma forma aguda/juvenil que ataca principalmente o sistema linfático, o fígado e o baço numa criança, sendo facilmente confundido com linfoma até a biópsia ser bem revisada?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Essa criança viaja ou já morou em outras regiões do estado, visitando parentes?", "custo": 2, "relevante": true, "resposta": "Mora em Guarulhos, mas visita os avós em Ribeirão Preto periodicamente, uma região de área rural." },
+    { "texto": "Ele já fez algum tratamento antes de chegar até aqui, e como respondeu?", "custo": 2, "relevante": true, "resposta": "Fez biópsia num outro hospital, foi iniciado tratamento de quimioterapia presumindo linfoma, mas ele piorou, com aumento da distensão abdominal e dor, precisando de UTI." },
+    { "texto": "Teve tosse ou sintomas respiratórios junto com a febre?", "custo": 2, "relevante": true, "resposta": "Não teve tosse ou sintomas respiratórios relevantes." },
+    { "texto": "Teve contato conhecido com alguém com tuberculose?", "custo": 2, "relevante": true, "resposta": "Não teve contato conhecido com tuberculose." },
+    { "texto": "Perdeu peso nesses dois meses?", "custo": 2, "relevante": true, "resposta": "Sim, perda de peso perceptível nesse período." },
+    { "texto": "Teve picada de inseto ou contato com cães doentes na região rural?", "custo": 2, "relevante": false, "resposta": "Não notaram picada de inseto específica nem contato com cães doentes." }
+  ],
+  "exameFisico": [
+    { "texto": "Palpação de cadeias linfonodais (cervical, axilar, inguinal)", "custo": 3, "relevante": true, "resposta": "Linfonodomegalia em múltiplas cadeias, algumas com aspecto amolecido e sinais de fistulização discreta." },
+    { "texto": "Avaliação de distensão abdominal e visceromegalias", "custo": 3, "relevante": true, "resposta": "Abdome distendido, com hepatoesplenomegalia palpável." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Ausculta pulmonar normal, sem estertores ou sinais de acometimento pulmonar." },
+    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": false, "resposta": "Emagrecimento evidente para a idade." }
+  ],
+  "hipoteses": [
+    { "texto": "Paracoccidioidomicose, forma aguda/subaguda (juvenil) disseminada", "correta": true },
+    { "texto": "Linfoma (Hodgkin ou não Hodgkin)", "correta": false },
+    { "texto": "Tuberculose ganglionar disseminada", "correta": false },
+    { "texto": "Histoplasmose disseminada", "correta": false },
+    { "texto": "Leishmaniose visceral (calazar)", "correta": false },
+    { "texto": "Doença de Castleman", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Tomografia de tórax e abdome", "custo": 16, "relevante": true, "resposta": "Linfonodomegalias conglomeradas e necróticas em múltiplas cadeias (mediastinais, hilares, axilares, retroperitoneais, intracavitárias), comprimindo estruturas adjacentes." },
+    { "texto": "Revisão do histopatológico do linfonodo (biópsia)", "custo": 18, "relevante": true, "resposta": "Granuloma com necrose caseosa central, paliçada de macrófagos epitelioides, células gigantes multinucleadas e numerosas leveduras de tamanho bastante variável, algumas com múltiplos brotamentos de base estreita." },
+    { "texto": "Coloração especial de prata (Grocott-Gomori) na lâmina", "custo": 12, "relevante": true, "resposta": "Confirma leveduras arredondadas com múltiplos brotamentos ao redor de uma célula-mãe central, padrão em \"roda de leme\"." },
+    { "texto": "Sorologia por imunodifusão dupla para Paracoccidioides", "custo": 12, "relevante": true, "resposta": "Reagente, confirmando o diagnóstico." }
+  ],
+  "condutas": [
+    { "texto": "Suspender a quimioterapia empírica (que não trata fungo), iniciar antifúngico sistêmico (anfotericina B na fase inicial grave, seguida de manutenção com itraconazol ou sulfametoxazol-trimetoprima), com suporte multidisciplinar", "correta": true },
+    { "texto": "Manter ou aumentar a dose de quimioterapia, presumindo linfoma refratário ao tratamento inicial", "correta": false },
+    { "texto": "Iniciar apenas esquema antituberculose, sem tratar causa fúngica", "correta": false },
+    { "texto": "Realizar apenas nova biópsia excisional de um linfonodo, sem iniciar qualquer tratamento sistêmico", "correta": false }
+  ],
+  "explicacao": "Paracoccidioides brasiliensis é inalado do solo (área endêmica, como a região de Ribeirão Preto) na forma de esporo/conídio e, pela temperatura corporal, se transforma em levedura. Na forma aguda/subaguda (chamada juvenil, por acometer predominantemente crianças e adultos jovens), a doença ataca principalmente o sistema fagocítico-mononuclear, causando linfonodomegalia generalizada e necrótica, hepatoesplenomegalia e comprometimento da medula óssea, um padrão clínico e radiológico que imita fortemente um linfoma, levando ao erro real de iniciar quimioterapia empírica sem confirmação, como ocorreu neste caso, sem resposta e com piora clínica. A revisão cuidadosa da biópsia, mostrando granulomas com necrose caseosa e leveduras de tamanho variável com múltiplos brotamentos de base estreita (\"roda de leme\", confirmado pela coloração de prata), muda completamente o diagnóstico e a conduta: antifúngico, não quimioterapia. A ausência de acometimento pulmonar significativo torna a tuberculose disseminada menos provável, já que o bacilo tipicamente entra pela via respiratória e costuma deixar algum sinal pulmonar associado."
+}
