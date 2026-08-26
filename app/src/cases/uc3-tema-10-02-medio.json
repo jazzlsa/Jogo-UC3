@@ -55,6 +55,18 @@
   },
   "anamnese": [
     {
+      "texto": "Usou algum antipsicótico recentemente, antes desses sintomas começarem?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não usou nenhum antipsicótico ou medicação psiquiátrica recentemente."
+    },
+    {
+      "texto": "Fez alguma cirurgia recente ou tem foco de infecção abdominal conhecido?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não fez cirurgia recente nem tem foco infeccioso abdominal conhecido."
+    },
+    {
       "texto": "Tem diagnóstico prévio de doença de tireoide? Qual e há quanto tempo?",
       "custo": 2,
       "relevante": true,

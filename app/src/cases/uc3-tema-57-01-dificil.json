@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Usou alguma droga psicoativa recentemente, como estimulantes ou alucinógenos?", "custo": 2, "relevante": false, "resposta": "Não usou nenhuma droga psicoativa recentemente." },
+    { "texto": "Teve febre alta com rigidez de nuca antes desses sintomas começarem?", "custo": 2, "relevante": false, "resposta": "Sem febre alta ou rigidez de nuca antes desse quadro." },
     { "texto": "Ele teve alguma mordida, arranhão ou contato com morcego, cão ou gato nas últimas semanas ou meses?", "custo": 2, "relevante": true, "resposta": "Foi mordido por um cão de rua há cerca de dois meses, na perna, e não procurou atendimento médico na hora." },
     { "texto": "Recebeu vacina ou soro antirrábico depois dessa mordida?", "custo": 2, "relevante": true, "resposta": "Não recebeu nenhuma vacina ou soro depois da mordida." },
     { "texto": "Tem histórico de uso pesado de álcool com parada recente?", "custo": 2, "relevante": false, "resposta": "Não tem histórico de uso pesado de álcool." },

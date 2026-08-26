@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "A diarreia melhora com o estresse controlado, e piora em períodos de ansiedade?", "custo": 2, "relevante": false, "resposta": "Não notou relação clara com estresse ou ansiedade." },
+    { "texto": "Teve febre associada aos episódios de diarreia?", "custo": 2, "relevante": false, "resposta": "Sem febre associada." },
     { "texto": "A diarreia piora especificamente depois de comer pão, massa ou outros alimentos com glúten?", "custo": 2, "relevante": true, "resposta": "Sim, percebe piora clara depois de refeições com pão ou massa." },
     { "texto": "Já tratou anemia com ferro oral sem melhora completa?", "custo": 2, "relevante": true, "resposta": "Sim, já fez reposição de ferro várias vezes sem resolver totalmente a anemia." },
     { "texto": "Tem histórico familiar de doença celíaca ou outra doença autoimune?", "custo": 2, "relevante": true, "resposta": "Uma irmã tem tireoidite autoimune diagnosticada." },

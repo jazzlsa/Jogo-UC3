@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem traços faciais como olhos oblíquos, ponte nasal achatada ou prega palmar única?", "custo": 2, "relevante": false, "resposta": "Sem esses traços faciais característicos." },
+    { "texto": "Tem excesso de apetite incontrolável ou obesidade importante desde criança?", "custo": 2, "relevante": false, "resposta": "Apetite normal, sem obesidade importante." },
     { "texto": "Como foi o desenvolvimento da fala e do aprendizado dele desde pequeno?", "custo": 2, "relevante": true, "resposta": "Sempre teve atraso importante de fala e dificuldade de aprendizado na escola." },
     { "texto": "Tem histórico familiar de parentes homens do lado materno com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Um tio materno teve deficiência intelectual e um jeito de ser bem parecido quando jovem." },
     { "texto": "Ele evita contato visual ou tem comportamentos repetitivos?", "custo": 2, "relevante": true, "resposta": "Evita olhar nos olhos e balança as mãos ou o corpo quando está ansioso." },

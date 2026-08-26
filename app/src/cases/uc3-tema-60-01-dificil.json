@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "A bebê nasceu prematura ou teve alguma complicação respiratória ao nascer?", "custo": 2, "relevante": false, "resposta": "Nasceu a termo, sem complicações respiratórias ao nascer." },
     { "texto": "Há histórico familiar de doença de pele bolhosa genética (epidermólise bolhosa)?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de doença de pele bolhosa genética." },
     { "texto": "A mãe teve alguma lesão genital ativa durante a gestação ou perto do parto?", "custo": 2, "relevante": true, "resposta": "A mãe teve uma lesão genital ativa nos últimos dias antes do parto, mas não foi investigada na hora." },
     { "texto": "O parto foi vaginal ou cesárea eletiva?", "custo": 2, "relevante": true, "resposta": "Foi parto vaginal, sem indicação de cesárea eletiva apesar da lesão." },

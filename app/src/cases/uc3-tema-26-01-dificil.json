@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Teve lesões de pele com vesículas ou dor de garganta importante recentemente?", "custo": 2, "relevante": false, "resposta": "Sem lesões de pele com vesículas ou dor de garganta relevante." },
+    { "texto": "Está com o esquema de vacinação em dia, incluindo antipneumocócica e anti-Haemophilus?", "custo": 2, "relevante": false, "resposta": "Esquema vacinal em dia conforme o calendário do adulto." },
     { "texto": "Ele usa algum remédio que reduz a imunidade, como corticoide crônico ou quimioterapia?", "custo": 2, "relevante": true, "resposta": "Faz quimioterapia há três meses por um linfoma." },
     { "texto": "Comeu algum alimento como queijos não pasteurizados, patês ou frios nos últimos dias?", "custo": 2, "relevante": true, "resposta": "Comeu um queijo artesanal na semana passada, comprado direto de um produtor pequeno." },
     { "texto": "Notou manchas roxas ou pontos vermelhos pela pele?", "custo": 2, "relevante": false, "resposta": "Sem nenhuma mancha ou petéquia na pele." },

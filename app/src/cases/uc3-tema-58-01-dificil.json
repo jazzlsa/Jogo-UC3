@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Teve perda de olfato e paladar junto com os sintomas atuais?", "custo": 2, "relevante": false, "resposta": "Sem perda de olfato ou paladar." },
+    { "texto": "Tem histórico de refluxo ou alergia que pudesse explicar reação ao remédio?", "custo": 2, "relevante": false, "resposta": "Sem histórico de refluxo ou alergia medicamentosa conhecida." },
     { "texto": "Ele tomou o antiviral certinho, sem esquecer nenhuma dose?", "custo": 2, "relevante": true, "resposta": "A família confirma que tomou todas as doses no horário certo." },
     { "texto": "Em algum momento ele chegou a melhorar antes de piorar de novo, ou só piorou direto?", "custo": 2, "relevante": true, "resposta": "Nunca melhorou nem um pouco, foi uma piora contínua desde o início." },
     { "texto": "O escarro mudou de aspecto, ficou purulento ou esverdeado?", "custo": 2, "relevante": true, "resposta": "O escarro continua claro, sem mudança de aspecto." },

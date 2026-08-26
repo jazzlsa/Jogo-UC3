@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Já teve hipocalcemia neonatal ou é acompanhado por alguma cardiopatia congênita?", "custo": 2, "relevante": false, "resposta": "Sem hipocalcemia neonatal ou cardiopatia congênita conhecida." },
+    { "texto": "Alguma vez um hemograma anterior mostrou contagem de neutrófilos muito baixa, isoladamente?", "custo": 2, "relevante": false, "resposta": "Não há registro de neutropenia isolada em exames anteriores." },
     { "texto": "Desde quando ele vive tendo infecções?", "custo": 2, "relevante": true, "resposta": "Desde as primeiras semanas de vida, quase sem intervalo saudável." },
     { "texto": "Já teve alguma infecção grave ou incomum, como pneumonia atípica?", "custo": 2, "relevante": true, "resposta": "Teve uma pneumonia grave há um mês, tratada com dificuldade no hospital." },
     { "texto": "A mãe teve HIV na gestação ou fez pré-natal completo com sorologias?", "custo": 2, "relevante": true, "resposta": "Pré-natal completo, todas as sorologias da mãe (incluindo HIV) negativas." },

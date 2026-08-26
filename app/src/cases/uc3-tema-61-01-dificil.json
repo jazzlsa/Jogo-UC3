@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Houve alguma picada de mosquito Aedes ou sintomas de febre com manchas na pele durante a gestação?", "custo": 2, "relevante": false, "resposta": "Não notou picada de mosquito específica nem manchas na pele durante a gestação." },
+    { "texto": "A mãe fez o pré-natal completo com todas as sorologias em dia?", "custo": 2, "relevante": false, "resposta": "Sim, pré-natal completo, todas as sorologias de rotina vieram normais na época." },
     { "texto": "A mãe teve algum episódio de mal-estar tipo gripal ou \"mononucleose\" durante a gestação?", "custo": 2, "relevante": true, "resposta": "Teve um episódio de mal-estar com febre baixa e cansaço no segundo trimestre, achou que fosse só uma virose comum." },
     { "texto": "Tem gato em casa ou consome carne mal cozida com frequência?", "custo": 2, "relevante": false, "resposta": "Não tem gato em casa e evita carne mal passada." },
     { "texto": "A mãe teve exantema (manchas vermelhas pelo corpo) durante a gestação?", "custo": 2, "relevante": false, "resposta": "Não teve nenhum exantema durante a gestação." },

@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem diabetes ou alguma condição que reduza a imunidade?", "custo": 2, "relevante": false, "resposta": "Não tem diabetes nem nenhuma condição que reduza a imunidade." },
+    { "texto": "Notou vermelhidão que se espalha rapidamente pela pele ao redor, como numa erisipela?", "custo": 2, "relevante": false, "resposta": "Não, o eritema fica restrito bem próximo a cada nódulo, sem se espalhar rapidamente." },
     { "texto": "Como e quando exatamente apareceu a primeira lesão?", "custo": 2, "relevante": true, "resposta": "Foi um arranhão de um gato de rua há três semanas, a ferida nunca fechou direito." },
     { "texto": "Como os novos caroços foram aparecendo em relação ao primeiro?", "custo": 2, "relevante": true, "resposta": "Foram surgindo um a um, subindo pelo braço na direção do cotovelo e depois da axila." },
     { "texto": "Teve contato com aquário ou água salgada com peixe recentemente?", "custo": 2, "relevante": false, "resposta": "Não teve contato com aquário ou água salgada." },

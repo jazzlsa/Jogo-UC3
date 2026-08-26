@@ -55,6 +55,18 @@
   },
   "anamnese": [
     {
+      "texto": "Teve alguma picada de carrapato ou viagem recente para área rural?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Sem picada de carrapato ou viagem recente para área rural."
+    },
+    {
+      "texto": "Usa algum anticoagulante ou tem doença que afete a coagulação?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não usa anticoagulante e não tem doença conhecida de coagulação."
+    },
+    {
       "texto": "Já teve alguma cirurgia abdominal ou trauma importante no passado?",
       "custo": 2,
       "relevante": true,

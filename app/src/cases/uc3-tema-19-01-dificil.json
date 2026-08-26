@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Teve pneumonia grave na infância que pudesse ter deixado uma cavidade cística congênita?", "custo": 2, "relevante": false, "resposta": "Sem histórico de pneumonia grave na infância ou cisto pulmonar conhecido." },
+    { "texto": "Tem histórico de bronquiectasias ou infecções pulmonares de repetição desde jovem?", "custo": 2, "relevante": false, "resposta": "Sem histórico de bronquiectasias ou infecções pulmonares de repetição na juventude." },
     { "texto": "Há quanto tempo fuma e quantos cigarros por dia?", "custo": 2, "relevante": true, "resposta": "Fuma cerca de 30 cigarros por dia há mais de 40 anos." },
     { "texto": "Essa falta de ar começou de repente, com dor no peito, ou foi piorando aos poucos?", "custo": 2, "relevante": true, "resposta": "Foi piorando aos poucos ao longo de dois meses, sem dor torácica associada." },
     { "texto": "Teve febre, tosse produtiva ou emagrecimento importante recentes?", "custo": 2, "relevante": false, "resposta": "Nega febre, emagrecimento ou tosse com catarro." },

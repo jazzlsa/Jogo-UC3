@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Teve exposição a picada de flebotomíneo (mosquito palha) em área endêmica de leishmaniose?", "custo": 2, "relevante": false, "resposta": "Não teve exposição conhecida a flebotomíneo." },
+    { "texto": "Notou linfonodos aumentados em outras regiões, além dos do pescoço?", "custo": 2, "relevante": false, "resposta": "Só notou linfonodos aumentados no pescoço mesmo." },
     { "texto": "Qual é a ocupação dele, atual e ao longo da vida?", "custo": 2, "relevante": true, "resposta": "Trabalha na lavoura desde jovem, mexendo direto com terra." },
     { "texto": "Há quanto tempo essa ferida na boca e a tosse vêm evoluindo?", "custo": 2, "relevante": true, "resposta": "A ferida na boca começou há uns seis meses, e a tosse com um pouco de escarro é ainda mais antiga, quase um ano." },
     { "texto": "Tem histórico de tabagismo importante?", "custo": 2, "relevante": false, "resposta": "Nunca fumou." },

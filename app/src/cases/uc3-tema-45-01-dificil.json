@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Teve piora da dor abdominal ou diarreia, sintomas típicos de atividade da Crohn?", "custo": 2, "relevante": false, "resposta": "Sem piora da dor abdominal ou diarreia, o intestino está estável." },
+    { "texto": "Esteve em área rural com exposição a morcegos ou cavernas (fator de risco para histoplasmose)?", "custo": 2, "relevante": false, "resposta": "Não teve exposição a morcegos, cavernas ou área rural endêmica." },
     { "texto": "Que medicação nova ela começou a usar, e há quanto tempo?", "custo": 2, "relevante": true, "resposta": "Começou infliximabe (um medicamento biológico anti-TNF) há seis meses, para a doença de Crohn." },
     { "texto": "Fizeram algum exame de rastreio de tuberculose antes de iniciar esse remédio?", "custo": 2, "relevante": true, "resposta": "Ela não se lembra de ter feito nenhum exame específico para tuberculose antes de começar o biológico." },
     { "texto": "Já teve contato ou diagnóstico de tuberculose no passado, mesmo que não tratado?", "custo": 2, "relevante": true, "resposta": "Teve um episódio suspeito de tuberculose há muitos anos, na juventude, mas não lembra se foi tratado direito." },

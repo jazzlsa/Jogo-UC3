@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem histórico de veias varicosas ou trombose venosa nas pernas?", "custo": 2, "relevante": false, "resposta": "Sem histórico de veias varicosas ou trombose venosa." },
+    { "texto": "Esse inchaço nas pernas está presente desde o nascimento?", "custo": 2, "relevante": false, "resposta": "Não, o inchaço é recente, começou há poucos dias." },
     { "texto": "Onde o inchaço apareceu primeiro e como evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou ao redor dos olhos pela manhã, e nos últimos três dias foi descendo até as pernas." },
     { "texto": "A urina está espumosa ou com aspecto diferente?", "custo": 2, "relevante": true, "resposta": "Sim, a mãe notou bastante espuma na urina nos últimos dias." },
     { "texto": "Teve infecção de garganta ou de pele nas últimas semanas?", "custo": 2, "relevante": false, "resposta": "Não teve nenhuma infecção recente de garganta ou pele." },

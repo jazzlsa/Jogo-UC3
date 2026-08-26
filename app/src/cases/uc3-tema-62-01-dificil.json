@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Teve febre ou sintomas de infecção respiratória nas últimas semanas?", "custo": 2, "relevante": false, "resposta": "Sem febre ou sintomas respiratórios recentes." },
+    { "texto": "Tem histórico de doença do tecido conjuntivo, como síndrome de Marfan?", "custo": 2, "relevante": false, "resposta": "Sem histórico de doença do tecido conjuntivo." },
     { "texto": "Quais fatores de risco cardiovascular ele tem (tabagismo, colesterol alto, hipertensão)?", "custo": 2, "relevante": true, "resposta": "Fumante há 30 anos, colesterol alto conhecido sem tratamento regular, hipertenso." },
     { "texto": "Como essa dor no peito vinha evoluindo nas últimas semanas?", "custo": 2, "relevante": true, "resposta": "Vinha aparecendo ao subir escada ou se esforçar, e melhorava com o repouso, piorando progressivamente nas últimas semanas." },
     { "texto": "Já usou cocaína ou outra substância estimulante recentemente?", "custo": 2, "relevante": false, "resposta": "Nunca usou cocaína ou substância estimulante." },

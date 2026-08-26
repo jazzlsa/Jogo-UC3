@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem histórico pessoal ou familiar de vitiligo ou outra doença autoimune de pele?", "custo": 2, "relevante": false, "resposta": "Sem histórico pessoal ou familiar de vitiligo ou doença autoimune de pele." },
+    { "texto": "Tem histórico de eczema ou asma (atopia) desde criança?", "custo": 2, "relevante": false, "resposta": "Sem histórico de eczema ou asma na infância." },
     { "texto": "As manchas coçam ou incomodam de alguma forma?", "custo": 2, "relevante": true, "resposta": "Coça um pouco, principalmente quando transpira bastante." },
     { "texto": "As manchas bronzeiam junto com o resto da pele quando toma sol?", "custo": 2, "relevante": true, "resposta": "Não, elas ficam ainda mais evidentes depois do sol, porque o resto da pele escurece e elas não." },
     { "texto": "Notou perda de sensibilidade (dormência) nessas manchas?", "custo": 2, "relevante": true, "resposta": "Não notou nenhuma perda de sensibilidade nas manchas." },

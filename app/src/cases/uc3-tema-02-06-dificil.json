@@ -55,6 +55,18 @@
   },
   "anamnese": [
     {
+      "texto": "Teve trauma recente na coluna, tipo queda ou acidente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nenhum trauma recente na coluna."
+    },
+    {
+      "texto": "A dor piora especificamente ao tossir ou fazer força evacuatória?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não notou piora específica ao tossir ou fazer força."
+    },
+    {
       "texto": "A dor lombar piora à noite e ao repouso, sem alívio com analgésicos?",
       "custo": 2,
       "relevante": true,

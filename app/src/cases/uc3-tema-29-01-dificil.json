@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Já teve mononucleose confirmada antes, ou contato recente com alguém com essa doença?", "custo": 2, "relevante": false, "resposta": "Nunca teve mononucleose e não teve contato conhecido com ninguém com essa doença." },
+    { "texto": "Tem dor de dente recente ou infecção dentária não tratada?", "custo": 2, "relevante": false, "resposta": "Sem dor de dente ou infecção dentária conhecida." },
     { "texto": "A caderneta de vacinação dele está em dia?", "custo": 2, "relevante": true, "resposta": "A família optou por não vacinar, a caderneta está incompleta desde bebê." },
     { "texto": "Como essa placa na garganta se comporta quando tentam removê-la ou tocá-la?", "custo": 2, "relevante": true, "resposta": "É bem aderida à mucosa, e sangrou um pouco quando ele tossiu forte, difícil de destacar." },
     { "texto": "Tem contato com outras crianças ou adultos com sintomas parecidos na comunidade?", "custo": 2, "relevante": true, "resposta": "Um vizinho da mesma comunidade, também não vacinado, teve sintomas parecidos na semana passada." },

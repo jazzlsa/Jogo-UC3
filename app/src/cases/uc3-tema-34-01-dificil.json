@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem dor pélvica crônica associada, sem relação clara com as infecções urinárias?", "custo": 2, "relevante": false, "resposta": "Sem dor pélvica crônica, só desconforto durante os episódios de infecção mesmo." },
+    { "texto": "Tem diabetes ou uso de imunossupressor que justificasse infecção fúngica?", "custo": 2, "relevante": false, "resposta": "Não tem diabetes nem usa imunossupressor." },
     { "texto": "Teve alguma internação recente antes desses sintomas voltarem?", "custo": 2, "relevante": true, "resposta": "Ficou internada há três semanas por outro motivo, dividindo o quarto com outra paciente." },
     { "texto": "Sabe se essa outra paciente do quarto tinha alguma infecção por bactéria resistente conhecida?", "custo": 2, "relevante": true, "resposta": "A equipe de enfermagem confirma que a colega de quarto estava em isolamento por uma bactéria multirresistente." },
     { "texto": "Usou algum antibiótico de amplo espectro recentemente, antes dessa nova infecção?", "custo": 2, "relevante": true, "resposta": "Usou uma cefalosporina há duas semanas, para outro motivo." },

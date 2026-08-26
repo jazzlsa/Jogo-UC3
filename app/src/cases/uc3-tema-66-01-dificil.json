@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "A equipe seguiu o protocolo padrão de anticoagulação durante a cirurgia de transplante?", "custo": 2, "relevante": false, "resposta": "Sim, protocolo de anticoagulação seguido normalmente, sem intercorrência técnica registrada." },
     { "texto": "Ela já recebeu transfusões de sangue múltiplas vezes antes?", "custo": 2, "relevante": true, "resposta": "Sim, recebeu várias transfusões ao longo de anos em diálise." },
     { "texto": "Já teve gestações antes do transplante?", "custo": 2, "relevante": true, "resposta": "Teve três gestações antes de precisar de diálise." },
     { "texto": "Já fez algum transplante anteriormente, mesmo que rejeitado?", "custo": 2, "relevante": true, "resposta": "Sim, teve um transplante renal rejeitado há oito anos." },

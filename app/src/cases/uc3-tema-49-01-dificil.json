@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Alguma vez fez transfusão de sangue com reação alérgica grave?", "custo": 2, "relevante": false, "resposta": "Nunca precisou de transfusão de sangue." },
+    { "texto": "Tem histórico de eczema grave de pele desde bebê?", "custo": 2, "relevante": false, "resposta": "Não tem eczema, a pele é normal fora das áreas dos abscessos e feridas." },
     { "texto": "Que tipo de pneumonia grave ele teve no ano passado?", "custo": 2, "relevante": true, "resposta": "Foi identificada uma pneumonia por Pneumocystis jirovecii, tratada com dificuldade na época." },
     { "texto": "Tem histórico familiar de meninos com infecções parecidas do lado materno?", "custo": 2, "relevante": true, "resposta": "Um primo materno também teve infecções recorrentes graves quando bebê." },
     { "texto": "Essas feridinhas na boca aparecem com que frequência?", "custo": 2, "relevante": true, "resposta": "Aparecem quase todo mês, algumas bem dolorosas." },

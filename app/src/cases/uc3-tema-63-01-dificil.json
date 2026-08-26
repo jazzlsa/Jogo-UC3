@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Notou perda de peso rápida ou sudorese noturna importante?", "custo": 2, "relevante": false, "resposta": "Sem perda de peso rápida ou sudorese noturna importante." },
     { "texto": "Ele tem diagnóstico de HIV, e qual é o CD4 e a carga viral mais recentes?", "custo": 2, "relevante": true, "resposta": "Tem HIV diagnosticado há oito anos, CD4 atual muito baixo (32 células) e carga viral alta." },
     { "texto": "Como está a adesão ao tratamento antirretroviral?", "custo": 2, "relevante": true, "resposta": "Abandonou o tratamento antirretroviral há mais de um ano." },
     { "texto": "As lesões doem, coçam ou sangram fácil ao toque?", "custo": 2, "relevante": true, "resposta": "Não doem, não coçam, e não sangram fácil quando manipuladas com cuidado." },

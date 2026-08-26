@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Já teve infecções recorrentes por outros vírus comuns (herpes labial, resfriados frequentes)?", "custo": 2, "relevante": false, "resposta": "Nada fora do comum, infecções virais leves na frequência esperada." },
+    { "texto": "Teve exposição a viagens para área endêmica de HIV com comportamento de risco?", "custo": 2, "relevante": false, "resposta": "Sem exposição de risco para HIV." },
     { "texto": "Quantos episódios de infecção meningocócica confirmada ele já teve?", "custo": 2, "relevante": true, "resposta": "Esse é o segundo episódio confirmado em dois anos." },
     { "texto": "Tem histórico familiar de infecção meningocócica recorrente?", "custo": 2, "relevante": true, "resposta": "Um primo também já teve dois episódios de infecção meningocócica na infância." },
     { "texto": "Já teve episódios de inchaço no rosto ou lábios sem urticária, mesmo que rápidos?", "custo": 2, "relevante": false, "resposta": "Nunca teve nada parecido com inchaço facial." },

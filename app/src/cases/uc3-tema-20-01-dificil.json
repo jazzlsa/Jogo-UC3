@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Já teve alguma reação transfusional grave?", "custo": 2, "relevante": false, "resposta": "Nunca precisou de transfusão de sangue." },
+    { "texto": "Tem hipoparatireoidismo ou alguma cardiopatia congênita diagnosticada?", "custo": 2, "relevante": false, "resposta": "Sem hipoparatireoidismo ou cardiopatia congênita conhecida." },
     { "texto": "Desde quando ela tem infecções respiratórias de repetição?", "custo": 2, "relevante": true, "resposta": "Desde os primeiros meses de vida, quase sem intervalo saudável." },
     { "texto": "O que mostrou aquele exame de fezes feito durante a diarreia?", "custo": 2, "relevante": true, "resposta": "Identificou um parasita oportunista (Cryptosporidium), que normalmente causa quadro leve e autolimitado." },
     { "texto": "Há histórico de consanguinidade entre os pais?", "custo": 2, "relevante": true, "resposta": "Sim, os pais são primos de primeiro grau." },

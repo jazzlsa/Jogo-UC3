@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem diarreia crônica ou dor abdominal recorrente há meses?", "custo": 2, "relevante": false, "resposta": "Sem diarreia crônica ou dor abdominal recorrente." },
+    { "texto": "Tem sudorese noturna intensa e emagrecimento importante?", "custo": 2, "relevante": false, "resposta": "Sudorese noturna leve ocasional, sem emagrecimento importante." },
     { "texto": "Teve contato conhecido com alguém com tuberculose?", "custo": 2, "relevante": true, "resposta": "Não teve contato conhecido com ninguém com tuberculose." },
     { "texto": "Trabalha ou já trabalhou com exposição a metais como berílio (indústria aeroespacial, eletrônica)?", "custo": 2, "relevante": true, "resposta": "Trabalha em escritório, sem exposição ocupacional a metais." },
     { "texto": "Notou febre alta, sudorese noturna profusa ou emagrecimento importante?", "custo": 2, "relevante": true, "resposta": "Sem febre alta, sudorese noturna leve ocasional, sem emagrecimento importante." },

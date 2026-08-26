@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Já teve infecções recorrentes por diferentes germes ao longo da vida, mesmo antes da síndrome nefrótica?", "custo": 2, "relevante": false, "resposta": "Só teve infecções mais frequentes depois do diagnóstico de síndrome nefrótica, não antes." },
+    { "texto": "Tem histórico de vômitos com sangue ou fezes muito escuras?", "custo": 2, "relevante": false, "resposta": "Sem vômitos com sangue ou fezes escuras." },
     { "texto": "Há quanto tempo ela tem síndrome nefrótica, e como está o controle atual?", "custo": 2, "relevante": true, "resposta": "Diagnosticada há três anos, atualmente em fase de recidiva, com proteinúria importante nas últimas semanas." },
     { "texto": "Usa corticoide ou outro imunossupressor para a síndrome nefrótica?", "custo": 2, "relevante": true, "resposta": "Usa corticoide em dose ajustada conforme a atividade da doença." },
     { "texto": "Teve algum trauma abdominal ou cirurgia recente?", "custo": 2, "relevante": true, "resposta": "Nenhum trauma ou cirurgia recente." },

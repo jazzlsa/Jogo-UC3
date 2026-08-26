@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Notou atraso na queda do coto umbilical ao nascer?", "custo": 2, "relevante": false, "resposta": "O coto umbilical caiu no tempo esperado, sem atraso." },
+    { "texto": "Algum hemograma anterior já mostrou contagem de neutrófilos muito baixa?", "custo": 2, "relevante": false, "resposta": "Não há registro de neutropenia em exames anteriores." },
     { "texto": "Que tipo de infecções ele já teve desde pequeno?", "custo": 2, "relevante": true, "resposta": "Vários abscessos profundos (pele, linfonodo) precisando de drenagem cirúrgica, além de uma pneumonia grave por fungo no ano passado." },
     { "texto": "Tem histórico familiar de infecções graves de repetição, principalmente em parentes homens do lado materno?", "custo": 2, "relevante": true, "resposta": "Um tio materno teve infecções graves recorrentes na infância e não sobreviveu além da adolescência." },
     { "texto": "O coto umbilical caiu no tempo esperado ao nascer?", "custo": 2, "relevante": false, "resposta": "Caiu no tempo normal, sem atraso." },

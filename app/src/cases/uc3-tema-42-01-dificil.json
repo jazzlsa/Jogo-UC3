@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem histórico pessoal ou familiar de mieloma múltiplo ou outro câncer hematológico?", "custo": 2, "relevante": false, "resposta": "Sem histórico pessoal ou familiar de mieloma ou câncer hematológico." },
+    { "texto": "Consumiu leite ou queijo não pasteurizado, ou teve contato com gado (fator de risco para brucelose)?", "custo": 2, "relevante": false, "resposta": "Não consome laticínios não pasteurizados nem teve contato com gado." },
     { "texto": "Há quanto tempo exatamente essa dor nas costas começou e como evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou há quatro meses, foi piorando aos poucos e passou a irradiar para a perna direita." },
     { "texto": "Há quanto tempo vive com HIV, e como está o tratamento atual?", "custo": 2, "relevante": true, "resposta": "Diagnosticado há mais de 20 anos, atualmente em terapia antirretroviral com carga viral indetectável, mas CD4 ainda moderadamente baixo." },
     { "texto": "Já teve alguma infecção oportunista grave associada ao HIV no passado?", "custo": 2, "relevante": true, "resposta": "Teve neurotoxoplasmose anos atrás, já tratada." },

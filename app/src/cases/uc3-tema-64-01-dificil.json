@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem histórico de dor abdominal recorrente com fezes com sangue?", "custo": 2, "relevante": false, "resposta": "Sem dor abdominal recorrente ou sangue nas fezes." },
+    { "texto": "Tem histórico de doença hepática crônica conhecida?", "custo": 2, "relevante": false, "resposta": "Sem histórico de doença hepática crônica." },
     { "texto": "Há quanto tempo está tossindo com sangue, e como isso evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou há cinco dias, piorando progressivamente, com quantidade de sangue cada vez maior." },
     { "texto": "Notou diminuição na quantidade de urina ou inchaço no corpo?", "custo": 2, "relevante": true, "resposta": "Sim, a urina diminuiu bastante nos últimos dias, e notou inchaço leve nas pernas." },
     { "texto": "É fumante?", "custo": 2, "relevante": true, "resposta": "Fumante há 15 anos." },

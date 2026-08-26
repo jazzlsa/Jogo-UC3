@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem histórico de arritmia cardíaca conhecida?", "custo": 2, "relevante": false, "resposta": "Sem histórico de arritmia cardíaca conhecida." },
+    { "texto": "Já teve episódio parecido de desmaio ao ver sangue ou durante outros procedimentos?", "custo": 2, "relevante": false, "resposta": "Nunca teve desmaio ao ver sangue ou durante outros procedimentos." },
     { "texto": "Já teve alguma reação a contraste iodado antes?", "custo": 2, "relevante": true, "resposta": "Nunca tinha feito exame com contraste antes, essa foi a primeira vez." },
     { "texto": "Tem histórico de asma?", "custo": 2, "relevante": true, "resposta": "Tem asma leve, controlada com bombinha eventual." },
     { "texto": "Usa algum betabloqueador de uso contínuo?", "custo": 2, "relevante": true, "resposta": "Usa um betabloqueador para controle de pressão." },

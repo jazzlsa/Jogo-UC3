@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Fez alguma cirurgia ortopédica ou infiltração recente nesse joelho?", "custo": 2, "relevante": false, "resposta": "Nunca fez cirurgia ou infiltração nesse joelho." },
     { "texto": "Teve conjuntivite ou uretrite nas últimas semanas, junto ou antes da dor articular?", "custo": 2, "relevante": false, "resposta": "Não teve conjuntivite ou uretrite em nenhum momento." },
     { "texto": "Teve febre alta com calafrio junto com a dor no joelho?", "custo": 2, "relevante": true, "resposta": "Sim, febre alta com calafrio forte começou junto com a piora do joelho." },
     { "texto": "Existe alguma ferida, lesão de pele ou porta de entrada perto dessa articulação?", "custo": 2, "relevante": true, "resposta": "Tem uma lesão de psoríase com pele rachada bem perto do joelho, que ele mexeu recentemente." },

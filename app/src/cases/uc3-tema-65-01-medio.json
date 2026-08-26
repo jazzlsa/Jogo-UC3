@@ -29,6 +29,8 @@
     ]
   },
   "anamnese": [
+    { "texto": "Notou febre, dor óssea intensa ou emagrecimento importante que sugerisse algo mais sistêmico?", "custo": 2, "relevante": false, "resposta": "Sem febre ou emagrecimento importante, só a dor difusa nas pernas." },
+    { "texto": "Usa aspirina ou anti-inflamatório em doses altas regularmente?", "custo": 2, "relevante": false, "resposta": "Não usa aspirina ou anti-inflamatório regularmente." },
     { "texto": "Como tem sido a alimentação dele ultimamente?", "custo": 2, "relevante": true, "resposta": "Mora sozinho e come muito pouca fruta ou verdura fresca, principalmente enlatados e comida processada." },
     { "texto": "Usa algum anticoagulante de uso contínuo?", "custo": 2, "relevante": false, "resposta": "Não usa nenhum anticoagulante." },
     { "texto": "Tem dor óssea ou nas articulações associada?", "custo": 2, "relevante": true, "resposta": "Sim, tem dor difusa nas pernas, que atribuiu à idade." },
