@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Já teve alguma convulsão antes desse quadro?", "custo": 2, "relevante": false, "resposta": "Nunca teve nenhum episódio convulsivo." },
     { "texto": "Qual é o CD4 mais recente dele e ele faz uso regular de TARV?", "custo": 2, "relevante": true, "resposta": "Último CD4 conhecido era 45 células, e ele admite ter abandonado o tratamento antirretroviral há uns oito meses." },
     { "texto": "Como essa dor de cabeça evoluiu, foi súbita ou aos poucos?", "custo": 2, "relevante": true, "resposta": "Foi piorando bem devagar ao longo de três semanas, não foi um início súbito." },
     { "texto": "Teve febre alta junto com essa dor de cabeça?", "custo": 2, "relevante": true, "resposta": "Só febre baixa, intermitente, nada muito chamativo." },

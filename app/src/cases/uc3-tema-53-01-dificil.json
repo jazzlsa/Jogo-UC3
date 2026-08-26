@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Notou sangramento espontâneo de gengiva ou nariz, ou palidez importante?", "custo": 2, "relevante": false, "resposta": "Sem sangramentos espontâneos e sem palidez importante." },
     { "texto": "Essa criança viaja ou já morou em outras regiões do estado, visitando parentes?", "custo": 2, "relevante": true, "resposta": "Mora em Guarulhos, mas visita os avós em Ribeirão Preto periodicamente, uma região de área rural." },
     { "texto": "Ele já fez algum tratamento antes de chegar até aqui, e como respondeu?", "custo": 2, "relevante": true, "resposta": "Fez biópsia num outro hospital, foi iniciado tratamento de quimioterapia presumindo linfoma, mas ele piorou, com aumento da distensão abdominal e dor, precisando de UTI." },
     { "texto": "Teve tosse ou sintomas respiratórios junto com a febre?", "custo": 2, "relevante": true, "resposta": "Não teve tosse ou sintomas respiratórios relevantes." },

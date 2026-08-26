@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem acne importante ou pele muito oleosa (sinais de excesso de andrógeno circulante)?", "custo": 2, "relevante": false, "resposta": "Pele normal, sem acne ou oleosidade excessiva." },
     { "texto": "Como foi o desenvolvimento dos pelos pubianos e axilares, comparado com as mamas?", "custo": 2, "relevante": true, "resposta": "Os pelos pubianos e axilares são bem escassos, quase ausentes, bem diferente do desenvolvimento das mamas." },
     { "texto": "Já sentiu algum tipo de cólica menstrual, mesmo sem sangramento?", "custo": 2, "relevante": true, "resposta": "Nunca sentiu nada parecido com cólica menstrual." },
     { "texto": "Tem histórico familiar de parentes mulheres (tias, primas maternas) com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Uma tia materna também nunca menstruou e teve investigação parecida quando jovem." },

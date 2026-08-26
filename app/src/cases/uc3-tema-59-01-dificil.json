@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Consumiu mel ou alimento enlatado caseiro recentemente?", "custo": 2, "relevante": false, "resposta": "Não consumiu mel nem alimento enlatado caseiro." },
     { "texto": "A caderneta de vacinação dele está completa, incluindo a vacina contra poliomielite?", "custo": 2, "relevante": true, "resposta": "A caderneta está incompleta, faltam algumas doses, incluindo reforços recentes." },
     { "texto": "O que aconteceu na saúde dele nos dias antes da fraqueza na perna começar?", "custo": 2, "relevante": true, "resposta": "Teve febre e diarreia por alguns dias, que melhoraram parcialmente antes da fraqueza aparecer." },
     { "texto": "A fraqueza afeta só uma perna ou os dois lados igualmente?", "custo": 2, "relevante": true, "resposta": "Só a perna direita está fraca, a esquerda está normal." },

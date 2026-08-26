@@ -36,6 +36,7 @@
     { "texto": "Quanto tempo exatamente entre a reperfusão do enxerto e o problema aparecer?", "custo": 2, "relevante": true, "resposta": "Foi quase imediato, em poucos minutos após a reperfusão." }
   ],
   "exameFisico": [
+    { "texto": "Tempo de isquemia fria do enxerto (armazenamento entre a retirada e o transplante)", "custo": 3, "relevante": false, "resposta": "Dentro do tempo recomendado, sem prolongamento que justificasse necrose tubular por isquemia." },
     { "texto": "Inspeção do aspecto do enxerto (cor, turgor)", "custo": 3, "relevante": true, "resposta": "Enxerto com aspecto cianótico e moteado, sem o turgor esperado de um rim bem perfundido." },
     { "texto": "Avaliação de débito urinário pelo cateter", "custo": 3, "relevante": true, "resposta": "Ausência completa de débito urinário desde a reperfusão." },
     { "texto": "Palpação da região do enxerto (dor, tensão)", "custo": 3, "relevante": false, "resposta": "Discreta tensão local, sem sinais de sangramento ativo evidente." }

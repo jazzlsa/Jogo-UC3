@@ -29,6 +29,7 @@
     ]
   },
   "anamnese": [
+    { "texto": "Tem histórico de artrite reumatoide ou outra doença inflamatória crônica de longa data?", "custo": 2, "relevante": false, "resposta": "Não tem histórico de artrite reumatoide ou doença inflamatória crônica." },
     { "texto": "Tem histórico familiar de neuropatia progressiva ou problemas cardíacos?", "custo": 2, "relevante": true, "resposta": "O pai teve um quadro parecido de formigamento nos pés e problema no coração antes de falecer." },
     { "texto": "Já teve síndrome do túnel do carpo, e foi de um lado só ou dos dois?", "custo": 2, "relevante": true, "resposta": "Foi operado dos dois punhos de túnel do carpo, com poucos anos de diferença entre um e outro." },
     { "texto": "Tem diabetes diagnosticada?", "custo": 2, "relevante": true, "resposta": "Não tem diagnóstico de diabetes, glicemia sempre foi normal." },
