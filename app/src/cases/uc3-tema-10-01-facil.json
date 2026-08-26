@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-10-01-facil",
   "tema": "Tema 10 · Controle hormonal e regulação do metabolismo",
-  "materia_relacionada": "Este caso aplica o eixo hipotálamo-hipófise-tireoide e o mecanismo de retroalimentação negativa (TSH alto quando a tireoide falha) — visto na aula sobre controle hormonal e regulação do metabolismo.",
+  "materia_relacionada": "Este caso aplica o eixo hipotálamo-hipófise-tireoide: TRH estimula TSH, que estimula a tireoide a produzir T3/T4, que por sua vez inibem a própria hipófise (retroalimentação negativa). Quando a tireoide falha (aqui, por autoimunidade — Hashimoto, confirmada pelo anti-TPO), a hipófise perde esse freio e aumenta o TSH numa tentativa de compensar, tornando o TSH alto o marcador mais sensível de hipotireoidismo primário, mais sensível até que a dosagem direta de T4. Clinicamente, cada sintoma reflete a queda do metabolismo basal: menos termogênese (intolerância ao frio), menos renovação celular (pele seca, queda de cabelo) e menos sensibilidade adrenérgica (bradicardia, reflexos lentificados).",
   "area": "Endocrinologia",
   "prova": "P1",
   "dificuldade": "facil",

@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-09-01-facil",
   "tema": "Tema 09 · Fundamentos da patologia celular",
-  "materia_relacionada": "Este caso ilustra o conceito de lesão celular reversível vs. irreversível — o hepatócito sob estresse metabólico ainda vivo, só com morfologia alterada — visto na aula sobre fundamentos da patologia celular.",
+  "materia_relacionada": "Este caso ilustra lesão celular reversível: sob excesso de álcool ou açúcar, o hepatócito desvia o metabolismo pra síntese de triglicerídeos, que se acumulam em vacúolos citoplasmáticos — a célula muda de forma mas continua com a maquinaria de síntese proteica e as membranas intactas, por isso a função (e as transaminases) fica só discretamente alterada. Isso é diferente da necrose (lesão irreversível) vista no próximo caso desse par: aqui, removendo o estímulo (parar de beber, perder peso), o hepatócito literalmente volta ao normal — reversibilidade que deixa de existir quando a célula morre de verdade.",
   "area": "Patologia geral",
   "prova": "P1",
   "dificuldade": "facil",

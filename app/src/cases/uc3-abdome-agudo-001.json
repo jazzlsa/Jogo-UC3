@@ -1,7 +1,7 @@
 {
   "id": "uc3-abdome-agudo-001",
   "tema": "Caso exemplo · Abdome agudo inflamatório",
-  "materia_relacionada": "Este caso aplica a fisiopatologia da dor visceral referida e da irritação peritoneal — a migração da dor (periumbilical → fossa ilíaca direita) é o achado-chave que separa abdome agudo inflamatório de outros diagnósticos diferenciais de dor abdominal.",
+  "materia_relacionada": "Este caso aplica a fisiopatologia da dor visceral referida e da irritação peritoneal parietal: a distensão inicial do apêndice ativa fibras aferentes viscerais que convergem no dermátomo T10 (por isso a dor periumbilical mal localizada), e só quando a inflamação atinge o peritônio parietal adjacente — rico em terminações somáticas — a dor migra e se localiza precisamente na fossa ilíaca direita. Isso também explica por que Blumberg e Rovsing (sinais de irritação peritoneal) só aparecem nessa segunda fase, e por que a leucocitose com desvio reforça um processo infeccioso em curso, não só inflamação estéril.",
   "area": "Cirurgia geral",
   "prova": "P1",
   "dificuldade": "medio",

@@ -1,7 +1,7 @@
 {
   "id": "uc3-pneumonia-dpoc-001",
   "tema": "Tema 06 · Correlação radiologia-patologia em doenças pulmonares",
-  "materia_relacionada": "Este caso aplica os sinais radiológicos clássicos (sinal da silhueta, hiperinsuflação) e a fisiopatologia do comprometimento do clearance mucociliar em fumantes crônicos — conteúdo da aula sobre correlação entre radiologia e patologia em doenças pulmonares.",
+  "materia_relacionada": "Este caso aplica os sinais radiológicos clássicos (sinal da silhueta, que localiza a consolidação pela estrutura mediastinal que ela apaga; hiperinsuflação, sinal de destruição alveolar crônica) e a fisiopatologia da defesa pulmonar: o tabagismo crônico paralisa os cílios do epitélio respiratório e destrói a arquitetura alveolar (enfisema), reduzindo o clearance mucociliar que normalmente varre bactérias pra fora das vias aéreas. Isso cria terreno fértil pra infecção bacteriana secundária — e a hipoxemia com retenção de CO₂ na gasometria reflete tanto o espaço morto do enfisema quanto o shunt criado pela consolidação, os dois mecanismos que a aula de correlação radiologia-patologia detalha.",
   "area": "Pneumologia",
   "prova": "P1",
   "dificuldade": "medio",

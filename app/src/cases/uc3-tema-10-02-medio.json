@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-10-02-medio",
   "tema": "Tema 10 · Controle hormonal e regulação do metabolismo",
-  "materia_relacionada": "Este caso mostra o extremo oposto do caso anterior no mesmo eixo hormonal — o que acontece quando o metabolismo acelera descontroladamente — reforçando por que esse desequilíbrio é uma emergência endócrina, dentro da aula sobre controle hormonal e metabolismo.",
+  "materia_relacionada": "Este caso mostra o extremo oposto do eixo hormonal do caso anterior desse par: aqui o TSH está suprimido (a hipófise está sendo inibida por excesso de hormônio, não tentando compensar), e o excesso de T3/T4 livre amplifica a resposta adrenérgica em todos os tecidos — daí o metabolismo acelerado ao extremo (febre desproporcional, taquicardia extrema podendo virar fibrilação atrial, agitação do sistema nervoso central). Um fator estressor (aqui, a cirurgia recente) desencadeia a descompensação num hipertireoidismo de base mal controlado. O tratamento ataca a cascata em cada etapa: tionamida bloqueia a síntese nova de hormônio, iodo bloqueia a liberação do que já está estocado (só depois da tionamida, senão alimenta a síntese), e o betabloqueador neutraliza os efeitos adrenérgicos periféricos enquanto os outros fazem efeito.",
   "area": "Endocrinologia",
   "prova": "P1",
   "dificuldade": "medio",

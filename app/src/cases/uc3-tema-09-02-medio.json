@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-09-02-medio",
   "tema": "Tema 09 · Fundamentos da patologia celular",
-  "materia_relacionada": "Este caso ilustra a necrose de coagulação — o tipo de morte celular irreversível vista no infarto — em contraste direto com a lesão reversível do caso anterior, ambos da aula sobre fundamentos da patologia celular.",
+  "materia_relacionada": "Este caso ilustra necrose de coagulação, o tipo de morte celular do infarto: a oclusão coronariana interrompe o oxigênio, e depois de 20-40 minutos as enzimas líticas da própria célula são desnaturadas pelo pH ácido intracelular — paradoxalmente, isso preserva a arquitetura do tecido morto por um tempo (dá pra reconhecer a área infartada ao microscópio), porque as enzimas que digeririam a célula também estão inativadas. É o oposto da necrose liquefativa do sistema nervoso central, onde enzimas lisossomais digerem o tecido rapidamente. A troponina sobe porque a membrana celular rompida libera essa proteína estrutural pra circulação, e continua subindo enquanto a necrose progride — por isso a segunda dosagem em ascensão confirma o processo em curso.",
   "area": "Cardiologia",
   "prova": "P1",
   "dificuldade": "medio",

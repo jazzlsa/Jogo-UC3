@@ -37,10 +37,27 @@ async function boot() {
   render();
 }
 
+/* Embaralha um array in-place (Fisher-Yates). Usado pra randomizar a ordem
+   de exibição de hipoteses/condutas — sem isso, a opção correta tende a
+   ficar sempre na mesma posição (achado real: nos 21 casos atuais, tanto a
+   hipótese quanto a conduta corretas estavam sempre no índice 0, dava pra
+   "ganhar" só clicando na primeira opção sempre). Embaralhando aqui, uma
+   vez por carregamento do caso, o problema fica resolvido de vez — pra
+   qualquer caso, atual ou futuro, não importa a ordem em que foi escrito. */
+function embaralharArray(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
 async function selecionarCaso(arquivo, modoAvaliacao) {
   try {
     const res = await fetch(`cases/${arquivo}`);
     const caso = await res.json();
+    embaralharArray(caso.hipoteses);
+    embaralharArray(caso.condutas);
     novoJogo(caso, modoAvaliacao || null);
   } catch (e) {
     console.error(`Falha ao carregar cases/${arquivo}`, e);
@@ -336,7 +353,7 @@ function comoJogarHTML() {
     <div class="intro-panel">
       <p class="intro-panel-title">Como jogar</p>
       <p>Você é o médico(a). Cada caso simula um paciente chegando com uma queixa, e você percorre <strong>6 etapas</strong> até fechar o diagnóstico e a conduta: anamnese → exame físico → hipóteses diagnósticas → exames complementares → diagnóstico final → conduta. Dá pra voltar etapas anteriores a qualquer momento pra reler o que já descobriu.</p>
-      <p><strong>Nota</strong> é o seu orçamento de investigação — cada pergunta, manobra de exame ou exame complementar que você escolhe custa nota, relevante ou não pro diagnóstico. Investigar sem critério esgota a nota antes da hora; investigar de menos deixa achados importantes de fora.</p>
+      <p><strong>Nota</strong> (no topo da tela) é o seu orçamento durante o caso — cada pergunta, manobra de exame ou exame complementar consome um pouco, relevante ou não. Mas atenção: a nota final do caso não premia quem simplesmente não investiga nada — o bônus de eficiência só conta pontos por achado <strong>relevante</strong> que você realmente foi atrás, descontando o que foi gasto à toa em distratores. Ou seja: dá pra reprovar por excesso de investigação desnecessária E por preguiça de investigar.</p>
       <p>O professor <strong>Burns</strong> comenta em alguns momentos do caso, e você pode clicar em <strong>"Pedir dica ao Burns"</strong> quando estiver travado — as dicas nunca entregam o diagnóstico, só apontam a direção do raciocínio.</p>
       <p>No <strong>Desafio</strong>, o jogo sorteia ${DESAFIO_TAMANHO} casos aleatórios (sem repetir) e sua <strong>nota final</strong> é a média de todos — precisa de <strong>${NOTA_MINIMA_APROVACAO}</strong> pra passar, igual UC3 de verdade. Reprovou? Você pode tentar uma <strong>recuperação</strong>: ${RECUPERACAO_TAMANHO} casos difíceis, precisa acertar o diagnóstico de pelo menos ${RECUPERACAO_MINIMO_ACERTOS} pra passar — e, se passar, sua nota final vira exatamente ${NOTA_APROVACAO_RECUPERACAO}.</p>
     </div>`;
@@ -560,6 +577,27 @@ function wireStage(stage) {
   if (irRankingBtn) irRankingBtn.addEventListener("click", () => { avaliacaoAtual = null; state.screen = "ranking"; render(); });
 }
 
+/* Eficiência da investigação: NÃO é mais "quanta nota sobrou" (isso premiava
+   quem não perguntava nada e não examinava nada, mesmo acertando tudo no
+   chute — ganhava o bônus cheio do mesmo jeito). Agora é baseada em quantos
+   dos itens REALMENTE relevantes do caso foram investigados, descontando
+   itens irrelevantes escolhidos — precisa investigar direito pra pontuar
+   aqui, não só evitar gastar. */
+function calcularEficiencia(caso) {
+  const todos = [
+    ...caso.anamnese.map((it, i) => ({ it, escolhido: state.anamnesePicked.includes(i) })),
+    ...caso.exameFisico.map((it, i) => ({ it, escolhido: state.examePicked.includes(i) })),
+    ...caso.exames.map((it, i) => ({ it, escolhido: state.examesPicked.includes(i) })),
+  ];
+  const relevantes = todos.filter(x => x.it.relevante);
+  const relevantesEscolhidos = relevantes.filter(x => x.escolhido).length;
+  const irrelevantesEscolhidos = todos.filter(x => !x.it.relevante && x.escolhido).length;
+
+  const cobertura = relevantes.length > 0 ? relevantesEscolhidos / relevantes.length : 1;
+  const bruto = cobertura * 100 - irrelevantesEscolhidos * 10;
+  return Math.max(0, Math.round(bruto));
+}
+
 function renderResultado() {
   const caso = state.caso;
   const diagCorretoIdx = caso.hipoteses.findIndex(h => h.correta);
@@ -573,7 +611,7 @@ function renderResultado() {
     hip1: hipPrimeiraCerta ? 20 : 0,
     diag: diagCerto ? 40 : 0,
     cond: condutaCerta ? 30 : 0,
-    efic: state.pi,
+    efic: calcularEficiencia(caso),
   };
   const total = pts.hip + pts.hip1 + pts.diag + pts.cond + pts.efic;
 
@@ -598,7 +636,7 @@ function renderResultado() {
       <tr><td>Hipótese correta em 1º lugar</td><td>${hipPrimeiraCerta ? "+20" : "0"}</td></tr>
       <tr><td>Diagnóstico final correto</td><td>${diagCerto ? "+40" : "0"}</td></tr>
       <tr><td>Conduta correta</td><td>${condutaCerta ? "+30" : "0"}</td></tr>
-      <tr><td>Eficiência (nota restante)</td><td>+${pts.efic}</td></tr>
+      <tr><td>Eficiência (achados relevantes investigados, sem desperdício)</td><td>+${pts.efic}</td></tr>
       <tr class="total"><td>Nota do caso</td><td>${notaDoTotal(total).toFixed(1)} / 10</td></tr>
     </table>
     <button class="hint-btn" data-toggle-revisao>${state.mostrarRevisao ? "Esconder revisão detalhada" : "📋 Ver revisão detalhada do caso"}</button>

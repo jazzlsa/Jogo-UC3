@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-05-01-facil",
   "tema": "Tema 05 · Princípios da tomografia computadorizada",
-  "materia_relacionada": "Este caso aplica os critérios clínicos que decidem quando pedir (ou não pedir) tomografia de crânio após um trauma — conteúdo da aula sobre princípios da tomografia computadorizada.",
+  "materia_relacionada": "Este caso aplica os critérios clínicos (tipo Canadian CT Head Rule) que decidem quando uma tomografia de crânio realmente muda a conduta: perda de consciência, vômitos repetidos, uso de anticoagulante, idade avançada e Glasgow < 15 são os fatores que aumentam o risco de uma lesão intracraniana cirurgicamente relevante o bastante pra justificar a radiação. Sem nenhum desses fatores, o risco de uma lesão que exigiria intervenção é baixo o suficiente pra observação clínica ser tão segura quanto pedir o exame — a lógica de 'usar a ferramenta certa, não a mais cara' que a aula de tomografia computadorizada reforça.",
   "area": "Neurologia",
   "prova": "P1",
   "dificuldade": "facil",

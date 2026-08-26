@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-05-medio",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso usa a tomografia como exame de escolha pra dor em fossa ilíaca esquerda com sinais inflamatórios — conteúdo da aula sobre ferramentas do diagnóstico radiológico.",
+  "materia_relacionada": "Este caso trabalha por que a TC (não o USG) é o exame de escolha pra dor em fossa ilíaca esquerda com febre: o gás intestinal atenua o feixe ultrassônico, igual no caso de isquemia mesentérica, mas aqui a TC também classifica a gravidade (classificação de Hinchey), diferenciando um quadro inflamatório simples de um já complicado por abscesso ou perfuração — informação que muda diretamente a conduta entre tratamento clínico e cirurgia de urgência. A diverticulite em si nasce da microperfuração de um divertículo obstruído por fecalito, e por acometer o sigmoide (à esquerda) é conhecida como 'a apendicite do lado esquerdo'.",
   "area": "Gastroenterologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -48,9 +48,9 @@
     "piBaixo": "Cuidado com a cota de investigação! No SUS ou no privado, pedir exames sem critério esgota seus recursos e não traz a resposta que o paciente precisa.",
     "fechamento": "Excelente raciocínio! A Tomografia foi o exame preciso aqui, pois a ultrassonografia é limitada pelo gás das alças intestinais. Saber indicar o método correto economiza recursos e fecha o diagnóstico.",
     "dicas": [
-      "Dor do lado esquerdo do abdome, num paciente mais velho, com febre — pensa numa estrutura colônica que forma pequenas bolsas com a idade.",
-      "Constipação crônica é um fator de risco importante pra essa condição.",
-      "Pensa no que diferencia um quadro simples de um já complicado (abscesso, perfuração) na tomografia."
+      "Releia onde exatamente a dor está localizada e há quanto tempo ela vem incomodando.",
+      "Pensa em como o aumento de pressão dentro do cólon, ao longo dos anos, pode formar pontos fracos na parede intestinal.",
+      "A obstrução de um desses pontos fracos por fezes endurecidas pode inflamar e até microperfurar — em qual segmento do cólon isso é mais comum no ocidente?"
     ]
   },
   "anamnese": [

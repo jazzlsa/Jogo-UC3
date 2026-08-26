@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-07-01-medio",
   "tema": "Tema 07 · Organização e Funcionamento do Sistema Imune",
-  "materia_relacionada": "Este caso mostra na prática por que o baço — um órgão linfoide secundário — é essencial pra defesa contra bactérias encapsuladas, ligando direto com a aula sobre organização e funcionamento do sistema imune.",
+  "materia_relacionada": "Este caso mostra na prática o papel do baço como órgão linfoide secundário: seus macrófagos fazem a 'limpeza' do sangue, opsonizando e fagocitando bactérias encapsuladas (pneumococo, meningococo, H. influenzae tipo b) que escapam da resposta por anticorpo isolada — essas bactérias têm cápsula de polissacarídeo justamente pra resistir à fagocitose sem essa filtragem extra. Sem baço, a bacteremia por esses organismos pode evoluir pra sepse fulminante (OPSI) em poucas horas, com coagulação intravascular disseminada (as lesões purpúricas) refletindo o consumo maciço de fatores de coagulação pela resposta inflamatória descontrolada — por isso a conduta não espera confirmação laboratorial, é clínica e imediata.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "medio",

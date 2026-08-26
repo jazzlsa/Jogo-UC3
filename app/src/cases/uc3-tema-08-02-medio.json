@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-08-02-medio",
   "tema": "Tema 08 · Reconhecimento inato e receptores de padrão",
-  "materia_relacionada": "Este caso aplica o mecanismo de 'explosão respiratória' dos fagócitos — como neutrófilos e macrófagos matam o que fagocitam — visto na aula sobre reconhecimento inato e receptores de padrão do sistema imune.",
+  "materia_relacionada": "Este caso aplica o mecanismo de 'explosão respiratória' (burst oxidativo): depois de fagocitar um micro-organismo, o fagócito normal monta o complexo NADPH oxidase na membrana do fagossomo, gerando espécies reativas de oxigênio que destroem o que foi engolido. Sem essa enzima funcional, a fagocitose acontece normalmente, mas o micro-organismo sobrevive dentro da célula — daí infecções de repetição por organismos que decompõem o pouco peróxido residual que sobra (catalase-positivos: S. aureus, Aspergillus, Serratia), e a formação de granulomas como tentativa malsucedida do corpo de conter o que não consegue matar. O teste de DHR mede diretamente essa capacidade oxidativa, por isso é o exame confirmatório.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "medio",

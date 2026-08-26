@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-08-01-facil",
   "tema": "Tema 08 · Reconhecimento inato e receptores de padrão",
-  "materia_relacionada": "Este caso aplica o conceito de moléculas de adesão e recirculação leucocitária — a 'sinalização de endereço' que leva neutrófilos até o tecido infectado — visto na aula sobre organização e funcionamento do sistema imune.",
+  "materia_relacionada": "Este caso aplica o conceito de moléculas de adesão e recirculação leucocitária: neutrófilos circulam livremente no sangue até um sinal inflamatório local (quimiocinas) ativar integrinas de superfície como o CD18, que permitem a adesão firme ao endotélio vascular e a migração (diapedese) pro tecido infectado. Sem CD18 funcional, o neutrófilo fica preso na circulação — daí a leucocitose intensa (eles não conseguem sair) e a ausência completa de pus (pus é, por definição, neutrófilos mortos no tecido, e eles nunca chegam lá). O atraso na queda do coto umbilical acontece pelo mesmo motivo: a separação do coto depende de neutrófilos migrando até ali pra digerir o tecido necrótico.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "facil",

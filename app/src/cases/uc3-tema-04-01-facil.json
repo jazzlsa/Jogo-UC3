@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-04-01-facil",
   "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
-  "materia_relacionada": "Este caso trabalha o uso do ultrassom como exame de escolha pra avaliação de vesícula biliar — conteúdo da aula sobre princípios da radiografia convencional e ultrassonografia.",
+  "materia_relacionada": "Este caso aplica os princípios físicos do ultrassom vistos na aula sobre radiografia convencional e ultrassonografia: o feixe sonoro reflete fortemente em interfaces de densidade muito diferente (cálculo vs. bile), gerando o eco hiperecogênico com sombra acústica posterior — o cálculo literalmente bloqueia o som, criando uma sombra atrás dele na imagem. Clinicamente, a colecistocinina liberada após gordura contrai a vesícula contra esse cálculo impactado, e a ausência de febre/leucocitose/Murphy é o que descarta colecistite e mantém a indicação cirúrgica eletiva, não de urgência.",
   "area": "Gastroenterologia",
   "prova": "P1",
   "dificuldade": "facil",

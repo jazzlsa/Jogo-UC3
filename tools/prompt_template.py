@@ -42,10 +42,13 @@ fracos).
 - `exames` (complementares) custam mais PI que anamnese/exame físico.
 - `hipoteses` precisa ter exatamente UMA entrada com `correta: true` — as \
 demais são diagnósticos diferenciais plausíveis pro mesmo quadro, difíceis de \
-descartar de cara.
+descartar de cara. IMPORTANTE: varie em qual posição da lista a entrada \
+correta aparece (não sempre a primeira) — o motor do jogo já embaralha a \
+ordem de exibição, mas a posição no JSON não pode virar um padrão previsível.
 - `condutas` precisa ter exatamente UMA entrada com `correta: true` — as \
 erradas devem ser condutas plausíveis (não caricatas), erradas por um motivo \
-específico (cedo demais, exame errado, faltou um passo).
+específico (cedo demais, exame errado, faltou um passo). Mesma regra: varie \
+a posição da conduta correta na lista, não sempre a primeira.
 - `tema` é a categoria GERAL mostrada na tela de seleção de caso, ANTES do \
 jogador jogar — comece com o identificador do material de origem quando ele \
 vier no material de referência (ex.: "Tema 07 · Organização e Funcionamento \
