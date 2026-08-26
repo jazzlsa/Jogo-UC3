@@ -670,5 +670,21 @@
     "area": "Nefrologia/Urologia",
     "prova": "P3",
     "arquivo": "uc3-tema-64-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-65-01-medio",
+    "tema": "Tema 65 · Reparo Tecidual e Cicatrização de Feridas",
+    "dificuldade": "medio",
+    "area": "Outra",
+    "prova": "P3",
+    "arquivo": "uc3-tema-65-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-66-01-dificil",
+    "tema": "Tema 66 · Imunologia de Transplante",
+    "dificuldade": "dificil",
+    "area": "Nefrologia/Urologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-66-01-dificil.json"
   }
 ]

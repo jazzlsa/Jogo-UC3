@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-65-01-medio",
+  "tema": "Tema 65 · Reparo Tecidual e Cicatrização de Feridas",
+  "materia_relacionada": "Este caso aplica um cofator essencial da síntese de colágeno visto na aula sobre reparo tecidual: sem esse cofator, as enzimas que formam as ligações cruzadas do colágeno não funcionam direito, produzindo um colágeno frágil que compromete ao mesmo tempo a cicatrização de feridas, a integridade de pequenos vasos e a saúde da gengiva.",
+  "area": "Outra",
+  "prova": "P3",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 76,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, minha gengiva sangra direto, apareceram uns roxos pelo corpo, e essa ferida da minha cirurgia de joelho de dois meses atrás nunca fechou direito.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "132/82", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "78", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhor de 76 anos, mora sozinho, gengiva sangrando, roxos pelo corpo e uma ferida cirúrgica que nunca cicatrizou direito. Antes de pensar em plaqueta ou coagulação, pergunta bem o que ele anda comendo.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O colágeno dele estava sendo fabricado, só que sem as amarras certas pra ficar firme. Faltava uma peça bem pequena nesse processo todo.",
+    "dicas": [
+      "Releia com atenção como tem sido a alimentação dele ultimamente, principalmente frutas e verduras frescas.",
+      "Pensa em qual vitamina funciona como cofator essencial pra uma enzima que ajuda a formar as ligações cruzadas do colágeno, e o que aconteceria com feridas, vasos pequenos e gengiva se essa vitamina faltasse.",
+      "Que deficiência vitamínica, causando colágeno mal formado, explica ao mesmo tempo sangramento gengival, hemorragias ao redor dos folículos capilares e uma ferida antiga que nunca cicatrizou direito?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como tem sido a alimentação dele ultimamente?", "custo": 2, "relevante": true, "resposta": "Mora sozinho e come muito pouca fruta ou verdura fresca, principalmente enlatados e comida processada." },
+    { "texto": "Usa algum anticoagulante de uso contínuo?", "custo": 2, "relevante": false, "resposta": "Não usa nenhum anticoagulante." },
+    { "texto": "Tem dor óssea ou nas articulações associada?", "custo": 2, "relevante": true, "resposta": "Sim, tem dor difusa nas pernas, que atribuiu à idade." },
+    { "texto": "Há alguma suspeita de queda ou machucado que não bata com a história contada?", "custo": 2, "relevante": false, "resposta": "A história contada é consistente, sem sinais de inconsistência que sugerissem outra causa para os hematomas." },
+    { "texto": "Notou emagrecimento importante ou cansaço extremo?", "custo": 2, "relevante": false, "resposta": "Sem emagrecimento importante ou cansaço extremo além do esperado pela idade." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção da gengiva", "custo": 3, "relevante": true, "resposta": "Gengivas edemaciadas, esponjosas e sangrantes ao toque leve." },
+    { "texto": "Inspeção de pele em busca de petéquias perifoliculares e pelos em saca-rolha", "custo": 3, "relevante": true, "resposta": "Petéquias ao redor dos folículos capilares nas pernas, com pelos de aspecto enrolado (\"em saca-rolha\")." },
+    { "texto": "Inspeção da ferida cirúrgica do joelho", "custo": 3, "relevante": true, "resposta": "Ferida com bordas mal aproximadas, tecido de granulação frágil, sem sinais de infecção." },
+    { "texto": "Inspeção de equimoses pelo corpo", "custo": 3, "relevante": false, "resposta": "Equimoses em diferentes fases de evolução, espalhadas principalmente nas pernas." }
+  ],
+  "hipoteses": [
+    { "texto": "Escorbuto (deficiência de vitamina C)", "correta": true },
+    { "texto": "Púrpura trombocitopênica idiopática", "correta": false },
+    { "texto": "Deficiência de vitamina K", "correta": false },
+    { "texto": "Leucemia", "correta": false },
+    { "texto": "Vasculite", "correta": false },
+    { "texto": "Lesões por abuso físico", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Dosagem de ácido ascórbico plasmático", "custo": 10, "relevante": true, "resposta": "Nível muito baixo, confirmando deficiência de vitamina C." },
+    { "texto": "Hemograma completo com contagem de plaquetas", "custo": 8, "relevante": true, "resposta": "Contagem de plaquetas normal, afastando púrpura trombocitopênica." },
+    { "texto": "Coagulograma (TP e TTPA)", "custo": 8, "relevante": true, "resposta": "Tempos de coagulação normais, afastando deficiência de vitamina K." },
+    { "texto": "Biópsia de pele da lesão perifolicular", "custo": 12, "relevante": true, "resposta": "Extravasamento de hemácias ao redor dos folículos pilosos, sem sinais de vasculite verdadeira." }
+  ],
+  "condutas": [
+    { "texto": "Repor vitamina C por via oral, orientar melhora da alimentação, e acompanhar a melhora esperada da cicatrização e do sangramento gengival", "correta": true },
+    { "texto": "Transfundir plaquetas", "correta": false },
+    { "texto": "Repor vitamina K", "correta": false },
+    { "texto": "Iniciar corticoide, tratando como vasculite", "correta": false }
+  ],
+  "explicacao": "A vitamina C é cofator essencial das enzimas prolil e lisil-hidroxilase, responsáveis por formar as ligações cruzadas que dão estabilidade e resistência às fibras de colágeno. Sem esse cofator, o colágeno produzido é estruturalmente frágil, comprometendo a cicatrização de feridas (explicando a ferida cirúrgica que nunca fechou direito), a integridade da parede de pequenos vasos ao redor dos folículos capilares (as petéquias perifoliculares características, com pelos em saca-rolha) e o tecido conjuntivo gengival (sangramento e edema gengival). Plaquetas e coagulograma normais afastam causas plaquetárias ou de coagulação para o sangramento, e a biópsia mostrando apenas extravasamento de hemácias, sem vasculite verdadeira, reforça que o problema é estrutural (colágeno defeituoso), não inflamatório. A reposição de vitamina C costuma trazer melhora clínica notável em poucas semanas, incluindo a cicatrização da ferida antiga."
+}

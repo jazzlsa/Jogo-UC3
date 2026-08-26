@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-66-01-dificil",
+  "tema": "Tema 66 · Imunologia de Transplante",
+  "materia_relacionada": "Este caso aplica o mecanismo de rejeição hiperaguda visto na aula de imunologia de transplante: um anticorpo pré-formado contra antígenos do doador, presente no receptor antes mesmo da cirurgia, ativa o complemento quase instantaneamente assim que o sangue volta a circular no enxerto, formando trombos nos pequenos vasos em questão de minutos, diferente da rejeição celular, que leva dias a se instalar.",
+  "area": "Nefrologia/Urologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 47,
+    "sexo": "F"
+  },
+  "queixa_principal": "A equipe cirúrgica relata: “Doutor, o rim transplantado dela ficou escurecido e parou de produzir urina poucos minutos depois de reperfundirmos o enxerto na sala de cirurgia.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/68", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "96", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.7", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 47 anos, transplante renal, o enxerto escureceu e parou de funcionar minutos depois de reperfundido. Minutos, não dias, esse detalhe de tempo já aponta o mecanismo.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O corpo dela já tinha a munição pronta antes mesmo da cirurgia começar. Só esperou o sangue voltar a circular pra disparar.",
+    "dicas": [
+      "Releia com atenção quanto tempo se passou entre o sangue voltar a circular no enxerto e o problema aparecer, minutos é bem diferente de dias.",
+      "Pensa em como um anticorpo que já existia na receptora antes mesmo da cirurgia, formado por uma exposição prévia (transfusão, gestação, outro transplante), pode atacar o novo órgão assim que o sangue volta a circular nele, ativando o complemento quase instantaneamente.",
+      "Que tipo de rejeição de transplante, mediada por anticorpo pré-formado contra antígenos do doador, ocorre em minutos após a reperfusão do enxerto, formando trombos nos pequenos vasos e tornando o órgão inviável quase de imediato?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Ela já recebeu transfusões de sangue múltiplas vezes antes?", "custo": 2, "relevante": true, "resposta": "Sim, recebeu várias transfusões ao longo de anos em diálise." },
+    { "texto": "Já teve gestações antes do transplante?", "custo": 2, "relevante": true, "resposta": "Teve três gestações antes de precisar de diálise." },
+    { "texto": "Já fez algum transplante anteriormente, mesmo que rejeitado?", "custo": 2, "relevante": true, "resposta": "Sim, teve um transplante renal rejeitado há oito anos." },
+    { "texto": "O crossmatch pré-transplante tinha sido feito e informado como negativo?", "custo": 2, "relevante": true, "resposta": "Sim, o crossmatch prévio foi informado como negativo." },
+    { "texto": "Quanto tempo exatamente entre a reperfusão do enxerto e o problema aparecer?", "custo": 2, "relevante": true, "resposta": "Foi quase imediato, em poucos minutos após a reperfusão." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção do aspecto do enxerto (cor, turgor)", "custo": 3, "relevante": true, "resposta": "Enxerto com aspecto cianótico e moteado, sem o turgor esperado de um rim bem perfundido." },
+    { "texto": "Avaliação de débito urinário pelo cateter", "custo": 3, "relevante": true, "resposta": "Ausência completa de débito urinário desde a reperfusão." },
+    { "texto": "Palpação da região do enxerto (dor, tensão)", "custo": 3, "relevante": false, "resposta": "Discreta tensão local, sem sinais de sangramento ativo evidente." }
+  ],
+  "hipoteses": [
+    { "texto": "Rejeição hiperaguda de transplante renal (mediada por anticorpo pré-formado)", "correta": true },
+    { "texto": "Rejeição aguda celular", "correta": false },
+    { "texto": "Trombose vascular do enxerto (causa cirúrgica/técnica)", "correta": false },
+    { "texto": "Necrose tubular aguda pós-transplante", "correta": false },
+    { "texto": "Rejeição aguda mediada por anticorpo (de instalação em dias)", "correta": false },
+    { "texto": "Nefrotoxicidade por inibidor de calcineurina", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Biópsia do enxerto", "custo": 16, "relevante": true, "resposta": "Trombose de capilares glomerulares e arteríolas, neutrófilos intravasculares e depósito de C4d, padrão característico de rejeição hiperaguda." },
+    { "texto": "Pesquisa de anticorpos anti-HLA específicos do doador (DSA) no soro armazenado pré-transplante", "custo": 16, "relevante": true, "resposta": "Anticorpos específicos contra antígenos do doador já presentes antes mesmo da cirurgia." },
+    { "texto": "Doppler do enxerto", "custo": 12, "relevante": true, "resposta": "Ausência de fluxo vascular no parênquima renal." },
+    { "texto": "Repetição do crossmatch com técnica mais sensível", "custo": 10, "relevante": true, "resposta": "Revela anticorpo específico contra o doador não detectado pelo método usado antes do transplante." }
+  ],
+  "condutas": [
+    { "texto": "Remover o enxerto imediatamente (o dano por trombose maciça é irreversível), retornar à diálise, e revisar o protocolo de triagem de anticorpos pré-transplante", "correta": true },
+    { "texto": "Aumentar a imunossupressão tentando salvar o enxerto", "correta": false },
+    { "texto": "Realizar trombólise isolada do enxerto", "correta": false },
+    { "texto": "Apenas observação, sem qualquer intervenção", "correta": false }
+  ],
+  "explicacao": "A rejeição hiperaguda ocorre quando o receptor já possui anticorpos pré-formados contra antígenos HLA do doador, geralmente por sensibilização prévia (transfusões, gestações ou transplante anterior). Assim que o enxerto é reperfundido, esses anticorpos se ligam ao endotélio vascular do órgão e ativam o complemento quase instantaneamente, causando trombose maciça dos pequenos vasos em minutos, tornando o órgão inviável de forma irreversível, ao contrário da rejeição celular (que leva dias, mediada por linfócitos T) ou da rejeição aguda mediada por anticorpo mais tardia. A biópsia com trombose, neutrófilos intravasculares e depósito de C4d, junto à confirmação retrospectiva de anticorpos específicos contra o doador não detectados pelo crossmatch inicial, confirma o mecanismo. Como o dano é irreversível em minutos, não há tratamento que salve o enxerto nesse estágio, sendo necessária a remoção cirúrgica e a revisão do protocolo de triagem imunológica pré-transplante para evitar recorrência em futuros procedimentos."
+}
