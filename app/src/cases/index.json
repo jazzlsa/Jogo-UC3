@@ -686,5 +686,21 @@
     "area": "Nefrologia/Urologia",
     "prova": "P3",
     "arquivo": "uc3-tema-66-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-67-01-medio",
+    "tema": "Tema 67 · Imunidade de Mucosas",
+    "dificuldade": "medio",
+    "area": "Gastroenterologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-67-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-68-01-dificil",
+    "tema": "Tema 68 · Grand Round: Patologia do Sarampo",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-68-01-dificil.json"
   }
 ]

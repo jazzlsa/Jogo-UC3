@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-68-01-dificil",
+  "tema": "Tema 68 · Grand Round: Patologia do Sarampo",
+  "materia_relacionada": "Este caso, baseado no Grand Round sobre patologia do sarampo discutido em aula, mostra uma complicação tardia rara e devastadora: o vírus do sarampo pode persistir de forma latente dentro do sistema nervoso central por anos após uma infecção aguda aparentemente resolvida, causando um dano neurológico lento e progressivo muito tempo depois, longe de qualquer suspeita óbvia de causa viral.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 11,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, meu filho vem piorando na escola há uns quatro meses, esquece tudo, muda de comportamento do nada, e agora começou a ter uns abalos musculares súbitos, tipo choques, várias vezes por dia.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/68", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "84", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menino de 11 anos, declínio cognitivo progressivo há meses e abalos musculares súbitos. Pergunta bem lá atrás na história dele, teve sarampo quando era pequeno?",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O vírus nunca tinha ido embora de verdade. Ficou escondido lá dentro, quietinho, esperando anos pra causar esse estrago.",
+    "dicas": [
+      "Releia com atenção se ele teve sarampo quando era bem pequeno, mesmo há muitos anos, e se foi vacinado contra essa doença depois.",
+      "Pensa em como um vírus, mesmo depois da infecção aguda parecer totalmente resolvida, pode ficar escondido dentro do sistema nervoso central por anos, causando um dano lento e progressivo bem mais tarde.",
+      "Que complicação tardia e rara do sarampo, ocorrendo anos depois da infecção original (geralmente adquirida na primeira infância), causa declínio cognitivo progressivo e mioclonias, com título de anticorpo antissarampo muito elevado no líquor e um padrão bem característico no eletroencefalograma?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Ele teve sarampo quando era pequeno, e foi vacinado depois?", "custo": 2, "relevante": true, "resposta": "Teve sarampo confirmado antes dos 2 anos de idade, antes de completar o esquema vacinal." },
+    { "texto": "Como esse declínio cognitivo e de comportamento vem evoluindo?", "custo": 2, "relevante": true, "resposta": "Vem piorando progressivamente há cerca de quatro meses, com queda de rendimento escolar e mudanças de personalidade." },
+    { "texto": "Como são exatamente esses abalos musculares?", "custo": 2, "relevante": true, "resposta": "São abalos súbitos, breves, que acontecem várias vezes ao dia, às vezes derrubando objetos das mãos." },
+    { "texto": "Tem histórico familiar de doença neurológica degenerativa rara?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de doença neurológica degenerativa conhecida." },
+    { "texto": "Usa alguma substância ou medicação que pudesse explicar esse quadro?", "custo": 2, "relevante": false, "resposta": "Não usa nenhuma substância ou medicação relevante." }
+  ],
+  "exameFisico": [
+    { "texto": "Observação de mioclonias durante a consulta", "custo": 3, "relevante": true, "resposta": "Mioclonias generalizadas periódicas observadas durante o exame." },
+    { "texto": "Avaliação cognitiva breve", "custo": 3, "relevante": true, "resposta": "Deterioração evidente de funções cognitivas superiores em relação ao esperado para a idade." },
+    { "texto": "Avaliação de sinais neurológicos focais", "custo": 3, "relevante": false, "resposta": "Sem déficit focal evidente neste momento." }
+  ],
+  "hipoteses": [
+    { "texto": "Panencefalite esclerosante subaguda (PEES) por sarampo", "correta": true },
+    { "texto": "Doença de Creutzfeldt-Jakob", "correta": false },
+    { "texto": "Epilepsia mioclônica juvenil", "correta": false },
+    { "texto": "Encefalite autoimune", "correta": false },
+    { "texto": "Tumor cerebral", "correta": false },
+    { "texto": "Intoxicação medicamentosa/metabólica", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Eletroencefalograma", "custo": 14, "relevante": true, "resposta": "Complexos periódicos de ondas lentas de alta amplitude, sincronizados com as mioclonias." },
+    { "texto": "Análise do líquor com título de anticorpos antissarampo", "custo": 16, "relevante": true, "resposta": "Título de anticorpos IgG antissarampo muito elevado no líquor, com bandas oligoclonais." },
+    { "texto": "Ressonância magnética de crânio", "custo": 14, "relevante": true, "resposta": "Alterações difusas de substância branca com atrofia progressiva." },
+    { "texto": "Biópsia cerebral", "custo": 18, "relevante": false, "resposta": "Não realizada; o diagnóstico já ficou estabelecido pela combinação clínica, eletroencefalográfica e sorológica liquórica." }
+  ],
+  "condutas": [
+    { "texto": "Tratamento de suporte e anticonvulsivante para controle das mioclonias, considerar terapia antiviral/imunomoduladora para tentar retardar a progressão, e reforçar a importância da vacinação para prevenção primária", "correta": true },
+    { "texto": "Iniciar aciclovir isolado, tratando como encefalite herpética", "correta": false },
+    { "texto": "Iniciar corticoide em altas doses isolado, tratando como encefalite autoimune", "correta": false },
+    { "texto": "Iniciar quimioterapia, tratando como tumor cerebral", "correta": false }
+  ],
+  "explicacao": "A panencefalite esclerosante subaguda é uma complicação tardia e rara do sarampo, causada pela persistência do vírus dentro do sistema nervoso central por anos após a infecção aguda, geralmente adquirida antes dos 2 anos de idade em crianças não vacinadas a tempo. O vírus persistente causa gliose, desmielinização, perda neuronal e infiltração linfoide perivascular, explicando o declínio cognitivo e comportamental progressivo e as mioclonias. O eletroencefalograma com complexos periódicos característicos e o título extremamente elevado de anticorpos antissarampo no líquor (desproporcional ao soro, com bandas oligoclonais) confirmam o diagnóstico, diferenciando-o de outras causas de declínio cognitivo com mioclonia, como a doença de Creutzfeldt-Jakob. Não existe cura estabelecida, e o prognóstico é reservado, o que reforça a importância da vacinação como a única forma real de evitar essa complicação, já que ela decorre diretamente da infecção natural pelo vírus selvagem do sarampo."
+}

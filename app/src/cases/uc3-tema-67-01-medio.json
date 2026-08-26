@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-67-01-medio",
+  "tema": "Tema 67 · Imunidade de Mucosas",
+  "materia_relacionada": "Este caso aplica a perda de tolerância imunológica de mucosa vista na aula: a mucosa intestinal normalmente tolera proteínas alimentares, mas em pessoas geneticamente predispostas, uma resposta imune montada contra uma proteína específica do trigo destrói progressivamente a própria estrutura absortiva do intestino, uma falha pontual e bem definida da imunidade de mucosas, não uma infecção.",
+  "area": "Gastroenterologia",
+  "prova": "P3",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 27,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutora, tenho diarreia gordurosa há meses, principalmente depois de comer pão ou massa, emagreci bastante, e apareceu uma coceira insuportável com bolhinhas nos cotovelos.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/68", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "92", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 27 anos, diarreia gordurosa que piora com pão e massa, emagrecimento e uma coceira com bolhinhas nos cotovelos. Repara bem na ligação entre o que ela come e como ela piora.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O intestino dela parou de tolerar uma proteína que deveria ser só mais um alimento qualquer. E foi se destruindo aos poucos por causa disso.",
+    "dicas": [
+      "Releia com atenção se os sintomas pioram especificamente depois de comer pão, massa ou outros alimentos com uma certa proteína, e observa bem essa lesão de pele que coça nos cotovelos e joelhos.",
+      "Pensa em como a mucosa intestinal pode perder a tolerância a uma proteína alimentar específica, montando uma resposta imune contra ela que acaba destruindo a própria estrutura de absorção do intestino.",
+      "Que doença, causada por uma resposta imune de mucosa contra o glúten, danifica as vilosidades intestinais o suficiente pra causar má absorção e anemia por ferro refratária, além de uma erupção cutânea pruriginosa característica nos cotovelos e joelhos?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "A diarreia piora especificamente depois de comer pão, massa ou outros alimentos com glúten?", "custo": 2, "relevante": true, "resposta": "Sim, percebe piora clara depois de refeições com pão ou massa." },
+    { "texto": "Já tratou anemia com ferro oral sem melhora completa?", "custo": 2, "relevante": true, "resposta": "Sim, já fez reposição de ferro várias vezes sem resolver totalmente a anemia." },
+    { "texto": "Tem histórico familiar de doença celíaca ou outra doença autoimune?", "custo": 2, "relevante": true, "resposta": "Uma irmã tem tireoidite autoimune diagnosticada." },
+    { "texto": "Viajou recentemente ou teve contato com água não tratada?", "custo": 2, "relevante": false, "resposta": "Não viajou e não teve contato com água não tratada." },
+    { "texto": "Notou intolerância a leite e derivados especificamente?", "custo": 2, "relevante": false, "resposta": "Não notou relação específica com leite ou derivados." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de emagrecimento e distensão abdominal", "custo": 3, "relevante": true, "resposta": "Emagrecimento evidente e discreta distensão abdominal." },
+    { "texto": "Inspeção das lesões de pele nos cotovelos e joelhos", "custo": 3, "relevante": true, "resposta": "Lesões vesiculares agrupadas e muito pruriginosas em superfícies extensoras (cotovelos e joelhos)." },
+    { "texto": "Avaliação de palidez de mucosas", "custo": 3, "relevante": true, "resposta": "Palidez de mucosas compatível com anemia." }
+  ],
+  "hipoteses": [
+    { "texto": "Doença celíaca (enteropatia sensível ao glúten)", "correta": true },
+    { "texto": "Doença de Crohn", "correta": false },
+    { "texto": "Intolerância à lactose", "correta": false },
+    { "texto": "Giardíase", "correta": false },
+    { "texto": "Síndrome do intestino irritável", "correta": false },
+    { "texto": "Alergia não celíaca ao trigo", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Anticorpo antitransglutaminase tecidual IgA (anti-tTG)", "custo": 12, "relevante": true, "resposta": "Fortemente positivo." },
+    { "texto": "Dosagem de IgA sérica total", "custo": 8, "relevante": true, "resposta": "Normal, garantindo que o anti-tTG (dependente de IgA) não é um falso-negativo por deficiência de IgA." },
+    { "texto": "Biópsia duodenal", "custo": 16, "relevante": true, "resposta": "Atrofia de vilosidades, hiperplasia de criptas e aumento de linfócitos intraepiteliais." },
+    { "texto": "Genotipagem HLA-DQ2/DQ8", "custo": 14, "relevante": true, "resposta": "Presença do haplótipo HLA-DQ2, compatível com predisposição genética à doença celíaca." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar dieta isenta de glúten rigorosa e permanente, com acompanhamento nutricional", "correta": true },
+    { "texto": "Iniciar antiparasitário empírico, tratando como giardíase", "correta": false },
+    { "texto": "Iniciar corticoide isolado, sem retirar o glúten da dieta", "correta": false },
+    { "texto": "Suplementar apenas lactase, tratando como intolerância à lactose", "correta": false }
+  ],
+  "explicacao": "Na doença celíaca, a mucosa intestinal perde a tolerância à gliadina (fração do glúten), montando uma resposta imune mediada por linfócitos T que reconhecem o peptídeo modificado pela transglutaminase tecidual, apresentado via HLA-DQ2 ou DQ8. Essa resposta destrói progressivamente as vilosidades intestinais, causando má absorção (explicando a diarreia gordurosa, o emagrecimento e a anemia ferropriva refratária à reposição oral) e pode se manifestar na pele como dermatite herpetiforme, uma erupção vesicular pruriginosa em superfícies extensoras causada por depósito de IgA na pele. O anti-tTG positivo, com IgA total normal (excluindo falso-negativo), a biópsia com atrofia vilositária e a presença do HLA-DQ2 confirmam o diagnóstico. O tratamento não é medicamentoso, e sim a exclusão completa e permanente do glúten da dieta, o que costuma levar à regressão dos sintomas intestinais e cutâneos ao longo de semanas a meses."
+}
