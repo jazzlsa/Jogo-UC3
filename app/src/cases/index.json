@@ -598,5 +598,21 @@
     "area": "Neurologia",
     "prova": "P3",
     "arquivo": "uc3-tema-54-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-56-01-medio",
+    "tema": "Tema 56 · Meios de Contraste em Métodos de Imagem",
+    "dificuldade": "medio",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-56-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-57-01-dificil",
+    "tema": "Tema 57 · Princípios Gerais dos Vírus",
+    "dificuldade": "dificil",
+    "area": "Infectologia",
+    "prova": "P3",
+    "arquivo": "uc3-tema-57-01-dificil.json"
   }
 ]

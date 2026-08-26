@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-56-01-medio",
+  "tema": "Tema 56 · Meios de Contraste em Métodos de Imagem",
+  "materia_relacionada": "Este caso aplica um conceito importante sobre reações adversas a contraste visto na aula: nem toda reação grave ao meio de contraste iodado é uma alergia mediada por IgE. Existe um mecanismo de ativação direta de mastócitos, sem sensibilização prévia, que produz um quadro clinicamente indistinguível de anafilaxia verdadeira e exige o mesmo tratamento de emergência.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 47,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, logo depois de começarem a passar o contraste na minha veia pra tomografia, comecei a sentir minha garganta apertar, apareceram umas bolhas na pele e fiquei tonta.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "78/48", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "128", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "26", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "91", "u": "%", "flag": true }
+  ],
+  "burns": {
+    "abertura": "Mulher de 47 anos, mal-estar súbito logo após receber contraste iodado na veia. Repara bem no ritmo do coração dela, isso separa dois diagnósticos bem diferentes aqui.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O corpo dela reagiu exatamente como reagiria numa alergia de verdade. Só que dessa vez, não precisou de anticorpo nenhum pra isso acontecer.",
+    "dicas": [
+      "Releia com atenção o tempo entre a infusão do contraste e o início dos sintomas, e como estão a frequência cardíaca e a pressão dela juntas.",
+      "Pensa em como uma reação grave a um contraste pode ativar mastócitos e liberar histamina diretamente, sem precisar de um anticorpo específico já formado contra aquela substância, diferente de uma alergia clássica.",
+      "Que tipo de reação ao contraste iodado, clinicamente indistinguível de uma anafilaxia verdadeira (urticária, broncoespasmo, hipotensão com taquicardia), mas com mecanismo direto de ativação de mastócito em vez de IgE prévio, exige o mesmo tratamento de emergência mesmo sem sensibilização alérgica confirmada?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Já teve alguma reação a contraste iodado antes?", "custo": 2, "relevante": true, "resposta": "Nunca tinha feito exame com contraste antes, essa foi a primeira vez." },
+    { "texto": "Tem histórico de asma?", "custo": 2, "relevante": true, "resposta": "Tem asma leve, controlada com bombinha eventual." },
+    { "texto": "Usa algum betabloqueador de uso contínuo?", "custo": 2, "relevante": true, "resposta": "Usa um betabloqueador para controle de pressão." },
+    { "texto": "Quanto tempo depois do início da infusão os sintomas começaram?", "custo": 2, "relevante": true, "resposta": "Foi quase imediato, em menos de um minuto depois de começar a receber o contraste." },
+    { "texto": "Sentiu apenas uma sensação de calor no corpo, sem mais nada?", "custo": 2, "relevante": false, "resposta": "Sentiu uma onda de calor no início, mas rapidamente evoluiu pra falta de ar e tontura." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção de pele em busca de urticária", "custo": 3, "relevante": true, "resposta": "Urticária difusa pelo tronco e membros." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Sibilos difusos bilaterais, compatíveis com broncoespasmo." },
+    { "texto": "Avaliação de ritmo cardíaco e perfusão", "custo": 3, "relevante": true, "resposta": "Taquicardia presente, sem bradicardia ou palidez extrema características de reação vasovagal." },
+    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Consciente, orientada, ansiosa." }
+  ],
+  "hipoteses": [
+    { "texto": "Reação anafilactoide ao contraste iodado (não mediada por IgE)", "correta": true },
+    { "texto": "Reação vasovagal ao procedimento", "correta": false },
+    { "texto": "Anafilaxia verdadeira mediada por IgE a outro alérgeno", "correta": false },
+    { "texto": "Edema agudo de pulmão cardiogênico", "correta": false },
+    { "texto": "Broncoespasmo por asma descompensada isolada", "correta": false },
+    { "texto": "Embolia pulmonar aguda", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Eletrocardiograma", "custo": 8, "relevante": true, "resposta": "Taquicardia sinusal, sem sinais de isquemia aguda." },
+    { "texto": "Gasometria arterial", "custo": 12, "relevante": true, "resposta": "Hipoxemia leve, compatível com broncoespasmo em curso." },
+    { "texto": "Dosagem de triptase sérica", "custo": 12, "relevante": false, "resposta": "Discretamente elevada, achado que não diferencia entre reação anafilactoide e anafilaxia verdadeira mediada por IgE." }
+  ],
+  "condutas": [
+    { "texto": "Interromper imediatamente a infusão do contraste e tratar com adrenalina intramuscular, anti-histamínico, corticoide e suporte respiratório conforme a gravidade, independente do mecanismo exato ser IgE ou não", "correta": true },
+    { "texto": "Continuar a infusão do contraste, já que não seria uma \"alergia verdadeira\"", "correta": false },
+    { "texto": "Tratar apenas com atropina, como numa reação vasovagal", "correta": false },
+    { "texto": "Aguardar resolução espontânea sem qualquer tratamento", "correta": false }
+  ],
+  "explicacao": "Diferente de uma reação vasovagal (que cursaria com bradicardia e palidez), o quadro aqui tem taquicardia, urticária, broncoespasmo e hipotensão, indistinguível clinicamente de uma anafilaxia verdadeira. Contudo, o contraste iodado pode causar uma reação anafilactoide por ativação direta de mastócitos e liberação de histamina, sem depender de sensibilização prévia por IgE, o que explica a reação já na primeira exposição da paciente ao contraste. Histórico de asma e uso de betabloqueador são fatores que aumentam o risco e a gravidade da reação, e podem dificultar a resposta à adrenalina. Como o quadro clínico e a gravidade são equivalentes a uma anafilaxia verdadeira, o tratamento de emergência é idêntico, independentemente do mecanismo exato por trás da reação."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-57-01-dificil",
+  "tema": "Tema 57 · Princípios Gerais dos Vírus",
+  "materia_relacionada": "Este caso aplica uma propriedade geral marcante de certos vírus vista na aula: em vez de causar doença aguda em dias, alguns vírus neurotrópicos viajam lentamente pelos nervos periféricos até o sistema nervoso central, levando semanas a meses de incubação silenciosa antes do primeiro sintoma, período em que a resposta imune do hospedeiro muitas vezes ainda nem começou a agir.",
+  "area": "Infectologia",
+  "prova": "P3",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 29,
+    "sexo": "M"
+  },
+  "queixa_principal": "A esposa relata: “Doutor, ele está muito agitado, fica com muita saliva na boca, e quando a gente oferece água ele tem um espasmo horrível e recusa beber, parece que tem medo da água.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "128/82", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "112", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "38.6", "u": "°C", "flag": true },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": true },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 29 anos, agitação, hipersalivação e espasmo ao tentar beber água. Antes de pensar em abstinência ou convulsão, pergunta se ele teve contato com algum animal nas últimas semanas ou meses.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O vírus já estava viajando dentro dele havia semanas, bem devagar, pelos próprios nervos, até chegar aonde realmente importava.",
+    "dicas": [
+      "Releia com atenção se ele teve alguma mordida ou arranhão de animal há semanas ou meses, e o que foi feito na hora.",
+      "Pensa em como um vírus consegue viajar bem devagar pelos nervos periféricos até chegar ao cérebro, levando semanas ou meses pra dar qualquer sintoma, um tempo de incubação bem mais longo que a maioria das infecções virais agudas.",
+      "Que vírus, transmitido pela saliva de um animal mordedor e com incubação de semanas a meses até atingir o sistema nervoso central, causa espasmos ao tentar engolir água (hidrofobia) e é praticamente sempre fatal uma vez que os sintomas começam?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Ele teve alguma mordida, arranhão ou contato com morcego, cão ou gato nas últimas semanas ou meses?", "custo": 2, "relevante": true, "resposta": "Foi mordido por um cão de rua há cerca de dois meses, na perna, e não procurou atendimento médico na hora." },
+    { "texto": "Recebeu vacina ou soro antirrábico depois dessa mordida?", "custo": 2, "relevante": true, "resposta": "Não recebeu nenhuma vacina ou soro depois da mordida." },
+    { "texto": "Tem histórico de uso pesado de álcool com parada recente?", "custo": 2, "relevante": false, "resposta": "Não tem histórico de uso pesado de álcool." },
+    { "texto": "Teve algum trauma recente com ferimento sujo (fator de risco pra tétano)?", "custo": 2, "relevante": false, "resposta": "Sem ferimento recente além da mordida antiga já cicatrizada." },
+    { "texto": "Tem alucinações ou mudanças bruscas de comportamento?", "custo": 2, "relevante": true, "resposta": "Sim, tem períodos de agitação intensa alternando com momentos de maior calma, e relata ver coisas que não existem." }
+  ],
+  "exameFisico": [
+    { "texto": "Observação da reação ao oferecer água ou sentir uma corrente de ar no rosto", "custo": 3, "relevante": true, "resposta": "Espasmo intenso da musculatura da garganta ao tentar beber água, e reação semelhante ao sentir vento no rosto (aerofobia)." },
+    { "texto": "Avaliação de salivação", "custo": 3, "relevante": true, "resposta": "Hipersalivação importante, dificuldade de deglutir a própria saliva." },
+    { "texto": "Avaliação de rigidez muscular e trismo (mandíbula travada)", "custo": 3, "relevante": true, "resposta": "Sem trismo ou rigidez muscular generalizada, diferente do que se esperaria em tétano." },
+    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Alterna entre períodos de agitação e de relativa lucidez." }
+  ],
+  "hipoteses": [
+    { "texto": "Raiva", "correta": true },
+    { "texto": "Tétano", "correta": false },
+    { "texto": "Encefalite herpética", "correta": false },
+    { "texto": "Delirium tremens (abstinência alcoólica)", "correta": false },
+    { "texto": "Intoxicação por substância psicoativa", "correta": false },
+    { "texto": "Meningite bacteriana", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Pesquisa de corpúsculos de Negri/imunofluorescência direta em biópsia de pele da nuca (folículo piloso)", "custo": 16, "relevante": true, "resposta": "Positiva para antígeno do vírus da raiva." },
+    { "texto": "PCR para o vírus da raiva em saliva e líquor", "custo": 16, "relevante": true, "resposta": "Positivo para RNA do vírus da raiva." },
+    { "texto": "Sorologia para raiva (anticorpos)", "custo": 12, "relevante": true, "resposta": "Ainda não reagente nessa fase, já que a resposta imune humoral costuma ser tardia ou insuficiente na raiva." },
+    { "texto": "Tomografia de crânio", "custo": 14, "relevante": false, "resposta": "Sem alterações específicas." }
+  ],
+  "condutas": [
+    { "texto": "Cuidados de suporte em unidade de isolamento, notificação compulsória imediata e rastreio com profilaxia pós-exposição para os contactantes de risco (a doença é quase sempre fatal uma vez sintomática)", "correta": true },
+    { "texto": "Administrar soro antitetânico", "correta": false },
+    { "texto": "Iniciar aciclovir isolado, tratando como encefalite herpética", "correta": false },
+    { "texto": "Iniciar benzodiazepínico isolado, tratando como abstinência alcoólica", "correta": false }
+  ],
+  "explicacao": "O vírus da raiva, após inoculado pela saliva de um animal mordedor, se replica localmente e depois viaja de forma retrógrada pelos nervos periféricos até o sistema nervoso central, um processo que pode levar semanas a meses, período de incubação silenciosa em que o hospedeiro permanece assintomático e a resposta imune humoral muitas vezes ainda não se desenvolveu, explicando por que a sorologia pode vir negativa mesmo com a doença já estabelecida. A hidrofobia (espasmo ao tentar engolir água) e a aerofobia são achados praticamente patognomônicos, e a ausência de trismo/rigidez generalizada ajuda a descartar tétano. A ausência de profilaxia pós-exposição adequada após a mordida (vacina e, se indicado, soro antirrábico) permitiu a progressão para a forma sintomática, que é quase universalmente fatal, tornando essencial o cuidado de suporte e, principalmente, a profilaxia imediata de qualquer outra pessoa com exposição de risco ao mesmo animal."
+}
