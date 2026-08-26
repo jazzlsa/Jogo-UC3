@@ -15,7 +15,8 @@ const DESAFIO_TAMANHO = 10;
 const RECUPERACAO_TAMANHO = 5;
 const RECUPERACAO_MINIMO_ACERTOS = 3;
 const NOTA_MINIMA_APROVACAO = 5;
-const NOTA_APROVACAO_RECUPERACAO = 5; // nota final trava nesse valor se passar na recuperação — nunca mais que isso
+const NOTA_APROVACAO_RECUPERACAO = 5; // nota final trava nesse valor se passar na recuperação, nunca mais que isso
+const NOTA_MINIMA_PARA_RECUPERACAO = 3; // abaixo disso, reprovação direta: nem tem direito a fazer a recuperação
 
 let casesIndex = [];
 let state = { screen: "home" };
@@ -194,7 +195,15 @@ function burnsFor(stage) {
   const burns = state.caso.burns;
   if (stage === "intro") return { who: "abertura", texto: burns.abertura };
   if (stage === "exames" && (state.pi / state.caso.pi_inicial) * 10 <= 3) return { who: "nota baixa", texto: burns.piBaixo };
-  if (stage === "resultado") return { who: "fechamento", texto: burns.fechamento };
+  if (stage === "resultado") {
+    const diagCorretoIdx = state.caso.hipoteses.findIndex(h => h.correta);
+    const diagCerto = state.diagnostico === diagCorretoIdx;
+    if (diagCerto) return { who: "fechamento", texto: burns.fechamento };
+    return {
+      who: "fechamento",
+      texto: "Não foi dessa vez. Releia a explicação com calma, o raciocínio clínico se constrói errando e corrigindo. Bora pro próximo.",
+    };
+  }
   return null;
 }
 
@@ -251,7 +260,7 @@ function render() {
       <div class="game-window">
         <div class="window-bar">
           <span class="window-dots"><i></i><i></i><i></i></span>
-          <span class="window-title">🏆 Ranking — Grand Round UC3</span>
+          <span class="window-title">🏆 Ranking · Grand Round UC3</span>
         </div>
         <div class="scene">${renderRanking()}</div>
       </div>`;
@@ -282,7 +291,7 @@ function render() {
     <div class="game-window">
       <div class="window-bar">
         <span class="window-dots"><i></i><i></i><i></i></span>
-        <span class="window-title">🩺 Grand Round UC3 — ${state.caso.tema}</span>
+        <span class="window-title">🩺 Grand Round UC3 · ${state.caso.tema}</span>
       </div>
       ${hudHTML(stage)}
       <div class="scene">
@@ -302,7 +311,7 @@ function renderHome() {
     <div class="home-scene">
       <div class="home-icons">🩺 🧬 🫀 🧠 💊 🦴 🔬</div>
       <h1 class="home-title">GRAND ROUND<br><span>UC3</span></h1>
-      <p class="home-subtitle">Raciocínio clínico e diagnóstico — pra quem estuda, já estudou, ou simplesmente ama Medicina.</p>
+      <p class="home-subtitle">Raciocínio clínico e diagnóstico, pra quem estuda, já estudou, ou simplesmente ama Medicina.</p>
       <img class="home-burns" src="assets/burns.png" alt="Burns, o professor-guia">
       <div class="actions home-actions">
         <button class="btn primary" data-ir-jogar>Jogar</button>
@@ -328,9 +337,9 @@ function renderRanking() {
   return `
     <p class="stage-kicker">Seus desafios</p>
     <h1 class="stage-title">Ranking</h1>
-    <p class="stage-hint">Cada desafio sorteia ${DESAFIO_TAMANHO} casos aleatórios e vira uma nota final, igual boletim — precisa de ${NOTA_MINIMA_APROVACAO} pra passar.</p>
+    <p class="stage-hint">Cada desafio sorteia ${DESAFIO_TAMANHO} casos aleatórios e vira uma nota final, igual boletim. Precisa de ${NOTA_MINIMA_APROVACAO} pra passar.</p>
     ${ranking.length === 0 ? `
-      <p class="stage-hint">Nenhum desafio concluído ainda — jogue um em "Jogar → Desafio" pra aparecer aqui.</p>
+      <p class="stage-hint">Nenhum desafio concluído ainda. Jogue um em "Jogar → Desafio" pra aparecer aqui.</p>
     ` : `
       <ol class="ranking-list">${ranking.map((r, i) => `
         <li class="ranking-item">
@@ -353,9 +362,9 @@ function comoJogarHTML() {
     <div class="intro-panel">
       <p class="intro-panel-title">Como jogar</p>
       <p>Você é o médico(a). Cada caso simula um paciente chegando com uma queixa, e você percorre <strong>6 etapas</strong> até fechar o diagnóstico e a conduta: anamnese → exame físico → hipóteses diagnósticas → exames complementares → diagnóstico final → conduta. Dá pra voltar etapas anteriores a qualquer momento pra reler o que já descobriu.</p>
-      <p><strong>Nota</strong> (no topo da tela) é o seu orçamento durante o caso — cada pergunta, manobra de exame ou exame complementar consome um pouco, relevante ou não. Mas atenção: a nota final do caso não premia quem simplesmente não investiga nada — o bônus de eficiência só conta pontos por achado <strong>relevante</strong> que você realmente foi atrás, descontando o que foi gasto à toa em distratores. Ou seja: dá pra reprovar por excesso de investigação desnecessária E por preguiça de investigar.</p>
-      <p>O professor <strong>Burns</strong> comenta em alguns momentos do caso, e você pode clicar em <strong>"Pedir dica ao Burns"</strong> quando estiver travado — as dicas nunca entregam o diagnóstico, só apontam a direção do raciocínio.</p>
-      <p>No <strong>Desafio</strong>, o jogo sorteia ${DESAFIO_TAMANHO} casos aleatórios (sem repetir) e sua <strong>nota final</strong> é a média de todos — precisa de <strong>${NOTA_MINIMA_APROVACAO}</strong> pra passar, igual UC3 de verdade. Reprovou? Você pode tentar uma <strong>recuperação</strong>: ${RECUPERACAO_TAMANHO} casos difíceis, precisa acertar o diagnóstico de pelo menos ${RECUPERACAO_MINIMO_ACERTOS} pra passar — e, se passar, sua nota final vira exatamente ${NOTA_APROVACAO_RECUPERACAO}.</p>
+      <p><strong>Nota</strong> (no topo da tela) é o seu orçamento durante o caso. Cada pergunta, manobra de exame ou exame complementar consome um pouco, relevante ou não. Mas atenção: a nota final do caso não premia quem simplesmente não investiga nada, o bônus de eficiência só conta pontos por achado <strong>relevante</strong> que você realmente foi atrás, descontando o que foi gasto à toa em distratores. Ou seja: dá pra reprovar por excesso de investigação desnecessária e por preguiça de investigar.</p>
+      <p>O professor <strong>Burns</strong> comenta em alguns momentos do caso, e você pode clicar em <strong>"Pedir dica ao Burns"</strong> quando estiver travado. As dicas nunca entregam o diagnóstico, só apontam a direção do raciocínio.</p>
+      <p>No <strong>Desafio</strong>, o jogo sorteia ${DESAFIO_TAMANHO} casos aleatórios (sem repetir) e sua <strong>nota final</strong> é a média de todos. Precisa de <strong>${NOTA_MINIMA_APROVACAO}</strong> pra passar, igual UC3 de verdade. Reprovou? Você pode tentar uma <strong>recuperação</strong>: ${RECUPERACAO_TAMANHO} casos difíceis, precisa acertar o diagnóstico de pelo menos ${RECUPERACAO_MINIMO_ACERTOS} pra passar. Se passar, sua nota final vira exatamente ${NOTA_APROVACAO_RECUPERACAO}.</p>
     </div>`;
 }
 
@@ -415,7 +424,7 @@ function renderDesafioMenu() {
   return `
     <p class="stage-kicker">Desafio</p>
     <h1 class="stage-title">Teste seus conhecimentos</h1>
-    <p class="stage-hint">Sorteia ${Math.min(DESAFIO_TAMANHO, casesIndex.length)} casos aleatórios do banco (sem repetir). A média vira sua nota final — ${NOTA_MINIMA_APROVACAO} pra passar, igual UC3 de verdade.</p>
+    <p class="stage-hint">Sorteia ${Math.min(DESAFIO_TAMANHO, casesIndex.length)} casos aleatórios do banco (sem repetir). A média vira sua nota final, precisa de ${NOTA_MINIMA_APROVACAO} pra passar, igual UC3 de verdade.</p>
     <div class="actions">
       <button class="btn primary" data-desafio-iniciar>🎲 Sortear novo desafio</button>
       <button class="btn ghost" data-voltar-home>Voltar</button>
@@ -429,7 +438,7 @@ function renderStage(stage) {
     case "intro": return `
       <p class="stage-kicker">Etapa 01 · Apresentação</p>
       <h1 class="stage-title">Paciente ${caso.paciente.idade} anos, ${caso.paciente.sexo === "M" ? "masculino" : "feminino"}</h1>
-      <p class="stage-hint">Sem custo — é o que já chega pronto quando o paciente entra na sala.</p>
+      <p class="stage-hint">Sem custo: é o que já chega pronto quando o paciente entra na sala.</p>
       <blockquote class="q">${caso.queixa_principal}</blockquote>
       ${vitalsHTML()}
       <div class="actions">${voltarBtn}<button class="btn primary" data-next>Iniciar anamnese</button></div>`;
@@ -444,28 +453,28 @@ function renderStage(stage) {
     case "exame": return `
       <p class="stage-kicker">Etapa 03 · Exame físico</p>
       <h1 class="stage-title">O que você examina?</h1>
-      <p class="stage-hint">Manobras e achados — mesmo custo pras relevantes e pras distratoras.</p>
+      <p class="stage-hint">Manobras e achados, mesmo custo pras relevantes e pras distratoras.</p>
       <ul class="opts">${caso.exameFisico.map((q, i) => optRow(i, q.texto, q.custo, state.examePicked.includes(i))).join("")}</ul>
       <div class="actions">${voltarBtn}<button class="btn primary" data-next>Formular hipóteses</button></div>`;
 
     case "hipoteses": return `
       <p class="stage-kicker">Etapa 04 · Hipóteses diagnósticas</p>
       <h1 class="stage-title">Até 3 suspeitas, em ordem</h1>
-      <p class="stage-hint">Não custa nota — mas a ordem em que você escolhe define o placar. A primeira é sua principal suspeita.</p>
+      <p class="stage-hint">Não custa nota, mas a ordem em que você escolhe define o placar. A primeira é sua principal suspeita.</p>
       <ul class="opts">${caso.hipoteses.map((h, i) => rankRow(i, h.texto)).join("")}</ul>
       <div class="actions">${voltarBtn}<button class="btn primary" data-next ${state.hipotesesPicked.length === 0 ? "disabled" : ""}>Pedir exames complementares</button></div>`;
 
     case "exames": return `
       <p class="stage-kicker">Etapa 05 · Exames complementares</p>
       <h1 class="stage-title">O que você solicita?</h1>
-      <p class="stage-hint">Custo mais alto — pedir o exame errado gasta nota e não ajuda em nada.</p>
+      <p class="stage-hint">Custo mais alto: pedir o exame errado gasta nota e não ajuda em nada.</p>
       <ul class="opts">${caso.exames.map((q, i) => optRow(i, q.texto, q.custo, state.examesPicked.includes(i))).join("")}</ul>
       <div class="actions">${voltarBtn}<button class="btn primary" data-next>Fechar diagnóstico</button></div>`;
 
     case "diagnostico": return `
       <p class="stage-kicker">Etapa 06 · Diagnóstico final</p>
       <h1 class="stage-title">Qual é o diagnóstico?</h1>
-      <p class="stage-hint">Decisão única — mas ainda dá pra revisar as etapas anteriores antes de confirmar.</p>
+      <p class="stage-hint">Decisão única, mas ainda dá pra revisar as etapas anteriores antes de confirmar.</p>
       <ul class="opts">${caso.hipoteses.map((h, i) => singleRow("diagnostico", i, h.texto, state.diagnostico === i)).join("")}</ul>
       <div class="actions">${voltarBtn}<button class="btn primary" data-next ${state.diagnostico === null ? "disabled" : ""}>Definir conduta</button></div>`;
 
@@ -662,7 +671,7 @@ function secaoRevisaoHTML(titulo, itens, escolhidos) {
         const marca = escolhido ? (it.relevante ? "✓" : "!") : (it.relevante ? "○" : "–");
         const detalhe = escolhido
           ? it.resposta
-          : (it.relevante ? `Você não pediu isso — era relevante: ${it.resposta}` : "Distrator — bom não ter gastado nota aqui.");
+          : (it.relevante ? `Você não pediu isso, era relevante: ${it.resposta}` : "Distrator: bom não ter gastado nota aqui.");
         return `<li class="revisao-item ${cls}"><span class="revisao-marca">${marca}</span><span class="revisao-corpo"><span class="revisao-texto">${it.texto}</span><span class="revisao-resposta">${detalhe}</span></span></li>`;
       }).join("")}</ul>
     </div>`;
@@ -678,16 +687,16 @@ function revisaoDetalhadaHTML(diagCorretoIdx, diagCerto, condutaCerta) {
       <div class="revisao-secao">
         <p class="revisao-titulo">Hipóteses que você listou (em ordem)</p>
         <ol class="revisao-list-simples">
-          ${state.hipotesesPicked.length === 0 ? "<li>Nenhuma hipótese listada.</li>" : state.hipotesesPicked.map(i => `<li>${caso.hipoteses[i].texto}${caso.hipoteses[i].correta ? " — <strong>correta</strong>" : ""}</li>`).join("")}
+          ${state.hipotesesPicked.length === 0 ? "<li>Nenhuma hipótese listada.</li>" : state.hipotesesPicked.map(i => `<li>${caso.hipoteses[i].texto}${caso.hipoteses[i].correta ? " (<strong>correta</strong>)" : ""}</li>`).join("")}
         </ol>
       </div>
       <div class="revisao-secao">
         <p class="revisao-titulo">Diagnóstico final</p>
-        <p>Você escolheu: <strong>${caso.hipoteses[state.diagnostico]?.texto ?? "—"}</strong> ${diagCerto ? "✓" : `✗ — o correto era ${caso.hipoteses[diagCorretoIdx].texto}`}</p>
+        <p>Você escolheu: <strong>${caso.hipoteses[state.diagnostico]?.texto ?? "(nenhum)"}</strong> ${diagCerto ? "✓" : `✗ (o correto era ${caso.hipoteses[diagCorretoIdx].texto})`}</p>
       </div>
       <div class="revisao-secao">
         <p class="revisao-titulo">Conduta</p>
-        <p>Você escolheu: <strong>${caso.condutas[state.conduta]?.texto ?? "—"}</strong> ${condutaCerta ? "✓" : "✗"}</p>
+        <p>Você escolheu: <strong>${caso.condutas[state.conduta]?.texto ?? "(nenhuma)"}</strong> ${condutaCerta ? "✓" : "✗"}</p>
       </div>
     </div>`;
 }
@@ -719,16 +728,16 @@ function avaliacaoResultActionsHTML() {
     return passouRecuperacao ? `
       <div class="campanha-vitoria">
         <img class="burns-sprite" src="assets/burns.png" alt="Burns">
-        <div class="bubble"><p class="who">Burns · recuperação</p><p>“Passou na recuperação! ${avaliacaoAtual.acertos} de ${avaliacaoAtual.arquivos.length} diagnósticos certos — dá pra fechar com nota ${NOTA_APROVACAO_RECUPERACAO.toFixed(1)}. Continue estudando, viu?”</p></div>
+        <div class="bubble"><p class="who">Burns · recuperação</p><p>“Passou na recuperação! ${avaliacaoAtual.acertos} de ${avaliacaoAtual.arquivos.length} diagnósticos certos, dá pra fechar com nota ${NOTA_APROVACAO_RECUPERACAO.toFixed(1)}. Continue estudando, viu?”</p></div>
       </div>
-      <p class="stage-hint">Nota final: <strong>${notaFinal.toFixed(1)}</strong> — Aprovado.</p>
+      <p class="stage-hint">Nota final: <strong>${notaFinal.toFixed(1)}</strong>. Aprovado.</p>
       <div class="actions">
         <button class="btn primary" data-novo-desafio>🎲 Jogar outro desafio</button>
         <button class="btn ghost" data-ir-ranking-pos-jogo>Ver ranking</button>
       </div>` : `
       <p class="stage-kicker">Recuperação</p>
       <h1 class="stage-title">Não foi dessa vez</h1>
-      <p class="stage-hint">Você acertou ${avaliacaoAtual.acertos} de ${avaliacaoAtual.arquivos.length} — precisava de pelo menos ${RECUPERACAO_MINIMO_ACERTOS}. Nota final: <strong>${notaFinal.toFixed(1)}</strong> — Reprovado.</p>
+      <p class="stage-hint">Você acertou ${avaliacaoAtual.acertos} de ${avaliacaoAtual.arquivos.length}, precisava de pelo menos ${RECUPERACAO_MINIMO_ACERTOS}. Nota final: <strong>${notaFinal.toFixed(1)}</strong>. Reprovado.</p>
       <div class="actions">
         <button class="btn primary" data-novo-desafio>🎲 Tentar outro desafio</button>
         <button class="btn ghost" data-ir-ranking-pos-jogo>Ver ranking</button>
@@ -750,11 +759,22 @@ function avaliacaoResultActionsHTML() {
     return `
       <div class="campanha-vitoria">
         <img class="burns-sprite" src="assets/burns.png" alt="Burns">
-        <div class="bubble"><p class="who">Burns · fim de jogo</p><p>“Você conseguiu! Finalmente passou na UC3 — reconhecimento de padrão, raciocínio clínico, uso consciente dos recursos disponíveis... você tem tudo isso agora. Parabéns, doutor(a).”</p></div>
+        <div class="bubble"><p class="who">Burns · fim de jogo</p><p>“Você conseguiu! Finalmente passou na UC3. Reconhecimento de padrão, raciocínio clínico, uso consciente dos recursos disponíveis... você tem tudo isso agora. Parabéns, doutor(a).”</p></div>
       </div>
-      <p class="stage-hint">Nota final: <strong>${notaFinal.toFixed(1)}</strong> — Aprovado. ${avaliacaoAtual.acertos}/${avaliacaoAtual.arquivos.length} diagnósticos certos.</p>
+      <p class="stage-hint">Nota final: <strong>${notaFinal.toFixed(1)}</strong>. Aprovado. ${avaliacaoAtual.acertos}/${avaliacaoAtual.arquivos.length} diagnósticos certos.</p>
       <div class="actions">
         <button class="btn primary" data-novo-desafio>🎲 Jogar outro desafio</button>
+        <button class="btn ghost" data-ir-ranking-pos-jogo>Ver ranking</button>
+      </div>`;
+  }
+
+  if (notaFinal < NOTA_MINIMA_PARA_RECUPERACAO) {
+    return `
+      <p class="stage-kicker">Resultado do desafio</p>
+      <h1 class="stage-title">Reprovado direto</h1>
+      <p class="stage-hint">Nota final: <strong>${notaFinal.toFixed(1)}</strong>. Reprovado (precisa de ${NOTA_MINIMA_APROVACAO}). ${avaliacaoAtual.acertos}/${avaliacaoAtual.arquivos.length} diagnósticos certos. Nota abaixo de ${NOTA_MINIMA_PARA_RECUPERACAO}: sem direito a prova de recuperação, igual na UC3 de verdade.</p>
+      <div class="actions">
+        <button class="btn primary" data-novo-desafio>🎲 Tentar outro desafio</button>
         <button class="btn ghost" data-ir-ranking-pos-jogo>Ver ranking</button>
       </div>`;
   }
@@ -762,7 +782,7 @@ function avaliacaoResultActionsHTML() {
   return `
     <p class="stage-kicker">Resultado do desafio</p>
     <h1 class="stage-title">Não foi dessa vez</h1>
-    <p class="stage-hint">Nota final: <strong>${notaFinal.toFixed(1)}</strong> — Reprovado (precisa de ${NOTA_MINIMA_APROVACAO}). ${avaliacaoAtual.acertos}/${avaliacaoAtual.arquivos.length} diagnósticos certos.</p>
+    <p class="stage-hint">Nota final: <strong>${notaFinal.toFixed(1)}</strong>. Reprovado (precisa de ${NOTA_MINIMA_APROVACAO}). ${avaliacaoAtual.acertos}/${avaliacaoAtual.arquivos.length} diagnósticos certos.</p>
     <div class="actions">
       <button class="btn primary" data-ir-recuperacao data-nota-original="${notaFinal}">Fazer prova de recuperação (${RECUPERACAO_TAMANHO} casos difíceis)</button>
       <button class="btn ghost" data-novo-desafio>🎲 Tentar outro desafio</button>

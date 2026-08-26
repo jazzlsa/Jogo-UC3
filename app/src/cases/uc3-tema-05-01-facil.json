@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-05-01-facil",
   "tema": "Tema 05 · Princípios da tomografia computadorizada",
-  "materia_relacionada": "Este caso aplica os critérios clínicos (tipo Canadian CT Head Rule) que decidem quando uma tomografia de crânio realmente muda a conduta: perda de consciência, vômitos repetidos, uso de anticoagulante, idade avançada e Glasgow < 15 são os fatores que aumentam o risco de uma lesão intracraniana cirurgicamente relevante o bastante pra justificar a radiação. Sem nenhum desses fatores, o risco de uma lesão que exigiria intervenção é baixo o suficiente pra observação clínica ser tão segura quanto pedir o exame — a lógica de 'usar a ferramenta certa, não a mais cara' que a aula de tomografia computadorizada reforça.",
+  "materia_relacionada": "Este caso aplica os critérios clínicos (tipo Canadian CT Head Rule) que decidem quando uma tomografia de crânio realmente muda a conduta: perda de consciência, vômitos repetidos, uso de anticoagulante, idade avançada e Glasgow < 15 são os fatores que aumentam o risco de uma lesão intracraniana cirurgicamente relevante o bastante pra justificar a radiação. Sem nenhum desses fatores, o risco de uma lesão que exigiria intervenção é baixo o suficiente pra observação clínica ser tão segura quanto pedir o exame, a lógica de 'usar a ferramenta certa, não a mais cara' que a aula de tomografia computadorizada reforça.",
   "area": "Neurologia",
   "prova": "P1",
   "dificuldade": "facil",
@@ -44,11 +44,11 @@
     }
   ],
   "burns": {
-    "abertura": "Trauma de crânio, paciente acordado e conversando com vocês — antes de sair pedindo tomografia pra todo mundo que bateu a cabeça, existe critério clínico pra isso. Vamos usar.",
-    "piBaixo": "PI acabando rápido? Tomografia de crânio é cara em pontos — só vale se o exame clínico realmente apontar pra ela.",
-    "fechamento": "Escala de Glasgow 15, sem perda de consciência, sem vômito, sem uso de anticoagulante — esse paciente não precisa de TC. Saber quando NÃO pedir exame também é raciocínio clínico.",
+    "abertura": "Trauma de crânio, paciente acordado e conversando com vocês, antes de sair pedindo tomografia pra todo mundo que bateu a cabeça, existe critério clínico pra isso. Vamos usar.",
+    "piBaixo": "PI acabando rápido? Tomografia de crânio é cara em pontos, só vale se o exame clínico realmente apontar pra ela.",
+    "fechamento": "Escala de Glasgow 15, sem perda de consciência, sem vômito, sem uso de anticoagulante, esse paciente não precisa de TC. Saber quando NÃO pedir exame também é raciocínio clínico.",
     "dicas": [
-      "Antes de pensar em pedir exame, veja se o paciente preenche algum critério de alto risco — perda de consciência, vômito, uso de anticoagulante.",
+      "Antes de pensar em pedir exame, veja se o paciente preenche algum critério de alto risco, perda de consciência, vômito, uso de anticoagulante.",
       "Glasgow 15 e exame neurológico normal contam muito a favor de um risco baixo.",
       "Às vezes a resposta certa não é pedir mais exame, é saber por que não precisa pedir."
     ]
@@ -90,7 +90,7 @@
       "texto": "Escala de coma de Glasgow",
       "custo": 3,
       "relevante": true,
-      "resposta": "15/15 — abertura ocular, resposta verbal e motora normais."
+      "resposta": "15/15, abertura ocular, resposta verbal e motora normais."
     },
     {
       "texto": "Exame de pupilas (tamanho e reflexo fotomotor)",
@@ -144,19 +144,19 @@
       "texto": "Observação clínica seriada por algumas horas, sem exame de imagem imediato",
       "custo": 6,
       "relevante": true,
-      "resposta": "Paciente permanece com Glasgow 15, sem novos sintomas — confirma baixo risco."
+      "resposta": "Paciente permanece com Glasgow 15, sem novos sintomas, confirma baixo risco."
     },
     {
       "texto": "Tomografia de crânio sem contraste",
       "custo": 16,
       "relevante": false,
-      "resposta": "Sem critério clínico pra indicar — paciente não preenche nenhum critério de alto risco (Canadian CT Head Rule)."
+      "resposta": "Sem critério clínico pra indicar, paciente não preenche nenhum critério de alto risco (Canadian CT Head Rule)."
     },
     {
       "texto": "Radiografia de crânio",
       "custo": 10,
       "relevante": false,
-      "resposta": "Não é o exame indicado pra avaliar lesão intracraniana — praticamente em desuso pra essa finalidade."
+      "resposta": "Não é o exame indicado pra avaliar lesão intracraniana, praticamente em desuso pra essa finalidade."
     },
     {
       "texto": "Hemograma completo",
@@ -179,5 +179,5 @@
       "correta": false
     }
   ],
-  "explicacao": "Regras de decisão clínica (como a Canadian CT Head Rule) existem justamente pra evitar tomografias desnecessárias em TCE leve — que expõem o paciente a radiação e custam caro ao sistema sem mudar a conduta na maioria dos casos. Critérios de alto risco incluem Glasgow <15 duas horas após o trauma, suspeita de fratura de crânio, vômitos repetidos, idade avançada, uso de anticoagulante e amnésia pré-trauma prolongada — nenhum presente aqui. Um paciente jovem, Glasgow 15, sem perda de consciência, sem vômito e sem uso de anticoagulante tem risco extremamente baixo de lesão intracraniana que exija intervenção, e pode ser observado clinicamente com segurança. Saber identificar quem NÃO precisa de tomografia é tão parte do raciocínio clínico quanto saber pedir na hora certa."
+  "explicacao": "Regras de decisão clínica (como a Canadian CT Head Rule) existem justamente pra evitar tomografias desnecessárias em TCE leve, que expõem o paciente a radiação e custam caro ao sistema sem mudar a conduta na maioria dos casos. Critérios de alto risco incluem Glasgow <15 duas horas após o trauma, suspeita de fratura de crânio, vômitos repetidos, idade avançada, uso de anticoagulante e amnésia pré-trauma prolongada, nenhum presente aqui. Um paciente jovem, Glasgow 15, sem perda de consciência, sem vômito e sem uso de anticoagulante tem risco extremamente baixo de lesão intracraniana que exija intervenção, e pode ser observado clinicamente com segurança. Saber identificar quem NÃO precisa de tomografia é tão parte do raciocínio clínico quanto saber pedir na hora certa."
 }

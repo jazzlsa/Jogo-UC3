@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-10-02-medio",
   "tema": "Tema 10 · Controle hormonal e regulação do metabolismo",
-  "materia_relacionada": "Este caso mostra o extremo oposto do eixo hormonal do caso anterior desse par: aqui o TSH está suprimido (a hipófise está sendo inibida por excesso de hormônio, não tentando compensar), e o excesso de T3/T4 livre amplifica a resposta adrenérgica em todos os tecidos — daí o metabolismo acelerado ao extremo (febre desproporcional, taquicardia extrema podendo virar fibrilação atrial, agitação do sistema nervoso central). Um fator estressor (aqui, a cirurgia recente) desencadeia a descompensação num hipertireoidismo de base mal controlado. O tratamento ataca a cascata em cada etapa: tionamida bloqueia a síntese nova de hormônio, iodo bloqueia a liberação do que já está estocado (só depois da tionamida, senão alimenta a síntese), e o betabloqueador neutraliza os efeitos adrenérgicos periféricos enquanto os outros fazem efeito.",
+  "materia_relacionada": "Este caso mostra o extremo oposto do eixo hormonal do caso anterior desse par: aqui o TSH está suprimido (a hipófise está sendo inibida por excesso de hormônio, não tentando compensar), e o excesso de T3/T4 livre amplifica a resposta adrenérgica em todos os tecidos, daí o metabolismo acelerado ao extremo (febre desproporcional, taquicardia extrema podendo virar fibrilação atrial, agitação do sistema nervoso central). Um fator estressor (aqui, a cirurgia recente) desencadeia a descompensação num hipertireoidismo de base mal controlado. O tratamento ataca a cascata em cada etapa: tionamida bloqueia a síntese nova de hormônio, iodo bloqueia a liberação do que já está estocado (só depois da tionamida, senão alimenta a síntese), e o betabloqueador neutraliza os efeitos adrenérgicos periféricos enquanto os outros fazem efeito.",
   "area": "Endocrinologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -45,12 +45,12 @@
   ],
   "burns": {
     "abertura": "Hipertireoidismo conhecido, parou o remédio, teve um estresse cirúrgico recente, e agora esse quadro exuberante... isso é uma das poucas emergências endócrinas de verdade. Reconheçam rápido.",
-    "piBaixo": "Aqui não é hora de economizar PI investigando devagar — essa condição tem mortalidade alta se o tratamento atrasar.",
+    "piBaixo": "Aqui não é hora de economizar PI investigando devagar, essa condição tem mortalidade alta se o tratamento atrasar.",
     "fechamento": "Febre alta desproporcional, taquicardia extrema, agitação... a tempestade tireotóxica é clínica, não espera resultado de TSH pra começar o tratamento. Reconhecer o padrão salva vida aqui.",
     "dicas": [
-      "Ela já tem diagnóstico de tireoide e parou o remédio, e teve um evento estressante (cirurgia) — pensa em como isso descompensa um quadro mal controlado.",
+      "Ela já tem diagnóstico de tireoide e parou o remédio, e teve um evento estressante (cirurgia), pensa em como isso descompensa um quadro mal controlado.",
       "Febre muito alta, taquicardia extrema e agitação juntas apontam pra um metabolismo acelerado ao extremo, não uma infecção comum.",
-      "Aqui o tratamento não espera o resultado do TSH — pensa em por que esse diagnóstico é considerado clínico."
+      "Aqui o tratamento não espera o resultado do TSH, pensa em por que esse diagnóstico é considerado clínico."
     ]
   },
   "anamnese": [
@@ -144,19 +144,19 @@
       "texto": "TSH e T4 livre/T3",
       "custo": 8,
       "relevante": true,
-      "resposta": "TSH suprimido, T4 livre e T3 muito elevados — confirma tireotoxicose grave."
+      "resposta": "TSH suprimido, T4 livre e T3 muito elevados, confirma tireotoxicose grave."
     },
     {
       "texto": "Escala de Burch-Wartofsky (critério clínico)",
       "custo": 4,
       "relevante": true,
-      "resposta": "Pontuação alta, compatível com tempestade tireotóxica — reforça que o diagnóstico é clínico e o tratamento não deve esperar o TSH."
+      "resposta": "Pontuação alta, compatível com tempestade tireotóxica, reforça que o diagnóstico é clínico e o tratamento não deve esperar o TSH."
     },
     {
       "texto": "Hemograma completo e proteína C reativa",
       "custo": 8,
       "relevante": false,
-      "resposta": "Leucocitose leve, inespecífica — não indica foco infeccioso claro que explique todo o quadro."
+      "resposta": "Leucocitose leve, inespecífica, não indica foco infeccioso claro que explique todo o quadro."
     },
     {
       "texto": "Eletrocardiograma",
@@ -179,5 +179,5 @@
       "correta": false
     }
   ],
-  "explicacao": "A tempestade tireotóxica é uma descompensação extrema do hipertireoidismo, geralmente desencadeada por um fator estressor (cirurgia, infecção, suspensão abrupta de medicação, como neste caso) num paciente com tireotoxicose de base mal controlada. O excesso de hormônio tireoidiano amplifica a resposta adrenérgica em todos os tecidos: aumenta o metabolismo basal (febre alta, desproporcional a uma infecção simples), a frequência cardíaca (taquiarritmia, podendo precipitar fibrilação atrial) e a atividade do sistema nervoso central (agitação, confusão). É uma emergência clínica com mortalidade elevada se não tratada rapidamente — por isso o diagnóstico e o início do tratamento são baseados em critérios clínicos (como a escala de Burch-Wartofsky), sem esperar a confirmação laboratorial do TSH, que só reforça o diagnóstico a posteriori. O tratamento combina bloqueio da síntese hormonal (tionamida), bloqueio da liberação (iodo, administrado após a tionamida), bloqueio da conversão periférica T4→T3 e dos efeitos adrenérgicos (betabloqueador) e suporte para o estresse fisiológico (corticoide, hidratação, controle térmico)."
+  "explicacao": "A tempestade tireotóxica é uma descompensação extrema do hipertireoidismo, geralmente desencadeada por um fator estressor (cirurgia, infecção, suspensão abrupta de medicação, como neste caso) num paciente com tireotoxicose de base mal controlada. O excesso de hormônio tireoidiano amplifica a resposta adrenérgica em todos os tecidos: aumenta o metabolismo basal (febre alta, desproporcional a uma infecção simples), a frequência cardíaca (taquiarritmia, podendo precipitar fibrilação atrial) e a atividade do sistema nervoso central (agitação, confusão). É uma emergência clínica com mortalidade elevada se não tratada rapidamente, por isso o diagnóstico e o início do tratamento são baseados em critérios clínicos (como a escala de Burch-Wartofsky), sem esperar a confirmação laboratorial do TSH, que só reforça o diagnóstico a posteriori. O tratamento combina bloqueio da síntese hormonal (tionamida), bloqueio da liberação (iodo, administrado após a tionamida), bloqueio da conversão periférica T4→T3 e dos efeitos adrenérgicos (betabloqueador) e suporte para o estresse fisiológico (corticoide, hidratação, controle térmico)."
 }

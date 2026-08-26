@@ -1,13 +1,5 @@
 [
   {
-    "id": "uc3-abdome-agudo-001",
-    "tema": "Caso exemplo · Abdome agudo inflamatório",
-    "dificuldade": "medio",
-    "area": "Cirurgia geral",
-    "prova": "P1",
-    "arquivo": "uc3-abdome-agudo-001.json"
-  },
-  {
     "id": "uc3-pneumonia-dpoc-001",
     "tema": "Tema 06 · Correlação radiologia-patologia em doenças pulmonares",
     "dificuldade": "medio",

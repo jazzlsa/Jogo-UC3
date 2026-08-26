@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-03-02-medio",
   "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
-  "materia_relacionada": "Este caso mostra por que a imuno-histoquímica é indispensável quando a histologia comum (H&E) não basta: três tumores mesenquimais diferentes (GIST, leiomioma, schwannoma) podem parecer idênticos ao microscópio óptico — todos mostram células fusiformes. O painel de marcadores resolve a origem celular: CD117/DOG-1 positivos apontam pras células intersticiais de Cajal (GIST), enquanto desmina apontaria pra músculo liso e S100 pra origem neural. Essa distinção não é só acadêmica: só o GIST, por causa da mutação ativadora no gene KIT, responde ao inibidor de tirosina quinase (imatinibe) — um adenocarcinoma comum não responderia a esse tratamento.",
+  "materia_relacionada": "Este caso mostra por que a imuno-histoquímica é indispensável quando a histologia comum (H&E) não basta: três tumores mesenquimais diferentes (GIST, leiomioma, schwannoma) podem parecer idênticos ao microscópio óptico, todos mostram células fusiformes. O painel de marcadores resolve a origem celular: CD117/DOG-1 positivos apontam pras células intersticiais de Cajal (GIST), enquanto desmina apontaria pra músculo liso e S100 pra origem neural. Essa distinção não é só acadêmica: só o GIST, por causa da mutação ativadora no gene KIT, responde ao inibidor de tirosina quinase (imatinibe), um adenocarcinoma comum não responderia a esse tratamento.",
   "area": "Oncologia",
   "prova": "P1",
   "dificuldade": "medio",

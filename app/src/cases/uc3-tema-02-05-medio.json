@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-05-medio",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso trabalha por que a TC (não o USG) é o exame de escolha pra dor em fossa ilíaca esquerda com febre: o gás intestinal atenua o feixe ultrassônico, igual no caso de isquemia mesentérica, mas aqui a TC também classifica a gravidade (classificação de Hinchey), diferenciando um quadro inflamatório simples de um já complicado por abscesso ou perfuração — informação que muda diretamente a conduta entre tratamento clínico e cirurgia de urgência. A diverticulite em si nasce da microperfuração de um divertículo obstruído por fecalito, e por acometer o sigmoide (à esquerda) é conhecida como 'a apendicite do lado esquerdo'.",
+  "materia_relacionada": "Este caso trabalha por que a TC (não o USG) é o exame de escolha pra dor em fossa ilíaca esquerda com febre: o gás intestinal atenua o feixe ultrassônico, igual no caso de isquemia mesentérica, mas aqui a TC também classifica a gravidade (classificação de Hinchey), diferenciando um quadro inflamatório simples de um já complicado por abscesso ou perfuração, informação que muda diretamente a conduta entre tratamento clínico e cirurgia de urgência. A diverticulite em si nasce da microperfuração de um divertículo obstruído por fecalito, e por acometer o sigmoide (à esquerda) é conhecida como 'a apendicite do lado esquerdo'.",
   "area": "Gastroenterologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -50,7 +50,7 @@
     "dicas": [
       "Releia onde exatamente a dor está localizada e há quanto tempo ela vem incomodando.",
       "Pensa em como o aumento de pressão dentro do cólon, ao longo dos anos, pode formar pontos fracos na parede intestinal.",
-      "A obstrução de um desses pontos fracos por fezes endurecidas pode inflamar e até microperfurar — em qual segmento do cólon isso é mais comum no ocidente?"
+      "A obstrução de um desses pontos fracos por fezes endurecidas pode inflamar e até microperfurar, em qual segmento do cólon isso é mais comum no ocidente?"
     ]
   },
   "anamnese": [
@@ -96,7 +96,7 @@
       "texto": "Pesquisa de descompressão brusca na fossa ilíaca esquerda (Sinal de Blumberg à esquerda)",
       "custo": 3,
       "relevante": true,
-      "resposta": "Positivo — dor aguda à descompressão súbita no quadrante inferior esquerdo."
+      "resposta": "Positivo, dor aguda à descompressão súbita no quadrante inferior esquerdo."
     },
     {
       "texto": "Punho-percussão lombar bilateral (Sinal de Giordano)",
@@ -114,7 +114,7 @@
       "texto": "Pesquisa de estigmas de insuficiência hepática ou icterícia",
       "custo": 3,
       "relevante": false,
-      "resposta": "Ausentes — anictérica, sem aracnodes vasculares ou eritema palmar."
+      "resposta": "Ausentes, anictérica, sem aracnodes vasculares ou eritema palmar."
     }
   ],
   "hipoteses": [
@@ -168,7 +168,7 @@
       "texto": "Urina tipo I (EAS)",
       "custo": 8,
       "relevante": false,
-      "resposta": "Leucócitos 3.000/mL, hemácias 2.000/mL, nitrito negativo — dentro da normalidade."
+      "resposta": "Leucócitos 3.000/mL, hemácias 2.000/mL, nitrito negativo, dentro da normalidade."
     }
   ],
   "condutas": [

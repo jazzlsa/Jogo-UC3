@@ -1,7 +1,7 @@
 {
   "id": "uc3-pneumonia-dpoc-001",
   "tema": "Tema 06 · Correlação radiologia-patologia em doenças pulmonares",
-  "materia_relacionada": "Este caso aplica os sinais radiológicos clássicos (sinal da silhueta, que localiza a consolidação pela estrutura mediastinal que ela apaga; hiperinsuflação, sinal de destruição alveolar crônica) e a fisiopatologia da defesa pulmonar: o tabagismo crônico paralisa os cílios do epitélio respiratório e destrói a arquitetura alveolar (enfisema), reduzindo o clearance mucociliar que normalmente varre bactérias pra fora das vias aéreas. Isso cria terreno fértil pra infecção bacteriana secundária — e a hipoxemia com retenção de CO₂ na gasometria reflete tanto o espaço morto do enfisema quanto o shunt criado pela consolidação, os dois mecanismos que a aula de correlação radiologia-patologia detalha.",
+  "materia_relacionada": "Este caso aplica os sinais radiológicos clássicos (sinal da silhueta, que localiza a consolidação pela estrutura mediastinal que ela apaga; hiperinsuflação, sinal de destruição alveolar crônica) e a fisiopatologia da defesa pulmonar: o tabagismo crônico paralisa os cílios do epitélio respiratório e destrói a arquitetura alveolar (enfisema), reduzindo o clearance mucociliar que normalmente varre bactérias pra fora das vias aéreas. Isso cria terreno fértil pra infecção bacteriana secundária, e a hipoxemia com retenção de CO₂ na gasometria reflete tanto o espaço morto do enfisema quanto o shunt criado pela consolidação, os dois mecanismos que a aula de correlação radiologia-patologia detalha.",
   "area": "Pneumologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -48,9 +48,9 @@
     "piBaixo": "Sua cota de PI está nas últimas, doutor(a)! Lembre-se de que no SUS ou no privado, pedir exame sem critério custa muito caro.",
     "fechamento": "Muito bem! O sinal da silhueta no raio-X e a leucocitose confirmaram a pneumonia lobar no paciente com DPOC. Entender o prejuízo do clearance mucociliar é fundamental para a prova.",
     "dicas": [
-      "Repara que não é só 'mais falta de ar de sempre' — teve mudança na cor e no volume do catarro, e febre. Isso muda o raciocínio pra além de uma exacerbação simples.",
-      "O sinal da silhueta no raio-X ajuda a localizar exatamente onde está o problema — vale revisar o que esse sinal indica sobre a posição da lesão.",
-      "Pensa em como o tabagismo crônico prejudica o transporte mucociliar — isso é a porta de entrada pra esse tipo de complicação."
+      "Repara que não é só 'mais falta de ar de sempre', teve mudança na cor e no volume do catarro, e febre. Isso muda o raciocínio pra além de uma exacerbação simples.",
+      "O sinal da silhueta no raio-X ajuda a localizar exatamente onde está o problema, vale revisar o que esse sinal indica sobre a posição da lesão.",
+      "Pensa em como o tabagismo crônico prejudica o transporte mucociliar, isso é a porta de entrada pra esse tipo de complicação."
     ]
   },
   "anamnese": [

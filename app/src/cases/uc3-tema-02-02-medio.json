@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-02-medio",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso trabalha por que a TC sem contraste é o método de escolha pra cálculo ureteral: o ultrassom, apesar de não usar radiação, perde a visualização do ureter médio por interposição de gás intestinal — uma limitação técnica real, não teórica. A hematúria microscópica reflete o trauma mecânico do urotélio pela passagem do cálculo, e a hidronefrose associada mostra a obstrução a montante — junto com a densificação da gordura peri-ureteral, são achados que a TC caracteriza com alta acurácia e o USG não consegue.",
+  "materia_relacionada": "Este caso trabalha por que a TC sem contraste é o método de escolha pra cálculo ureteral: o ultrassom, apesar de não usar radiação, perde a visualização do ureter médio por interposição de gás intestinal, uma limitação técnica real, não teórica. A hematúria microscópica reflete o trauma mecânico do urotélio pela passagem do cálculo, e a hidronefrose associada mostra a obstrução a montante, junto com a densificação da gordura peri-ureteral, são achados que a TC caracteriza com alta acurácia e o USG não consegue.",
   "area": "Nefrologia/Urologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -58,7 +58,7 @@
       "texto": "A dor começou subitamente no flanco e irradia para a região inguinal?",
       "custo": 2,
       "relevante": true,
-      "resposta": "Sim — começou de forma súbita na região lombar esquerda e irradia para a fossa ilíaca e virilha esquerdas."
+      "resposta": "Sim, começou de forma súbita na região lombar esquerda e irradia para a fossa ilíaca e virilha esquerdas."
     },
     {
       "texto": "Notou alteração na cor da urina ou sintomas miccionais?",
@@ -90,7 +90,7 @@
       "texto": "Punho-percussão lombar (Sinal de Giordano)",
       "custo": 3,
       "relevante": true,
-      "resposta": "Positivo à esquerda — dor intensa ao toque na região lombar esquerda. Negativo à direita."
+      "resposta": "Positivo à esquerda, dor intensa ao toque na região lombar esquerda. Negativo à direita."
     },
     {
       "texto": "Palpação abdominal e pesquisa de descompressão brusca (Blumberg)",

@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-09-02-medio",
   "tema": "Tema 09 · Fundamentos da patologia celular",
-  "materia_relacionada": "Este caso ilustra necrose de coagulação, o tipo de morte celular do infarto: a oclusão coronariana interrompe o oxigênio, e depois de 20-40 minutos as enzimas líticas da própria célula são desnaturadas pelo pH ácido intracelular — paradoxalmente, isso preserva a arquitetura do tecido morto por um tempo (dá pra reconhecer a área infartada ao microscópio), porque as enzimas que digeririam a célula também estão inativadas. É o oposto da necrose liquefativa do sistema nervoso central, onde enzimas lisossomais digerem o tecido rapidamente. A troponina sobe porque a membrana celular rompida libera essa proteína estrutural pra circulação, e continua subindo enquanto a necrose progride — por isso a segunda dosagem em ascensão confirma o processo em curso.",
+  "materia_relacionada": "Este caso ilustra necrose de coagulação, o tipo de morte celular do infarto: a oclusão coronariana interrompe o oxigênio, e depois de 20-40 minutos as enzimas líticas da própria célula são desnaturadas pelo pH ácido intracelular, paradoxalmente, isso preserva a arquitetura do tecido morto por um tempo (dá pra reconhecer a área infartada ao microscópio), porque as enzimas que digeririam a célula também estão inativadas. É o oposto da necrose liquefativa do sistema nervoso central, onde enzimas lisossomais digerem o tecido rapidamente. A troponina sobe porque a membrana celular rompida libera essa proteína estrutural pra circulação, e continua subindo enquanto a necrose progride, por isso a segunda dosagem em ascensão confirma o processo em curso.",
   "area": "Cardiologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -44,13 +44,13 @@
     }
   ],
   "burns": {
-    "abertura": "Dor torácica típica, sudorese, uma hora de evolução — isso é emergência até prova em contrário. Enquanto vocês investigam, o relógio já está correndo contra o músculo cardíaco.",
-    "piBaixo": "Em dor torácica com esse perfil, não é hora de economizar PI pensando em amanhã — o miocárdio que está morrendo agora não espera.",
-    "fechamento": "Depois de 20-40 minutos de isquemia total, a lesão reversível vira necrose de coagulação — e essa, ao contrário da esteatose que vimos antes, não volta atrás. Tempo é músculo.",
+    "abertura": "Dor torácica típica, sudorese, uma hora de evolução, isso é emergência até prova em contrário. Enquanto vocês investigam, o relógio já está correndo contra o músculo cardíaco.",
+    "piBaixo": "Em dor torácica com esse perfil, não é hora de economizar PI pensando em amanhã, o miocárdio que está morrendo agora não espera.",
+    "fechamento": "Depois de 20-40 minutos de isquemia total, a lesão reversível vira necrose de coagulação, e essa, ao contrário da esteatose que vimos antes, não volta atrás. Tempo é músculo.",
     "dicas": [
       "A dor com essas características (aperto, irradiação, sudorese) tem um padrão clássico que aponta pra uma síndrome específica.",
       "Depois de um certo tempo de isquemia total, a célula cardíaca passa de 'machucada mas viva' pra 'morta e sem volta'.",
-      "O eletrocardiograma tem um achado que indica oclusão completa e aguda de uma artéria — vale pedir ele logo."
+      "O eletrocardiograma tem um achado que indica oclusão completa e aguda de uma artéria, vale pedir ele logo."
     ]
   },
   "anamnese": [
@@ -156,13 +156,13 @@
       "texto": "Radiografia de tórax",
       "custo": 10,
       "relevante": false,
-      "resposta": "Discreta congestão pulmonar, sem alargamento de mediastino — ajuda a afastar dissecção de aorta."
+      "resposta": "Discreta congestão pulmonar, sem alargamento de mediastino, ajuda a afastar dissecção de aorta."
     },
     {
       "texto": "D-dímero",
       "custo": 8,
       "relevante": false,
-      "resposta": "Não é o exame prioritário nesse contexto — o quadro já é clinicamente diagnóstico de síndrome coronariana aguda."
+      "resposta": "Não é o exame prioritário nesse contexto, o quadro já é clinicamente diagnóstico de síndrome coronariana aguda."
     }
   ],
   "condutas": [
@@ -179,5 +179,5 @@
       "correta": false
     }
   ],
-  "explicacao": "No infarto agudo do miocárdio, a oclusão de uma artéria coronária interrompe o suprimento de oxigênio ao músculo cardíaco. Nos primeiros 20-40 minutos, a lesão ainda é potencialmente reversível — se o fluxo for restabelecido a tempo, os miócitos se recuperam. Além desse ponto, instala-se a necrose de coagulação: as proteínas estruturais e enzimáticas da célula são desnaturadas, mas a arquitetura básica do tecido é preservada por um tempo (diferente da necrose liquefativa, vista por exemplo no sistema nervoso central), o que permite reconhecer a área infartada histologicamente. Diferente da esteatose (lesão reversível vista no caso anterior), aqui não há volta: o tecido necrótico será substituído por cicatriz fibrótica, sem regeneração de miócitos funcionais. Por isso 'tempo é músculo' — quanto mais rápido a artéria for reaberta (angioplastia primária), menor a área de necrose irreversível e melhor o prognóstico funcional do coração."
+  "explicacao": "No infarto agudo do miocárdio, a oclusão de uma artéria coronária interrompe o suprimento de oxigênio ao músculo cardíaco. Nos primeiros 20-40 minutos, a lesão ainda é potencialmente reversível, se o fluxo for restabelecido a tempo, os miócitos se recuperam. Além desse ponto, instala-se a necrose de coagulação: as proteínas estruturais e enzimáticas da célula são desnaturadas, mas a arquitetura básica do tecido é preservada por um tempo (diferente da necrose liquefativa, vista por exemplo no sistema nervoso central), o que permite reconhecer a área infartada histologicamente. Diferente da esteatose (lesão reversível vista no caso anterior), aqui não há volta: o tecido necrótico será substituído por cicatriz fibrótica, sem regeneração de miócitos funcionais. Por isso 'tempo é músculo', quanto mais rápido a artéria for reaberta (angioplastia primária), menor a área de necrose irreversível e melhor o prognóstico funcional do coração."
 }

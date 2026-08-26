@@ -1,7 +1,7 @@
 {
   "id": "uc3-abdome-agudo-001",
   "tema": "Caso exemplo · Abdome agudo inflamatório",
-  "materia_relacionada": "Este caso aplica a fisiopatologia da dor visceral referida e da irritação peritoneal parietal: a distensão inicial do apêndice ativa fibras aferentes viscerais que convergem no dermátomo T10 (por isso a dor periumbilical mal localizada), e só quando a inflamação atinge o peritônio parietal adjacente — rico em terminações somáticas — a dor migra e se localiza precisamente na fossa ilíaca direita. Isso também explica por que Blumberg e Rovsing (sinais de irritação peritoneal) só aparecem nessa segunda fase, e por que a leucocitose com desvio reforça um processo infeccioso em curso, não só inflamação estéril.",
+  "materia_relacionada": "Este caso aplica a fisiopatologia da dor visceral referida e da irritação peritoneal parietal: a distensão inicial do apêndice ativa fibras aferentes viscerais que convergem no dermátomo T10 (por isso a dor periumbilical mal localizada), e só quando a inflamação atinge o peritônio parietal adjacente, rico em terminações somáticas, a dor migra e se localiza precisamente na fossa ilíaca direita. Isso também explica por que Blumberg e Rovsing (sinais de irritação peritoneal) só aparecem nessa segunda fase, e por que a leucocitose com desvio reforça um processo infeccioso em curso, não só inflamação estéril.",
   "area": "Cirurgia geral",
   "prova": "P1",
   "dificuldade": "medio",
@@ -46,10 +46,10 @@
   "burns": {
     "abertura": "Rapaz chegou há pouco, dor abdominal, 22 anos. Antes de correr pro exame de imagem, que tal ouvir o paciente? Costuma funcionar.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). No SUS ou fora dele, exame não é infinito.",
-    "fechamento": "Curioso, não? A dor migrou exatamente como os livros preveem. Vamos ao porquê — preste atenção, cai na P1.",
+    "fechamento": "Curioso, não? A dor migrou exatamente como os livros preveem. Vamos ao porquê, preste atenção, cai na P1.",
     "dicas": [
       "Releia com atenção como a queixa principal descreve a evolução da dor desde ontem à noite.",
-      "Pensa em como o corpo distingue dor visceral (mal localizada) de dor por irritação do peritônio parietal (bem localizada) — o que muda entre as duas fases da dor dele?",
+      "Pensa em como o corpo distingue dor visceral (mal localizada) de dor por irritação do peritônio parietal (bem localizada), o que muda entre as duas fases da dor dele?",
       "Qual estrutura do quadrante inferior direito, ao inflamar, encaixa com náusea, febre baixa e essa migração específica de dor?"
     ]
   },
@@ -58,7 +58,7 @@
       "texto": "A dor migrou de periumbilical pra fossa ilíaca direita?",
       "custo": 2,
       "relevante": true,
-      "resposta": "Sim — começou perto do umbigo e desceu pro quadrante inferior direito."
+      "resposta": "Sim, começou perto do umbigo e desceu pro quadrante inferior direito."
     },
     {
       "texto": "Teve náusea, vômito ou inapetência junto com a dor?",
@@ -96,13 +96,13 @@
       "texto": "Sinal de Blumberg (descompressão brusca)",
       "custo": 3,
       "relevante": true,
-      "resposta": "Positivo — dor à descompressão súbita."
+      "resposta": "Positivo, dor à descompressão súbita."
     },
     {
       "texto": "Sinal de Rovsing",
       "custo": 3,
       "relevante": true,
-      "resposta": "Positivo — palpação à esquerda reproduz dor à direita."
+      "resposta": "Positivo, palpação à esquerda reproduz dor à direita."
     },
     {
       "texto": "Sinal de Murphy",
@@ -179,5 +179,5 @@
       "correta": false
     }
   ],
-  "explicacao": "A dor migratória (periumbilical → fossa ilíaca direita) reflete a progressão clássica: distensão visceral inicial referida na linha média, seguida de inflamação parietal localizada quando o peritônio adjacente ao apêndice inflama. Obstrução do lúmen apendicular (geralmente por hiperplasia linfoide ou fecalito) leva à distensão, isquemia da parede, translocação bacteriana e — sem intervenção — risco de perfuração. Blumberg e Rovsing positivos indicam irritação peritoneal localizada; a leucocitose com desvio reforça processo infeccioso agudo. Urina I normal ajuda a descartar cólica renal como diferencial."
+  "explicacao": "A dor migratória (periumbilical → fossa ilíaca direita) reflete a progressão clássica: distensão visceral inicial referida na linha média, seguida de inflamação parietal localizada quando o peritônio adjacente ao apêndice inflama. Obstrução do lúmen apendicular (geralmente por hiperplasia linfoide ou fecalito) leva à distensão, isquemia da parede, translocação bacteriana e, sem intervenção, risco de perfuração. Blumberg e Rovsing positivos indicam irritação peritoneal localizada; a leucocitose com desvio reforça processo infeccioso agudo. Urina I normal ajuda a descartar cólica renal como diferencial."
 }

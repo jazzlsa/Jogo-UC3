@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-04-facil",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso trabalha por que o raio-X simples de tórax já resolve o diagnóstico aqui, sem precisar de TC: o ar livre no espaço pleural rompe a continuidade da trama vascular pulmonar normalmente visível até a periferia, criando a hipertransparência sem trama característica. Fisiologicamente, a ruptura de uma bolha subpleural (bleb) em jovens altos e magros libera ar que descola o pulmão da parede torácica, explicando a tríade do exame físico (hipertimpanismo, murmúrio vesicular abolido, frêmito abolido do lado afetado) — a mesma lógica de 'usar o menor exame que resolve' que a aula de ferramentas radiológicas enfatiza.",
+  "materia_relacionada": "Este caso trabalha por que o raio-X simples de tórax já resolve o diagnóstico aqui, sem precisar de TC: o ar livre no espaço pleural rompe a continuidade da trama vascular pulmonar normalmente visível até a periferia, criando a hipertransparência sem trama característica. Fisiologicamente, a ruptura de uma bolha subpleural (bleb) em jovens altos e magros libera ar que descola o pulmão da parede torácica, explicando a tríade do exame físico (hipertimpanismo, murmúrio vesicular abolido, frêmito abolido do lado afetado), a mesma lógica de 'usar o menor exame que resolve' que a aula de ferramentas radiológicas enfatiza.",
   "area": "Pneumologia",
   "prova": "P1",
   "dificuldade": "facil",
@@ -48,7 +48,7 @@
     "piBaixo": "Sua cota de investigação tá acabando. Lembre-se da aula da Dra. Claudia Leite: o exame certo é o de menor custo que responde sua hipótese clínica.",
     "fechamento": "Perfeito! A radiografia simples de tórax confirmou o pneumotórax espontâneo. Rápido, barato e sem radiação excessiva. Essa é a essência do raciocínio radiológico.",
     "dicas": [
-      "Releia a queixa principal — o que exatamente ele estava fazendo quando a dor começou, e como ele descreve a falta de ar?",
+      "Releia a queixa principal, o que exatamente ele estava fazendo quando a dor começou, e como ele descreve a falta de ar?",
       "Pensa em como o ar pode acabar livre dentro do tórax sem nenhum trauma penetrante.",
       "Que estrutura, ao romper espontaneamente, colaba o pulmão e explicaria a ausculta assimétrica?"
     ]

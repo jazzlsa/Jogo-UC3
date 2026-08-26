@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-09-01-facil",
   "tema": "Tema 09 · Fundamentos da patologia celular",
-  "materia_relacionada": "Este caso ilustra lesão celular reversível: sob excesso de álcool ou açúcar, o hepatócito desvia o metabolismo pra síntese de triglicerídeos, que se acumulam em vacúolos citoplasmáticos — a célula muda de forma mas continua com a maquinaria de síntese proteica e as membranas intactas, por isso a função (e as transaminases) fica só discretamente alterada. Isso é diferente da necrose (lesão irreversível) vista no próximo caso desse par: aqui, removendo o estímulo (parar de beber, perder peso), o hepatócito literalmente volta ao normal — reversibilidade que deixa de existir quando a célula morre de verdade.",
+  "materia_relacionada": "Este caso ilustra lesão celular reversível: sob excesso de álcool ou açúcar, o hepatócito desvia o metabolismo pra síntese de triglicerídeos, que se acumulam em vacúolos citoplasmáticos, a célula muda de forma mas continua com a maquinaria de síntese proteica e as membranas intactas, por isso a função (e as transaminases) fica só discretamente alterada. Isso é diferente da necrose (lesão irreversível) vista no próximo caso desse par: aqui, removendo o estímulo (parar de beber, perder peso), o hepatócito literalmente volta ao normal, reversibilidade que deixa de existir quando a célula morre de verdade.",
   "area": "Patologia geral",
   "prova": "P1",
   "dificuldade": "facil",
@@ -44,11 +44,11 @@
     }
   ],
   "burns": {
-    "abertura": "Paciente assintomático com achado incidental de gordura no fígado — ótima chance de revisar o conceito de lesão celular reversível antes de ela virar algo que não tem mais volta.",
-    "piBaixo": "Nem todo achado de exame precisa de investigação extensa — pensem no que realmente muda a conduta aqui.",
-    "fechamento": "Esteatose é lesão reversível — o hepatócito acumula gordura, mas ainda está vivo e funcional. Param de beber e mudam a dieta, e essas células voltam ao normal. Isso não seria mais verdade se já fosse fibrose.",
+    "abertura": "Paciente assintomático com achado incidental de gordura no fígado, ótima chance de revisar o conceito de lesão celular reversível antes de ela virar algo que não tem mais volta.",
+    "piBaixo": "Nem todo achado de exame precisa de investigação extensa, pensem no que realmente muda a conduta aqui.",
+    "fechamento": "Esteatose é lesão reversível, o hepatócito acumula gordura, mas ainda está vivo e funcional. Param de beber e mudam a dieta, e essas células voltam ao normal. Isso não seria mais verdade se já fosse fibrose.",
     "dicas": [
-      "A célula aqui não morreu — ela só está reagindo a um excesso que ela mesma consegue processar, se você tirar o estímulo.",
+      "A célula aqui não morreu, ela só está reagindo a um excesso que ela mesma consegue processar, se você tirar o estímulo.",
       "Pensa no que o hepatócito faz com o excesso de energia (álcool, açúcar) que ele não consegue metabolizar rápido o suficiente.",
       "Se essa condição fosse irreversível, o que estaria diferente no exame de imagem e nas enzimas hepáticas?"
     ]
@@ -102,7 +102,7 @@
       "texto": "Pesquisa de telangiectasias, eritema palmar e outros estigmas de hepatopatia crônica",
       "custo": 3,
       "relevante": true,
-      "resposta": "Ausentes — sem estigmas de doença hepática avançada."
+      "resposta": "Ausentes, sem estigmas de doença hepática avançada."
     },
     {
       "texto": "Icterícia em escleróticas",
@@ -150,19 +150,19 @@
       "texto": "Ultrassonografia de abdome",
       "custo": 12,
       "relevante": true,
-      "resposta": "Fígado com ecotextura heterogênea e aumento de ecogenicidade difusa, compatível com esteatose — sem nódulos, sem sinais de cirrose."
+      "resposta": "Fígado com ecotextura heterogênea e aumento de ecogenicidade difusa, compatível com esteatose, sem nódulos, sem sinais de cirrose."
     },
     {
       "texto": "Sorologias para hepatites virais (B e C)",
       "custo": 10,
       "relevante": true,
-      "resposta": "Negativas — afasta hepatite viral como causa."
+      "resposta": "Negativas, afasta hepatite viral como causa."
     },
     {
       "texto": "Alfa-fetoproteína",
       "custo": 10,
       "relevante": false,
-      "resposta": "Dentro da normalidade — sem indicação de rastreio de hepatocarcinoma nesse estágio."
+      "resposta": "Dentro da normalidade, sem indicação de rastreio de hepatocarcinoma nesse estágio."
     }
   ],
   "condutas": [
@@ -179,5 +179,5 @@
       "correta": false
     }
   ],
-  "explicacao": "A esteatose hepática é o exemplo clássico de lesão celular reversível: o hepatócito, sob estresse metabólico (excesso de álcool, resistência à insulina, obesidade), acumula triglicerídeos no citoplasma como uma resposta adaptativa à sobrecarga energética — a célula continua viva e funcional, apenas com sua morfologia alterada. Isso é diferente de lesão irreversível (necrose ou apoptose), onde a célula morre e o dano estrutural não pode ser desfeito. A distinção importa clinicamente: a esteatose isolada, sem inflamação (esteato-hepatite) ou fibrose associada, tem excelente prognóstico e pode regredir completamente com a remoção do estímulo agressor — perda de peso, controle glicêmico e redução do consumo de álcool. Se o estresse persistir, a lesão reversível pode evoluir para esteato-hepatite, fibrose e eventualmente cirrose (lesão irreversível) — por isso a intervenção precoce, nessa fase ainda reversível, é tão valiosa."
+  "explicacao": "A esteatose hepática é o exemplo clássico de lesão celular reversível: o hepatócito, sob estresse metabólico (excesso de álcool, resistência à insulina, obesidade), acumula triglicerídeos no citoplasma como uma resposta adaptativa à sobrecarga energética, a célula continua viva e funcional, apenas com sua morfologia alterada. Isso é diferente de lesão irreversível (necrose ou apoptose), onde a célula morre e o dano estrutural não pode ser desfeito. A distinção importa clinicamente: a esteatose isolada, sem inflamação (esteato-hepatite) ou fibrose associada, tem excelente prognóstico e pode regredir completamente com a remoção do estímulo agressor, perda de peso, controle glicêmico e redução do consumo de álcool. Se o estresse persistir, a lesão reversível pode evoluir para esteato-hepatite, fibrose e eventualmente cirrose (lesão irreversível), por isso a intervenção precoce, nessa fase ainda reversível, é tão valiosa."
 }

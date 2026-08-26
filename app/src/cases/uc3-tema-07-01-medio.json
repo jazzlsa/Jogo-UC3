@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-07-01-medio",
   "tema": "Tema 07 · Organização e Funcionamento do Sistema Imune",
-  "materia_relacionada": "Este caso mostra na prática o papel do baço como órgão linfoide secundário: seus macrófagos fazem a 'limpeza' do sangue, opsonizando e fagocitando bactérias encapsuladas (pneumococo, meningococo, H. influenzae tipo b) que escapam da resposta por anticorpo isolada — essas bactérias têm cápsula de polissacarídeo justamente pra resistir à fagocitose sem essa filtragem extra. Sem baço, a bacteremia por esses organismos pode evoluir pra sepse fulminante (OPSI) em poucas horas, com coagulação intravascular disseminada (as lesões purpúricas) refletindo o consumo maciço de fatores de coagulação pela resposta inflamatória descontrolada — por isso a conduta não espera confirmação laboratorial, é clínica e imediata.",
+  "materia_relacionada": "Este caso mostra na prática o papel do baço como órgão linfoide secundário: seus macrófagos fazem a 'limpeza' do sangue, opsonizando e fagocitando bactérias encapsuladas (pneumococo, meningococo, H. influenzae tipo b) que escapam da resposta por anticorpo isolada, essas bactérias têm cápsula de polissacarídeo justamente pra resistir à fagocitose sem essa filtragem extra. Sem baço, a bacteremia por esses organismos pode evoluir pra sepse fulminante (OPSI) em poucas horas, com coagulação intravascular disseminada (as lesões purpúricas) refletindo o consumo maciço de fatores de coagulação pela resposta inflamatória descontrolada, por isso a conduta não espera confirmação laboratorial, é clínica e imediata.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -10,7 +10,7 @@
     "idade": 34,
     "sexo": "F"
   },
-  "queixa_principal": "“Doutor, eu comecei a passar mal do nada essa manhã — febre alta, tremendo de frio, e uma dor de cabeça forte. Em menos de uma hora eu já não conseguia nem ficar em pé.”",
+  "queixa_principal": "“Doutor, eu comecei a passar mal do nada essa manhã, febre alta, tremendo de frio, e uma dor de cabeça forte. Em menos de uma hora eu já não conseguia nem ficar em pé.”",
   "sinais_vitais": [
     {
       "l": "PA",
@@ -45,12 +45,12 @@
   ],
   "burns": {
     "abertura": "Uma paciente chegando em choque séptico, evoluindo desse jeito fulminante, com uma cirurgia prévia no histórico dela... prestem atenção nesse detalhe do histórico cirúrgico. Ele muda tudo nesse caso.",
-    "piBaixo": "Cota apertando, doutor(a)? Cada exame pedido sem necessidade é PI que não vai sobrar quando você precisar de verdade — e nesse caso, tempo é o recurso mais escasso de todos.",
-    "fechamento": "Isso aqui é o motivo pelo qual todo esplenectomizado devia sair do hospital vacinado e com um cartão no bolso avisando que não tem baço. Guarda isso — cai bastante em prova, e mais importante: salva vida.",
+    "piBaixo": "Cota apertando, doutor(a)? Cada exame pedido sem necessidade é PI que não vai sobrar quando você precisar de verdade, e nesse caso, tempo é o recurso mais escasso de todos.",
+    "fechamento": "Isso aqui é o motivo pelo qual todo esplenectomizado devia sair do hospital vacinado e com um cartão no bolso avisando que não tem baço. Guarda isso, cai bastante em prova, e mais importante: salva vida.",
     "dicas": [
-      "O histórico cirúrgico dela é a pista mais importante do caso inteiro — pensa em qual órgão ela perdeu.",
-      "Bactérias encapsuladas dependem de opsonização eficiente pra serem destruídas — qual órgão faz boa parte dessa filtragem no sangue?",
-      "As lesões purpúricas evoluindo rápido são sinal de gravidade (CIVD) — o tempo até o antibiótico é crítico."
+      "O histórico cirúrgico dela é a pista mais importante do caso inteiro, pensa em qual órgão ela perdeu.",
+      "Bactérias encapsuladas dependem de opsonização eficiente pra serem destruídas, qual órgão faz boa parte dessa filtragem no sangue?",
+      "As lesões purpúricas evoluindo rápido são sinal de gravidade (CIVD), o tempo até o antibiótico é crítico."
     ]
   },
   "anamnese": [
@@ -58,7 +58,7 @@
       "texto": "Já teve alguma cirurgia abdominal ou trauma importante no passado?",
       "custo": 2,
       "relevante": true,
-      "resposta": "Sim — esplenectomia há 2 anos, depois de um acidente de moto com lesão esplênica."
+      "resposta": "Sim, esplenectomia há 2 anos, depois de um acidente de moto com lesão esplênica."
     },
     {
       "texto": "Está com alguma vacina em atraso, principalmente pneumocócica ou meningocócica?",
@@ -90,7 +90,7 @@
       "texto": "Avaliação do nível de consciência e da perfusão periférica",
       "custo": 3,
       "relevante": true,
-      "resposta": "Confusa, extremidades frias, enchimento capilar lento (>4s) — sinais de choque."
+      "resposta": "Confusa, extremidades frias, enchimento capilar lento (>4s), sinais de choque."
     },
     {
       "texto": "Pesquisa de petéquias ou púrpura na pele",
@@ -114,7 +114,7 @@
       "texto": "Sinais de irritação meníngea (rigidez de nuca, Kernig, Brudzinski)",
       "custo": 3,
       "relevante": true,
-      "resposta": "Rigidez de nuca discreta, sem Kernig ou Brudzinski francos — não descarta comprometimento meníngeo associado."
+      "resposta": "Rigidez de nuca discreta, sem Kernig ou Brudzinski francos, não descarta comprometimento meníngeo associado."
     }
   ],
   "hipoteses": [
@@ -144,13 +144,13 @@
       "texto": "Hemograma completo com contagem de plaquetas",
       "custo": 8,
       "relevante": true,
-      "resposta": "Leucocitose intensa com desvio à esquerda e plaquetopenia — compatível com sepse grave/CIVD."
+      "resposta": "Leucocitose intensa com desvio à esquerda e plaquetopenia, compatível com sepse grave/CIVD."
     },
     {
       "texto": "Hemocultura",
       "custo": 10,
       "relevante": true,
-      "resposta": "Coletada; resultado pendente — mas a suspeita clínica de bactéria encapsulada já direciona a conduta imediata, sem esperar o resultado pra tratar."
+      "resposta": "Coletada; resultado pendente, mas a suspeita clínica de bactéria encapsulada já direciona a conduta imediata, sem esperar o resultado pra tratar."
     },
     {
       "texto": "Lactato sérico",
@@ -162,13 +162,13 @@
       "texto": "TC de crânio",
       "custo": 14,
       "relevante": false,
-      "resposta": "Sem alterações agudas — não é isso que está causando o quadro."
+      "resposta": "Sem alterações agudas, não é isso que está causando o quadro."
     },
     {
       "texto": "Coagulograma (TP, TTPa, fibrinogênio, D-dímero)",
       "custo": 10,
       "relevante": true,
-      "resposta": "Alterado, com fibrinogênio baixo e D-dímero elevado — compatível com CIVD associada à sepse grave."
+      "resposta": "Alterado, com fibrinogênio baixo e D-dímero elevado, compatível com CIVD associada à sepse grave."
     }
   ],
   "condutas": [
@@ -185,5 +185,5 @@
       "correta": false
     }
   ],
-  "explicacao": "O baço é o principal órgão linfoide secundário responsável por filtrar o sangue e apresentar antígenos a linfócitos — é ali que macrófagos esplênicos opsonizam e removem bactérias encapsuladas (Streptococcus pneumoniae, Haemophilus influenzae tipo b, Neisseria meningitidis) que escapam do reconhecimento por anticorpo isolado. Sem o baço, esses patógenos circulam livremente e podem causar uma sepse fulminante — a chamada OPSI (Overwhelming Post-Splenectomy Infection) — com evolução em horas, coagulação intravascular disseminada (as lesões purpúricas) e mortalidade alta se o antibiótico não for iniciado de forma empírica e imediata. Por isso todo paciente esplenectomizado deveria receber vacinação específica (pneumocócica, meningocócica, Hib) e ser orientado a procurar atendimento de urgência diante de qualquer febre — o histórico cirúrgico, não os exames, é o que abre o diagnóstico aqui."
+  "explicacao": "O baço é o principal órgão linfoide secundário responsável por filtrar o sangue e apresentar antígenos a linfócitos, é ali que macrófagos esplênicos opsonizam e removem bactérias encapsuladas (Streptococcus pneumoniae, Haemophilus influenzae tipo b, Neisseria meningitidis) que escapam do reconhecimento por anticorpo isolado. Sem o baço, esses patógenos circulam livremente e podem causar uma sepse fulminante, a chamada OPSI (Overwhelming Post-Splenectomy Infection), com evolução em horas, coagulação intravascular disseminada (as lesões purpúricas) e mortalidade alta se o antibiótico não for iniciado de forma empírica e imediata. Por isso todo paciente esplenectomizado deveria receber vacinação específica (pneumocócica, meningocócica, Hib) e ser orientado a procurar atendimento de urgência diante de qualquer febre, o histórico cirúrgico, não os exames, é o que abre o diagnóstico aqui."
 }
