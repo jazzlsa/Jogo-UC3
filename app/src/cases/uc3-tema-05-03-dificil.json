@@ -1,0 +1,185 @@
+{
+  "id": "uc3-tema-05-03-dificil",
+  "tema": "Tema 05 · Princípios da tomografia computadorizada",
+  "materia_relacionada": "Este caso aplica os conceitos de fases de contraste na tomografia computadorizada. A fase tardia ou excretora é fundamental para identificar o extravasamento de urina contrastada, diferenciando-o de hematomas ou sangramento ativo pelo comportamento de densidade na Escala Hounsfield.",
+  "area": "Cirurgia geral",
+  "prova": "Todas",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 34,
+    "sexo": "M"
+  },
+  "queixa_principal": "\"Doutor, sofri uma queda de moto ontem e bati forte a lombar direita. Hoje comecei a urinar sangue e a dor na lateral do corpo ficou insuportável.\"",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "110/70",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "96",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.8",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "19",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "98",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Temos um trauma abdominal e lombar fechado aqui. O rapaz está estável, mas essa hematúria macroscópica preocupa. Vamos investigar com inteligência, sem desperdiçar recursos.",
+    "piBaixo": "Sua pontuação de investigação está baixa. Pense muito bem antes de pedir o próximo exame, cada escolha agora é crítica.",
+    "fechamento": "Excelente raciocínio. Compreender as fases de contraste e a física da tomografia evitou uma cirurgia desnecessária e garantiu o tratamento correto. Muito bem.",
+    "dicas": [
+      "Releia a queixa do paciente e preste atenção na presença de sangue na urina após o trauma lombar.",
+      "Lembre-se de como os diferentes fluidos se comportam na escala de densidade Hounsfield e como o contraste é eliminado pelo rim.",
+      "Qual fase da tomografia computadorizada permite ver o contraste misturado à urina saindo da via coletora renal rompida?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Houve trauma direto no flanco direito?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, bati o lado direito das costas e o flanco diretamente contra o meio-fio na queda."
+    },
+    {
+      "texto": "A urina está vermelha desde a primeira micção após o acidente?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não, a primeira urina foi normal, mas as últimas três saíram bem vermelhas e com alguns coágulos."
+    },
+    {
+      "texto": "Apresenta dor em outros locais como tórax ou abdome anterior?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor é muito localizada na região lombar direita e no flanco direito."
+    },
+    {
+      "texto": "Tem antecedente de pedras nos rins ou cirurgia urológica?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nunca tive problemas nos rins ou cirurgias prévias."
+    },
+    {
+      "texto": "Houve perda de consciência no momento do acidente?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, lembro de todo o acidente, estava de capacete e não bati a cabeça."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Inspeção e palpação do flanco e região lombar direita",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Grande equimose em flanco direito, dor importante à palpação profunda, sem massas pulsáteis."
+    },
+    {
+      "texto": "Sinal de Giordano (punho-percussão lombar)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Grito de dor à percussão do lado direito. Negativo à esquerda."
+    },
+    {
+      "texto": "Palpação abdominal geral",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Abdome plano, flácido, doloroso apenas à palpação profunda do flanco direito, sem sinais de peritonite."
+    },
+    {
+      "texto": "Pesquisa de rigidez de nuca e sinais neurológicos",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Pupilas isocóricas e fotorreativas, sem qualquer déficit motor ou rigidez de nuca."
+    },
+    {
+      "texto": "Toque retal",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Próstata de tamanho normal, indolor, sem sangue no dedo de luva, tônus de esfíncter preservado."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Trauma renal com lesão de via coletora (Urinoma)",
+      "correta": true
+    },
+    {
+      "texto": "Rotura esplênica com hemoperitônio",
+      "correta": false
+    },
+    {
+      "texto": "Trauma renal com sangramento arterial ativo",
+      "correta": false
+    },
+    {
+      "texto": "Nefrolitíase complicada por pielonefrite",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Ultrassonografia de abdome (FAST)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Livre de líquido livre no espaço de Morrison ou esplenorrenal. Presença de coleção anecoica peri-renal direita de tamanho moderado."
+    },
+    {
+      "texto": "TC de abdome e pelve sem contraste",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Laceração renal direita profunda atingindo a medular. Coleção líquida peri-renal com densidade de 10 Unidades Hounsfield, compatível com urina ou fluido simples, mas sem definição de sangramento ativo ou vazamento de urina."
+    },
+    {
+      "texto": "TC de abdome e pelve com contraste (Fases arterial e portal)",
+      "custo": 15,
+      "relevante": true,
+      "resposta": "Laceração renal estendendo-se ao sistema coletor. Sem evidência de extravasamento ativo de contraste nas fases precoces. Coleção peri-renal sem realce significativo nessas fases."
+    },
+    {
+      "texto": "TC de abdome e pelve com contraste (Fase tardia / excretora de 10 minutos)",
+      "custo": 15,
+      "relevante": true,
+      "resposta": "Presença de extravasamento de urina densamente contrastada, com alta atenuação, acumulando-se no espaço peri-renal, confirmando comunicação da via coletora."
+    },
+    {
+      "texto": "Radiografia de tórax e bacia",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Ausência de fraturas ósseas ou lesões pleuropulmonares agudas."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Tratamento conservador com repouso, hidratação, vigilância hemodinâmica e inserção de duplo J se houver piora",
+      "correta": true
+    },
+    {
+      "texto": "Laparotomia exploradora imediata para nefrectomia total",
+      "correta": false
+    },
+    {
+      "texto": "Arteriografia de urgência com embolização da artéria renal",
+      "correta": false
+    }
+  ],
+  "explicacao": "O paciente apresenta um trauma renal grau IV estável. A chave do diagnóstico reside nos princípios físicos da tomografia computadorizada. A tomografia sem contraste mostra uma coleção peri-renal com baixa atenuação (10 Unidades Hounsfield), o que sugere urina ou fluido livre, mas não diferencia com precisão de um hematoma antigo ou líquido inflamatório. As fases arterial e portal excluem sangramento arterial ativo pela ausência de extravasamento de contraste precoce. A confirmação da rotura da via coletora só é possível na fase tardia ou excretora (10 minutos após o contraste), momento em que o rim filtra o meio de contraste iodado e o elimina pela urina. A imagem mostra o contraste de alta densidade vazando para o espaço peri-renal. O tratamento inicial do trauma renal fechado em paciente estável, mesmo com urinoma, é conservador, frequentemente auxiliado pela passagem de cateter duplo J para facilitar a cicatrização da via urinária."
+}

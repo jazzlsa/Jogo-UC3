@@ -1,0 +1,187 @@
+{
+  "id": "uc3-tema-03-05-medio",
+  "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+  "materia_relacionada": "Este caso integra as ferramentas do diagnóstico patológico ao mostrar como a avaliação macroscópica, a histopatologia e o uso de marcadores imuno-histoquímicos específicos como S100 e Melan-A estabelecem o diagnóstico de certeza, quantificam a profundidade de invasão tecidual e guiam a conduta terapêutica.",
+  "area": "Oncologia",
+  "prova": "Todas",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 54,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, reparei que um sinal antigo nas minhas costas mudou de formato, escureceu e começou a coçar e sangrar um pouco.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "128/82",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "76",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "36.6",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "16",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "98",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Homem de 54 anos com lesão cutânea pigmentada expansiva. Antes de correr para conclusões, avalie como a patologia utiliza do exame macroscópico até a caracterização tecidual para definir esta doença.",
+    "piBaixo": "Sua cota de pontos de investigação está caindo rapidamente. Seja criterioso na escolha dos exames complementares.",
+    "fechamento": "Excelente raciocínio. A integração entre macroscopia, margens de ressecção, histopatologia e imunoperfil por anticorpos específicos é a essência do diagnóstico patológico.",
+    "dicas": [
+      "Releia as características descritas na inspeção da lesão cutânea e na evolução temporal relatada pelo paciente.",
+      "Pense nos mecanismos de proliferação atípica das células produtoras de pigmento na junção dermoepidérmica e como marcadores específicos ajudam a confirmar essa linhagem.",
+      "Qual neoplasia cutânea agressiva apresenta assimetria macroscópica, proliferação de melanócitos atípicos e exige medição da profundidade de invasão no laudo histopatológico?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A lesão mudou de cor, tamanho ou borda recentemente?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, era um sinal pequeno e castanho claro que cresceu, ficou enegrecido e com bordas irregulares nos últimos seis meses."
+    },
+    {
+      "texto": "Tem histórico de exposição solar crônica sem proteção ou queimaduras solares na juventude?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, trabalhou anos ao ar livre no campo e teve várias queimaduras solares com bolhas quando jovem."
+    },
+    {
+      "texto": "Tem histórico familiar de câncer de pele?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "O pai teve uma lesão maligna retirada do rosto na velhice, mas não soube especificar o tipo preciso."
+    },
+    {
+      "texto": "Apresenta lesões descamativas avermelhadas nos cotovelos e joelhos?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nega lesões nesses locais."
+    },
+    {
+      "texto": "A lesão dói quando pressionada ou causa febre noturna?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não dói, apenas coça ocasionalmente e não teve febre."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Inspeção macroscópica da lesão cutânea",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Mácula enegrecida e castanha em dorso, assimétrica, com bordas recortadas e 12 mm de maior diâmetro."
+    },
+    {
+      "texto": "Dermatoscopia da lesão dorsotorácica",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Rede pigmentar atípica, velo azul-branquento e pontos irregulares de distribuição assimétrica."
+    },
+    {
+      "texto": "Palpação de cadeias linfonodais axilares e cervicais",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Sem linfonodomegalias palpáveis em cadeias axilares ou cervicais."
+    },
+    {
+      "texto": "Sinal de Nikolsky na pele adjacente",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, sem descolamento epidérmico à fricção."
+    },
+    {
+      "texto": "Sinal de Auspitz na lesão",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, ausência de orvalho sangrento após raspagem delicada."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Carcinoma basocelular",
+      "correta": false
+    },
+    {
+      "texto": "Melanoma cutâneo",
+      "correta": true
+    },
+    {
+      "texto": "Carcinoma espinocelular",
+      "correta": false
+    },
+    {
+      "texto": "Ceratose seborreica atípica",
+      "correta": false
+    },
+    {
+      "texto": "Nevo melanocítico displásico",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Biópsia excisional da lesão com margens estreitas",
+      "custo": 15,
+      "relevante": true,
+      "resposta": "Histopatologia revela proliferação de melanócitos atípicos dispostos em ninhos e isolados na epiderme e derme papilar. Espessura de Breslow de 1,2 mm, sem ulceração."
+    },
+    {
+      "texto": "Imuno-histoquímica do tecido biopsiado",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Positividade forte e difusa para S100, Melan-A e HMB-45 nas células neoplásicas."
+    },
+    {
+      "texto": "Ultrassonografia de abdome total",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Fígado, baço e rins de morfologia e dimensões normais, sem lesões focais."
+    },
+    {
+      "texto": "Dosagem de Ácido Vanilmandélico urina 24h",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Valores dentro dos limites da normalidade."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Crioterapia local e acompanhamento clínico sem nova abordagem cirúrgica",
+      "correta": false
+    },
+    {
+      "texto": "Ampliação de margens cirúrgicas conforme espessura de Breslow e pesquisa de linfonodo sentinela",
+      "correta": true
+    },
+    {
+      "texto": "Início imediato de quimioterapia sistêmica paliativa sem estadiamento adicional",
+      "correta": false
+    },
+    {
+      "texto": "Apenas observação dermatoscópica semestral da cicatriz da biópsia",
+      "correta": false
+    }
+  ],
+  "explicacao": "O diagnóstico do melanoma cutâneo exemplifica o papel central da patologia no raciocínio clínico. A análise macroscópica orientada pelos critérios clínicos de assimetria, bordas e cor leva à suspeita inicial. A biópsia excisional permite a avaliação microscópica histopatológica, na qual se observa a proliferação de melanócitos atípicos e a invasão da derme. A quantificação da espessura de Breslow em milímetros é o principal fator prognóstico histopatológico e direciona a margem de ampliação cirúrgica. A imuno-histoquímica com marcadores como S100, Melan-A e HMB-45 confirma a linhagem melanocítica da neoplasia, diferenciando-a de outros tumores anaplásicos e orientando a conduta terapêutica definitiva."
+}

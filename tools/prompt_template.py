@@ -87,6 +87,10 @@ conteúdo da aula/tema da UC3 que o originou — o que o jogador deveria \
 revisar/estudar a partir desse caso.
 - Use terminologia médica correta em português; não invente achados \
 fisiologicamente inconsistentes com o diagnóstico correto escolhido.
+- NUNCA use travessão ("—" ou " - " como pausa) em nenhum texto do caso \
+(falas do Burns, enunciados, explicação, materia_relacionada, dicas). Prefira \
+frases mais curtas, ponto final, vírgula ou dois-pontos. Isso vale pra TODOS \
+os campos de texto do JSON gerado, sem exceção.
 - Quando o material de referência for mais teórico/básico (ex.: imunologia, \
 biologia celular, ferramentas de diagnóstico) em vez de já ser um caso \
 clínico pronto, sua tarefa é CONSTRUIR um caso clínico plausível que exija \

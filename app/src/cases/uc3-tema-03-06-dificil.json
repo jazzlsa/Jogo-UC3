@@ -1,0 +1,189 @@
+{
+  "id": "uc3-tema-03-06-dificil",
+  "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+  "materia_relacionada": "Este caso ilustra a aplicação prática das ferramentas do diagnóstico patológico, especificamente a imuno-histoquímica, para diferenciar neoplasias morfologicamente semelhantes através de marcadores de linhagem celular específicos.",
+  "area": "Patologia geral",
+  "prova": "Todas",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 64,
+    "sexo": "M"
+  },
+  "queixa_principal": "\"Doutor, estou com uma falta de ar que vem piorando muito nos últimos três meses, além de uma dor chata no peito do lado direito.\"",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "130/80",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "92",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "36.6",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "22",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "91",
+      "u": "%",
+      "flag": true
+    }
+  ],
+  "burns": {
+    "abertura": "Temos um paciente idoso com queixa respiratória arrastada e dor torácica. O segredo aqui não é apenas dar um diagnóstico genérico de câncer, mas sim usar as ferramentas certas para definir a linhagem exata da célula tumoral.",
+    "piBaixo": "Seu orçamento de investigação está curto. Foque em exames que definem a imunofenotipagem, caso contrário ficaremos no escuro.",
+    "fechamento": "Muito bem. A diferenciação entre adenocarcinoma e mesotelioma é um clássico desafio da patologia cirúrgica que só se resolve com um painel imuno-histoquímico bem direcionado.",
+    "dicas": [
+      "Releia o histórico profissional do paciente na anamnese, há um detalhe crucial sobre o passado dele.",
+      "Pense em qual camada celular reveste as cavidades serosas e como a exposição a poeiras minerais pode induzir transformação maligna crônica nessa região.",
+      "Qual exame patológico avançado utiliza anticorpos para diferenciar uma neoplasia de origem epitelial pulmonar de uma neoplasia de origem mesotelial?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Qual era a sua profissão antes de se aposentar?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Trabalhei por trinta anos na indústria de fibrocimento, fabricando telhas e caixas d'água."
+    },
+    {
+      "texto": "Teve perda de peso recente?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, perdi cerca de oito quilos no último semestre sem fazer dieta."
+    },
+    {
+      "texto": "A dor piora logo após se alimentar?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor é constante e piora quando respiro fundo, sem relação com comida."
+    },
+    {
+      "texto": "Teve contato recente com pessoas tossindo ou com tuberculose?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não que eu saiba, ninguém na minha família ou ciclo próximo teve isso."
+    },
+    {
+      "texto": "O senhor fuma ou já fumou?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Fumei um maço por dia durante vinte anos, mas parei há mais de dez anos."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Ausculta pulmonar",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Murmúrio vesicular abolido em base direita, com som normal à esquerda."
+    },
+    {
+      "texto": "Percussão do tórax",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Macicez evidente à percussão em terço inferior do hemitórax direito."
+    },
+    {
+      "texto": "Palpação de tireoide",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Glândula de tamanho normal, consistência preservada, sem nódulos palpáveis."
+    },
+    {
+      "texto": "Pesquisa de linfonodos cervicais e supraclaviculares",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Presença de linfonodo endurecido e pouco móvel de um centímetro em fossa supraclavicular direita."
+    },
+    {
+      "texto": "Sinal de Murphy",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, sem dor ou parada inspiratória à palpação do rebordo costal direito."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Tuberculose pleural",
+      "correta": false
+    },
+    {
+      "texto": "Adenocarcinoma metastático de pulmão",
+      "correta": false
+    },
+    {
+      "texto": "Mesotelioma pleural maligno",
+      "correta": true
+    },
+    {
+      "texto": "Linfoma difuso de grandes células B",
+      "correta": false
+    },
+    {
+      "texto": "Pneumonia lobar com derrame parapneumônico",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Tomografia de tórax de alta resolução",
+      "custo": 14,
+      "relevante": true,
+      "resposta": "Espessamento pleural difuso, nodular e circunferencial à direita, associado a derrame pleural moderado e perda de volume do pulmão ipsilateral."
+    },
+    {
+      "texto": "Doseamento de amilase no líquido pleural",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Níveis de amilase normais no líquido pleural, descartando etiologia pancreática."
+    },
+    {
+      "texto": "Biópsia pleural por toracoscopia com estudo anatomopatológico simples",
+      "custo": 18,
+      "relevante": true,
+      "resposta": "Proliferação de células atípicas, ora com arranjo tubulopapilar, ora com aparência fusocelular, infiltrando o estroma. O diagnóstico morfológico diferencial entre adenocarcinoma e mesotelioma permanece indefinido apenas pela coloração habitual."
+    },
+    {
+      "texto": "Painel de imuno-histoquímica na biópsia pleural",
+      "custo": 15,
+      "relevante": true,
+      "resposta": "Positividade forte para Calretinina, WT1 e D2-40, com negatividade completa para TTF-1 e CEA."
+    },
+    {
+      "texto": "Sorologias para HIV, hepatites B e C",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Todas não reagentes."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Iniciar esquema básico para tuberculose com esquema RIPE imediatamente",
+      "correta": false
+    },
+    {
+      "texto": "Quimioterapia sistêmica baseada em platina associada a pemetrexede",
+      "correta": true
+    },
+    {
+      "texto": "Lobectomia pulmonar de resgate imediata sem tratamento adjuvante",
+      "correta": false
+    }
+  ],
+  "explicacao": "O diagnóstico definitivo de mesotelioma pleural maligno exige a aplicação de ferramentas diagnósticas da patologia moderna, visto que a histologia convencional frequentemente não diferencia o tumor de um adenocarcinoma pulmonar metastático. A história de exposição prolongada ao amianto na fabricação de fibrocimento é o principal fator etiológico. O painel imuno-histoquímico resolve o dilema: marcadores mesoteliais como Calretinina, WT1 e D2-40 são positivos no mesotelioma, enquanto marcadores de adenocarcinoma pulmonar como TTF-1 e CEA são negativos. O tratamento de escolha envolve quimioterapia sistêmica com platina e pemetrexede."
+}

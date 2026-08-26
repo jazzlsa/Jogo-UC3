@@ -1,0 +1,183 @@
+{
+  "id": "uc3-tema-03-04-facil",
+  "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+  "materia_relacionada": "Este caso aplica a distinção entre etiologia e patogênese, além de demonstrar o uso da histoquímica com coloração especial de Ziehl-Neelsen para a identificação morfológica direta do agente etiológico em tecidos com inflamação granulomatosa.",
+  "area": "Patologia geral",
+  "prova": "Todas",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 52,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, estou tossindo sangue há duas semanas, com febre todo final de tarde e emagreci cinco quilos no último mês.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "118/74",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "92",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "37.9",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "20",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "95",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente com quadro respiratório subagudo e hemoptoico. Para fechar a causa exata, a microscopia e as técnicas de coloração histoquímica do patologista serão fundamentais.",
+    "piBaixo": "Sua cota de pontos está acabando. Selecione com cautela os exames histopatológicos e laboratoriais restantes.",
+    "fechamento": "Excelente raciocínio. A identificação do agente etiológico por coloração especial confirmou o que a morfológia granulomatosa já sugeria.",
+    "dicas": [
+      "Releia com atenção o padrão dos sintomas sistêmicos e a evolução relatada pelo paciente na anamnese.",
+      "Pense na resposta imune celular que tenta conter infecções intracelulares formando lesões granulomatosas com necrose tecidual.",
+      "Qual técnica de coloração histoquímica específica permite ao patologista visualizar microrganismos ácido álcool resistentes no tecido?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Há quanto tempo a tosse e a febre vespertina estão presentes?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Começaram há cerca de três semanas, acompanhadas de suor noturno e perda ponderal de cinco quilos."
+    },
+    {
+      "texto": "O escarro apresenta estrias de sangue?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, relata catarro mucopurulento com estrias de sangue vivo há duas semanas."
+    },
+    {
+      "texto": "Possui histórico de azia ou refluxo gastroesofágico?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega azia, queimacão ou sintomas digestivos."
+    },
+    {
+      "texto": "Teve exposição recente a poeira de sílica ou mineração?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega trabalho em minas ou exposição ocupacional a poeira inorgânica."
+    },
+    {
+      "texto": "Existe histórico de contato com pessoas diagnosticadas com tosse crônica?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, um colega de trabalho próximo foi afastado recentemente por tratamento respiratório prolongado."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Ausculta pulmonar minuciosa",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Estertores creptantes localizados no ápice do pulmão direito."
+    },
+    {
+      "texto": "Inspeção e palpação de linfonodos cervicais",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Presença de adenomegalia cervical anterior à direita, indolor e de consistência fibroelástica."
+    },
+    {
+      "texto": "Exame articular de joelhos e tornozelos",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem edemas, eritema ou limitação funcional articular."
+    },
+    {
+      "texto": "Otoscopia e orofaringoscopia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Membranas timpânicas íntegras e orofaringe sem hiperemia ou exsudatos."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Carcinoma espinocelular de pulmão",
+      "correta": false
+    },
+    {
+      "texto": "Tuberculose pulmonar",
+      "correta": true
+    },
+    {
+      "texto": "Sarcoidose pulmonar",
+      "correta": false
+    },
+    {
+      "texto": "Granulomatose com poliangiíte",
+      "correta": false
+    },
+    {
+      "texto": "Aspergilose pulmonar invasiva",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Radiografia de tórax (PA e Perfil)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Infiltrado nodular com área cavitária no segmento apical do lobo superior direito."
+    },
+    {
+      "texto": "Exame histopatológico de biópsia pulmonar com H&E",
+      "custo": 14,
+      "relevante": true,
+      "resposta": "Inflamação granulomatosa crônica com necrose de caseificação central e células gigantes do tipo Langhans."
+    },
+    {
+      "texto": "Coloração histoquímica especial de Ziehl-Neelsen no corte histológico",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Bacilos baciliformes corados em vermelho brilhante sobre fundo azul, confirmando germes ácido álcool resistentes."
+    },
+    {
+      "texto": "Imuno-histoquímica para Citoceratinas (AE1/AE3)",
+      "custo": 12,
+      "relevante": false,
+      "resposta": "Negativa no componente granulomatoso e na área de necrose."
+    },
+    {
+      "texto": "Dosagem de Enzima Conversora de Angiotensina (ECA) sérica",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Valores dentro da faixa de referência normal."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Corticoterapia sistêmica em altas doses e acompanhamento ambulatorial",
+      "correta": false
+    },
+    {
+      "texto": "Início imediato do esquema RIPE (Rifampicina, Isoniazida, Pirazinamida e Etambutol) e notificação compulsória",
+      "correta": true
+    },
+    {
+      "texto": "Lobectomia pulmonar direita de urgência com margens amplas",
+      "correta": false
+    }
+  ],
+  "explicacao": "A patogênese da doença envolve a inalação do Mycobacterium tuberculosis, o agente etiológico que se aloja nos alvéolos e desencadeia uma resposta imune mediada por células T e macrófagos. A incapacidade de erradicar o bacilo leva à formação de granulomas caseosos, caracterizados por necrose central amorfa e células gigantes de Langhans. A ferramenta anatomo-patológica essencial para o diagnóstico definitivo é a histoquímica especial com coloração de Ziehl-Neelsen, que evidencia a propriedade de acidorresistência da parede celular lipídica do microrganismo, diferenciando-o de doenças granulomatosas não infecciosas como a sarcoidose."
+}

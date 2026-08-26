@@ -27,6 +27,10 @@ let state = { screen: "home" };
 // um caso.
 let avaliacaoAtual = null; // { tipo: "desafio"|"recuperacao", arquivos, indice, somaTotais, acertos, salvo, notaOriginal? }
 
+// Filtro do Desafio (por prova e/ou tema) — também fora de `state` pelo mesmo
+// motivo do avaliacaoAtual: precisa sobreviver a re-renders da tela de menu.
+let desafioFiltro = { prova: null, tema: null };
+
 async function boot() {
   try {
     const res = await fetch("cases/index.json");
@@ -108,8 +112,16 @@ function embaralhar(lista) {
   return [...lista].sort(() => Math.random() - 0.5);
 }
 
+function casesFiltrados() {
+  return casesIndex.filter(c =>
+    (!desafioFiltro.prova || c.prova === desafioFiltro.prova) &&
+    (!desafioFiltro.tema || c.tema === desafioFiltro.tema)
+  );
+}
+
 function iniciarDesafio(tamanho) {
-  const escolhidos = embaralhar(casesIndex).slice(0, Math.min(tamanho, casesIndex.length));
+  const pool = casesFiltrados();
+  const escolhidos = embaralhar(pool).slice(0, Math.min(tamanho, pool.length));
   avaliacaoAtual = { tipo: "desafio", arquivos: escolhidos.map(c => c.arquivo), indice: 0, somaTotais: 0, acertos: 0, salvo: false };
   jogarProximaDaAvaliacao();
 }
@@ -421,12 +433,33 @@ function renderDesafioMenu() {
         <button class="btn ghost" data-avaliacao-abandonar>Abandonar</button>
       </div>`;
   }
+  const provas = [...new Set(casesIndex.map(c => c.prova).filter(Boolean))].sort();
+  const temasDisponiveis = [...new Set(
+    casesIndex.filter(c => !desafioFiltro.prova || c.prova === desafioFiltro.prova).map(c => c.tema)
+  )].sort();
+  const nCasos = casesFiltrados().length;
+
   return `
     <p class="stage-kicker">Desafio</p>
     <h1 class="stage-title">Teste seus conhecimentos</h1>
-    <p class="stage-hint">Sorteia ${Math.min(DESAFIO_TAMANHO, casesIndex.length)} casos aleatórios do banco (sem repetir). A média vira sua nota final, precisa de ${NOTA_MINIMA_APROVACAO} pra passar, igual UC3 de verdade.</p>
+    <p class="stage-hint">Sorteia até ${DESAFIO_TAMANHO} casos aleatórios do banco filtrado abaixo (sem repetir). A média vira sua nota final, precisa de ${NOTA_MINIMA_APROVACAO} pra passar, igual UC3 de verdade.</p>
+    <div class="desafio-filtros">
+      <label class="desafio-filtro-label">Prova
+        <select data-desafio-filtro-prova>
+          <option value="">Todas as provas</option>
+          ${provas.map(p => `<option value="${p}" ${desafioFiltro.prova === p ? "selected" : ""}>${p}</option>`).join("")}
+        </select>
+      </label>
+      <label class="desafio-filtro-label">Tema
+        <select data-desafio-filtro-tema>
+          <option value="">Todos os temas</option>
+          ${temasDisponiveis.map(t => `<option value="${t}" ${desafioFiltro.tema === t ? "selected" : ""}>${t}</option>`).join("")}
+        </select>
+      </label>
+    </div>
+    <p class="stage-hint">${nCasos} caso(s) disponível(is) com esse filtro.</p>
     <div class="actions">
-      <button class="btn primary" data-desafio-iniciar>🎲 Sortear novo desafio</button>
+      <button class="btn primary" data-desafio-iniciar ${nCasos === 0 ? "disabled" : ""}>🎲 Sortear novo desafio</button>
       <button class="btn ghost" data-voltar-home>Voltar</button>
     </div>`;
 }
@@ -521,6 +554,17 @@ function wireMenu() {
   if (voltar) voltar.addEventListener("click", voltarHome);
   const desafioIniciar = document.querySelector("[data-desafio-iniciar]");
   if (desafioIniciar) desafioIniciar.addEventListener("click", () => iniciarDesafio(DESAFIO_TAMANHO));
+  const filtroProva = document.querySelector("[data-desafio-filtro-prova]");
+  if (filtroProva) filtroProva.addEventListener("change", () => {
+    desafioFiltro.prova = filtroProva.value || null;
+    desafioFiltro.tema = null; // muda a prova -> lista de temas muda, evita combinação inválida
+    render();
+  });
+  const filtroTema = document.querySelector("[data-desafio-filtro-tema]");
+  if (filtroTema) filtroTema.addEventListener("change", () => {
+    desafioFiltro.tema = filtroTema.value || null;
+    render();
+  });
   const avaliacaoContinuar = document.querySelector("[data-avaliacao-continuar]");
   if (avaliacaoContinuar) avaliacaoContinuar.addEventListener("click", jogarProximaDaAvaliacao);
   const avaliacaoAbandonar = document.querySelector("[data-avaliacao-abandonar]");

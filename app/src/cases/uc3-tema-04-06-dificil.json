@@ -1,0 +1,171 @@
+{
+  "id": "uc3-tema-04-06-dificil",
+  "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+  "materia_relacionada": "Este caso aplica o conceito de densidades radiológicas na radiografia convencional. O acúmulo de gás na alça obstruída funciona como contraste natural negativo, permitindo identificar a parede da alça intestinal e diagnosticar a torção sem necessidade de exames de alto custo ou radiação excessiva.",
+  "area": "Cirurgia geral",
+  "prova": "Todas",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 72,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, faz quatro dias que não consigo evacuar nem soltar gases, e minha barriga está inchando tanto que parece que vai estourar, além de uma cólica forte.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "118/76",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "104",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "37.1",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "20",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "96",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Temos um senhor de 72 anos com parada de eliminação de gases e fezes. A barriga dele parece um balão. Antes de pedir uma tomografia de cara, use a propedêutica e os métodos de imagem mais acessíveis.",
+    "piBaixo": "Seu orçamento de investigação está quase no fim. Escolha com sabedoria ou teremos que tratar no escuro.",
+    "fechamento": "Excelente raciocínio. O raio-X simples nos deu o diagnóstico de forma rápida e barata, aproveitando o próprio gás como contraste natural. Um belo exemplo de física aplicada.",
+    "dicas": [
+      "Preste atenção na história intestinal crônica do paciente e no tempo de evolução dos sintomas atuais.",
+      "A radiografia convencional depende do contraste natural entre diferentes densidades. Pense em como o acúmulo massivo de gás destaca os contornos das paredes intestinais distendidas.",
+      "Que tipo de torção de uma alça intestinal longa e móvel no quadrante inferior esquerdo causaria essa imagem clássica de obstrução em alça fechada lembrando um grão de café?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Tem histórico de constipação crônica?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, sofre de intestino preso há muitos anos, às vezes fica uma semana sem evacuar e usa laxantes por conta própria."
+    },
+    {
+      "texto": "Perdeu peso ou teve sangramento nas fezes nos últimos meses?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, o peso está estável e nunca notou sangue vivo nas fezes."
+    },
+    {
+      "texto": "A dor na barriga é tipo cólica e tem piorado?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, a dor vem em cólicas fortes que começaram junto com o estufamento."
+    },
+    {
+      "texto": "Já teve cirurgias abdominais prévias?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nunca passou por nenhuma cirurgia na vida."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Inspeção e percussão do abdome",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Abdome francamente distendido, assimétrico e com hipertimpanismo generalizado."
+    },
+    {
+      "texto": "Ausculta de ruídos hidroaéreos",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Ruídos aumentados, com timbre metálico frequente."
+    },
+    {
+      "texto": "Toque retal",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Ampola retal vazia, sem massas ou fezes impactadas palpáveis."
+    },
+    {
+      "texto": "Palpação de regiões inguinais e femorais",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausência de hérnias palpáveis, canais livres."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Neoplasia obstrutiva de cólon esquerdo",
+      "correta": false
+    },
+    {
+      "texto": "Fecaloma com megacólon",
+      "correta": false
+    },
+    {
+      "texto": "Vólvulo de sigmóide",
+      "correta": true
+    },
+    {
+      "texto": "Intussuscepção colônica",
+      "correta": false
+    },
+    {
+      "texto": "Apendicite aguda retrocecal",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Radiografia de abdome simples (em pé e deitado)",
+      "custo": 15,
+      "relevante": true,
+      "resposta": "Presença de uma grande alça colônica muito distendida, em formato de U invertido, assemelhando-se a um grão de café gigante, subindo da pelve até o epigástrio, sem ar no reto."
+    },
+    {
+      "texto": "Ultrassonografia de abdome",
+      "custo": 12,
+      "relevante": false,
+      "resposta": "Exame muito limitado pela grande quantidade de gás intestinal, que gera sombra acústica e impede a visualização adequada dos órgãos abdominais."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Leucócitos de 10500 sem desvio à esquerda, discreto aumento de hematócrito por desidratação."
+    },
+    {
+      "texto": "Tomografia computadorizada de abdome e pelve",
+      "custo": 25,
+      "relevante": false,
+      "resposta": "Confirma a torção do cólon sigmóide com sinal do redemoinho no mesocólon, porém é um exame redundante e de custo muito elevado frente ao achado clássico da radiografia simples."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Uso de laxativos osmóticos por via oral e alta hospitalar",
+      "correta": false
+    },
+    {
+      "texto": "Descompressão endoscópica por colonoscopia seguida de programação cirúrgica eletiva",
+      "correta": true
+    },
+    {
+      "texto": "Colectomia total de urgência com anastomose primária imediata sem preparo",
+      "correta": false
+    }
+  ],
+  "explicacao": "O vólvulo de sigmóide é a torção do cólon sigmóide sobre o seu próprio mesentério, gerando uma obstrução em alça fechada. Isso leva a um acúmulo massivo de gás e fezes na alça afetada. Na radiografia convencional de abdome, o ar acumulado contrasta fortemente com as paredes musculares do cólon, gerando a imagem clássica do grão de café ou U invertido. O ultrassom de abdome é pouco útil aqui devido ao artefato de atenuação e reflexão total das ondas sonoras pelo ar, impedindo a visualização de estruturas profundas. A conduta inicial em pacientes sem sinais de peritonite ou gangrena é a descompressão colonoscópica por via retal, seguida de cirurgia eletiva para ressecção devido ao alto índice de recorrência."
+}

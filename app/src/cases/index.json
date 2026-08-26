@@ -72,6 +72,38 @@
     "arquivo": "uc3-tema-03-02-medio.json"
   },
   {
+    "id": "uc3-tema-03-03-dificil",
+    "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+    "dificuldade": "dificil",
+    "area": "Patologia geral",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-03-03-dificil.json"
+  },
+  {
+    "id": "uc3-tema-03-04-facil",
+    "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+    "dificuldade": "facil",
+    "area": "Patologia geral",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-03-04-facil.json"
+  },
+  {
+    "id": "uc3-tema-03-05-medio",
+    "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+    "dificuldade": "medio",
+    "area": "Oncologia",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-03-05-medio.json"
+  },
+  {
+    "id": "uc3-tema-03-06-dificil",
+    "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+    "dificuldade": "dificil",
+    "area": "Patologia geral",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-03-06-dificil.json"
+  },
+  {
     "id": "uc3-tema-04-01-facil",
     "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
     "dificuldade": "facil",
@@ -88,6 +120,38 @@
     "arquivo": "uc3-tema-04-02-medio.json"
   },
   {
+    "id": "uc3-tema-04-03-dificil",
+    "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+    "dificuldade": "dificil",
+    "area": "Cirurgia geral",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-04-03-dificil.json"
+  },
+  {
+    "id": "uc3-tema-04-04-facil",
+    "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+    "dificuldade": "facil",
+    "area": "Cirurgia geral",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-04-04-facil.json"
+  },
+  {
+    "id": "uc3-tema-04-05-medio",
+    "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+    "dificuldade": "medio",
+    "area": "Pneumologia",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-04-05-medio.json"
+  },
+  {
+    "id": "uc3-tema-04-06-dificil",
+    "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+    "dificuldade": "dificil",
+    "area": "Cirurgia geral",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-04-06-dificil.json"
+  },
+  {
     "id": "uc3-tema-05-01-facil",
     "tema": "Tema 05 · Princípios da tomografia computadorizada",
     "dificuldade": "facil",
@@ -102,6 +166,22 @@
     "area": "Neurologia",
     "prova": "P1",
     "arquivo": "uc3-tema-05-02-medio.json"
+  },
+  {
+    "id": "uc3-tema-05-03-dificil",
+    "tema": "Tema 05 · Princípios da tomografia computadorizada",
+    "dificuldade": "dificil",
+    "area": "Cirurgia geral",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-05-03-dificil.json"
+  },
+  {
+    "id": "uc3-tema-05-04-facil",
+    "tema": "Tema 05 · Princípios da tomografia computadorizada",
+    "dificuldade": "facil",
+    "area": "Nefrologia/Urologia",
+    "prova": "Todas",
+    "arquivo": "uc3-tema-05-04-facil.json"
   },
   {
     "id": "uc3-tema-07-01-medio",

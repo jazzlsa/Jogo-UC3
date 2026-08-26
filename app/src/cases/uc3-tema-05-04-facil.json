@@ -1,0 +1,173 @@
+{
+  "id": "uc3-tema-05-04-facil",
+  "tema": "Tema 05 · Princípios da tomografia computadorizada",
+  "materia_relacionada": "Este caso demonstra a aplicação prática da escala de Unidades Hounsfield (UH) e da seleção de fases de contraste na tomografia computadorizada. Compreender que estruturas muito densas, como o cálcio do cálculo urinário, já possuem alta atenuação natural nos permite poupar o paciente do uso de contraste iodado desnecessário, o qual ocultaria a patologia ao mimetizar a mesma densidade na via excretora.",
+  "area": "Nefrologia/Urologia",
+  "prova": "Todas",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 35,
+    "sexo": "M"
+  },
+  "queixa_principal": "\"Doutor, começou uma dor insuportável nas costas do lado direito que desce para a virilha, não consigo achar posição que melhore.\"",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "138/88",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "95",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "36.5",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "18",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "99",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente de 35 anos com dor lombar súbita e excruciante. Ele não para quieto na maca. Vamos investigar com calma, sem gastar seus pontos de forma descuidada.",
+    "piBaixo": "Seus pontos de investigação estão acabando. Pense bem antes de pedir o próximo exame.",
+    "fechamento": "Excelente condução. A tomografia sem contraste é de fato o padrão-ouro aqui. Vamos revisar a física por trás disso.",
+    "dicas": [
+      "Releia a queixa do paciente e repare no comportamento dele na maca, que é muito típico de um tipo específico de dor.",
+      "Pense nas densidades dos tecidos na escala Hounsfield: qual exame de imagem consegue ver um elemento muito denso sem precisar de contraste?",
+      "Qual a causa mais comum de obstrução urinária aguda unilateral que cursa com dor lombar intensa irradiada para a virilha e hematúria?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor começou de forma súbita?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, começou de repente hoje de manhã, muito forte."
+    },
+    {
+      "texto": "Tem dor ou ardência para urinar?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sinto uma vontade constante de ir ao banheiro, mas sai pouca urina e com um pouco de sangue."
+    },
+    {
+      "texto": "Tem febre ou calafrios?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não, sem febre."
+    },
+    {
+      "texto": "A dor piora quando você come alimentos gordurosos?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, não tem relação com comida."
+    },
+    {
+      "texto": "Tem histórico familiar de problemas cardíacos?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Meu pai teve infarto, mas eu nunca tive nada no coração."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Sinal de Giordano (punho-percussão lombar)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Fortemente positivo à direita, o paciente quase pula da maca de dor."
+    },
+    {
+      "texto": "Palpação abdominal",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Abdome plano, flácido, discretamente doloroso em flanco e fossa ilíaca à direita, sem sinais de irritação peritoneal."
+    },
+    {
+      "texto": "Sinal de Blumberg",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, descompressão indolor."
+    },
+    {
+      "texto": "Sinal de Murphy",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Negativo, sem dor na palpação do hipocôndrio direito."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Apendicite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Pielonefrite aguda",
+      "correta": false
+    },
+    {
+      "texto": "Urolitíase obstrutiva",
+      "correta": true
+    },
+    {
+      "texto": "Diverticulite aguda",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Urina tipo I (EAS)",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Presença de hematúria microscópica importante, sem nitrito ou piúria significativa."
+    },
+    {
+      "texto": "TC de abdome e pelve sem contraste",
+      "custo": 14,
+      "relevante": true,
+      "resposta": "Presença de imagem nodular calcificada (cerca de 400 Unidades Hounsfield) medindo 5 mm no ureter distal direito, determinando discreta ureterohidronefrose a montante."
+    },
+    {
+      "texto": "TC de abdome e pelve com contraste endovenoso",
+      "custo": 14,
+      "relevante": false,
+      "resposta": "O contraste iodado preenche as vias excretoras bilateralmente, o que dificulta a diferenciação entre o contraste hiperdenso e o cálculo no ureter direito."
+    },
+    {
+      "texto": "Ultrassonografia de rins e vias urinárias",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Discreta dilatação do sistema coletor à direita, mas sem visualização direta do cálculo ureteral distal devido a gases intestinais."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Internação imediata para tratamento cirúrgico por via endoscópica",
+      "correta": false
+    },
+    {
+      "texto": "Sintomáticos, hidratação parcimoniosa e terapia médica expulsiva com tamsulosina",
+      "correta": true
+    },
+    {
+      "texto": "Antibioticoterapia empírica por via oral por dez dias e repouso absoluto",
+      "correta": false
+    }
+  ],
+  "explicacao": "A apresentação clínica de dor lombar súbita unilateral, irradiada para a região inguinal e acompanhada de hematúria, é típica de cólica nefrética por urolitíase. A tomografia computadorizada de abdome e pelve sem contraste é o exame padrão-ouro. Devido à alta densidade do cálcio (geralmente acima de 300 Unidades Hounsfield na escala HU), o cálculo aparece naturalmente hiperdenso (branco) na imagem. O uso de contraste intravenoso é contraindicado nessa fase porque o contraste excretado pelos rins também é hiperdenso, mascarando o cálculo dentro do ureter. Como o cálculo tem 5 mm e não há sinais de infecção ou perda de função renal, o manejo conservador com controle da dor e terapia médica expulsiva é a conduta inicial correta."
+}

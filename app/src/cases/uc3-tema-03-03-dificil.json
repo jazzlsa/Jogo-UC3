@@ -1,0 +1,193 @@
+{
+  "id": "uc3-tema-03-03-dificil",
+  "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
+  "materia_relacionada": "Este caso aplica a integração entre morfologia histológica e imuno-histoquímica na prática anatomopatológica, demonstrando como a detecção proteica específica por anticorpos complementa a microscopia óptica para diferenciar doenças linfoproliferativas de processos infecciosos granulomatosos.",
+  "area": "Patologia geral",
+  "prova": "Todas",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 26,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, apareceu um caroço no meu pescoço há dois meses que não dói, e ando tendo um suor muito forte à noite com febre baixa.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "118/74",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "88",
+      "u": "bpm",
+      "flag": false
+    },
+    {
+      "l": "Tax",
+      "v": "37.7",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "16",
+      "u": "irpm",
+      "flag": false
+    },
+    {
+      "l": "SpO₂",
+      "v": "98",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente jovem apresentando linfadenopatia cervical indolor e sintomas sistêmicos. Antes de prescrever tratamentos empíricos, precisamos da ferramenta diagnóstica adequada para caracterizar a lesão tecidual.",
+    "piBaixo": "Atenção ao saldo de PI. Em patologia diagnóstica, solicitar exames ou painéis imuno-histoquímicos desordenadamente esgota seus recursos.",
+    "fechamento": "Excelente raciocínio. A morfológia histológica aliada ao painel imuno-histoquímico preciso permitiu a caracterização exata da linhagem celular neoplásica.",
+    "dicas": [
+      "Releia com atenção o laudo histopatológico do linfonodo e as ferramentas de coloração especial ou marcadores de imunofenotipagem solicitados.",
+      "Pense na resposta estrutural do tecido linfoide e em como marcadores proteicos de superfície celular ajudam a diferenciar neoplasias primárias de reações granulomatosas infecciosas.",
+      "Qual patologia exibe células binucleadas em infiltrado inflamatório misto expressando positividade para CD30 e CD15, porém sem marcadores pan-leucocitários B maduros?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Teve perda de peso não intencional ou sudorese noturna intensa nos últimos meses?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, perdeu cerca de 6 kg no último mês e acorda frequentemente com a roupa de cama molhada de suor."
+    },
+    {
+      "texto": "Os linfonodos ficam doloridos após o consumo de bebida alcoólica?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, relata desconforto vago na região cervical pouco tempo após ingerir cerveja ou vinho."
+    },
+    {
+      "texto": "Teve contato recente com pessoas diagnosticadas com tuberculose?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega qualquer contato com indivíduos tossecdores ou com diagnóstico conhecido de tuberculose."
+    },
+    {
+      "texto": "Apresenta dores articulares, lesões cutâneas ou fotossensibilidade?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega dores nas articulações ou alterações na pele."
+    },
+    {
+      "texto": "Realizou viagens recentes para áreas rurais ou com endemia de micoses sistêmicas?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega viagens recentes, mora e trabalha em zona urbana."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação de cadeias linfonodais cervicais, axilares e supraclaviculares",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Linfonodometalia cervical anterior direita e supraclavicular, indolores à palpação, de consistência elástica e endurecida."
+    },
+    {
+      "texto": "Palpação abdominal focada no quadrante superior esquerdo",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Esplenomegalia discreta detectada a 2 cm do rebordo costal esquerdo."
+    },
+    {
+      "texto": "Inspeção detalhada da orofaringe e anel de Waldeyer",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Amígdalas sem hipertrofia ou exsudatos, mucosa oral sem alterações morfológicas."
+    },
+    {
+      "texto": "Ausculta pulmonar minuciosa",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Murmúrio vesicular bem distribuído sem ruídos adventícios."
+    },
+    {
+      "texto": "Avaliação de reflexos profundos e sensibilidade periférica",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Exame neurológico sem anormalidades."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Linfoma difuso de grandes células B",
+      "correta": false
+    },
+    {
+      "texto": "Linfoma de Hodgkin clássico",
+      "correta": true
+    },
+    {
+      "texto": "Tuberculose ganglionar",
+      "correta": false
+    },
+    {
+      "texto": "Sarcoidose ganglionar",
+      "correta": false
+    },
+    {
+      "texto": "Linfoma T anaplásico de grandes células",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Biópsia excisional de linfonodo cervical com exame anatomopatológico e imuno-histoquímica",
+      "custo": 15,
+      "relevante": true,
+      "resposta": "Histologia mostra proliferação nodular delimitada por bandas fibrosas de colágeno e infiltrado inflamatório misto. Presença de células binucleadas volumosas com nucléolos eosinofílicos proeminentes. Imuno-histoquímica: CD30 positivo, CD15 positivo, CD45 negativo e CD20 negativo."
+    },
+    {
+      "texto": "Sorologia para vírus Epstein-Barr, HIV e Hepatites",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "HIV e Hepatites negativos. IgG positivo para vírus Epstein-Barr."
+    },
+    {
+      "texto": "Pesquisa de BAAR e coloração de Ziehl-Neelsen em amostra linfonodal",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Ausência de bacilos ácido-álcool resistentes identificados pela coloração."
+    },
+    {
+      "texto": "Reação em cadeia da polimerase (PCR) para DNA de Mycobacterium tuberculosis",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Resultado negativo para DNA bacteriano específico."
+    },
+    {
+      "texto": "Histopatologia com coloração de Vermelho do Congo sob luz polarizada",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Ausência de depósitos proteicos amorfos com birrefringência verde-maçã."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Início empírico de esquema tuberculostático RIF (Rifampicina, Isoniazida, Pirazinamida e Etambutol)",
+      "correta": false
+    },
+    {
+      "texto": "Estadiamento clínico com exames de imagem e planejamento de quimioterapia (esquema ABVD)",
+      "correta": true
+    },
+    {
+      "texto": "Monoterapia com anticorpo monoclonal anti-CD20 (Rituximabe)",
+      "correta": false
+    },
+    {
+      "texto": "Corticoterapia em alta dose para tratamento de imunodiagnóstico prévio de sarcoidose",
+      "correta": false
+    }
+  ],
+  "explicacao": "A apresentação clínica de adenopatia indolor com sintomas B em paciente jovem impõe diagnósticos diferenciais entre processos infecciosos granulomatosos e neoplasias linfoides. A biópsia excisional é a ferramenta ouro da patologia diagnóstica. O exame anatomopatológico evidenciou arquitetura alterada por traves fibrosas e células gigantes atípicas em meio a um microambiente inflamatório. A imuno-histoquímica definiu o diagnóstico ao demonstrar a expressão de CD30 e CD15 e a ausência de CD45 e CD20 nas células atípicas. Isso confirma a variante esclerose nodular do Linfoma de Hodgkin Clássico, descartando o Linfoma Difuso de Grandes Células B (que expressaria CD20 e CD45), a Tuberculose (que exibiria granulomas caseosos ZN positivos) e a Sarcoidose."
+}

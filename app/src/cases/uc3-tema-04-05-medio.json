@@ -1,0 +1,179 @@
+{
+  "id": "uc3-tema-04-05-medio",
+  "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+  "materia_relacionada": "Este caso aplica os princípios da radiografia convencional descritos no Tema 04, demonstrando como a substituição do ar por exsudato altera a densidade radiológica do parênquima pulmonar e gera o sinal da silhueta ao borrar o bordo cardíaco adjacente, fundamental para a localização anatômica em incidências ortogonais.",
+  "area": "Pneumologia",
+  "prova": "Todas",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 34,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, estou com uma dor no peito do lado direito que piora quando respiro fundo, além de febre e tosse com catarro há três dias.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "118/74",
+      "u": "mmHg",
+      "flag": false
+    },
+    {
+      "l": "FC",
+      "v": "104",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "38.6",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "24",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "94",
+      "u": "%",
+      "flag": true
+    }
+  ],
+  "burns": {
+    "abertura": "Paciente jovem com dor torácica pleurítica e febre. Pense nos princípios físicos da imagem antes de pedir exames complexos.",
+    "piBaixo": "Cuidado com a cota de investigação. Use a radiografia simples com sabedoria anatômica.",
+    "fechamento": "Excelente raciocínio. A perda da interface entre estruturas de mesma densidade radiológica confirma a consolidação no lobo correto.",
+    "dicas": [
+      "Releia com atenção a descrição dos achados auscultatórios e a localização da dor no tórax do paciente.",
+      "Pensa em como o preenchimento dos alvéolos por exsudato inflamatório altera a densidade radiológica do parênquima pulmonar e apaga a interface com estruturas adjacentes.",
+      "Qual processo infeccioso parenquimatoso causa consolidação com broncograma aéreo e apagamento do bordo cardíaco direito na radiografia de tórax?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A tosse é acompanhada de secreção purulenta ou amarelada?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, secreção amarelada e espessa há dois dias."
+    },
+    {
+      "texto": "A dor no peito piora ao tossir ou inspirar profundamente?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, dor em pontada no hemitórax direito que piora muito na inspiração profunda."
+    },
+    {
+      "texto": "A dor irradia para o braço esquerdo ou para a mandíbula?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, fica restrita ao lado direito do peito."
+    },
+    {
+      "texto": "Houve viagens recentes de longa distância ou imobilização prolongada?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, trabalha em escritório e não viajou recentemente."
+    },
+    {
+      "texto": "Teve calafrios intensos junto com o início da febre?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, teve um calafrio intenso antes da febre subir."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Ausculta pulmonar",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Estertores crepitantes e sopro tubário no terço médio do hemitórax direito."
+    },
+    {
+      "texto": "Percussão torácica",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Submaciez à percussão na região anterior inferior direita."
+    },
+    {
+      "texto": "Avaliação do frêmito tátil-vocal",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Frêmito tátil-vocal aumentado no terço médio do hemitórax direito."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Buldas normofonéticas em dois tempos, sem sopros ou atrito pericárdico."
+    },
+    {
+      "texto": "Pesquisa de sinal de Homans em membros inferiores",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Panturrilhas livres, sem empastamento ou dor à dorsiflexão."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Embolia pulmonar",
+      "correta": false
+    },
+    {
+      "texto": "Pneumonia lobar aguda",
+      "correta": true
+    },
+    {
+      "texto": "Pneumotórax espontâneo",
+      "correta": false
+    },
+    {
+      "texto": "Pericardite aguda",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Radiografia de tórax (PA e Perfil)",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Opacidade homogênea no lobo médio direito com broncogramas aéreos e apagamento da silhueta do bordo cardíaco direito."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose com desvio à esquerda."
+    },
+    {
+      "texto": "D-dímero",
+      "custo": 10,
+      "relevante": false,
+      "resposta": "Valor discretamente elevado, não específico no contexto inflamatório."
+    },
+    {
+      "texto": "Eletrocardiograma (ECG)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Taquicardia sinusal, sem alterações do segmento ST."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Encaminhamento para angiotomografia de tórax e anticoagulação",
+      "correta": false
+    },
+    {
+      "texto": "Início de antibioticoterapia empírica para pneumonia comunitária e medicação sintomática",
+      "correta": true
+    },
+    {
+      "texto": "Toracocentese imediata de alívio e drenagem pleural fechada",
+      "correta": false
+    }
+  ],
+  "explicacao": "O quadro clínico de febre, tosse produtiva e dor pleurítica sugere infecção respiratória baixa. Na radiografia de tórax, a substituição do ar alveolar por exsudato inflamatório aumenta a densidade radiológica do parênquima (opacidade/consolidação com broncogramas aéreos). Como o lobo médio direito é anatomicamente contíguo ao bordo cardíaco direito, a presença de densidade de partes moles em ambos apaga a interface entre eles, caracterizando o clássico sinal da silhueta. Isso confirma o diagnóstico de pneumonia lobar aguda em lobo médio direito."
+}

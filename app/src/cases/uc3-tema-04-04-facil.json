@@ -1,0 +1,177 @@
+{
+  "id": "uc3-tema-04-04-facil",
+  "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+  "materia_relacionada": "Este caso aplica a ultrassonografia à beira do leito através do protocolo FAST, demonstrando como ondas sonoras mecânicas identificam acúmulos de líquido livre anecogênico em recessos peritoneais após trauma abdominal fechado.",
+  "area": "Cirurgia geral",
+  "prova": "Todas",
+  "dificuldade": "facil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 28,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Estava de moto, bati o guidão direto na barriga e agora sinto uma dor forte no lado esquerdo que piora quando respiro fundo.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "102/64",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "112",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "36.6",
+      "u": "°C",
+      "flag": false
+    },
+    {
+      "l": "FR",
+      "v": "24",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "96",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Jovem vítima de colisão de moto, estável no momento mas taquicárdico. Em trauma, rapidez e o método de imagem certo salvam vidas.",
+    "piBaixo": "Sua cota de pontos está caindo rápido. Lembre que exames desnecessários tomam tempo precioso na emergência.",
+    "fechamento": "Excelente raciocínio. O uso da ultrassonografia à beira do leito permitiu identificar líquido livre peritoneal sem expor o paciente a radiação ionizante ou transportes arriscados.",
+    "dicas": [
+      "Releia com atenção o mecanismo do trauma e o local exato do impacto relatado na chegada.",
+      "Pensa em como o extravasamento de fluidos no espaço peritoneal altera a propagação do som em exames ultrassonográficos.",
+      "Qual achado ultrassonográfico anecogênico no recesso esplenorrenal indica sangue livre após um trauma abdominal?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "Teve perda de consciência ou trauma craniano?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, lembra de todo o acidente e nega batida na cabeça."
+    },
+    {
+      "texto": "Como foi o mecanismo exato do impacto na barriga?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "O guidão da moto atingiu com força o quadrante superior esquerdo do abdome."
+    },
+    {
+      "texto": "Tem histórico de cirurgias abdominais prévias?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Nega qualquer cirurgia ou internação anterior."
+    },
+    {
+      "texto": "Sente dor referida no ombro esquerdo?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, relata uma dor incômoda no ombro esquerdo que surgiu logo após o acidente."
+    },
+    {
+      "texto": "Apresenta dor no peito ou falta de ar intensa?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Sente leve desconforto ao inspirar fundo devido à dor abdominal, sem dor torácica típica."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Inspeção e palpação do abdome",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Equimose e dor intensa à palpação no hipocôndrio esquerdo, com defesa abdominal voluntária."
+    },
+    {
+      "texto": "Ausculta cardíaca e pulmonar",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sons cardíacos normais em 2 tempos, murmúrio vesicular presente sem ruídos adventícios."
+    },
+    {
+      "texto": "Avaliando estabilidade da cintura pélvica",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Pelve estável à compressão anteroposterior e lateral, sem dor."
+    },
+    {
+      "texto": "Pesquisa de dor à descompressão súbita no abdome",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Dor moderada à descompressão no quadrante superior esquerdo."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Pneumotórax hipertensivo",
+      "correta": false
+    },
+    {
+      "texto": "Contusão muscular de parede abdominal",
+      "correta": false
+    },
+    {
+      "texto": "Trauma abdominal fechado com hemoperitônio",
+      "correta": true
+    },
+    {
+      "texto": "Perfuração de víscera oca",
+      "correta": false
+    },
+    {
+      "texto": "Fratura de fêmur com choque neurogênico",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Ultrassom focado para trauma (protocolo FAST)",
+      "custo": 12,
+      "relevante": true,
+      "resposta": "Líquido anecogênico (escuro) visível no espaço esplenorrenal e no saco pélvico de Douglas."
+    },
+    {
+      "texto": "Radiografia de tórax em PA",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Ausência de pneumotórax ou pneumoperitônio; cúpulas diafragmáticas livres."
+    },
+    {
+      "texto": "Tomografia computadorizada de crânio",
+      "custo": 15,
+      "relevante": false,
+      "resposta": "Sem alterações agudas parenquimatosas ou coleções extracerebrais."
+    },
+    {
+      "texto": "Hemograma completo e tipagem sanguínea",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Hemoglobina de 11.2 g/dL, caindo em relação ao basal esperado; tipagem O positivo."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Alta médica com analgésicos simples e orientação de repouso",
+      "correta": false
+    },
+    {
+      "texto": "Encaminhamento para avaliação da cirurgia geral e monitorização em sala vermelha",
+      "correta": true
+    },
+    {
+      "texto": "Laparotomia exploradora imediata sem necessidade de suporte hemodinâmico",
+      "correta": false
+    }
+  ],
+  "explicacao": "No trauma abdominal fechado por impacto direto no hipocôndrio esquerdo, a lesão de órgãos maciços como o baço leva ao extravasamento de sangue para a cavidade peritoneal. A ultrassonografia beira do leito pelo protocolo FAST utiliza ondas sonoras mecânicas não ionizantes e identifica o sangue como uma lâmina anecogênica (preta) nos recessos dependentes, como o espaço esplenorrenal e o fundo de saco pélvico. A irritação do diafragma esquerdo pelo sangue justifica a dor referida no ombro. Por ser um exame dinâmico, rápido e isento de radiação ionizante, o FAST é a escolha inicial ideal no trauma."
+}

@@ -1,0 +1,193 @@
+{
+  "id": "uc3-tema-04-03-dificil",
+  "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
+  "materia_relacionada": "Este caso aplica os conceitos de densidade radiológica e posicionamento do paciente: o ar livre na cavidade peritoneal, por ser menos denso que os tecidos vizinhos, sobe sob a ação da gravidade e se acumula na região mais alta, permitindo o diagnóstico preciso de perfuração de víscera oca por meio de incidências radiográficas adequadas.",
+  "area": "Cirurgia geral",
+  "prova": "Todas",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 62,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, tive uma dor súbita e terrível na boca do estômago há umas seis horas, parecia uma facada. Agora a dor se espalhou pela barriga inteira e dói até para respirar.”",
+  "sinais_vitais": [
+    {
+      "l": "PA",
+      "v": "100/60",
+      "u": "mmHg",
+      "flag": true
+    },
+    {
+      "l": "FC",
+      "v": "112",
+      "u": "bpm",
+      "flag": true
+    },
+    {
+      "l": "Tax",
+      "v": "38.1",
+      "u": "°C",
+      "flag": true
+    },
+    {
+      "l": "FR",
+      "v": "24",
+      "u": "irpm",
+      "flag": true
+    },
+    {
+      "l": "SpO₂",
+      "v": "95",
+      "u": "%",
+      "flag": false
+    }
+  ],
+  "burns": {
+    "abertura": "Este senhor de 62 anos chegou com uma dor epigástrica súbita e intensa que evoluiu para dor difusa. A barriga dele está dura como uma tábua. Precisamos agir rápido, mas com critério: vamos investigar antes de abrir o paciente.",
+    "piBaixo": "Seu saldo de investigação está crítico. Lembre-se de que a física das imagens pode te dar a resposta sem precisar gastar recursos à toa.",
+    "fechamento": "Excelente raciocínio. A interpretação correta das densidades radiológicas e o conhecimento das incidências adequadas nos salvaram de uma confusão diagnóstica ou de um atraso cirúrgico fatal.",
+    "dicas": [
+      "Observe com atenção o início súbito da dor e o histórico de medicação de uso diário do paciente.",
+      "Pense na física dos gases dentro da cavidade abdominal: para onde o ar livre tende a se deslocar sob o efeito da gravidade e como o posicionamento do paciente altera essa visualização?",
+      "Qual incidência radiográfica alternativa, realizada com o paciente deitado de lado e raios horizontais, permite identificar o ar livre na cavidade quando ele não consegue ficar de pé?"
+    ]
+  },
+  "anamnese": [
+    {
+      "texto": "A dor começou de forma gradual ou foi de repente?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Foi de repente, como uma facada na boca do estômago, depois se espalhou."
+    },
+    {
+      "texto": "Tem história de queimação no estômago ou uso frequente de anti-inflamatórios?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Sim, tomo nimesulida quase todo dia para dor nas costas e tenho azia crônica."
+    },
+    {
+      "texto": "A dor irradia para as costas ou piora ao comer gordura?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, a dor é constante e dói a barriga inteira, piora com qualquer movimento."
+    },
+    {
+      "texto": "Apresentou tosses, catarro ou dor no peito antes de a dor na barriga começar?",
+      "custo": 2,
+      "relevante": false,
+      "resposta": "Não, nada de tosse ou falta de ar antes disso começar."
+    },
+    {
+      "texto": "Teve vômitos com sangue ou fezes escuras recentemente?",
+      "custo": 2,
+      "relevante": true,
+      "resposta": "Não notei sangue, mas tive episódios de fezes bem escuras, como borra de café, nas últimas semanas."
+    }
+  ],
+  "exameFisico": [
+    {
+      "texto": "Palpação abdominal e pesquisa de descompressão brusca",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Abdome em tábua, extremamente doloroso à palpação superficial e profunda, com sinal de Blumberg positivo em todo o abdome."
+    },
+    {
+      "texto": "Pesquisa do sinal de Jobert (percussão da loja hepática)",
+      "custo": 3,
+      "relevante": true,
+      "resposta": "Timpanismo na região da loja hepática, onde normalmente deveria haver macicez."
+    },
+    {
+      "texto": "Ausculta pulmonar",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Murmúrio vesicular presente e simétrico, sem ruídos adventícios."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas rítmicas, normofonéticas em dois tempos, sem sopros."
+    },
+    {
+      "texto": "Toque retal",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Esfíncter normotônico, ampola retal vazia, sem massas ou sangue vivo no dedo de luva."
+    }
+  ],
+  "hipoteses": [
+    {
+      "texto": "Síndrome de Chilaiditi (Pseudopneumoperitônio)",
+      "correta": false
+    },
+    {
+      "texto": "Úlcera péptica perfurada (Pneumoperitônio)",
+      "correta": true
+    },
+    {
+      "texto": "Infarto agudo do miocárdio de parede inferior",
+      "correta": false
+    },
+    {
+      "texto": "Pneumonia lobar inferior direita",
+      "correta": false
+    },
+    {
+      "texto": "Colecistite aguda perfurada",
+      "correta": false
+    }
+  ],
+  "exames": [
+    {
+      "texto": "Radiografia de tórax em ortostatismo (em pé)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Presença de uma fina linha de gás (crescente gasoso) logo abaixo da cúpula diafragmática direita, separando o fígado do diafragma."
+    },
+    {
+      "texto": "Radiografia de abdome em decúbito lateral esquerdo com raios horizontais (Laurell)",
+      "custo": 10,
+      "relevante": true,
+      "resposta": "Ar livre acumulado entre a parede abdominal lateral direita e o fígado. Esta incidência seria a escolha se o paciente estivesse incapaz de ficar de pé."
+    },
+    {
+      "texto": "Ultrassonografia de abdome total",
+      "custo": 14,
+      "relevante": false,
+      "resposta": "Exame muito prejudicado pelo excesso de gás intestinal e ar livre na cavidade, impedindo a visualização adequada das estruturas profundas."
+    },
+    {
+      "texto": "Eletrocardiograma (ECG)",
+      "custo": 8,
+      "relevante": false,
+      "resposta": "Taquicardia sinusal, sem sinais de isquemia miocárdica aguda."
+    },
+    {
+      "texto": "Hemograma completo",
+      "custo": 8,
+      "relevante": true,
+      "resposta": "Leucocitose importante com desvio à esquerda."
+    }
+  ],
+  "condutas": [
+    {
+      "texto": "Tratamento conservador com jejum e antibioticoterapia",
+      "correta": false
+    },
+    {
+      "texto": "Colonoscopia de urgência para descompressão",
+      "correta": false
+    },
+    {
+      "texto": "Laparotomia exploradora com rafia da úlcera e patch de omento",
+      "correta": true
+    },
+    {
+      "texto": "Colecistectomia videolaparoscópica de urgência",
+      "correta": false
+    }
+  ],
+  "explicacao": "A dor súbita em facada seguida de peritonite generalizada (abdome em tábua) é a apresentação clássica da perfuração de víscera oca, mais frequentemente decorrente de úlcera péptica duodenal ou gástrica relacionada ao uso de anti-inflamatórios. O sinal de Jobert (timpanismo na loja hepática) traduz fisicamente o acúmulo de ar livre na cavidade peritoneal (pneumoperitônio). Radiograficamente, o ar se acumula na porção mais alta da cavidade: abaixo das cúpulas diafragmáticas na posição de pé (ortostatismo) ou entre a parede abdominal e o fígado na incidência de Laurell (decúbito lateral esquerdo com raios horizontais). Isso demonstra a importância de compreender a física da imagem e o posicionamento do paciente para o diagnóstico correto de emergências cirúrgicas."
+}
