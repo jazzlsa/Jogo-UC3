@@ -31,6 +31,12 @@ let avaliacaoAtual = null; // { tipo: "desafio"|"recuperacao", arquivos, indice,
 // motivo do avaliacaoAtual: precisa sobreviver a re-renders da tela de menu.
 let desafioFiltro = { prova: null, tema: null };
 
+// Última "etapa" (tela+fase) em que rolamos pro topo — usado só na tela de
+// jogo, onde render() é chamado a cada clique (marcar um item de anamnese,
+// abrir uma dica, etc.), não só ao trocar de etapa. Sem isso, qualquer clique
+// jogava a página inteira lá pro topo de novo, mesmo sem mudar de tela.
+let ultimaEtapaRolada = null;
+
 async function boot() {
   try {
     const res = await fetch("cases/index.json");
@@ -267,7 +273,13 @@ function vitalsHTML() {
 function render() {
   const app = document.getElementById("app");
 
+  // Fora da tela de jogo não há repetição de render() por clique dentro da
+  // mesma tela (cada clique aqui já é uma navegação de verdade), então rola
+  // pro topo sempre — e zera o controle usado só na tela de jogo, garantindo
+  // que da próxima vez que um caso abrir, role pro topo mesmo que por
+  // coincidência caia na mesma etapa (stageIdx) de antes.
   if (state.screen === "home") {
+    ultimaEtapaRolada = null;
     app.innerHTML = `<div class="game-window">${renderHome()}</div>`;
     wireHome();
     window.scrollTo({ top: 0, behavior: "instant" });
@@ -275,6 +287,7 @@ function render() {
   }
 
   if (state.screen === "ranking") {
+    ultimaEtapaRolada = null;
     app.innerHTML = `
       <div class="game-window">
         <div class="window-bar">
@@ -289,6 +302,7 @@ function render() {
   }
 
   if (state.screen === "menu") {
+    ultimaEtapaRolada = null;
     app.innerHTML = `
       <div class="game-window">
         <div class="window-bar">
@@ -321,7 +335,14 @@ function render() {
       </div>
     </div>`;
   wireStage(stage);
-  window.scrollTo({ top: 0, behavior: "instant" });
+  // Só rola pro topo quando a etapa realmente muda (ex.: "Ir pro exame
+  // físico"), não a cada clique dentro da mesma etapa (marcar um item,
+  // abrir/fechar dica, reordenar hipótese) — senão a página pula pro topo
+  // toda vez que render() é chamado de novo pro mesmo lugar.
+  if (ultimaEtapaRolada !== state.stageIdx) {
+    window.scrollTo({ top: 0, behavior: "instant" });
+    ultimaEtapaRolada = state.stageIdx;
+  }
 }
 
 /* ---------------- Tela inicial ---------------- */
