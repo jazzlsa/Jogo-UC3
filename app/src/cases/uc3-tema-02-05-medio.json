@@ -44,7 +44,7 @@
     }
   ],
   "burns": {
-    "abertura": "Paciente de 56 anos com dor na fossa ilíaca esquerda e febre. Na radiologia, como ensina a Profa. Claudia Leite, cada método tem sua indicação exata e limitações como o gás intestinal. Vamos ver se você escolhe a ferramenta certa.",
+    "abertura": "Paciente de 56 anos com dor na fossa ilíaca esquerda e febre. Na radiologia, cada método tem sua indicação exata e suas limitações, como o gás intestinal. Vamos ver se você escolhe a ferramenta certa.",
     "piBaixo": "Cuidado com a cota de investigação! No SUS ou no privado, pedir exames sem critério esgota seus recursos e não traz a resposta que o paciente precisa.",
     "fechamento": "Excelente raciocínio! A Tomografia foi o exame preciso aqui, pois a ultrassonografia é limitada pelo gás das alças intestinais. Saber indicar o método correto economiza recursos e fecha o diagnóstico.",
     "dicas": [
@@ -185,5 +185,5 @@
       "correta": false
     }
   ],
-  "explicacao": "A diverticulite aguda do sigmóide é a inflamação de um ou mais divertículos, gerada pela microperfuração da parede colônica devido à obstrução por fecalitos. Clinicamente, manifesta-se por dor contínua na fossa ilíaca esquerda ('apendicite do lado esquerdo'), febre e leucocitose. Como abordado nas aulas sobre Ferramentas de Diagnóstico Radiológico (Profa. Claudia Leite), a Ultrassonografia possui importante limitação física na presença de gás intestinal, que reflete e atenua o feixe ultrassônico. Por isso, a Tomografia Computadorizada (TC) de abdome e pelve com contraste é o exame de escolha, pois avalia detalhadamente o espessamento da parede colônica, a gordura pericólica e descarta complicações como perfuração ou abscessos. O quadro de Hinchey Ia exige tratamento conservador com suporte e antibioticoterapia."
+  "explicacao": "A diverticulite aguda do sigmóide é a inflamação de um ou mais divertículos, gerada pela microperfuração da parede colônica devido à obstrução por fecalitos. Clinicamente, manifesta-se por dor contínua na fossa ilíaca esquerda ('apendicite do lado esquerdo'), febre e leucocitose. Como abordado nas aulas sobre Ferramentas de Diagnóstico Radiológico, a Ultrassonografia possui importante limitação física na presença de gás intestinal, que reflete e atenua o feixe ultrassônico. Por isso, a Tomografia Computadorizada (TC) de abdome e pelve com contraste é o exame de escolha, pois avalia detalhadamente o espessamento da parede colônica, a gordura pericólica e descarta complicações como perfuração ou abscessos. O quadro de Hinchey Ia exige tratamento conservador com suporte e antibioticoterapia."
 }

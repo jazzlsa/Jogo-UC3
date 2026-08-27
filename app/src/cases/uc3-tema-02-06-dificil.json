@@ -45,7 +45,7 @@
   ],
   "burns": {
     "abertura": "Paciente com dor lombar intensa e febre. Cuidado para não pedir raio-X achando que vai resolver o problema de partes moles e canal vertebral. Escolha o método de imagem com critério clínico.",
-    "piBaixo": "Seu saldo de PI está muito baixo e você ainda não escolheu a modalidade de imagem com maior resolução de tecidos moles. Lembre-se do que a Profa. Claudia Leite ensinou!",
+    "piBaixo": "Seu saldo de PI está muito baixo e você ainda não escolheu a modalidade de imagem com maior resolução de tecidos moles.",
     "fechamento": "Perfeito! A Ressonância Magnética é o método soberano para tecidos moles, espaço discal e canal epidural. Raio-X e TC isolados no início poderiam ter comido bola.",
     "dicas": [
       "Dor lombar que piora à noite e não melhora com repouso foge do padrão de dor mecânica comum.",

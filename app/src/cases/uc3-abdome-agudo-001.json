@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Rapaz chegou há pouco, dor abdominal, 22 anos. Antes de correr pro exame de imagem, que tal ouvir o paciente? Costuma funcionar.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). No SUS ou fora dele, exame não é infinito.",
-    "fechamento": "Curioso, não? A dor migrou exatamente como os livros preveem. Vamos ao porquê, preste atenção, cai na P1.",
+    "fechamento": "Curioso, não? A dor migrou exatamente como os livros preveem. Vamos ao porquê.",
     "dicas": [
       "Releia com atenção como a queixa principal descreve a evolução da dor desde ontem à noite.",
       "Pensa em como o corpo distingue dor visceral (mal localizada) de dor por irritação do peritônio parietal (bem localizada), o que muda entre as duas fases da dor dele?",
