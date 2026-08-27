@@ -359,6 +359,7 @@ function renderHome() {
         <button class="btn ghost" data-ir-ranking>🏆 Ranking</button>
       </div>
       ${state.mostrarComoJogar ? comoJogarHTML() : ""}
+      <footer class="note">Feito por Jéssica · Turma 113B</footer>
     </div>`;
 }
 
