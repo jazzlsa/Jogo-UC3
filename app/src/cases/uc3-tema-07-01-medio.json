@@ -195,6 +195,10 @@
     {
       "texto": "Observação clínica com reavaliação em 6 horas",
       "correta": false
+    },
+    {
+      "texto": "Apenas antitérmico e alta com retorno se piorar",
+      "correta": false
     }
   ],
   "explicacao": "O baço é o principal órgão linfoide secundário responsável por filtrar o sangue e apresentar antígenos a linfócitos, é ali que macrófagos esplênicos opsonizam e removem bactérias encapsuladas (Streptococcus pneumoniae, Haemophilus influenzae tipo b, Neisseria meningitidis) que escapam do reconhecimento por anticorpo isolado. Sem o baço, esses patógenos circulam livremente e podem causar uma sepse fulminante, a chamada OPSI (Overwhelming Post-Splenectomy Infection), com evolução em horas, coagulação intravascular disseminada (as lesões purpúricas) e mortalidade alta se o antibiótico não for iniciado de forma empírica e imediata. Por isso todo paciente esplenectomizado deveria receber vacinação específica (pneumocócica, meningocócica, Hib) e ser orientado a procurar atendimento de urgência diante de qualquer febre, o histórico cirúrgico, não os exames, é o que abre o diagnóstico aqui."

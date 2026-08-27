@@ -59,7 +59,8 @@
   "condutas": [
     { "texto": "Iniciar antibioticoterapia empírica para pneumonia comunitária, hidratação e monitorização, tratando a causa de base do delirium", "correta": true },
     { "texto": "Prescrever antipsicótico para agitação e liberar para casa", "correta": false },
-    { "texto": "Aguardar evolução espontânea sem investigar a causa da confusão", "correta": false }
+    { "texto": "Aguardar evolução espontânea sem investigar a causa da confusão", "correta": false },
+    { "texto": "Investigar apenas causas neurológicas do delirium (tomografia de crânio), sem avaliar foco infeccioso", "correta": false }
   ],
   "explicacao": "No idoso frágil, a reserva funcional de múltiplos sistemas já está reduzida pelo próprio processo de envelhecimento celular e tecidual, então uma infecção que num adulto jovem causaria febre alta e tosse produtiva evidentes aqui se manifesta primeiro como delirium (confusão aguda), taquipneia e queda da saturação, muitas vezes sem febre importante. A ausculta pulmonar localizada e a radiografia de tórax confirmam o foco infeccioso real (pneumonia), enquanto a ausência de déficit focal e de sinais meníngeos torna AVC e meningite menos prováveis. Reconhecer que confusão aguda em idoso é, até prova em contrário, sinal de uma causa orgânica tratável, e não só \"coisa da idade\", é essencial pra não atrasar o tratamento."
 }

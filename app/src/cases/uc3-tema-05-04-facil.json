@@ -180,6 +180,10 @@
     {
       "texto": "Antibioticoterapia empírica por via oral por dez dias e repouso absoluto",
       "correta": false
+    },
+    {
+      "texto": "Litotripsia extracorpórea de urgência ainda hoje, sem tentativa de terapia médica expulsiva prévia",
+      "correta": false
     }
   ],
   "explicacao": "A apresentação clínica de dor lombar súbita unilateral, irradiada para a região inguinal e acompanhada de hematúria, é típica de cólica nefrética por urolitíase. A tomografia computadorizada de abdome e pelve sem contraste é o exame padrão-ouro. Devido à alta densidade do cálcio (geralmente acima de 300 Unidades Hounsfield na escala HU), o cálculo aparece naturalmente hiperdenso (branco) na imagem. O uso de contraste intravenoso é contraindicado nessa fase porque o contraste excretado pelos rins também é hiperdenso, mascarando o cálculo dentro do ureter. Como o cálculo tem 5 mm e não há sinais de infecção ou perda de função renal, o manejo conservador com controle da dor e terapia médica expulsiva é a conduta inicial correta."

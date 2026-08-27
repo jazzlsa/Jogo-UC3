@@ -57,7 +57,8 @@
   "condutas": [
     { "texto": "Avaliar cirurgia ortopédica para fixação da fratura, iniciar analgesia, e programar reabilitação com prevenção de novas quedas (força muscular e ambiente domiciliar)", "correta": true },
     { "texto": "Tratar apenas com repouso prolongado no leito, sem avaliação cirúrgica", "correta": false },
-    { "texto": "Focar exclusivamente em investigação cardiológica extensa antes de tratar a fratura", "correta": false }
+    { "texto": "Focar exclusivamente em investigação cardiológica extensa antes de tratar a fratura", "correta": false },
+    { "texto": "Adiar a cirurgia indefinidamente até a osteoporose estar totalmente tratada com bisfosfonato", "correta": false }
   ],
   "explicacao": "A perda progressiva de massa e força muscular relacionada à idade (sarcopenia) reduz a capacidade do corpo de corrigir um desequilíbrio antes que ele vire uma queda, o que combinado à fragilidade óssea da osteoporose já conhecida explica por que um tropeço banal resultou em fratura de fêmur, e não apenas um susto. A ausência de sintomas prévios sugestivos de síncope ou de déficit neurológico focal torna causas cardiogênicas ou vasculares centrais da queda menos prováveis. O tratamento não pode se limitar a corrigir a fratura: sem abordar a sarcopenia e o risco ambiental de queda, o risco de um novo episódio permanece alto."
 }

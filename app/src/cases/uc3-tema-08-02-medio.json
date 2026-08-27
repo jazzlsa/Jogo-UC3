@@ -177,6 +177,10 @@
     {
       "texto": "Reposição de imunoglobulina endovenosa mensal",
       "correta": false
+    },
+    {
+      "texto": "Apenas vacinação de rotina em dia e alta, sem profilaxia antimicrobiana",
+      "correta": false
     }
   ],
   "explicacao": "A doença granulomatosa crônica é causada por mutações que inativam a NADPH oxidase dos fagócitos, a enzima responsável pela 'explosão respiratória', que gera espécies reativas de oxigênio usadas para destruir micro-organismos fagocitados. Sem esse mecanismo, neutrófilos e macrófagos conseguem fagocitar bactérias e fungos, mas não conseguem matá-los eficientemente, levando a infecções recorrentes e à formação de granulomas, tentativas do organismo de conter microrganismos que não consegue eliminar (daí a hepatoesplenomegalia e linfonodomegalia). O padrão de suscetibilidade é característico: organismos catalase-positivos (Staphylococcus aureus, Aspergillus, Burkholderia, Serratia), porque catalase degrada o pouco peróxido de hidrogênio que o próprio micro-organismo produziria e que poderia compensar parcialmente o defeito do hospedeiro. O teste de DHR (dihidrorodamina) por citometria de fluxo é o exame confirmatório padrão, medindo diretamente a capacidade oxidativa dos neutrófilos."

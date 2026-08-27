@@ -60,7 +60,8 @@
   "condutas": [
     { "texto": "Otimizar controle pressórico (IECA/BRA + diurético) e reforçar adesão ao tratamento", "correta": true },
     { "texto": "Iniciar broncodilatador de longa duração como se fosse DPOC", "correta": false },
-    { "texto": "Transfusão sanguínea empírica", "correta": false }
+    { "texto": "Transfusão sanguínea empírica", "correta": false },
+    { "texto": "Apenas anti-inflamatório para controle sintomático, sem otimizar o tratamento anti-hipertensivo", "correta": false }
   ],
   "explicacao": "A hipertensão arterial crônica e mal controlada aumenta a pós-carga (resistência que o ventrículo esquerdo precisa vencer pra ejetar sangue). Como o miócito cardíaco adulto tem capacidade de divisão muito limitada, a resposta adaptativa não é proliferar, e sim hipertrofiar: cada célula aumenta de volume, engrossando a parede ventricular (hipertrofia concêntrica). Isso mantém a função sistólica por um tempo, mas o ventrículo hipertrofiado fica mais rígido e relaxa pior (disfunção diastólica), o que explica a dispneia aos esforços, a ortopneia (dois travesseiros) e os estertores em base por congestão pulmonar. B4 reflete justamente a contração atrial contra um ventrículo pouco complacente."
 }

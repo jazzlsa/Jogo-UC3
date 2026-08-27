@@ -187,6 +187,10 @@
     {
       "texto": "Encaminhamento urgente para transplante hepático",
       "correta": false
+    },
+    {
+      "texto": "Iniciar corticoide sistêmico para reduzir a inflamação hepática",
+      "correta": false
     }
   ],
   "explicacao": "A esteatose hepática é o exemplo clássico de lesão celular reversível: o hepatócito, sob estresse metabólico (excesso de álcool, resistência à insulina, obesidade), acumula triglicerídeos no citoplasma como uma resposta adaptativa à sobrecarga energética, a célula continua viva e funcional, apenas com sua morfologia alterada. Isso é diferente de lesão irreversível (necrose ou apoptose), onde a célula morre e o dano estrutural não pode ser desfeito. A distinção importa clinicamente: a esteatose isolada, sem inflamação (esteato-hepatite) ou fibrose associada, tem excelente prognóstico e pode regredir completamente com a remoção do estímulo agressor, perda de peso, controle glicêmico e redução do consumo de álcool. Se o estresse persistir, a lesão reversível pode evoluir para esteato-hepatite, fibrose e eventualmente cirrose (lesão irreversível), por isso a intervenção precoce, nessa fase ainda reversível, é tão valiosa."

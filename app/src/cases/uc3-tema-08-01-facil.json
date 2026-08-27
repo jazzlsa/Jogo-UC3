@@ -187,6 +187,10 @@
     {
       "texto": "Prescrever apenas pomada antibiótica tópica e reavaliar em 1 mês",
       "correta": false
+    },
+    {
+      "texto": "Iniciar reposição de imunoglobulina endovenosa mensal, sem encaminhamento à imunologia",
+      "correta": false
     }
   ],
   "explicacao": "A deficiência de adesão leucocitária (LAD tipo 1) é causada por mutações no gene que codifica a integrina beta-2 (CD18), molécula de adesão essencial para os neutrófilos aderirem ao endotélio vascular e migrarem para o tecido infectado, exatamente o processo que o material de aula sobre moléculas de adesão e recirculação linfocitária descreve como o 'sistema de endereçamento' das células de defesa. Sem esse endereçamento, os neutrófilos ficam circulando no sangue (daí a leucocitose marcante) mas não conseguem chegar ao local da infecção, por isso não há formação de pus, e as infecções (como a onfalite que atrasa a queda do coto umbilical, achado clássico e precoce da doença) não cicatrizam bem, nem geram a reação inflamatória local esperada. É uma imunodeficiência primária grave, com risco de infecções bacterianas recorrentes e potencialmente fatais, exigindo diagnóstico precoce e encaminhamento especializado."

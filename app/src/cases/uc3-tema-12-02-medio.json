@@ -58,7 +58,8 @@
   "condutas": [
     { "texto": "Ativar protocolo de AVC agudo, avaliar elegibilidade para terapia de reperfusão e internar em unidade especializada", "correta": true },
     { "texto": "Prescrever antivertiginoso e liberar para casa com retorno ambulatorial", "correta": false },
-    { "texto": "Solicitar apenas tomografia de crânio e, por estar normal, encerrar a investigação", "correta": false }
+    { "texto": "Solicitar apenas tomografia de crânio e, por estar normal, encerrar a investigação", "correta": false },
+    { "texto": "Apenas anticoagulação plena empírica antes de qualquer exame de imagem", "correta": false }
   ],
   "explicacao": "Início súbito de ataxia, diplopia e vômitos numa paciente hipertensa mal controlada sugere um evento vascular de fossa posterior, não uma vertigem periférica (que tipicamente não causa diplopia nem incoordenação de membro). A tomografia de crânio sem contraste é pouco sensível para isquemia aguda de fossa posterior nas primeiras horas, podendo vir normal mesmo com AVC estabelecido, exatamente o que ocorreu aqui. A ressonância com sequência de difusão detecta a restrição da movimentação da água dentro das células isquêmicas muito precocemente, revelando a lesão que a tomografia ainda não mostrava e confirmando o AVC no território vertebrobasilar, o que muda completamente a conduta em relação a uma simples labirintite."
 }

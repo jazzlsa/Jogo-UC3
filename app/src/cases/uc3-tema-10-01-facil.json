@@ -187,6 +187,10 @@
     {
       "texto": "Iodo radioativo para ablação da tireoide",
       "correta": false
+    },
+    {
+      "texto": "Apenas acompanhamento clínico sem reposição hormonal, reavaliando em 6 meses",
+      "correta": false
     }
   ],
   "explicacao": "O eixo hipotálamo-hipófise-tireoide regula a taxa metabólica basal do corpo: o hipotálamo libera TRH, que estimula a hipófise a secretar TSH, que por sua vez estimula a tireoide a produzir T3/T4. Na tireoidite de Hashimoto, autoanticorpos (anti-TPO) atacam progressivamente a glândula, reduzindo sua capacidade de produzir hormônio, a hipófise, sensível à queda de T4 livre, aumenta a secreção de TSH numa tentativa de compensação, por isso o TSH alto é o marcador mais sensível de hipotireoidismo primário. Clinicamente, a redução do metabolismo basal explica todo o quadro: fadiga, ganho de peso, intolerância ao frio (menor termogênese), bradicardia, pele seca e reflexos lentificados (menor renovação celular e menor sensibilidade adrenérgica). O tratamento é simples e eficaz, reposição de levotiroxina, titulada pelo TSH até normalização."

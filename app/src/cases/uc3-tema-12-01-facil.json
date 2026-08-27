@@ -60,7 +60,8 @@
   "condutas": [
     { "texto": "Tratamento conservador (analgesia, anti-inflamatório, fisioterapia) com reavaliação; cirurgia reservada a falha do tratamento ou déficit progressivo", "correta": true },
     { "texto": "Cirurgia de urgência sem tentativa de tratamento conservador prévio", "correta": false },
-    { "texto": "Repouso absoluto prolongado no leito por várias semanas", "correta": false }
+    { "texto": "Repouso absoluto prolongado no leito por várias semanas", "correta": false },
+    { "texto": "Encaminhar direto para infiltração epidural de urgência, sem tentativa de tratamento conservador padrão", "correta": false }
   ],
   "explicacao": "A dor com trajeto de choque da lombar até o pé, piorando com manobras que aumentam a pressão intratecal (tosse, esforço evacuatório), associada a Lasègue positivo, fraqueza de dorsiflexão e hipoestesia no dorso do pé, aponta pra compressão da raiz L5 por uma hérnia discal L4-L5. A radiografia simples mostra bem o osso, mas não visualiza disco intervertebral nem raiz nervosa comprimida; a ressonância magnética, ao explorar o sinal do próton de hidrogênio em diferentes tecidos moles, é o exame que realmente confirma o diagnóstico e localiza o nível exato da compressão."
 }

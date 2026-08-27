@@ -189,6 +189,10 @@
     {
       "texto": "Apenas antitérmico e observação clínica ambulatorial",
       "correta": false
+    },
+    {
+      "texto": "Apenas reposição hormonal tireoidiana em dose baixa, tratando como hipotireoidismo",
+      "correta": false
     }
   ],
   "explicacao": "A tempestade tireotóxica é uma descompensação extrema do hipertireoidismo, geralmente desencadeada por um fator estressor (cirurgia, infecção, suspensão abrupta de medicação, como neste caso) num paciente com tireotoxicose de base mal controlada. O excesso de hormônio tireoidiano amplifica a resposta adrenérgica em todos os tecidos: aumenta o metabolismo basal (febre alta, desproporcional a uma infecção simples), a frequência cardíaca (taquiarritmia, podendo precipitar fibrilação atrial) e a atividade do sistema nervoso central (agitação, confusão). É uma emergência clínica com mortalidade elevada se não tratada rapidamente, por isso o diagnóstico e o início do tratamento são baseados em critérios clínicos (como a escala de Burch-Wartofsky), sem esperar a confirmação laboratorial do TSH, que só reforça o diagnóstico a posteriori. O tratamento combina bloqueio da síntese hormonal (tionamida), bloqueio da liberação (iodo, administrado após a tionamida), bloqueio da conversão periférica T4→T3 e dos efeitos adrenérgicos (betabloqueador) e suporte para o estresse fisiológico (corticoide, hidratação, controle térmico)."

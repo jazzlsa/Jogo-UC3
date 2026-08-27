@@ -177,6 +177,10 @@
     {
       "texto": "Apenas analgesia e alta com encaminhamento ambulatorial ao cardiologista",
       "correta": false
+    },
+    {
+      "texto": "Apenas nitrato sublingual e observação, sem terapia de reperfusão",
+      "correta": false
     }
   ],
   "explicacao": "No infarto agudo do miocárdio, a oclusão de uma artéria coronária interrompe o suprimento de oxigênio ao músculo cardíaco. Nos primeiros 20-40 minutos, a lesão ainda é potencialmente reversível, se o fluxo for restabelecido a tempo, os miócitos se recuperam. Além desse ponto, instala-se a necrose de coagulação: as proteínas estruturais e enzimáticas da célula são desnaturadas, mas a arquitetura básica do tecido é preservada por um tempo (diferente da necrose liquefativa, vista por exemplo no sistema nervoso central), o que permite reconhecer a área infartada histologicamente. Diferente da esteatose (lesão reversível vista no caso anterior), aqui não há volta: o tecido necrótico será substituído por cicatriz fibrótica, sem regeneração de miócitos funcionais. Por isso 'tempo é músculo', quanto mais rápido a artéria for reaberta (angioplastia primária), menor a área de necrose irreversível e melhor o prognóstico funcional do coração."
