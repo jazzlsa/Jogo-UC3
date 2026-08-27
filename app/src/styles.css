@@ -69,6 +69,8 @@ button:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--accent
   display: flex; justify-content: space-between; align-items: center; gap: 16px;
   padding: 12px 18px; border-bottom: 1px solid var(--border); flex-wrap: wrap;
 }
+.hud-left { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.hud-exit { padding: 6px 12px; font-size: 13px; flex: none; }
 .pi-meter { display: flex; align-items: center; gap: 10px; }
 .pi-meter .pi-name { font-family: "IBM Plex Sans", sans-serif; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: var(--ink-faint); }
 .pi-track { width: 140px; height: 9px; border-radius: 5px; background: var(--border); overflow: hidden; }

@@ -195,10 +195,13 @@ function hudHTML(stage) {
   const faseNum = Math.min(STAGES.indexOf(stage) + 1, 6);
   return `
   <div class="hud">
-    <div class="pi-meter">
-      <span class="pi-name">Nota</span>
-      <div class="pi-track"><div class="pi-fill ${low ? "low" : ""}" style="width:${pct}%"></div></div>
-      <span class="pi-text ${low ? "low" : ""}">${notaAtual.toFixed(1)}/10</span>
+    <div class="hud-left">
+      ${stage !== "resultado" ? `<button class="btn ghost hud-exit" data-menu title="Sair e voltar ao menu">← Menu</button>` : ""}
+      <div class="pi-meter">
+        <span class="pi-name">Nota</span>
+        <div class="pi-track"><div class="pi-fill ${low ? "low" : ""}" style="width:${pct}%"></div></div>
+        <span class="pi-text ${low ? "low" : ""}">${notaAtual.toFixed(1)}/10</span>
+      </div>
     </div>
     <div class="hud-fase">Fase ${faseNum}/6</div>
   </div>`;
