@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-79-01-medio",
+  "tema": "Tema 79 · Carcinogênese Sequencial",
+  "materia_relacionada": "Este caso aplica o conceito de carcinogênese multistep visto na aula: um tumor raramente surge de uma mutação única, e sim de um acúmulo sequencial e progressivo de alterações independentes em genes reguladores do ciclo celular e do reparo do DNA, um processo que pode levar anos e que, se interrompido a tempo numa etapa ainda pré-maligna, evita o desfecho final.",
+  "area": "Gastroenterologia",
+  "prova": "P4",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 62,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, tenho notado sangue nas fezes de vez em quando há uns meses, e o formato das fezes mudou, ficaram mais finas. Há uns anos tirei uns pólipos no intestino, mas nunca mais voltei pra repetir o exame.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "122/78", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "86", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 62 anos, sangramento intestinal intermitente, fezes mais finas, e um histórico de pólipos removidos há anos sem seguimento. Pensa em quanto tempo geralmente leva pra uma lesão dessas mudar de comportamento.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Aquele pólipo antigo não virou câncer da noite pro dia. Foram anos de pequenas mutações se somando, uma de cada vez, até a última peça se encaixar.",
+    "dicas": [
+      "Releia com atenção o histórico de pólipos removidos dele e há quanto tempo ele deveria ter repetido a colonoscopia de seguimento, e como estão as fezes e o hábito intestinal agora.",
+      "Pensa em como um tumor raramente surge de uma mutação genética única, e sim de várias alterações independentes se acumulando ao longo do tempo em genes que controlam o ciclo celular e o reparo do DNA, cada uma abrindo caminho pra próxima.",
+      "Que sequência clássica de lesões, começando num pólipo benigno e terminando numa neoplasia maligna invasiva do intestino grosso, é o exemplo mais estudado de acúmulo progressivo de mutações ao longo de anos?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Há quanto tempo notou sangue nas fezes e como é esse sangramento?", "custo": 2, "relevante": true, "resposta": "Há uns quatro meses, sangue vermelho vivo misturado às fezes, de forma intermitente." },
+    { "texto": "Notou mudança no formato ou calibre das fezes?", "custo": 2, "relevante": true, "resposta": "Sim, as fezes ficaram mais finas nos últimos meses." },
+    { "texto": "Quando foi a última colonoscopia e o que ela mostrou?", "custo": 2, "relevante": true, "resposta": "Fez uma colonoscopia há oito anos, removeram alguns pólipos, e o médico pediu repetição em três anos, que ele nunca fez." },
+    { "texto": "Tem histórico familiar de câncer colorretal em parentes de primeiro grau antes dos 50 anos?", "custo": 2, "relevante": false, "resposta": "Não, ninguém na família teve câncer de intestino em idade jovem." },
+    { "texto": "Notou emagrecimento junto com esses sintomas?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu uns quilos sem tentar." },
+    { "texto": "Tem dor abdominal em cólica associada a diarreia e febre recorrentes?", "custo": 2, "relevante": false, "resposta": "Não tem esse padrão de dor em cólica com febre." }
+  ],
+  "exameFisico": [
+    { "texto": "Toque retal", "custo": 3, "relevante": true, "resposta": "Presença de sangue oculto ao toque, sem massa palpável ao alcance do dedo." },
+    { "texto": "Palpação abdominal", "custo": 3, "relevante": true, "resposta": "Discreta massa palpável em fossa ilíaca esquerda, indolor." },
+    { "texto": "Avaliação de palidez de mucosas", "custo": 3, "relevante": true, "resposta": "Palidez leve, compatível com anemia crônica." },
+    { "texto": "Avaliação de linfonodos inguinais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias inguinais." }
+  ],
+  "hipoteses": [
+    { "texto": "Adenocarcinoma de cólon", "correta": true },
+    { "texto": "Doença diverticular complicada", "correta": false },
+    { "texto": "Doença inflamatória intestinal", "correta": false },
+    { "texto": "Angiodisplasia colônica", "correta": false },
+    { "texto": "Doença hemorroidária", "correta": false },
+    { "texto": "Pólipo adenomatoso benigno isolado", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Hemograma completo", "custo": 8, "relevante": true, "resposta": "Anemia ferropriva, compatível com perda sanguínea crônica de origem digestiva." },
+    { "texto": "Colonoscopia com biópsia", "custo": 18, "relevante": true, "resposta": "Lesão ulcerada e vegetante em cólon esquerdo, com áreas de pólipo adenomatoso residual na periferia da lesão." },
+    { "texto": "Anatomopatológico da biópsia", "custo": 16, "relevante": true, "resposta": "Adenocarcinoma invasivo surgindo a partir de um adenoma tubuloviloso, com transição visível entre tecido adenomatoso e carcinoma." },
+    { "texto": "Antígeno carcinoembrionário (CEA)", "custo": 12, "relevante": true, "resposta": "Elevado, útil como marcador de acompanhamento." }
+  ],
+  "condutas": [
+    { "texto": "Encaminhar para colectomia com ressecção oncológica, estadiamento completo e avaliação de quimioterapia adjuvante conforme o estágio, além de reforçar a importância da colonoscopia de vigilância regular a partir de agora", "correta": true },
+    { "texto": "Tratar apenas como doença hemorroidária, com pomadas e dieta rica em fibras", "correta": false },
+    { "texto": "Iniciar apenas antibioticoterapia para diverticulite, sem investigação endoscópica", "correta": false },
+    { "texto": "Repetir apenas a colonoscopia em três anos, sem tratar a lesão atual", "correta": false }
+  ],
+  "explicacao": "A carcinogênese colorretal é o exemplo clássico de processo multistep: um epitélio normal evolui pra um adenoma inicial após a perda de um gene supressor de tumor, progride pra um adenoma intermediário com a ativação de um oncogene, e finalmente pra carcinoma invasivo com a perda de outro gene supressor de tumor, um acúmulo sequencial e independente de mutações que costuma levar anos para se completar. O pólipo removido deste paciente há oito anos provavelmente já carregava as primeiras alterações dessa sequência, e a ausência de seguimento colonoscópico permitiu que as mutações seguintes se acumulassem sem interrupção, até a transição visível entre tecido adenomatoso residual e carcinoma invasivo encontrada na biópsia. A anemia ferropriva por perda sanguínea crônica, a mudança no calibre das fezes (por obstrução parcial do lúmen) e o emagrecimento são consequências diretas do crescimento tumoral já estabelecido. Esse caso reforça por que a colonoscopia de vigilância após polipectomia existe: interromper essa sequência numa etapa ainda benigna evita exatamente esse desfecho."
+}

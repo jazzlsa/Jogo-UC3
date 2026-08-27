@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-83-01-medio",
+  "tema": "Tema 83 · Aspectos Metabólicos dos Tumores",
+  "materia_relacionada": "Este caso aplica o chamado efeito Warburg visto na aula: células neoplásicas costumam preferir a via glicolítica pra gerar energia, mesmo quando têm oxigênio disponível de sobra, porque não precisam só de energia, precisam sobretudo de matéria-prima pra construir biomassa nova rapidamente, um metabolismo alterado que pode ser explorado como ferramenta diagnóstica.",
+  "area": "Oncologia",
+  "prova": "P4",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 64,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutora, venho emagrecendo sem parar há uns quatro meses, mais de dez quilos, sem fazer nenhuma dieta. Estou sem apetite e com uma fraqueza que não passa.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "112/70", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "88", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.7", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 64 anos, emagrecimento importante e progressivo há quatro meses, sem sintoma localizatório claro nenhum até agora. Antes de mandar pra casa achando que é só falta de apetite, pensa no que mais poderia estar consumindo energia do corpo dela em algum lugar escondido.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não tinha nada visível, nenhuma massa, nenhum gânglio. Só um jeito diferente de queimar açúcar, escondido em algum lugar do corpo dela, que a imagem certa finalmente revelou.",
+    "dicas": [
+      "Releia com atenção como foi esse emagrecimento (rápido, progressivo, sem explicação por dieta) e se ela tem algum sintoma localizatório específico, mesmo que discreto.",
+      "Pensa em por que uma célula que está se dividindo muito rápido preferiria fazer um tipo de metabolismo menos eficiente em gerar energia por molécula de glicose, mesmo tendo oxigênio disponível de sobra, se ela precisa sobretudo de matéria-prima pra construir biomassa nova, e não só de energia pronta.",
+      "Que tipo de exame de imagem funcional consegue enxergar um tumor escondido, mesmo sem massa palpável nenhuma, explorando justamente essa preferência das células tumorais por consumir muito mais glicose que o tecido normal ao redor?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Esse emagrecimento foi intencional, com dieta ou exercício?", "custo": 2, "relevante": true, "resposta": "Não, não mudou nada na alimentação nem começou a se exercitar mais." },
+    { "texto": "Notou palpitações, tremores ou intolerância ao calor?", "custo": 2, "relevante": false, "resposta": "Nenhum desses sintomas." },
+    { "texto": "Teve tosse persistente, sangramento ou dor abdominal?", "custo": 2, "relevante": true, "resposta": "Só uma tosse seca discreta ocasional, que atribuiu à poeira de casa, nada muito chamativo." },
+    { "texto": "Tem histórico de tristeza importante, perda de interesse ou outros sintomas depressivos?", "custo": 2, "relevante": false, "resposta": "Não se sente triste ou desanimada, só fisicamente fraca." },
+    { "texto": "Notou fezes claras, gordurosas, ou alteração no hábito intestinal?", "custo": 2, "relevante": false, "resposta": "Hábito intestinal normal, sem alteração nas fezes." },
+    { "texto": "É tabagista ou ex-tabagista?", "custo": 2, "relevante": true, "resposta": "Fumou por mais de 20 anos, parou há dez." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de massa muscular e força (sarcopenia)", "custo": 3, "relevante": true, "resposta": "Perda evidente de massa muscular, compatível com o emagrecimento relatado." },
+    { "texto": "Palpação abdominal e de linfonodos periféricos", "custo": 3, "relevante": true, "resposta": "Sem massas palpáveis e sem linfonodomegalias periféricas." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Murmúrio vesicular presente, sem ruídos adventícios." },
+    { "texto": "Avaliação de bócio ou nódulo tireoidiano palpável", "custo": 3, "relevante": false, "resposta": "Tireoide sem nódulos ou aumento de volume palpável." }
+  ],
+  "hipoteses": [
+    { "texto": "Neoplasia maligna oculta", "correta": true },
+    { "texto": "Hipertireoidismo", "correta": false },
+    { "texto": "Depressão maior com hiporexia", "correta": false },
+    { "texto": "Tuberculose pulmonar", "correta": false },
+    { "texto": "Doença celíaca do adulto", "correta": false },
+    { "texto": "Insuficiência adrenal primária", "correta": false }
+  ],
+  "exames": [
+    { "texto": "TSH e T4 livre", "custo": 8, "relevante": true, "resposta": "Ambos normais, afastando causa tireoidiana para o emagrecimento." },
+    { "texto": "Cortisol basal e ACTH", "custo": 10, "relevante": true, "resposta": "Ambos normais, afastando insuficiência adrenal." },
+    { "texto": "PPD e radiografia de tórax simples", "custo": 10, "relevante": true, "resposta": "PPD não reator e radiografia sem consolidações ou cavitações sugestivas de tuberculose." },
+    { "texto": "PET-CT com FDG (análogo radioativo da glicose)", "custo": 20, "relevante": true, "resposta": "Área de hipermetabolismo intenso num nódulo pulmonar pequeno e discreto, além de captação aumentada em linfonodos mediastinais, achados não visíveis à palpação nem à radiografia simples." }
+  ],
+  "condutas": [
+    { "texto": "Realizar biópsia guiada da lesão pulmonar identificada no PET-CT, encaminhar para oncologia e iniciar suporte nutricional direcionado à caquexia", "correta": true },
+    { "texto": "Iniciar apenas suplementação nutricional intensiva, sem investigar a causa do emagrecimento", "correta": false },
+    { "texto": "Iniciar apenas antidepressivo, assumindo causa psiquiátrica isolada", "correta": false },
+    { "texto": "Iniciar reposição de hormônio tireoidiano empiricamente", "correta": false }
+  ],
+  "explicacao": "Células tumorais costumam realizar glicólise aeróbica de forma preferencial, o chamado efeito Warburg, consumindo grandes quantidades de glicose mesmo na presença de oxigênio suficiente para respiração mitocondrial, porque o objetivo não é só gerar energia de forma eficiente, e sim produzir rapidamente os precursores necessários pra sintetizar biomassa nova (ácidos nucleicos, lipídeos, proteínas) durante a proliferação acelerada. Esse metabolismo alterado é exatamente o que o PET-CT com FDG explora: um análogo radioativo da glicose se concentra nos tecidos que mais a consomem, tornando visível um tumor primário pequeno demais pra ser palpado ou visto numa radiografia simples, mesmo num paciente com apenas sintomas sistêmicos inespecíficos como emagrecimento e fraqueza. A exclusão de causas endócrinas, infecciosas e psiquiátricas mais comuns de emagrecimento involuntário reforça a investigação de uma causa oculta, e a caquexia associada a neoplasias reflete ainda uma desregulação metabólica sistêmica mediada por citocinas inflamatórias, indo além do simples déficit calórico."
+}

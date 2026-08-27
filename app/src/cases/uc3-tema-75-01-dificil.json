@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-75-01-dificil",
+  "tema": "Tema 75 · Biologia e Crescimento dos Tumores",
+  "materia_relacionada": "Este caso aplica o conceito de grau de diferenciação visto na aula: diferenciação é o quanto uma célula neoplásica ainda se parece, estrutural e funcionalmente, com a célula normal que lhe deu origem. Um tumor pode já ser maligno há tempos, mas o que determina boa parte da sua agressividade clínica é o quanto ele perdeu essa semelhança, um processo que pode se acelerar de forma abrupta mesmo numa lesão antiga e estável.",
+  "area": "Oncologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 68,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutor, eu tenho um bócio no pescoço há mais de 15 anos, sempre foi do mesmo tamanho, mas nas últimas três semanas ele cresceu muito rápido e agora estou engasgando pra engolir e minha voz mudou.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "128/80", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "84", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Senhora de 68 anos, bócio estável havia mais de uma década e agora um crescimento explosivo em três semanas, com disfagia e rouquidão nova. Repara bem na diferença entre o ritmo antigo dessa lesão e o ritmo dela agora.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "A lesão dela não era nova. Era antiga e estável, até que uma parte dela decidiu parar de se comportar como tireoide.",
+    "dicas": [
+      "Releia com atenção o contraste entre o tempo que esse bócio já existia, estável, e a velocidade com que ele mudou nas últimas semanas, e como estão a voz e a deglutição dela agora.",
+      "Pensa em como uma célula pode ser maligna há anos mas ainda se parecer bastante com a célula normal que a originou, e no que aconteceria clinicamente se, numa lesão antiga, uma parte dela perdesse quase toda essa semelhança de uma vez.",
+      "Que mudança abrupta no grau de diferenciação de uma lesão tireoidiana antiga explicaria um crescimento tão rápido e agressivo, capaz de invadir estruturas do pescoço em poucas semanas?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Sente palpitações, tremores ou intolerância ao calor?", "custo": 2, "relevante": false, "resposta": "Nenhum desses sintomas, nunca teve sintomas de hipertireoidismo." },
+    { "texto": "Há quanto tempo exatamente esse nódulo no pescoço mudou de comportamento?", "custo": 2, "relevante": true, "resposta": "Ficou do mesmo tamanho por mais de 15 anos e começou a crescer rápido há umas três semanas." },
+    { "texto": "Notou rouquidão ou mudança na voz?", "custo": 2, "relevante": true, "resposta": "Sim, a voz ficou rouca nas últimas duas semanas." },
+    { "texto": "Tem dificuldade pra engolir ou sensação de sufocamento?", "custo": 2, "relevante": true, "resposta": "Sim, engasga com facilidade, principalmente com alimentos sólidos." },
+    { "texto": "Já fez radioterapia na região do pescoço quando criança?", "custo": 2, "relevante": false, "resposta": "Não, nunca fez radioterapia na região." },
+    { "texto": "Notou emagrecimento junto com o crescimento do pescoço?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu bastante nas últimas semanas." }
+  ],
+  "exameFisico": [
+    { "texto": "Palpação da massa cervical (consistência, mobilidade, limites)", "custo": 3, "relevante": true, "resposta": "Massa endurecida, fixa a planos profundos, com limites imprecisos, bem diferente de um bócio nodular simples." },
+    { "texto": "Avaliação da mobilidade das cordas vocais", "custo": 3, "relevante": true, "resposta": "Paralisia de corda vocal à direita, sugestiva de invasão do nervo laríngeo recorrente." },
+    { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": true, "resposta": "Linfonodomegalias cervicais endurecidas e fixas." },
+    { "texto": "Avaliação de exoftalmia e tremor fino de extremidades", "custo": 3, "relevante": false, "resposta": "Ausentes, sem sinais de hipertireoidismo." }
+  ],
+  "hipoteses": [
+    { "texto": "Carcinoma anaplásico de tireoide", "correta": true },
+    { "texto": "Carcinoma papilífero de tireoide", "correta": false },
+    { "texto": "Carcinoma folicular de tireoide", "correta": false },
+    { "texto": "Linfoma primário de tireoide", "correta": false },
+    { "texto": "Tireoidite de Riedel", "correta": false },
+    { "texto": "Bócio multinodular com crescimento benigno", "correta": false }
+  ],
+  "exames": [
+    { "texto": "TSH e T4 livre", "custo": 8, "relevante": false, "resposta": "Ambos normais, afastando causa hormonal para o quadro." },
+    { "texto": "Tomografia de pescoço", "custo": 14, "relevante": true, "resposta": "Massa tireoidiana volumosa invadindo traqueia e estruturas adjacentes, com linfonodomegalias cervicais." },
+    { "texto": "Biópsia por agulha grossa da massa cervical", "custo": 16, "relevante": true, "resposta": "Células gigantes muito pleomórficas, alto índice mitótico e perda quase completa da arquitetura folicular normal." },
+    { "texto": "Imuno-histoquímica para tireoglobulina", "custo": 14, "relevante": true, "resposta": "Marcação residual fraca e focal, compatível com origem tireoidiana apesar da perda quase total das características originais da célula folicular." }
+  ],
+  "condutas": [
+    { "texto": "Avaliar ressecabilidade cirúrgica de urgência com equipe multidisciplinar, considerando traqueostomia se houver risco de obstrução de via aérea, e discutir radioterapia/quimioterapia paliativa dado o prognóstico reservado", "correta": true },
+    { "texto": "Indicar apenas iodo radioativo, como se fosse um carcinoma diferenciado de tireoide", "correta": false },
+    { "texto": "Apenas observação clínica, tratando como bócio multinodular de longa data", "correta": false },
+    { "texto": "Iniciar apenas reposição hormonal tireoidiana", "correta": false }
+  ],
+  "explicacao": "Diferenciação é o quanto uma célula neoplásica ainda se assemelha, estrutural e funcionalmente, à célula normal de origem, e é um dos principais determinantes da agressividade clínica de um tumor, independente de ele já ser maligno há tempos. Neste caso, um bócio estável por mais de 15 anos sofreu uma transformação abrupta: uma população celular dentro da lesão perdeu quase toda a semelhança com a célula folicular tireoidiana original, dando origem ao carcinoma anaplásico, um dos tumores humanos mais agressivos, com crescimento explosivo e invasão local rápida de traqueia, esôfago e nervo laríngeo recorrente (explicando a disfagia e a rouquidão). Diferente dos carcinomas papilífero e folicular, que mantêm arquitetura reconhecível e captam iodo radioativo, o carcinoma anaplásico geralmente não capta iodo e tem prognóstico muito reservado, mesmo mantendo, às vezes, uma marcação residual fraca por tireoglobulina que ainda aponta para sua origem tireoidiana."
+}

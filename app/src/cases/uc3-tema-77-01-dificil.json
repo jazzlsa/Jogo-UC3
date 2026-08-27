@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-77-01-dificil",
+  "tema": "Tema 77 · Agentes Carcinogênicos Físicos e Químicos",
+  "materia_relacionada": "Este caso aplica o conceito de carcinógeno químico visto na aula: um agente que interage direta ou indiretamente com o DNA, causando alterações genéticas que possibilitam o surgimento de uma neoplasia, exatamente como Percival Pott já suspeitava ao ligar a fuligem à ocupação dos limpadores de chaminé, só que aqui o agente é uma exposição industrial moderna e o tumor resultante é raro o suficiente para apontar direto pra causa ocupacional.",
+  "area": "Oncologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, minha barriga está inchando cada vez mais rápido, sinto dor no lado direito e fiquei amarelado. Trabalhei mais de 25 anos numa fábrica de plástico.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "108/68", "u": "mmHg", "flag": true },
+    { "l": "FC", "v": "102", "u": "bpm", "flag": true },
+    { "l": "Tax", "v": "36.8", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "96", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 58 anos, ascite de instalação rápida, dor no hipocôndrio direito e icterícia, com 25 anos de trabalho numa fábrica de plástico. Antes de pensar só em cirrose alcoólica, pergunta bem com o que ele trabalhava naquela fábrica.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não foi o álcool nem um vírus que fizeram isso com o fígado dele. Foi o que ele respirou todos os dias, por décadas, dentro daquela fábrica.",
+    "dicas": [
+      "Releia com atenção o histórico ocupacional dele, especificamente com que substância ele trabalhava naquela fábrica de plástico, e há quanto tempo.",
+      "Pensa em como uma substância química pode agir diretamente sobre o DNA de células específicas do corpo, e por que a exposição ocupacional prolongada a ela apontaria pra um tumor bem raro do fígado, ao invés do câncer hepático mais comum.",
+      "Que composto químico industrial, usado na fabricação de plástico (PVC), é um carcinógeno reconhecido para um tumor maligno raro que nasce das células que revestem os vasos sanguíneos do fígado?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Qual era exatamente a função dele na fábrica e com qual substância tinha contato direto?", "custo": 2, "relevante": true, "resposta": "Trabalhava na produção de PVC, com contato direto e prolongado com o monômero usado na fabricação do plástico." },
+    { "texto": "Consome bebida alcoólica regularmente e em que quantidade?", "custo": 2, "relevante": true, "resposta": "Bebe socialmente, quantidade pequena, sem padrão de uso abusivo." },
+    { "texto": "Já teve diagnóstico de hepatite B ou C?", "custo": 2, "relevante": true, "resposta": "Nunca foi diagnosticado com hepatite viral, nunca fez rastreio antes." },
+    { "texto": "Notou sangue ao evacuar ou fezes escurecidas?", "custo": 2, "relevante": false, "resposta": "Não notou sangramento nas fezes." },
+    { "texto": "Tem histórico familiar de câncer de fígado ou cirrose?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de doença hepática." },
+    { "texto": "Notou emagrecimento junto com o inchaço da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu bastante nas últimas semanas." }
+  ],
+  "exameFisico": [
+    { "texto": "Avaliação de ascite (macicez móvel)", "custo": 3, "relevante": true, "resposta": "Ascite volumosa, de instalação recente e rápida." },
+    { "texto": "Palpação hepática", "custo": 3, "relevante": true, "resposta": "Hepatomegalia irregular, de superfície nodular." },
+    { "texto": "Avaliação de icterícia e estigmas de hepatopatia crônica (aranhas vasculares, eritema palmar)", "custo": 3, "relevante": true, "resposta": "Icterícia presente, mas sem estigmas clássicos de hepatopatia crônica de longa data, como se o fígado tivesse adoecido rápido demais pra desenvolvê-los." },
+    { "texto": "Avaliação de linfonodos supraclaviculares", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+  ],
+  "hipoteses": [
+    { "texto": "Angiossarcoma hepático", "correta": true },
+    { "texto": "Carcinoma hepatocelular", "correta": false },
+    { "texto": "Colangiocarcinoma intra-hepático", "correta": false },
+    { "texto": "Metástase hepática de tumor primário oculto", "correta": false },
+    { "texto": "Cirrose hepática alcoólica descompensada", "correta": false },
+    { "texto": "Hepatocarcinoma fibrolamelar", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Sorologias para hepatite B e C", "custo": 10, "relevante": true, "resposta": "Ambas negativas." },
+    { "texto": "Dosagem de alfafetoproteína", "custo": 10, "relevante": true, "resposta": "Normal, achado que destoa do esperado para um carcinoma hepatocelular volumoso." },
+    { "texto": "Tomografia de abdome com contraste", "custo": 16, "relevante": true, "resposta": "Múltiplos nódulos hepáticos heterogêneos, alguns com áreas de sangramento espontâneo dentro da lesão." },
+    { "texto": "Biópsia hepática guiada por imagem", "custo": 18, "relevante": true, "resposta": "Proliferação de células malignas de aspecto endotelial revestindo espaços vasculares irregulares e dissecando o parênquima hepático." }
+  ],
+  "condutas": [
+    { "texto": "Encaminhar para oncologia e cirurgia hepatobiliar para avaliar ressecabilidade, dado o prognóstico geralmente reservado e a ausência de tratamento sistêmico estabelecido de alta eficácia", "correta": true },
+    { "texto": "Tratar apenas como cirrose alcoólica descompensada, sem investigação oncológica adicional", "correta": false },
+    { "texto": "Indicar transplante hepático assumindo carcinoma hepatocelular dentro dos critérios de Milão", "correta": false },
+    { "texto": "Apenas paracentese de alívio, sem investigar a causa da ascite", "correta": false }
+  ],
+  "explicacao": "O monômero de cloreto de vinila, usado na fabricação de PVC, é um carcinógeno químico reconhecido que atua diretamente sobre o DNA de células endoteliais hepáticas, causando o angiossarcoma hepático, um tumor maligno raro derivado dos vasos sanguíneos do fígado, historicamente descrito em trabalhadores da indústria de plástico com exposição ocupacional prolongada, como Percival Pott já havia intuído ao ligar a fuligem ao câncer escrotal dos limpadores de chaminé, aqui com um agente químico industrial moderno. A ausência de hepatite viral, o consumo discreto de álcool, a alfafetoproteína normal (que tipicamente estaria elevada num carcinoma hepatocelular) e a instalação relativamente rápida do quadro, sem os estigmas típicos de hepatopatia crônica de longa data, apontam para essa etiologia incomum em vez das causas hepáticas mais frequentes. A biópsia confirmando proliferação de células de aspecto endotelial fecha o diagnóstico, que, dada a raridade e a agressividade do tumor, costuma ter prognóstico reservado mesmo com tratamento."
+}

@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-85-01-medio",
+  "tema": "Tema 85 · Telômeros e Defeitos de Reparo do DNA",
+  "materia_relacionada": "Este caso aplica o conceito de defeito hereditário de reparo do DNA visto na aula: existe uma via específica de reparo especializada em corrigir o dano causado pela radiação ultravioleta, removendo o trecho de DNA danificado antes da próxima duplicação. Quando essa via nasce quebrada, o dano causado pelo sol se acumula sem correção, gerando mutações muito mais rápido do que o normal.",
+  "area": "Outra",
+  "prova": "P4",
+  "dificuldade": "medio",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 7,
+    "sexo": "F"
+  },
+  "queixa_principal": "Os pais relatam: “Doutora, desde bebê, qualquer pouquinho de sol já deixa a pele dela toda vermelha e com bolhas, bem mais que o esperado. E agora apareceram umas manchas escuras e um carocinho estranho no rosto dela.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "98/60", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "92", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.5", "u": "°C", "flag": false },
+    { "l": "FR", "v": "20", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Menina de 7 anos, queimaduras solares graves desde bebê com exposição mínima ao sol, e agora múltiplas manchas de pele e uma lesão suspeita no rosto, numa idade em que isso simplesmente não deveria estar acontecendo. Pergunta se os pais são parentes entre si.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O sol nunca foi o problema de verdade. O problema é que a célula dela nasceu sem conseguir consertar o que o sol faz com o DNA de qualquer um.",
+    "dicas": [
+      "Releia com atenção a história de consanguinidade entre os pais e o quanto de exposição solar realmente foi necessário pra causar essas queimaduras tão graves desde bebê.",
+      "Pensa em como existe uma via de reparo do DNA especializada só em remover o trecho de DNA danificado pela radiação ultravioleta antes da próxima divisão celular, e no que aconteceria se uma criança já nascesse com essa via inteira quebrada.",
+      "Que doença genética rara, causada por defeito herdado numa dessas enzimas de reparo, explica fotossensibilidade extrema desde a infância e o surgimento de múltiplos tumores de pele numa idade muito precoce, mesmo com exposição solar mínima?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Os pais são parentes entre si (primos, por exemplo)?", "custo": 2, "relevante": true, "resposta": "Sim, os pais são primos de primeiro grau." },
+    { "texto": "Quanto tempo de exposição ao sol já é suficiente pra causar essas queimaduras?", "custo": 2, "relevante": true, "resposta": "Minutos de exposição direta já causam vermelhidão intensa e bolhas, bem menos do que o esperado para a idade e o fototipo dela." },
+    { "texto": "Algum outro irmão ou parente próximo tem o mesmo problema de pele?", "custo": 2, "relevante": true, "resposta": "Um irmão mais velho tem o mesmo padrão de fotossensibilidade grave desde bebê." },
+    { "texto": "Ela usa alguma medicação de uso contínuo que possa causar fotossensibilidade?", "custo": 2, "relevante": false, "resposta": "Não usa nenhuma medicação de uso contínuo." },
+    { "texto": "Notou dificuldade visual ou irritação ocular frequente?", "custo": 2, "relevante": true, "resposta": "Sim, os olhos ficam irritados e avermelhados com facilidade quando exposta à luz." },
+    { "texto": "Já teve alguma infecção de pele recorrente nas lesões?", "custo": 2, "relevante": false, "resposta": "Sem infecções de pele recorrentes nas lesões." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção da pele em áreas fotoexpostas (face, mãos, braços)", "custo": 3, "relevante": true, "resposta": "Múltiplas manchas hipercrômicas e hipocrômicas irregulares (aspecto de pele envelhecida precocemente), sardas atípicas numerosas para a idade." },
+    { "texto": "Inspeção da lesão suspeita no rosto", "custo": 3, "relevante": true, "resposta": "Lesão nodular perolada com telangiectasias, de bordas bem definidas, em área fotoexposta." },
+    { "texto": "Avaliação oftalmológica externa", "custo": 3, "relevante": true, "resposta": "Conjuntivas hiperemiadas e ressecadas, com fotofobia importante ao exame." },
+    { "texto": "Avaliação de linfonodos cervicais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias cervicais." }
+  ],
+  "hipoteses": [
+    { "texto": "Xeroderma pigmentoso", "correta": true },
+    { "texto": "Albinismo oculocutâneo", "correta": false },
+    { "texto": "Porfiria cutânea tarda", "correta": false },
+    { "texto": "Lúpus eritematoso cutâneo", "correta": false },
+    { "texto": "Síndrome de Cockayne", "correta": false },
+    { "texto": "Epidermólise bolhosa", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Teste funcional de reparo por excisão de nucleotídeos em fibroblastos cultivados, após exposição a luz ultravioleta", "custo": 18, "relevante": true, "resposta": "Capacidade de reparo do DNA muito reduzida após o dano ultravioleta, bem abaixo do esperado para uma célula normal." },
+    { "texto": "Biópsia da lesão nodular perolada do rosto", "custo": 14, "relevante": true, "resposta": "Confirma tratar-se de um carcinoma basocelular, num paciente de apenas 7 anos." },
+    { "texto": "Sequenciamento genético dos genes de reparo por excisão de nucleotídeos", "custo": 16, "relevante": true, "resposta": "Mutação bialélica identificada num dos genes dessa via de reparo, em concordância com o padrão de herança autossômico recessivo esperado (pais consanguíneos)." },
+    { "texto": "Dosagem de porfirinas urinárias", "custo": 10, "relevante": false, "resposta": "Normal, afastando porfiria cutânea tarda." }
+  ],
+  "condutas": [
+    { "texto": "Orientar fotoproteção rigorosa e completa (evitar exposição solar direta, roupas específicas, filtro solar de amplo espectro reaplicado com frequência), estabelecer vigilância dermatológica e oftalmológica frequente com exérese precoce de qualquer lesão suspeita, e oferecer aconselhamento genético à família", "correta": true },
+    { "texto": "Tratar apenas a lesão facial isoladamente, sem orientar nenhuma medida de fotoproteção adicional", "correta": false },
+    { "texto": "Iniciar apenas suplementação de vitamina D, assumindo fotossensibilidade nutricional", "correta": false },
+    { "texto": "Investigar apenas causa infecciosa para as manchas de pele", "correta": false }
+  ],
+  "explicacao": "O xeroderma pigmentoso é uma doença autossômica recessiva causada por mutação bialélica num dos genes responsáveis pelo reparo por excisão de nucleotídeos, a via especializada em remover o dano ao DNA causado pela radiação ultravioleta antes da próxima duplicação celular. Sem essa via funcionando, o dano ultravioleta se acumula sem correção a cada exposição solar, mesmo mínima, explicando tanto as queimaduras solares desproporcionalmente graves desde bebê quanto o acúmulo acelerado de mutações que leva ao surgimento de múltiplos cânceres de pele (basocelular, espinocelular e melanoma) numa idade extremamente precoce, muito antes do esperado pela população geral. O acometimento ocular (fotofobia, conjuntivas ressecadas, maior risco de neoplasias conjuntivais) e o padrão familiar consistente com herança recessiva (pais consanguíneos, irmão também afetado) reforçam o diagnóstico, confirmado pelo teste funcional de reparo reduzido e pela identificação da mutação genética específica. Como não existe cura para o defeito genético em si, o manejo depende inteiramente de evitar a exposição que desencadeia o dano e de detectar e remover precocemente qualquer lesão maligna que surja."
+}

@@ -1,0 +1,65 @@
+{
+  "id": "uc3-tema-81-01-dificil",
+  "tema": "Tema 81 · Evasão do Sistema Imune pelas Neoplasias",
+  "materia_relacionada": "Este caso aplica um mecanismo de escape imunológico visto na aula: o sistema imune tem freios naturais que existem pra evitar dano excessivo ao tecido depois de uma resposta ativa contra um alvo, e algumas neoplasias aprendem a acionar esse mesmo freio contra o próprio linfócito que as reconhece, mesmo depois de o corpo já ter montado uma resposta específica contra elas.",
+  "area": "Oncologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 55,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, há uns meses tirei uma pinta das costas que o médico disse que era melanoma, fizeram a cirurgia e falaram que tinha dado tudo certo. Só que agora apareceram uns caroços embaixo da pele e no pescoço.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "124/80", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "80", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "16", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 55 anos, melanoma excisado há alguns meses com margens consideradas adequadas, e agora múltiplos nódulos novos sob a pele e linfonodomegalia cervical. O sistema imune dele com certeza reconheceu esse tumor em algum momento. Pensa em por que ele parou de conseguir controlar.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "O corpo dele não ficou cego pro tumor. O tumor é que aprendeu a apertar o freio bem na hora que o linfócito ia atacar.",
+    "dicas": [
+      "Releia com atenção o histórico da lesão original excisada e o tempo entre a cirurgia e o aparecimento desses novos nódulos, e observa bem se algum deles regrediu sozinho em algum momento (sinal de que o sistema imune já tentou agir antes).",
+      "Pensa em como o sistema imune tem freios naturais que existem pra evitar dano excessivo ao tecido depois de ativar uma resposta específica, e como uma célula neoplásica poderia se aproveitar justamente desse freio pra desligar o linfócito que a reconhece, mesmo depois dele já ter sido ativado contra ela.",
+      "Que classe de tratamento, hoje usada nesse tipo de tumor, funciona bloqueando esse freio imunológico específico, permitindo que o linfócito T volte a atacar a célula tumoral que ele já reconhecia?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Quanto tempo se passou entre a cirurgia do melanoma e o aparecimento desses novos nódulos?", "custo": 2, "relevante": true, "resposta": "Cerca de quatro meses depois da cirurgia." },
+    { "texto": "Algum nódulo de pele já diminuiu ou desapareceu sozinho em algum momento, mesmo sem tratamento?", "custo": 2, "relevante": true, "resposta": "Sim, notou que um nódulo pequeno próximo à cicatriz sumiu sozinho há uns dois meses, antes de aparecerem os outros." },
+    { "texto": "Fez quimioterapia ou algum outro tratamento sistêmico depois da cirurgia?", "custo": 2, "relevante": false, "resposta": "Não, só fez a cirurgia, sem nenhum tratamento sistêmico depois." },
+    { "texto": "Tem histórico de exposição solar intensa ou queimaduras solares graves no passado?", "custo": 2, "relevante": false, "resposta": "Sim, trabalhou muitos anos exposto ao sol sem proteção, mas isso já era sabido desde o diagnóstico inicial." },
+    { "texto": "Notou emagrecimento ou fadiga importante nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu e está bem mais cansado que o normal." }
+  ],
+  "exameFisico": [
+    { "texto": "Inspeção da cicatriz de excisão e da pele ao redor", "custo": 3, "relevante": true, "resposta": "Cicatriz cirúrgica bem cicatrizada, sem lesão residual visível no local original." },
+    { "texto": "Palpação dos nódulos subcutâneos", "custo": 3, "relevante": true, "resposta": "Múltiplos nódulos firmes, indolores, de tamanhos variados, em tronco e membros." },
+    { "texto": "Palpação de linfonodos cervicais e axilares", "custo": 3, "relevante": true, "resposta": "Linfonodomegalias cervicais endurecidas e não dolorosas." },
+    { "texto": "Avaliação de icterícia e hepatomegalia", "custo": 3, "relevante": false, "resposta": "Sem icterícia ou hepatomegalia palpável." }
+  ],
+  "hipoteses": [
+    { "texto": "Melanoma metastático", "correta": true },
+    { "texto": "Linfoma cutâneo de células T", "correta": false },
+    { "texto": "Carcinoma basocelular metastático", "correta": false },
+    { "texto": "Sarcoma de partes moles primário", "correta": false },
+    { "texto": "Metástase cutânea de carcinoma pulmonar oculto", "correta": false },
+    { "texto": "Reação inflamatória crônica à cicatriz cirúrgica", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Biópsia de um dos nódulos subcutâneos", "custo": 16, "relevante": true, "resposta": "Células malignas com marcadores melanocíticos positivos (S100, HMB-45, Melan-A), confirmando origem melanocítica." },
+    { "texto": "Imuno-histoquímica para expressão de um freio imunológico nas células tumorais", "custo": 16, "relevante": true, "resposta": "Expressão aumentada desse freio imunológico nas células tumorais, com linfócitos T infiltrando o tumor mas funcionalmente pouco ativos ao redor." },
+    { "texto": "PET-CT de corpo inteiro para estadiamento", "custo": 18, "relevante": true, "resposta": "Múltiplas lesões hipermetabólicas em partes moles e linfonodos, sem lesões viscerais aparentes até o momento." },
+    { "texto": "Sequenciamento do gene BRAF do tumor", "custo": 14, "relevante": true, "resposta": "Ausência de mutação BRAF, o que direciona para uma opção terapêutica que não depende dessa via." }
+  ],
+  "condutas": [
+    { "texto": "Iniciar imunoterapia com inibidor desse freio imunológico específico (bloqueio de ponto de checagem), reavaliando a resposta com exames de imagem seriados", "correta": true },
+    { "texto": "Iniciar apenas quimioterapia citotóxica convencional como primeira linha", "correta": false },
+    { "texto": "Indicar apenas radioterapia paliativa em todas as lesões", "correta": false },
+    { "texto": "Manter apenas observação clínica, já que uma lesão regrediu sozinha antes", "correta": false }
+  ],
+  "explicacao": "O desaparecimento espontâneo de um nódulo antes do aparecimento dos outros mostra que o sistema imune desse paciente, em algum momento, reconheceu e atacou ativamente o melanoma. Mas tumores podem escapar desse ataque ao superexpressar um freio imunológico que normalmente existe pra limitar dano tecidual depois de uma resposta específica ativa: ao se ligar ao receptor correspondente no linfócito T, esse freio induz exaustão funcional da célula de defesa, mesmo que ela já tenha reconhecido o antígeno tumoral, explicando por que os linfócitos encontrados na biópsia infiltram o tumor mas não conseguem eliminá-lo. Bloquear justamente essa interação com um inibidor de ponto de checagem imunológico libera o freio e permite que o próprio linfócito T, já preparado, volte a atacar a célula tumoral, o que explica a resposta clínica frequentemente dramática desse tipo de imunoterapia em melanoma metastático, inclusive nos casos sem mutação BRAF, que não se beneficiam das terapias-alvo direcionadas a essa via."
+}

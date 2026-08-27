@@ -752,11 +752,75 @@
     "arquivo": "uc3-tema-74-01-dificil.json"
   },
   {
+    "id": "uc3-tema-75-01-dificil",
+    "tema": "Tema 75 · Biologia e Crescimento dos Tumores",
+    "dificuldade": "dificil",
+    "area": "Oncologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-75-01-dificil.json"
+  },
+  {
     "id": "uc3-tema-76-01-dificil",
     "tema": "Tema 76 · Oncogenes e Genes Supressores de Tumor",
     "dificuldade": "dificil",
     "area": "Oncologia",
     "prova": "P4",
     "arquivo": "uc3-tema-76-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-77-01-dificil",
+    "tema": "Tema 77 · Agentes Carcinogênicos Físicos e Químicos",
+    "dificuldade": "dificil",
+    "area": "Oncologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-77-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-78-01-dificil",
+    "tema": "Tema 78 · Agentes Carcinogênicos Biológicos",
+    "dificuldade": "dificil",
+    "area": "Oncologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-78-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-79-01-medio",
+    "tema": "Tema 79 · Carcinogênese Sequencial",
+    "dificuldade": "medio",
+    "area": "Gastroenterologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-79-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-81-01-dificil",
+    "tema": "Tema 81 · Evasão do Sistema Imune pelas Neoplasias",
+    "dificuldade": "dificil",
+    "area": "Oncologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-81-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-82-01-dificil",
+    "tema": "Tema 82 · Angiogênese e Metástases",
+    "dificuldade": "dificil",
+    "area": "Oncologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-82-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-83-01-medio",
+    "tema": "Tema 83 · Aspectos Metabólicos dos Tumores",
+    "dificuldade": "medio",
+    "area": "Oncologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-83-01-medio.json"
+  },
+  {
+    "id": "uc3-tema-85-01-medio",
+    "tema": "Tema 85 · Telômeros e Defeitos de Reparo do DNA",
+    "dificuldade": "medio",
+    "area": "Outra",
+    "prova": "P4",
+    "arquivo": "uc3-tema-85-01-medio.json"
   }
 ]

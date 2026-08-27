@@ -1,0 +1,66 @@
+{
+  "id": "uc3-tema-82-01-dificil",
+  "tema": "Tema 82 · Angiogênese e Metástases",
+  "materia_relacionada": "Este caso aplica o conceito de indução de angiogênese visto na aula: nenhuma neoplasia cresce além de poucos milímetros sem recrutar vasos sanguíneos novos, e algumas neoplasias fazem isso de forma tão exagerada que a própria intensidade da vascularização vira uma pista diagnóstica na imagem, além de abrir uma porta terapêutica específica quando a doença já se espalhou.",
+  "area": "Oncologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 60,
+    "sexo": "M"
+  },
+  "queixa_principal": "“Doutor, notei sangue na urina umas duas vezes esse mês, sem dor nenhuma, e ando com uma dor incômoda no lado esquerdo das costas.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "138/86", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "84", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "17", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Homem de 60 anos, hematúria macroscópica indolor e intermitente, dor no flanco esquerdo. Antes de pensar em infecção urinária, examina bem a bolsa escrotal dele.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Aquele tumor não parava de crescer porque, a certa altura, ele mesmo mandou construir a própria rede de encanamento.",
+    "dicas": [
+      "Releia com atenção as características dessa hematúria (dói ou não dói, é constante ou intermitente) e o achado no exame da bolsa escrotal, que pode não ter nada a ver com uma doença testicular primária.",
+      "Pensa em como nenhum tumor sólido consegue crescer além de poucos milímetros sem conseguir recrutar vasos sanguíneos novos pra se nutrir, e no que aconteceria com a aparência desse tumor numa imagem com contraste se ele fizesse isso de forma exagerada.",
+      "Que neoplasia do parênquima renal é conhecida por ser tão rica em vasos sanguíneos novos que costuma invadir a própria veia renal, e se espalhar de forma característica pelos pulmões em nódulos bem delimitados?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Essa hematúria vem acompanhada de dor ao urinar ou febre?", "custo": 2, "relevante": false, "resposta": "Não, urina sem dor e sem febre associada." },
+    { "texto": "Notou emagrecimento nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu sem tentar nas últimas semanas." },
+    { "texto": "É tabagista ou ex-tabagista?", "custo": 2, "relevante": true, "resposta": "Fumou por mais de 30 anos, parou há cinco." },
+    { "texto": "Notou algum inchaço ou veias mais salientes na bolsa escrotal?", "custo": 2, "relevante": true, "resposta": "Sim, notou um inchaço do lado esquerdo da bolsa escrotal há poucas semanas, achou estranho porque nunca teve isso antes." },
+    { "texto": "Tem histórico familiar de doença renal genética conhecida?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de doença renal genética conhecida." },
+    { "texto": "Já teve cálculo renal ou infecção urinária de repetição?", "custo": 2, "relevante": false, "resposta": "Nunca teve cálculo renal ou infecções urinárias de repetição." }
+  ],
+  "exameFisico": [
+    { "texto": "Palpação abdominal e do flanco esquerdo", "custo": 3, "relevante": true, "resposta": "Massa palpável em flanco esquerdo, indolor, de consistência firme." },
+    { "texto": "Avaliação da bolsa escrotal (varicocele)", "custo": 3, "relevante": true, "resposta": "Varicocele à esquerda, de aparecimento recente, que não desaparece completamente ao deitar." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente, sem edema de membros inferiores." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios." }
+  ],
+  "hipoteses": [
+    { "texto": "Carcinoma de células renais", "correta": true },
+    { "texto": "Carcinoma urotelial de pelve renal", "correta": false },
+    { "texto": "Angiomiolipoma renal", "correta": false },
+    { "texto": "Cisto renal complexo", "correta": false },
+    { "texto": "Linfoma renal primário", "correta": false },
+    { "texto": "Oncocitoma renal", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Tomografia de abdome com contraste, fase arterial", "custo": 16, "relevante": true, "resposta": "Massa renal sólida com realce intenso e precoce ao contraste, indicando vascularização muito rica." },
+    { "texto": "Doppler de veia renal e veia cava", "custo": 14, "relevante": true, "resposta": "Trombo tumoral invadindo a veia renal esquerda, explicando a compressão da drenagem venosa do testículo e a varicocele de aparecimento súbito." },
+    { "texto": "Tomografia de tórax", "custo": 14, "relevante": true, "resposta": "Múltiplos nódulos pulmonares bem delimitados, em ambos os campos pulmonares, sugestivos de disseminação por via sanguínea." },
+    { "texto": "Citologia urinária", "custo": 10, "relevante": true, "resposta": "Negativa para células malignas de origem urotelial, tornando um tumor da via urinária menos provável." }
+  ],
+  "condutas": [
+    { "texto": "Encaminhar para nefrectomia (radical ou parcial conforme extensão), com avaliação cirúrgica do trombo em veia renal, e considerar terapia sistêmica anti-angiogênica caso já exista doença metastática confirmada", "correta": true },
+    { "texto": "Iniciar apenas quimioterapia citotóxica convencional como tratamento de primeira linha", "correta": false },
+    { "texto": "Indicar apenas antibioticoterapia, tratando como pielonefrite", "correta": false },
+    { "texto": "Realizar apenas biópsia percutânea e manter conduta expectante, sem programar ressecção", "correta": false }
+  ],
+  "explicacao": "Nenhum tumor sólido cresce além de cerca de 2 milímetros sem induzir a formação de vasos sanguíneos novos, já que depende de suprimento direto de oxigênio e nutrientes por difusão limitada. O carcinoma de células renais é um exemplo clássico de neoplasia extremamente dependente desse processo, o que explica o realce intenso e precoce ao contraste na tomografia. Essa vascularização exuberante também favorece a invasão direta da veia renal por um trombo tumoral, comprimindo a drenagem venosa testicular e explicando a varicocele esquerda de aparecimento súbito (achado que não desaparece ao deitar, diferente de uma varicocele primária comum), além de facilitar a disseminação hematogênica para os pulmões, formando os nódulos bem delimitados característicos vistos na tomografia de tórax. A citologia urinária negativa ajuda a afastar um tumor urotelial da via excretora. Justamente por depender tanto da formação de vasos novos, a doença metastática responde a terapias sistêmicas que bloqueiam esse processo, diferente da maioria dos tumores sólidos, que costuma responder melhor à quimioterapia citotóxica clássica."
+}
