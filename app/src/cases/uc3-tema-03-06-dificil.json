@@ -183,6 +183,10 @@
     {
       "texto": "Lobectomia pulmonar de resgate imediata sem tratamento adjuvante",
       "correta": false
+    },
+    {
+      "texto": "Apenas radioterapia paliativa isolada, sem quimioterapia sistêmica",
+      "correta": false
     }
   ],
   "explicacao": "O diagnóstico definitivo de mesotelioma pleural maligno exige a aplicação de ferramentas diagnósticas da patologia moderna, visto que a histologia convencional frequentemente não diferencia o tumor de um adenocarcinoma pulmonar metastático. A história de exposição prolongada ao amianto na fabricação de fibrocimento é o principal fator etiológico. O painel imuno-histoquímico resolve o dilema: marcadores mesoteliais como Calretinina, WT1 e D2-40 são positivos no mesotelioma, enquanto marcadores de adenocarcinoma pulmonar como TTF-1 e CEA são negativos. O tratamento de escolha envolve quimioterapia sistêmica com platina e pemetrexede."

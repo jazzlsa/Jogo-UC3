@@ -183,6 +183,10 @@
     {
       "texto": "Laparoendoscopia diagnóstica eletiva após normalização da gasometria",
       "correta": false
+    },
+    {
+      "texto": "Iniciar apenas anticoagulação plena, sem avaliação cirúrgica ou de radiologia intervencionista",
+      "correta": false
     }
   ],
   "explicacao": "A Isquemia Mesentérica Aguda embólica (comum em pacientes com Fibrilação Atrial descompensada) caracteriza-se por um desacoplamento clássico: dor abdominal excruciante e de início súbito com exame físico abdominal inicialmente brando (sem peritonismo). Quanto às ferramentas de imagem, a ultrassonografia é inadequada pois o gás intestinal (íleo paralítico) impede a propagação das ondas sonoras. A radiografia convencional é inespecífica no início. O método não invasivo de escolha é a Angio-TC de abdome em fase arterial, que demonstra o trombo oclytivo na artéria mesentérica superior. O tempo é crucial para evitar necrose transmural e peritonite, indicando-se revascularização urgente via cirurgia vascular ou via Radiologia Intervencionista (angiografia e angioplastia/trombectomia)."

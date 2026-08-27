@@ -181,6 +181,10 @@
     {
       "texto": "Laparotomia exploradora imediata sem necessidade de suporte hemodinâmico",
       "correta": false
+    },
+    {
+      "texto": "Apenas tomografia de abdome de rotina em 24 horas, sem monitorização hemodinâmica imediata",
+      "correta": false
     }
   ],
   "explicacao": "No trauma abdominal fechado por impacto direto no hipocôndrio esquerdo, a lesão de órgãos maciços como o baço leva ao extravasamento de sangue para a cavidade peritoneal. A ultrassonografia beira do leito pelo protocolo FAST utiliza ondas sonoras mecânicas não ionizantes e identifica o sangue como uma lâmina anecogênica (preta) nos recessos dependentes, como o espaço esplenorrenal e o fundo de saco pélvico. A irritação do diafragma esquerdo pelo sangue justifica a dor referida no ombro. Por ser um exame dinâmico, rápido e isento de radiação ionizante, o FAST é a escolha inicial ideal no trauma."

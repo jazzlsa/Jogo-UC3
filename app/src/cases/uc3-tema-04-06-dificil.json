@@ -165,6 +165,10 @@
     {
       "texto": "Colectomia total de urgência com anastomose primária imediata sem preparo",
       "correta": false
+    },
+    {
+      "texto": "Apenas dieta zero e sonda nasogástrica, sem descompressão endoscópica nem programação cirúrgica",
+      "correta": false
     }
   ],
   "explicacao": "O vólvulo de sigmóide é a torção do cólon sigmóide sobre o seu próprio mesentério, gerando uma obstrução em alça fechada. Isso leva a um acúmulo massivo de gás e fezes na alça afetada. Na radiografia convencional de abdome, o ar acumulado contrasta fortemente com as paredes musculares do cólon, gerando a imagem clássica do grão de café ou U invertido. O ultrassom de abdome é pouco útil aqui devido ao artefato de atenuação e reflexão total das ondas sonoras pelo ar, impedindo a visualização de estruturas profundas. A conduta inicial em pacientes sem sinais de peritonite ou gangrena é a descompressão colonoscópica por via retal, seguida de cirurgia eletiva para ressecção devido ao alto índice de recorrência."

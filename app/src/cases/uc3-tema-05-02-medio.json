@@ -177,6 +177,10 @@
     {
       "texto": "Apenas manitol endovenoso e reavaliação em 12 horas",
       "correta": false
+    },
+    {
+      "texto": "Apenas hiperventilação controlada e cabeceira elevada, sem indicação cirúrgica",
+      "correta": false
     }
   ],
   "explicacao": "O hematoma epidural clássico decorre da laceração da artéria meníngea média por uma fratura temporal, formando uma coleção de sangue arterial entre a dura-máter e o crânio, por isso tem formato biconvexo na tomografia (limitado pelas suturas, onde a dura está firmemente aderida) e progride rápido, já que é sangramento arterial sob pressão. O padrão clássico é o 'intervalo lúcido': o paciente perde a consciência no impacto, recupera-se e parece bem por minutos a horas, e então deteriora rapidamente conforme o hematoma cresce e comprime o parênquima. A anisocoria (pupila dilatada do lado do hematoma, por compressão do III nervo craniano na herniação uncal) e a hemiparesia contralateral são sinais de herniação iminente, junto com a tríade de Cushing (hipertensão, bradicardia, respiração irregular), que reflete a resposta do organismo ao aumento da pressão intracraniana. Esse é um quadro de neurocirurgia de urgência: a drenagem precisa ser rápida, porque o desfecho neurológico depende diretamente do tempo até a descompressão."

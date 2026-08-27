@@ -183,6 +183,10 @@
     {
       "texto": "Apenas antibioticoterapia oral ambulatorial, sem cirurgia",
       "correta": false
+    },
+    {
+      "texto": "Apenas analgesia e antiemético, com alta e reavaliação ambulatorial em uma semana",
+      "correta": false
     }
   ],
   "explicacao": "A colecistite aguda ocorre quando um cálculo impacta o ducto cístico, gerando distensão, inflamação da parede vesicular e, frequentemente, infecção secundária, diferente da cólica biliar simples, aqui a dor não cede espontaneamente e vem acompanhada de febre e leucocitose, sinais de resposta inflamatória sistêmica. O sinal de Murphy positivo (interrupção da inspiração pela dor ao palpar a vesícula inflamada contra a parede abdominal) e o espessamento da parede vesicular ao ultrassom confirmam o diagnóstico. A ausência de icterícia e de alterações francas de bilirrubina/fosfatase alcalina torna coledocolitíase/colangite menos provável, achados que, se presentes, mudariam a conduta para incluir colangiopancreatografia. O tratamento padrão-ouro é a colecistectomia precoce (idealmente nas primeiras 72h), associada a antibioticoterapia, reduzindo tempo de internação e complicações comparado à cirurgia tardia."

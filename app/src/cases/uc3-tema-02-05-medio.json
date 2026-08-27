@@ -183,6 +183,10 @@
     {
       "texto": "Alta hospitalar apenas com antiespasmódico oral e orientação de retorno se piorar",
       "correta": false
+    },
+    {
+      "texto": "Colonoscopia imediata para confirmar o diagnóstico antes de iniciar qualquer tratamento",
+      "correta": false
     }
   ],
   "explicacao": "A diverticulite aguda do sigmóide é a inflamação de um ou mais divertículos, gerada pela microperfuração da parede colônica devido à obstrução por fecalitos. Clinicamente, manifesta-se por dor contínua na fossa ilíaca esquerda ('apendicite do lado esquerdo'), febre e leucocitose. Como abordado nas aulas sobre Ferramentas de Diagnóstico Radiológico, a Ultrassonografia possui importante limitação física na presença de gás intestinal, que reflete e atenua o feixe ultrassônico. Por isso, a Tomografia Computadorizada (TC) de abdome e pelve com contraste é o exame de escolha, pois avalia detalhadamente o espessamento da parede colônica, a gordura pericólica e descarta complicações como perfuração ou abscessos. O quadro de Hinchey Ia exige tratamento conservador com suporte e antibioticoterapia."

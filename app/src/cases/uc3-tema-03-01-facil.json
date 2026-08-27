@@ -175,6 +175,10 @@
     {
       "texto": "Orientar conduta expectante com nova ultrassonografia em 6 meses",
       "correta": false
+    },
+    {
+      "texto": "Encaminhar apenas para mastectomia, sem avaliação do perfil molecular do tumor (receptores hormonais e HER2)",
+      "correta": false
     }
   ],
   "explicacao": "O caso ilustra a evolução do diagnóstico patológico: da alteração morfológica macroscópica/imagiológica (massa espiculada BI-RADS 5) até a caracterização biomolecular. A alteração bioquímica e genética primária (etiologia/patogênese da neoplasia) resulta na perda de controle do ciclo celular e proliferação atípica. A análise microscópica por hematoxilina-eosina (H&E) confirma o diagnóstico de carcinoma ductal invasivo, enquanto a imuno-histoquímica quantifica proteínas específicas (receptores hormonais e HER2), permitindo a escolha de terapias-alvo direcionadas."

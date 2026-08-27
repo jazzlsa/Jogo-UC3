@@ -187,6 +187,10 @@
     {
       "texto": "Antibioticoterapia empírica e alta",
       "correta": false
+    },
+    {
+      "texto": "Indicar CPRE (colangiopancreatografia retrógrada endoscópica) de urgência",
+      "correta": false
     }
   ],
   "explicacao": "A cólica biliar clássica é desencadeada por alimentos gordurosos, que estimulam a liberação de colecistocinina e a contração da vesícula contra um cálculo, daí a dor em hipocôndrio direito, às vezes irradiada para a escápula (dermátomo compartilhado por inervação frênica). A ausência de febre, leucocitose e sinal de Murphy positivo afasta colecistite aguda (que exigiria conduta cirúrgica de urgência). O ultrassom é o exame de escolha pra avaliar vesícula: sem radiação, alta sensibilidade pra cálculos, e permite avaliar espessura da parede e líquido perivesicular, informações que uma tomografia não acrescenta de forma relevante nesse contexto. Colelitíase sintomática recorrente tem indicação de colecistectomia eletiva, não de urgência."

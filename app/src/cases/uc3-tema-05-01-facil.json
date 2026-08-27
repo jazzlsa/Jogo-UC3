@@ -187,6 +187,10 @@
     {
       "texto": "Internação para observação neurológica por 48 horas",
       "correta": false
+    },
+    {
+      "texto": "Internação para tomografia de crânio seriada a cada 6 horas, mesmo sem sinais de alarme",
+      "correta": false
     }
   ],
   "explicacao": "Regras de decisão clínica (como a Canadian CT Head Rule) existem justamente pra evitar tomografias desnecessárias em TCE leve, que expõem o paciente a radiação e custam caro ao sistema sem mudar a conduta na maioria dos casos. Critérios de alto risco incluem Glasgow <15 duas horas após o trauma, suspeita de fratura de crânio, vômitos repetidos, idade avançada, uso de anticoagulante e amnésia pré-trauma prolongada, nenhum presente aqui. Um paciente jovem, Glasgow 15, sem perda de consciência, sem vômito e sem uso de anticoagulante tem risco extremamente baixo de lesão intracraniana que exija intervenção, e pode ser observado clinicamente com segurança. Saber identificar quem NÃO precisa de tomografia é tão parte do raciocínio clínico quanto saber pedir na hora certa."

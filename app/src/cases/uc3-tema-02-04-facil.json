@@ -187,6 +187,10 @@
     {
       "texto": "Prescrição de amoxicilina com clavulanato e analgésico oral com alta hospitalar",
       "correta": false
+    },
+    {
+      "texto": "Toracocentese de agulha isolada, sem drenagem torácica definitiva",
+      "correta": false
     }
   ],
   "explicacao": "O pneumotórax espontâneo primário ocorre tipicamente em adultos jovens, altos e magros, devido à rotura de pequenas bolhas subpleurais (blebs). A tríade clássica do exame físico (hipertimpanismo, murmúrio vesicular abolido e FTV abolido) sugere fortemente a presença de ar na cavidade pleural. Como enfatizado nos conceitos de Radiologia, o médico deve priorizar o método diagnóstico mais simples, seguro e de menor custo que seja resolutivo: a Radiografia Simples de Tórax (RX de tórax PA e perfil) confirma a lâmina de ar pleural e o colapso pulmonar com alta acurácia, evitando exames de maior custo e alta dose de radiação ionizante como a Tomografia Computadorizada no primeiro atendimento."

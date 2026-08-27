@@ -183,6 +183,10 @@
     {
       "texto": "Arteriografia de urgência com embolização da artéria renal",
       "correta": false
+    },
+    {
+      "texto": "Indicar nefrectomia parcial eletiva em 6 semanas, independente da evolução clínica",
+      "correta": false
     }
   ],
   "explicacao": "O paciente apresenta um trauma renal grau IV estável. A chave do diagnóstico reside nos princípios físicos da tomografia computadorizada. A tomografia sem contraste mostra uma coleção peri-renal com baixa atenuação (10 Unidades Hounsfield), o que sugere urina ou fluido livre, mas não diferencia com precisão de um hematoma antigo ou líquido inflamatório. As fases arterial e portal excluem sangramento arterial ativo pela ausência de extravasamento de contraste precoce. A confirmação da rotura da via coletora só é possível na fase tardia ou excretora (10 minutos após o contraste), momento em que o rim filtra o meio de contraste iodado e o elimina pela urina. A imagem mostra o contraste de alta densidade vazando para o espaço peri-renal. O tratamento inicial do trauma renal fechado em paciente estável, mesmo com urinoma, é conservador, frequentemente auxiliado pela passagem de cateter duplo J para facilitar a cicatrização da via urinária."

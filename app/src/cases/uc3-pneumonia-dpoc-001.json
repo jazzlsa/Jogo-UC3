@@ -183,6 +183,10 @@
     {
       "texto": "Oxigenoterapia de alto fluxo sem restrição de SpO₂ (alvo 100%) e alta sem uso de antibióticos",
       "correta": false
+    },
+    {
+      "texto": "Apenas nebulização com soro fisiológico e observação clínica, sem antibiótico nem corticoide",
+      "correta": false
     }
   ],
   "explicacao": "O tabagismo crônico (40 maços-ano) causa destruição do aparelho mucociliar e dos septos alveolares (enfisema), comprometendo os mecanismos de defesa inata do pulmão na DPOC. A invasão de patógenos bacterianos no parênquima deflagra uma resposta inflamatória exsudativa com recrutamento maciço de neutrófilos e preenchimento dos alvéolos por exsudato purulento, gerando a consolidação em lobo médio direito visível no raio-X (apagando a silhueta do bordo cardíaco direito). O desequilíbrio na relação ventilação-perfusão (V/Q) agrava a hipoxemia no paciente. A antibioticoterapia precoce associada à broncodilatação, corticoterapia e oxigenoterapia controlada (alvo de SpO₂ entre 88% e 92% para evitar a inibição do drive respiratório hipóxico) constitui o pilar do tratamento."

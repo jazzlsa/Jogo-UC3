@@ -186,6 +186,10 @@
     {
       "texto": "Lobectomia pulmonar direita de urgência com margens amplas",
       "correta": false
+    },
+    {
+      "texto": "Iniciar apenas isoniazida isolada, sem os demais fármacos do esquema",
+      "correta": false
     }
   ],
   "explicacao": "A patogênese da doença envolve a inalação do Mycobacterium tuberculosis, o agente etiológico que se aloja nos alvéolos e desencadeia uma resposta imune mediada por células T e macrófagos. A incapacidade de erradicar o bacilo leva à formação de granulomas caseosos, caracterizados por necrose central amorfa e células gigantes de Langhans. A ferramenta anatomo-patológica essencial para o diagnóstico definitivo é a histoquímica especial com coloração de Ziehl-Neelsen, que evidencia a propriedade de acidorresistência da parede celular lipídica do microrganismo, diferenciando-o de doenças granulomatosas não infecciosas como a sarcoidose."
