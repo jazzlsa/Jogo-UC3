@@ -42,7 +42,7 @@
     { "texto": "Avaliação de febre e sinais de infecção sistêmica", "custo": 3, "relevante": true, "resposta": "Febre baixa presente, sem sinais de sepse no momento." }
   ],
   "hipoteses": [
-    { "texto": "Litíase coraliforme (cálculo de estruvita) associada à infecção por Proteus mirabilis", "correta": true },
+    { "texto": "Litíase coraliforme associada à infecção por Proteus mirabilis", "correta": true },
     { "texto": "Nefrolitíase por cálculo de oxalato de cálcio", "correta": false },
     { "texto": "Pielonefrite aguda sem litíase associada", "correta": false },
     { "texto": "Infecção urinária simples por E. coli", "correta": false },

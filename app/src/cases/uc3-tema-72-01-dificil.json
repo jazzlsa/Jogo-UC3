@@ -41,7 +41,7 @@
     { "texto": "Avaliação de petéquias ou sangramento cutâneo", "custo": 3, "relevante": false, "resposta": "Ausentes." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome IPEX (mutação no gene FOXP3, deficiência de linfócitos T reguladores)", "correta": true },
+    { "texto": "Síndrome IPEX", "correta": true },
     { "texto": "Diabetes tipo 1 isolado", "correta": false },
     { "texto": "Doença celíaca", "correta": false },
     { "texto": "Alergia alimentar múltipla", "correta": false },

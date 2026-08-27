@@ -25,7 +25,7 @@
     "dicas": [
       "Releia com atenção como está a rigidez de nuca dele, e como essa dor de cabeça vem evoluindo ao longo das semanas, é mais devagar do que o esperado numa meningite comum.",
       "Pensa em qual estrutura extra, ao redor da parede de certos fungos, dificulta o reconhecimento pelo sistema imune e também pode ser vista com uma coloração simples e barata direto no líquor.",
-      "Que fungo, com uma cápsula polissacarídica espessa visível com tinta da China no líquor, é causa clássica de meningite insidiosa, com pressão intracraniana bem elevada, em pacientes com imunidade celular muito comprometida?"
+      "Pensa em que tipo de estrutura extra, presente só em alguns fungos, dificulta tanto o reconhecimento pelo sistema imune (por isso a inflamação meníngea fica tão discreta) quanto a drenagem normal do líquor, favorecendo o acúmulo silencioso de pressão dentro do crânio."
     ]
   },
   "anamnese": [
@@ -44,7 +44,7 @@
     { "texto": "Avaliação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
   ],
   "hipoteses": [
-    { "texto": "Meningite criptocócica (Cryptococcus neoformans)", "correta": true },
+    { "texto": "Meningite criptocócica", "correta": true },
     { "texto": "Meningite bacteriana aguda", "correta": false },
     { "texto": "Meningite tuberculosa", "correta": false },
     { "texto": "Neurotoxoplasmose", "correta": false },

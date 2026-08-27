@@ -44,7 +44,7 @@
     { "texto": "Inspeção de equimoses pelo corpo", "custo": 3, "relevante": false, "resposta": "Equimoses em diferentes fases de evolução, espalhadas principalmente nas pernas." }
   ],
   "hipoteses": [
-    { "texto": "Escorbuto (deficiência de vitamina C)", "correta": true },
+    { "texto": "Escorbuto", "correta": true },
     { "texto": "Púrpura trombocitopênica idiopática", "correta": false },
     { "texto": "Deficiência de vitamina K", "correta": false },
     { "texto": "Leucemia", "correta": false },

@@ -25,7 +25,7 @@
     "dicas": [
       "Releia com atenção como estão os pelos pubianos e axilares dela, comparados com o desenvolvimento das mamas.",
       "Pensa em como um hormônio esteroide precisa de um receptor funcionando corretamente dentro da célula pra ativar os genes certos, e o que aconteceria se esse hormônio estivesse presente em quantidade normal ou até alta, mas o receptor simplesmente não respondesse a ele.",
-      "Que cariótipo, associado a um receptor de andrógeno defeituoso que impede a ação da testosterona nos tecidos-alvo, explica mamas desenvolvidas (por conversão periférica em outro hormônio) mas pelos pubianos escassos e ausência de útero?"
+      "Pensa em como um receptor hormonal pode estar geneticamente incapaz de responder ao seu hormônio, mesmo ele sendo produzido em quantidade normal ou alta, e o que isso causaria só nos tecidos que dependem desse receptor específico pra se desenvolver, enquanto outros tecidos continuam respondendo normalmente a hormônios diferentes."
     ]
   },
   "anamnese": [
@@ -44,7 +44,7 @@
     { "texto": "Palpação da região inguinal", "custo": 3, "relevante": true, "resposta": "Massas palpáveis bilaterais na região inguinal, compatíveis com gônadas." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome de insensibilidade androgênica completa (mutação no receptor de andrógeno)", "correta": true },
+    { "texto": "Síndrome de insensibilidade androgênica completa", "correta": true },
     { "texto": "Síndrome de Rokitansky (agenesia mülleriana)", "correta": false },
     { "texto": "Disgenesia gonadal", "correta": false },
     { "texto": "Deficiência de 5-alfa-redutase", "correta": false },

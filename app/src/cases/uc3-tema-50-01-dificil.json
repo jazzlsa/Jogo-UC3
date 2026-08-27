@@ -44,7 +44,7 @@
     { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": false, "resposta": "Emagrecimento moderado, compatível com o quadro crônico." }
   ],
   "hipoteses": [
-    { "texto": "Paracoccidioidomicose (forma crônica do adulto)", "correta": true },
+    { "texto": "Paracoccidioidomicose", "correta": true },
     { "texto": "Tuberculose", "correta": false },
     { "texto": "Leishmaniose mucosa", "correta": false },
     { "texto": "Carcinoma espinocelular de mucosa oral", "correta": false },

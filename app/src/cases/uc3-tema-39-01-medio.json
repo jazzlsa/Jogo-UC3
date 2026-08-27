@@ -41,7 +41,7 @@
     { "texto": "Palpação em busca de massa abdominal", "custo": 3, "relevante": false, "resposta": "Sem massas palpáveis." }
   ],
   "hipoteses": [
-    { "texto": "Colite pseudomembranosa por Clostridioides difficile (disbiose por antibiótico)", "correta": true },
+    { "texto": "Colite pseudomembranosa por Clostridioides difficile", "correta": true },
     { "texto": "Colite isquêmica", "correta": false },
     { "texto": "Surto de retocolite ulcerativa (doença inflamatória intestinal)", "correta": false },
     { "texto": "Gastroenterite viral aguda", "correta": false },

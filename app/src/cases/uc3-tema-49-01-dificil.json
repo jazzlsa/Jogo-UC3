@@ -25,7 +25,7 @@
     "dicas": [
       "Releia com atenção o tipo exato daquela pneumonia grave do ano passado, e se outros meninos da família materna também tiveram infecções parecidas.",
       "Pensa em como um linfócito T precisa se conectar a um receptor específico na superfície de um linfócito B pra dar o sinal de trocar o tipo de anticorpo que ele produz, e o que aconteceria se esse sinal nunca chegasse.",
-      "Que molécula, expressa no linfócito T ativado e essencial tanto pra dar esse sinal de troca de classe ao linfócito B quanto pra ativar macrófagos contra certos oportunistas, quando ausente, explica IgM normal ou alta, mas IgG e IgA muito baixos, com linfócitos B presentes em número normal?"
+      "Pensa em que molécula, expressa no linfócito T ativado, é necessária pro linfócito B conseguir trocar qual classe de anticorpo produzir, sem que isso afete a capacidade de produzir anticorpo no geral, e no que mais essa mesma molécula ajuda a ativar no sistema imune."
     ]
   },
   "anamnese": [
@@ -43,7 +43,7 @@
     { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Estertores finos difusos em ambos os hemitórax." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome de hiper-IgM (deficiência de CD40L, ligada ao X)", "correta": true },
+    { "texto": "Síndrome de hiper-IgM", "correta": true },
     { "texto": "Agamaglobulinemia ligada ao X (doença de Bruton)", "correta": false },
     { "texto": "Deficiência seletiva de IgA", "correta": false },
     { "texto": "Imunodeficiência comum variável", "correta": false },

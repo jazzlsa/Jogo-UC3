@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-74-01-dificil",
+  "tema": "Tema 74 · Conceitos Gerais de Tumor e Neoplasia",
+  "materia_relacionada": "Este caso aplica a distinção fundamental entre neoplasia benigna e maligna vista na aula: não é só o tamanho que define malignidade, mas a capacidade do parênquima neoplásico de invadir tecidos vizinhos e se espalhar à distância (metástase), características que aparecem na velocidade de crescimento, na fixação da massa e nos achados de imagem.",
+  "area": "Ginecologia/Obstetrícia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 58,
+    "sexo": "F"
+  },
+  "queixa_principal": "“Doutora, minha barriga cresceu muito rápido nos últimos três meses, sinto saciedade rápido ao comer e tenho emagrecido, apesar da barriga maior.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "118/76", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "88", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "18", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "97", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Mulher de 58 anos, crescimento rápido do abdome em três meses, saciedade precoce e emagrecimento. Repara não só no tamanho dessa massa, mas em como ela se comporta.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Não era só um cisto grande. Era um tecido capaz de invadir o que estava ao redor e se espalhar bem além de onde começou.",
+    "dicas": [
+      "Releia com atenção como essa massa cresceu ao longo do tempo, rápido ou devagar, e se ela está fixa ou se move ao exame físico.",
+      "Pensa em quais características gerais (velocidade de crescimento, capacidade de invadir tecido vizinho, capacidade de se espalhar pra outros lugares do corpo) diferenciam um tumor benigno de um maligno, além do tamanho sozinho.",
+      "Se esse tumor já estivesse espalhando células pela cavidade abdominal, que tipo de material você coletaria pra provar isso de forma direta, sem esperar o resultado de uma cirurgia?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Como foi a velocidade de crescimento dessa massa abdominal?", "custo": 2, "relevante": true, "resposta": "Cresceu de forma perceptível em poucos meses, bem mais rápido do que ela esperava." },
+    { "texto": "Tem histórico familiar de câncer de ovário ou de mama?", "custo": 2, "relevante": true, "resposta": "Uma tia materna teve câncer de ovário aos 60 anos." },
+    { "texto": "Tem dor pélvica cíclica relacionada à menstruação, mesmo já na menopausa?", "custo": 2, "relevante": false, "resposta": "Não tem dor cíclica, já está na menopausa há alguns anos." },
+    { "texto": "Teve febre ou corrimento vaginal com odor forte?", "custo": 2, "relevante": false, "resposta": "Sem febre ou corrimento vaginal." },
+    { "texto": "Notou emagrecimento junto com o aumento da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu apesar do abdome estar cada vez maior." }
+  ],
+  "exameFisico": [
+    { "texto": "Palpação abdominal e pélvica (mobilidade e consistência da massa)", "custo": 3, "relevante": true, "resposta": "Massa pélvica irregular, de consistência endurecida, pouco móvel, sugestiva de fixação a estruturas vizinhas." },
+    { "texto": "Avaliação de ascite (macicez móvel)", "custo": 3, "relevante": true, "resposta": "Macicez móvel presente, compatível com ascite." },
+    { "texto": "Avaliação de febre e sinais de infecção pélvica", "custo": 3, "relevante": false, "resposta": "Afebril, sem sinais de infecção pélvica." }
+  ],
+  "hipoteses": [
+    { "texto": "Cistoadenocarcinoma seroso do ovário", "correta": true },
+    { "texto": "Cistoadenoma seroso benigno do ovário", "correta": false },
+    { "texto": "Endometrioma", "correta": false },
+    { "texto": "Teratoma maduro (cisto dermoide)", "correta": false },
+    { "texto": "Mioma uterino subseroso", "correta": false },
+    { "texto": "Abscesso tubo-ovariano", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Ultrassonografia ou tomografia pélvica", "custo": 16, "relevante": true, "resposta": "Massa complexa com componentes sólidos, septações espessas e vascularização aumentada ao Doppler." },
+    { "texto": "Dosagem de CA-125", "custo": 12, "relevante": true, "resposta": "Muito elevado." },
+    { "texto": "Citologia do líquido ascítico (paracentese)", "custo": 14, "relevante": true, "resposta": "Presença de células malignas no líquido ascítico." },
+    { "texto": "Anatomopatológico após biópsia/cirurgia", "custo": 18, "relevante": true, "resposta": "Confirma malignidade, com invasão do estroma adjacente pelo parênquima tumoral." }
+  ],
+  "condutas": [
+    { "texto": "Encaminhar para cirurgia oncológica com estadiamento cirúrgico completo e avaliar quimioterapia adjuvante", "correta": true },
+    { "texto": "Apenas acompanhamento clínico seriado, tratando como cisto funcional simples", "correta": false },
+    { "texto": "Indicar drenagem de abscesso pélvico", "correta": false },
+    { "texto": "Indicar miomectomia isolada", "correta": false }
+  ],
+  "explicacao": "A distinção entre neoplasia benigna e maligna não depende só do tamanho da massa, mas de características biológicas do parênquima neoplásico: crescimento rápido, capacidade de invadir tecidos vizinhos (explicando a massa fixa e endurecida) e capacidade de disseminação à distância, aqui evidenciada pela ascite com células malignas na citologia, indicando disseminação peritoneal. Os componentes sólidos e a vascularização aumentada na imagem, junto ao CA-125 muito elevado, reforçam a suspeita de malignidade em vez de um cisto simples ou um mioma. O anatomopatológico confirmando invasão do estroma adjacente fecha o diagnóstico de cistoadenocarcinoma seroso, exigindo estadiamento cirúrgico oncológico completo, uma conduta bem diferente do simples acompanhamento adequado para uma massa benigna."
+}

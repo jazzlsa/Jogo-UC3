@@ -43,7 +43,7 @@
     { "texto": "Avaliação de perfusão e sinais de sepse", "custo": 3, "relevante": false, "resposta": "Perfusão periférica preservada, sem sinais de choque." }
   ],
   "hipoteses": [
-    { "texto": "Influenza por cepa resistente ao oseltamivir (mutação da neuraminidase)", "correta": true },
+    { "texto": "Influenza por cepa resistente ao oseltamivir", "correta": true },
     { "texto": "Pneumonia bacteriana secundária (superinfecção)", "correta": false },
     { "texto": "COVID-19 concomitante", "correta": false },
     { "texto": "Falha de adesão ao tratamento antiviral", "correta": false },

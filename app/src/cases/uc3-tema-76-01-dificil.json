@@ -1,0 +1,64 @@
+{
+  "id": "uc3-tema-76-01-dificil",
+  "tema": "Tema 76 · Oncogenes e Genes Supressores de Tumor",
+  "materia_relacionada": "Este caso aplica a hipótese dos dois eventos (\"two-hit\") de Knudson vista na aula sobre genes supressores de tumor: um gene freio da divisão celular precisa perder as duas cópias funcionais para a célula perder o controle. Quem já nasce com uma cópia defeituosa herdada só precisa de um segundo evento somático para o câncer aparecer, geralmente mais cedo e em ambos os órgãos pareados, diferente da forma esporádica, que exige os dois eventos ocorrerem na mesma célula por acaso.",
+  "area": "Oncologia",
+  "prova": "P4",
+  "dificuldade": "dificil",
+  "pi_inicial": 100,
+  "paciente": {
+    "idade": 1,
+    "sexo": "M"
+  },
+  "queixa_principal": "A mãe relata: “Doutor, em algumas fotos com flash, o olho dele aparece com um reflexo branco estranho, tipo olho de gato, e reparei que ele também está vesgo.”",
+  "sinais_vitais": [
+    { "l": "PA", "v": "90/56", "u": "mmHg", "flag": false },
+    { "l": "FC", "v": "110", "u": "bpm", "flag": false },
+    { "l": "Tax", "v": "36.6", "u": "°C", "flag": false },
+    { "l": "FR", "v": "24", "u": "irpm", "flag": false },
+    { "l": "SpO₂", "v": "98", "u": "%", "flag": false }
+  ],
+  "burns": {
+    "abertura": "Bebê de 1 ano, reflexo branco esquisito no olho nas fotos e um estrabismo novo. Antes de pensar só em catarata, pergunta se alguém da família já teve algo parecido quando criança.",
+    "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
+    "fechamento": "Ele não precisou de dois acasos acontecendo do zero. Já nasceu com um deles pronto, faltando só o segundo pra doença aparecer.",
+    "dicas": [
+      "Releia com atenção se alguém da família já teve o mesmo problema no olho quando criança, e como é exatamente esse reflexo branco na pupila nas fotos dele.",
+      "Pensa em como um gene que normalmente funciona freando a divisão celular precisa perder as duas cópias funcionais (uma de cada pai) pra célula perder esse freio de vez, e como já nascer com uma cópia defeituosa deixa faltando só um segundo evento pro câncer aparecer, geralmente mais cedo e nos dois olhos.",
+      "Que tumor ocular da infância, associado a uma mutação herdada num gene supressor tumoral clássico, explica reflexo pupilar branco (leucocoria) nos dois olhos numa criança pequena com histórico familiar da mesma doença?"
+    ]
+  },
+  "anamnese": [
+    { "texto": "Alguém da família já teve algum problema parecido no olho quando criança?", "custo": 2, "relevante": true, "resposta": "O pai contou que teve um tumor no olho quando era bebê e precisou remover um dos olhos." },
+    { "texto": "Como exatamente é esse reflexo branco, aparece nos dois olhos ou só em um?", "custo": 2, "relevante": true, "resposta": "A mãe já notou esse reflexo estranho nos dois olhos em fotos diferentes." },
+    { "texto": "Ele nasceu muito prematuro e precisou de oxigênio por tempo prolongado?", "custo": 2, "relevante": false, "resposta": "Nasceu a termo, sem necessidade de oxigenoterapia prolongada." },
+    { "texto": "Teve contato com terra contaminada por fezes de cão ou gato?", "custo": 2, "relevante": false, "resposta": "Sem exposição conhecida a terra contaminada por fezes de animais." },
+    { "texto": "Desde quando notaram esse estrabismo?", "custo": 2, "relevante": true, "resposta": "Notaram há cerca de um mês, é uma coisa nova." }
+  ],
+  "exameFisico": [
+    { "texto": "Fundo de olho sob boa iluminação (avaliação de leucocoria)", "custo": 3, "relevante": true, "resposta": "Reflexo pupilar esbranquiçado presente nos dois olhos." },
+    { "texto": "Avaliação de alinhamento ocular (estrabismo)", "custo": 3, "relevante": true, "resposta": "Estrabismo convergente do olho direito." },
+    { "texto": "Avaliação de opacidade do cristalino à luz direta", "custo": 3, "relevante": false, "resposta": "Cristalino transparente, sem opacidade compatível com catarata." }
+  ],
+  "hipoteses": [
+    { "texto": "Retinoblastoma bilateral hereditário", "correta": true },
+    { "texto": "Catarata congênita", "correta": false },
+    { "texto": "Toxocaríase ocular", "correta": false },
+    { "texto": "Doença de Coats", "correta": false },
+    { "texto": "Persistência de vasculatura fetal primária", "correta": false },
+    { "texto": "Retinopatia da prematuridade", "correta": false }
+  ],
+  "exames": [
+    { "texto": "Exame de fundo de olho sob anestesia", "custo": 16, "relevante": true, "resposta": "Massas retinianas esbranquiçadas e calcificadas, bilaterais." },
+    { "texto": "Ressonância magnética de órbitas e crânio", "custo": 16, "relevante": true, "resposta": "Confirma as lesões retinianas bilaterais, sem lesão pineal associada (afastando retinoblastoma trilateral)." },
+    { "texto": "Teste genético para mutação germinativa no gene RB1", "custo": 18, "relevante": true, "resposta": "Mutação germinativa identificada no gene RB1." },
+    { "texto": "Sorologia para Toxocara", "custo": 10, "relevante": true, "resposta": "Negativa." }
+  ],
+  "condutas": [
+    { "texto": "Encaminhar para oncologia pediátrica e oftalmologia oncológica para tratamento (quimioterapia, possível enucleação conforme extensão), aconselhamento genético familiar e rastreio ocular de outros filhos", "correta": true },
+    { "texto": "Indicar apenas cirurgia de catarata", "correta": false },
+    { "texto": "Iniciar antiparasitário para toxocaríase sem confirmação", "correta": false },
+    { "texto": "Apenas observação, sem encaminhamento oncológico", "correta": false }
+  ],
+  "explicacao": "O gene RB1 é um supressor tumoral clássico que funciona como freio do ciclo celular; segundo a hipótese dos dois eventos de Knudson, é necessária a perda funcional das duas cópias do gene numa mesma célula para o controle ser perdido e o tumor se formar. Na forma hereditária, o paciente já nasce com uma cópia mutada em todas as células (herdada do pai, que também teve a doença), bastando um segundo evento somático em qualquer célula retiniana para desenvolver o tumor, o que explica a apresentação bilateral e mais precoce, diferente da forma esporádica (unilateral, sem histórico familiar, exigindo os dois eventos ocorrerem por acaso na mesma célula). A leucocoria bilateral, o estrabismo, a confirmação por fundo de olho sob anestesia e a mutação germinativa em RB1 fecham o diagnóstico. Sorologia negativa para Toxocara e ausência de prematuridade relevante afastam os principais diferenciais infecciosos e de retinopatia da prematuridade."
+}

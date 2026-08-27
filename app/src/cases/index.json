@@ -742,5 +742,21 @@
     "area": "Neurologia",
     "prova": "P4",
     "arquivo": "uc3-tema-73-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-74-01-dificil",
+    "tema": "Tema 74 · Conceitos Gerais de Tumor e Neoplasia",
+    "dificuldade": "dificil",
+    "area": "Ginecologia/Obstetrícia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-74-01-dificil.json"
+  },
+  {
+    "id": "uc3-tema-76-01-dificil",
+    "tema": "Tema 76 · Oncogenes e Genes Supressores de Tumor",
+    "dificuldade": "dificil",
+    "area": "Oncologia",
+    "prova": "P4",
+    "arquivo": "uc3-tema-76-01-dificil.json"
   }
 ]

@@ -43,7 +43,7 @@
     { "texto": "Ausculta cardíaca em busca de arritmia", "custo": 3, "relevante": false, "resposta": "Ritmo cardíaco regular, sem sopros." }
   ],
   "hipoteses": [
-    { "texto": "AVC isquêmico agudo de fossa posterior (território vertebrobasilar)", "correta": true },
+    { "texto": "AVC isquêmico agudo de fossa posterior", "correta": true },
     { "texto": "Labirintite aguda (vertigem periférica)", "correta": false },
     { "texto": "Enxaqueca basilar", "correta": false },
     { "texto": "Hipoglicemia sintomática", "correta": false },

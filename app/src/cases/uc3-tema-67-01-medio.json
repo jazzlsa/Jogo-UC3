@@ -43,7 +43,7 @@
     { "texto": "Avaliação de palidez de mucosas", "custo": 3, "relevante": true, "resposta": "Palidez de mucosas compatível com anemia." }
   ],
   "hipoteses": [
-    { "texto": "Doença celíaca (enteropatia sensível ao glúten)", "correta": true },
+    { "texto": "Doença celíaca", "correta": true },
     { "texto": "Doença de Crohn", "correta": false },
     { "texto": "Intolerância à lactose", "correta": false },
     { "texto": "Giardíase", "correta": false },

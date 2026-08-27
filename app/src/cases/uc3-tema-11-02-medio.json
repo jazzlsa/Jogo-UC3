@@ -42,7 +42,7 @@
     { "texto": "Palpação de linfonodo supraclavicular esquerdo (sinal de Virchow)", "custo": 3, "relevante": true, "resposta": "Sem linfonodomegalia palpável na região." }
   ],
   "hipoteses": [
-    { "texto": "Esôfago de Barrett (metaplasia intestinal do epitélio esofágico distal)", "correta": true },
+    { "texto": "Esôfago de Barrett", "correta": true },
     { "texto": "Acalasia", "correta": false },
     { "texto": "Esofagite eosinofílica", "correta": false },
     { "texto": "Adenocarcinoma de esôfago avançado", "correta": false },

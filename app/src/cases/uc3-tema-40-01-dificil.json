@@ -43,7 +43,7 @@
     { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": false, "resposta": "Sem icterícia." }
   ],
   "hipoteses": [
-    { "texto": "Febre tifoide (Salmonella enterica sorotipo Typhi)", "correta": true },
+    { "texto": "Febre tifoide", "correta": true },
     { "texto": "Malária", "correta": false },
     { "texto": "Dengue", "correta": false },
     { "texto": "Leptospirose", "correta": false },

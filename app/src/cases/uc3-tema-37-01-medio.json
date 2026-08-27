@@ -41,7 +41,7 @@
     { "texto": "Avaliação de temperatura e estado geral", "custo": 3, "relevante": false, "resposta": "Febril baixo, mas em bom estado geral, sem toxemia importante." }
   ],
   "hipoteses": [
-    { "texto": "Plastrão apendicular (massa inflamatória periapendicular)", "correta": true },
+    { "texto": "Plastrão apendicular", "correta": true },
     { "texto": "Apendicite aguda não complicada em fase inicial", "correta": false },
     { "texto": "Abscesso apendicular franco (coleção purulenta livre)", "correta": false },
     { "texto": "Tumor de ceco", "correta": false },

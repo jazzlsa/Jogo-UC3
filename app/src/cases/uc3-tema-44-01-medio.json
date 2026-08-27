@@ -45,7 +45,7 @@
     { "texto": "Avaliação da distribuição e bordas das lesões", "custo": 3, "relevante": false, "resposta": "Máculas hipocrômicas de bordas irregulares, distribuídas principalmente em tronco superior." }
   ],
   "hipoteses": [
-    { "texto": "Pitiríase versicolor (Malassezia furfur/globosa)", "correta": true },
+    { "texto": "Pitiríase versicolor", "correta": true },
     { "texto": "Vitiligo", "correta": false },
     { "texto": "Tinea corporis", "correta": false },
     { "texto": "Pitiríase alba", "correta": false },

@@ -44,7 +44,7 @@
     { "texto": "Palpação de tireoide", "custo": 3, "relevante": false, "resposta": "Tireoide normal à palpação." }
   ],
   "hipoteses": [
-    { "texto": "Amiloidose hereditária por transtirretina (polineuropatia amiloidótica familiar)", "correta": true },
+    { "texto": "Amiloidose hereditária por transtirretina", "correta": true },
     { "texto": "Neuropatia diabética", "correta": false },
     { "texto": "Amiloidose AL (por cadeia leve de imunoglobulina)", "correta": false },
     { "texto": "Síndrome do túnel do carpo idiopático isolado", "correta": false },

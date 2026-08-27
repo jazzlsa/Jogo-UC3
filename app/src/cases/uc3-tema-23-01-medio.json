@@ -45,7 +45,7 @@
     { "texto": "Inspeção de pele e abdome em busca de estigmas de hepatopatia (aranhas vasculares, ascite)", "custo": 3, "relevante": true, "resposta": "Sem aranhas vasculares, sem ascite visível, abdome apenas discretamente distendido." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome nefrótica (edema por hipoalbuminemia/proteinúria maciça)", "correta": true },
+    { "texto": "Síndrome nefrótica", "correta": true },
     { "texto": "Insuficiência cardíaca congestiva", "correta": false },
     { "texto": "Cirrose hepática com ascite", "correta": false },
     { "texto": "Glomerulonefrite pós-estreptocócica (síndrome nefrítica)", "correta": false },

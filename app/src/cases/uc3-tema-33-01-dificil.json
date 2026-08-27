@@ -44,7 +44,7 @@
     { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Confusa, mas responde a comandos simples." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome de realimentação (hipofosfatemia grave por reintrodução alimentar)", "correta": true },
+    { "texto": "Síndrome de realimentação", "correta": true },
     { "texto": "Cetoacidose diabética", "correta": false },
     { "texto": "Insuficiência cardíaca descompensada", "correta": false },
     { "texto": "Sepse", "correta": false },

@@ -44,7 +44,7 @@
     { "texto": "Inspeção de pele em busca de exantema", "custo": 3, "relevante": false, "resposta": "Pele sem exantema." }
   ],
   "hipoteses": [
-    { "texto": "Difteria (infecção por Corynebacterium diphtheriae produtor de toxina)", "correta": true },
+    { "texto": "Difteria", "correta": true },
     { "texto": "Faringoamigdalite estreptocócica", "correta": false },
     { "texto": "Mononucleose infecciosa", "correta": false },
     { "texto": "Angina de Ludwig", "correta": false },

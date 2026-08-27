@@ -44,7 +44,7 @@
     { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Consciente, orientada, ansiosa." }
   ],
   "hipoteses": [
-    { "texto": "Reação anafilactoide ao contraste iodado (não mediada por IgE)", "correta": true },
+    { "texto": "Reação anafilactoide ao contraste iodado", "correta": true },
     { "texto": "Reação vasovagal ao procedimento", "correta": false },
     { "texto": "Anafilaxia verdadeira mediada por IgE a outro alérgeno", "correta": false },
     { "texto": "Edema agudo de pulmão cardiogênico", "correta": false },

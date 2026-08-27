@@ -25,7 +25,7 @@
     "dicas": [
       "Releia com atenção se ele tem sangue no escarro junto com a diminuição da urina, os dois órgãos afetados ao mesmo tempo contam uma história importante.",
       "Pensa em como um anticorpo pode atacar diretamente uma estrutura própria do corpo, ligando-se bem naquele local específico, em vez de formar um complexo solto que se deposita em qualquer lugar, e como isso apareceria de um jeito particular (uma linha contínua, não pontos) num exame com fluorescência.",
-      "Que anticorpo, dirigido contra uma proteína presente tanto na membrana basal do glomérulo renal quanto na membrana basal alveolar pulmonar, explica hemorragia pulmonar e insuficiência renal rapidamente progressiva ao mesmo tempo, com um padrão linear (não granular) na biópsia?"
+      "Pensa em como um único anticorpo pode atacar uma proteína que existe tanto no rim quanto no pulmão ao mesmo tempo, e por que isso faria dois órgãos tão diferentes falharem juntos, de uma vez só."
     ]
   },
   "anamnese": [
@@ -44,7 +44,7 @@
     { "texto": "Inspeção do septo nasal", "custo": 3, "relevante": false, "resposta": "Septo nasal íntegro, sem perfuração ou deformidade." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome de Goodpasture (doença antimembrana basal glomerular)", "correta": true },
+    { "texto": "Síndrome de Goodpasture", "correta": true },
     { "texto": "Granulomatose com poliangiite (antiga Wegener)", "correta": false },
     { "texto": "Lúpus eritematoso sistêmico com nefrite", "correta": false },
     { "texto": "Púrpura de Henoch-Schönlein (vasculite por IgA)", "correta": false },

@@ -42,7 +42,7 @@
     { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalia cervical significativa." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome do choque tóxico estafilocócico (mediada pela toxina TSST-1)", "correta": true },
+    { "texto": "Síndrome do choque tóxico estafilocócico", "correta": true },
     { "texto": "Escarlatina", "correta": false },
     { "texto": "Sepse por bactéria Gram-negativa", "correta": false },
     { "texto": "Síndrome de Stevens-Johnson", "correta": false },

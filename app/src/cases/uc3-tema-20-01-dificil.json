@@ -45,7 +45,7 @@
     { "texto": "Avaliação do estado nutricional e curva de peso", "custo": 3, "relevante": true, "resposta": "Sinais evidentes de desnutrição, peso muito abaixo do esperado pra idade." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome do linfócito nu tipo II (deficiência de expressão de MHC de classe II)", "correta": true },
+    { "texto": "Síndrome do linfócito nu tipo II", "correta": true },
     { "texto": "Imunodeficiência combinada grave (SCID) por defeito de recombinação V(D)J", "correta": false },
     { "texto": "Infecção pelo HIV de transmissão perinatal", "correta": false },
     { "texto": "Imunodeficiência comum variável", "correta": false },

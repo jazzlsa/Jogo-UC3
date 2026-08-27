@@ -45,7 +45,7 @@
     { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": true, "resposta": "Peso abaixo do esperado, provavelmente relacionado aos vômitos recorrentes." }
   ],
   "hipoteses": [
-    { "texto": "Doença granulomatosa crônica (defeito da NADPH oxidase/explosão respiratória)", "correta": true },
+    { "texto": "Doença granulomatosa crônica", "correta": true },
     { "texto": "Deficiência de adesão leucocitária (LAD)", "correta": false },
     { "texto": "Síndrome de hiper-IgE (síndrome de Job)", "correta": false },
     { "texto": "Neutropenia congênita grave", "correta": false },

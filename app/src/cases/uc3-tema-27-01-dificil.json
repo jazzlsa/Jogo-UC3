@@ -43,7 +43,7 @@
     { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar normal." }
   ],
   "hipoteses": [
-    { "texto": "Infecção de corrente sanguínea associada a cateter venoso central (biofilme bacteriano)", "correta": true },
+    { "texto": "Infecção de corrente sanguínea associada a cateter venoso central", "correta": true },
     { "texto": "Bacteremia transitória sem foco definido", "correta": false },
     { "texto": "Endocardite infecciosa", "correta": false },
     { "texto": "Infecção do trato urinário associada a sonda", "correta": false },

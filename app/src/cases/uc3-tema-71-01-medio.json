@@ -45,7 +45,7 @@
     { "texto": "Avaliação do joelho (sinais de artrose)", "custo": 3, "relevante": false, "resposta": "Sinais de osteoartrose bilateral conhecida, sem relação com a queixa atual." }
   ],
   "hipoteses": [
-    { "texto": "Angina estável (angina de esforço) por doença arterial coronariana crônica", "correta": true },
+    { "texto": "Angina estável por doença arterial coronariana crônica", "correta": true },
     { "texto": "Transtorno de ansiedade/síndrome do pânico", "correta": false },
     { "texto": "Doença do refluxo gastroesofágico", "correta": false },
     { "texto": "Dor musculoesquelética relacionada à osteoartrose", "correta": false },

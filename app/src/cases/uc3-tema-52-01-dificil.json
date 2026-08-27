@@ -25,7 +25,7 @@
     "dicas": [
       "Releia com atenção o histórico familiar dele, principalmente do lado materno, e como as características físicas mudaram com a idade, principalmente depois da puberdade.",
       "Pensa em como uma sequência de DNA repetida em excesso pode fazer a região ao redor dela se compactar de um jeito que a maquinaria de transcrição simplesmente não consegue mais acessar aquele gene, mesmo sem nenhuma mutação na sequência do gene em si.",
-      "Que gene, silenciado por excesso de compactação da cromatina depois de uma expansão exagerada de uma repetição de três letras na sua região reguladora, explica deficiência intelectual, características faciais específicas e aumento dos testículos após a puberdade, com herança ligada ao X?"
+      "Pra confirmar isso você vai precisar de um teste genético molecular que meça diretamente o tamanho dessa repetição expandida, um cariótipo convencional costuma sair completamente normal nesse tipo de alteração."
     ]
   },
   "anamnese": [
@@ -44,7 +44,7 @@
     { "texto": "Avaliação de traços faciais de síndrome de Down (fenda palpebral oblíqua, prega palmar única)", "custo": 3, "relevante": false, "resposta": "Ausentes." }
   ],
   "hipoteses": [
-    { "texto": "Síndrome do X Frágil (expansão CGG no gene FMR1 com hipermetilação e silenciamento gênico)", "correta": true },
+    { "texto": "Síndrome do X Frágil", "correta": true },
     { "texto": "Autismo idiopático", "correta": false },
     { "texto": "Síndrome de Down", "correta": false },
     { "texto": "Síndrome de Prader-Willi", "correta": false },
@@ -58,7 +58,7 @@
     { "texto": "Teste genético para deleção 15q11-q13 (síndrome de Prader-Willi)", "custo": 14, "relevante": false, "resposta": "Negativo." }
   ],
   "condutas": [
-    { "texto": "Acompanhamento multidisciplinar (terapia ocupacional, fonoaudiologia, educação especial) e aconselhamento genético para a família, incluindo identificação de outras portadoras", "correta": true },
+    { "texto": "Acompanhamento multidisciplinar com equipe de reabilitação e educação especial, além de aconselhamento genético para a família", "correta": true },
     { "texto": "Iniciar reposição hormonal isolada", "correta": false },
     { "texto": "Tratar apenas com terapia comportamental, sem investigação genética", "correta": false },
     { "texto": "Indicar correção cirúrgica das características faciais", "correta": false }

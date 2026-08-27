@@ -43,7 +43,7 @@
     { "texto": "Palpação específica de fossa ilíaca direita", "custo": 3, "relevante": false, "resposta": "Dor difusa também presente ali, sem massa localizada específica." }
   ],
   "hipoteses": [
-    { "texto": "Peritonite bacteriana espontânea por pneumococo (imunodeficiência secundária à síndrome nefrótica)", "correta": true },
+    { "texto": "Peritonite bacteriana espontânea por pneumococo", "correta": true },
     { "texto": "Apendicite aguda", "correta": false },
     { "texto": "Peritonite bacteriana secundária por perfuração intestinal", "correta": false },
     { "texto": "Imunodeficiência primária (imunodeficiência comum variável)", "correta": false },
