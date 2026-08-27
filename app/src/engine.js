@@ -310,6 +310,7 @@ function render() {
           <span class="window-title">🩺 Grand Round UC3</span>
         </div>
         <div class="scene">
+          <div class="actions menu-topo"><button class="btn ghost" data-voltar-home>← Voltar</button></div>
           ${renderMenu()}
         </div>
       </div>`;
@@ -598,8 +599,12 @@ function wireMenu() {
   document.querySelectorAll("[data-tab]").forEach(btn => {
     btn.addEventListener("click", () => { state.menuTab = btn.dataset.tab; render(); });
   });
-  const voltar = document.querySelector("[data-voltar-home]");
-  if (voltar) voltar.addEventListener("click", voltarHome);
+  // querySelectorAll, não querySelector: o botão de voltar aparece duas vezes
+  // nessa tela (topo fixo + rodapé da lista), pra não obrigar rolar até o
+  // fim numa lista longa de casos.
+  document.querySelectorAll("[data-voltar-home]").forEach(btn => {
+    btn.addEventListener("click", voltarHome);
+  });
   const desafioIniciar = document.querySelector("[data-desafio-iniciar]");
   if (desafioIniciar) desafioIniciar.addEventListener("click", () => iniciarDesafio(DESAFIO_TAMANHO));
   const filtroProva = document.querySelector("[data-desafio-filtro-prova]");

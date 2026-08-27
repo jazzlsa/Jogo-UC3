@@ -163,6 +163,7 @@ blockquote.q { font-family: "IBM Plex Serif", serif; font-style: italic; border-
 .reveal { font-family: "IBM Plex Sans", sans-serif; font-size: 13px; color: var(--ink-muted); background: var(--surface-2); border: 1px solid var(--border); border-radius: 3px; padding: 8px 11px; margin: -2px 0 10px 2px; }
 
 .actions { display: flex; gap: 10px; margin-top: 22px; }
+.menu-topo { margin-top: 0; margin-bottom: 16px; }
 .btn { font-family: "IBM Plex Sans", sans-serif; font-weight: 600; font-size: 14.5px; border-radius: 4px; padding: 11px 20px; border: 1px solid transparent; }
 .btn.primary { background: var(--accent); color: var(--surface); }
 .btn.primary:hover:not(:disabled) { background: var(--accent-ink); }
