@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-17-01-dificil",
   "tema": "Tema 17 · Reconhecimento pelo Sistema Imune na Resposta Adaptativa",
-  "materia_relacionada": "Este caso aplica o conceito de troca de classe de imunoglobulina e a função específica de cada isotipo: a classe que domina a defesa das mucosas respiratória e digestiva é a mesma cuja ausência isolada explica tanto as infecções recorrentes quanto o risco de reação transfusional grave por anticorpos anti-isotipo, exatamente a lógica de especialização funcional das imunoglobulinas discutida na aula.",
+  "materia_relacionada": "Este caso aplica o conceito de troca de classe de imunoglobulina e a função específica de cada isotipo: a classe que domina a defesa das mucosas respiratória e digestiva é a mesma cuja ausência isolada explica tanto as infecções recorrentes quanto o risco de reação transfusional grave por anticorpos anti-isotipo, exatamente a lógica de especialização funcional das imunoglobulinas discutida na aula. Aula: Prof. Barbuto.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Menino de 8 anos, infecção de mucosa direto e um episódio ruim numa transfusão. Esses dois detalhes juntos não são coincidência, presta atenção neles.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "A transfusão quase deu errado por um motivo bem específico: o corpo dele reagiu contra o que estava faltando no dele mesmo.",
+    "fechamento": "A transfusão quase deu errado por um motivo bem específico: o corpo dele reagiu contra o que estava faltando no dele mesmo. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "Releia com atenção o episódio de reação durante a transfusão de sangue no ano passado, isso não é um detalhe qualquer nesse caso.",
       "Pensa em qual classe de anticorpo é a principal linha de defesa das superfícies de mucosa (respiratória e digestiva), e o que aconteceria se ela estivesse completamente ausente.",

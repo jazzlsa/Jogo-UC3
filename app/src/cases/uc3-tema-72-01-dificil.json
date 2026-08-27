@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-72-01-dificil",
   "tema": "Tema 72 · Regulação do Sistema Imune",
-  "materia_relacionada": "Este caso aplica diretamente o papel dos linfócitos T reguladores visto na aula: esse grupo de células existe justamente para 'segurar' o sistema imune e impedir que ele ataque os próprios órgãos do corpo. Quando o desenvolvimento dessas células falha desde o nascimento, a autoimunidade se instala em múltiplos órgãos ao mesmo tempo, exatamente a consequência de uma resposta imune sem regulação discutida na aula.",
+  "materia_relacionada": "Este caso aplica diretamente o papel dos linfócitos T reguladores visto na aula: esse grupo de células existe justamente para 'segurar' o sistema imune e impedir que ele ataque os próprios órgãos do corpo. Quando o desenvolvimento dessas células falha desde o nascimento, a autoimunidade se instala em múltiplos órgãos ao mesmo tempo, exatamente a consequência de uma resposta imune sem regulação discutida na aula. Aula: Prof. Barbuto.",
   "area": "Imunologia",
   "prova": "P4",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Bebê de 7 meses, diarreia grave desde os 2 meses, diabetes diagnosticado muito cedo, e agora eczema espalhado. Três órgãos diferentes sendo atacados ao mesmo tempo não é coincidência.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Faltava um time inteiro de células cuja única função era seguraras outras. Sem elas, o próprio corpo virou alvo em três frentes ao mesmo tempo.",
+    "fechamento": "Faltava um time inteiro de células cuja única função era seguraras outras. Sem elas, o próprio corpo virou alvo em três frentes ao mesmo tempo. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "Releia com atenção com que idade ele foi diagnosticado com diabetes, e se a diarreia melhora ou não quando tiram algum alimento específico da dieta.",
       "Pensa em como um grupo específico de linfócitos T existe justamente pra conter o sistema imune e impedir que ele ataque os próprios órgãos do corpo, e o que aconteceria se esse grupo de células simplesmente não funcionasse desde o nascimento.",

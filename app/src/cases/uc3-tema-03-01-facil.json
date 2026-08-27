@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-03-01-facil",
   "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
-  "materia_relacionada": "Este caso ilustra a diferença entre diagnóstico morfológico e molecular em oncologia: a mamografia (BI-RADS 5) já sugere fortemente malignidade pelo padrão espiculado com microcalcificações, mas é a biópsia por agulha grossa que confirma o carcinoma ductal invasivo pela histologia (H&E), e é a imuno-histoquímica, não a histologia, que determina o tratamento: receptores hormonais positivos abrem a porta pra hormonoterapia, e a superexpressão de HER2 define elegibilidade pra terapia-alvo anti-HER2. Essa é a lógica central da aula sobre ferramentas do diagnóstico patológico: a mesma célula pode exigir tratamentos completamente diferentes dependendo do perfil molecular, não só da aparência ao microscópio.",
+  "materia_relacionada": "Este caso ilustra a diferença entre diagnóstico morfológico e molecular em oncologia: a mamografia (BI-RADS 5) já sugere fortemente malignidade pelo padrão espiculado com microcalcificações, mas é a biópsia por agulha grossa que confirma o carcinoma ductal invasivo pela histologia (H&E), e é a imuno-histoquímica, não a histologia, que determina o tratamento: receptores hormonais positivos abrem a porta pra hormonoterapia, e a superexpressão de HER2 define elegibilidade pra terapia-alvo anti-HER2. Essa é a lógica central da aula sobre ferramentas do diagnóstico patológico: a mesma célula pode exigir tratamentos completamente diferentes dependendo do perfil molecular, não só da aparência ao microscópio. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Oncologia",
   "prova": "P1",
   "dificuldade": "facil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Nódulo mamário no consultório. Lembre-se do raciocínio patológico: a imagem mostra a alteração morfológica, mas só o estudo histopatológico e a imuno-histoquímica revelam a patogênese e guiam a terapia.",
     "piBaixo": "Atenção com seus pontos de investigação. Na patologia, escolher a biópsia certa economiza tempo e recursos preciosos.",
-    "fechamento": "Muito bem! O diagnóstico histopatológico associado à imuno-histoquímica não serve apenas para dar nome à doença, mas para quantificar marcadores biológicos e direcionar a terapia-alvo.",
+    "fechamento": "Muito bem! O diagnóstico histopatológico associado à imuno-histoquímica não serve apenas para dar nome à doença, mas para quantificar marcadores biológicos e direcionar a terapia-alvo. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia como a paciente descreve a textura e a evolução desse nódulo ao longo do último mês.",
       "Pensa em quais características de um nódulo mamário ao exame físico diferenciam um processo proliferativo descontrolado de um cisto ou tecido fibroglandular normal.",

@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-06-dificil",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso explora por que a Ressonância Magnética é insubstituível aqui: ela é a única modalidade com resolução suficiente pra diferenciar disco, corpo vertebral, espaço epidural e saco dural, exatamente as estruturas que uma infecção hematogênica (nesse caso, provavelmente a partir do foco dentário tratado há semanas) invade em sequência. A radiografia e a TC sem contraste só mostram erosão óssea tardia, quando o dano estrutural já está estabelecido; a RM capta o edema inflamatório precoce e o abscesso epidural comprimindo o saco dural, achado que muda a conduta de 'antibiótico e observação' pra 'urgência neurocirúrgica', diante da paresia e hipoestesia perineal já presentes.",
+  "materia_relacionada": "Este caso explora por que a Ressonância Magnética é insubstituível aqui: ela é a única modalidade com resolução suficiente pra diferenciar disco, corpo vertebral, espaço epidural e saco dural, exatamente as estruturas que uma infecção hematogênica (nesse caso, provavelmente a partir do foco dentário tratado há semanas) invade em sequência. A radiografia e a TC sem contraste só mostram erosão óssea tardia, quando o dano estrutural já está estabelecido; a RM capta o edema inflamatório precoce e o abscesso epidural comprimindo o saco dural, achado que muda a conduta de 'antibiótico e observação' pra 'urgência neurocirúrgica', diante da paresia e hipoestesia perineal já presentes. Aula: Profa. Dra. Claudia Leite.",
   "area": "Ortopedia",
   "prova": "P1",
   "dificuldade": "dificil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente com dor lombar intensa e febre. Cuidado para não pedir raio-X achando que vai resolver o problema de partes moles e canal vertebral. Escolha o método de imagem com critério clínico.",
     "piBaixo": "Seu saldo de PI está muito baixo e você ainda não escolheu a modalidade de imagem com maior resolução de tecidos moles.",
-    "fechamento": "Perfeito! A Ressonância Magnética é o método soberano para tecidos moles, espaço discal e canal epidural. Raio-X e TC isolados no início poderiam ter comido bola.",
+    "fechamento": "Perfeito! A Ressonância Magnética é o método soberano para tecidos moles, espaço discal e canal epidural. Raio-X e TC isolados no início poderiam ter comido bola. É exatamente isso que a Profa. Claudia Leite mostra.",
     "dicas": [
       "Dor lombar que piora à noite e não melhora com repouso foge do padrão de dor mecânica comum.",
       "Febre associada a dor na coluna é um sinal de alarme que muda todo o raciocínio.",

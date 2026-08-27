@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-03-03-dificil",
   "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
-  "materia_relacionada": "Este caso aplica a integração entre morfologia histológica e imuno-histoquímica na prática anatomopatológica, demonstrando como a detecção proteica específica por anticorpos complementa a microscopia óptica para diferenciar doenças linfoproliferativas de processos infecciosos granulomatosos.",
+  "materia_relacionada": "Este caso aplica a integração entre morfologia histológica e imuno-histoquímica na prática anatomopatológica, demonstrando como a detecção proteica específica por anticorpos complementa a microscopia óptica para diferenciar doenças linfoproliferativas de processos infecciosos granulomatosos. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Patologia geral",
   "prova": "Todas",
   "dificuldade": "dificil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente jovem apresentando linfadenopatia cervical indolor e sintomas sistêmicos. Antes de prescrever tratamentos empíricos, precisamos da ferramenta diagnóstica adequada para caracterizar a lesão tecidual.",
     "piBaixo": "Atenção ao saldo de PI. Em patologia diagnóstica, solicitar exames ou painéis imuno-histoquímicos desordenadamente esgota seus recursos.",
-    "fechamento": "Excelente raciocínio. A morfológia histológica aliada ao painel imuno-histoquímico preciso permitiu a caracterização exata da linhagem celular neoplásica.",
+    "fechamento": "Excelente raciocínio. A morfológia histológica aliada ao painel imuno-histoquímico preciso permitiu a caracterização exata da linhagem celular neoplásica. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção o laudo histopatológico do linfonodo e as ferramentas de coloração especial ou marcadores de imunofenotipagem solicitados.",
       "Pense na resposta estrutural do tecido linfoide e em como marcadores proteicos de superfície celular ajudam a diferenciar neoplasias primárias de reações granulomatosas infecciosas.",

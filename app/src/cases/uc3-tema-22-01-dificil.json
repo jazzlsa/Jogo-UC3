@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-22-01-dificil",
   "tema": "Tema 22 · Mecanismos Efetores do Sistema Imune",
-  "materia_relacionada": "Este caso aplica o conceito de explosão respiratória (burst oxidativo) discutido na aula: depois da fagocitose, o neutrófilo precisa gerar espécies reativas de oxigênio pra matar o micro-organismo engolido; sem essa etapa, bactérias e fungos que produzem catalase (capazes de neutralizar o pouco peróxido que sobra) sobrevivem dentro da própria célula de defesa, causando infecções profundas e formação de granulomas.",
+  "materia_relacionada": "Este caso aplica o conceito de explosão respiratória (burst oxidativo) discutido na aula: depois da fagocitose, o neutrófilo precisa gerar espécies reativas de oxigênio pra matar o micro-organismo engolido; sem essa etapa, bactérias e fungos que produzem catalase (capazes de neutralizar o pouco peróxido que sobra) sobrevivem dentro da própria célula de defesa, causando infecções profundas e formação de granulomas. Aula: Prof. Barbuto.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Menino de 6 anos, abscessos fundos de repetição, pneumonia fúngica grave e agora vômitos depois de comer. Cada infecção sozinha conta uma história, juntas contam outra.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Os neutrófilos dele iam até o invasor, engoliam certinho, e paravam bem na hora de dar o golpe final.",
+    "fechamento": "Os neutrófilos dele iam até o invasor, engoliam certinho, e paravam bem na hora de dar o golpe final. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "Releia com atenção que tipo de infecção ele já teve, abscesso profundo e infecção fúngica grave não é o padrão mais comum numa criança sem nenhum problema de base.",
       "Pensa em como o neutrófilo, depois de engolir a bactéria, precisa gerar uma espécie de \"explosão\" de substâncias tóxicas dentro de si mesmo pra matá-la, e o que aconteceria se ele fagocitasse normalmente, mas não conseguisse completar essa etapa.",

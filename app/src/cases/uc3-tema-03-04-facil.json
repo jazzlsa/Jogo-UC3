@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-03-04-facil",
   "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
-  "materia_relacionada": "Este caso aplica a distinção entre etiologia e patogênese, além de demonstrar o uso da histoquímica com coloração especial de Ziehl-Neelsen para a identificação morfológica direta do agente etiológico em tecidos com inflamação granulomatosa.",
+  "materia_relacionada": "Este caso aplica a distinção entre etiologia e patogênese, além de demonstrar o uso da histoquímica com coloração especial de Ziehl-Neelsen para a identificação morfológica direta do agente etiológico em tecidos com inflamação granulomatosa. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Patologia geral",
   "prova": "Todas",
   "dificuldade": "facil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente com quadro respiratório subagudo e hemoptoico. Para fechar a causa exata, a microscopia e as técnicas de coloração histoquímica do patologista serão fundamentais.",
     "piBaixo": "Sua cota de pontos está acabando. Selecione com cautela os exames histopatológicos e laboratoriais restantes.",
-    "fechamento": "Excelente raciocínio. A identificação do agente etiológico por coloração especial confirmou o que a morfológia granulomatosa já sugeria.",
+    "fechamento": "Excelente raciocínio. A identificação do agente etiológico por coloração especial confirmou o que a morfológia granulomatosa já sugeria. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção o padrão dos sintomas sistêmicos e a evolução relatada pelo paciente na anamnese.",
       "Pense na resposta imune celular que tenta conter infecções intracelulares formando lesões granulomatosas com necrose tecidual.",

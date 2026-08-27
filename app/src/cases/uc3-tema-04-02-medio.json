@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-04-02-medio",
   "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
-  "materia_relacionada": "Este caso aprofunda a diferença ultrassonográfica entre cólica biliar simples e colecistite: aqui a obstrução do ducto cístico não se resolve, e a vesícula distendida sob pressão sofre isquemia de parede e infecção secundária, daí o espessamento parietal (>4mm) e o líquido perivesicular na imagem, e a leucocitose com desvio no sangue. O Murphy ultrassonográfico (dor exatamente quando o transdutor comprime a vesícula visualizada) é mais específico que o Murphy manual porque confirma que a dor vem daquele órgão especificamente. A janela de 72h pra cirurgia existe porque operar cedo demais (edema agudo) ou tarde demais (fibrose densa) torna a dissecção mais arriscada.",
+  "materia_relacionada": "Este caso aprofunda a diferença ultrassonográfica entre cólica biliar simples e colecistite: aqui a obstrução do ducto cístico não se resolve, e a vesícula distendida sob pressão sofre isquemia de parede e infecção secundária, daí o espessamento parietal (>4mm) e o líquido perivesicular na imagem, e a leucocitose com desvio no sangue. O Murphy ultrassonográfico (dor exatamente quando o transdutor comprime a vesícula visualizada) é mais específico que o Murphy manual porque confirma que a dor vem daquele órgão especificamente. A janela de 72h pra cirurgia existe porque operar cedo demais (edema agudo) ou tarde demais (fibrose densa) torna a dissecção mais arriscada. Aula: Raphael Oliveira.",
   "area": "Gastroenterologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "A mesma dor de sempre, só que agora não passa e vem com febre, isso muda tudo. Não é mais cólica biliar simples, é uma pergunta diferente que vocês precisam fazer.",
     "piBaixo": "Cuidado com o orçamento, já reparou que exame de imagem custa caro em PI? Pense antes de pedir o segundo se o primeiro já respondeu.",
-    "fechamento": "Murphy ultrassonográfico positivo com parede espessada: isso não é mais 'vesícula com pedra', é vesícula inflamada precisando de antibiótico e cirurgia em tempo certo.",
+    "fechamento": "Murphy ultrassonográfico positivo com parede espessada: isso não é mais 'vesícula com pedra', é vesícula inflamada precisando de antibiótico e cirurgia em tempo certo. É exatamente isso que o Prof. Raphael Oliveira mostra.",
     "dicas": [
       "A dor de sempre, só que dessa vez não passou sozinha e veio com febre, isso é sinal de que virou outra coisa.",
       "O Murphy ultrassonográfico e a espessura da parede da vesícula são a chave pra diferenciar de cólica biliar simples.",

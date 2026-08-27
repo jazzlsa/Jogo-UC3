@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-23-01-medio",
   "tema": "Tema 23 · Distúrbios de Pressão e Volume nos Tecidos",
-  "materia_relacionada": "Este caso aplica o equilíbrio de Starling visto na aula: o edema pode vir de pressão hidrostática elevada (como na insuficiência cardíaca), mas também de pressão oncótica reduzida, quando a albumina do sangue cai, a força que normalmente segura líquido dentro do vaso desaparece, e o padrão clínico de onde e como o edema aparece muda completamente.",
+  "materia_relacionada": "Este caso aplica o equilíbrio de Starling visto na aula: o edema pode vir de pressão hidrostática elevada (como na insuficiência cardíaca), mas também de pressão oncótica reduzida, quando a albumina do sangue cai, a força que normalmente segura líquido dentro do vaso desaparece, e o padrão clínico de onde e como o edema aparece muda completamente. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Nefrologia/Urologia",
   "prova": "P2",
   "dificuldade": "medio",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Menino de 6 anos, inchaço que começou no rosto de manhã e foi descendo pro corpo. Antes de pensar em coração, presta atenção em onde e como esse inchaço apareceu.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Não era o coração empurrando líquido pra fora do vaso com força demais. Era a força que deveria segurar esse líquido dentro que tinha sumido.",
+    "fechamento": "Não era o coração empurrando líquido pra fora do vaso com força demais. Era a força que deveria segurar esse líquido dentro que tinha sumido. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção onde o inchaço começou primeiro e em que período do dia, isso diz muito sobre o mecanismo.",
       "Pensa em qual das forças que mantêm líquido dentro do vaso sanguíneo estaria comprometida se o problema fosse a quantidade de proteína no sangue, e não o coração bombeando com dificuldade.",

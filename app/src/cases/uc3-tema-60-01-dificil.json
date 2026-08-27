@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-60-01-dificil",
   "tema": "Tema 60 · Aspectos Práticos do Diagnóstico Virológico",
-  "materia_relacionada": "Este caso aplica a diferença entre métodos diretos de diagnóstico viral vista na aula: uma citologia simples (Tzanck) pode mostrar rapidamente que existe uma infecção por um vírus da família herpes, mas não diferencia qual vírus exato é, e um recém-nascido grave não pode esperar esse detalhe, exigindo um método mais específico (PCR) para confirmar e ao mesmo tempo justificando iniciar o tratamento antes mesmo dessa confirmação chegar.",
+  "materia_relacionada": "Este caso aplica a diferença entre métodos diretos de diagnóstico viral vista na aula: uma citologia simples (Tzanck) pode mostrar rapidamente que existe uma infecção por um vírus da família herpes, mas não diferencia qual vírus exato é, e um recém-nascido grave não pode esperar esse detalhe, exigindo um método mais específico (PCR) para confirmar e ao mesmo tempo justificando iniciar o tratamento antes mesmo dessa confirmação chegar. Aula: Prof. Paolo Zanotto.",
   "area": "Infectologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Recém-nascida de 6 dias, vesículas agrupadas na pele, letargia e um episódio de tremor. Isso não pode esperar, mas antes de tratar, pergunta bem sobre a mãe durante o parto.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Um exame rápido já mostrou que era da família certa. Só que família não é a mesma coisa que identidade, e aqui isso fez toda a diferença no remédio certo.",
+    "fechamento": "Um exame rápido já mostrou que era da família certa. Só que família não é a mesma coisa que identidade, e aqui isso fez toda a diferença no remédio certo. É exatamente isso que o Prof. Zanotto mostra.",
     "dicas": [
       "Releia com atenção o histórico da mãe durante a gestação e principalmente durante o parto, tinha alguma lesão ativa na hora?",
       "Pensa em como um exame simples e rápido, feito raspando a base de uma vesícula e olhando no microscópio, pode mostrar uma célula característica de infecção por vírus de uma família inteira, mas sem conseguir dizer sozinho qual vírus exato dessa família é.",

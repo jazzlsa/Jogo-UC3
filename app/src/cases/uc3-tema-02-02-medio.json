@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-02-medio",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso trabalha por que a TC sem contraste é o método de escolha pra cálculo ureteral: o ultrassom, apesar de não usar radiação, perde a visualização do ureter médio por interposição de gás intestinal, uma limitação técnica real, não teórica. A hematúria microscópica reflete o trauma mecânico do urotélio pela passagem do cálculo, e a hidronefrose associada mostra a obstrução a montante, junto com a densificação da gordura peri-ureteral, são achados que a TC caracteriza com alta acurácia e o USG não consegue.",
+  "materia_relacionada": "Este caso trabalha por que a TC sem contraste é o método de escolha pra cálculo ureteral: o ultrassom, apesar de não usar radiação, perde a visualização do ureter médio por interposição de gás intestinal, uma limitação técnica real, não teórica. A hematúria microscópica reflete o trauma mecânico do urotélio pela passagem do cálculo, e a hidronefrose associada mostra a obstrução a montante, junto com a densificação da gordura peri-ureteral, são achados que a TC caracteriza com alta acurácia e o USG não consegue. Aula: Profa. Dra. Claudia Leite.",
   "area": "Nefrologia/Urologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente urrando de dor no flanco. Antes de ir radiando o coitado com qualquer tomografia, escute a história e faça o exame físico. A imagem serve para confirmar seu raciocínio, não para substituir seu cérebro!",
     "piBaixo": "Cuidado com seus pontos de investigação! Se continuar pedindo exames às cegas, seu orçamento zera antes de você achar a pedra no caminho.",
-    "fechamento": "Muito bem! Você percebeu que a ultrassonografia tem limitação por gás intestinal no ureter médio e que a TC sem contraste é o método de escolha aqui.",
+    "fechamento": "Muito bem! Você percebeu que a ultrassonografia tem limitação por gás intestinal no ureter médio e que a TC sem contraste é o método de escolha aqui. É exatamente isso que a Profa. Claudia Leite mostra.",
     "dicas": [
       "A dor em cólica que vai e volta, irradiando pra virilha, tem uma origem bem característica no trato urinário.",
       "Pensa em qual exame de imagem identifica cálculo mesmo sem precisar de contraste endovenoso.",

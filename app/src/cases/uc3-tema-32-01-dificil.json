@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-32-01-dificil",
   "tema": "Tema 32 · Antibióticos e Antibiograma",
-  "materia_relacionada": "Este caso aplica o conceito de resistência induzível visto na aula sobre antibiograma: um gene de resistência pode ficar silencioso até o contato com o antibiótico, sendo então induzido durante o próprio tratamento, então um resultado de \"sensível\" no antibiograma padrão nem sempre garante que aquele remédio vá funcionar até o fim do tratamento, exigindo um teste específico pra desmascarar esse tipo de resistência.",
+  "materia_relacionada": "Este caso aplica o conceito de resistência induzível visto na aula sobre antibiograma: um gene de resistência pode ficar silencioso até o contato com o antibiótico, sendo então induzido durante o próprio tratamento, então um resultado de \"sensível\" no antibiograma padrão nem sempre garante que aquele remédio vá funcionar até o fim do tratamento, exigindo um teste específico pra desmascarar esse tipo de resistência. Aula: Nilton Lincopan.",
   "area": "Infectologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Rapaz de 24 anos, segundo abscesso de pele nesse ano, frequenta academia. Antes de escolher o antibiótico só pelo resultado do laboratório, olha com atenção pra esse resultado.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O antibiograma disse \"sensível\". Só que esse \"sensível\" tinha uma letra pequena que ele esqueceu de mostrar de cara.",
+    "fechamento": "O antibiograma disse \"sensível\". Só que esse \"sensível\" tinha uma letra pequena que ele esqueceu de mostrar de cara. É exatamente isso que o Prof. Nilton Lincopan mostra.",
     "dicas": [
       "Releia com atenção o resultado do antibiograma dele: ele veio resistente a um antibiótico e aparentemente sensível a outro de mecanismo de ação parecido, e isso não é tão simples quanto parece.",
       "Pensa em como um gene de resistência bacteriana pode ficar \"desligado\" até o contato com um antibiótico específico da mesma família, sendo \"ligado\" (induzido) só durante o próprio tratamento, fazendo um remédio que parecia funcionar parar de funcionar no meio do caminho.",

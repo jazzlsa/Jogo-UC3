@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-61-01-dificil",
   "tema": "Tema 61 · Patologia da Infecção Viral",
-  "materia_relacionada": "Este caso aplica o conceito de efeito citopático viral visto na aula: certos vírus, ao infectar uma célula, produzem um corpo de inclusão característico visível ao microscópio, aqui um núcleo aumentado com uma inclusão central bem definida cercada por um halo claro (\"olho de coruja\"), uma assinatura morfológica que ajuda a identificar o agente antes mesmo de qualquer teste molecular.",
+  "materia_relacionada": "Este caso aplica o conceito de efeito citopático viral visto na aula: certos vírus, ao infectar uma célula, produzem um corpo de inclusão característico visível ao microscópio, aqui um núcleo aumentado com uma inclusão central bem definida cercada por um halo claro (\"olho de coruja\"), uma assinatura morfológica que ajuda a identificar o agente antes mesmo de qualquer teste molecular. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Infectologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Recém-nascido com microcefalia, petéquias e hepatoesplenomegalia. Antes de pensar só em toxoplasmose, pergunta bem sobre a saúde da mãe durante a gestação.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Um vírus bem comum, quase sempre silencioso em adultos, deixou uma marca bem específica dentro das células dele, um núcleo enorme com um olho estampado no meio.",
+    "fechamento": "Um vírus bem comum, quase sempre silencioso em adultos, deixou uma marca bem específica dentro das células dele, um núcleo enorme com um olho estampado no meio. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção se a mãe teve algum episódio de mal-estar tipo gripal ou \"mononucleose\" durante a gestação, mesmo que leve.",
       "Pensa em como esse vírus, ao infectar uma célula, faz o núcleo dela aumentar tanto de tamanho que fica com um halo claro ao redor de uma inclusão central bem definida, um achado clássico visto ao microscópio.",

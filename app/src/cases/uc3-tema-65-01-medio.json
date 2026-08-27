@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-65-01-medio",
   "tema": "Tema 65 · Reparo Tecidual e Cicatrização de Feridas",
-  "materia_relacionada": "Este caso aplica um cofator essencial da síntese de colágeno visto na aula sobre reparo tecidual: sem esse cofator, as enzimas que formam as ligações cruzadas do colágeno não funcionam direito, produzindo um colágeno frágil que compromete ao mesmo tempo a cicatrização de feridas, a integridade de pequenos vasos e a saúde da gengiva.",
+  "materia_relacionada": "Este caso aplica um cofator essencial da síntese de colágeno visto na aula sobre reparo tecidual: sem esse cofator, as enzimas que formam as ligações cruzadas do colágeno não funcionam direito, produzindo um colágeno frágil que compromete ao mesmo tempo a cicatrização de feridas, a integridade de pequenos vasos e a saúde da gengiva. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Outra",
   "prova": "P3",
   "dificuldade": "medio",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Senhor de 76 anos, mora sozinho, gengiva sangrando, roxos pelo corpo e uma ferida cirúrgica que nunca cicatrizou direito. Antes de pensar em plaqueta ou coagulação, pergunta bem o que ele anda comendo.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O colágeno dele estava sendo fabricado, só que sem as amarras certas pra ficar firme. Faltava uma peça bem pequena nesse processo todo.",
+    "fechamento": "O colágeno dele estava sendo fabricado, só que sem as amarras certas pra ficar firme. Faltava uma peça bem pequena nesse processo todo. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção como tem sido a alimentação dele ultimamente, principalmente frutas e verduras frescas.",
       "Pensa em qual vitamina funciona como cofator essencial pra uma enzima que ajuda a formar as ligações cruzadas do colágeno, e o que aconteceria com feridas, vasos pequenos e gengiva se essa vitamina faltasse.",

@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-66-01-dificil",
   "tema": "Tema 66 · Imunologia de Transplante",
-  "materia_relacionada": "Este caso aplica o mecanismo de rejeição hiperaguda visto na aula de imunologia de transplante: um anticorpo pré-formado contra antígenos do doador, presente no receptor antes mesmo da cirurgia, ativa o complemento quase instantaneamente assim que o sangue volta a circular no enxerto, formando trombos nos pequenos vasos em questão de minutos, diferente da rejeição celular, que leva dias a se instalar.",
+  "materia_relacionada": "Este caso aplica o mecanismo de rejeição hiperaguda visto na aula de imunologia de transplante: um anticorpo pré-formado contra antígenos do doador, presente no receptor antes mesmo da cirurgia, ativa o complemento quase instantaneamente assim que o sangue volta a circular no enxerto, formando trombos nos pequenos vasos em questão de minutos, diferente da rejeição celular, que leva dias a se instalar. Aula: Prof. Barbuto.",
   "area": "Nefrologia/Urologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 47 anos, transplante renal, o enxerto escureceu e parou de funcionar minutos depois de reperfundido. Minutos, não dias, esse detalhe de tempo já aponta o mecanismo.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O corpo dela já tinha a munição pronta antes mesmo da cirurgia começar. Só esperou o sangue voltar a circular pra disparar.",
+    "fechamento": "O corpo dela já tinha a munição pronta antes mesmo da cirurgia começar. Só esperou o sangue voltar a circular pra disparar. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "Releia com atenção quanto tempo se passou entre o sangue voltar a circular no enxerto e o problema aparecer, minutos é bem diferente de dias.",
       "Pensa em como um anticorpo que já existia na receptora antes mesmo da cirurgia, formado por uma exposição prévia (transfusão, gestação, outro transplante), pode atacar o novo órgão assim que o sangue volta a circular nele, ativando o complemento quase instantaneamente.",

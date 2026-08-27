@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-07-01-medio",
   "tema": "Tema 07 · Organização e Funcionamento do Sistema Imune",
-  "materia_relacionada": "Este caso mostra na prática o papel do baço como órgão linfoide secundário: seus macrófagos fazem a 'limpeza' do sangue, opsonizando e fagocitando bactérias encapsuladas (pneumococo, meningococo, H. influenzae tipo b) que escapam da resposta por anticorpo isolada, essas bactérias têm cápsula de polissacarídeo justamente pra resistir à fagocitose sem essa filtragem extra. Sem baço, a bacteremia por esses organismos pode evoluir pra sepse fulminante (OPSI) em poucas horas, com coagulação intravascular disseminada (as lesões purpúricas) refletindo o consumo maciço de fatores de coagulação pela resposta inflamatória descontrolada, por isso a conduta não espera confirmação laboratorial, é clínica e imediata.",
+  "materia_relacionada": "Este caso mostra na prática o papel do baço como órgão linfoide secundário: seus macrófagos fazem a 'limpeza' do sangue, opsonizando e fagocitando bactérias encapsuladas (pneumococo, meningococo, H. influenzae tipo b) que escapam da resposta por anticorpo isolada, essas bactérias têm cápsula de polissacarídeo justamente pra resistir à fagocitose sem essa filtragem extra. Sem baço, a bacteremia por esses organismos pode evoluir pra sepse fulminante (OPSI) em poucas horas, com coagulação intravascular disseminada (as lesões purpúricas) refletindo o consumo maciço de fatores de coagulação pela resposta inflamatória descontrolada, por isso a conduta não espera confirmação laboratorial, é clínica e imediata. Aula: Prof. Barbuto.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Uma paciente chegando em choque séptico, evoluindo desse jeito fulminante, com uma cirurgia prévia no histórico dela... prestem atenção nesse detalhe do histórico cirúrgico. Ele muda tudo nesse caso.",
     "piBaixo": "Cota apertando, doutor(a)? Cada exame pedido sem necessidade é PI que não vai sobrar quando você precisar de verdade, e nesse caso, tempo é o recurso mais escasso de todos.",
-    "fechamento": "Isso aqui é o motivo pelo qual todo esplenectomizado devia sair do hospital vacinado e com um cartão no bolso avisando que não tem baço. Guarda isso, cai bastante em prova, e mais importante: salva vida.",
+    "fechamento": "Isso aqui é o motivo pelo qual todo esplenectomizado devia sair do hospital vacinado e com um cartão no bolso avisando que não tem baço. Guarda isso, cai bastante em prova, e mais importante: salva vida. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "O histórico cirúrgico dela é a pista mais importante do caso inteiro, pensa em qual órgão ela perdeu.",
       "Pensa em como o corpo consegue destruir um invasor que se disfarça bem demais pra ser reconhecido só por anticorpo circulante.",

@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-04-01-facil",
   "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
-  "materia_relacionada": "Este caso aplica os princípios físicos do ultrassom vistos na aula sobre radiografia convencional e ultrassonografia: o feixe sonoro reflete fortemente em interfaces de densidade muito diferente (cálculo vs. bile), gerando o eco hiperecogênico com sombra acústica posterior, o cálculo literalmente bloqueia o som, criando uma sombra atrás dele na imagem. Clinicamente, a colecistocinina liberada após gordura contrai a vesícula contra esse cálculo impactado, e a ausência de febre/leucocitose/Murphy é o que descarta colecistite e mantém a indicação cirúrgica eletiva, não de urgência.",
+  "materia_relacionada": "Este caso aplica os princípios físicos do ultrassom vistos na aula sobre radiografia convencional e ultrassonografia: o feixe sonoro reflete fortemente em interfaces de densidade muito diferente (cálculo vs. bile), gerando o eco hiperecogênico com sombra acústica posterior, o cálculo literalmente bloqueia o som, criando uma sombra atrás dele na imagem. Clinicamente, a colecistocinina liberada após gordura contrai a vesícula contra esse cálculo impactado, e a ausência de febre/leucocitose/Murphy é o que descarta colecistite e mantém a indicação cirúrgica eletiva, não de urgência. Aula: Raphael Oliveira.",
   "area": "Gastroenterologia",
   "prova": "P1",
   "dificuldade": "facil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Dor recorrente ligada à comida gordurosa, sem febre... antes de pedir uma tomografia cara, pensem no exame de imagem certo pra cada situação. Ultrassom não é 'exame fraco', é o exame certo aqui.",
     "piBaixo": "Cota apertando? Bom sinal, na real, mostra que você não está pedindo tudo de uma vez só porque existe.",
-    "fechamento": "USG de abdome pra vesícula é como estetoscópio pra cardiologista: barato, rápido, sem radiação, e resolve a maioria dos casos. Guardem isso.",
+    "fechamento": "USG de abdome pra vesícula é como estetoscópio pra cardiologista: barato, rápido, sem radiação, e resolve a maioria dos casos. Guardem isso. É exatamente isso que o Prof. Raphael Oliveira mostra.",
     "dicas": [
       "Repara no padrão: dor sempre ligada a um tipo específico de alimento. Isso aponta pra um órgão bem específico do sistema digestivo.",
       "Sem febre, sem Murphy positivo, pensa no que isso descarta antes de fechar o raciocínio.",

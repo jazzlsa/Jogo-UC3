@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-83-01-medio",
   "tema": "Tema 83 · Aspectos Metabólicos dos Tumores",
-  "materia_relacionada": "Este caso aplica o chamado efeito Warburg visto na aula: células neoplásicas costumam preferir a via glicolítica pra gerar energia, mesmo quando têm oxigênio disponível de sobra, porque não precisam só de energia, precisam sobretudo de matéria-prima pra construir biomassa nova rapidamente, um metabolismo alterado que pode ser explorado como ferramenta diagnóstica.",
+  "materia_relacionada": "Este caso aplica o chamado efeito Warburg visto na aula: células neoplásicas costumam preferir a via glicolítica pra gerar energia, mesmo quando têm oxigênio disponível de sobra, porque não precisam só de energia, precisam sobretudo de matéria-prima pra construir biomassa nova rapidamente, um metabolismo alterado que pode ser explorado como ferramenta diagnóstica. Aula: Profa. Deborah Schechtman.",
   "area": "Oncologia",
   "prova": "P4",
   "dificuldade": "medio",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 64 anos, emagrecimento importante e progressivo há quatro meses, sem sintoma localizatório claro nenhum até agora. Antes de mandar pra casa achando que é só falta de apetite, pensa no que mais poderia estar consumindo energia do corpo dela em algum lugar escondido.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Não tinha nada visível, nenhuma massa, nenhum gânglio. Só um jeito diferente de queimar açúcar, escondido em algum lugar do corpo dela, que a imagem certa finalmente revelou.",
+    "fechamento": "Não tinha nada visível, nenhuma massa, nenhum gânglio. Só um jeito diferente de queimar açúcar, escondido em algum lugar do corpo dela, que a imagem certa finalmente revelou. É exatamente isso que a Profa. Deborah Schechtman mostra.",
     "dicas": [
       "Releia com atenção como foi esse emagrecimento (rápido, progressivo, sem explicação por dieta) e se ela tem algum sintoma localizatório específico, mesmo que discreto.",
       "Pensa em por que uma célula que está se dividindo muito rápido preferiria fazer um tipo de metabolismo menos eficiente em gerar energia por molécula de glicose, mesmo tendo oxigênio disponível de sobra, se ela precisa sobretudo de matéria-prima pra construir biomassa nova, e não só de energia pronta.",

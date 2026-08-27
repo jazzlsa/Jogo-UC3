@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-49-01-dificil",
   "tema": "Tema 49 · Ativação de Células B e Plasticidade da Resposta Humoral",
-  "materia_relacionada": "Este caso aplica a interação CD40-CD40L vista na aula sobre ativação de linfócitos B: o linfócito T ativado precisa expressar CD40L e se ligar ao CD40 do linfócito B para dar o sinal de troca de classe de imunoglobulina (de IgM para IgG ou IgA). Sem esse sinal, o linfócito B continua produzindo apenas IgM, mesmo estando presente e funcional em número normal, e a mesma molécula ausente também compromete a ativação de macrófagos contra certos patógenos oportunistas.",
+  "materia_relacionada": "Este caso aplica a interação CD40-CD40L vista na aula sobre ativação de linfócitos B: o linfócito T ativado precisa expressar CD40L e se ligar ao CD40 do linfócito B para dar o sinal de troca de classe de imunoglobulina (de IgM para IgG ou IgA). Sem esse sinal, o linfócito B continua produzindo apenas IgM, mesmo estando presente e funcional em número normal, e a mesma molécula ausente também compromete a ativação de macrófagos contra certos patógenos oportunistas. Aula: Prof. Barbuto.",
   "area": "Imunologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Menino de 2 anos, infecções sinopulmonares direto desde bebê, uma pneumonia grave no ano passado, e agora febre e tosse de novo. Presta atenção em que tipo exato foi aquela pneumonia grave.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Os linfócitos B dele estavam lá, prontinhos, do jeito certo em número. Só faltava alguém apertar o botão de trocar de anticorpo.",
+    "fechamento": "Os linfócitos B dele estavam lá, prontinhos, do jeito certo em número. Só faltava alguém apertar o botão de trocar de anticorpo. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "Releia com atenção o tipo exato daquela pneumonia grave do ano passado, e se outros meninos da família materna também tiveram infecções parecidas.",
       "Pensa em como um linfócito T precisa se conectar a um receptor específico na superfície de um linfócito B pra dar o sinal de trocar o tipo de anticorpo que ele produz, e o que aconteceria se esse sinal nunca chegasse.",

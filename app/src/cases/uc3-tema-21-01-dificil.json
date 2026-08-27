@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-21-01-dificil",
   "tema": "Tema 21 · Diabetes Mellitus: Tipo 1 e Tipo 2",
-  "materia_relacionada": "Este caso mostra que a distinção entre diabetes tipo 1 e tipo 2 não é só idade e peso, e sim o mecanismo de destruição da célula beta: existe uma forma autoimune de início lento em adultos que se disfarça de tipo 2 no consultório, mas se comporta como tipo 1 na evolução, exatamente a armadilha discutida no Grand Round sobre fisiopatologia imunológica do diabetes.",
+  "materia_relacionada": "Este caso mostra que a distinção entre diabetes tipo 1 e tipo 2 não é só idade e peso, e sim o mecanismo de destruição da célula beta: existe uma forma autoimune de início lento em adultos que se disfarça de tipo 2 no consultório, mas se comporta como tipo 1 na evolução, exatamente a armadilha discutida no Grand Round sobre fisiopatologia imunológica do diabetes. Aula: Dra. Sharon Nina Admoni.",
   "area": "Endocrinologia",
   "prova": "P1",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 34 anos, diabetes há 8 meses, respondia bem ao comprimido e agora parou de funcionar, com emagrecimento sem dieta. O rótulo que colocaram nele no início pode estar errado.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Não era resistência à insulina perdendo controle. Era a fábrica de insulina sendo destruída aos poucos, só que de um jeito mais devagar do que a gente costuma esperar.",
+    "fechamento": "Não era resistência à insulina perdendo controle. Era a fábrica de insulina sendo destruída aos poucos, só que de um jeito mais devagar do que a gente costuma esperar. É exatamente isso que a Dra. Sharon Admoni mostra.",
     "dicas": [
       "Releia com atenção como ele respondeu ao primeiro remédio em comprimido, e por quanto tempo essa resposta durou antes de piorar.",
       "Pensa em como duas doenças que parecem a mesma coisa de fora (glicemia alta, mesma faixa de idade e peso) podem ter mecanismos de destruição da célula beta completamente diferentes: um mais rápido e ligado à resistência periférica, outro mais lento e de origem autoimune.",

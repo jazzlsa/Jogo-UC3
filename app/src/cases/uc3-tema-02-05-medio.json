@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-05-medio",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso trabalha por que a TC (não o USG) é o exame de escolha pra dor em fossa ilíaca esquerda com febre: o gás intestinal atenua o feixe ultrassônico, igual no caso de isquemia mesentérica, mas aqui a TC também classifica a gravidade (classificação de Hinchey), diferenciando um quadro inflamatório simples de um já complicado por abscesso ou perfuração, informação que muda diretamente a conduta entre tratamento clínico e cirurgia de urgência. A diverticulite em si nasce da microperfuração de um divertículo obstruído por fecalito, e por acometer o sigmoide (à esquerda) é conhecida como 'a apendicite do lado esquerdo'.",
+  "materia_relacionada": "Este caso trabalha por que a TC (não o USG) é o exame de escolha pra dor em fossa ilíaca esquerda com febre: o gás intestinal atenua o feixe ultrassônico, igual no caso de isquemia mesentérica, mas aqui a TC também classifica a gravidade (classificação de Hinchey), diferenciando um quadro inflamatório simples de um já complicado por abscesso ou perfuração, informação que muda diretamente a conduta entre tratamento clínico e cirurgia de urgência. A diverticulite em si nasce da microperfuração de um divertículo obstruído por fecalito, e por acometer o sigmoide (à esquerda) é conhecida como 'a apendicite do lado esquerdo'. Aula: Profa. Dra. Claudia Leite.",
   "area": "Gastroenterologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente de 56 anos com dor na fossa ilíaca esquerda e febre. Na radiologia, cada método tem sua indicação exata e suas limitações, como o gás intestinal. Vamos ver se você escolhe a ferramenta certa.",
     "piBaixo": "Cuidado com a cota de investigação! No SUS ou no privado, pedir exames sem critério esgota seus recursos e não traz a resposta que o paciente precisa.",
-    "fechamento": "Excelente raciocínio! A Tomografia foi o exame preciso aqui, pois a ultrassonografia é limitada pelo gás das alças intestinais. Saber indicar o método correto economiza recursos e fecha o diagnóstico.",
+    "fechamento": "Excelente raciocínio! A Tomografia foi o exame preciso aqui, pois a ultrassonografia é limitada pelo gás das alças intestinais. Saber indicar o método correto economiza recursos e fecha o diagnóstico. É exatamente isso que a Profa. Claudia Leite mostra.",
     "dicas": [
       "Releia onde exatamente a dor está localizada e há quanto tempo ela vem incomodando.",
       "Pensa em como o aumento de pressão dentro do cólon, ao longo dos anos, pode formar pontos fracos na parede intestinal.",

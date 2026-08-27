@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-27-01-dificil",
   "tema": "Tema 27 · Fisiologia e Crescimento de Comunidades Microbianas",
-  "materia_relacionada": "Este caso aplica dois conceitos da aula sobre crescimento bacteriano: bactérias organizadas em biofilme sobre uma superfície (aqui, um cateter) se comunicam por quorum sensing e formam uma matriz protetora que dificulta a ação de antibióticos, mesmo quando o organismo é sensível no antibiograma; e a curva de crescimento explica por que uma amostra colhida direto do biofilme cresce em cultura mais rápido que uma amostra periférica com poucas bactérias circulantes.",
+  "materia_relacionada": "Este caso aplica dois conceitos da aula sobre crescimento bacteriano: bactérias organizadas em biofilme sobre uma superfície (aqui, um cateter) se comunicam por quorum sensing e formam uma matriz protetora que dificulta a ação de antibióticos, mesmo quando o organismo é sensível no antibiograma; e a curva de crescimento explica por que uma amostra colhida direto do biofilme cresce em cultura mais rápido que uma amostra periférica com poucas bactérias circulantes. Aula: Profa. Elisabete Vicente.",
   "area": "Infectologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 58 anos, cateter de longa permanência há quatro meses, febre que melhora com antibiótico e sempre volta. Esse padrão de vai-e-volta é a pista mais importante do caso inteiro.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O antibiótico até chegava lá. O problema é que a bactéria não estava sozinha esperando ele, estava protegida por uma comunidade inteira.",
+    "fechamento": "O antibiótico até chegava lá. O problema é que a bactéria não estava sozinha esperando ele, estava protegida por uma comunidade inteira. É exatamente isso que a Profa. Elisabete Vicente mostra.",
     "dicas": [
       "Releia com atenção o padrão da febre dela: ela sempre melhora com antibiótico e depois volta, isso não é o esperado numa infecção bem tratada.",
       "Pensa em como bactérias organizadas numa comunidade grudada numa superfície se comunicam entre si pra formar uma camada protetora contra antibiótico e sistema imune, bem diferente de uma bactéria sozinha flutuando solta no sangue.",

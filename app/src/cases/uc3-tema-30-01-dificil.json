@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-30-01-dificil",
   "tema": "Tema 30 · Controle de Microrganismos em Ambiente de Saúde",
-  "materia_relacionada": "Este caso aplica a classificação de Spaulding vista na aula: instrumentos semicríticos, que tocam mucosa mas não tecido estéril (como um endoscópio), exigem desinfecção de alto nível, não necessariamente esterilização completa, e certos micro-organismos formadores de biofilme sobrevivem justamente quando esse processo intermediário falha por tempo ou concentração inadequados do desinfetante.",
+  "materia_relacionada": "Este caso aplica a classificação de Spaulding vista na aula: instrumentos semicríticos, que tocam mucosa mas não tecido estéril (como um endoscópio), exigem desinfecção de alto nível, não necessariamente esterilização completa, e certos micro-organismos formadores de biofilme sobrevivem justamente quando esse processo intermediário falha por tempo ou concentração inadequados do desinfetante. Aula: Ana Marcia de Sá Guimarães.",
   "area": "Infectologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 61 anos, febre alta e calafrios três dias após uma colonoscopia de rotina. Antes de pensar só na doença dele, pensa também no instrumento que passou por ele.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O problema não estava só nele. Estava também num processo que deveria ter matado esse micro-organismo antes do exame nem começar.",
+    "fechamento": "O problema não estava só nele. Estava também num processo que deveria ter matado esse micro-organismo antes do exame nem começar. É exatamente isso que a Profa. Ana Marcia Guimarães mostra.",
     "dicas": [
       "Releia com atenção o que ele fez nos últimos dias antes da febre começar, teve algum procedimento recente?",
       "Pensa na diferença entre limpar um instrumento até eliminar quase todo micro-organismo perigoso (o suficiente pra entrar em contato com mucosa) e esterilizar de verdade, eliminando até esporo, e o que pode acontecer quando esse primeiro processo falha.",

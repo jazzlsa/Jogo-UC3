@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-05-03-dificil",
   "tema": "Tema 05 · Princípios da tomografia computadorizada",
-  "materia_relacionada": "Este caso aplica os conceitos de fases de contraste na tomografia computadorizada. A fase tardia ou excretora é fundamental para identificar o extravasamento de urina contrastada, diferenciando-o de hematomas ou sangramento ativo pelo comportamento de densidade na Escala Hounsfield.",
+  "materia_relacionada": "Este caso aplica os conceitos de fases de contraste na tomografia computadorizada. A fase tardia ou excretora é fundamental para identificar o extravasamento de urina contrastada, diferenciando-o de hematomas ou sangramento ativo pelo comportamento de densidade na Escala Hounsfield. Aula: Mauricio Ricardo Moreira da Silva Filho.",
   "area": "Cirurgia geral",
   "prova": "Todas",
   "dificuldade": "dificil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Temos um trauma abdominal e lombar fechado aqui. O rapaz está estável, mas essa hematúria macroscópica preocupa. Vamos investigar com inteligência, sem desperdiçar recursos.",
     "piBaixo": "Sua pontuação de investigação está baixa. Pense muito bem antes de pedir o próximo exame, cada escolha agora é crítica.",
-    "fechamento": "Excelente raciocínio. Compreender as fases de contraste e a física da tomografia evitou uma cirurgia desnecessária e garantiu o tratamento correto. Muito bem.",
+    "fechamento": "Excelente raciocínio. Compreender as fases de contraste e a física da tomografia evitou uma cirurgia desnecessária e garantiu o tratamento correto. Muito bem. É exatamente isso que o Prof. Mauricio Moreira da Silva Filho mostra.",
     "dicas": [
       "Releia a queixa do paciente e preste atenção na presença de sangue na urina após o trauma lombar.",
       "Lembre-se de como os diferentes fluidos se comportam na escala de densidade Hounsfield e como o contraste é eliminado pelo rim.",

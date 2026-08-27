@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-75-01-dificil",
   "tema": "Tema 75 · Biologia e Crescimento dos Tumores",
-  "materia_relacionada": "Este caso aplica o conceito de grau de diferenciação visto na aula: diferenciação é o quanto uma célula neoplásica ainda se parece, estrutural e funcionalmente, com a célula normal que lhe deu origem. Um tumor pode já ser maligno há tempos, mas o que determina boa parte da sua agressividade clínica é o quanto ele perdeu essa semelhança, um processo que pode se acelerar de forma abrupta mesmo numa lesão antiga e estável.",
+  "materia_relacionada": "Este caso aplica o conceito de grau de diferenciação visto na aula: diferenciação é o quanto uma célula neoplásica ainda se parece, estrutural e funcionalmente, com a célula normal que lhe deu origem. Um tumor pode já ser maligno há tempos, mas o que determina boa parte da sua agressividade clínica é o quanto ele perdeu essa semelhança, um processo que pode se acelerar de forma abrupta mesmo numa lesão antiga e estável. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Oncologia",
   "prova": "P4",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Senhora de 68 anos, bócio estável havia mais de uma década e agora um crescimento explosivo em três semanas, com disfagia e rouquidão nova. Repara bem na diferença entre o ritmo antigo dessa lesão e o ritmo dela agora.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "A lesão dela não era nova. Era antiga e estável, até que uma parte dela decidiu parar de se comportar como tireoide.",
+    "fechamento": "A lesão dela não era nova. Era antiga e estável, até que uma parte dela decidiu parar de se comportar como tireoide. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção o contraste entre o tempo que esse bócio já existia, estável, e a velocidade com que ele mudou nas últimas semanas, e como estão a voz e a deglutição dela agora.",
       "Pensa em como uma célula pode ser maligna há anos mas ainda se parecer bastante com a célula normal que a originou, e no que aconteceria clinicamente se, numa lesão antiga, uma parte dela perdesse quase toda essa semelhança de uma vez.",

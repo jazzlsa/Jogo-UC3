@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-20-01-dificil",
   "tema": "Tema 20 · MHC, Processamento e Apresentação de Antígenos",
-  "materia_relacionada": "Este caso aplica diretamente o papel do MHC de classe II na ativação de linfócitos T CD4: sem apresentação de antígeno via MHC de classe II, as células dendríticas e outras apresentadoras não conseguem ativar os auxiliares CD4, o que compromete não só a imunidade celular como também a produção de anticorpo, já que os linfócitos B dependem da ajuda desses CD4 pra trocar de classe, exatamente a integração entre as duas vias discutida na aula.",
+  "materia_relacionada": "Este caso aplica diretamente o papel do MHC de classe II na ativação de linfócitos T CD4: sem apresentação de antígeno via MHC de classe II, as células dendríticas e outras apresentadoras não conseguem ativar os auxiliares CD4, o que compromete não só a imunidade celular como também a produção de anticorpo, já que os linfócitos B dependem da ajuda desses CD4 pra trocar de classe, exatamente a integração entre as duas vias discutida na aula. Aula: Prof. Barbuto.",
   "area": "Imunologia",
   "prova": "P1",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Menina de 14 meses, infecções respiratórias direto, diarreia por parasita que não melhora, sem ganhar peso. Vamos entender o que exatamente falta na defesa dela.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "As células dela até tinham os soldados certos. O problema era que ninguém conseguia mostrar o inimigo pra eles.",
+    "fechamento": "As células dela até tinham os soldados certos. O problema era que ninguém conseguia mostrar o inimigo pra eles. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "Releia com atenção o resultado daquele exame de fezes anterior, esse parasita específico não costuma causar diarreia grave em quem tem defesa celular funcionando normalmente.",
       "Pensa em como uma célula do sistema imune \"mostra\" um pedaço do invasor pra ativar o tipo certo de linfócito T, e o que aconteceria se essa célula simplesmente não conseguisse mostrar nada pra ninguém.",

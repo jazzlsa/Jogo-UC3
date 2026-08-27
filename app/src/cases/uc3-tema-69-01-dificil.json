@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-69-01-dificil",
   "tema": "Tema 69 · Distúrbios da Coagulação e Obstrução Vascular",
-  "materia_relacionada": "Este caso aplica a tríade de Virchow e o conceito de embolia visto na aula: um coágulo formado numa veia profunda da perna (trombose) pode se soltar (êmbolo), viajar pela circulação venosa até o lado direito do coração e ficar preso numa artéria pulmonar mais estreita, causando infarto do território pulmonar irrigado por ela, uma sequência direta entre trombose, embolia e infarto discutida na aula.",
+  "materia_relacionada": "Este caso aplica a tríade de Virchow e o conceito de embolia visto na aula: um coágulo formado numa veia profunda da perna (trombose) pode se soltar (êmbolo), viajar pela circulação venosa até o lado direito do coração e ficar preso numa artéria pulmonar mais estreita, causando infarto do território pulmonar irrigado por ela, uma sequência direta entre trombose, embolia e infarto discutida na aula. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Pneumologia",
   "prova": "P4",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 45 anos, falta de ar súbita e dor pleurítica, voltou de uma viagem longa de avião há poucos dias. Não esquece de examinar as pernas dela antes de pensar só no pulmão ou no coração.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O problema não começou no pulmão dela. Começou bem longe dali, numa veia da perna, e viajou até ficar preso onde não devia.",
+    "fechamento": "O problema não começou no pulmão dela. Começou bem longe dali, numa veia da perna, e viajou até ficar preso onde não devia. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção se ela fez alguma viagem longa ou ficou muito tempo imóvel recentemente, e como está a perna dela.",
       "Pensa em como um coágulo formado numa veia profunda da perna pode se soltar, viajar pela circulação venosa, passar pelo lado direito do coração, e ficar preso numa artéria bem mais estreita, nos pulmões.",

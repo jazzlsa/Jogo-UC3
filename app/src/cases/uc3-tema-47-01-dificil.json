@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-47-01-dificil",
   "tema": "Tema 47 · Patogênese e Patologia da Inflamação Granulomatosa",
-  "materia_relacionada": "Este caso aplica a distinção histológica entre granuloma caseoso e não caseoso vista na aula: a presença ou ausência de necrose central dentro do granuloma orienta a causa provável (infecciosa, como tuberculose, versus não infecciosa, como sarcoidose), mudando completamente a investigação e a conduta a partir do mesmo achado inicial (linfonodomegalia com granulomas).",
+  "materia_relacionada": "Este caso aplica a distinção histológica entre granuloma caseoso e não caseoso vista na aula: a presença ou ausência de necrose central dentro do granuloma orienta a causa provável (infecciosa, como tuberculose, versus não infecciosa, como sarcoidose), mudando completamente a investigação e a conduta a partir do mesmo achado inicial (linfonodomegalia com granulomas). Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Pneumologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 33 anos, achado incidental de linfonodos aumentados no pulmão e manchas dolorosas nas canelas. Antes de pensar direto em tuberculose, olha bem pro que a biópsia desse linfonodo realmente mostra por dentro.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O granuloma dela estava organizado igualzinho, só faltava aquele centro morto que a tuberculose sempre deixa pra trás.",
+    "fechamento": "O granuloma dela estava organizado igualzinho, só faltava aquele centro morto que a tuberculose sempre deixa pra trás. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção se há histórico de contato com tuberculose ou exposição ocupacional a metais, e observa bem a pele das pernas dela.",
       "Pensa na diferença entre um granuloma com uma área central de morte celular visível (necrose) e um granuloma organizado sem essa necrose central, e o que isso pode sugerir sobre a causa por trás dele.",

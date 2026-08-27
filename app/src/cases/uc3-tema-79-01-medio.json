@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-79-01-medio",
   "tema": "Tema 79 · Carcinogênese Sequencial",
-  "materia_relacionada": "Este caso aplica o conceito de carcinogênese multistep visto na aula: um tumor raramente surge de uma mutação única, e sim de um acúmulo sequencial e progressivo de alterações independentes em genes reguladores do ciclo celular e do reparo do DNA, um processo que pode levar anos e que, se interrompido a tempo numa etapa ainda pré-maligna, evita o desfecho final.",
+  "materia_relacionada": "Este caso aplica o conceito de carcinogênese multistep visto na aula: um tumor raramente surge de uma mutação única, e sim de um acúmulo sequencial e progressivo de alterações independentes em genes reguladores do ciclo celular e do reparo do DNA, um processo que pode levar anos e que, se interrompido a tempo numa etapa ainda pré-maligna, evita o desfecho final. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Gastroenterologia",
   "prova": "P4",
   "dificuldade": "medio",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 62 anos, sangramento intestinal intermitente, fezes mais finas, e um histórico de pólipos removidos há anos sem seguimento. Pensa em quanto tempo geralmente leva pra uma lesão dessas mudar de comportamento.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Aquele pólipo antigo não virou câncer da noite pro dia. Foram anos de pequenas mutações se somando, uma de cada vez, até a última peça se encaixar.",
+    "fechamento": "Aquele pólipo antigo não virou câncer da noite pro dia. Foram anos de pequenas mutações se somando, uma de cada vez, até a última peça se encaixar. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção o histórico de pólipos removidos dele e há quanto tempo ele deveria ter repetido a colonoscopia de seguimento, e como estão as fezes e o hábito intestinal agora.",
       "Pensa em como um tumor raramente surge de uma mutação genética única, e sim de várias alterações independentes se acumulando ao longo do tempo em genes que controlam o ciclo celular e o reparo do DNA, cada uma abrindo caminho pra próxima.",

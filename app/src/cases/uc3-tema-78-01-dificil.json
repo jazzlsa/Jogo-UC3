@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-78-01-dificil",
   "tema": "Tema 78 · Agentes Carcinogênicos Biológicos",
-  "materia_relacionada": "Este caso aplica o conceito de vírus oncogênico visto na aula: um vírus pode contribuir pra formação de um tumor sem estar presente em todas as células dele o tempo todo, ajudando a imortalizar a célula infectada, que depois só precisa de uma segunda alteração genética independente pra virar de fato uma neoplasia maligna de crescimento extremamente rápido.",
+  "materia_relacionada": "Este caso aplica o conceito de vírus oncogênico visto na aula: um vírus pode contribuir pra formação de um tumor sem estar presente em todas as células dele o tempo todo, ajudando a imortalizar a célula infectada, que depois só precisa de uma segunda alteração genética independente pra virar de fato uma neoplasia maligna de crescimento extremamente rápido. Aula: Prof. Enrique Boccardo.",
   "area": "Oncologia",
   "prova": "P4",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Menino de 9 anos, HIV positivo com adesão irregular à TARV, massa abdominal que praticamente dobrou de tamanho em poucos dias. Repara bem na velocidade absurda desse crescimento, isso não é comum na maioria dos tumores sólidos.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Um vírus que a maioria de nós carrega sem problema nenhum ajudou a preparar o terreno. Só faltava um segundo evento genético pra tudo crescer fora de controle, rápido assim.",
+    "fechamento": "Um vírus que a maioria de nós carrega sem problema nenhum ajudou a preparar o terreno. Só faltava um segundo evento genético pra tudo crescer fora de controle, rápido assim. É exatamente isso que o Prof. Boccardo mostra.",
     "dicas": [
       "Releia com atenção a velocidade com que essa massa abdominal cresceu, e como está a adesão dele à TARV ultimamente.",
       "Pensa em como um vírus extremamente comum, que a maioria das pessoas carrega sem nunca adoecer por causa dele, pode contribuir pra imortalizar uma célula infectada, deixando faltar só mais uma alteração genética independente pra ela virar uma neoplasia de crescimento muito acelerado, principalmente quando o sistema imune está comprometido.",

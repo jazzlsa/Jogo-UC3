@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-02-03-dificil",
   "tema": "Tema 02 · Ferramentas do Diagnóstico Radiológico",
-  "materia_relacionada": "Este caso explora por que a isquemia mesentérica aguda é chamada de 'a grande imitadora': a dor visceral intensa vem da distensão e hipóxia da parede intestinal, mas o peritônio parietal só se inflama (gerando Blumberg positivo) depois que a necrose transmural já começou, por isso a dor desproporcional ao exame físico é o sinal de alarme central. O USG falha aqui porque o gás nas alças isquêmicas/paralisadas bloqueia o feixe sonoro, e a Angio-TC precisa ser rápida porque cada hora de oclusão sem revascularização aumenta a extensão de intestino necrosado, tempo é intestino, do mesmo jeito que 'tempo é músculo' no infarto.",
+  "materia_relacionada": "Este caso explora por que a isquemia mesentérica aguda é chamada de 'a grande imitadora': a dor visceral intensa vem da distensão e hipóxia da parede intestinal, mas o peritônio parietal só se inflama (gerando Blumberg positivo) depois que a necrose transmural já começou, por isso a dor desproporcional ao exame físico é o sinal de alarme central. O USG falha aqui porque o gás nas alças isquêmicas/paralisadas bloqueia o feixe sonoro, e a Angio-TC precisa ser rápida porque cada hora de oclusão sem revascularização aumenta a extensão de intestino necrosado, tempo é intestino, do mesmo jeito que 'tempo é músculo' no infarto. Aula: Profa. Dra. Claudia Leite.",
   "area": "Cirurgia geral",
   "prova": "P1",
   "dificuldade": "dificil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente idoso com dor abdominal atroz e exame físico inocente é a armadilha clássica do plantão. Pense bem em qual método de imagem vai te dar a resposta sem perder tempo vital.",
     "piBaixo": "Cuidado com o gasto de PI! Pedir exames sem entender as limitações técnicas de cada método radiológico vai te deixar no escuro.",
-    "fechamento": "Viu como o Raio-X e a Ultrassonografia te deixariam na mão? O gás intestinal bloqueia o ultrassom e a radiografia é inespecífica. A Angio-TC vascular era o caminho direto para o diagnóstico correto.",
+    "fechamento": "Viu como o Raio-X e a Ultrassonografia te deixariam na mão? O gás intestinal bloqueia o ultrassom e a radiografia é inespecífica. A Angio-TC vascular era o caminho direto para o diagnóstico correto. É exatamente isso que a Profa. Claudia Leite mostra.",
     "dicas": [
       "Releia a intensidade da dor que ele relata e compare com o que você vai achar na palpação abdominal, repare se bate ou não.",
       "Idade avançada somada a uma arritmia cardíaca aumenta bastante o risco de um evento embólico em algum território visceral.",

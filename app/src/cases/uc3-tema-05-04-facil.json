@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-05-04-facil",
   "tema": "Tema 05 · Princípios da tomografia computadorizada",
-  "materia_relacionada": "Este caso demonstra a aplicação prática da escala de Unidades Hounsfield (UH) e da seleção de fases de contraste na tomografia computadorizada. Compreender que estruturas muito densas, como o cálcio do cálculo urinário, já possuem alta atenuação natural nos permite poupar o paciente do uso de contraste iodado desnecessário, o qual ocultaria a patologia ao mimetizar a mesma densidade na via excretora.",
+  "materia_relacionada": "Este caso demonstra a aplicação prática da escala de Unidades Hounsfield (UH) e da seleção de fases de contraste na tomografia computadorizada. Compreender que estruturas muito densas, como o cálcio do cálculo urinário, já possuem alta atenuação natural nos permite poupar o paciente do uso de contraste iodado desnecessário, o qual ocultaria a patologia ao mimetizar a mesma densidade na via excretora. Aula: Mauricio Ricardo Moreira da Silva Filho.",
   "area": "Nefrologia/Urologia",
   "prova": "Todas",
   "dificuldade": "facil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente de 35 anos com dor lombar súbita e excruciante. Ele não para quieto na maca. Vamos investigar com calma, sem gastar seus pontos de forma descuidada.",
     "piBaixo": "Seus pontos de investigação estão acabando. Pense bem antes de pedir o próximo exame.",
-    "fechamento": "Excelente condução. A tomografia sem contraste é de fato o padrão-ouro aqui. Vamos revisar a física por trás disso.",
+    "fechamento": "Excelente condução. A tomografia sem contraste é de fato o padrão-ouro aqui. Vamos revisar a física por trás disso. É exatamente isso que o Prof. Mauricio Moreira da Silva Filho mostra.",
     "dicas": [
       "Releia a queixa do paciente e repare no comportamento dele na maca, que é muito típico de um tipo específico de dor.",
       "Pense nas densidades dos tecidos na escala Hounsfield: qual exame de imagem consegue ver um elemento muito denso sem precisar de contraste?",

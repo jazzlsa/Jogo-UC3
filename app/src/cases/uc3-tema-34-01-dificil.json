@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-34-01-dificil",
   "tema": "Tema 34 · Genética Bacteriana",
-  "materia_relacionada": "Este caso aplica o conceito de transferência horizontal de genes visto na aula: uma bactéria pode adquirir resistência a antibiótico sem precisar de uma mutação própria surgir do zero, recebendo por conjugação um plasmídeo que já carrega o gene de resistência de outra bactéria vizinha, às vezes até de espécie diferente, exatamente o mecanismo que explica uma resistência nova e súbita num paciente sem exposição direta ao antibiótico correspondente.",
+  "materia_relacionada": "Este caso aplica o conceito de transferência horizontal de genes visto na aula: uma bactéria pode adquirir resistência a antibiótico sem precisar de uma mutação própria surgir do zero, recebendo por conjugação um plasmídeo que já carrega o gene de resistência de outra bactéria vizinha, às vezes até de espécie diferente, exatamente o mecanismo que explica uma resistência nova e súbita num paciente sem exposição direta ao antibiótico correspondente. Aula: Profa. Elisabete Vicente.",
   "area": "Infectologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Senhora de 71 anos, infecção urinária de repetição, dessa vez o antibiótico de sempre não funcionou. Antes de pensar só numa mutação nova, pensa em quem mais ela dividiu o quarto no hospital.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "A bactéria dela não precisou inventar nada sozinha. Só pegou emprestado o que já estava pronto, vindo de outra vizinha de quarto.",
+    "fechamento": "A bactéria dela não precisou inventar nada sozinha. Só pegou emprestado o que já estava pronto, vindo de outra vizinha de quarto. É exatamente isso que a Profa. Elisabete Vicente mostra.",
     "dicas": [
       "Releia com atenção se ela teve contato recente com outro paciente internado que já tivesse uma infecção por bactéria resistente conhecida.",
       "Pensa em como uma bactéria pode \"emprestar\" resistência a antibiótico pra outra bactéria vizinha, sem precisar de nenhuma mutação própria surgir do zero, através de um pedaço de DNA que se copia e se transfere entre elas.",

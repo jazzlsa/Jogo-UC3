@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-45-01-dificil",
   "tema": "Tema 45 · Ativação de Linfócitos T e Plasticidade da Resposta Celular",
-  "materia_relacionada": "Este caso aplica o papel do TNF na manutenção do granuloma visto na aula: a comunicação entre linfócitos T e macrófagos, mediada por essa citocina, mantém uma infecção antiga contida e dormente dentro de uma estrutura organizada; bloquear especificamente essa via de sinalização com um medicamento biológico rompe esse equilíbrio e permite a reativação da infecção que estava controlada havia anos.",
+  "materia_relacionada": "Este caso aplica o papel do TNF na manutenção do granuloma visto na aula: a comunicação entre linfócitos T e macrófagos, mediada por essa citocina, mantém uma infecção antiga contida e dormente dentro de uma estrutura organizada; bloquear especificamente essa via de sinalização com um medicamento biológico rompe esse equilíbrio e permite a reativação da infecção que estava controlada havia anos. Aula: Prof. Niels Olsen.",
   "area": "Infectologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 45 anos, doença de Crohn, começou um remédio biológico novo há seis meses e agora tem febre, tosse e emagrecimento. Pergunta se alguém checou alguma coisa antes de começar esse remédio.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O remédio novo não causou o problema direto. Ele só desligou a trava que mantinha um problema antigo fechado dentro de uma estrutura que já existia havia anos.",
+    "fechamento": "O remédio novo não causou o problema direto. Ele só desligou a trava que mantinha um problema antigo fechado dentro de uma estrutura que já existia havia anos. É exatamente isso que o Prof. Niels Olsen mostra.",
     "dicas": [
       "Releia com atenção que medicação ela começou a usar para a doença de base, e se algum exame de rastreio foi feito antes de iniciar esse remédio.",
       "Pensa em como uma citocina específica ajuda a manter uma estrutura organizada de células (contendo uma infecção antiga e dormente) fechada e sob controle, e o que acontece quando um medicamento bloqueia justamente essa citocina.",

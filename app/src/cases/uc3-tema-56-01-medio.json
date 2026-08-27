@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-56-01-medio",
   "tema": "Tema 56 · Substâncias Usadas em Exames de Imagem",
-  "materia_relacionada": "Este caso aplica um conceito importante sobre reações adversas a contraste visto na aula: nem toda reação grave ao meio de contraste iodado é uma alergia mediada por IgE. Existe um mecanismo de ativação direta de mastócitos, sem sensibilização prévia, que produz um quadro clinicamente indistinguível de anafilaxia verdadeira e exige o mesmo tratamento de emergência.",
+  "materia_relacionada": "Este caso aplica um conceito importante sobre reações adversas a contraste visto na aula: nem toda reação grave ao meio de contraste iodado é uma alergia mediada por IgE. Existe um mecanismo de ativação direta de mastócitos, sem sensibilização prévia, que produz um quadro clinicamente indistinguível de anafilaxia verdadeira e exige o mesmo tratamento de emergência. Aula: André Bordini.",
   "area": "Infectologia",
   "prova": "P3",
   "dificuldade": "medio",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 47 anos, mal-estar súbito logo após receber contraste iodado na veia. Repara bem no ritmo do coração dela, isso separa dois diagnósticos bem diferentes aqui.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O corpo dela reagiu exatamente como reagiria numa alergia de verdade. Só que dessa vez, não precisou de anticorpo nenhum pra isso acontecer.",
+    "fechamento": "O corpo dela reagiu exatamente como reagiria numa alergia de verdade. Só que dessa vez, não precisou de anticorpo nenhum pra isso acontecer. É exatamente isso que o Prof. André Bordini mostra.",
     "dicas": [
       "Releia com atenção o tempo entre a infusão do contraste e o início dos sintomas, e como estão a frequência cardíaca e a pressão dela juntas.",
       "Pensa em como uma reação grave a um contraste pode ativar mastócitos e liberar histamina diretamente, sem precisar de um anticorpo específico já formado contra aquela substância, diferente de uma alergia clássica.",

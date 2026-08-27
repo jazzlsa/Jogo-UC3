@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-03-02-medio",
   "tema": "Tema 03 · Ferramentas do Diagnóstico Patológico",
-  "materia_relacionada": "Este caso mostra por que a imuno-histoquímica é indispensável quando a histologia comum (H&E) não basta: três tumores mesenquimais diferentes (GIST, leiomioma, schwannoma) podem parecer idênticos ao microscópio óptico, todos mostram células fusiformes. O painel de marcadores resolve a origem celular: CD117/DOG-1 positivos apontam pras células intersticiais de Cajal (GIST), enquanto desmina apontaria pra músculo liso e S100 pra origem neural. Essa distinção não é só acadêmica: só o GIST, por causa da mutação ativadora no gene KIT, responde ao inibidor de tirosina quinase (imatinibe), um adenocarcinoma comum não responderia a esse tratamento.",
+  "materia_relacionada": "Este caso mostra por que a imuno-histoquímica é indispensável quando a histologia comum (H&E) não basta: três tumores mesenquimais diferentes (GIST, leiomioma, schwannoma) podem parecer idênticos ao microscópio óptico, todos mostram células fusiformes. O painel de marcadores resolve a origem celular: CD117/DOG-1 positivos apontam pras células intersticiais de Cajal (GIST), enquanto desmina apontaria pra músculo liso e S100 pra origem neural. Essa distinção não é só acadêmica: só o GIST, por causa da mutação ativadora no gene KIT, responde ao inibidor de tirosina quinase (imatinibe), um adenocarcinoma comum não responderia a esse tratamento. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Oncologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Massa gástrica submucosa com sangramento. A microscopia óptica comum vê células fusiformes, mas quem diferencia esse tumor e aponta a terapia-alvo é a patologia molecular e imunohistoquímica. Use seus pontos com sabedoria.",
     "piBaixo": "Economize seus recursos! Patologia de precisão exige saber exatamente qual marcador pedir na imunohistoquímica, não sair solicitando o painel inteiro sem raciocínio.",
-    "fechamento": "Excelente raciocínio. A hematoxilina-eosina mostrou tumor mesenquimal fusocelular, mas foi o marcador CD117 (c-KIT) na imunohistoquímica que carimbou o diagnóstico de GIST e abriu portas para o tratamento com inibidor de tirosina quinase.",
+    "fechamento": "Excelente raciocínio. A hematoxilina-eosina mostrou tumor mesenquimal fusocelular, mas foi o marcador CD117 (c-KIT) na imunohistoquímica que carimbou o diagnóstico de GIST e abriu portas para o tratamento com inibidor de tirosina quinase. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Uma lesão que cresce por baixo da mucosa (não a partir dela) sugere uma origem diferente de um adenocarcinoma comum.",
       "Pensa em qual camada da parede do tubo digestivo tem células com potencial de originar esse tipo de tumor.",

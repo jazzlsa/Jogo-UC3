@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-41-01-dificil",
   "tema": "Tema 41 · Identificação Clássica de Bactérias",
-  "materia_relacionada": "Este caso aplica uma prova bioquímica clássica de identificação vista na aula, o teste de urease, e a característica de crescimento em ondas concêntricas (swarming) em ágar, ambas usadas para reconhecer um gênero bacteriano específico que, ao quebrar a ureia da urina, cria as condições químicas exatas para formar um tipo particular de cálculo renal.",
+  "materia_relacionada": "Este caso aplica uma prova bioquímica clássica de identificação vista na aula, o teste de urease, e a característica de crescimento em ondas concêntricas (swarming) em ágar, ambas usadas para reconhecer um gênero bacteriano específico que, ao quebrar a ureia da urina, cria as condições químicas exatas para formar um tipo particular de cálculo renal. Aula: Profa. Elisabete Vicente.",
   "area": "Nefrologia/Urologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 39 anos, infecção urinária de repetição há mais de um ano, urina com cheiro forte de amônia, agora com dor lombar. Esse cheiro específico não é só \"urina de gente doente\", é uma pista bioquímica de verdade.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "A bactéria dele não estava só infectando, estava mudando a química da urina a ponto de construir uma pedra do tamanho do próprio rim.",
+    "fechamento": "A bactéria dele não estava só infectando, estava mudando a química da urina a ponto de construir uma pedra do tamanho do próprio rim. É exatamente isso que a Profa. Elisabete Vicente mostra.",
     "dicas": [
       "Releia com atenção o cheiro da urina dele, e se essas infecções urinárias já vêm se repetindo há muito tempo.",
       "Pensa em como certas bactérias conseguem quebrar a ureia da urina, liberando amônia e tornando o ambiente urinário alcalino, e o que esse ambiente alcalino favorece formar dentro do rim ao longo do tempo.",

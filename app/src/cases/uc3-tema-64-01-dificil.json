@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-64-01-dificil",
   "tema": "Tema 64 · Reações de Hipersensibilidade",
-  "materia_relacionada": "Este caso aplica a hipersensibilidade tipo II de Gell e Coombs vista na aula: um anticorpo (IgG) se liga diretamente a uma estrutura própria do corpo, aqui uma proteína presente na membrana basal, causando dano tecidual localizado ali mesmo. Revelado por imunofluorescência, esse ataque direto aparece como uma linha contínua ao longo da membrana, um padrão bem diferente dos depósitos granulares de doenças mediadas por imunocomplexo (hipersensibilidade tipo III).",
+  "materia_relacionada": "Este caso aplica a hipersensibilidade tipo II de Gell e Coombs vista na aula: um anticorpo (IgG) se liga diretamente a uma estrutura própria do corpo, aqui uma proteína presente na membrana basal, causando dano tecidual localizado ali mesmo. Revelado por imunofluorescência, esse ataque direto aparece como uma linha contínua ao longo da membrana, um padrão bem diferente dos depósitos granulares de doenças mediadas por imunocomplexo (hipersensibilidade tipo III). Aula: Prof. Barbuto.",
   "area": "Nefrologia/Urologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 34 anos, tosse com sangue e urina bem escassa ao mesmo tempo. Dois órgãos diferentes, afetados juntos, isso não é coincidência.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Não era um complexo solto se depositando em qualquer lugar. Era um anticorpo atacando bem de perto uma proteína específica, presente nos dois órgãos ao mesmo tempo.",
+    "fechamento": "Não era um complexo solto se depositando em qualquer lugar. Era um anticorpo atacando bem de perto uma proteína específica, presente nos dois órgãos ao mesmo tempo. É exatamente isso que o Prof. Barbuto mostra.",
     "dicas": [
       "Releia com atenção se ele tem sangue no escarro junto com a diminuição da urina, os dois órgãos afetados ao mesmo tempo contam uma história importante.",
       "Pensa em como um anticorpo pode atacar diretamente uma estrutura própria do corpo, ligando-se bem naquele local específico, em vez de formar um complexo solto que se deposita em qualquer lugar, e como isso apareceria de um jeito particular (uma linha contínua, não pontos) num exame com fluorescência.",

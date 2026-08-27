@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-04-05-medio",
   "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
-  "materia_relacionada": "Este caso aplica os princípios da radiografia convencional descritos no Tema 04, demonstrando como a substituição do ar por exsudato altera a densidade radiológica do parênquima pulmonar e gera o sinal da silhueta ao borrar o bordo cardíaco adjacente, fundamental para a localização anatômica em incidências ortogonais.",
+  "materia_relacionada": "Este caso aplica os princípios da radiografia convencional descritos no Tema 04, demonstrando como a substituição do ar por exsudato altera a densidade radiológica do parênquima pulmonar e gera o sinal da silhueta ao borrar o bordo cardíaco adjacente, fundamental para a localização anatômica em incidências ortogonais. Aula: Raphael Oliveira.",
   "area": "Pneumologia",
   "prova": "Todas",
   "dificuldade": "medio",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente jovem com dor torácica pleurítica e febre. Pense nos princípios físicos da imagem antes de pedir exames complexos.",
     "piBaixo": "Cuidado com a cota de investigação. Use a radiografia simples com sabedoria anatômica.",
-    "fechamento": "Excelente raciocínio. A perda da interface entre estruturas de mesma densidade radiológica confirma a consolidação no lobo correto.",
+    "fechamento": "Excelente raciocínio. A perda da interface entre estruturas de mesma densidade radiológica confirma a consolidação no lobo correto. É exatamente isso que o Prof. Raphael Oliveira mostra.",
     "dicas": [
       "Releia com atenção a descrição dos achados auscultatórios e a localização da dor no tórax do paciente.",
       "Pensa em como o preenchimento dos alvéolos por exsudato inflamatório altera a densidade radiológica do parênquima pulmonar e apaga a interface com estruturas adjacentes.",

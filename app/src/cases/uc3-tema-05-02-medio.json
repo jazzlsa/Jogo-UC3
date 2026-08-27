@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-05-02-medio",
   "tema": "Tema 05 · Princípios da tomografia computadorizada",
-  "materia_relacionada": "Este caso aplica a leitura de uma tomografia de crânio de urgência: a coleção biconvexa (lenticular) hiperdensa, limitada pelas suturas cranianas, reflete sangue arterial sob pressão acumulando entre o crânio e a dura-máter (firmemente aderida às suturas, por isso o formato). Isso explica a progressão rápida, o intervalo lúcido é só o tempo até o sangramento arterial acumular volume suficiente pra comprimir o parênquima, diferente de um hematoma subdural venoso, que evolui mais devagar. A anisocoria por compressão do III nervo craniano na herniação uncal é o sinal que transforma isso de 'trauma leve' em neurocirurgia de emergência.",
+  "materia_relacionada": "Este caso aplica a leitura de uma tomografia de crânio de urgência: a coleção biconvexa (lenticular) hiperdensa, limitada pelas suturas cranianas, reflete sangue arterial sob pressão acumulando entre o crânio e a dura-máter (firmemente aderida às suturas, por isso o formato). Isso explica a progressão rápida, o intervalo lúcido é só o tempo até o sangramento arterial acumular volume suficiente pra comprimir o parênquima, diferente de um hematoma subdural venoso, que evolui mais devagar. A anisocoria por compressão do III nervo craniano na herniação uncal é o sinal que transforma isso de 'trauma leve' em neurocirurgia de emergência. Aula: Mauricio Ricardo Moreira da Silva Filho.",
   "area": "Neurologia",
   "prova": "P1",
   "dificuldade": "medio",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Perdeu a consciência, acordou lúcido, e agora piorando de novo? Isso tem nome e é bem conhecido, prestem atenção nesse padrão, ele é a pista mais importante do caso inteiro.",
     "piBaixo": "Não é hora de economizar PI só por economizar, tem situação clínica que exige investigação rápida e completa. Saber quando gastar é tão importante quanto saber quando poupar.",
-    "fechamento": "Intervalo lúcido seguido de rebaixamento, PA alta com bradicardia... isso é a tríade de Cushing avisando que a pressão intracraniana está subindo rápido. Cada minuto conta aqui.",
+    "fechamento": "Intervalo lúcido seguido de rebaixamento, PA alta com bradicardia... isso é a tríade de Cushing avisando que a pressão intracraniana está subindo rápido. Cada minuto conta aqui. É exatamente isso que o Prof. Mauricio Moreira da Silva Filho mostra.",
     "dicas": [
       "Releia com atenção a ordem exata dos eventos que o amigo dele descreveu, do acidente até agora.",
       "Pensa em como uma lesão vascular dentro do crânio pode demorar um tempo pra dar sinal nenhum, e só depois comprimir o cérebro.",

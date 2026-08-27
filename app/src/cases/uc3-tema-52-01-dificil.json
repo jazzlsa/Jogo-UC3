@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-52-01-dificil",
   "tema": "Tema 52 · Regulação da Expressão Gênica em Eucariotos 2",
-  "materia_relacionada": "Este caso aplica diretamente o conceito visto na aula de que a cromatina compactada é o estado padrão de repressão gênica em eucariotos: uma expansão exagerada de uma sequência repetitiva pode levar à hipermetilação e ao fechamento da cromatina ao redor de um gene inteiro, impedindo fisicamente a maquinaria de transcrição de acessá-lo, mesmo sem nenhuma mutação na sequência codificante do próprio gene.",
+  "materia_relacionada": "Este caso aplica diretamente o conceito visto na aula de que a cromatina compactada é o estado padrão de repressão gênica em eucariotos: uma expansão exagerada de uma sequência repetitiva pode levar à hipermetilação e ao fechamento da cromatina ao redor de um gene inteiro, impedindo fisicamente a maquinaria de transcrição de acessá-lo, mesmo sem nenhuma mutação na sequência codificante do próprio gene. Aula: Prof. Dr. Alexandre Bruni-Cardoso.",
   "area": "Outra",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Rapaz de 14 anos, atraso de desenvolvimento desde pequeno, comportamento parecido com espectro autista, e um tio materno com jeito parecido. Repara bem em como o rosto e o corpo dele mudaram desde a puberdade.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O gene dele nunca teve defeito nenhum na receita em si. Só ficou trancado, de um jeito que ninguém mais conseguia ler o que estava escrito ali.",
+    "fechamento": "O gene dele nunca teve defeito nenhum na receita em si. Só ficou trancado, de um jeito que ninguém mais conseguia ler o que estava escrito ali. É exatamente isso que o Prof. Bruni-Cardoso mostra.",
     "dicas": [
       "Releia com atenção o histórico familiar dele, principalmente do lado materno, e como as características físicas mudaram com a idade, principalmente depois da puberdade.",
       "Pensa em como uma sequência de DNA repetida em excesso pode fazer a região ao redor dela se compactar de um jeito que a maquinaria de transcrição simplesmente não consegue mais acessar aquele gene, mesmo sem nenhuma mutação na sequência do gene em si.",

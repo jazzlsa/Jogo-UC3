@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-63-01-dificil",
   "tema": "Tema 63 · Organização da Resposta Imune a Vírus e Fungos",
-  "materia_relacionada": "Este caso aplica o conceito de evasão viral do controle imunológico visto na aula: certos vírus permanecem latentes por anos sob vigilância de uma resposta imune celular eficaz, e só reativam causando doença quando essa vigilância enfraquece o suficiente, como na imunossupressão avançada por HIV, exatamente o cenário que permite ao HHV-8 escapar do controle e causar um tumor vascular.",
+  "materia_relacionada": "Este caso aplica o conceito de evasão viral do controle imunológico visto na aula: certos vírus permanecem latentes por anos sob vigilância de uma resposta imune celular eficaz, e só reativam causando doença quando essa vigilância enfraquece o suficiente, como na imunossupressão avançada por HIV, exatamente o cenário que permite ao HHV-8 escapar do controle e causar um tumor vascular. Aula: Prof. Niels Olsen, com participação especial da Profa. Vera Calich.",
   "area": "Infectologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 41 anos, manchas violáceas na pele e no céu da boca, indolores, crescendo aos poucos. Confere primeiro como está a defesa imunológica dele antes de pensar em trauma ou outra bactéria.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Esse vírus morava quietinho nele fazia anos. Só esperou a vigilância baixar a guarda pra finalmente aparecer.",
+    "fechamento": "Esse vírus morava quietinho nele fazia anos. Só esperou a vigilância baixar a guarda pra finalmente aparecer. É exatamente isso que o Prof. Niels Olsen e a Profa. Vera Calich mostram.",
     "dicas": [
       "Releia com atenção qual é o CD4 dele atualmente e como está a adesão ao tratamento antirretroviral.",
       "Pensa em como um vírus consegue ficar escondido, sob controle da vigilância imunológica, por muitos anos, e só reativa causando doença quando essa vigilância enfraquece bastante.",

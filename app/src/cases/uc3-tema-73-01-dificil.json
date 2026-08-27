@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-73-01-dificil",
   "tema": "Tema 73 · Grand Round: Classificação Molecular de Tumores Cerebrais",
-  "materia_relacionada": "Este caso, baseado no Grand Round sobre glioblastoma discutido em aula, mostra como a classificação de tumores cerebrais mudou de puramente histológica para molecular: uma mutação num gene de uma enzima do ciclo de Krebs (a isocitrato desidrogenase, IDH) separa gliomas de comportamento biológico e prognóstico bem diferentes, mesmo quando a aparência ao microscópio é parecida, exatamente a discussão sobre IDH como proto-oncogene ou supressor tumoral levantada na aula.",
+  "materia_relacionada": "Este caso, baseado no Grand Round sobre glioblastoma discutido em aula, mostra como a classificação de tumores cerebrais mudou de puramente histológica para molecular: uma mutação num gene de uma enzima do ciclo de Krebs (a isocitrato desidrogenase, IDH) separa gliomas de comportamento biológico e prognóstico bem diferentes, mesmo quando a aparência ao microscópio é parecida, exatamente a discussão sobre IDH como proto-oncogene ou supressor tumoral levantada na aula. Aula: Dr. Vitor Ribeiro Paes.",
   "area": "Neurologia",
   "prova": "P4",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 38 anos, dor de cabeça progressiva há meses e uma crise convulsiva nova. Repara na idade dela e no ritmo lento dessa evolução antes de pensar no tumor cerebral mais agressivo que existe.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "A aparência ao microscópio quase enganou todo mundo. Foi um gene do metabolismo básico da célula que revelou o verdadeiro comportamento desse tumor.",
+    "fechamento": "A aparência ao microscópio quase enganou todo mundo. Foi um gene do metabolismo básico da célula que revelou o verdadeiro comportamento desse tumor. É exatamente isso que o Dr. Vitor Ribeiro Paes mostra.",
     "dicas": [
       "Releia com atenção a idade dela e como esses sintomas foram evoluindo, rápido em semanas ou devagar ao longo de meses.",
       "Pensa em como uma mutação num gene de uma enzima do ciclo de Krebs pode mudar completamente o comportamento biológico e a agressividade de um tumor cerebral, mesmo que a aparência ao microscópio pareça parecida com a de um tumor mais agressivo.",

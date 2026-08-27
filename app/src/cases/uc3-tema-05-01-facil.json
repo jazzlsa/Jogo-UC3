@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-05-01-facil",
   "tema": "Tema 05 · Princípios da tomografia computadorizada",
-  "materia_relacionada": "Este caso aplica os critérios clínicos (tipo Canadian CT Head Rule) que decidem quando uma tomografia de crânio realmente muda a conduta: perda de consciência, vômitos repetidos, uso de anticoagulante, idade avançada e Glasgow < 15 são os fatores que aumentam o risco de uma lesão intracraniana cirurgicamente relevante o bastante pra justificar a radiação. Sem nenhum desses fatores, o risco de uma lesão que exigiria intervenção é baixo o suficiente pra observação clínica ser tão segura quanto pedir o exame, a lógica de 'usar a ferramenta certa, não a mais cara' que a aula de tomografia computadorizada reforça.",
+  "materia_relacionada": "Este caso aplica os critérios clínicos (tipo Canadian CT Head Rule) que decidem quando uma tomografia de crânio realmente muda a conduta: perda de consciência, vômitos repetidos, uso de anticoagulante, idade avançada e Glasgow < 15 são os fatores que aumentam o risco de uma lesão intracraniana cirurgicamente relevante o bastante pra justificar a radiação. Sem nenhum desses fatores, o risco de uma lesão que exigiria intervenção é baixo o suficiente pra observação clínica ser tão segura quanto pedir o exame, a lógica de 'usar a ferramenta certa, não a mais cara' que a aula de tomografia computadorizada reforça. Aula: Mauricio Ricardo Moreira da Silva Filho.",
   "area": "Neurologia",
   "prova": "P1",
   "dificuldade": "facil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Homem de 24 anos, bateu a cabeça jogando bola, chegou conversando normalmente com você. Antes de decidir o que pedir, ouve a história direito primeiro.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Exame de imagem custa caro em PI, pondera bem antes de pedir.",
-    "fechamento": "Escala de Glasgow 15, sem perda de consciência, sem vômito, sem uso de anticoagulante, esse paciente não precisa de TC. Saber quando NÃO pedir exame também é raciocínio clínico.",
+    "fechamento": "Escala de Glasgow 15, sem perda de consciência, sem vômito, sem uso de anticoagulante, esse paciente não precisa de TC. Saber quando NÃO pedir exame também é raciocínio clínico. É exatamente isso que o Prof. Mauricio Moreira da Silva Filho mostra.",
     "dicas": [
       "Antes de pensar em pedir exame, veja se o paciente preenche algum critério de alto risco, perda de consciência, vômito, uso de anticoagulante.",
       "Pensa em quais critérios clínicos as regras de decisão pra pedir tomografia de crânio realmente exigem, e o que significa quando nenhum deles está presente.",

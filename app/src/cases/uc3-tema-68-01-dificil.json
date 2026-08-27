@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-68-01-dificil",
   "tema": "Tema 68 · Grand Round: Complicação Neurológica Tardia de Infecção Viral",
-  "materia_relacionada": "Este caso, baseado no Grand Round sobre patologia do sarampo discutido em aula, mostra uma complicação tardia rara e devastadora: o vírus do sarampo pode persistir de forma latente dentro do sistema nervoso central por anos após uma infecção aguda aparentemente resolvida, causando um dano neurológico lento e progressivo muito tempo depois, longe de qualquer suspeita óbvia de causa viral.",
+  "materia_relacionada": "Este caso, baseado no Grand Round sobre patologia do sarampo discutido em aula, mostra uma complicação tardia rara e devastadora: o vírus do sarampo pode persistir de forma latente dentro do sistema nervoso central por anos após uma infecção aguda aparentemente resolvida, causando um dano neurológico lento e progressivo muito tempo depois, longe de qualquer suspeita óbvia de causa viral. Aula: Dr. Amaro Nunes Duarte Neto.",
   "area": "Infectologia",
   "prova": "P3",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Menino de 11 anos, declínio cognitivo progressivo há meses e abalos musculares súbitos. Antes de pensar em epilepsia isolada, vasculha bem o histórico de infecções da primeira infância dele.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O vírus nunca tinha ido embora de verdade. Ficou escondido lá dentro, quietinho, esperando anos pra causar esse estrago.",
+    "fechamento": "O vírus nunca tinha ido embora de verdade. Ficou escondido lá dentro, quietinho, esperando anos pra causar esse estrago. É exatamente isso que o Dr. Amaro Duarte Neto mostra.",
     "dicas": [
       "Releia com atenção o histórico de infecções da primeira infância dele, teve algo mais sério que uma virose comum, mesmo há muitos anos, e completou o esquema vacinal depois?",
       "Pensa em como um vírus, mesmo depois da infecção aguda parecer totalmente resolvida, pode ficar escondido dentro do sistema nervoso central por anos, causando um dano lento e progressivo bem mais tarde.",

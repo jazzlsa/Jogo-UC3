@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-77-01-dificil",
   "tema": "Tema 77 · Agentes Carcinogênicos Físicos e Químicos",
-  "materia_relacionada": "Este caso aplica o conceito de carcinógeno químico visto na aula: um agente que interage direta ou indiretamente com o DNA, causando alterações genéticas que possibilitam o surgimento de uma neoplasia, exatamente como Percival Pott já suspeitava ao ligar a fuligem à ocupação dos limpadores de chaminé, só que aqui o agente é uma exposição industrial moderna e o tumor resultante é raro o suficiente para apontar direto pra causa ocupacional.",
+  "materia_relacionada": "Este caso aplica o conceito de carcinógeno químico visto na aula: um agente que interage direta ou indiretamente com o DNA, causando alterações genéticas que possibilitam o surgimento de uma neoplasia, exatamente como Percival Pott já suspeitava ao ligar a fuligem à ocupação dos limpadores de chaminé, só que aqui o agente é uma exposição industrial moderna e o tumor resultante é raro o suficiente para apontar direto pra causa ocupacional. Aula: Prof. Dr. Luiz Fernando Ferraz da Silva.",
   "area": "Oncologia",
   "prova": "P4",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 58 anos, ascite de instalação rápida, dor no hipocôndrio direito e icterícia, com 25 anos de trabalho numa fábrica de plástico. Antes de pensar só em cirrose alcoólica, pergunta bem com o que ele trabalhava naquela fábrica.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "Não foi o álcool nem um vírus que fizeram isso com o fígado dele. Foi o que ele respirou todos os dias, por décadas, dentro daquela fábrica.",
+    "fechamento": "Não foi o álcool nem um vírus que fizeram isso com o fígado dele. Foi o que ele respirou todos os dias, por décadas, dentro daquela fábrica. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção o histórico ocupacional dele, especificamente com que substância ele trabalhava naquela fábrica de plástico, e há quanto tempo.",
       "Pensa em como uma substância química pode agir diretamente sobre o DNA de células específicas do corpo, e por que a exposição ocupacional prolongada a ela apontaria pra um tumor bem raro do fígado, ao invés do câncer hepático mais comum.",

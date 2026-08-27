@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-04-03-dificil",
   "tema": "Tema 04 · Princípios da radiografia convencional e ultrassonografia",
-  "materia_relacionada": "Este caso aplica os conceitos de densidade radiológica e posicionamento do paciente: o ar livre na cavidade peritoneal, por ser menos denso que os tecidos vizinhos, sobe sob a ação da gravidade e se acumula na região mais alta, permitindo o diagnóstico preciso de perfuração de víscera oca por meio de incidências radiográficas adequadas.",
+  "materia_relacionada": "Este caso aplica os conceitos de densidade radiológica e posicionamento do paciente: o ar livre na cavidade peritoneal, por ser menos denso que os tecidos vizinhos, sobe sob a ação da gravidade e se acumula na região mais alta, permitindo o diagnóstico preciso de perfuração de víscera oca por meio de incidências radiográficas adequadas. Aula: Raphael Oliveira.",
   "area": "Cirurgia geral",
   "prova": "Todas",
   "dificuldade": "dificil",
@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Este senhor de 62 anos chegou com uma dor epigástrica súbita e intensa que evoluiu para dor difusa. A barriga dele está dura como uma tábua. Precisamos agir rápido, mas com critério: vamos investigar antes de abrir o paciente.",
     "piBaixo": "Seu saldo de investigação está crítico. Lembre-se de que a física das imagens pode te dar a resposta sem precisar gastar recursos à toa.",
-    "fechamento": "Excelente raciocínio. A interpretação correta das densidades radiológicas e o conhecimento das incidências adequadas nos salvaram de uma confusão diagnóstica ou de um atraso cirúrgico fatal.",
+    "fechamento": "Excelente raciocínio. A interpretação correta das densidades radiológicas e o conhecimento das incidências adequadas nos salvaram de uma confusão diagnóstica ou de um atraso cirúrgico fatal. É exatamente isso que o Prof. Raphael Oliveira mostra.",
     "dicas": [
       "Observe com atenção o início súbito da dor e o histórico de medicação de uso diário do paciente.",
       "Pense na física dos gases dentro da cavidade abdominal: para onde o ar livre tende a se deslocar sob o efeito da gravidade e como o posicionamento do paciente altera essa visualização?",

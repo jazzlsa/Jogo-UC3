@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-24-01-dificil",
   "tema": "Tema 24 · Patologia Ambiental",
-  "materia_relacionada": "Este caso mostra uma armadilha clássica de patologia ambiental discutida na aula: um poluente de combustão incompleta em ambiente fechado pode causar hipóxia tecidual grave enquanto o oxímetro de pulso comum mostra saturação normal, porque esse aparelho não diferencia a hemoglobina ligada a esse gás da hemoglobina ligada a oxigênio de verdade.",
+  "materia_relacionada": "Este caso mostra uma armadilha clássica de patologia ambiental discutida na aula: um poluente de combustão incompleta em ambiente fechado pode causar hipóxia tecidual grave enquanto o oxímetro de pulso comum mostra saturação normal, porque esse aparelho não diferencia a hemoglobina ligada a esse gás da hemoglobina ligada a oxigênio de verdade. Aula: Profa. Thaís Mauad.",
   "area": "Infectologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Mulher de 38 anos, dor de cabeça, tontura e enjoo, e a família toda passando mal junto. Esse detalhe de todo mundo ficar mal ao mesmo tempo é a pista mais importante do caso.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O oxímetro mentiu pra você o tempo todo, ele só não sabia que estava mentindo.",
+    "fechamento": "O oxímetro mentiu pra você o tempo todo, ele só não sabia que estava mentindo. É exatamente isso que a Profa. Thaís Mauad mostra.",
     "dicas": [
       "Releia com atenção se outras pessoas que estavam no mesmo ambiente que ela também passaram mal ao mesmo tempo, e o que elas têm em comum.",
       "Pensa no que pode estar sendo respirado num ambiente fechado com algum aparelho de combustão mal ventilado (aquecedor, lareira, gerador), e como esse gás se liga na hemoglobina no lugar do oxigênio.",

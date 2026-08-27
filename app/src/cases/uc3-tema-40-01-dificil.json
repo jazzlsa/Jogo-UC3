@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-40-01-dificil",
   "tema": "Tema 40 · Identificação de Bactérias",
-  "materia_relacionada": "Este caso aplica as etapas clássicas de identificação bacteriana vistas na aula: depois da cultura, provas bioquímicas específicas (como o ágar tríplice açúcar-ferro) revelam características metabólicas próprias de cada bactéria entérica, permitindo identificar o gênero e a espécie antes mesmo de qualquer teste molecular, exatamente o processo que confirma esse diagnóstico.",
+  "materia_relacionada": "Este caso aplica as etapas clássicas de identificação bacteriana vistas na aula: depois da cultura, provas bioquímicas específicas (como o ágar tríplice açúcar-ferro) revelam características metabólicas próprias de cada bactéria entérica, permitindo identificar o gênero e a espécie antes mesmo de qualquer teste molecular, exatamente o processo que confirma esse diagnóstico. Aula: Profa. Elisabete Vicente.",
   "area": "Infectologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Rapaz de 27 anos, febre subindo dia após dia há oito dias, voltou de viagem recente. Antes de pensar só nas doenças tropicais mais óbvias, repara na frequência cardíaca dele em relação à febre.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "O coração dele estava calmo demais pra uma febre daquelas. Esse descompasso sozinho já apontava um caminho bem específico.",
+    "fechamento": "O coração dele estava calmo demais pra uma febre daquelas. Esse descompasso sozinho já apontava um caminho bem específico. É exatamente isso que a Profa. Elisabete Vicente mostra.",
     "dicas": [
       "Releia com atenção como é o padrão dessa febre ao longo dos dias, e compara a frequência cardíaca dele com a temperatura, tem algo estranho nessa combinação.",
       "Pensa em qual bactéria, ingerida pela água ou comida contaminada, se aloja no intestino delgado e depois cai na circulação, causando febre prolongada e crescendo bem devagar em cultura, precisando de meios especiais pra identificação bioquímica.",

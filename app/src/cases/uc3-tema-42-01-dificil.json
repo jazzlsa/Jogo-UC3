@@ -1,7 +1,7 @@
 {
   "id": "uc3-tema-42-01-dificil",
   "tema": "Tema 42 · Grand Round: Identificação de Micobactérias",
-  "materia_relacionada": "Este caso, baseado num Grand Round real discutido em aula sobre identificação de micobactérias, mostra por que a tuberculose escapa das culturas bacteriológicas convencionais: o Mycobacterium tuberculosis cresce muito mais devagar que uma bactéria comum (semanas em vez de horas), então um resultado negativo em cultura aeróbia/anaeróbia padrão não exclui o diagnóstico, sendo necessário um teste molecular específico para confirmar rapidamente.",
+  "materia_relacionada": "Este caso, baseado num Grand Round real discutido em aula sobre identificação de micobactérias, mostra por que a tuberculose escapa das culturas bacteriológicas convencionais: o Mycobacterium tuberculosis cresce muito mais devagar que uma bactéria comum (semanas em vez de horas), então um resultado negativo em cultura aeróbia/anaeróbia padrão não exclui o diagnóstico, sendo necessário um teste molecular específico para confirmar rapidamente. Aula: Dra. Princila Oliveira.",
   "area": "Infectologia",
   "prova": "P2",
   "dificuldade": "dificil",
@@ -21,7 +21,7 @@
   "burns": {
     "abertura": "Homem de 62 anos, vive com HIV há duas décadas, dor lombar arrastada há quatro meses e emagrecimento importante. Um teste que ele já fez no passado pode estar te enganando se você confiar demais nele.",
     "piBaixo": "Cuidado com a cota de investigação, doutor(a). Vai com calma nos pedidos.",
-    "fechamento": "As culturas de sempre vieram todas limpas. Só que tinha um morador ali que simplesmente não aparece rápido o suficiente pra esses exames de rotina.",
+    "fechamento": "As culturas de sempre vieram todas limpas. Só que tinha um morador ali que simplesmente não aparece rápido o suficiente pra esses exames de rotina. É exatamente isso que a Dra. Princila Oliveira mostra.",
     "dicas": [
       "Releia com atenção o teste de sensibilidade à tuberculina que ele já tinha feito antes de adoecer, e pensa se um resultado negativo nesse teste realmente descarta a doença em alguém com o histórico dele.",
       "Pensa em como uma bactéria de crescimento extremamente lento, que quase não aparece nas culturas bacteriológicas convencionais rápidas, pode estar por trás de uma inflamação óssea arrastada há meses, mesmo com os exames bacteriológicos padrão vindo negativos.",
