@@ -183,9 +183,13 @@ footer.note { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--b
   font-family: "IBM Plex Sans", sans-serif; font-size: 13.5px; color: var(--ink-muted); line-height: 1.55;
 }
 .intro-panel-title { font-family: "IBM Plex Mono", monospace; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; color: var(--accent-ink); margin: 0 0 8px; }
+.intro-panel-subtitle { font-family: "IBM Plex Sans", sans-serif; font-weight: 700; font-size: 13.5px; color: var(--ink); margin: 16px 0 6px; }
+.intro-panel-subtitle:first-of-type { margin-top: 4px; }
 .intro-panel p { margin: 0 0 8px; }
 .intro-panel p:last-child { margin-bottom: 0; }
 .intro-panel strong { color: var(--ink); }
+.intro-panel-table { font-size: 13px; margin: 6px 0 10px; }
+.intro-panel-table td { padding: 5px 4px; }
 
 /* Painel de dicas do Burns */
 .hints-panel {

@@ -22,22 +22,18 @@ const NOTA_MINIMA_PARA_RECUPERACAO = 3; // abaixo disso, reprovação direta: ne
 // diagnóstico e conduta certos pesam mais que a investigação em si, porque
 // são a decisão final — quem acerta os dois já passa (empatam exatamente em
 // NOTA_MINIMA_APROVACAO), mesmo sem listar a hipótese certa nem investigar
-// com eficiência. A hipótese e a eficiência são o que empurra a nota pra
-// cima disso, prêmio pelo raciocínio bem conduzido, não um requisito pra
-// passar. Ver DIVISOR_NOTA logo abaixo para a conversão pra escala 0-10.
+// com eficiência. Mas nenhum componente é obrigatório pra passar: a nota é
+// sempre a soma direta das 5 partes, sem trava — quem tem uma investigação
+// muito boa e lista a hipótese certa, por exemplo, pode passar mesmo errando
+// o diagnóstico final, do mesmo jeito que quem acerta diagnóstico e conduta
+// passa mesmo sem ter investigado bem. Ver DIVISOR_NOTA logo abaixo para a
+// conversão pra escala 0-10.
 const PONTOS_HIPOTESE_LISTADA = 20;
 const PONTOS_HIPOTESE_PRIMEIRO_LUGAR = 10;
 const PONTOS_DIAGNOSTICO_CERTO = 30;
 const PONTOS_CONDUTA_CERTA = 30;
 const PONTOS_EFICIENCIA_MAXIMO = 30;
 const DIVISOR_NOTA = (PONTOS_HIPOTESE_LISTADA + PONTOS_HIPOTESE_PRIMEIRO_LUGAR + PONTOS_DIAGNOSTICO_CERTO + PONTOS_CONDUTA_CERTA + PONTOS_EFICIENCIA_MAXIMO) / 10; // 12
-
-// Regra dura: sem acertar o diagnóstico, o caso não passa de jeito nenhum,
-// não importa quão boa foi a investigação nem se a conduta calhou de bater
-// (algumas condutas de suporte servem pra mais de uma hipótese) — capa o
-// total de pontos do caso no equivalente a uma nota logo abaixo da mínima.
-const NOTA_MAXIMA_SEM_DIAGNOSTICO = 4.9;
-const PONTOS_MAXIMOS_SEM_DIAGNOSTICO = Math.floor(NOTA_MAXIMA_SEM_DIAGNOSTICO * DIVISOR_NOTA);
 
 let casesIndex = [];
 let state = { screen: "home" };
@@ -425,8 +421,23 @@ function comoJogarHTML() {
     <div class="intro-panel">
       <p class="intro-panel-title">Como jogar</p>
       <p>Você é o médico(a). Cada caso simula um paciente chegando com uma queixa, e você percorre <strong>6 etapas</strong> até fechar o diagnóstico e a conduta: anamnese → exame físico → hipóteses diagnósticas → exames complementares → diagnóstico final → conduta. Dá pra voltar etapas anteriores a qualquer momento pra reler o que já descobriu.</p>
-      <p><strong>Nota</strong> (no topo da tela, durante o caso) é o seu orçamento de investigação. Cada pergunta, manobra de exame ou exame complementar consome um pouco, relevante ou não — não confunda esse medidor com a nota final do caso, calculada só no final.</p>
-      <p>A <strong>nota final de cada caso</strong> (0 a 10) soma cinco partes: hipótese certa listada entre as 3 (${PONTOS_HIPOTESE_LISTADA} pts), ela em 1º lugar (${PONTOS_HIPOTESE_PRIMEIRO_LUGAR} pts), diagnóstico final certo (${PONTOS_DIAGNOSTICO_CERTO} pts), conduta certa (${PONTOS_CONDUTA_CERTA} pts) e eficiência da investigação (até ${PONTOS_EFICIENCIA_MAXIMO} pts, contando só achados <strong>relevantes</strong> que você foi atrás e descontando o que foi gasto à toa em distratores). Diagnóstico e conduta certos já bastam pra passar sozinhos; hipótese bem listada e investigação eficiente é o que empurra a nota mais alto. Mas tem uma trava: <strong>errar o diagnóstico final capa a nota do caso em ${NOTA_MAXIMA_SEM_DIAGNOSTICO.toFixed(1)}</strong>, reprovado na certa, não importa quão boa foi a investigação ou se a conduta calhou de bater mesmo assim.</p>
+
+      <p class="intro-panel-subtitle">O medidor "Nota" durante o caso não é a nota final</p>
+      <p>Enquanto você joga, a barra "Nota" no topo mostra o <strong>PI (Pontos de Investigação)</strong>, um orçamento que começa em 100 e só desce: cada pergunta, manobra de exame ou exame complementar que você marca consome um custo fixo daquele item, relevante ou não. Esse número é só um medidor de tensão durante o caso — ele <strong>não vira nota</strong> em nenhum momento. A nota de verdade só é calculada do zero na tela de resultado, no final do caso.</p>
+
+      <p class="intro-panel-subtitle">Como a nota final do caso é calculada (0 a 10)</p>
+      <p>No resultado, a nota soma 5 partes independentes, sem nenhuma trava entre elas — nenhum componente é obrigatório pra ganhar os outros:</p>
+      <table class="result-table intro-panel-table">
+        <tr><td>Hipótese certa listada entre as 3 escolhidas</td><td>+${PONTOS_HIPOTESE_LISTADA}</td></tr>
+        <tr><td>Essa hipótese em 1º lugar na lista</td><td>+${PONTOS_HIPOTESE_PRIMEIRO_LUGAR}</td></tr>
+        <tr><td>Diagnóstico final certo</td><td>+${PONTOS_DIAGNOSTICO_CERTO}</td></tr>
+        <tr><td>Conduta certa</td><td>+${PONTOS_CONDUTA_CERTA}</td></tr>
+        <tr><td>Eficiência da investigação</td><td>até +${PONTOS_EFICIENCIA_MAXIMO}</td></tr>
+        <tr class="total"><td>Total possível</td><td>${PONTOS_HIPOTESE_LISTADA + PONTOS_HIPOTESE_PRIMEIRO_LUGAR + PONTOS_DIAGNOSTICO_CERTO + PONTOS_CONDUTA_CERTA + PONTOS_EFICIENCIA_MAXIMO} pts = nota 10</td></tr>
+      </table>
+      <p>A <strong>eficiência</strong> é a única parte ligada ao que você marcou nas etapas de investigação, e não depende de quanto PI sobrou: ela mede a proporção de achados <strong>relevantes</strong> do caso que você realmente foi atrás, descontando um pouco pra cada item <strong>irrelevante</strong> (distrator) que você também marcou. Dá pra ter eficiência alta gastando pouco PI (só nos itens certos) ou eficiência baixa gastando muito PI (clicando em tudo, certo e errado).</p>
+      <p>Como nenhuma parte trava as outras, dá pra passar de formas diferentes: acertando diagnóstico e conduta mesmo com uma investigação mediana, ou investigando muito bem e listando a hipótese certa mesmo errando o diagnóstico final. Cada parte soma ponto por si só.</p>
+
       <p>O professor <strong>Burns</strong> comenta em alguns momentos do caso, e você pode clicar em <strong>"Pedir dica ao Burns"</strong> quando estiver travado. As dicas nunca entregam o diagnóstico, só apontam a direção do raciocínio.</p>
       <p>No <strong>Desafio</strong>, o jogo sorteia ${DESAFIO_TAMANHO} casos aleatórios (sem repetir) e sua <strong>nota final</strong> é a média de todos. Precisa de <strong>${NOTA_MINIMA_APROVACAO}</strong> pra passar, igual UC3 de verdade. Reprovou? Você pode tentar uma <strong>recuperação</strong>: ${RECUPERACAO_TAMANHO} casos difíceis, precisa acertar o diagnóstico de pelo menos ${RECUPERACAO_MINIMO_ACERTOS} pra passar. Se passar, sua nota final vira exatamente ${NOTA_APROVACAO_RECUPERACAO}.</p>
     </div>`;
@@ -741,11 +752,7 @@ function renderResultado() {
     cond: condutaCerta ? PONTOS_CONDUTA_CERTA : 0,
     efic: calcularEficiencia(caso),
   };
-  const totalBruto = pts.hip + pts.hip1 + pts.diag + pts.cond + pts.efic;
-  // Regra dura: errou o diagnóstico, o caso não passa, não importa quão boa
-  // foi a investigação ou se a conduta calhou de bater mesmo assim.
-  const totalCapadoPorDiagnostico = !diagCerto && totalBruto > PONTOS_MAXIMOS_SEM_DIAGNOSTICO;
-  const total = diagCerto ? totalBruto : Math.min(totalBruto, PONTOS_MAXIMOS_SEM_DIAGNOSTICO);
+  const total = pts.hip + pts.hip1 + pts.diag + pts.cond + pts.efic;
 
   // Numa avaliação (desafio/recuperação), o progresso é aplicado uma única
   // vez (avaliacaoAplicada evita contar de novo se a tela re-renderizar,
@@ -771,7 +778,6 @@ function renderResultado() {
       <tr><td>Eficiência (achados relevantes investigados, sem desperdício)</td><td>+${pts.efic}</td></tr>
       <tr class="total"><td>Nota do caso</td><td>${notaDoTotal(total).toFixed(1)} / 10</td></tr>
     </table>
-    ${totalCapadoPorDiagnostico ? `<p class="stage-hint">⚠️ Diagnóstico errado trava a nota do caso em no máximo ${NOTA_MAXIMA_SEM_DIAGNOSTICO.toFixed(1)}, mesmo com boa investigação ou conduta certa por coincidência.</p>` : ""}
     <button class="hint-btn" data-toggle-revisao>${state.mostrarRevisao ? "Esconder revisão detalhada" : "📋 Ver revisão detalhada do caso"}</button>
     ${state.mostrarRevisao ? revisaoDetalhadaHTML(diagCorretoIdx, diagCerto, condutaCerta) : ""}
     ${state.modoAvaliacao ? avaliacaoResultActionsHTML() : `
