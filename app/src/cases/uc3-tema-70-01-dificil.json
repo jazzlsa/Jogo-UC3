@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Qual foi o foco de infecção que iniciou esse quadro?", "custo": 2, "relevante": true, "resposta": "Começou com uma infecção urinária que evoluiu rápido para febre alta e pressão baixa." },
+    { "texto": "Há quanto tempo exatamente os sintomas urinários começaram antes da febre alta?", "custo": 2, "relevante": true, "resposta": "Começou com ardência ao urinar há quatro dias, e só dois dias depois é que veio a febre alta." },
     { "texto": "Usou heparina ou outro anticoagulante recentemente?", "custo": 2, "relevante": false, "resposta": "Não usou heparina ou qualquer anticoagulante antes desse quadro." },
     { "texto": "Tem histórico de doença hepática crônica conhecida?", "custo": 2, "relevante": false, "resposta": "Sem histórico de doença hepática crônica." },
     { "texto": "Está sangrando em mais de um lugar ao mesmo tempo (gengiva, local de punção, urina)?", "custo": 2, "relevante": true, "resposta": "Sim, sangramento no local do soro e um pouco de sangue na urina também." },

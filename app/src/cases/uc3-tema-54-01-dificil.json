@@ -32,7 +32,7 @@
     { "texto": "Já fez cirurgia bariátrica ou tem alguma doença que cause má absorção intestinal?", "custo": 2, "relevante": false, "resposta": "Nunca fez cirurgia bariátrica e não tem doença disabsortiva conhecida." },
     { "texto": "Tem histórico de artrite reumatoide ou outra doença inflamatória crônica de longa data?", "custo": 2, "relevante": false, "resposta": "Não tem histórico de artrite reumatoide ou doença inflamatória crônica." },
     { "texto": "Tem histórico familiar de neuropatia progressiva ou problemas cardíacos?", "custo": 2, "relevante": true, "resposta": "O pai teve um quadro parecido de formigamento nos pés e problema no coração antes de falecer." },
-    { "texto": "Já teve síndrome do túnel do carpo, e foi de um lado só ou dos dois?", "custo": 2, "relevante": true, "resposta": "Foi operado dos dois punhos de túnel do carpo, com poucos anos de diferença entre um e outro." },
+    { "texto": "Notou perda de peso não intencional junto com esses sintomas?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu uns quilos sem motivo aparente nos últimos meses." },
     { "texto": "Tem diabetes diagnosticada?", "custo": 2, "relevante": true, "resposta": "Não tem diagnóstico de diabetes, glicemia sempre foi normal." },
     { "texto": "Tem episódios de diarreia alternando com prisão de ventre, ou tontura ao levantar rápido?", "custo": 2, "relevante": true, "resposta": "Sim, tem episódios de diarreia alternando com constipação, e sente tontura ao levantar rápido." },
     { "texto": "Já teve diagnóstico de alguma gamopatia monoclonal ou mieloma?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de gamopatia monoclonal ou mieloma." }

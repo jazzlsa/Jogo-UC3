@@ -31,7 +31,7 @@
   "anamnese": [
     { "texto": "Tem tosse com escarro purulento abundante, tipo pneumonia bacteriana comum?", "custo": 2, "relevante": false, "resposta": "Tem uma tosse leve, sem escarro purulento abundante." },
     { "texto": "Notou sangramento espontâneo de gengiva ou nariz, ou palidez importante?", "custo": 2, "relevante": false, "resposta": "Sem sangramentos espontâneos e sem palidez importante." },
-    { "texto": "Essa criança viaja ou já morou em outras regiões do estado, visitando parentes?", "custo": 2, "relevante": true, "resposta": "Mora em Guarulhos, mas visita os avós em Ribeirão Preto periodicamente, uma região de área rural." },
+    { "texto": "O que ele costuma fazer quando visita a zona rural, mexe com terra, plantação ou animais?", "custo": 2, "relevante": true, "resposta": "Ajuda o avô a cuidar da horta e mexe bastante com terra quando está lá." },
     { "texto": "Ele já fez algum tratamento antes de chegar até aqui, e como respondeu?", "custo": 2, "relevante": true, "resposta": "Fez biópsia num outro hospital, foi iniciado tratamento de quimioterapia presumindo linfoma, mas ele piorou, com aumento da distensão abdominal e dor, precisando de UTI." },
     { "texto": "Teve tosse ou sintomas respiratórios junto com a febre?", "custo": 2, "relevante": true, "resposta": "Não teve tosse ou sintomas respiratórios relevantes." },
     { "texto": "Teve contato conhecido com alguém com tuberculose?", "custo": 2, "relevante": true, "resposta": "Não teve contato conhecido com tuberculose." },

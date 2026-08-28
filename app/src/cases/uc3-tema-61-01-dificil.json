@@ -40,7 +40,7 @@
   "exameFisico": [
     { "texto": "Medida do perímetro cefálico", "custo": 3, "relevante": true, "resposta": "Perímetro cefálico abaixo do esperado para a idade gestacional, compatível com microcefalia." },
     { "texto": "Inspeção de pele em busca de petéquias", "custo": 3, "relevante": true, "resposta": "Petéquias difusas pelo corpo." },
-    { "texto": "Palpação abdominal (hepatoesplenomegalia)", "custo": 3, "relevante": true, "resposta": "Fígado e baço palpáveis e aumentados." },
+    { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": true, "resposta": "Icterícia presente, com padrão colestático." },
     { "texto": "Teste de emissões otoacústicas (triagem auditiva)", "custo": 3, "relevante": true, "resposta": "Alterado, sugerindo perda auditiva." },
     { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." },
     { "texto": "Avaliação de reflexos primitivos", "custo": 3, "relevante": false, "resposta": "Presentes e simétricos." }

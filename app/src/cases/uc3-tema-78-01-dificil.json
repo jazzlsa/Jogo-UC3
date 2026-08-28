@@ -30,7 +30,7 @@
   },
   "anamnese": [
     { "texto": "Como tem sido a adesão dele ao tratamento antirretroviral?", "custo": 2, "relevante": true, "resposta": "A mãe admite que ele fica meses sem tomar o remédio direito." },
-    { "texto": "Em quanto tempo exatamente essa massa abdominal cresceu?", "custo": 2, "relevante": true, "resposta": "Notaram um inchaço discreto há três semanas, mas nos últimos cinco dias parece ter dobrado de tamanho." },
+    { "texto": "Ele tem sentido dor abdominal junto com o crescimento da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, reclama de dor abdominal recorrente, principalmente depois de comer." },
     { "texto": "Teve febre ou sudorese noturna junto com o crescimento da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, tem tido febre baixa intermitente e suor noturno nos últimos dias." },
     { "texto": "Notou perda de apetite ou saciedade muito rápida ao comer?", "custo": 2, "relevante": true, "resposta": "Sim, come muito pouco e já sente a barriga estufada rapidamente." },
     { "texto": "Teve algum trauma abdominal recente?", "custo": 2, "relevante": false, "resposta": "Nenhum trauma abdominal recente." },

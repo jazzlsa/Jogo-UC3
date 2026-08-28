@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Com que idade exatamente ele foi diagnosticado com diabetes?", "custo": 2, "relevante": true, "resposta": "Foi diagnosticado com diabetes aos 4 meses de idade, uma idade bem incomum." },
+    { "texto": "Como é o crescimento e o ganho de peso dele comparado a outras crianças da idade?", "custo": 2, "relevante": true, "resposta": "Está bem abaixo do peso esperado para a idade, os médicos já comentaram sobre isso." },
     { "texto": "A diarreia melhora quando tiram glúten ou algum alimento específico da dieta?", "custo": 2, "relevante": true, "resposta": "Já tentaram tirar vários alimentos, inclusive glúten, sem nenhuma melhora." },
     { "texto": "Tem histórico familiar de tios maternos com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Um tio materno morreu ainda bebê com um quadro parecido de diarreia grave e diabetes." },
     { "texto": "Já teve sangramento fácil ou manchas roxas na pele, além do eczema?", "custo": 2, "relevante": false, "resposta": "Sem sangramento fácil ou manchas roxas, só o eczema mesmo." },

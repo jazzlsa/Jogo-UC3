@@ -30,7 +30,7 @@
   },
   "anamnese": [
     { "texto": "Há quanto tempo notou sangue nas fezes e como é esse sangramento?", "custo": 2, "relevante": true, "resposta": "Há uns quatro meses, sangue vermelho vivo misturado às fezes, de forma intermitente." },
-    { "texto": "Notou mudança no formato ou calibre das fezes?", "custo": 2, "relevante": true, "resposta": "Sim, as fezes ficaram mais finas nos últimos meses." },
+    { "texto": "Notou tenesmo, aquela sensação de não esvaziar o intestino completamente?", "custo": 2, "relevante": true, "resposta": "Sim, sente que não esvazia completamente, mesmo depois de evacuar." },
     { "texto": "Quando foi a última colonoscopia e o que ela mostrou?", "custo": 2, "relevante": true, "resposta": "Fez uma colonoscopia há oito anos, removeram alguns pólipos, e o médico pediu repetição em três anos, que ele nunca fez." },
     { "texto": "Tem histórico familiar de câncer colorretal em parentes de primeiro grau antes dos 50 anos?", "custo": 2, "relevante": false, "resposta": "Não, ninguém na família teve câncer de intestino em idade jovem." },
     { "texto": "Notou emagrecimento junto com esses sintomas?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu uns quilos sem tentar." },

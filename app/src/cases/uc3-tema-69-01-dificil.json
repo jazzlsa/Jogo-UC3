@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Fez alguma viagem longa, cirurgia recente ou ficou muito tempo imóvel nos últimos dias?", "custo": 2, "relevante": true, "resposta": "Voltou há três dias de uma viagem de avião de 14 horas." },
+    { "texto": "Tem histórico pessoal de trombose venosa profunda antes desse episódio?", "custo": 2, "relevante": true, "resposta": "Não, essa seria a primeira vez, nunca teve diagnóstico de trombose antes." },
     { "texto": "Notou inchaço ou dor em uma das pernas?", "custo": 2, "relevante": true, "resposta": "Sim, a perna direita está inchada e um pouco dolorida desde ontem." },
     { "texto": "Essa falta de ar começou de repente ou foi piorando aos poucos?", "custo": 2, "relevante": true, "resposta": "Foi bem súbita, começou de uma hora para outra." },
     { "texto": "Usa anticoncepcional hormonal ou tem câncer ativo em tratamento?", "custo": 2, "relevante": true, "resposta": "Usa anticoncepcional oral combinado há anos." },

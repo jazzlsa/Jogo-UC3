@@ -31,7 +31,7 @@
   "anamnese": [
     { "texto": "Tem histórico pessoal ou familiar de mieloma múltiplo ou outro câncer hematológico?", "custo": 2, "relevante": false, "resposta": "Sem histórico pessoal ou familiar de mieloma ou câncer hematológico." },
     { "texto": "Consumiu leite ou queijo não pasteurizado, ou teve contato com gado (fator de risco para brucelose)?", "custo": 2, "relevante": false, "resposta": "Não consome laticínios não pasteurizados nem teve contato com gado." },
-    { "texto": "Há quanto tempo exatamente essa dor nas costas começou e como evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou há quatro meses, foi piorando aos poucos e passou a irradiar para a perna direita." },
+    { "texto": "Notou sudorese noturna ou febre baixa persistente?", "custo": 2, "relevante": true, "resposta": "Sim, tem tido suores noturnos frequentes e febre baixa quase todo dia." },
     { "texto": "Há quanto tempo vive com HIV, e como está o tratamento atual?", "custo": 2, "relevante": true, "resposta": "Diagnosticado há mais de 20 anos, atualmente em terapia antirretroviral com carga viral indetectável, mas CD4 ainda moderadamente baixo." },
     { "texto": "Já teve alguma infecção oportunista grave associada ao HIV no passado?", "custo": 2, "relevante": true, "resposta": "Teve neurotoxoplasmose anos atrás, já tratada." },
     { "texto": "Já fez teste de sensibilidade à tuberculina (PPD) antes? Qual foi o resultado?", "custo": 2, "relevante": true, "resposta": "Fez um PPD há cerca de dois anos, resultado de 0 mm (não reator)." },

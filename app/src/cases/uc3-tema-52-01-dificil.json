@@ -33,7 +33,7 @@
     { "texto": "Tem excesso de apetite incontrolável ou obesidade importante desde criança?", "custo": 2, "relevante": false, "resposta": "Apetite normal, sem obesidade importante." },
     { "texto": "Como foi o desenvolvimento da fala e do aprendizado dele desde pequeno?", "custo": 2, "relevante": true, "resposta": "Sempre teve atraso importante de fala e dificuldade de aprendizado na escola." },
     { "texto": "Tem histórico familiar de parentes homens do lado materno com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Um tio materno teve deficiência intelectual e um jeito de ser bem parecido quando jovem." },
-    { "texto": "Ele evita contato visual ou tem comportamentos repetitivos?", "custo": 2, "relevante": true, "resposta": "Evita olhar nos olhos e balança as mãos ou o corpo quando está ansioso." },
+    { "texto": "Como é a linguagem dele, ele repete frases ou tem dificuldade de manter conversas?", "custo": 2, "relevante": true, "resposta": "Sim, às vezes repete as mesmas frases várias vezes e tem dificuldade de manter uma conversa de ida e volta." },
     { "texto": "As características físicas dele mudaram muito depois da puberdade?", "custo": 2, "relevante": true, "resposta": "A mãe notou que as orelhas ficaram mais proeminentes e o rosto mais alongado depois dos 12 anos." },
     { "texto": "Teve complicações na gestação ou no parto?", "custo": 2, "relevante": false, "resposta": "Gestação e parto sem complicações relatadas." }
   ],

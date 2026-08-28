@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Como essa dor de cabeça e os outros sintomas foram evoluindo, rápido ou devagar?", "custo": 2, "relevante": true, "resposta": "Foi bem devagar, ao longo de uns três meses, piorando aos poucos." },
+    { "texto": "Notou alguma alteração de personalidade, memória ou humor recentemente?", "custo": 2, "relevante": true, "resposta": "Sim, a família notou que ele está mais esquecido e com o humor diferente do normal." },
     { "texto": "Já teve diagnóstico de câncer em outro órgão no passado?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de câncer antes." },
     { "texto": "Tem HIV ou alguma condição que reduza a imunidade?", "custo": 2, "relevante": false, "resposta": "Não tem HIV nem outra condição que reduza a imunidade." },
     { "texto": "Teve febre ou algum sinal de infecção nas últimas semanas?", "custo": 2, "relevante": false, "resposta": "Sem febre ou sinais de infecção." },

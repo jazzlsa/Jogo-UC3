@@ -30,7 +30,7 @@
   },
   "anamnese": [
     { "texto": "Sente palpitações, tremores ou intolerância ao calor?", "custo": 2, "relevante": false, "resposta": "Nenhum desses sintomas, nunca teve sintomas de hipertireoidismo." },
-    { "texto": "Há quanto tempo exatamente esse nódulo no pescoço mudou de comportamento?", "custo": 2, "relevante": true, "resposta": "Ficou do mesmo tamanho por mais de 15 anos e começou a crescer rápido há umas três semanas." },
+    { "texto": "Ele já tinha algum diagnóstico prévio de nódulo ou bócio multinodular investigado antes?", "custo": 2, "relevante": true, "resposta": "Sim, fez uma ultrassonografia de tireoide há anos que mostrou um bócio multinodular, mas nunca foi indicada biópsia." },
     { "texto": "Notou rouquidão ou mudança na voz?", "custo": 2, "relevante": true, "resposta": "Sim, a voz ficou rouca nas últimas duas semanas." },
     { "texto": "Tem dificuldade pra engolir ou sensação de sufocamento?", "custo": 2, "relevante": true, "resposta": "Sim, engasga com facilidade, principalmente com alimentos sólidos." },
     { "texto": "Já fez radioterapia na região do pescoço quando criança?", "custo": 2, "relevante": false, "resposta": "Não, nunca fez radioterapia na região." },
