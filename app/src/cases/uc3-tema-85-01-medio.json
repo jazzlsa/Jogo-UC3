@@ -40,7 +40,8 @@
     { "texto": "Inspeção da pele em áreas fotoexpostas (face, mãos, braços)", "custo": 3, "relevante": true, "resposta": "Múltiplas manchas hipercrômicas e hipocrômicas irregulares (aspecto de pele envelhecida precocemente), sardas atípicas numerosas para a idade." },
     { "texto": "Inspeção da lesão suspeita no rosto", "custo": 3, "relevante": true, "resposta": "Lesão nodular perolada com telangiectasias, de bordas bem definidas, em área fotoexposta." },
     { "texto": "Avaliação oftalmológica externa", "custo": 3, "relevante": true, "resposta": "Conjuntivas hiperemiadas e ressecadas, com fotofobia importante ao exame." },
-    { "texto": "Avaliação de linfonodos cervicais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias cervicais." }
+    { "texto": "Avaliação de linfonodos cervicais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias cervicais." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Xeroderma pigmentoso", "correta": true },

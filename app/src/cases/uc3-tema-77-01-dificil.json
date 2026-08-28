@@ -40,7 +40,8 @@
     { "texto": "Avaliação de ascite (macicez móvel)", "custo": 3, "relevante": true, "resposta": "Ascite volumosa, de instalação recente e rápida." },
     { "texto": "Palpação hepática", "custo": 3, "relevante": true, "resposta": "Hepatomegalia irregular, de superfície nodular." },
     { "texto": "Avaliação de icterícia e estigmas de hepatopatia crônica (aranhas vasculares, eritema palmar)", "custo": 3, "relevante": true, "resposta": "Icterícia presente, mas sem estigmas clássicos de hepatopatia crônica de longa data, como se o fígado tivesse adoecido rápido demais pra desenvolvê-los." },
-    { "texto": "Avaliação de linfonodos supraclaviculares", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+    { "texto": "Avaliação de linfonodos supraclaviculares", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Angiossarcoma hepático", "correta": true },

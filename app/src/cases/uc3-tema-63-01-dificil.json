@@ -40,7 +40,8 @@
     { "texto": "Avaliação de assimetria e irregularidade de bordas da lesão (sinais de melanoma)", "custo": 3, "relevante": false, "resposta": "Lesões simétricas, bordas bem definidas, sem os sinais clássicos de melanoma." },
     { "texto": "Inspeção detalhada das lesões de pele e mucosa oral", "custo": 3, "relevante": true, "resposta": "Placas e nódulos violáceos, bem delimitados, indolores, incluindo uma lesão no palato." },
     { "texto": "Avaliação de sangramento à manipulação leve da lesão", "custo": 3, "relevante": true, "resposta": "Sem sangramento fácil à manipulação cuidadosa." },
-    { "texto": "Avaliação de linfedema em membros próximos a lesões extensas", "custo": 3, "relevante": true, "resposta": "Discreto linfedema numa perna com lesões mais extensas." }
+    { "texto": "Avaliação de linfedema em membros próximos a lesões extensas", "custo": 3, "relevante": true, "resposta": "Discreto linfedema numa perna com lesões mais extensas." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Sarcoma de Kaposi (HHV-8) associado a AIDS avançada", "correta": true },

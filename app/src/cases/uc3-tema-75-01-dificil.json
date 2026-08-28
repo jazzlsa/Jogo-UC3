@@ -40,7 +40,8 @@
     { "texto": "Palpação da massa cervical (consistência, mobilidade, limites)", "custo": 3, "relevante": true, "resposta": "Massa endurecida, fixa a planos profundos, com limites imprecisos, bem diferente de um bócio nodular simples." },
     { "texto": "Avaliação da mobilidade das cordas vocais", "custo": 3, "relevante": true, "resposta": "Paralisia de corda vocal à direita, sugestiva de invasão do nervo laríngeo recorrente." },
     { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": true, "resposta": "Linfonodomegalias cervicais endurecidas e fixas." },
-    { "texto": "Avaliação de exoftalmia e tremor fino de extremidades", "custo": 3, "relevante": false, "resposta": "Ausentes, sem sinais de hipertireoidismo." }
+    { "texto": "Avaliação de exoftalmia e tremor fino de extremidades", "custo": 3, "relevante": false, "resposta": "Ausentes, sem sinais de hipertireoidismo." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Carcinoma anaplásico de tireoide", "correta": true },

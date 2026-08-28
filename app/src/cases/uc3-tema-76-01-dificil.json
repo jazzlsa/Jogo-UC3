@@ -38,7 +38,8 @@
   "exameFisico": [
     { "texto": "Fundo de olho sob boa iluminação (avaliação de leucocoria)", "custo": 3, "relevante": true, "resposta": "Reflexo pupilar esbranquiçado presente nos dois olhos." },
     { "texto": "Avaliação de alinhamento ocular (estrabismo)", "custo": 3, "relevante": true, "resposta": "Estrabismo convergente do olho direito." },
-    { "texto": "Avaliação de opacidade do cristalino à luz direta", "custo": 3, "relevante": false, "resposta": "Cristalino transparente, sem opacidade compatível com catarata." }
+    { "texto": "Avaliação de opacidade do cristalino à luz direta", "custo": 3, "relevante": false, "resposta": "Cristalino transparente, sem opacidade compatível com catarata." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Retinoblastoma bilateral hereditário", "correta": true },

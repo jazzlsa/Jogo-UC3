@@ -41,7 +41,8 @@
     { "texto": "Inspeção da gengiva", "custo": 3, "relevante": true, "resposta": "Gengivas edemaciadas, esponjosas e sangrantes ao toque leve." },
     { "texto": "Inspeção de pele em busca de petéquias perifoliculares e pelos em saca-rolha", "custo": 3, "relevante": true, "resposta": "Petéquias ao redor dos folículos capilares nas pernas, com pelos de aspecto enrolado (\"em saca-rolha\")." },
     { "texto": "Inspeção da ferida cirúrgica do joelho", "custo": 3, "relevante": true, "resposta": "Ferida com bordas mal aproximadas, tecido de granulação frágil, sem sinais de infecção." },
-    { "texto": "Inspeção de equimoses pelo corpo", "custo": 3, "relevante": false, "resposta": "Equimoses em diferentes fases de evolução, espalhadas principalmente nas pernas." }
+    { "texto": "Inspeção de equimoses pelo corpo", "custo": 3, "relevante": false, "resposta": "Equimoses em diferentes fases de evolução, espalhadas principalmente nas pernas." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Escorbuto", "correta": true },

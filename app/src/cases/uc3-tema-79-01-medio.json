@@ -40,7 +40,8 @@
     { "texto": "Toque retal", "custo": 3, "relevante": true, "resposta": "Presença de sangue oculto ao toque, sem massa palpável ao alcance do dedo." },
     { "texto": "Palpação abdominal", "custo": 3, "relevante": true, "resposta": "Discreta massa palpável em fossa ilíaca esquerda, indolor." },
     { "texto": "Avaliação de palidez de mucosas", "custo": 3, "relevante": true, "resposta": "Palidez leve, compatível com anemia crônica." },
-    { "texto": "Avaliação de linfonodos inguinais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias inguinais." }
+    { "texto": "Avaliação de linfonodos inguinais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias inguinais." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Adenocarcinoma de cólon", "correta": true },

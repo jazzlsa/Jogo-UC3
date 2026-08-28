@@ -38,7 +38,8 @@
   "exameFisico": [
     { "texto": "Inspeção da pele (extensão e características do eczema)", "custo": 3, "relevante": true, "resposta": "Eczema extenso, avermelhado e descamativo, cobrindo grande parte do tronco e membros." },
     { "texto": "Avaliação de sinais de desidratação e desnutrição", "custo": 3, "relevante": true, "resposta": "Sinais importantes de desidratação e peso bem abaixo do esperado para a idade." },
-    { "texto": "Avaliação de petéquias ou sangramento cutâneo", "custo": 3, "relevante": false, "resposta": "Ausentes." }
+    { "texto": "Avaliação de petéquias ou sangramento cutâneo", "custo": 3, "relevante": false, "resposta": "Ausentes." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Síndrome IPEX", "correta": true },

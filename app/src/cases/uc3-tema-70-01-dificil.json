@@ -39,7 +39,8 @@
     { "texto": "Inspeção de pele em busca de petéquias e equimoses difusas", "custo": 3, "relevante": true, "resposta": "Petéquias e equimoses espalhadas pelo tronco e membros." },
     { "texto": "Avaliação do local de punção venosa", "custo": 3, "relevante": true, "resposta": "Sangramento contínuo e discreto no local de inserção do cateter venoso." },
     { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Sem icterícia." },
-    { "texto": "Avaliação de perfusão periférica", "custo": 3, "relevante": true, "resposta": "Extremidades frias, cianose de leito ungueal, tempo de enchimento capilar prolongado." }
+    { "texto": "Avaliação de perfusão periférica", "custo": 3, "relevante": true, "resposta": "Extremidades frias, cianose de leito ungueal, tempo de enchimento capilar prolongado." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Coagulação intravascular disseminada (CIVD) secundária a choque séptico", "correta": true },

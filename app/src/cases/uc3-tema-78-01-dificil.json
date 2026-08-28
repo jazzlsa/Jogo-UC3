@@ -40,7 +40,8 @@
     { "texto": "Palpação abdominal (tamanho, consistência, mobilidade da massa)", "custo": 3, "relevante": true, "resposta": "Massa abdominal volumosa, firme, pouco móvel, ocupando quase todo o abdome." },
     { "texto": "Avaliação de linfonodomegalias periféricas", "custo": 3, "relevante": true, "resposta": "Linfonodomegalias cervicais e inguinais discretas." },
     { "texto": "Avaliação de hepatoesplenomegalia", "custo": 3, "relevante": true, "resposta": "Fígado e baço aumentados, mas a massa dominante é claramente abdominal central, não esplênica isolada." },
-    { "texto": "Avaliação de sinais de desidratação", "custo": 3, "relevante": false, "resposta": "Mucosas discretamente secas, hidratação global preservada." }
+    { "texto": "Avaliação de sinais de desidratação", "custo": 3, "relevante": false, "resposta": "Mucosas discretamente secas, hidratação global preservada." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Linfoma de Burkitt", "correta": true },

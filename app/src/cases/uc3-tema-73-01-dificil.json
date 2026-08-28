@@ -38,7 +38,8 @@
   "exameFisico": [
     { "texto": "Avaliação de força motora nos quatro membros", "custo": 3, "relevante": true, "resposta": "Discreta paresia da mão direita, força grau 4/5." },
     { "texto": "Fundo de olho", "custo": 3, "relevante": true, "resposta": "Papiledema leve bilateral." },
-    { "texto": "Avaliação de febre e sinais sistêmicos de infecção", "custo": 3, "relevante": false, "resposta": "Afebril, sem sinais sistêmicos de infecção." }
+    { "texto": "Avaliação de febre e sinais sistêmicos de infecção", "custo": 3, "relevante": false, "resposta": "Afebril, sem sinais sistêmicos de infecção." },
+    { "texto": "Avaliação de rigidez de nuca", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Astrocitoma difuso, IDH-mutante", "correta": true },

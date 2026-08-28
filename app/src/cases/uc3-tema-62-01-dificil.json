@@ -40,7 +40,9 @@
   "exameFisico": [
     { "texto": "Avaliação de pulsos em quatro membros (assimetria)", "custo": 3, "relevante": true, "resposta": "Pulsos simétricos e presentes nos quatro membros." },
     { "texto": "Ausculta cardíaca em busca de atrito pericárdico", "custo": 3, "relevante": true, "resposta": "Sem atrito pericárdico à ausculta." },
-    { "texto": "Avaliação de sinais de baixo débito (perfusão, sudorese)", "custo": 3, "relevante": true, "resposta": "Sudorese fria discreta, perfusão periférica ainda preservada." }
+    { "texto": "Avaliação de sinais de baixo débito (perfusão, sudorese)", "custo": 3, "relevante": true, "resposta": "Sudorese fria discreta, perfusão periférica ainda preservada." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente." },
+    { "texto": "Palpação abdominal", "custo": 3, "relevante": false, "resposta": "Abdome normal, sem massas ou dor à palpação." }
   ],
   "hipoteses": [
     { "texto": "Síndrome coronariana aguda por ruptura de placa aterosclerótica", "correta": true },

@@ -41,7 +41,9 @@
     { "texto": "Inspeção das lesões de pele", "custo": 3, "relevante": true, "resposta": "Vesículas agrupadas sobre base eritematosa, em padrão herpetiforme." },
     { "texto": "Avaliação de tônus e nível de consciência", "custo": 3, "relevante": true, "resposta": "Hipotonia e letargia importantes para a idade." },
     { "texto": "Palpação abdominal (hepatomegalia)", "custo": 3, "relevante": true, "resposta": "Hepatomegalia discreta à palpação." },
-    { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": true, "resposta": "Icterícia leve presente." }
+    { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": true, "resposta": "Icterícia leve presente." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." },
+    { "texto": "Avaliação de fontanela", "custo": 3, "relevante": false, "resposta": "Fontanela normotensa, sem abaulamento." }
   ],
   "hipoteses": [
     { "texto": "Herpes neonatal disseminado (HSV)", "correta": true },

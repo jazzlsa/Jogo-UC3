@@ -39,7 +39,8 @@
     { "texto": "Inspeção da cicatriz de excisão e da pele ao redor", "custo": 3, "relevante": true, "resposta": "Cicatriz cirúrgica bem cicatrizada, sem lesão residual visível no local original." },
     { "texto": "Palpação dos nódulos subcutâneos", "custo": 3, "relevante": true, "resposta": "Múltiplos nódulos firmes, indolores, de tamanhos variados, em tronco e membros." },
     { "texto": "Palpação de linfonodos cervicais e axilares", "custo": 3, "relevante": true, "resposta": "Linfonodomegalias cervicais endurecidas e não dolorosas." },
-    { "texto": "Avaliação de icterícia e hepatomegalia", "custo": 3, "relevante": false, "resposta": "Sem icterícia ou hepatomegalia palpável." }
+    { "texto": "Avaliação de icterícia e hepatomegalia", "custo": 3, "relevante": false, "resposta": "Sem icterícia ou hepatomegalia palpável." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Melanoma metastático", "correta": true },

@@ -40,7 +40,9 @@
   "exameFisico": [
     { "texto": "Avaliação de emagrecimento e distensão abdominal", "custo": 3, "relevante": true, "resposta": "Emagrecimento evidente e discreta distensão abdominal." },
     { "texto": "Inspeção das lesões de pele nos cotovelos e joelhos", "custo": 3, "relevante": true, "resposta": "Lesões vesiculares agrupadas e muito pruriginosas em superfícies extensoras (cotovelos e joelhos)." },
-    { "texto": "Avaliação de palidez de mucosas", "custo": 3, "relevante": true, "resposta": "Palidez de mucosas compatível com anemia." }
+    { "texto": "Avaliação de palidez de mucosas", "custo": 3, "relevante": true, "resposta": "Palidez de mucosas compatível com anemia." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Doença celíaca", "correta": true },

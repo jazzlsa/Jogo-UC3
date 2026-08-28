@@ -38,7 +38,8 @@
   "exameFisico": [
     { "texto": "Palpação abdominal e pélvica (mobilidade e consistência da massa)", "custo": 3, "relevante": true, "resposta": "Massa pélvica irregular, de consistência endurecida, pouco móvel, sugestiva de fixação a estruturas vizinhas." },
     { "texto": "Avaliação de ascite (macicez móvel)", "custo": 3, "relevante": true, "resposta": "Macicez móvel presente, compatível com ascite." },
-    { "texto": "Avaliação de febre e sinais de infecção pélvica", "custo": 3, "relevante": false, "resposta": "Afebril, sem sinais de infecção pélvica." }
+    { "texto": "Avaliação de febre e sinais de infecção pélvica", "custo": 3, "relevante": false, "resposta": "Afebril, sem sinais de infecção pélvica." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Cistoadenocarcinoma seroso do ovário", "correta": true },

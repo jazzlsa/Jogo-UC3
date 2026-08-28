@@ -38,7 +38,8 @@
   "exameFisico": [
     { "texto": "Observação de mioclonias durante a consulta", "custo": 3, "relevante": true, "resposta": "Mioclonias generalizadas periódicas observadas durante o exame." },
     { "texto": "Avaliação cognitiva breve", "custo": 3, "relevante": true, "resposta": "Deterioração evidente de funções cognitivas superiores em relação ao esperado para a idade." },
-    { "texto": "Avaliação de sinais neurológicos focais", "custo": 3, "relevante": false, "resposta": "Sem déficit focal evidente neste momento." }
+    { "texto": "Avaliação de sinais neurológicos focais", "custo": 3, "relevante": false, "resposta": "Sem déficit focal evidente neste momento." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Panencefalite esclerosante subaguda (PEES) por sarampo", "correta": true },
