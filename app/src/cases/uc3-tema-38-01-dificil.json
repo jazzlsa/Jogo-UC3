@@ -35,7 +35,8 @@
     { "texto": "Existe alguma ferida, lesão de pele ou porta de entrada perto dessa articulação?", "custo": 2, "relevante": true, "resposta": "Tem uma lesão de psoríase com pele rachada bem perto do joelho, que ele mexeu recentemente." },
     { "texto": "Consome bastante álcool ou alimentos ricos em purina (carnes, frutos do mar) com frequência?", "custo": 2, "relevante": true, "resposta": "Bebe socialmente, sem excesso, e não tem hábito de comer muita carne vermelha ou frutos do mar." },
     { "texto": "Já teve crise de gota confirmada antes?", "custo": 2, "relevante": true, "resposta": "Nunca teve diagnóstico de gota antes." },
-    { "texto": "Notou inchaço ou vermelhidão na perna toda, ou só na região da articulação?", "custo": 2, "relevante": true, "resposta": "O inchaço e a vermelhidão são bem localizados ao redor do joelho, não na perna toda." }
+    { "texto": "Notou inchaço ou vermelhidão na perna toda, ou só na região da articulação?", "custo": 2, "relevante": true, "resposta": "O inchaço e a vermelhidão são bem localizados ao redor do joelho, não na perna toda." },
+    { "texto": "Notou febre alta associada a dor de garganta recentemente?", "custo": 2, "relevante": false, "resposta": "Sem dor de garganta recente." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de calor, rubor e edema periarticular", "custo": 3, "relevante": false, "resposta": "Calor, rubor e edema evidentes ao redor do joelho direito." },

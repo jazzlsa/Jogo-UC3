@@ -34,7 +34,8 @@
     { "texto": "Como está a adesão ao tratamento antirretroviral?", "custo": 2, "relevante": true, "resposta": "Abandonou o tratamento antirretroviral há mais de um ano." },
     { "texto": "As lesões doem, coçam ou sangram fácil ao toque?", "custo": 2, "relevante": true, "resposta": "Não doem, não coçam, e não sangram fácil quando manipuladas com cuidado." },
     { "texto": "Teve arranhão ou contato recente com gatos?", "custo": 2, "relevante": true, "resposta": "Não teve contato recente com gatos ou arranhões." },
-    { "texto": "Teve algum trauma na região onde as manchas apareceram?", "custo": 2, "relevante": false, "resposta": "Não houve nenhum trauma nessas áreas." }
+    { "texto": "Teve algum trauma na região onde as manchas apareceram?", "custo": 2, "relevante": false, "resposta": "Não houve nenhum trauma nessas áreas." },
+    { "texto": "Notou tosse persistente ou falta de ar?", "custo": 2, "relevante": false, "resposta": "Sem tosse ou falta de ar associada." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de assimetria e irregularidade de bordas da lesão (sinais de melanoma)", "custo": 3, "relevante": false, "resposta": "Lesões simétricas, bordas bem definidas, sem os sinais clássicos de melanoma." },

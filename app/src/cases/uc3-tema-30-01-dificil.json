@@ -33,7 +33,8 @@
     { "texto": "Tem dor abdominal localizada e intensa, como se algo tivesse perfurado?", "custo": 2, "relevante": true, "resposta": "Tem desconforto abdominal difuso, mas nada muito localizado ou muito intenso." },
     { "texto": "Usou algum antibiótico recentemente, antes desses sintomas começarem?", "custo": 2, "relevante": true, "resposta": "Não usou nenhum antibiótico nas últimas semanas." },
     { "texto": "Tem diarreia associada?", "custo": 2, "relevante": false, "resposta": "Não tem diarreia, apenas o mal-estar geral com febre." },
-    { "texto": "Tem sintomas urinários como ardência ou aumento da frequência?", "custo": 2, "relevante": false, "resposta": "Sem sintomas urinários." }
+    { "texto": "Tem sintomas urinários como ardência ou aumento da frequência?", "custo": 2, "relevante": false, "resposta": "Sem sintomas urinários." },
+    { "texto": "Notou tosse ou falta de ar associada?", "custo": 2, "relevante": false, "resposta": "Sem tosse ou falta de ar associada." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de sinais de irritação peritoneal (Blumberg, defesa muscular)", "custo": 3, "relevante": true, "resposta": "Abdome difusamente sensível à palpação, mas sem defesa muscular ou sinais claros de irritação peritoneal." },

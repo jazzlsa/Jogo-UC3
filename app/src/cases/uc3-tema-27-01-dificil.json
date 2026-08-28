@@ -34,7 +34,8 @@
     { "texto": "As hemoculturas anteriores mostraram o mesmo organismo nas duas vezes?", "custo": 2, "relevante": true, "resposta": "Sim, o mesmo tipo de bactéria cresceu nas duas hemoculturas anteriores." },
     { "texto": "Notou vermelhidão, dor ou secreção no local onde o cateter entra na pele?", "custo": 2, "relevante": true, "resposta": "Discreta vermelhidão ao redor da inserção do cateter, sem secreção purulenta visível." },
     { "texto": "Teve sintomas urinários ou respiratórios que sugerissem outro foco de infecção?", "custo": 2, "relevante": false, "resposta": "Sem sintomas urinários ou respiratórios." },
-    { "texto": "Está neutropênica no momento pela quimioterapia?", "custo": 2, "relevante": false, "resposta": "Contagem de neutrófilos atual dentro da normalidade." }
+    { "texto": "Está neutropênica no momento pela quimioterapia?", "custo": 2, "relevante": false, "resposta": "Contagem de neutrófilos atual dentro da normalidade." },
+    { "texto": "Teve febre alta persistente mesmo antes de colocar o cateter?", "custo": 2, "relevante": false, "resposta": "Não, a febre começou só depois de o cateter estar instalado." }
   ],
   "exameFisico": [
     { "texto": "Inspeção do sítio de inserção do cateter", "custo": 3, "relevante": true, "resposta": "Hiperemia discreta ao redor do óstio de inserção, sem secreção purulenta." },

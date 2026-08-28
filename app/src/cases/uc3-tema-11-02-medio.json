@@ -33,7 +33,9 @@
     { "texto": "Perdeu peso sem intenção nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Perdeu uns 3 kg porque passou a evitar comida sólida com medo de entalar." },
     { "texto": "A dificuldade é só com sólidos ou também com líquidos desde o início?", "custo": 2, "relevante": true, "resposta": "Só com sólidos, e foi piorando aos poucos ao longo de semanas." },
     { "texto": "Já teve episódios de falta de ar tipo asma ou alergia alimentar conhecida?", "custo": 2, "relevante": false, "resposta": "Nunca teve asma nem alergia alimentar diagnosticada." },
-    { "texto": "Fez tratamento contínuo pro refluxo (inibidor de bomba de prótons)?", "custo": 2, "relevante": true, "resposta": "Tomava omeprazol só quando a azia incomodava muito, nunca de forma contínua." }
+    { "texto": "Fez tratamento contínuo pro refluxo (inibidor de bomba de prótons)?", "custo": 2, "relevante": true, "resposta": "Tomava omeprazol só quando a azia incomodava muito, nunca de forma contínua." },
+    { "texto": "Tem histórico familiar de câncer gástrico?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar relevante." },
+    { "texto": "Notou rouquidão persistente ou tosse crônica noturna?", "custo": 2, "relevante": false, "resposta": "Não notou rouquidão ou tosse crônica." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de massa muscular e estado nutricional geral", "custo": 3, "relevante": true, "resposta": "Leve perda de massa muscular temporal, sem outros achados relevantes." },

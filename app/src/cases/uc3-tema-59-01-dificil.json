@@ -35,7 +35,8 @@
     { "texto": "O que aconteceu na saúde dele nos dias antes da fraqueza na perna começar?", "custo": 2, "relevante": true, "resposta": "Teve febre e diarreia por alguns dias, que melhoraram parcialmente antes da fraqueza aparecer." },
     { "texto": "A fraqueza afeta só uma perna ou os dois lados igualmente?", "custo": 2, "relevante": true, "resposta": "Só a perna direita está fraca, a esquerda está normal." },
     { "texto": "Ele reclama de formigamento ou perda de sensibilidade na perna?", "custo": 2, "relevante": true, "resposta": "Não reclama de formigamento ou perda de sensibilidade, só de fraqueza." },
-    { "texto": "Tem acesso a água tratada e saneamento básico em casa?", "custo": 2, "relevante": true, "resposta": "Mora numa área com saneamento básico precário, sem acesso regular a água tratada." }
+    { "texto": "Tem acesso a água tratada e saneamento básico em casa?", "custo": 2, "relevante": true, "resposta": "Mora numa área com saneamento básico precário, sem acesso regular a água tratada." },
+    { "texto": "Notou febre alta persistente por mais de uma semana?", "custo": 2, "relevante": false, "resposta": "Teve febre baixa por poucos dias, já resolvida antes da fraqueza começar." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de força muscular nos quatro membros", "custo": 3, "relevante": true, "resposta": "Fraqueza flácida importante na perna direita, força preservada nos demais membros." },

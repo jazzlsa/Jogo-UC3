@@ -33,7 +33,8 @@
     { "texto": "Notou perda de força ou dificuldade progressiva para se levantar de cadeiras nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Sim, há uns seis meses vem sentindo mais dificuldade pra se levantar da cadeira sem apoiar as mãos." },
     { "texto": "Teve dor no peito ou palpitação antes de cair?", "custo": 2, "relevante": false, "resposta": "Não sentiu nada no peito nem palpitação." },
     { "texto": "Já foi diagnosticada com osteoporose antes?", "custo": 2, "relevante": true, "resposta": "Fez uma densitometria óssea há dois anos que mostrou osteoporose, mas não seguiu tratamento direito." },
-    { "texto": "Já apresentou episódios de fraqueza súbita de um lado do corpo?", "custo": 2, "relevante": false, "resposta": "Nunca teve fraqueza súbita de um lado do corpo." }
+    { "texto": "Já apresentou episódios de fraqueza súbita de um lado do corpo?", "custo": 2, "relevante": false, "resposta": "Nunca teve fraqueza súbita de um lado do corpo." },
+    { "texto": "Notou febre ou sintomas de infecção urinária antes da queda?", "custo": 2, "relevante": false, "resposta": "Sem febre ou sintomas urinários antes da queda." }
   ],
   "exameFisico": [
     { "texto": "Inspeção e mobilização passiva do membro inferior direito", "custo": 3, "relevante": true, "resposta": "Membro inferior direito encurtado e rodado externamente, dor intensa à mobilização." },

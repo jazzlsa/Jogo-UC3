@@ -34,7 +34,8 @@
     { "texto": "A dor de cabeça tem algum padrão, como piorar de manhã ou vir com vômito?", "custo": 2, "relevante": true, "resposta": "É quase diária, costuma ser pior ao acordar, às vezes acompanhada de vômito." },
     { "texto": "Notou aumento de sede e de quantidade de urina, inclusive à noite?", "custo": 2, "relevante": true, "resposta": "Sim, bebe muita água o dia todo e acorda mais de uma vez à noite pra urinar." },
     { "texto": "Já usou corticoide por tempo prolongado, mesmo tópico ou inalado?", "custo": 2, "relevante": false, "resposta": "Nunca usou corticoide de forma prolongada." },
-    { "texto": "Como está o crescimento em altura comparado aos colegas da mesma idade?", "custo": 2, "relevante": true, "resposta": "A mãe percebeu que ele parou de crescer em altura nesse último ano, ficando mais baixo que os colegas." }
+    { "texto": "Como está o crescimento em altura comparado aos colegas da mesma idade?", "custo": 2, "relevante": true, "resposta": "A mãe percebeu que ele parou de crescer em altura nesse último ano, ficando mais baixo que os colegas." },
+    { "texto": "Notou alteração no paladar ou olfato?", "custo": 2, "relevante": false, "resposta": "Sem alteração de paladar ou olfato." }
   ],
   "exameFisico": [
     { "texto": "Avaliação do campo visual por confrontação", "custo": 3, "relevante": true, "resposta": "Perda de visão periférica nas laterais dos dois olhos (padrão de hemianopsia bitemporal)." },

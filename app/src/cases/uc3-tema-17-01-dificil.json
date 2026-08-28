@@ -34,7 +34,8 @@
     { "texto": "O que exatamente aconteceu durante a transfusão de sangue do ano passado?", "custo": 2, "relevante": true, "resposta": "Teve uma reação grave, com falta de ar e queda de pressão, logo no início da transfusão." },
     { "texto": "Desde que idade essas infecções começaram?", "custo": 2, "relevante": true, "resposta": "Começaram por volta dos 3-4 anos, não desde bebê pequeno." },
     { "texto": "Ele está com o peso e a altura esperados pra idade?", "custo": 2, "relevante": false, "resposta": "Peso e altura estão dentro do esperado pra idade, sem déficit de crescimento." },
-    { "texto": "Tem histórico familiar de imunodeficiência conhecida?", "custo": 2, "relevante": false, "resposta": "Não há nenhum caso conhecido de imunodeficiência na família." }
+    { "texto": "Tem histórico familiar de imunodeficiência conhecida?", "custo": 2, "relevante": false, "resposta": "Não há nenhum caso conhecido de imunodeficiência na família." },
+    { "texto": "Teve reação alérgica grave a picada de inseto?", "custo": 2, "relevante": false, "resposta": "Nunca teve reação alérgica grave a picada de inseto." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de tonsilas e linfonodos", "custo": 3, "relevante": true, "resposta": "Tonsilas e linfonodos presentes e de tamanho normal para a idade." },

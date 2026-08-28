@@ -33,7 +33,8 @@
     { "texto": "A febre ainda está presente ou já melhorou?", "custo": 2, "relevante": true, "resposta": "A febre alta do início já passou, agora fica só um pouco quente, sem calafrio." },
     { "texto": "Ele mesmo notou algum \"caroço\" ou massa na região?", "custo": 2, "relevante": true, "resposta": "Sim, sente uma massa firme e um pouco dolorida do lado direito da barriga." },
     { "texto": "Teve perda de peso importante ou diarreia crônica nos últimos meses?", "custo": 2, "relevante": false, "resposta": "Sem perda de peso importante ou diarreia crônica prévia." },
-    { "texto": "Tem histórico familiar de câncer intestinal?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de câncer intestinal conhecido." }
+    { "texto": "Tem histórico familiar de câncer intestinal?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de câncer intestinal conhecido." },
+    { "texto": "Tem histórico de doença inflamatória intestinal na família?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar de doença inflamatória intestinal." }
   ],
   "exameFisico": [
     { "texto": "Palpação abdominal detalhada da fossa ilíaca direita", "custo": 3, "relevante": true, "resposta": "Massa palpável, bem delimitada, discretamente dolorosa, sem sinais de flutuação." },

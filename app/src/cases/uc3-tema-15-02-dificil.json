@@ -34,7 +34,9 @@
     { "texto": "Ao investigar melhor a fala \"sem sentido\", existe algum conteúdo de crença estranha ou fora da realidade?", "custo": 2, "relevante": true, "resposta": "Sim, às vezes comenta que sente que \"pensamentos são colocados\" na cabeça dela por alguém, de forma vaga e pouco elaborada." },
     { "texto": "Uso de maconha ou outras substâncias de forma crônica?", "custo": 2, "relevante": true, "resposta": "Nega uso de qualquer substância; a irmã confirma que nunca notou nada." },
     { "texto": "Notou intolerância ao frio, ganho de peso ou constipação recentes?", "custo": 2, "relevante": true, "resposta": "Não notou nada disso, o apetite e o peso seguem praticamente iguais." },
-    { "texto": "Sempre foi uma pessoa mais fechada e reservada desde a infância?", "custo": 2, "relevante": false, "resposta": "Não, era bem sociável e ativa antes desse último ano e meio." }
+    { "texto": "Sempre foi uma pessoa mais fechada e reservada desde a infância?", "custo": 2, "relevante": false, "resposta": "Não, era bem sociável e ativa antes desse último ano e meio." },
+    { "texto": "Teve febre ou infecção recente antes dessa mudança de comportamento?", "custo": 2, "relevante": false, "resposta": "Sem febre ou infecção recente." },
+    { "texto": "Usa medicação de uso contínuo que possa causar sedação?", "custo": 2, "relevante": false, "resposta": "Não usa nenhuma medicação de uso contínuo." }
   ],
   "exameFisico": [
     { "texto": "Avaliação do afeto e da expressividade facial", "custo": 3, "relevante": true, "resposta": "Afeto marcadamente embotado, quase nenhuma variação de expressão durante toda a entrevista." },

@@ -89,7 +89,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Não, nenhum dos dois."
-    }
+    },
+    { "texto": "Teve contato com fezes de gato ou consumiu carne mal passada?", "custo": 2, "relevante": false, "resposta": "Não, sem esse tipo de exposição." }
   ],
   "exameFisico": [
     {
