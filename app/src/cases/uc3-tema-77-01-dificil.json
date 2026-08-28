@@ -34,7 +34,8 @@
     { "texto": "Já teve diagnóstico de hepatite B ou C?", "custo": 2, "relevante": true, "resposta": "Nunca foi diagnosticado com hepatite viral, nunca fez rastreio antes." },
     { "texto": "Notou sangue ao evacuar ou fezes escurecidas?", "custo": 2, "relevante": false, "resposta": "Não notou sangramento nas fezes." },
     { "texto": "Tem histórico familiar de câncer de fígado ou cirrose?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de doença hepática." },
-    { "texto": "Notou emagrecimento junto com o inchaço da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu bastante nas últimas semanas." }
+    { "texto": "Notou emagrecimento junto com o inchaço da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu bastante nas últimas semanas." },
+    { "texto": "Usa esteroides anabolizantes ou outro medicamento hepatotóxico?", "custo": 2, "relevante": false, "resposta": "Não usa esteroides anabolizantes nem outros medicamentos hepatotóxicos." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de ascite (macicez móvel)", "custo": 3, "relevante": true, "resposta": "Ascite volumosa, de instalação recente e rápida." },

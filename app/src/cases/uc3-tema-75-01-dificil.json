@@ -34,7 +34,8 @@
     { "texto": "Notou rouquidão ou mudança na voz?", "custo": 2, "relevante": true, "resposta": "Sim, a voz ficou rouca nas últimas duas semanas." },
     { "texto": "Tem dificuldade pra engolir ou sensação de sufocamento?", "custo": 2, "relevante": true, "resposta": "Sim, engasga com facilidade, principalmente com alimentos sólidos." },
     { "texto": "Já fez radioterapia na região do pescoço quando criança?", "custo": 2, "relevante": false, "resposta": "Não, nunca fez radioterapia na região." },
-    { "texto": "Notou emagrecimento junto com o crescimento do pescoço?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu bastante nas últimas semanas." }
+    { "texto": "Notou emagrecimento junto com o crescimento do pescoço?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu bastante nas últimas semanas." },
+    { "texto": "Tem histórico familiar de câncer de tireoide?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar de câncer de tireoide." }
   ],
   "exameFisico": [
     { "texto": "Palpação da massa cervical (consistência, mobilidade, limites)", "custo": 3, "relevante": true, "resposta": "Massa endurecida, fixa a planos profundos, com limites imprecisos, bem diferente de um bócio nodular simples." },

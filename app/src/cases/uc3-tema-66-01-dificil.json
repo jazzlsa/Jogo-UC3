@@ -34,7 +34,9 @@
     { "texto": "Já teve gestações antes do transplante?", "custo": 2, "relevante": true, "resposta": "Teve três gestações antes de precisar de diálise." },
     { "texto": "Já fez algum transplante anteriormente, mesmo que rejeitado?", "custo": 2, "relevante": true, "resposta": "Sim, teve um transplante renal rejeitado há oito anos." },
     { "texto": "O crossmatch pré-transplante tinha sido feito e informado como negativo?", "custo": 2, "relevante": true, "resposta": "Sim, o crossmatch prévio foi informado como negativo." },
-    { "texto": "Quanto tempo exatamente entre a reperfusão do enxerto e o problema aparecer?", "custo": 2, "relevante": true, "resposta": "Foi quase imediato, em poucos minutos após a reperfusão." }
+    { "texto": "Quanto tempo exatamente entre a reperfusão do enxerto e o problema aparecer?", "custo": 2, "relevante": true, "resposta": "Foi quase imediato, em poucos minutos após a reperfusão." },
+    { "texto": "Fez uso recente de contraste radiológico?", "custo": 2, "relevante": false, "resposta": "Não fez uso recente de contraste." },
+    { "texto": "Tem histórico familiar de doença renal?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de doença renal conhecida." }
   ],
   "exameFisico": [
     { "texto": "Tempo de isquemia fria do enxerto (armazenamento entre a retirada e o transplante)", "custo": 3, "relevante": false, "resposta": "Dentro do tempo recomendado, sem prolongamento que justificasse necrose tubular por isquemia." },

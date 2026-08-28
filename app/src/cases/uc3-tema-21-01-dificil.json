@@ -34,7 +34,8 @@
     { "texto": "Já teve algum episódio de mal-estar importante com hálito cetônico ou necessidade de internação por causa da glicose?", "custo": 2, "relevante": true, "resposta": "Teve um episódio de mal-estar forte com hálito diferente há três semanas, mas não procurou hospital." },
     { "texto": "Tem histórico familiar de diabetes tipo 2?", "custo": 2, "relevante": false, "resposta": "Pai e um irmão têm diabetes tipo 2, diagnosticados depois dos 50 anos." },
     { "texto": "Tem ou já teve alguma outra doença autoimune, como tireoidite?", "custo": 2, "relevante": true, "resposta": "Foi diagnosticado com tireoidite de Hashimoto há dois anos." },
-    { "texto": "Faz atividade física regular e como está a dieta atual?", "custo": 2, "relevante": false, "resposta": "Faz caminhadas ocasionais, dieta razoável, sem grandes excessos." }
+    { "texto": "Faz atividade física regular e como está a dieta atual?", "custo": 2, "relevante": false, "resposta": "Faz caminhadas ocasionais, dieta razoável, sem grandes excessos." },
+    { "texto": "Notou visão embaçada progressiva?", "custo": 2, "relevante": false, "resposta": "Sem alteração visual até o momento." }
   ],
   "exameFisico": [
     { "texto": "Cálculo do índice de massa corporal", "custo": 3, "relevante": false, "resposta": "IMC 27, sobrepeso leve." },

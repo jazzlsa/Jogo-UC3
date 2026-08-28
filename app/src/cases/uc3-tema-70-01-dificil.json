@@ -33,7 +33,8 @@
     { "texto": "Usou heparina ou outro anticoagulante recentemente?", "custo": 2, "relevante": false, "resposta": "Não usou heparina ou qualquer anticoagulante antes desse quadro." },
     { "texto": "Tem histórico de doença hepática crônica conhecida?", "custo": 2, "relevante": false, "resposta": "Sem histórico de doença hepática crônica." },
     { "texto": "Está sangrando em mais de um lugar ao mesmo tempo (gengiva, local de punção, urina)?", "custo": 2, "relevante": true, "resposta": "Sim, sangramento no local do soro e um pouco de sangue na urina também." },
-    { "texto": "Notou os dedos das mãos ou pés ficando arroxeados ou frios?", "custo": 2, "relevante": true, "resposta": "Sim, os dedos das mãos estão com aspecto arroxeado e mais frios que o normal." }
+    { "texto": "Notou os dedos das mãos ou pés ficando arroxeados ou frios?", "custo": 2, "relevante": true, "resposta": "Sim, os dedos das mãos estão com aspecto arroxeado e mais frios que o normal." },
+    { "texto": "Notou icterícia junto com esses sintomas?", "custo": 2, "relevante": false, "resposta": "Sem icterícia associada." }
   ],
   "exameFisico": [
     { "texto": "Inspeção de pele em busca de petéquias e equimoses difusas", "custo": 3, "relevante": true, "resposta": "Petéquias e equimoses espalhadas pelo tronco e membros." },

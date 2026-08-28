@@ -33,7 +33,8 @@
     { "texto": "Tem histórico familiar de câncer de ovário ou de mama?", "custo": 2, "relevante": true, "resposta": "Uma tia materna teve câncer de ovário aos 60 anos." },
     { "texto": "Tem dor pélvica cíclica relacionada à menstruação, mesmo já na menopausa?", "custo": 2, "relevante": false, "resposta": "Não tem dor cíclica, já está na menopausa há alguns anos." },
     { "texto": "Teve febre ou corrimento vaginal com odor forte?", "custo": 2, "relevante": false, "resposta": "Sem febre ou corrimento vaginal." },
-    { "texto": "Notou emagrecimento junto com o aumento da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu apesar do abdome estar cada vez maior." }
+    { "texto": "Notou emagrecimento junto com o aumento da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu apesar do abdome estar cada vez maior." },
+    { "texto": "Notou sangramento vaginal fora do período menstrual, já que está na menopausa?", "custo": 2, "relevante": false, "resposta": "Sem sangramento vaginal." }
   ],
   "exameFisico": [
     { "texto": "Palpação abdominal e pélvica (mobilidade e consistência da massa)", "custo": 3, "relevante": true, "resposta": "Massa pélvica irregular, de consistência endurecida, pouco móvel, sugestiva de fixação a estruturas vizinhas." },

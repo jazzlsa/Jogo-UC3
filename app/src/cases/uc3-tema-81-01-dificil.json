@@ -33,7 +33,8 @@
     { "texto": "Algum nódulo de pele já diminuiu ou desapareceu sozinho em algum momento, mesmo sem tratamento?", "custo": 2, "relevante": true, "resposta": "Sim, notou que um nódulo pequeno próximo à cicatriz sumiu sozinho há uns dois meses, antes de aparecerem os outros." },
     { "texto": "Fez quimioterapia ou algum outro tratamento sistêmico depois da cirurgia?", "custo": 2, "relevante": false, "resposta": "Não, só fez a cirurgia, sem nenhum tratamento sistêmico depois." },
     { "texto": "Tem histórico de exposição solar intensa ou queimaduras solares graves no passado?", "custo": 2, "relevante": false, "resposta": "Sim, trabalhou muitos anos exposto ao sol sem proteção, mas isso já era sabido desde o diagnóstico inicial." },
-    { "texto": "Notou emagrecimento ou fadiga importante nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu e está bem mais cansado que o normal." }
+    { "texto": "Notou emagrecimento ou fadiga importante nos últimos meses?", "custo": 2, "relevante": true, "resposta": "Sim, emagreceu e está bem mais cansado que o normal." },
+    { "texto": "Tem histórico familiar de melanoma?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar de melanoma." }
   ],
   "exameFisico": [
     { "texto": "Inspeção da cicatriz de excisão e da pele ao redor", "custo": 3, "relevante": true, "resposta": "Cicatriz cirúrgica bem cicatrizada, sem lesão residual visível no local original." },

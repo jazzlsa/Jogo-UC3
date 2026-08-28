@@ -33,7 +33,8 @@
     { "texto": "A diarreia melhora quando tiram glúten ou algum alimento específico da dieta?", "custo": 2, "relevante": true, "resposta": "Já tentaram tirar vários alimentos, inclusive glúten, sem nenhuma melhora." },
     { "texto": "Tem histórico familiar de tios maternos com quadro parecido?", "custo": 2, "relevante": true, "resposta": "Um tio materno morreu ainda bebê com um quadro parecido de diarreia grave e diabetes." },
     { "texto": "Já teve sangramento fácil ou manchas roxas na pele, além do eczema?", "custo": 2, "relevante": false, "resposta": "Sem sangramento fácil ou manchas roxas, só o eczema mesmo." },
-    { "texto": "Teve alguma infecção grave incomum, como pneumonia por fungo?", "custo": 2, "relevante": false, "resposta": "Não teve nenhuma infecção grave incomum até agora." }
+    { "texto": "Teve alguma infecção grave incomum, como pneumonia por fungo?", "custo": 2, "relevante": false, "resposta": "Não teve nenhuma infecção grave incomum até agora." },
+    { "texto": "Notou queda de cabelo ou unhas quebradiças?", "custo": 2, "relevante": false, "resposta": "Sem queda de cabelo ou alteração ungueal." }
   ],
   "exameFisico": [
     { "texto": "Inspeção da pele (extensão e características do eczema)", "custo": 3, "relevante": true, "resposta": "Eczema extenso, avermelhado e descamativo, cobrindo grande parte do tronco e membros." },

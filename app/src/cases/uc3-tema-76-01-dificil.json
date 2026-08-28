@@ -33,7 +33,8 @@
     { "texto": "Como exatamente é esse reflexo branco, aparece nos dois olhos ou só em um?", "custo": 2, "relevante": true, "resposta": "A mãe já notou esse reflexo estranho nos dois olhos em fotos diferentes." },
     { "texto": "Ele nasceu muito prematuro e precisou de oxigênio por tempo prolongado?", "custo": 2, "relevante": false, "resposta": "Nasceu a termo, sem necessidade de oxigenoterapia prolongada." },
     { "texto": "Teve contato com terra contaminada por fezes de cão ou gato?", "custo": 2, "relevante": false, "resposta": "Sem exposição conhecida a terra contaminada por fezes de animais." },
-    { "texto": "Desde quando notaram esse estrabismo?", "custo": 2, "relevante": true, "resposta": "Notaram há cerca de um mês, é uma coisa nova." }
+    { "texto": "Desde quando notaram esse estrabismo?", "custo": 2, "relevante": true, "resposta": "Notaram há cerca de um mês, é uma coisa nova." },
+    { "texto": "A criança teve alguma infecção ocular recente?", "custo": 2, "relevante": false, "resposta": "Sem infecção ocular recente." }
   ],
   "exameFisico": [
     { "texto": "Fundo de olho sob boa iluminação (avaliação de leucocoria)", "custo": 3, "relevante": true, "resposta": "Reflexo pupilar esbranquiçado presente nos dois olhos." },

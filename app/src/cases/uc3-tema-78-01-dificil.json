@@ -34,7 +34,8 @@
     { "texto": "Teve febre ou sudorese noturna junto com o crescimento da barriga?", "custo": 2, "relevante": true, "resposta": "Sim, tem tido febre baixa intermitente e suor noturno nos últimos dias." },
     { "texto": "Notou perda de apetite ou saciedade muito rápida ao comer?", "custo": 2, "relevante": true, "resposta": "Sim, come muito pouco e já sente a barriga estufada rapidamente." },
     { "texto": "Teve algum trauma abdominal recente?", "custo": 2, "relevante": false, "resposta": "Nenhum trauma abdominal recente." },
-    { "texto": "Tem histórico familiar de câncer na infância?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de câncer infantil." }
+    { "texto": "Tem histórico familiar de câncer na infância?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de câncer infantil." },
+    { "texto": "Notou sangramento gengival ou nasal espontâneo?", "custo": 2, "relevante": false, "resposta": "Sem sangramento espontâneo." }
   ],
   "exameFisico": [
     { "texto": "Palpação abdominal (tamanho, consistência, mobilidade da massa)", "custo": 3, "relevante": true, "resposta": "Massa abdominal volumosa, firme, pouco móvel, ocupando quase todo o abdome." },

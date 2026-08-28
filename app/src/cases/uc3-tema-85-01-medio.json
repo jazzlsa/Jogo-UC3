@@ -34,7 +34,8 @@
     { "texto": "Algum outro irmão ou parente próximo tem o mesmo problema de pele?", "custo": 2, "relevante": true, "resposta": "Um irmão mais velho tem o mesmo padrão de fotossensibilidade grave desde bebê." },
     { "texto": "Ela usa alguma medicação de uso contínuo que possa causar fotossensibilidade?", "custo": 2, "relevante": false, "resposta": "Não usa nenhuma medicação de uso contínuo." },
     { "texto": "Notou dificuldade visual ou irritação ocular frequente?", "custo": 2, "relevante": true, "resposta": "Sim, os olhos ficam irritados e avermelhados com facilidade quando exposta à luz." },
-    { "texto": "Já teve alguma infecção de pele recorrente nas lesões?", "custo": 2, "relevante": false, "resposta": "Sem infecções de pele recorrentes nas lesões." }
+    { "texto": "Já teve alguma infecção de pele recorrente nas lesões?", "custo": 2, "relevante": false, "resposta": "Sem infecções de pele recorrentes nas lesões." },
+    { "texto": "Notou dificuldade de aprendizado ou atraso no desenvolvimento?", "custo": 2, "relevante": false, "resposta": "Desenvolvimento neurológico normal para a idade." }
   ],
   "exameFisico": [
     { "texto": "Inspeção da pele em áreas fotoexpostas (face, mãos, braços)", "custo": 3, "relevante": true, "resposta": "Múltiplas manchas hipercrômicas e hipocrômicas irregulares (aspecto de pele envelhecida precocemente), sardas atípicas numerosas para a idade." },

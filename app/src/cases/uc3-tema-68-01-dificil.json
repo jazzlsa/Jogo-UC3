@@ -33,7 +33,8 @@
     { "texto": "Como esse declínio cognitivo e de comportamento vem evoluindo?", "custo": 2, "relevante": true, "resposta": "Vem piorando progressivamente há cerca de quatro meses, com queda de rendimento escolar e mudanças de personalidade." },
     { "texto": "Como são exatamente esses abalos musculares?", "custo": 2, "relevante": true, "resposta": "São abalos súbitos, breves, que acontecem várias vezes ao dia, às vezes derrubando objetos das mãos." },
     { "texto": "Tem histórico familiar de doença neurológica degenerativa rara?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de doença neurológica degenerativa conhecida." },
-    { "texto": "Usa alguma substância ou medicação que pudesse explicar esse quadro?", "custo": 2, "relevante": false, "resposta": "Não usa nenhuma substância ou medicação relevante." }
+    { "texto": "Usa alguma substância ou medicação que pudesse explicar esse quadro?", "custo": 2, "relevante": false, "resposta": "Não usa nenhuma substância ou medicação relevante." },
+    { "texto": "Notou febre alta associada aos abalos musculares?", "custo": 2, "relevante": false, "resposta": "Sem febre associada aos abalos." }
   ],
   "exameFisico": [
     { "texto": "Observação de mioclonias durante a consulta", "custo": 3, "relevante": true, "resposta": "Mioclonias generalizadas periódicas observadas durante o exame." },

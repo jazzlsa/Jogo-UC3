@@ -34,7 +34,9 @@
     { "texto": "Essa falta de ar começou de repente ou foi piorando aos poucos?", "custo": 2, "relevante": true, "resposta": "Foi bem súbita, começou de uma hora para outra." },
     { "texto": "Usa anticoncepcional hormonal ou tem câncer ativo em tratamento?", "custo": 2, "relevante": true, "resposta": "Usa anticoncepcional oral combinado há anos." },
     { "texto": "Teve tosse com sangue?", "custo": 2, "relevante": true, "resposta": "Teve um episódio de escarro com raias de sangue hoje." },
-    { "texto": "Tem histórico de ataques de pânico ou ansiedade diagnosticada antes?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de ansiedade ou pânico." }
+    { "texto": "Tem histórico de ataques de pânico ou ansiedade diagnosticada antes?", "custo": 2, "relevante": false, "resposta": "Nunca teve diagnóstico de ansiedade ou pânico." },
+    { "texto": "Tem histórico familiar de trombose venosa?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar conhecido de trombose." },
+    { "texto": "Notou febre alta associada?", "custo": 2, "relevante": false, "resposta": "Sem febre associada." }
   ],
   "exameFisico": [
     { "texto": "Avaliação de assimetria e dor na panturrilha (sinal de Homans)", "custo": 3, "relevante": true, "resposta": "Panturrilha direita mais inchada que a esquerda, dolorida à palpação." },
