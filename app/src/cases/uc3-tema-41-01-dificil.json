@@ -32,7 +32,7 @@
     { "texto": "Teve febre alta, emagrecimento ou sudorese noturna associados a esses episódios?", "custo": 2, "relevante": false, "resposta": "Sem febre alta, emagrecimento ou sudorese noturna, só os sintomas urinários mesmo." },
     { "texto": "Tem histórico familiar de câncer renal?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar de câncer renal." },
     { "texto": "Há quanto tempo tem infecções urinárias de repetição?", "custo": 2, "relevante": true, "resposta": "Mais de um ano, com vários episódios tratados com antibiótico ao longo desse tempo." },
-    { "texto": "Como é o cheiro da urina nos episódios de infecção?", "custo": 2, "relevante": true, "resposta": "Fica com um cheiro forte, parecido com amônia." },
+    { "texto": "Notou algum episódio de sangue na urina junto com a dor nas costas?", "custo": 2, "relevante": true, "resposta": "Sim, notou um pouco de sangue na urina desde que a dor nas costas começou." },
     { "texto": "Já teve diagnóstico de cálculo renal antes, e sabe de que tipo era?", "custo": 2, "relevante": true, "resposta": "Já foi informado que tinha \"uma pedrinha\" no rim há uns dois anos, mas nunca soube o tipo exato." },
     { "texto": "Tem hábito alimentar rico em alimentos com muito oxalato (espinafre, chocolate, castanhas)?", "custo": 2, "relevante": false, "resposta": "Não tem esse hábito alimentar em excesso." },
     { "texto": "Essa dor lombar atual é do tipo cólica, que vai e volta em ondas?", "custo": 2, "relevante": true, "resposta": "Sim, é uma dor em cólica, que piora e melhora em ondas." }

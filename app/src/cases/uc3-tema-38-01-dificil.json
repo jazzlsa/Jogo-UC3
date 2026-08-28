@@ -31,7 +31,7 @@
   "anamnese": [
     { "texto": "Fez alguma cirurgia ortopédica ou infiltração recente nesse joelho?", "custo": 2, "relevante": false, "resposta": "Nunca fez cirurgia ou infiltração nesse joelho." },
     { "texto": "Teve conjuntivite ou uretrite nas últimas semanas, junto ou antes da dor articular?", "custo": 2, "relevante": false, "resposta": "Não teve conjuntivite ou uretrite em nenhum momento." },
-    { "texto": "Teve febre alta com calafrio junto com a dor no joelho?", "custo": 2, "relevante": true, "resposta": "Sim, febre alta com calafrio forte começou junto com a piora do joelho." },
+    { "texto": "Teve algum contato sexual de risco ou corrimento uretral recente?", "custo": 2, "relevante": true, "resposta": "Não teve nenhum contato de risco ou corrimento." },
     { "texto": "Existe alguma ferida, lesão de pele ou porta de entrada perto dessa articulação?", "custo": 2, "relevante": true, "resposta": "Tem uma lesão de psoríase com pele rachada bem perto do joelho, que ele mexeu recentemente." },
     { "texto": "Consome bastante álcool ou alimentos ricos em purina (carnes, frutos do mar) com frequência?", "custo": 2, "relevante": true, "resposta": "Bebe socialmente, sem excesso, e não tem hábito de comer muita carne vermelha ou frutos do mar." },
     { "texto": "Já teve crise de gota confirmada antes?", "custo": 2, "relevante": true, "resposta": "Nunca teve diagnóstico de gota antes." },

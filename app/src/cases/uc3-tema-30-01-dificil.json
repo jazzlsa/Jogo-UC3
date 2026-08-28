@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Fez algum procedimento médico recentemente?", "custo": 2, "relevante": true, "resposta": "Fez uma colonoscopia de rotina há três dias, sem intercorrências relatadas na hora." },
+    { "texto": "Teve febre ou calafrios ainda durante o procedimento ou logo depois, na própria clínica?", "custo": 2, "relevante": true, "resposta": "Não, a febre só começou em casa, no dia seguinte." },
     { "texto": "Tem dor abdominal localizada e intensa, como se algo tivesse perfurado?", "custo": 2, "relevante": true, "resposta": "Tem desconforto abdominal difuso, mas nada muito localizado ou muito intenso." },
     { "texto": "Usou algum antibiótico recentemente, antes desses sintomas começarem?", "custo": 2, "relevante": true, "resposta": "Não usou nenhum antibiótico nas últimas semanas." },
     { "texto": "Tem diarreia associada?", "custo": 2, "relevante": false, "resposta": "Não tem diarreia, apenas o mal-estar geral com febre." },

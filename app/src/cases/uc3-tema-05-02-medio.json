@@ -55,10 +55,10 @@
   },
   "anamnese": [
     {
-      "texto": "Depois de acordar do desmaio inicial, ele ficou bem por algum tempo antes de piorar de novo?",
+      "texto": "Como estava a força e a fala dele durante esse intervalo em que ficou bem, antes de piorar de novo?",
       "custo": 2,
       "relevante": true,
-      "resposta": "Sim, ficou uns 30 minutos conversando normalmente antes de começar a ficar sonolento de novo."
+      "resposta": "Durante esse intervalo a força e a fala estavam completamente normais, só que agora ele está com dificuldade pra mexer o braço esquerdo."
     },
     {
       "texto": "Teve algum vômito nesse intervalo?",

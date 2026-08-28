@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Há quantos dias exatamente a dor começou e como ela evoluiu?", "custo": 2, "relevante": true, "resposta": "Começou há seis dias, foi mais intensa nos dois primeiros dias com febre, e desde então vem melhorando aos poucos." },
+    { "texto": "Ele consegue andar e se movimentar normalmente, ou prefere ficar bem parado?", "custo": 2, "relevante": true, "resposta": "Prefere ficar bem quieto, evita qualquer movimento porque piora a dor." },
     { "texto": "A febre ainda está presente ou já melhorou?", "custo": 2, "relevante": true, "resposta": "A febre alta do início já passou, agora fica só um pouco quente, sem calafrio." },
     { "texto": "Ele mesmo notou algum \"caroço\" ou massa na região?", "custo": 2, "relevante": true, "resposta": "Sim, sente uma massa firme e um pouco dolorida do lado direito da barriga." },
     { "texto": "Teve perda de peso importante ou diarreia crônica nos últimos meses?", "custo": 2, "relevante": false, "resposta": "Sem perda de peso importante ou diarreia crônica prévia." },

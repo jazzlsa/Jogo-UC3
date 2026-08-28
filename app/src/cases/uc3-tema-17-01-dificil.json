@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Com que frequência ele tem infecções respiratórias e sinusais?", "custo": 2, "relevante": true, "resposta": "Praticamente todo mês tem sinusite ou otite, quase sempre precisando de antibiótico." },
+    { "texto": "Tem alergias alimentares ou histórico de doença celíaca na família?", "custo": 2, "relevante": true, "resposta": "Não tem alergias alimentares conhecidas, mas uma prima tem doença celíaca." },
     { "texto": "Tem diarreia crônica ou recorrente também?", "custo": 2, "relevante": true, "resposta": "Sim, episódios de diarreia recorrentes há mais de um ano." },
     { "texto": "O que exatamente aconteceu durante a transfusão de sangue do ano passado?", "custo": 2, "relevante": true, "resposta": "Teve uma reação grave, com falta de ar e queda de pressão, logo no início da transfusão." },
     { "texto": "Desde que idade essas infecções começaram?", "custo": 2, "relevante": true, "resposta": "Começaram por volta dos 3-4 anos, não desde bebê pequeno." },

@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Há quanto tempo ele não se alimenta de verdade, e o que consumiu nesse período?", "custo": 2, "relevante": true, "resposta": "Há dois dias praticamente só bebeu bebida alcoólica, sem comer quase nada." },
+    { "texto": "Ele tem histórico de diabetes ou usa alguma medicação para baixar a glicose?", "custo": 2, "relevante": true, "resposta": "Não tem diabetes conhecido e não usa nenhuma medicação hipoglicemiante." },
     { "texto": "Ele usa insulina ou algum remédio pra diabetes?", "custo": 2, "relevante": true, "resposta": "Não é diabético e não usa nenhum remédio desse tipo." },
     { "texto": "Já teve episódios parecidos antes, em situação de beber sem comer?", "custo": 2, "relevante": true, "resposta": "O amigo lembra de já tê-lo visto confuso outras vezes depois de beber muito sem comer." },
     { "texto": "Teve febre ou algum foco de infecção nos últimos dias?", "custo": 2, "relevante": false, "resposta": "Sem febre ou qualquer sinal de infecção nos últimos dias." },

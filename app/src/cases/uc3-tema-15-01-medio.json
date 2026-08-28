@@ -34,7 +34,7 @@
     { "texto": "Já teve períodos de humor muito elevado, energia excessiva ou insônia sem se sentir cansado?", "custo": 2, "relevante": true, "resposta": "Nunca teve períodos assim, o humor sempre foi mais retraído, nunca eufórico." },
     { "texto": "Tem histórico familiar de transtornos psiquiátricos?", "custo": 2, "relevante": false, "resposta": "Um tio paterno teve um diagnóstico psiquiátrico parecido, mas nunca foi bem detalhado pela família." },
     { "texto": "Pode descrever o conteúdo específico do que ele acredita estar acontecendo?", "custo": 2, "relevante": false, "resposta": "Acredita que os vizinhos instalaram câmeras pra vigiá-lo e comentam sobre ele pelas paredes." },
-    { "texto": "Houve queda de rendimento acadêmico e isolamento social progressivo?", "custo": 2, "relevante": true, "resposta": "Sim, trancou a faculdade há 3 meses e praticamente parou de sair do quarto." },
+    { "texto": "Ele fala sozinho ou parece responder a vozes que mais ninguém escuta?", "custo": 2, "relevante": true, "resposta": "Sim, às vezes é visto conversando sozinho no quarto, como se estivesse respondendo a alguém." },
     { "texto": "Tem histórico de trauma cranioencefálico recente?", "custo": 2, "relevante": false, "resposta": "Sem histórico de trauma cranioencefálico." }
   ],
   "exameFisico": [

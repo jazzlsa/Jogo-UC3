@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Como foi o ritmo do ganho de peso e como está o apetite?", "custo": 2, "relevante": true, "resposta": "Engordou cerca de 15 kg em 8 meses, come compulsivamente e nunca parece satisfeito." },
+    { "texto": "Notou alguma mudança na sudorese dele, tipo suar bem menos que antes, mesmo em dias quentes?", "custo": 2, "relevante": true, "resposta": "A mãe notou que ele sua bem menos que antes, mesmo em dias quentes." },
     { "texto": "A dieta ou a rotina de atividade física da família mudou nesse período?", "custo": 2, "relevante": false, "resposta": "Não mudou nada, ele inclusive era uma criança ativa antes disso." },
     { "texto": "A dor de cabeça tem algum padrão, como piorar de manhã ou vir com vômito?", "custo": 2, "relevante": true, "resposta": "É quase diária, costuma ser pior ao acordar, às vezes acompanhada de vômito." },
     { "texto": "Notou aumento de sede e de quantidade de urina, inclusive à noite?", "custo": 2, "relevante": true, "resposta": "Sim, bebe muita água o dia todo e acorda mais de uma vez à noite pra urinar." },

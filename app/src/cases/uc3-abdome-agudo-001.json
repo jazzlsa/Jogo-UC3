@@ -55,10 +55,10 @@
   },
   "anamnese": [
     {
-      "texto": "A dor migrou de periumbilical pra fossa ilíaca direita?",
+      "texto": "A dor piora ao tossir, pular ou andar de carro em estrada esburacada?",
       "custo": 2,
       "relevante": true,
-      "resposta": "Sim, começou perto do umbigo e desceu pro quadrante inferior direito."
+      "resposta": "Sim, piora bastante com qualquer movimento brusco."
     },
     {
       "texto": "Teve náusea, vômito ou inapetência junto com a dor?",

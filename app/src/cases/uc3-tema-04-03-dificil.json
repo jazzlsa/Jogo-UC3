@@ -55,10 +55,10 @@
   },
   "anamnese": [
     {
-      "texto": "A dor começou de forma gradual ou foi de repente?",
+      "texto": "A dor piora ao respirar fundo ou ao se mexer na maca?",
       "custo": 2,
       "relevante": true,
-      "resposta": "Foi de repente, como uma facada na boca do estômago, depois se espalhou."
+      "resposta": "Sim, qualquer movimento ou respiração profunda piora bastante a dor."
     },
     {
       "texto": "Tem história de queimação no estômago ou uso frequente de anti-inflamatórios?",

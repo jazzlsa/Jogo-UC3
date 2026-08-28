@@ -29,7 +29,7 @@
     ]
   },
   "anamnese": [
-    { "texto": "Outras pessoas que moram ou estavam na mesma casa também ficaram mal, e ao mesmo tempo?", "custo": 2, "relevante": true, "resposta": "Sim, o marido e o filho também amanheceram com dor de cabeça e mal-estar parecido." },
+    { "texto": "Vocês usam aquecedor a gás, lareira ou algum motor funcionando dentro de casa ou em ambiente fechado?", "custo": 2, "relevante": true, "resposta": "Sim, ligaram um aquecedor a gás no quarto à noite, com a janela fechada por causa do frio." },
     { "texto": "Há algum aparelho a gás, lareira ou gerador sendo usado em ambiente fechado em casa?", "custo": 2, "relevante": true, "resposta": "Usam um aquecedor a gás no quarto durante a noite, com a janela fechada por causa do frio." },
     { "texto": "Os sintomas melhoram quando ela sai de casa ou vai pra um ambiente ventilado?", "custo": 2, "relevante": true, "resposta": "Sim, notou que os sintomas melhoraram um pouco assim que saiu de casa pra vir à consulta." },
     { "texto": "Comeram algum alimento em comum recentemente que pudesse estar contaminado?", "custo": 2, "relevante": false, "resposta": "Comeram coisas diferentes nos últimos dias, sem alimento em comum suspeito." },
