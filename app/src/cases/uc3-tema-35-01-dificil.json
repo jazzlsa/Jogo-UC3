@@ -39,7 +39,13 @@
     { "texto": "Inspeção da pele (padrão e distribuição do rash)", "custo": 3, "relevante": true, "resposta": "Eritema macular difuso por todo o corpo, lembrando queimadura solar." },
     { "texto": "Avaliação de mucosas (conjuntival, oral)", "custo": 3, "relevante": true, "resposta": "Hiperemia conjuntival bilateral e hiperemia de mucosa oral." },
     { "texto": "Avaliação hemodinâmica (perfusão, pressão arterial)", "custo": 3, "relevante": true, "resposta": "Hipotensão confirmada, extremidades quentes, tempo de enchimento capilar normal." },
-    { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalia cervical significativa." }
+    { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalia cervical significativa." },
+    {
+      "texto": "Avaliação de icterícia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente."
+    }
   ],
   "hipoteses": [
     { "texto": "Síndrome do choque tóxico estafilocócico", "correta": true },

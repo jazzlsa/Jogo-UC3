@@ -41,7 +41,13 @@
     { "texto": "Inspeção detalhada da orofaringe", "custo": 3, "relevante": true, "resposta": "Placa acinzentada, espessa, bem aderida à mucosa amigdaliana e à parede posterior da faringe, sangrando discretamente à manipulação." },
     { "texto": "Avaliação do pescoço (edema, linfonodomegalia)", "custo": 3, "relevante": true, "resposta": "Edema cervical importante, com aumento de linfonodos, dando aspecto de \"pescoço de touro\"." },
     { "texto": "Ausculta cardíaca detalhada", "custo": 3, "relevante": true, "resposta": "Bulhas discretamente abafadas e ritmo levemente irregular." },
-    { "texto": "Inspeção de pele em busca de exantema", "custo": 3, "relevante": false, "resposta": "Pele sem exantema." }
+    { "texto": "Inspeção de pele em busca de exantema", "custo": 3, "relevante": false, "resposta": "Pele sem exantema." },
+    {
+      "texto": "Avaliação de rigidez de nuca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente, sem sinais de irritação meníngea."
+    }
   ],
   "hipoteses": [
     { "texto": "Difteria", "correta": true },

@@ -103,6 +103,12 @@
       "custo": 3,
       "relevante": false,
       "resposta": "Ausência de hérnias palpáveis, canais livres."
+    },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas normofonéticas, sem sopros, ritmo regular."
     }
   ],
   "hipoteses": [

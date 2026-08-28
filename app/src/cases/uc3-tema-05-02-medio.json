@@ -115,6 +115,12 @@
       "custo": 3,
       "relevante": false,
       "resposta": "Bradicárdico, ritmo regular, sem sopros."
+    },
+    {
+      "texto": "Avaliação de edema de membros inferiores",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente."
     }
   ],
   "hipoteses": [

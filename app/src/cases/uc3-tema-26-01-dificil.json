@@ -41,7 +41,13 @@
     { "texto": "Rigidez de nuca e sinais de irritação meníngea", "custo": 3, "relevante": true, "resposta": "Rigidez de nuca presente, sinal de Kernig positivo." },
     { "texto": "Inspeção de pele em busca de petéquias ou púrpura", "custo": 3, "relevante": false, "resposta": "Pele sem petéquias ou púrpura." },
     { "texto": "Avaliação de nervos cranianos e coordenação (sinais de rombencefalite)", "custo": 3, "relevante": true, "resposta": "Discreta paresia facial central e leve incoordenação, sugestivo de comprometimento de tronco encefálico." },
-    { "texto": "Avaliação do nível de consciência e orientação", "custo": 3, "relevante": true, "resposta": "Confuso, desorientado em tempo, respondendo com frases desconexas." }
+    { "texto": "Avaliação do nível de consciência e orientação", "custo": 3, "relevante": true, "resposta": "Confuso, desorientado em tempo, respondendo com frases desconexas." },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas normofonéticas, sem sopros."
+    }
   ],
   "hipoteses": [
     { "texto": "Meningite bacteriana por Listeria monocytogenes", "correta": true },

@@ -42,7 +42,13 @@
     { "texto": "Avaliação de linfonodos (tamanho, sinais de supuração)", "custo": 3, "relevante": true, "resposta": "Linfonodomegalia cervical com sinais de supuração crônica." },
     { "texto": "Inspeção de pele e dentição (fácies grosseira, dentes retidos)", "custo": 3, "relevante": false, "resposta": "Fácies normal, dentição compatível com a idade, sem achados sugestivos de síndrome de Job." },
     { "texto": "Palpação abdominal (hepatoesplenomegalia)", "custo": 3, "relevante": true, "resposta": "Hepatomegalia discreta à palpação." },
-    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": true, "resposta": "Peso abaixo do esperado, provavelmente relacionado aos vômitos recorrentes." }
+    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": true, "resposta": "Peso abaixo do esperado, provavelmente relacionado aos vômitos recorrentes." },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas normofonéticas, sem sopros."
+    }
   ],
   "hipoteses": [
     { "texto": "Doença granulomatosa crônica", "correta": true },

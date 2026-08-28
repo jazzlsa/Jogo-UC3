@@ -42,7 +42,13 @@
     { "texto": "Avaliação de tonsilas e linfonodos palpáveis", "custo": 3, "relevante": true, "resposta": "Tonsilas e linfonodos presentes, ainda que discretamente reduzidos de tamanho." },
     { "texto": "Inspeção da cavidade oral", "custo": 3, "relevante": true, "resposta": "Candidíase oral discreta." },
     { "texto": "Avaliação de hepatoesplenomegalia", "custo": 3, "relevante": false, "resposta": "Fígado e baço de tamanho normal à palpação." },
-    { "texto": "Avaliação do estado nutricional e curva de peso", "custo": 3, "relevante": true, "resposta": "Sinais evidentes de desnutrição, peso muito abaixo do esperado pra idade." }
+    { "texto": "Avaliação do estado nutricional e curva de peso", "custo": 3, "relevante": true, "resposta": "Sinais evidentes de desnutrição, peso muito abaixo do esperado pra idade." },
+    {
+      "texto": "Avaliação de exantema cutâneo",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Pele sem lesões ou exantema."
+    }
   ],
   "hipoteses": [
     { "texto": "Síndrome do linfócito nu tipo II", "correta": true },

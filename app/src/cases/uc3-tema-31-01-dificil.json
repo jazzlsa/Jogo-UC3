@@ -41,7 +41,13 @@
     { "texto": "Rigidez de nuca e sinais de irritação meníngea", "custo": 3, "relevante": true, "resposta": "Rigidez de nuca presente, sinal de Kernig positivo." },
     { "texto": "Inspeção de pele em busca de petéquias/púrpura", "custo": 3, "relevante": true, "resposta": "Petéquias esparsas em tronco e membros." },
     { "texto": "Inspeção de face e lábios em busca de edema", "custo": 3, "relevante": false, "resposta": "Sem edema facial ou labial." },
-    { "texto": "Palpação abdominal em busca de baço aumentado", "custo": 3, "relevante": true, "resposta": "Baço palpável em tamanho normal, presente." }
+    { "texto": "Palpação abdominal em busca de baço aumentado", "custo": 3, "relevante": true, "resposta": "Baço palpável em tamanho normal, presente." },
+    {
+      "texto": "Avaliação de icterícia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente."
+    }
   ],
   "hipoteses": [
     { "texto": "Deficiência de componentes terminais do complemento (C5-C9)", "correta": true },

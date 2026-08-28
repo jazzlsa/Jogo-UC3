@@ -42,7 +42,13 @@
     { "texto": "Avaliação de tonsilas e linfonodos palpáveis", "custo": 3, "relevante": true, "resposta": "Ausência de tonsilas visíveis e nenhum linfonodo palpável em nenhuma cadeia." },
     { "texto": "Inspeção da cavidade oral", "custo": 3, "relevante": true, "resposta": "Candidíase oral extensa, recobrindo boa parte da mucosa." },
     { "texto": "Avaliação do estado nutricional e curva de peso", "custo": 3, "relevante": true, "resposta": "Peso bem abaixo do esperado pra idade, com curva de crescimento estagnada (falha de crescimento)." },
-    { "texto": "Ausculta cardíaca em busca de sopro congênito", "custo": 3, "relevante": false, "resposta": "Ausculta cardíaca sem sopros." }
+    { "texto": "Ausculta cardíaca em busca de sopro congênito", "custo": 3, "relevante": false, "resposta": "Ausculta cardíaca sem sopros." },
+    {
+      "texto": "Inspeção de pele em busca de icterícia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem icterícia."
+    }
   ],
   "hipoteses": [
     { "texto": "Imunodeficiência combinada grave (SCID) por defeito de recombinação V(D)J", "correta": true },

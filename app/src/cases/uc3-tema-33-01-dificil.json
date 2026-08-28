@@ -41,7 +41,13 @@
     { "texto": "Avaliação de força muscular global", "custo": 3, "relevante": true, "resposta": "Fraqueza muscular generalizada, mais evidente proximalmente." },
     { "texto": "Avaliação de sinais de sobrecarga de volume (edema, estertores)", "custo": 3, "relevante": true, "resposta": "Discreto edema de membros inferiores, sem estertores pulmonares importantes." },
     { "texto": "Avaliação do ritmo de pulso", "custo": 3, "relevante": true, "resposta": "Pulso irregular, compatível com arritmia observada no monitor." },
-    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Confusa, mas responde a comandos simples." }
+    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Confusa, mas responde a comandos simples." },
+    {
+      "texto": "Avaliação de icterícia e ascite",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausentes."
+    }
   ],
   "hipoteses": [
     { "texto": "Síndrome de realimentação", "correta": true },

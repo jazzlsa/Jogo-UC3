@@ -41,7 +41,13 @@
     { "texto": "Percussão torácica comparativa dos dois hemitórax", "custo": 3, "relevante": true, "resposta": "Hipertimpanismo localizado numa área específica do hemitórax direito." },
     { "texto": "Ausculta pulmonar comparativa", "custo": 3, "relevante": true, "resposta": "Murmúrio vesicular bem diminuído na mesma área hipertimpânica, presente (ainda que reduzido) no restante do pulmão." },
     { "texto": "Avaliação de desvio de traqueia e turgência jugular", "custo": 3, "relevante": true, "resposta": "Traqueia centrada, sem turgência jugular, sem sinais de hipertensão intratorácica aguda." },
-    { "texto": "Palpação de linfonodos cervicais e supraclaviculares", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+    { "texto": "Palpação de linfonodos cervicais e supraclaviculares", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." },
+    {
+      "texto": "Avaliação de edema de membros inferiores",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente, sem sinais de trombose venosa profunda."
+    }
   ],
   "hipoteses": [
     { "texto": "Bolha de enfisema gigante (não pneumotórax)", "correta": true },

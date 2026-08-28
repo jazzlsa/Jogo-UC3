@@ -121,6 +121,12 @@
       "custo": 3,
       "relevante": false,
       "resposta": "Murmúrio vesicular presente bilateralmente, sem ruídos adventícios."
+    },
+    {
+      "texto": "Avaliação de otorreia ou rinorreia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausentes."
     }
   ],
   "hipoteses": [

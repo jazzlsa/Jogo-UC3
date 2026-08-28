@@ -127,6 +127,12 @@
       "custo": 3,
       "relevante": false,
       "resposta": "Cicatriz cirúrgica recente em fossa ilíaca direita, sem sinais de complicação local."
+    },
+    {
+      "texto": "Avaliação de edema periférico",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente."
     }
   ],
   "hipoteses": [

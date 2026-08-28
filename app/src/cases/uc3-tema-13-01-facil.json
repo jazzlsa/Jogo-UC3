@@ -40,7 +40,13 @@
     { "texto": "Ausculta pulmonar detalhada", "custo": 3, "relevante": true, "resposta": "Estertores crepitantes localizados em base pulmonar direita." },
     { "texto": "Avaliação neurológica focal (força, sensibilidade, pares cranianos)", "custo": 3, "relevante": true, "resposta": "Sem déficit motor ou sensitivo focal, apenas confusão mental (desorientação no tempo e espaço)." },
     { "texto": "Sinais de irritação meníngea (rigidez de nuca)", "custo": 3, "relevante": false, "resposta": "Sem rigidez de nuca, sinais meníngeos ausentes." },
-    { "texto": "Avaliação de hidratação (turgor de pele, mucosas)", "custo": 3, "relevante": true, "resposta": "Mucosas discretamente secas, turgor de pele reduzido." }
+    { "texto": "Avaliação de hidratação (turgor de pele, mucosas)", "custo": 3, "relevante": true, "resposta": "Mucosas discretamente secas, turgor de pele reduzido." },
+    {
+      "texto": "Avaliação de lesões de pele por pressão (escaras)",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem lesões cutâneas por pressão."
+    }
   ],
   "hipoteses": [
     { "texto": "Pneumonia comunitária em idoso com apresentação atípica (delirium)", "correta": true },

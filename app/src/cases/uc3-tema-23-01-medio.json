@@ -42,7 +42,19 @@
     { "texto": "Avaliação de edema periorbital e generalizado com cacifo", "custo": 3, "relevante": true, "resposta": "Edema periorbital importante e edema de membros inferiores com cacifo positivo." },
     { "texto": "Avaliação de turgência jugular", "custo": 3, "relevante": true, "resposta": "Sem turgência jugular." },
     { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Murmúrio vesicular presente, sem estertores." },
-    { "texto": "Inspeção de pele e abdome em busca de estigmas de hepatopatia (aranhas vasculares, ascite)", "custo": 3, "relevante": true, "resposta": "Sem aranhas vasculares, sem ascite visível, abdome apenas discretamente distendido." }
+    { "texto": "Inspeção de pele e abdome em busca de estigmas de hepatopatia (aranhas vasculares, ascite)", "custo": 3, "relevante": true, "resposta": "Sem aranhas vasculares, sem ascite visível, abdome apenas discretamente distendido." },
+    {
+      "texto": "Palpação de tireoide",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Sem nódulos ou bócio palpável."
+    },
+    {
+      "texto": "Avaliação de icterícia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente."
+    }
   ],
   "hipoteses": [
     { "texto": "Síndrome nefrótica", "correta": true },

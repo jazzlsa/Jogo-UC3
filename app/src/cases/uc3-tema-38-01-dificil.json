@@ -41,7 +41,13 @@
     { "texto": "Avaliação de calor, rubor e edema periarticular", "custo": 3, "relevante": false, "resposta": "Calor, rubor e edema evidentes ao redor do joelho direito." },
     { "texto": "Avaliação de derrame articular e amplitude de movimento", "custo": 3, "relevante": true, "resposta": "Derrame articular importante, com limitação franca e dolorosa da flexão e extensão." },
     { "texto": "Inspeção em busca de tofos gotosos", "custo": 3, "relevante": true, "resposta": "Ausência de tofos ou depósitos característicos de gota." },
-    { "texto": "Avaliação de sinais de trombose venosa (empastamento de panturrilha, sinal de Homans)", "custo": 3, "relevante": true, "resposta": "Panturrilha livre, sem empastamento, sinal de Homans negativo." }
+    { "texto": "Avaliação de sinais de trombose venosa (empastamento de panturrilha, sinal de Homans)", "custo": 3, "relevante": true, "resposta": "Panturrilha livre, sem empastamento, sinal de Homans negativo." },
+    {
+      "texto": "Avaliação de icterícia",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente."
+    }
   ],
   "hipoteses": [
     { "texto": "Artrite séptica bacteriana", "correta": true },

@@ -40,7 +40,13 @@
   "exameFisico": [
     { "texto": "Punho-percussão lombar", "custo": 3, "relevante": true, "resposta": "Punho-percussão lombar positiva à direita, sugestiva de acometimento renal." },
     { "texto": "Avaliação de sinais de sepse (perfusão, hipotensão)", "custo": 3, "relevante": true, "resposta": "Perfusão periférica preservada, sem sinais de sepse grave no momento." },
-    { "texto": "Ausculta cardíaca e pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta cardíaca e pulmonar sem alterações." }
+    { "texto": "Ausculta cardíaca e pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta cardíaca e pulmonar sem alterações." },
+    {
+      "texto": "Avaliação de edema de membros inferiores",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Ausente."
+    }
   ],
   "hipoteses": [
     { "texto": "Infecção urinária por E. coli produtora de beta-lactamase de espectro estendido (ESBL), adquirida por transferência horizontal de plasmídeo", "correta": true },

@@ -38,7 +38,13 @@
   "exameFisico": [
     { "texto": "Palpação abdominal detalhada da fossa ilíaca direita", "custo": 3, "relevante": true, "resposta": "Massa palpável, bem delimitada, discretamente dolorosa, sem sinais de flutuação." },
     { "texto": "Sinal de Blumberg (descompressão brusca) generalizado", "custo": 3, "relevante": true, "resposta": "Negativo, sem sinais de irritação peritoneal difusa." },
-    { "texto": "Avaliação de temperatura e estado geral", "custo": 3, "relevante": false, "resposta": "Febril baixo, mas em bom estado geral, sem toxemia importante." }
+    { "texto": "Avaliação de temperatura e estado geral", "custo": 3, "relevante": false, "resposta": "Febril baixo, mas em bom estado geral, sem toxemia importante." },
+    {
+      "texto": "Ausculta cardíaca",
+      "custo": 3,
+      "relevante": false,
+      "resposta": "Bulhas normofonéticas, sem sopros."
+    }
   ],
   "hipoteses": [
     { "texto": "Plastrão apendicular", "correta": true },
