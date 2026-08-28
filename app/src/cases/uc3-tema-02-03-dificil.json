@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Não, nega qualquer procedimento cirúrgico prévio no abdome."
-    }
+    },
+    { "texto": "Notou febre alta associada à dor?", "custo": 2, "relevante": false, "resposta": "Apenas febre baixa, sem calafrios importantes." }
   ],
   "exameFisico": [
     {

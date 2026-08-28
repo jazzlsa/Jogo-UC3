@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Nega edema de membros inferiores ou dores articulares recentes."
-    }
+    },
+    { "texto": "Notou perda de peso importante nos últimos meses?", "custo": 2, "relevante": false, "resposta": "Não notou perda de peso relevante." }
   ],
   "exameFisico": [
     {

@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Não, nenhum dos dois."
-    }
+    },
+    { "texto": "Tem histórico familiar de câncer de vesícula biliar?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar relevante." }
   ],
   "exameFisico": [
     {

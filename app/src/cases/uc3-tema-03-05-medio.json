@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Não dói, apenas coça ocasionalmente e não teve febre."
-    }
+    },
+    { "texto": "Notou coceira ou queda de cabelo na região da lesão?", "custo": 2, "relevante": false, "resposta": "Sem coceira ou queda de cabelo associada." }
   ],
   "exameFisico": [
     {

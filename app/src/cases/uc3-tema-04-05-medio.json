@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": true,
       "resposta": "Sim, teve um calafrio intenso antes da febre subir."
-    }
+    },
+    { "texto": "Tem histórico familiar de doenças pulmonares?", "custo": 2, "relevante": false, "resposta": "Sem histórico familiar relevante." }
   ],
   "exameFisico": [
     {

@@ -77,7 +77,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Nunca passou por nenhuma cirurgia na vida."
-    }
+    },
+    { "texto": "Notou febre associada à dor abdominal?", "custo": 2, "relevante": false, "resposta": "Sem febre associada." }
   ],
   "exameFisico": [
     {

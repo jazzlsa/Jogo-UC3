@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": true,
       "resposta": "Não, nenhuma crise convulsiva observada."
-    }
+    },
+    { "texto": "Notou febre associada ao quadro?", "custo": 2, "relevante": false, "resposta": "Sem febre associada." }
   ],
   "exameFisico": [
     {

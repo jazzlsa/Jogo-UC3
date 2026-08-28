@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": true,
       "resposta": "Não notei sangue, mas tive episódios de fezes bem escuras, como borra de café, nas últimas semanas."
-    }
+    },
+    { "texto": "Notou febre alta nas últimas semanas?", "custo": 2, "relevante": false, "resposta": "Sem febre nas últimas semanas antes desse episódio." }
   ],
   "exameFisico": [
     {

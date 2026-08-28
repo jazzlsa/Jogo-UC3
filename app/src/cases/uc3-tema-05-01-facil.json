@@ -89,7 +89,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Não, nunca teve problema de dor de cabeça."
-    }
+    },
+    { "texto": "Notou zumbido ou perda auditiva após o trauma?", "custo": 2, "relevante": false, "resposta": "Sem zumbido ou perda auditiva." }
   ],
   "exameFisico": [
     {

@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Não, sem febre ou sintomas respiratórios."
-    }
+    },
+    { "texto": "Notou edema de membros inferiores recente?", "custo": 2, "relevante": false, "resposta": "Sem edema de membros inferiores." }
   ],
   "exameFisico": [
     {

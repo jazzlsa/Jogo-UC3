@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Não, o crescimento tem sido adequado apesar das infecções."
-    }
+    },
+    { "texto": "Tem histórico de alergias alimentares?", "custo": 2, "relevante": false, "resposta": "Sem histórico de alergias alimentares." }
   ],
   "exameFisico": [
     {

@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": true,
       "resposta": "Fumei um maço por dia durante vinte anos, mas parei há mais de dez anos."
-    }
+    },
+    { "texto": "Tem histórico familiar de câncer de pulmão?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar de câncer de pulmão." }
   ],
   "exameFisico": [
     {

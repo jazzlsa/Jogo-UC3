@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": false,
       "resposta": "Sem histórico de doenças intestinais ou cirurgias prévias."
-    }
+    },
+    { "texto": "Tem histórico familiar de câncer renal?", "custo": 2, "relevante": false, "resposta": "Não, sem histórico familiar de câncer renal." }
   ],
   "exameFisico": [
     {

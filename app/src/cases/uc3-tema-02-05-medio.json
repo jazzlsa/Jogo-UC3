@@ -83,7 +83,8 @@
       "custo": 2,
       "relevante": true,
       "resposta": "Refere que há um ano teve dor similar mais leve e foi informada em consulta prévia sobre a presença de divertículos no cólon."
-    }
+    },
+    { "texto": "Notou sangue vivo junto às fezes?", "custo": 2, "relevante": false, "resposta": "Não notou sangue nas fezes." }
   ],
   "exameFisico": [
     {
