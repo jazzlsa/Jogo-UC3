@@ -38,7 +38,8 @@
   "exameFisico": [
     { "texto": "Avaliação de distensão e dor abdominal à palpação", "custo": 3, "relevante": true, "resposta": "Abdome discretamente distendido, dor difusa à palpação, sem sinais de irritação peritoneal." },
     { "texto": "Avaliação de sinais de desidratação", "custo": 3, "relevante": true, "resposta": "Mucosas secas, turgor de pele reduzido." },
-    { "texto": "Palpação em busca de massa abdominal", "custo": 3, "relevante": false, "resposta": "Sem massas palpáveis." }
+    { "texto": "Palpação em busca de massa abdominal", "custo": 3, "relevante": false, "resposta": "Sem massas palpáveis." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Colite pseudomembranosa por Clostridioides difficile", "correta": true },

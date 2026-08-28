@@ -42,7 +42,8 @@
     { "texto": "Avaliação de estado nutricional e emagrecimento", "custo": 3, "relevante": true, "resposta": "Emagrecimento evidente, aspecto geral debilitado." },
     { "texto": "Dor à percussão da coluna lombar", "custo": 3, "relevante": true, "resposta": "Dor localizada à percussão sobre L2-L3." },
     { "texto": "Avaliação neurológica de força e sensibilidade nos membros inferiores", "custo": 3, "relevante": true, "resposta": "Sem déficit motor ou sensitivo focal apesar da dor irradiada." },
-    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar sem alterações, apesar da suspeita de doença sistêmica." }
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Ausculta pulmonar sem alterações, apesar da suspeita de doença sistêmica." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Tuberculose disseminada com espondilodiscite (mal de Pott) em paciente com HIV", "correta": true },

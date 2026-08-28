@@ -41,7 +41,8 @@
     { "texto": "Avaliação do desenvolvimento mamário (estágio de Tanner)", "custo": 3, "relevante": false, "resposta": "Mamas bem desenvolvidas, estágio avançado de Tanner." },
     { "texto": "Avaliação de pelos pubianos e axilares", "custo": 3, "relevante": true, "resposta": "Pelos pubianos e axilares escassos, bem abaixo do esperado para o desenvolvimento mamário observado." },
     { "texto": "Exame ginecológico externo (genitália externa e comprimento vaginal)", "custo": 3, "relevante": true, "resposta": "Genitália externa de aparência feminina típica, mas vagina em fundo cego, mais curta que o esperado." },
-    { "texto": "Palpação da região inguinal", "custo": 3, "relevante": true, "resposta": "Massas palpáveis bilaterais na região inguinal, compatíveis com gônadas." }
+    { "texto": "Palpação da região inguinal", "custo": 3, "relevante": true, "resposta": "Massas palpáveis bilaterais na região inguinal, compatíveis com gônadas." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Síndrome de insensibilidade androgênica completa", "correta": true },

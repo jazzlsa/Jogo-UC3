@@ -39,7 +39,9 @@
   ],
   "exameFisico": [
     { "texto": "Punho-percussão lombar", "custo": 3, "relevante": true, "resposta": "Punho-percussão lombar positiva à direita." },
-    { "texto": "Avaliação de febre e sinais de infecção sistêmica", "custo": 3, "relevante": true, "resposta": "Febre baixa presente, sem sinais de sepse no momento." }
+    { "texto": "Avaliação de febre e sinais de infecção sistêmica", "custo": 3, "relevante": true, "resposta": "Febre baixa presente, sem sinais de sepse no momento." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Litíase coraliforme associada à infecção por Proteus mirabilis", "correta": true },

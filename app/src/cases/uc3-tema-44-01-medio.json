@@ -42,7 +42,8 @@
     { "texto": "Raspagem suave da lesão em busca de descamação fina", "custo": 3, "relevante": true, "resposta": "Descamação furfurácea fina evidenciada à raspagem da lesão." },
     { "texto": "Teste de sensibilidade tátil e dolorosa na área da mancha", "custo": 3, "relevante": true, "resposta": "Sensibilidade tátil e dolorosa preservadas, normais na área da lesão." },
     { "texto": "Palpação de nervos periféricos (ulnar, fibular)", "custo": 3, "relevante": true, "resposta": "Nervos periféricos sem espessamento palpável." },
-    { "texto": "Avaliação da distribuição e bordas das lesões", "custo": 3, "relevante": false, "resposta": "Máculas hipocrômicas de bordas irregulares, distribuídas principalmente em tronco superior." }
+    { "texto": "Avaliação da distribuição e bordas das lesões", "custo": 3, "relevante": false, "resposta": "Máculas hipocrômicas de bordas irregulares, distribuídas principalmente em tronco superior." },
+    { "texto": "Palpação de linfonodos regionais", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias regionais." }
   ],
   "hipoteses": [
     { "texto": "Pitiríase versicolor", "correta": true },

@@ -40,7 +40,8 @@
   "exameFisico": [
     { "texto": "Ausculta pulmonar comparativa detalhada", "custo": 3, "relevante": true, "resposta": "Estertores difusos bilaterais, sem uma área de consolidação localizada nova." },
     { "texto": "Avaliação do padrão de febre (contínua ou em dois picos)", "custo": 3, "relevante": true, "resposta": "Febre contínua desde o início, sem um padrão de melhora seguida de novo pico." },
-    { "texto": "Avaliação de perfusão e sinais de sepse", "custo": 3, "relevante": false, "resposta": "Perfusão periférica preservada, sem sinais de choque." }
+    { "texto": "Avaliação de perfusão e sinais de sepse", "custo": 3, "relevante": false, "resposta": "Perfusão periférica preservada, sem sinais de choque." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Influenza por cepa resistente ao oseltamivir", "correta": true },

@@ -40,7 +40,8 @@
   "exameFisico": [
     { "texto": "Avaliação de estado nutricional e emagrecimento", "custo": 3, "relevante": true, "resposta": "Emagrecimento evidente desde a última consulta." },
     { "texto": "Ausculta pulmonar detalhada", "custo": 3, "relevante": true, "resposta": "Estertores localizados em ápice pulmonar direito." },
-    { "texto": "Palpação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+    { "texto": "Palpação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Reativação de tuberculose latente associada ao uso de terapia anti-TNF", "correta": true },

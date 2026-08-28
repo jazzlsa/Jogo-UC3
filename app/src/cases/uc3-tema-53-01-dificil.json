@@ -42,7 +42,8 @@
     { "texto": "Palpação de cadeias linfonodais (cervical, axilar, inguinal)", "custo": 3, "relevante": true, "resposta": "Linfonodomegalia em múltiplas cadeias, algumas com aspecto amolecido e sinais de fistulização discreta." },
     { "texto": "Avaliação de distensão abdominal e visceromegalias", "custo": 3, "relevante": true, "resposta": "Abdome distendido, com hepatoesplenomegalia palpável." },
     { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Ausculta pulmonar normal, sem estertores ou sinais de acometimento pulmonar." },
-    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": false, "resposta": "Emagrecimento evidente para a idade." }
+    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": false, "resposta": "Emagrecimento evidente para a idade." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Paracoccidioidomicose, forma aguda/subaguda (juvenil) disseminada", "correta": true },

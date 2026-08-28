@@ -40,7 +40,9 @@
   "exameFisico": [
     { "texto": "Inspeção da lesão inicial", "custo": 3, "relevante": true, "resposta": "Úlcera com bordas elevadas e discretamente endurecidas no local do arranhão." },
     { "texto": "Inspeção dos nódulos subsequentes ao longo do braço", "custo": 3, "relevante": true, "resposta": "Três nódulos subcutâneos eritematosos, dispostos em fileira ao longo do trajeto linfático do antebraço até próximo à axila." },
-    { "texto": "Palpação de linfonodo axilar", "custo": 3, "relevante": true, "resposta": "Linfonodo axilar discretamente aumentado, pouco doloroso." }
+    { "texto": "Palpação de linfonodo axilar", "custo": 3, "relevante": true, "resposta": "Linfonodo axilar discretamente aumentado, pouco doloroso." },
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": false, "resposta": "Murmúrio vesicular presente, sem alterações." },
+    { "texto": "Avaliação de febre e estado geral", "custo": 3, "relevante": false, "resposta": "Afebril, bom estado geral." }
   ],
   "hipoteses": [
     { "texto": "Esporotricose linfocutânea (Sporothrix spp.)", "correta": true },

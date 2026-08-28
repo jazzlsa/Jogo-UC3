@@ -40,7 +40,8 @@
     { "texto": "Comparação entre temperatura e frequência cardíaca (sinal de Faget)", "custo": 3, "relevante": true, "resposta": "Frequência cardíaca desproporcionalmente baixa para o grau de febre (bradicardia relativa)." },
     { "texto": "Inspeção do tronco em busca de manchas rosadas (roséolas)", "custo": 3, "relevante": true, "resposta": "Pequenas manchas rosadas esparsas no abdome." },
     { "texto": "Palpação abdominal em busca de esplenomegalia", "custo": 3, "relevante": true, "resposta": "Baço palpável, discretamente aumentado." },
-    { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": false, "resposta": "Sem icterícia." }
+    { "texto": "Inspeção de pele e escleras em busca de icterícia", "custo": 3, "relevante": false, "resposta": "Sem icterícia." },
+    { "texto": "Avaliação de rigidez de nuca", "custo": 3, "relevante": false, "resposta": "Ausente, sem sinais de irritação meníngea." }
   ],
   "hipoteses": [
     { "texto": "Febre tifoide", "correta": true },

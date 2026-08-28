@@ -41,7 +41,8 @@
     { "texto": "Inspeção detalhada da lesão de mucosa oral", "custo": 3, "relevante": true, "resposta": "Lesão ulcerada de aspecto granular, pontilhado, lembrando uma amora (estomatite moriforme)." },
     { "texto": "Palpação de linfonodos cervicais", "custo": 3, "relevante": true, "resposta": "Linfonodomegalia cervical bilateral, endurecida." },
     { "texto": "Avaliação da voz e laringe", "custo": 3, "relevante": true, "resposta": "Rouquidão presente, sugestiva de possível acometimento laríngeo." },
-    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": false, "resposta": "Emagrecimento moderado, compatível com o quadro crônico." }
+    { "texto": "Avaliação de estado nutricional", "custo": 3, "relevante": false, "resposta": "Emagrecimento moderado, compatível com o quadro crônico." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Paracoccidioidomicose", "correta": true },

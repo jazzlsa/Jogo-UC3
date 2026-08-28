@@ -41,7 +41,8 @@
     { "texto": "Inspeção de pele em busca de urticária", "custo": 3, "relevante": true, "resposta": "Urticária difusa pelo tronco e membros." },
     { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Sibilos difusos bilaterais, compatíveis com broncoespasmo." },
     { "texto": "Avaliação de ritmo cardíaco e perfusão", "custo": 3, "relevante": true, "resposta": "Taquicardia presente, sem bradicardia ou palidez extrema características de reação vasovagal." },
-    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Consciente, orientada, ansiosa." }
+    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Consciente, orientada, ansiosa." },
+    { "texto": "Avaliação de edema de membros inferiores", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Reação anafilactoide ao contraste iodado", "correta": true },

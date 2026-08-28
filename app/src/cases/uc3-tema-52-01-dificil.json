@@ -41,7 +41,8 @@
     { "texto": "Avaliação de características faciais (formato do rosto, orelhas)", "custo": 3, "relevante": true, "resposta": "Face alongada e orelhas grandes e proeminentes." },
     { "texto": "Avaliação de mobilidade articular", "custo": 3, "relevante": true, "resposta": "Hiperextensibilidade articular leve nas mãos." },
     { "texto": "Avaliação testicular", "custo": 3, "relevante": true, "resposta": "Macroorquidismo bilateral." },
-    { "texto": "Avaliação de traços faciais de síndrome de Down (fenda palpebral oblíqua, prega palmar única)", "custo": 3, "relevante": false, "resposta": "Ausentes." }
+    { "texto": "Avaliação de traços faciais de síndrome de Down (fenda palpebral oblíqua, prega palmar única)", "custo": 3, "relevante": false, "resposta": "Ausentes." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Síndrome do X Frágil", "correta": true },

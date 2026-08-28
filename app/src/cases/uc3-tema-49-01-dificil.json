@@ -40,7 +40,9 @@
   "exameFisico": [
     { "texto": "Avaliação de tonsilas e linfonodos", "custo": 3, "relevante": true, "resposta": "Tonsilas e linfonodos presentes, de tamanho normal para a idade." },
     { "texto": "Inspeção da cavidade oral", "custo": 3, "relevante": true, "resposta": "Úlceras orais recorrentes, algumas em fase de cicatrização." },
-    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Estertores finos difusos em ambos os hemitórax." }
+    { "texto": "Ausculta pulmonar", "custo": 3, "relevante": true, "resposta": "Estertores finos difusos em ambos os hemitórax." },
+    { "texto": "Avaliação de petéquias ou sangramento cutâneo", "custo": 3, "relevante": false, "resposta": "Ausentes." },
+    { "texto": "Palpação abdominal (hepatoesplenomegalia)", "custo": 3, "relevante": false, "resposta": "Sem hepatoesplenomegalia." }
   ],
   "hipoteses": [
     { "texto": "Síndrome de hiper-IgM", "correta": true },

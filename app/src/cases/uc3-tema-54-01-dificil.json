@@ -41,7 +41,8 @@
     { "texto": "Avaliação de sensibilidade distal simétrica nos pés", "custo": 3, "relevante": true, "resposta": "Perda de sensibilidade distal simétrica, em padrão de \"bota\", nos dois pés." },
     { "texto": "Avaliação de sinais de insuficiência cardíaca", "custo": 3, "relevante": true, "resposta": "Discreto edema de membros inferiores e estase jugular leve." },
     { "texto": "Aferição de pressão arterial deitado e em pé (hipotensão ortostática)", "custo": 3, "relevante": true, "resposta": "Queda significativa da pressão arterial ao ficar em pé, compatível com disautonomia." },
-    { "texto": "Palpação de tireoide", "custo": 3, "relevante": false, "resposta": "Tireoide normal à palpação." }
+    { "texto": "Palpação de tireoide", "custo": 3, "relevante": false, "resposta": "Tireoide normal à palpação." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Amiloidose hereditária por transtirretina", "correta": true },

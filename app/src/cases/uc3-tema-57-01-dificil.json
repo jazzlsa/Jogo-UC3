@@ -41,7 +41,8 @@
     { "texto": "Observação da reação ao oferecer água ou sentir uma corrente de ar no rosto", "custo": 3, "relevante": true, "resposta": "Espasmo intenso da musculatura da garganta ao tentar beber água, e reação semelhante ao sentir vento no rosto (aerofobia)." },
     { "texto": "Avaliação de salivação", "custo": 3, "relevante": true, "resposta": "Hipersalivação importante, dificuldade de deglutir a própria saliva." },
     { "texto": "Avaliação de rigidez muscular e trismo (mandíbula travada)", "custo": 3, "relevante": true, "resposta": "Sem trismo ou rigidez muscular generalizada, diferente do que se esperaria em tétano." },
-    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Alterna entre períodos de agitação e de relativa lucidez." }
+    { "texto": "Avaliação de nível de consciência", "custo": 3, "relevante": false, "resposta": "Alterna entre períodos de agitação e de relativa lucidez." },
+    { "texto": "Avaliação de icterícia", "custo": 3, "relevante": false, "resposta": "Ausente." }
   ],
   "hipoteses": [
     { "texto": "Raiva", "correta": true },

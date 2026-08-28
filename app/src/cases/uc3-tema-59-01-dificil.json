@@ -41,7 +41,8 @@
     { "texto": "Avaliação de força muscular nos quatro membros", "custo": 3, "relevante": true, "resposta": "Fraqueza flácida importante na perna direita, força preservada nos demais membros." },
     { "texto": "Avaliação de reflexos tendinosos", "custo": 3, "relevante": true, "resposta": "Reflexo patelar abolido à direita, presente e normal à esquerda." },
     { "texto": "Avaliação de sensibilidade tátil e dolorosa", "custo": 3, "relevante": true, "resposta": "Sensibilidade preservada em todos os membros, inclusive na perna afetada." },
-    { "texto": "Avaliação de função bulbar (deglutição, fala)", "custo": 3, "relevante": false, "resposta": "Sem comprometimento bulbar, deglutição e fala normais." }
+    { "texto": "Avaliação de função bulbar (deglutição, fala)", "custo": 3, "relevante": false, "resposta": "Sem comprometimento bulbar, deglutição e fala normais." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Poliomielite paralítica", "correta": true },

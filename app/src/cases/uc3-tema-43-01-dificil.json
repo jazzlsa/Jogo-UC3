@@ -41,7 +41,8 @@
     { "texto": "Rigidez de nuca e sinais de irritação meníngea", "custo": 3, "relevante": true, "resposta": "Rigidez de nuca discreta, quase ausente, apesar do quadro clínico sugestivo de comprometimento importante do sistema nervoso central." },
     { "texto": "Fundo de olho", "custo": 3, "relevante": true, "resposta": "Papiledema bilateral, sugestivo de pressão intracraniana elevada." },
     { "texto": "Avaliação de nervos cranianos", "custo": 3, "relevante": true, "resposta": "Discreta paresia do sexto par craniano à direita, compatível com hipertensão intracraniana." },
-    { "texto": "Avaliação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." }
+    { "texto": "Avaliação de linfonodos periféricos", "custo": 3, "relevante": false, "resposta": "Sem linfonodomegalias palpáveis." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Meningite criptocócica", "correta": true },

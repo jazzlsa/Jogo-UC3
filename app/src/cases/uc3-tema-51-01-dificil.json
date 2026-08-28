@@ -40,7 +40,8 @@
   "exameFisico": [
     { "texto": "Avaliação de sinais de irritação peritoneal (Blumberg) em todo o abdome", "custo": 3, "relevante": true, "resposta": "Sinal de Blumberg positivo de forma difusa por todo o abdome, não localizado." },
     { "texto": "Avaliação de edema generalizado", "custo": 3, "relevante": true, "resposta": "Edema generalizado presente, compatível com síndrome nefrótica em atividade." },
-    { "texto": "Palpação específica de fossa ilíaca direita", "custo": 3, "relevante": false, "resposta": "Dor difusa também presente ali, sem massa localizada específica." }
+    { "texto": "Palpação específica de fossa ilíaca direita", "custo": 3, "relevante": false, "resposta": "Dor difusa também presente ali, sem massa localizada específica." },
+    { "texto": "Ausculta cardíaca", "custo": 3, "relevante": false, "resposta": "Bulhas normofonéticas, sem sopros." }
   ],
   "hipoteses": [
     { "texto": "Peritonite bacteriana espontânea por pneumococo", "correta": true },
