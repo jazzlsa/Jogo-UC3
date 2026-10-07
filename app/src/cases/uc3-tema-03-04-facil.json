@@ -46,7 +46,7 @@
   "burns": {
     "abertura": "Paciente com quadro respiratório subagudo e hemoptoico. Para fechar a causa exata, a microscopia e as técnicas de coloração histoquímica do patologista serão fundamentais.",
     "piBaixo": "Sua cota de pontos está acabando. Selecione com cautela os exames histopatológicos e laboratoriais restantes.",
-    "fechamento": "Excelente raciocínio. A identificação do agente etiológico por coloração especial confirmou o que a morfológia granulomatosa já sugeria. É exatamente isso que o Prof. Ferraz da Silva mostra.",
+    "fechamento": "Excelente raciocínio. A identificação do agente etiológico por coloração especial confirmou o que a morfologia granulomatosa já sugeria. É exatamente isso que o Prof. Ferraz da Silva mostra.",
     "dicas": [
       "Releia com atenção o padrão dos sintomas sistêmicos e a evolução relatada pelo paciente na anamnese.",
       "Pense na resposta imune celular que tenta conter infecções intracelulares formando lesões granulomatosas com necrose tecidual.",
@@ -75,7 +75,7 @@
       "texto": "Possui histórico de azia ou refluxo gastroesofágico?",
       "custo": 2,
       "relevante": false,
-      "resposta": "Nega azia, queimacão ou sintomas digestivos."
+      "resposta": "Nega azia, queimação ou sintomas digestivos."
     },
     {
       "texto": "Teve exposição recente a poeira de sílica ou mineração?",
@@ -95,7 +95,7 @@
       "texto": "Ausculta pulmonar minuciosa",
       "custo": 3,
       "relevante": true,
-      "resposta": "Estertores creptantes localizados no ápice do pulmão direito."
+      "resposta": "Estertores crepitantes localizados no ápice do pulmão direito."
     },
     {
       "texto": "Inspeção e palpação de linfonodos cervicais",
@@ -159,7 +159,7 @@
       "texto": "Coloração histoquímica especial de Ziehl-Neelsen no corte histológico",
       "custo": 12,
       "relevante": true,
-      "resposta": "Bacilos baciliformes corados em vermelho brilhante sobre fundo azul, confirmando germes ácido álcool resistentes."
+      "resposta": "Bacilos corados em vermelho brilhante sobre fundo azul, confirmando germes ácido álcool resistentes."
     },
     {
       "texto": "Imuno-histoquímica para Citoceratinas (AE1/AE3)",
