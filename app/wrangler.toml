@@ -1,0 +1,11 @@
+# Cloudflare Pages: serve src/ (o jogo) + functions/ (API do modo pesquisa).
+# Publicar a partir desta pasta (app/):  npx wrangler pages deploy
+# Banco D1 "uc3-pesquisa" (criado em 07/10/2026, região ENAM, a mais próxima do Brasil).
+name = "grand-round-uc3"
+pages_build_output_dir = "./src"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "uc3-pesquisa"
+database_id = "fc877ab9-aca0-46bd-8c70-3f110ff0a435"

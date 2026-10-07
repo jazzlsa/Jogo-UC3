@@ -29,3 +29,10 @@ data/uc3_resumos/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# --- Cloudflare (wrangler) ---
+.wrangler/
+
+# --- Documentos do projeto de pesquisa (não vão pro repo público) ---
+/*.docx
+/*.pdf

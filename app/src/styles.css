@@ -247,7 +247,8 @@ footer.note { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--b
   font-family: "IBM Plex Mono", monospace; font-size: 13px; font-weight: 700; text-transform: uppercase;
   letter-spacing: .04em; color: var(--ink-muted);
 }
-.desafio-filtro-label select {
+.desafio-filtro-label select,
+.desafio-filtro-label input {
   font-family: "IBM Plex Sans", sans-serif; font-size: 13.5px; text-transform: none;
   letter-spacing: normal; color: var(--ink);
   background: var(--surface); border: 1px solid var(--border-strong); border-radius: 4px;

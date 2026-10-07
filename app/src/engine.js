@@ -35,6 +35,24 @@ const PONTOS_CONDUTA_CERTA = 30;
 const PONTOS_EFICIENCIA_MAXIMO = 30;
 const DIVISOR_NOTA = (PONTOS_HIPOTESE_LISTADA + PONTOS_HIPOTESE_PRIMEIRO_LUGAR + PONTOS_DIAGNOSTICO_CERTO + PONTOS_CONDUTA_CERTA + PONTOS_EFICIENCIA_MAXIMO) / 10; // 12
 
+/* ---------------- Modo pesquisa ----------------
+   Responde à pergunta do orientador sobre "controle de acessos": em vez do
+   estudante autorrelatar quantos casos jogou, o jogo registra sozinho cada
+   caso concluído (e cada desafio), vinculado só a um CÓDIGO de participante
+   (nunca nome, e-mail ou nº USP). Sem código cadastrado, nada é registrado:
+   quem joga fora da pesquisa não deixa rastro nenhum.
+   Os registros ficam guardados no próprio aparelho (histórico + fila de
+   envio) e, se window.UC3_CONFIG.pesquisaApi estiver configurado (ver
+   config.js), são enviados pro servidor da pesquisa (Cloudflare Pages
+   Functions + D1, em app/functions/). Sem internet, a fila espera e reenvia
+   na próxima vez que o jogo abrir. */
+const PESQUISA_KEY_CODIGO = "uc3-pesquisa-codigo";
+const PESQUISA_KEY_FILA = "uc3-pesquisa-fila";
+const PESQUISA_KEY_HISTORICO = "uc3-pesquisa-historico";
+const PESQUISA_CODIGO_REGEX = /^[A-Z0-9-]{3,20}$/;
+const PESQUISA_API = (window.UC3_CONFIG && window.UC3_CONFIG.pesquisaApi) || "";
+const VERSAO_JOGO = (window.UC3_CONFIG && window.UC3_CONFIG.versao) || "dev";
+
 let casesIndex = [];
 let state = { screen: "home" };
 
@@ -63,6 +81,98 @@ async function boot() {
     casesIndex = [];
   }
   render();
+  enviarFilaPesquisa();
+}
+
+function lerJSONLocal(chave, padrao) {
+  try {
+    const raw = localStorage.getItem(chave);
+    if (raw) return JSON.parse(raw);
+  } catch (e) { /* localStorage indisponível */ }
+  return padrao;
+}
+
+function gravarJSONLocal(chave, valor) {
+  try { localStorage.setItem(chave, JSON.stringify(valor)); } catch (e) { /* best-effort */ }
+}
+
+function codigoPesquisa() {
+  try { return localStorage.getItem(PESQUISA_KEY_CODIGO) || ""; } catch (e) { return ""; }
+}
+
+function plataforma() {
+  if (location.protocol === "app:") return "desktop";
+  if (window.Capacitor) return "android";
+  return "navegador";
+}
+
+function registrarPesquisa(evento) {
+  const codigo = codigoPesquisa();
+  if (!codigo) return;
+  const registro = {
+    id: `${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
+    codigo,
+    ts: new Date().toISOString(),
+    versao: VERSAO_JOGO,
+    plataforma: plataforma(),
+    ...evento,
+  };
+  const historico = lerJSONLocal(PESQUISA_KEY_HISTORICO, []);
+  historico.push(registro);
+  gravarJSONLocal(PESQUISA_KEY_HISTORICO, historico.slice(-3000));
+  const fila = lerJSONLocal(PESQUISA_KEY_FILA, []);
+  fila.push(registro);
+  gravarJSONLocal(PESQUISA_KEY_FILA, fila);
+  enviarFilaPesquisa();
+}
+
+let envioEmAndamento = false;
+async function enviarFilaPesquisa() {
+  if (!PESQUISA_API || envioEmAndamento) return;
+  const fila = lerJSONLocal(PESQUISA_KEY_FILA, []);
+  if (fila.length === 0) return;
+  envioEmAndamento = true;
+  const lote = fila.slice(0, 100);
+  try {
+    const res = await fetch(PESQUISA_API, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(lote),
+    });
+    if (res.ok) {
+      const enviados = new Set(lote.map(r => r.id));
+      // Relê a fila: pode ter entrado registro novo enquanto o envio rodava.
+      gravarJSONLocal(PESQUISA_KEY_FILA, lerJSONLocal(PESQUISA_KEY_FILA, []).filter(r => !enviados.has(r.id)));
+    }
+  } catch (e) {
+    /* sem internet ou servidor fora do ar: fica na fila pra próxima tentativa */
+  } finally {
+    envioEmAndamento = false;
+  }
+}
+
+/* Resumo por etapa investigativa: quantos itens marcou, quantos dos
+   relevantes do caso pegou e quantos distratores gastou. É o que permite
+   analisar o "como" do raciocínio, não só se acertou o diagnóstico. */
+function resumoEtapa(itens, escolhidos) {
+  return {
+    marcados: escolhidos.length,
+    relevantesMarcados: escolhidos.filter(i => itens[i].relevante).length,
+    relevantesTotal: itens.filter(it => it.relevante).length,
+    distratoresMarcados: escolhidos.filter(i => !itens[i].relevante).length,
+  };
+}
+
+function baixarRegistrosPesquisa() {
+  const historico = lerJSONLocal(PESQUISA_KEY_HISTORICO, []);
+  const blob = new Blob([JSON.stringify(historico, null, 2)], { type: "application/json" });
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob);
+  a.download = `registros-uc3-${codigoPesquisa() || "sem-codigo"}.json`;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
 }
 
 /* Embaralha um array in-place (Fisher-Yates). Usado pra randomizar a ordem
@@ -109,6 +219,8 @@ function novoJogo(caso, modoAvaliacao) {
     modoAvaliacao: modoAvaliacao || null, // null | "desafio" | "recuperacao"
     avaliacaoAplicada: false,
     mostrarRevisao: false,
+    inicio: Date.now(),
+    registrado: false,
   };
   render();
 }
@@ -212,19 +324,21 @@ function stepperHTML() {
 }
 
 function hudHTML(stage) {
-  const notaAtual = (state.pi / state.caso.pi_inicial) * 10;
-  const low = notaAtual <= 3;
+  // A barra mostra o PI (orçamento de investigação), não a nota: antes ela
+  // se chamava "Nota" e ia de 10 pra baixo, o que confundia com a nota
+  // final do caso (dava pra terminar com a barra em 3.5 e tirar 9.3).
+  const low = (state.pi / state.caso.pi_inicial) * 10 <= 3;
   const pct = Math.max(0, Math.min(100, (state.pi / state.caso.pi_inicial) * 100));
   const faseNum = Math.min(STAGES.indexOf(stage) + 1, 6);
   return `
   <div class="hud">
     <div class="hud-left">
       ${stage !== "resultado" ? `<button class="btn ghost hud-exit" data-menu title="Sair e voltar ao menu">← Menu</button>` : ""}
-      <div class="pi-meter">
-        <span class="pi-name">Nota</span>
+      ${stage === "resultado" ? "" : `<div class="pi-meter" title="Pontos de Investigação: orçamento que cada pergunta, manobra ou exame consome. Não é a nota do caso.">
+        <span class="pi-name">PI</span>
         <div class="pi-track"><div class="pi-fill ${low ? "low" : ""}" style="width:${pct}%"></div></div>
-        <span class="pi-text ${low ? "low" : ""}">${notaAtual.toFixed(1)}/10</span>
-      </div>
+        <span class="pi-text ${low ? "low" : ""}">${state.pi}/${state.caso.pi_inicial}</span>
+      </div>`}
     </div>
     <div class="hud-fase">Fase ${faseNum}/6</div>
   </div>`;
@@ -236,7 +350,7 @@ function hudHTML(stage) {
 function burnsFor(stage) {
   const burns = state.caso.burns;
   if (stage === "intro") return { who: "abertura", texto: burns.abertura };
-  if (stage === "exames" && (state.pi / state.caso.pi_inicial) * 10 <= 3) return { who: "nota baixa", texto: burns.piBaixo };
+  if (stage === "exames" && (state.pi / state.caso.pi_inicial) * 10 <= 3) return { who: "PI baixo", texto: burns.piBaixo };
   if (stage === "resultado") {
     const diagCorretoIdx = state.caso.hipoteses.findIndex(h => h.correta);
     const diagCerto = state.diagnostico === diagCorretoIdx;
@@ -318,6 +432,21 @@ function render() {
     return;
   }
 
+  if (state.screen === "pesquisa") {
+    ultimaEtapaRolada = null;
+    app.innerHTML = `
+      <div class="game-window">
+        <div class="window-bar">
+          <span class="window-dots"><i></i><i></i><i></i></span>
+          <span class="window-title">🔬 Pesquisa · Grand Round UC3</span>
+        </div>
+        <div class="scene">${renderPesquisa()}</div>
+      </div>`;
+    wirePesquisa();
+    window.scrollTo({ top: 0, behavior: "instant" });
+    return;
+  }
+
   if (state.screen === "menu") {
     ultimaEtapaRolada = null;
     app.innerHTML = `
@@ -375,6 +504,7 @@ function renderHome() {
         <button class="btn primary" data-ir-jogar>Jogar</button>
         <button class="btn ghost" data-toggle-como-jogar>${state.mostrarComoJogar ? "Fechar" : "Como jogar"}</button>
         <button class="btn ghost" data-ir-ranking>🏆 Ranking</button>
+        <button class="btn ghost" data-ir-pesquisa>🔬 Pesquisa${codigoPesquisa() ? ` · ${codigoPesquisa()}` : ""}</button>
       </div>
       ${state.mostrarComoJogar ? comoJogarHTML() : ""}
       <footer class="note">Feito por Jéssica · Turma 113B</footer>
@@ -388,6 +518,62 @@ function wireHome() {
   if (ranking) ranking.addEventListener("click", () => { state.screen = "ranking"; render(); });
   const comoJogar = document.querySelector("[data-toggle-como-jogar]");
   if (comoJogar) comoJogar.addEventListener("click", () => { state.mostrarComoJogar = !state.mostrarComoJogar; render(); });
+  const pesquisa = document.querySelector("[data-ir-pesquisa]");
+  if (pesquisa) pesquisa.addEventListener("click", () => { state = { screen: "pesquisa" }; render(); });
+}
+
+/* ---------------- Pesquisa (código de participante) ---------------- */
+function renderPesquisa() {
+  const codigo = codigoPesquisa();
+  const historico = lerJSONLocal(PESQUISA_KEY_HISTORICO, []).filter(r => r.codigo === codigo);
+  const casos = historico.filter(r => r.tipo === "caso").length;
+  const pendentes = lerJSONLocal(PESQUISA_KEY_FILA, []).length;
+  return `
+    <p class="stage-kicker">Projeto de pesquisa · FMUSP</p>
+    <h1 class="stage-title">Participante da pesquisa</h1>
+    <p class="stage-hint">Se você assinou o TCLE e recebeu um código de participante, digite-o aqui. A partir daí o jogo registra, só com esse código, os casos que você conclui (tempo, etapas, acertos). Nenhum nome, e-mail ou número USP é coletado. Sem código, nada é registrado.</p>
+    ${codigo ? `
+      <div class="intro-panel">
+        <p class="intro-panel-title">Código ativo: ${codigo}</p>
+        <p>${casos} caso(s) registrado(s) neste aparelho.${PESQUISA_API ? (pendentes ? ` ${pendentes} registro(s) aguardando envio (sem internet?).` : " Tudo enviado.") : ""}</p>
+      </div>
+      <div class="actions">
+        <button class="btn ghost" data-pesquisa-baixar>Baixar meus registros (.json)</button>
+        <button class="btn ghost" data-pesquisa-sair>Remover código deste aparelho</button>
+      </div>
+    ` : `
+      <div class="desafio-filtros">
+        <label class="desafio-filtro-label">Código de participante
+          <input type="text" data-pesquisa-codigo maxlength="20" placeholder="ex.: UC3-0427" autocomplete="off" autocapitalize="characters">
+        </label>
+      </div>
+      <p class="stage-hint" data-pesquisa-erro></p>
+      <div class="actions"><button class="btn primary" data-pesquisa-salvar>Salvar código</button></div>
+    `}
+    <div class="actions"><button class="btn ghost" data-voltar-home>Voltar</button></div>`;
+}
+
+function wirePesquisa() {
+  const voltar = document.querySelector("[data-voltar-home]");
+  if (voltar) voltar.addEventListener("click", voltarHome);
+  const salvar = document.querySelector("[data-pesquisa-salvar]");
+  if (salvar) salvar.addEventListener("click", () => {
+    const campo = document.querySelector("[data-pesquisa-codigo]");
+    const valor = campo.value.trim().toUpperCase();
+    if (!PESQUISA_CODIGO_REGEX.test(valor)) {
+      document.querySelector("[data-pesquisa-erro]").textContent = "Código inválido: use de 3 a 20 letras, números ou hífen, exatamente como recebeu.";
+      return;
+    }
+    try { localStorage.setItem(PESQUISA_KEY_CODIGO, valor); } catch (e) { /* best-effort */ }
+    render();
+  });
+  const sair = document.querySelector("[data-pesquisa-sair]");
+  if (sair) sair.addEventListener("click", () => {
+    try { localStorage.removeItem(PESQUISA_KEY_CODIGO); } catch (e) { /* best-effort */ }
+    render();
+  });
+  const baixar = document.querySelector("[data-pesquisa-baixar]");
+  if (baixar) baixar.addEventListener("click", baixarRegistrosPesquisa);
 }
 
 /* ---------------- Ranking ---------------- */
@@ -422,8 +608,8 @@ function comoJogarHTML() {
       <p class="intro-panel-title">Como jogar</p>
       <p>Você é o médico(a). Cada caso simula um paciente chegando com uma queixa, e você percorre <strong>6 etapas</strong> até fechar o diagnóstico e a conduta: anamnese → exame físico → hipóteses diagnósticas → exames complementares → diagnóstico final → conduta. Dá pra voltar etapas anteriores a qualquer momento pra reler o que já descobriu.</p>
 
-      <p class="intro-panel-subtitle">O medidor "Nota" durante o caso não é a nota final</p>
-      <p>Enquanto você joga, a barra "Nota" no topo mostra o <strong>PI (Pontos de Investigação)</strong>, um orçamento que começa em 100 e só desce: cada pergunta, manobra de exame ou exame complementar que você marca consome um custo fixo daquele item, relevante ou não. Esse número é só um medidor de tensão durante o caso — ele <strong>não vira nota</strong> em nenhum momento. A nota de verdade só é calculada do zero na tela de resultado, no final do caso.</p>
+      <p class="intro-panel-subtitle">A barra "PI" durante o caso não é a nota</p>
+      <p>Enquanto você joga, a barra "PI" no topo mostra os <strong>PI (Pontos de Investigação)</strong>, um orçamento que começa em 100 e só desce: cada pergunta, manobra de exame ou exame complementar que você marca consome um custo fixo daquele item, relevante ou não. Esse número é só um medidor de tensão durante o caso — ele <strong>não vira nota</strong> em nenhum momento. A nota de verdade só é calculada do zero na tela de resultado, no final do caso.</p>
 
       <p class="intro-panel-subtitle">Como a nota final do caso é calculada (0 a 10)</p>
       <p>No resultado, a nota soma 5 partes independentes, sem nenhuma trava entre elas — nenhum componente é obrigatório pra ganhar os outros:</p>
@@ -488,7 +674,7 @@ function renderListaAgrupada(tab) {
   return `
     <p class="stage-kicker">Escolha um caso</p>
     <h1 class="stage-title">Casos clínicos disponíveis</h1>
-    <p class="stage-hint">Cada caso é independente, com seu próprio orçamento de investigação (Nota).</p>
+    <p class="stage-hint">Cada caso é independente, com seu próprio orçamento de investigação (PI).</p>
     ${chaves.map(k => `
       <p class="group-title">${k}</p>
       <ul class="case-list">${grupos[k].map(c => `
@@ -561,7 +747,7 @@ function renderStage(stage) {
     case "anamnese": return `
       <p class="stage-kicker">Etapa 02 · Anamnese dirigida</p>
       <h1 class="stage-title">O que você pergunta?</h1>
-      <p class="stage-hint">Cada pergunta custa nota, relevante ou não. Escolha com critério.</p>
+      <p class="stage-hint">Cada pergunta custa PI, relevante ou não. Escolha com critério.</p>
       <ul class="opts">${caso.anamnese.map((q, i) => optRow(i, q.texto, q.custo, state.anamnesePicked.includes(i))).join("")}</ul>
       <div class="actions">${voltarBtn}<button class="btn primary" data-next>Ir pro exame físico</button></div>`;
 
@@ -575,14 +761,14 @@ function renderStage(stage) {
     case "hipoteses": return `
       <p class="stage-kicker">Etapa 04 · Hipóteses diagnósticas</p>
       <h1 class="stage-title">Até 3 suspeitas, em ordem</h1>
-      <p class="stage-hint">Não custa nota, mas a ordem em que você escolhe define o placar. A primeira é sua principal suspeita.</p>
+      <p class="stage-hint">Não custa PI, mas a ordem em que você escolhe define o placar. A primeira é sua principal suspeita.</p>
       <ul class="opts">${caso.hipoteses.map((h, i) => rankRow(i, h.texto)).join("")}</ul>
       <div class="actions">${voltarBtn}<button class="btn primary" data-next ${state.hipotesesPicked.length === 0 ? "disabled" : ""}>Pedir exames complementares</button></div>`;
 
     case "exames": return `
       <p class="stage-kicker">Etapa 05 · Exames complementares</p>
       <h1 class="stage-title">O que você solicita?</h1>
-      <p class="stage-hint">Custo mais alto: pedir o exame errado gasta nota e não ajuda em nada.</p>
+      <p class="stage-hint">Custo mais alto: pedir o exame errado gasta PI e não ajuda em nada.</p>
       <ul class="opts">${caso.exames.map((q, i) => optRow(i, q.texto, q.custo, state.examesPicked.includes(i))).join("")}</ul>
       <div class="actions">${voltarBtn}<button class="btn primary" data-next>Fechar diagnóstico</button></div>`;
 
@@ -764,6 +950,34 @@ function renderResultado() {
     state.avaliacaoAplicada = true;
   }
 
+  // Mesmo cuidado do avaliacaoAplicada: registra uma vez só por caso.
+  if (!state.registrado) {
+    state.registrado = true;
+    registrarPesquisa({
+      tipo: "caso",
+      casoId: caso.id,
+      tema: caso.tema,
+      area: caso.area,
+      prova: caso.prova,
+      dificuldade: caso.dificuldade,
+      modo: state.modoAvaliacao || "livre",
+      duracaoSeg: Math.round((Date.now() - state.inicio) / 1000),
+      anamnese: resumoEtapa(caso.anamnese, state.anamnesePicked),
+      exameFisico: resumoEtapa(caso.exameFisico, state.examePicked),
+      exames: resumoEtapa(caso.exames, state.examesPicked),
+      nHipoteses: state.hipotesesPicked.length,
+      hipCertaListada: hipListaCerta,
+      hipCertaPrimeiro: hipPrimeiraCerta,
+      diagCerto,
+      diagnosticoEscolhido: caso.hipoteses[state.diagnostico]?.texto ?? null,
+      condutaCerta: !!condutaCerta,
+      eficiencia: pts.efic,
+      nota: +notaDoTotal(total).toFixed(2),
+      dicasUsadas: state.dicasReveladas,
+      piRestante: state.pi,
+    });
+  }
+
   return `
     <p class="stage-kicker">Resultado</p>
     <h1 class="stage-title">${diagCerto ? "Diagnóstico correto" : "Não foi dessa vez"}</h1>
@@ -801,7 +1015,7 @@ function secaoRevisaoHTML(titulo, itens, escolhidos) {
         const marca = escolhido ? (it.relevante ? "✓" : "!") : (it.relevante ? "○" : "–");
         const detalhe = escolhido
           ? it.resposta
-          : (it.relevante ? `Você não pediu isso, era relevante: ${it.resposta}` : "Distrator: bom não ter gastado nota aqui.");
+          : (it.relevante ? `Você não pediu isso, era relevante: ${it.resposta}` : "Distrator: bom não ter gastado PI aqui.");
         return `<li class="revisao-item ${cls}"><span class="revisao-marca">${marca}</span><span class="revisao-corpo"><span class="revisao-texto">${it.texto}</span><span class="revisao-resposta">${detalhe}</span></span></li>`;
       }).join("")}</ul>
     </div>`;
@@ -853,6 +1067,10 @@ function avaliacaoResultActionsHTML() {
         notaFinal, passou: passouRecuperacao, nCasos: avaliacaoAtual.arquivos.length,
         acertos: avaliacaoAtual.acertos, viaRecuperacao: true, data: Date.now(),
       });
+      registrarPesquisa({
+        tipo: "recuperacao", notaFinal, passou: passouRecuperacao,
+        nCasos: avaliacaoAtual.arquivos.length, acertos: avaliacaoAtual.acertos, casos: avaliacaoAtual.arquivos,
+      });
       avaliacaoAtual.salvo = true;
     }
     return passouRecuperacao ? `
@@ -881,6 +1099,10 @@ function avaliacaoResultActionsHTML() {
     salvarResultadoRanking({
       notaFinal, passou, nCasos: avaliacaoAtual.arquivos.length,
       acertos: avaliacaoAtual.acertos, viaRecuperacao: false, data: Date.now(),
+    });
+    registrarPesquisa({
+      tipo: "desafio", notaFinal: +notaFinal.toFixed(2), passou,
+      nCasos: avaliacaoAtual.arquivos.length, acertos: avaliacaoAtual.acertos, casos: avaliacaoAtual.arquivos,
     });
     avaliacaoAtual.salvo = true;
   }
